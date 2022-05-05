@@ -2,8 +2,6 @@
 
 
 ### Credits
-- **NathanFelipeRH**: [@NathanFelipeRH on Twitter](https://twitter.com/NathanFelipeRH) 
 - **Zylox**: [@ZyloxMods on Twitter](https://twitter.com/ZyloxMods) 
 
-### Includes
-- CID, HID, HS, CP, DefaultGameData, FortItemSeries, and more.
+This could have been made 1000 times better but it has some base classes
