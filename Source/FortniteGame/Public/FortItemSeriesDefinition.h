@@ -7,24 +7,27 @@
 #include "FFortColorPalette.h"
 #include "FortItemSeriesDefinition.generated.h"
 
-UCLASS()
-class FORTNITEGAME_API UFortItemSeriesDefinition : public UPrimaryDataAsset
+UCLASS(BlueprintType)
+class UFortItemSeriesDefinition : public UPrimaryDataAsset 
 {
+
 	GENERATED_BODY()
-	
+
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	FText DisplayName;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	FFortColorPalette Colors;
+	UPROPERTY(EditAnywhere)
+		FText DisplayName; 
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TSoftObjectPtr<UTexture> BackgroundTexture;
+	UPROPERTY(EditAnywhere)
+		FFortColorPalette Colors; 
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TSoftObjectPtr<UObject> ItemCardMaterial;
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<UTexture2D> BackgroundTexture; 
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TSoftObjectPtr<UObject> BackgroundMaterial;
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<UMaterialInterface> ItemCardMaterial; 
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<UMaterialInterface> BackgroundMaterial; 
+
 };
