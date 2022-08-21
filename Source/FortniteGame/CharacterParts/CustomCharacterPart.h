@@ -18,7 +18,7 @@
 #include "CustomCharacterPart.generated.h"
 
 UCLASS(BlueprintType)
-class FORTNITEGAME_API UCustomCharacterPart : public UFortWorldItemDefinition
+class FORTNITEGAME_API UCustomCharacterPart : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
 
