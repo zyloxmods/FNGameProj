@@ -1,12 +1,12 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 
 public class FortniteGame : ModuleRules
 {
-    public FortniteGame(ReadOnlyTargetRules Target) : base(Target)
-    {
-        PrivatePCHHeaderFile = "Public/FortniteGame.h";
+	public FortniteGame(ReadOnlyTargetRules Target) : base(Target)
+	{
+        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
         PublicDependencyModuleNames.AddRange(
             new string[] {
@@ -16,9 +16,10 @@ public class FortniteGame : ModuleRules
                 "GameplayTags",
                 "GameplayAbilities",
                 "InputCore",
-                "Niagara"
-            }
-        );
+                "Niagara",
+                "FortniteEditor"
+    }
+);
 
         PrivateDependencyModuleNames.AddRange(
             new string[] {
@@ -33,6 +34,12 @@ public class FortniteGame : ModuleRules
             }
         );
 
+        // Uncomment if you are using Slate UI
+        // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
+        // Uncomment if you are using online features
+        // PrivateDependencyModuleNames.Add("OnlineSubsystem");
+
+        // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
     }
 }
