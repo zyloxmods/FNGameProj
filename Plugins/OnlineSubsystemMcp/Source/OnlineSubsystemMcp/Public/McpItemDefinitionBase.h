@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "McpItemDefinitionBase.generated.h"
-
+/* Taken from https://github.com/SizzyFNBR/FortniteEditor */
 /**
  * 
  */

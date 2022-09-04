@@ -1,7 +1,7 @@
 // Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
-
+/* Taken from https://github.com/SizzyFNBR/FortniteEditor */
 public class OnlineSubsystemMcp : ModuleRules
 {
 	public OnlineSubsystemMcp(ReadOnlyTargetRules Target) : base(Target)

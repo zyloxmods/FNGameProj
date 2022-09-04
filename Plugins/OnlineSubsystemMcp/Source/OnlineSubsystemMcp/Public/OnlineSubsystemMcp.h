@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
-
+/* Taken from https://github.com/SizzyFNBR/FortniteEditor */
 class FOnlineSubsystemMcpModule : public IModuleInterface
 {
 public:
