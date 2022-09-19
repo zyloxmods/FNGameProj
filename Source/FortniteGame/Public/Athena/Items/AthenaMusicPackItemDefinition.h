@@ -15,7 +15,7 @@ class FORTNITEGAME_API UAthenaMusicPackItemDefinition : public UAthenaCosmeticIt
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, meta = (AssetBundles = "Equipped"))
 		TSoftObjectPtr<USoundBase> FrontEndLobbyMusic;
 
 	UPROPERTY(EditAnywhere)
@@ -26,4 +26,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		float MusicPreviewStartTime;
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaMusicPack", GetFName());
+	}
 };

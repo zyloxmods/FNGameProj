@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.1",
+	"FriendlyName": "JsonAsAsset",
+	"Description": "A editor plugin to allow JSON files from FModel to a asset in the Content Browser.",
+	"Category": "Other",
+	"CreatedBy": "Tector",
+	"CreatedByURL": "https://github.com/Tectors",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/Tectors",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "JsonAsAsset",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
