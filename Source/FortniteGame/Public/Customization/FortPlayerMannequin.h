@@ -22,8 +22,8 @@ class FORTNITEGAME_API AFortPlayerMannequin : public ASkeletalMeshActor
 {
 	GENERATED_BODY()
 
-		/** Begin FortPlayerMannequin Implementation */
-		virtual void OnConstruction(const FTransform& Transform) override;
+	/** Begin FortPlayerMannequin Implementation */
+	virtual void OnConstruction(const FTransform& Transform) override;
 	void SetPartsFromHeroSpecialization(UFortHeroSpecialization* HeroSpecialization);
 	void ResetParts();
 	/** End FortPlayerMannequin Implementation */

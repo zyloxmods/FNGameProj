@@ -14,7 +14,7 @@ struct FFortRarityItemData
 {
 	GENERATED_BODY()
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FText                                       Name;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

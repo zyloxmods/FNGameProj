@@ -23,6 +23,7 @@ enum class EAthenaChallengeTabVisibility : uint8
 	ShowAlways = 1
 };
 
+
 UENUM(BlueprintType)
 enum class EAthenaSeasonShopVisibility : uint8
 {
@@ -795,4 +796,14 @@ enum class EFortPlayerAnimBodyType : uint8
 	Large,
 	All,
 	EFortPlayerAnimBodyType_MAX,
+};
+
+UENUM()
+enum class EAnimRelaxedState : uint8 
+{
+	None,
+	WeaponRaised,
+	RelaxedLevel1,
+	RelaxedLevel2,
+	EAnimRelaxedState_MAX,
 };

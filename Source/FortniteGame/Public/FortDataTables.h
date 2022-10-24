@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataTable.h"
+#include "GameplayTags.h"
 #include "FortDataTables.generated.h"
 
 /**
@@ -27,10 +28,116 @@ public:
 		int TransmogSacrificePoints;
 };
 
+USTRUCT()
+struct FCosmeticSetDataRow : public FTableRowBase
+{
+	GENERATED_BODY()
+	
+public:
+	
+	UPROPERTY(EditAnywhere)
+	FGameplayTag Tag;
+
+	UPROPERTY(EditAnywhere)
+	FText DisplayName;
+
+	UPROPERTY(EditAnywhere)
+	FText Description;
+};
+
+
+USTRUCT()
+struct FCosmeticMarkupTagDataRow : public FTableRowBase
+{
+	GENERATED_BODY()
+	
+public:
+	
+	UPROPERTY(EditAnywhere)
+	FGameplayTag Tag;
+
+	UPROPERTY(EditAnywhere)
+	FText DisplayName;
+
+	UPROPERTY(EditAnywhere)
+	FText HelpText;
+};
+
+USTRUCT()
+struct FCosmeticFilterTagDataRow : public FTableRowBase
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere)
+	 TArray<FText> SearchQueries;
+};
+
+USTRUCT()
+struct FHomebaseBannerCategoryData : public FTableRowBase 
+{
+
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere)
+	FText CategoryDisplayName; 
+
+	UPROPERTY(EditAnywhere)
+	int SortPriority;
+
+};
+USTRUCT()
+struct FHomebaseBannerColor 
+{
+
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere)
+	FLinearColor PrimaryColor;
+
+	UPROPERTY(EditAnywhere)
+	FLinearColor SecondaryColor;
+};
+
+USTRUCT()
+struct FHomebaseBannerColorData : public FTableRowBase 
+{
+
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere)
+	FName ColorKeyName; 
+
+	UPROPERTY(EditAnywhere)
+	 FName CategoryRowName; 
+
+	UPROPERTY(EditAnywhere)
+	int SubCategoryGroup;
+
+};
+
+UCLASS()
+class UFortHomebaseBannerColorMap : public UDataAsset 
+{
+
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere)
+	TMap<FName, FHomebaseBannerColor> ColorMap;
+};
 
 USTRUCT()
 struct FORTNITEGAME_API FFortPawnStats : public FTableRowBase
 {
+
 	GENERATED_BODY()
 
 public:

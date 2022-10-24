@@ -13,6 +13,7 @@
 #include "Athena/Items/AthenaSkyDiveContrailItemDefinition.h"
 #include "Athena/Items/AthenaMusicPackItemDefinition.h"
 #include "Engine/DataTable.h"
+#include "FortDataTables.h"
 #include "GameDataCosmetics.generated.h"
 
 
@@ -33,6 +34,7 @@ struct FORTNITEGAME_API FEmoteActivationTrigger
 	GENERATED_BODY()
 
 public:
+	
 	UPROPERTY(EditAnywhere)
 	 FGameplayTagQuery EmoteTagQuery;
 
@@ -146,18 +148,16 @@ public:
 		class UClass* SprayGameplayAbility;
 
 	UPROPERTY(EditAnywhere)
-		TSoftObjectPtr<UCustomCharacterPart>    DefaultBackpackCharacterPart;
+		TSoftObjectPtr<UCustomCharacterPart> DefaultBackpackCharacterPart;
 
 	UPROPERTY(EditAnywhere)
-		TArray<UCustomCharacterPart*>           DefaultCharacterParts;
-
-
+		TArray<TSoftObjectPtr<UCustomCharacterPart>> DefaultCharacterParts;
 
 	UPROPERTY(EditAnywhere)
-		TArray<FFallbackCharacterPartsMapper>         FallbackCharacterParts;
+		TArray<FFallbackCharacterPartsMapper> FallbackCharacterParts;
 
 	UPROPERTY(EditAnywhere)
-		TArray<FFallbackAIPawnCustomizationMapper>    FallbackCustomizations;
+		TArray<FFallbackAIPawnCustomizationMapper> FallbackCustomizations;
 
 
 
@@ -171,7 +171,7 @@ public:
 		TSoftObjectPtr<UDataTable>   BannerColorCategoryData;
 
 	UPROPERTY(EditAnywhere)
-		TSoftObjectPtr<UDataTable>   BannerColorMap;
+		TSoftObjectPtr<UFortHomebaseBannerColorMap>   BannerColorMap;
 
 
 
