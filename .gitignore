@@ -5,6 +5,7 @@ Intermediate
 Saved
 .vscode
 .vs
+.Plugins/JsonAsAsset/*
 *.VC.db
 *.opensdf
 *.opendb

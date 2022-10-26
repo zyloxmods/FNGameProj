@@ -57,6 +57,16 @@ enum class EFortTextureDataType : uint8
 	None = 10
 };
 
+UENUM()
+enum class EFortFacialAnimTypes : uint8
+{
+	Default,
+	FaceOnly,
+	FullHead,
+	FromAmplitude,
+	Max,
+};
+
 UENUM(BlueprintType)
 enum class EFortPickupTossState : uint8
 {
