@@ -42,10 +42,6 @@
 			"SupportedTargetPlatforms": [
 				"IOS"
 			]
-		},
-		{
-			"Name": "JsonAsAsset",
-			"Enabled": true
 		}
 	]
 }
