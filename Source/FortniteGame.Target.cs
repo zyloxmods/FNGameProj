@@ -9,6 +9,6 @@ public class FortniteGameTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "FortniteGame, FortniteEditor" } );
+		ExtraModuleNames.AddRange( new string[] { "FortniteGame", "FortniteEditor" } );
 	}
 }

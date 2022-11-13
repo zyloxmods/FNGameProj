@@ -817,3 +817,39 @@ enum class EAnimRelaxedState : uint8
 	RelaxedLevel2,
 	EAnimRelaxedState_MAX,
 };
+
+UENUM()
+enum class EFortReloadFXState : uint8 
+{
+	ReloadStart,
+	ReloadCartridge,
+	ReloadEnd,
+	Max_None,
+	EFortReloadFXState_MAX,
+};
+
+UENUM()
+enum class EFortWeaponSoundState : uint8 
+{
+	Normal,
+	LowAmmo,
+	Degraded,
+	Max_None,
+	EFortWeaponSoundState_MAX,
+};
+UENUM()
+enum class EFortDisplayTier : uint8 
+{
+	Invalid,
+	Handmade,
+	Copper,
+	Silver,
+	Malachite,
+	Obsidian,
+	Brightcore,
+	Spectrolite,
+	Shadowshard,
+	Sunbeam,
+	Moonglow,
+	EFortDisplayTier_MAX,
+};

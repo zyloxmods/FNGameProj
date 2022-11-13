@@ -145,6 +145,9 @@ public:
 		FTransform PickupMeshTransform;
 
 	UPROPERTY(EditAnywhere)
+		bool bIsPickupASpecialActor;
+
+	UPROPERTY(EditAnywhere)
 		FGameplayTag SpecialActorPickupTag;
 
 	//UPROPERTY(EditAnywhere)
@@ -161,6 +164,51 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		FSlateBrush PickupCompassIconBrush;
+
+	UPROPERTY(EditAnywhere)
+		FScalableFloat PickupDespawnTime;
+
+	UPROPERTY(EditAnywhere)
+		FScalableFloat InStormPickupDespawnTime;
+
+	UPROPERTY(EditAnywhere)
+		FScalableFloat NetworkCullDistanceOverride;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<UStaticMesh> PickupStaticMesh;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<USkeletalMesh> PickupSkeletalMesh;
+
+	UPROPERTY(EditAnywhere)
+		UClass* PickupEffectOverride;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<USoundBase> PickupSound;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<USoundBase> PickupByNearbyPawnSound;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<USoundBase> DropSound;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<USoundBase> DroppedLoopSound;
+
+	UPROPERTY(EditAnywhere)
+		TSoftObjectPtr<USoundBase> LandedSound;
+
+	UPROPERTY(EditAnywhere)
+		FDataTableRowHandle DisassembleRecipe;
+
+	UPROPERTY(EditAnywhere)
+		float DisassembleDurabilityDegradeMinLootPercent;
+
+	UPROPERTY(EditAnywhere)
+		float DisassembleDurabilityDegradeMaxLootPercent;
+
+	UPROPERTY(EditAnywhere)
+		int PreferredQuickbarSlot;
 
 	UPROPERTY(EditAnywhere)
 		int MinLevel;

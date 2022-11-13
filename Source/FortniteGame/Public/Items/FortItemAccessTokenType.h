@@ -25,4 +25,9 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	FText UnlockDescription;	
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("ItemAccessToken", GetFName());
+	}
 };

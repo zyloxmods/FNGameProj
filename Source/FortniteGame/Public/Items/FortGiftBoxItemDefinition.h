@@ -57,4 +57,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		FSoftClassPath CustomLeftsideContent;
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("GiftBox", GetFName());
+	}
 };
