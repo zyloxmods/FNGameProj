@@ -663,10 +663,11 @@ enum class EFortTemplateAccess : uint8
 UENUM(BlueprintType)
 enum class EFortCustomGender : uint8
 {
-	Male,
-	Female,
-	Both,
-	EFortCustomGender_MAX,
+        Invalid= 0,
+	Male = 1,
+	Female = 2,
+	Both = 3,
+	EFortCustomGender_MAX= 4
 };
 
 UENUM()
