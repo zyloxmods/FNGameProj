@@ -494,19 +494,18 @@ enum class EAthenaGamePhase : uint8
 };
 
 UENUM(BlueprintType)
-enum class EFortRarity : uint8
+enum class EFortRarity : uint8 
 {
-	Handmade = 0,
-	Ordinary = 1,
-	Sturdy = 2,
-	Quality = 3,
-	Fine = 4,
-	Elegant = 5,
-	Masterwork = 6,
-	Epic = 7,
-	Badass = 8,
-	Legendary = 9,
-	NumRarityValues = 10
+	Common,
+	Uncommon,
+	Rare,
+	Epic,
+	Legendary,
+	Mythic,
+	Transcendent,
+	Unattainable,
+	NumRarityValues,
+	EFortRarity_MAX,
 };
 UENUM(BlueprintType)
 enum class EFriendlyFireType : uint8
