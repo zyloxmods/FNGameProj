@@ -65,6 +65,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		EFortCustomGender Gender;
+
+	UPROPERTY(EditAnywhere)
+	 TSoftObjectPtr<UAnimMontage> EmoteMontage;
 };
 
 UCLASS(BlueprintType)

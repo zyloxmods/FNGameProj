@@ -28,4 +28,10 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		TSoftObjectPtr<UTexture2D>                   DecalTexture;
+
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaDance", GetFName());
+	}
 };

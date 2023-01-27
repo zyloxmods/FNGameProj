@@ -13,5 +13,10 @@ UCLASS()
 class FORTNITEGAME_API UAthenaBackpackItemDefinition : public UAthenaCharacterPartItemDefinition
 {
 	GENERATED_BODY()
-	
+
+public:
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaBackpack", GetFName());
+	}
 };

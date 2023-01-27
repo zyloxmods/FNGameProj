@@ -33,4 +33,12 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		FSoftClassPath BusPrefabClass;
+
+
+
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaBattleBus", GetFName());
+	}
 };

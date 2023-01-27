@@ -60,4 +60,9 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		UMaterialInstance* GeneratedMaterial;
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaDance", GetFName());
+	}
 };

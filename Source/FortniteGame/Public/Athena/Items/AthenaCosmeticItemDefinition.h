@@ -7,6 +7,7 @@
 #include "GameplayTags.h"
 #include "Customization/FortCosmeticVariant.h"
 #include "Particles/ParticleSystem.h"
+#include "Customization/FortCosmeticVariant.h"
 #include "AthenaCosmeticItemDefinition.generated.h"
 
 class UAthenaCharacterItemDefinition;
@@ -34,19 +35,6 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TSoftObjectPtr<UMaterialInterface> OverrideMaterial;
-};
-
-USTRUCT(BlueprintType)
-struct FCosmeticVariantInfo
-{
-	GENERATED_USTRUCT_BODY()
-
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-		FGameplayTag VariantChannelTag;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-		FGameplayTag ActiveVariantTag;
 };
 
 
@@ -152,7 +140,7 @@ public:
 		FGameplayTag VariantChannelToUseForThumbnails;
 
 	UPROPERTY(EditAnywhere)
-		TArray<FortCosmeticVariantPreview> ItemVariantPreviews;
+		TArray<FFortCosmeticVariantPreview> ItemVariantPreviews;
 
 	UPROPERTY(EditAnywhere)
 		FText DirectAquisitionStyleDisclaimerOverride;

@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Items/FortAccountItemDefinition.h"
+#include "../Abilities/FortAbilitySet.h"
+#include "NiagaraSystem.h"
 #include "FortAlterationItemDefinition.generated.h"
 
 /**

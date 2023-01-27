@@ -62,4 +62,8 @@ public:
 	UPROPERTY(EditAnywhere)
 		TSoftObjectPtr<UFortTaggedSoundBank> PetSoundBank;
 
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaPetItemDefinition", GetFName());
+	}
 };

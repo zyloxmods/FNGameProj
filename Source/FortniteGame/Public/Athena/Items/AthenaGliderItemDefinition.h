@@ -14,4 +14,9 @@ class FORTNITEGAME_API UAthenaGliderItemDefinition : public UAthenaCosmeticItemD
 {
 	GENERATED_BODY()
 	
+public:
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaItemWrap", GetFName());
+	}
 };

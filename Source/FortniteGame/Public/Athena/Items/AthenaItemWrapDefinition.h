@@ -24,5 +24,8 @@ public:
 		TSoftObjectPtr<UMaterialInstance>        ItemWrapMaterial;
 
 
-
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaItemWrap", GetFName());
+	}
 };

@@ -159,7 +159,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		bool bAttachAnimTrailsToWeapon;
-
+	/*
 	UPROPERTY(EditAnywhere)
 		TMap<TEnumAsByte<EPhysicalSurface>, TSoftObjectPtr<UParticleSystem>> ImpactPhysicalSurfaceEffectsMap;
 
@@ -168,7 +168,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		TMap<TEnumAsByte<EPhysicalSurface>, TSoftObjectPtr<UNiagaraSystem>> ImpactNiagaraPhysicalSurfaceEffectsMap;
-
+		*/
 	UPROPERTY(EditAnywhere)
 		TArray<FAttachedParticleComponentDef> ParticleComponentsDefs;
 
@@ -180,7 +180,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		TSoftObjectPtr<UAnimationAsset> SingleAnimationToPlay;
-
+	/*
 	UPROPERTY(EditAnywhere)
 		TMap<TEnumAsByte<EPhysicalSurface>, TSoftObjectPtr<USoundBase>> ImpactPhysicalSurfaceSoundsMap;
 
@@ -189,7 +189,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		TMap<EFortWeaponSoundState, TSoftObjectPtr<USoundBase>> PrimaryFireSoundMap;
-
+		*/
 	UPROPERTY(EditAnywhere)
 		TSoftObjectPtr<USoundBase> GenericImpactSound;
 

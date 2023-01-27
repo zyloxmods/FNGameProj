@@ -42,4 +42,10 @@ public:
 	UPROPERTY(EditAnywhere)
 		TArray<FFloatParticleParameter>    FloatParameters;
 	*/
+
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaSkyDiveContrail", GetFName());
+	}
 };

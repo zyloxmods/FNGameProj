@@ -29,4 +29,10 @@ public:
 
 	UPROPERTY(EditAnywhere)
 		FLinearColor                      BackgroundColor;
+
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaLoadingScreen", GetFName());
+	}
 };

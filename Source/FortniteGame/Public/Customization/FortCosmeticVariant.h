@@ -14,7 +14,21 @@
  * 
  */
 USTRUCT(BlueprintType)
-struct FMcpVariantChannelInfo
+struct FCosmeticVariantInfo
+{
+	GENERATED_USTRUCT_BODY()
+
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FGameplayTag VariantChannelTag; 
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FGameplayTag ActiveVariantTag; 
+};
+
+USTRUCT(BlueprintType)
+struct FMcpVariantChannelInfo : public FCosmeticVariantInfo
 {
 	GENERATED_USTRUCT_BODY()
 
@@ -43,7 +57,7 @@ public:
 };
 
 USTRUCT(BlueprintType)
-struct FortCosmeticVariantPreview
+struct FFortCosmeticVariantPreview
 {
 	GENERATED_USTRUCT_BODY()
 
@@ -102,3 +116,46 @@ public:
 	UPROPERTY(EditAnywhere)
 		TArray<FPartVariantDef> PartOptions;
 };
+
+
+UCLASS()
+class UFortVariantTokenType : public UFortAccountItemDefinition
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(EditAnywhere)
+	EItemProfileType ProfileType;
+
+	UPROPERTY(EditAnywhere)
+	UFortItemDefinition* cosmetic_item;
+
+	UPROPERTY(EditAnywhere)
+	FGameplayTag VariantChanelTag; 
+
+	UPROPERTY(EditAnywhere)
+	FGameplayTag VariantNameTag; 
+
+	UPROPERTY(EditAnywhere)
+	TArray<FCosmeticVariantInfo> VariantPreviewOverrides;
+
+	UPROPERTY(EditAnywhere)
+	bool bAutoEquipVariant;
+
+	UPROPERTY(EditAnywhere)
+	bool bMarkItemUnseen; 
+
+	UPROPERTY(EditAnywhere)
+	bool bCreateGiftbox; 
+
+	UPROPERTY(EditAnywhere)
+	FString CustomGiftbox; 
+
+	virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("CosmeticVariantToken", GetFName());
+	}
+};
+
+
+
