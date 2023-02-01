@@ -20,9 +20,9 @@ public class FortniteEditor : ModuleRules
                 "FortniteEditor/Private"
             });
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "FortniteGame", "AssetTools" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "FortniteGame", "AssetTools", "UMG" });
 
-        PrivateDependencyModuleNames.AddRange(new string[] { "UnrealEd" });
+        PrivateDependencyModuleNames.AddRange(new string[] { "UnrealEd", "UMG" });
 
         // Uncomment if you are using Slate UI
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

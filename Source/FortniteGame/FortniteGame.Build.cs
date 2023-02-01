@@ -17,7 +17,8 @@ public class FortniteGame : ModuleRules
                 "GameplayAbilities",
                 "InputCore",
                 "Niagara",
-                
+                "UMG"
+
     }
 );
 
