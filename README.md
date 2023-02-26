@@ -45,3 +45,4 @@ Now launch the Project by launching the *FortniteGame.uproject*
 - [Zylox](https://twitter.com/zyloxmods)
 - [NathanFelipeRH](https://twitter.com/NathanFelipeRH)
 - [Sizzy](https://twitter.com/mgSizzy)
+- [Tector](https://twitter.com/tectow)
