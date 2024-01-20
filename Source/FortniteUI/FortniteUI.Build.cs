@@ -1,47 +1,77 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
-
 using UnrealBuildTool;
 
-public class FortniteUI : ModuleRules
-{
-	public FortniteUI(ReadOnlyTargetRules Target) : base(Target)
-	{
-        PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-
-        PublicDependencyModuleNames.AddRange(
-            new string[] {
-                "Core",
-                "CoreUObject",
-                "Engine",
-                "GameplayTags",
-                "GameplayAbilities",
-                "InputCore",
-                "Niagara",
-                "UMG",
-
-    }
-);
-
-        PrivateDependencyModuleNames.AddRange(
-            new string[] {
-                "Slate",
-                "SlateCore",
-                "InputCore",
-                "MoviePlayer",
-                "GameplayAbilities",
-                "GameplayTags",
-                "GameplayTasks",
-                "Niagara",
-                
-            }
-        );
-
-        // Uncomment if you are using Slate UI
-        // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-
-        // Uncomment if you are using online features
-        // PrivateDependencyModuleNames.Add("OnlineSubsystem");
-
-        // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
-    }
+public class FortniteUI : ModuleRules {
+	public FortniteUI(ReadOnlyTargetRules Target) : base(Target) {
+		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        
+		PublicDependencyModuleNames.AddRange(new string[] {
+			"AIModule",
+			"Account",
+			"AnimGraphRuntime",
+			"AnimationBudgetAllocator",
+			"AnimationCore",
+			"AnimationSharing",
+			"AudioMixer",
+			"BlueprintContext",
+			"CinematicCamera",
+			"ClientPilot",
+			"ClothingSystemRuntime",
+			"ClothingSystemRuntimeInterface",
+			"CommonInput",
+			"CommonUI",
+			"Core",
+			"CoreUObject",
+			"Engine",
+			"EpicCMSUIFramework",
+			"EpicGameplayStatsRuntime",
+			"Foliage",
+			"FortniteGame",
+			"GameSubCatalog",
+			"GameplayAbilities",
+			"GameplayTags",
+			"GameplayTasks",
+			"Gauntlet",
+			"HeadMountedDisplay",
+			"Hotfix",
+			"InputCore",
+			"JsonUtilities",
+			"LauncherSocialDefaults",
+			"LauncherSocialTypes",
+			"Lobby",
+			"McpProfileSys",
+			"MediaAssets",
+			"MediaUtils",
+			"MeshNetwork",
+			"MovieScene",
+			"MovieSceneTracks",
+			"NavigationSystem",
+			"Niagara",
+			"NiagaraCore",
+			"NiagaraShader",
+			"OnlineSubsystem",
+			"OnlineSubsystemUtils",
+			"Overlay",
+			"Paper2D",
+			"Party",
+			"PhysXVehicles",
+			"PropertyPath",
+			"Rejoin",
+			"ReplicationGraph",
+			"SidecarSys",
+			"SignificanceManager",
+			"Slate",
+			"SlateCore",
+			"SocialUMG",
+			"SubtitlesWidgets",
+			"UMG",
+			"WebBrowser",
+		});
+		
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"Slate", 
+			"SlateCore", 
+			"UMG"
+		});
+	}
 }

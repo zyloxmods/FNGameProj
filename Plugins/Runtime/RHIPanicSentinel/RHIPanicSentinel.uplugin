@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "RHI Panic Sentinel",
+	"Description": "Handles displaying an error popup when we get an RHI Panic popup.",
+	"Category": "",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "http://epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"LocalizationTargets": [
+		{
+			"Name": "RHIPanicSentinel",
+			"LoadingPolicy": "Always"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Crashlytics",
+			"Enabled": true
+		}
+	]
+}

@@ -1,9 +1,14 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{6379D724-4717-7533-EC09-0EBF41886BEC}",
+	"EngineAssociation": "{48161240-45B7-973F-069D-C68805F15412}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
+		{
+			"Name": "FortniteEngineLoadingScreen",
+			"Type": "ClientOnly",
+			"LoadingPhase": "PreLoadingScreen"
+		},
 		{
 			"Name": "FortniteGame",
 			"Type": "Runtime",
@@ -12,24 +17,212 @@
 				"OnlineSubsystemMcp",
 				"CoreUObject",
 				"Engine",
+				"NavigationSystem",
+				"AIModule",
 				"GameplayAbilities",
 				"ReplicationGraph"
 			]
 		},
 		{
 			"Name": "FortniteEditor",
-			"Type": "Editor",
-			"LoadingPhase": "PostEngineInit",
+			"Type": "Developer",
+			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
+				"UnrealEd",
 				"OnlineSubsystemMcp",
 				"CoreUObject",
+				"Engine"
+			]
+		},
+		{
+			"Name": "FortniteUI",
+			"Type": "ClientOnly",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
 				"Engine"
 			]
 		}
 	],
 	"Plugins": [
 		{
+			"Name": "ActorLayerUtilities",
+			"Enabled": false
+		},
+		{
+			"Name": "SubtitlesWidgets",
+			"Enabled": true
+		},
+		{
+			"Name": "SocialUMG",
+			"Enabled": true
+		},
+		{
+			"Name": "ActorSequence",
+			"Enabled": false
+		},
+		{
+			"Name": "AESHandlerComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "CableComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "MeshNetwork",
+			"Enabled": true
+		},
+		{
+			"Name": "EpicCMS",
+			"Enabled": true
+		},
+		{
+			"Name": "EpicCMSUIFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "SpeechGraphics",
+			"Enabled": true
+		},
+		{
+			"Name": "EpicArtPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "IbmStreamingMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "EpicGameplayStats",
+			"Enabled": true
+		},
+		{
+			"Name": "Oodle",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemNull",
+			"Enabled": true
+		},
+		{
+			"Name": "FortInstallBundleManager",
+			"Enabled": true
+		},
+		{
+			"Name": "FortniteEarlyStartupPatcher",
+			"Enabled": true
+		},
+		{
+			"Name": "Crashlytics",
+			"Enabled": true
+		},
+		{
+			"Name": "RHIPanicSentinel",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveStreamVoice",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineGameplayFramework",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemLiveServer",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "OnlineSubsystemPS4Server",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "OnlineSubsystemTwitch",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "PurchaseFlow",
+			"Enabled": true
+		},
+		{
+			"Name": "WinDualShock",
+			"Enabled": true,
+			"Optional": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "BackChannel",
+			"Enabled": true,
+			"WhitelistTargets": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "BlueprintMaterialTextureNodes",
+			"Enabled": true
+		},
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": true
+		},
+		{
+			"Name": "TimeSynth",
+			"Enabled": true
+		},
+		{
+			"Name": "FacialAnimSystem",
+			"Enabled": true
+		},
+		{
+			"Name": "Synthesis",
+			"Enabled": true
+		},
+		{
+			"Name": "Gauntlet",
+			"Enabled": true
+		},
+		{
+			"Name": "ImagePlate",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKit",
+			"Enabled": true
+		},
+		{
 			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "SignificanceManager",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
 			"Enabled": true
 		},
 		{
@@ -37,15 +230,28 @@
 			"Enabled": true
 		},
 		{
-			"Name": "AppleARKit",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"IOS"
-			]
+			"Name": "Niagara",
+			"Enabled": true
 		},
 		{
-			"Name": "FortSoundCueTemplates",
-			"Enabled": false
+			"Name": "AnimationBudgetAllocator",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "BlueprintContext",
+			"Enabled": true
+		},
+		{
+			"Name": "CommonUI",
+			"Enabled": true
+		},
+		{
+			"Name": "MatchmakingService",
+			"Enabled": true
 		}
 	]
 }

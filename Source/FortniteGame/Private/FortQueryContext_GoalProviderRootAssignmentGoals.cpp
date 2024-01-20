@@ -1,0 +1,5 @@
+#include "FortQueryContext_GoalProviderRootAssignmentGoals.h"
+
+UFortQueryContext_GoalProviderRootAssignmentGoals::UFortQueryContext_GoalProviderRootAssignmentGoals() {
+}
+
