@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"Version": 20007,
+	"VersionName": "2.0.7",
+	"FriendlyName": "Animation Compression Library",
+	"Description": "Use the Animation Compression Library (ACL) to compress AnimSequences.",
+	"Category": "Animation",
+	"CreatedBy": "Nicholas Frechette",
+	"CreatedByURL": "https://nfrechette.github.io/",
+	"DocsURL": "https://github.com/nfrechette/acl-ue4-plugin",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/993b51e29e9a48d0b3fb449645b82cb6",
+	"SupportURL": "https://github.com/nfrechette/acl-ue4-plugin",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"EngineVersion": "5.1.0",
+	"Modules": [
+		{
+			"Name": "ACLPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"BlacklistPlatforms": []
+		},
+		{
+			"Name": "ACLPluginEditor",
+			"Type" : "Editor",
+			"LoadingPhase" : "Default",
+			"BlacklistPlatforms": []
+		}
+	]
+}

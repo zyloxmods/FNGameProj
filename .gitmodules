@@ -1,0 +1,3 @@
+[submodule "Plugins/JsonAsAsset"]
+	path = Plugins/JsonAsAsset
+	url = https://github.com/Tectors/JsonAsAsset
