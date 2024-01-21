@@ -8,6 +8,10 @@
 - [14.30](https://github.com/zyloxmods/FNGameProj/tree/14.30) 
 - [7.40](https://github.com/zyloxmods/FNGameProj/tree/7.40)
 
+## Deprectated Versions
+
+- [24.00](https://github.com/zyloxmods/FNGameProj/tree/24.00)
+
 ## Credit
 
 - [Zylox](https://twitter.com/zyloxmods) - Code fixes and additions
