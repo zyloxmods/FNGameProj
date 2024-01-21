@@ -10,7 +10,7 @@
 
 ## Deprectated Versions
 
-- [24.00](https://github.com/zyloxmods/FNGameProj/tree/24.00)
+- [23.00](https://github.com/zyloxmods/FNGameProj/tree/23.00)
 
 ## Credit
 
