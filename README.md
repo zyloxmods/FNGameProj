@@ -1,4 +1,4 @@
-# FortniteGame-Modding
+# FNGameProj
 
 > This is a repository with Unreal Projects for different Fortnite versions
 
