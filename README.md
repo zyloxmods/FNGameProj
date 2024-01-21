@@ -1,4 +1,4 @@
-# FortniteGame-Modding-7.40
+# FNGameProj-7.40
 
 > This is a Unreal Project for modding a old Version of Fortnite (7.40) which has every c++ class recreated
 
