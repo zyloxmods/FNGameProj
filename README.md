@@ -1,6 +1,6 @@
 # FNGameProj-24.00
 
-> This branch and version is deprectated and will receive no updates -> Use 24.40 PIE instead [Link](https://github.com/bc2424/UEFN-PIE)
+> This branch and version is deprecated and will receive no updates -> Use 24.40 PIE instead [Link](https://github.com/bc2424/UEFN-PIE)
 
 > This is a Unreal Project for modding a old Version of Fortnite (24.00) which has some c++ class recreated
 
