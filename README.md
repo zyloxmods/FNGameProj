@@ -1,27 +1,8 @@
-# FortniteGame-Modding-4.26 (14.30)
-
-> This is a Unreal Engine Project to mod 14.30 Fortnite
-
----
-
-### Table of Contents
-
-- [Description](#description)
-- [How To Use](#how-to-use)
-- [Credit](#credit)
-
----
-
-## Description
-
-This is a Unreal Project for modding the Game Fortnite (Version 14.30) which has Classes recreate from a SDK and uncooked/remade assets for making modding easier.
-
-
----
+# FNGameProjg-14.30
+> This might receive a update in the near future with every class
+> This is a Unreal Project for modding a old Version of Fortnite (14.30) which has some c++ class recreated
 
 ## How To use
-
-
 
 #### Installation
 
@@ -31,15 +12,13 @@ To install the correct components for this Project , make sure the Game Developm
 -   **C++ profiling tools**
 -   **Windows 10 SDK** (10.0.18362 or newer)
 -   **Unreal Engine Installer**
-
-Right click the *FortniteGame.uproject* and Switch Unreal Engine version... to the coressponding unreal version for this Project which can be found [here](https://www.google.com/search?q=soon)
+Right click the *FortniteGame.uproject* and Switch Unreal Engine version... to the coressponding unreal version for this Project which can be found here - not yet
 
 Right click the *FortniteGame.uproject* and Generate Visual Studio Project Files then open the *FortniteGame.sln* and build the Project with Visual Studio
 
 Now launch the Project by launching the *FortniteGame.uproject*
 
 ---
-
 ## Credit
 
 - [Zylox](https://twitter.com/zyloxmods)
