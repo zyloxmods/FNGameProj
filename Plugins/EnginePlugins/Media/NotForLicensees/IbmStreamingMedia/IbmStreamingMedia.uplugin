@@ -1,0 +1,84 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "0.1",
+	"FriendlyName": "IBM Streaming Media Player",
+	"Description": "Provides a playback capability for IBM Cloud Video streaming service.",
+	"Category": "Media Players",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "http://epicgames.com",
+	"DocsURL": "https://docs.unrealengine.com/en-US/Engine/MediaFramework/Overview",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "IbmStreamingMedia",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"PS4",
+				"XboxOne",
+				"Switch",
+				"Android",
+				"IOS"
+			],
+			"BlacklistTargets": [
+				"Server"
+			]
+		},
+		{
+			"Name": "IbmStreamingMediaFactory",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"PS4",
+				"Switch",
+				"XboxOne",
+				"Android",
+				"IOS"
+			],
+			"BlacklistTargets": [
+				"Server"
+			]
+		},
+		{
+			"Name": "IbmStreamingMediaFactory",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "PostEngineInit",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32",
+				"PS4",
+				"XboxOne",
+				"Switch",
+				"Android",
+				"IOS"
+			],
+			"BlacklistTargets": [
+				"Server"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WmfMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "AndroidMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "AvfMedia",
+			"Enabled": true
+		}
+	]
+}

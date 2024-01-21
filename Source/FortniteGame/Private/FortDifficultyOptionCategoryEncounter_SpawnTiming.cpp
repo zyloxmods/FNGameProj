@@ -1,0 +1,5 @@
+#include "FortDifficultyOptionCategoryEncounter_SpawnTiming.h"
+
+UFortDifficultyOptionCategoryEncounter_SpawnTiming::UFortDifficultyOptionCategoryEncounter_SpawnTiming() {
+}
+

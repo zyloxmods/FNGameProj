@@ -1,0 +1,5 @@
+#include "FortItemCard_DefenderWeaponTypeIcon_Configuration.h"
+
+FFortItemCard_DefenderWeaponTypeIcon_Configuration::FFortItemCard_DefenderWeaponTypeIcon_Configuration() {
+}
+

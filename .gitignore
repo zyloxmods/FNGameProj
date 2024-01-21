@@ -1,11 +1,11 @@
 Binaries
 DerivedDataCache
-Build
 Intermediate
 Saved
+Build
+.idea
 .vscode
 .vs
-.Plugins/JsonAsAsset/*
 *.VC.db
 *.opensdf
 *.opendb

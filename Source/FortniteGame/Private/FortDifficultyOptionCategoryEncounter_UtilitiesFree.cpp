@@ -1,0 +1,5 @@
+#include "FortDifficultyOptionCategoryEncounter_UtilitiesFree.h"
+
+UFortDifficultyOptionCategoryEncounter_UtilitiesFree::UFortDifficultyOptionCategoryEncounter_UtilitiesFree() {
+}
+

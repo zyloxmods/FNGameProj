@@ -1,0 +1,5 @@
+#include "FortReplicationGraphNode_AlwaysRelevant_ForConnection.h"
+
+UFortReplicationGraphNode_AlwaysRelevant_ForConnection::UFortReplicationGraphNode_AlwaysRelevant_ForConnection() {
+}
+
