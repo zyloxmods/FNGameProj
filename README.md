@@ -6,11 +6,11 @@
 
 #### Installation
 
-All desktop editions of [Visual Studio 2019+]((http://www.visualstudio.com/products/visual-studio-community-vs)) can build this Project
+All desktop editions of [Visual Studio 2017+]((http://www.visualstudio.com/products/visual-studio-community-vs)) can build this Project
 
 To install the correct components for this Project , make sure the Game Development with C++ workload is checked. Under the Installation Details section on the right, also choose the following components:
 -   **C++ profiling tools**
--   **Windows 10 SDK** (10.0.18362 or newer)
+-   **Windows 10 SDK**
 -   **Unreal Engine Installer**
 Right click the *FortniteGame.uproject* and Switch Unreal Engine version... to the coressponding unreal version for this Project which can be found [here](https://drive.google.com/u/1/uc?id=18_WeNsO-NSCEP-WNFmmi2ugSUSfEbsgQ&export=download)
 
