@@ -17,6 +17,10 @@ public:
     UAthenaBackpackItemDefinition* DefaultBackpack;
     
     UAthenaCharacterItemDefinition();
-    
+
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+	{
+		return FPrimaryAssetId("AthenaCharacter", GetFName());
+	}
 };
 
