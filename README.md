@@ -1,7 +1,5 @@
 # FNGameProj-14.30
-> This might receive a update in the near future with every class
-> 
-> This is a Unreal Project for modding a old Version of Fortnite (14.30) which has some c++ class recreated
+> This is a Unreal Project for modding a old Version of Fortnite (14.30) which has every c++ class recreated
 
 ## How To use
 
@@ -22,7 +20,7 @@ Now launch the Project by launching the *FortniteGame.uproject*
 ---
 ## Credit
 
-- [Zylox](https://twitter.com/zyloxmods)
-- [NathanFelipeRH](https://twitter.com/NathanFelipeRH)
-- [Sizzy](https://twitter.com/mgSizzy)
-- [Tector](https://twitter.com/tectow)
+- [Zylox](https://twitter.com/zyloxmods) - Code fixes and additions
+- [boredcrow24](https://twitter.com/boredcrow24) - Code fixes and additions
+- [RE-UE4SS](https://github.com/UE4SS-RE/RE-UE4SS) - UHT Dump
+- [UE4GameProjectGenerator](https://github.com/Buckminsterfullerene02/UE4GameProjectGenerator) - Project generation
