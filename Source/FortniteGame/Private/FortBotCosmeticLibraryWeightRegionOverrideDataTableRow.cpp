@@ -1,0 +1,5 @@
+#include "FortBotCosmeticLibraryWeightRegionOverrideDataTableRow.h"
+
+FFortBotCosmeticLibraryWeightRegionOverrideDataTableRow::FFortBotCosmeticLibraryWeightRegionOverrideDataTableRow() {
+}
+

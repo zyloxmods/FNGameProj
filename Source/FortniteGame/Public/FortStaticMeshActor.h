@@ -1,20 +1,27 @@
-// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
-
 #pragma once
-
 #include "CoreMinimal.h"
+#include "UObject/NoExportTypes.h"
 #include "Engine/StaticMeshActor.h"
-#include "UObject/ObjectMacros.h"
-#include "Components/ActorComponent.h"
-#include "AI/Navigation/NavRelevantInterface.h"
-#include "NavRelevantComponent.h"
+#include "LevelSaveSpawnable.h"
 #include "FortStaticMeshActor.generated.h"
 
-/**
- * 
- */
-UCLASS()
-class FORTNITEGAME_API AFortStaticMeshActor : public AStaticMeshActor
-{
-	GENERATED_BODY()
+UCLASS(Blueprintable, MinimalAPI)
+class AFortStaticMeshActor : public AStaticMeshActor, public ILevelSaveSpawnable {
+    GENERATED_BODY()
+public:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    int32 LinkCompCount;
+    
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    bool bUseAutoNavmeshFlags;
+    
+private:
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    FGuid SavedActorGuid;
+    
+public:
+    AFortStaticMeshActor();
+    
+    // Fix for true pure virtual functions not being implemented
 };
+

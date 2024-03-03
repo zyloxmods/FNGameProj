@@ -1,0 +1,5 @@
+#include "FortAthenaMutator_CreativeAllowSpectateOtherTeams.h"
+
+AFortAthenaMutator_CreativeAllowSpectateOtherTeams::AFortAthenaMutator_CreativeAllowSpectateOtherTeams() {
+}
+

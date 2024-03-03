@@ -1,0 +1,5 @@
+#include "FortCurieElectricityPropagationManagerTickFunction.h"
+
+FFortCurieElectricityPropagationManagerTickFunction::FFortCurieElectricityPropagationManagerTickFunction() {
+}
+

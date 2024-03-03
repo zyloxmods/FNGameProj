@@ -1,0 +1,5 @@
+#include "CustomCharacterPartAnimInstance_Pirate02Backpack.h"
+
+UCustomCharacterPartAnimInstance_Pirate02Backpack::UCustomCharacterPartAnimInstance_Pirate02Backpack() {
+}
+

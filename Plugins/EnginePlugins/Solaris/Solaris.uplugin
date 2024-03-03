@@ -1,0 +1,51 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Solaris",
+	"Description": "uLang VPL and text scripting.",
+	"Category": "Scripting",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "http://epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedPrograms": [
+		"tLangVPL",
+		"UnrealHeaderTool"
+	],
+	"Modules": [
+		{
+			"Name": "Solaris",
+			"Type": "RuntimeAndProgram",
+			"LoadingPhase": "Default",
+			"WhitelistPrograms": [
+				"tLangVPL"
+			]
+		},
+		{
+			"Name": "SolarisInterop",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen"
+		},
+		{
+			"Name": "SolarisUi",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ContentBrowserFileDataSource",
+			"Enabled": true,
+			"WhitelistTargets": [
+				"Editor"
+			]
+		}
+	]
+}

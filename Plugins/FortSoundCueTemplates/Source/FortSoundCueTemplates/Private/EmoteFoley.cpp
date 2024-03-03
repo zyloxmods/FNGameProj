@@ -1,14 +1,5 @@
 #include "EmoteFoley.h"
-#include "Sound/SoundCue.h"
 
-
-UEmoteFoley::UEmoteFoley(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
-{
+UEmoteFoley::UEmoteFoley() {
 }
-
-void UEmoteFoley::OnRebuildGraph(USoundCue& SoundCue) const
-{
-}
-
 

@@ -1,0 +1,5 @@
+#include "FortItemCard_PowerRatingBlock_ItemInstance_Configuration.h"
+
+FFortItemCard_PowerRatingBlock_ItemInstance_Configuration::FFortItemCard_PowerRatingBlock_ItemInstance_Configuration() {
+}
+

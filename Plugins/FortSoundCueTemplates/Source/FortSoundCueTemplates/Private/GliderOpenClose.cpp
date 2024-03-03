@@ -1,14 +1,5 @@
-
 #include "GliderOpenClose.h"
-#include "Sound/SoundCue.h"
 
-UGliderOpenClose::UGliderOpenClose(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
-{
+UGliderOpenClose::UGliderOpenClose() {
 }
-
-void UGliderOpenClose::OnRebuildGraph(USoundCue& SoundCue) const
-{
-}
-
 

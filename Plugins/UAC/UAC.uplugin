@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1",
+	"FriendlyName": "UAC",
+	"Description": "Behave or get out",
+	"Category": "UAC",
+	"CreatedBy": "Epic Games, Inc",
+	"CreatedByURL": "http://www.epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "UACBase",
+			"Enabled": true
+		}
+	]
+}

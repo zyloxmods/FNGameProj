@@ -1,14 +1,5 @@
 #include "GliderThrustLoop.h"
-#include "Sound/SoundCue.h"
 
-
-UGliderThrustLoop::UGliderThrustLoop(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
-{
+UGliderThrustLoop::UGliderThrustLoop() {
 }
-
-void UGliderThrustLoop::OnRebuildGraph(USoundCue& SoundCue) const
-{
-}
-
 

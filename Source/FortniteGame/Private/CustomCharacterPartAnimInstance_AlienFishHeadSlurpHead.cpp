@@ -1,0 +1,5 @@
+#include "CustomCharacterPartAnimInstance_AlienFishHeadSlurpHead.h"
+
+UCustomCharacterPartAnimInstance_AlienFishHeadSlurpHead::UCustomCharacterPartAnimInstance_AlienFishHeadSlurpHead() {
+}
+

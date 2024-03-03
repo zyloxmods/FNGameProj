@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1",
+	"FriendlyName": "UACBase",
+	"Description": "Shared classes for UAC plugin",
+	"Category": "UAC",
+	"CreatedBy": "Epic Games, Inc",
+	"CreatedByURL": "http://www.epicgames.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "UACBase",
+			"Type": "RuntimeNoCommandlet",
+			"LoadingPhase": "Default"
+		}
+	]
+}

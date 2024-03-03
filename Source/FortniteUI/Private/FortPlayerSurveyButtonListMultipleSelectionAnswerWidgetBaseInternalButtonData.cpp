@@ -1,0 +1,6 @@
+#include "FortPlayerSurveyButtonListMultipleSelectionAnswerWidgetBaseInternalButtonData.h"
+
+FFortPlayerSurveyButtonListMultipleSelectionAnswerWidgetBaseInternalButtonData::FFortPlayerSurveyButtonListMultipleSelectionAnswerWidgetBaseInternalButtonData() {
+    this->ButtonWidget = NULL;
+}
+

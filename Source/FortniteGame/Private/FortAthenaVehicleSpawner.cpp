@@ -1,0 +1,21 @@
+#include "FortAthenaVehicleSpawner.h"
+#include "Components/SceneComponent.h"
+
+void AFortAthenaVehicleSpawner::SpawnVehicle_Implementation() {
+}
+
+UClass* AFortAthenaVehicleSpawner::GetVehicleClass() const {
+    return NULL;
+}
+
+bool AFortAthenaVehicleSpawner::GetForceSpawnAlways() const {
+    return false;
+}
+
+AFortAthenaVehicleSpawner::AFortAthenaVehicleSpawner() {
+    this->DummyRoot = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+    this->bForceSpawnAlways = false;
+    this->CachedFortVehicleItemDef = NULL;
+    this->bIsVehicleItemDefCached = false;
+}
+

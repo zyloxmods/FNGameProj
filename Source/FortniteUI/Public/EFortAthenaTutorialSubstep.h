@@ -1,0 +1,46 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EFortAthenaTutorialSubstep.generated.h"
+
+UENUM(BlueprintType)
+enum class EFortAthenaTutorialSubstep : uint8 {
+    ScreenSwipeToLook,
+    ScreenFindMarker,
+    ScreenUseLeftStick,
+    ScreenMoveToBuilding,
+    ScreenJump,
+    ScreenCrouch,
+    ScreenReachMarker,
+    ScreenUsePickaxe,
+    ScreenReachPickUp,
+    ScreenPickUpItems,
+    ScreenEquipItem,
+    ScreenShootTargets,
+    ScreenReload,
+    ScreenReachLocation,
+    ScreenDefendYourself,
+    ScreenHealthAlert,
+    ScreenDestroyEnemies,
+    ScreenCollectLoot,
+    ScreenUseMedkit,
+    ScreenUseShield,
+    ScreenShieldInfo,
+    ScreenLookForChest,
+    ScreenChestFound,
+    ScreenSelectBuildMode,
+    ScreenShowMaterials,
+    ScreenShowBuildPieces,
+    ScreenSelectStairs,
+    ScreenPlaceStairs,
+    ScreenReachChest,
+    ScreenExitBuildMode,
+    ScreenLootChest,
+    ScreenCollectLootChest,
+    ScreenEquipRifle,
+    ScreenUseScope,
+    ScreenShootTargetsScoping,
+    ScreenCompleted,
+    HealingInterrupted,
+    Count,
+};
+

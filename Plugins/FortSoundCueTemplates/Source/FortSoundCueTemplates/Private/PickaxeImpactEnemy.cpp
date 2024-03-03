@@ -1,14 +1,5 @@
 #include "PickaxeImpactEnemy.h"
-#include "Sound/SoundCue.h"
-#include "FortSoundCueTemplateBase.h"
 
-UPickaxeImpactEnemy::UPickaxeImpactEnemy(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
-{
+UPickaxeImpactEnemy::UPickaxeImpactEnemy() {
 }
-
-void UPickaxeImpactEnemy::OnRebuildGraph(USoundCue& SoundCue) const
-{
-}
-
 

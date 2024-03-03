@@ -1,0 +1,5 @@
+#include "FortAthenaAISpawnerDataComponent_AIBotGameplayAbilityBase.h"
+
+UFortAthenaAISpawnerDataComponent_AIBotGameplayAbilityBase::UFortAthenaAISpawnerDataComponent_AIBotGameplayAbilityBase() {
+}
+
