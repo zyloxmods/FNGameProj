@@ -31,5 +31,6 @@ public:
     {
         return FPrimaryAssetId("AthenaLoadingScreen", GetFName());
     }
+    UAthenaLoadingScreenItemDefinition();
 };
 
