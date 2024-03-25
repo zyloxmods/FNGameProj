@@ -4,6 +4,8 @@
 
 ## Versions
 
+
+- [8.51](https://github.com/zyloxmods/FNGameProj/tree/8.51)
 - [9.10](https://github.com/zyloxmods/FNGameProj/tree/9.10)
 - [14.30](https://github.com/zyloxmods/FNGameProj/tree/14.30) 
 - [7.40](https://github.com/zyloxmods/FNGameProj/tree/7.40)
