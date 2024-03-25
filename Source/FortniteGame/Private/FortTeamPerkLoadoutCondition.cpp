@@ -12,7 +12,7 @@ FFortTeamPerkLoadoutCondition::FFortTeamPerkLoadoutCondition() {
     this->MaximumHeroTier = EFortItemTier::No_Tier;
     this->MinimumHeroLevel = 0;
     this->MaximumHeroLevel = 0;
-    this->MinimumHeroRarity = EFortRarity::Common;
-    this->MaximumHeroRarity = EFortRarity::Common;
+    this->MinimumHeroRarity = EFortRarity::Handmade;
+    this->MaximumHeroRarity = EFortRarity::Handmade;
 }
 

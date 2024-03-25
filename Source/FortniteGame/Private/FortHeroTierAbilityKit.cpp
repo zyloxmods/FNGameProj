@@ -1,6 +1,6 @@
 #include "FortHeroTierAbilityKit.h"
 
 FFortHeroTierAbilityKit::FFortHeroTierAbilityKit() {
-    this->MinimumHeroRarity = EFortRarity::Common;
+    this->MinimumHeroRarity = EFortRarity::Handmade;
 }
 

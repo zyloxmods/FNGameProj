@@ -2,10 +2,10 @@
 
 FAlterationSlot::FAlterationSlot() {
     this->UnlockLevel = 0;
-    this->UnlockRarity = EFortRarity::Common;
+    this->UnlockRarity = EFortRarity::Handmade;
     this->bRespeccable = false;
-    this->SlotInitMin = EFortRarity::Common;
-    this->SlotInitMax = EFortRarity::Common;
+    this->SlotInitMin = EFortRarity::Handmade;
+    this->SlotInitMax = EFortRarity::Handmade;
     this->SlotInitIndex = 0;
 }
 

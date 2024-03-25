@@ -25,11 +25,11 @@ int32 UFortConversionControlItemDefinition::GetPointsForTier(EFortRarity InTier)
 }
 
 EFortRarity UFortConversionControlItemDefinition::GetMaxConversionTier() const {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 EFortRarity UFortConversionControlItemDefinition::GetFirstConversionTier() const {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 UFortConversionControlItemDefinition::UFortConversionControlItemDefinition() {
