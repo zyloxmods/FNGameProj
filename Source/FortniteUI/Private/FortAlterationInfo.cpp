@@ -21,7 +21,7 @@ int32 UFortAlterationInfo::GetRequiredLevel() const {
 }
 
 EFortRarity UFortAlterationInfo::GetRarity() const {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 float UFortAlterationInfo::GetCurrentPipCount(float MaxPips) const {

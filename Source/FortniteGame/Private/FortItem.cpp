@@ -128,7 +128,7 @@ FLinearColor UFortItem::GetRarityColor() const {
 }
 
 EFortRarity UFortItem::GetRarity() const {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 bool UFortItem::GetPrimaryCategory(FText& ItemCategoryText) const {

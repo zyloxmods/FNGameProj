@@ -222,7 +222,7 @@ TArray<UFortItem*> UFortInventoryContext::GetItemsToMulchBP() const {
 }
 
 EFortRarity UFortInventoryContext::GetItemRarityRecyclingWarningThreshold() {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 int32 UFortInventoryContext::GetItemLevelRecyclingWarningThreshold() {

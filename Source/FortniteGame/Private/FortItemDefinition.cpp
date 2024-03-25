@@ -42,7 +42,7 @@ FFortColorPalette UFortItemDefinition::GetRarityOrSeriesColors() const {
 }
 
 EFortRarity UFortItemDefinition::GetRarity() const {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 bool UFortItemDefinition::GetPreviewStaticMeshAsset(TSoftObjectPtr<UStaticMesh>& Asset) const {
@@ -111,7 +111,7 @@ UFortItem* UFortItemDefinition::CreateTemporaryInstanceFromExistingItemBP(UFortI
 }
 
 UFortItemDefinition::UFortItemDefinition() {
-    this->Rarity = EFortRarity::Uncommon;
+    this->Rarity = EFortRarity::Ordinary;
     this->ItemType = EFortItemType::Max_None;
     this->PrimaryAssetIdItemTypeOverride = EFortItemType::Max_None;
     this->FilterOverride = EFortInventoryFilter::Max_None;

@@ -40,7 +40,7 @@ AKeepItemContainer::AKeepItemContainer() {
     this->bResetThisWhenKeepResets = true;
     this->ContainerDataTable = NULL;
     this->bShowChoiceUI = false;
-    this->BestAvailableRarity = EFortRarity::Common;
+    this->BestAvailableRarity = EFortRarity::Handmade;
     this->MaxItems = 0;
 }
 

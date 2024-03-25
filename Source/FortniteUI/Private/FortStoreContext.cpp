@@ -174,6 +174,6 @@ void UFortStoreContext::AttemptOpenAllPacks() {
 
 UFortStoreContext::UFortStoreContext() {
     this->CardIndex = 0;
-    this->LastCardRarity = EFortRarity::Common;
+    this->LastCardRarity = EFortRarity::Handmade;
 }
 

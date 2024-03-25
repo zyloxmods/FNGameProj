@@ -60,7 +60,7 @@ int32 UFortItemWidget::GetStackCount() const {
 }
 
 EFortRarity UFortItemWidget::GetRarity() const {
-    return EFortRarity::Common;
+    return EFortRarity::Handmade;
 }
 
 int32 UFortItemWidget::GetLevel() const {
