@@ -30,6 +30,9 @@ public:
     UAthenaDanceItemDefinition();
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetChatTriggerCommandName() const;
-    
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaDance", GetFName());
+    }
 };
 
