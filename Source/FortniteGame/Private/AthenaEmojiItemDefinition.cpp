@@ -1,4 +1,6 @@
 #include "AthenaEmojiItemDefinition.h"
+#include "GameplayTagContainer.h"
+#include "GameplayTagsManager.h"
 
 void UAthenaEmojiItemDefinition::ConfigureParticleSystem(UParticleSystemComponent* ParticleSystem, TSoftObjectPtr<UTexture2D> OverrideImage) {
 }
@@ -13,8 +15,10 @@ UAthenaEmojiItemDefinition::UAthenaEmojiItemDefinition() {
     this->GeneratedMaterial = NULL;
     ItemType = EFortItemType::AthenaDance;
     bMovingEmote = true;
-    GameplayTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Emoji")));
     GameplayTags.RemoveTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Dance")));
     DisplayName = FText::FromString("Emoticon");
+    UGameplayTagsManager& Manager = UGameplayTagsManager::Get();
+    Manager.AddNativeGameplayTag(TEXT("Cosmetics.EmoteType.Emoji"));
+    GameplayTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Emoji")));
 }
 
