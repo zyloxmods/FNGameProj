@@ -94,8 +94,8 @@ private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UFortUITeamInfo* LocalPlayerTeam;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSet<FFortTeamMemberInfo> PendingChangedMemberInfos;
+   // UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+    //TSet<FFortTeamMemberInfo> PendingChangedMemberInfos;
     
     UPROPERTY(BlueprintReadWrite, Config, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bShouldTryToJoinEpicPartyOnConsoleFailure;
