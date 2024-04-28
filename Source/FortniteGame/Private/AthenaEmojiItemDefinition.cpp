@@ -1,4 +1,6 @@
 #include "AthenaEmojiItemDefinition.h"
+#include "GameplayTagContainer.h"
+#include "GameplayTagsManager.h"
 
 void UAthenaEmojiItemDefinition::ConfigureParticleSystem(UParticleSystemComponent* ParticleSystem, TSoftObjectPtr<UTexture2D> OverrideImage) {
 }
