@@ -1,4 +1,6 @@
 #include "AthenaSprayItemDefinition.h"
+#include "GameplayTagContainer.h"
+#include "GameplayTagsManager.h"
 
 bool UAthenaSprayItemDefinition::ShouldUseBannerAsTexture() const {
     return false;
