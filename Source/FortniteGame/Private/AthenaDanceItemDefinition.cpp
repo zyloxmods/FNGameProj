@@ -1,4 +1,6 @@
 #include "AthenaDanceItemDefinition.h"
+#include "GameplayTagContainer.h"
+#include "GameplayTagsManager.h"
 
 FText UAthenaDanceItemDefinition::GetChatTriggerCommandName() const {
     return FText::GetEmpty();
