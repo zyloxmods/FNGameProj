@@ -857,7 +857,7 @@
 		},
 		{
 			"Name": "MovieRenderPipeline",
-			"Enabled": true,
+			"Enabled": false,
 			"WhitelistTargets": [
 				"Editor"
 			]
