@@ -37,6 +37,10 @@ public:
     UFortAlterationItemDefinition();
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TEnumAsByte<EFortAlteration::Type> GetAlterationType() const;
-    
+
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("Alteration", GetFName());
+    }
 };
 

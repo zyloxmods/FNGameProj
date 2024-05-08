@@ -26,5 +26,10 @@ protected:
     
 public:
     UFortTokenType();
+
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("Token", GetFName());
+    }
 };
 

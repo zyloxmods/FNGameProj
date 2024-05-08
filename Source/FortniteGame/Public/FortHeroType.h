@@ -97,7 +97,9 @@ public:
     UFUNCTION(BlueprintCallable, BlueprintPure)
     UFortFeedbackBank* GetFemaleOverrideFeedback(bool bOnlyIfLoaded) const;
     
-    
-    // Fix for true pure virtual functions not being implemented
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("Hero", GetFName());
+    }
 };
 
