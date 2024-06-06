@@ -1,9 +1,9 @@
 #include "FortLobbyBeaconHost.h"
 
 AFortLobbyBeaconHost::AFortLobbyBeaconHost() {
-    this->bAllowReservationsToProceedToLobby = false;
-    this->bWorldRecordLoaded = false;
-    this->LastReservationCountForPermissionTimeoutChange = 0;
-    this->LobbyPermissionTimeout = 1;
+    bAllowReservationsToProceedToLobby = false;
+    bWorldRecordLoaded = false;
+    LastReservationCountForPermissionTimeoutChange = 0;
+    LobbyPermissionTimeout = 1;
 }
 

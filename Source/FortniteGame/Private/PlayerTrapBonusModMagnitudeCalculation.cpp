@@ -1,6 +1,6 @@
 #include "PlayerTrapBonusModMagnitudeCalculation.h"
 
 UPlayerTrapBonusModMagnitudeCalculation::UPlayerTrapBonusModMagnitudeCalculation() {
-    this->AttributeDefaultValue = 1;
+    AttributeDefaultValue = 1;
 }
 

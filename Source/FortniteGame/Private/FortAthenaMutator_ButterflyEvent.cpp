@@ -10,6 +10,6 @@ void AFortAthenaMutator_ButterflyEvent::StartGatheringPawns() {
 }
 
 AFortAthenaMutator_ButterflyEvent::AFortAthenaMutator_ButterflyEvent() {
-    this->PawnGatherFrequency = 1;
+    PawnGatherFrequency = 1;
 }
 

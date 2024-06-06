@@ -26,8 +26,8 @@ void ABuildingPropBigHealth::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 ABuildingPropBigHealth::ABuildingPropBigHealth() {
-    this->BigHealth = 0;
-    this->BigHealthMax = 0;
-    this->bShowHealthBar = true;
+    BigHealth = 0;
+    BigHealthMax = 0;
+    bShowHealthBar = true;
 }
 

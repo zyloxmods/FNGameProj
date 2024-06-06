@@ -1,11 +1,11 @@
 #include "FortMissionEvent.h"
 
 FFortMissionEvent::FFortMissionEvent() {
-    this->EventFocus = NULL;
-    this->EventContent = NULL;
-    this->EventInstigator = NULL;
-    this->GenericInt = 0;
-    this->GenericFloat = 1;
-    this->Params = NULL;
+    EventFocus = NULL;
+    EventContent = NULL;
+    EventInstigator = NULL;
+    GenericInt = 0;
+    GenericFloat = 1;
+    Params = NULL;
 }
 

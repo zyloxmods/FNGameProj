@@ -14,6 +14,6 @@ void UFortAsyncAction_PartyDisplayManager_SetupPrefabVisuals::OnItemDisplayReady
 }
 
 UFortAsyncAction_PartyDisplayManager_SetupPrefabVisuals::UFortAsyncAction_PartyDisplayManager_SetupPrefabVisuals() {
-    this->Item = NULL;
+    Item = NULL;
 }
 

@@ -1,7 +1,7 @@
 #include "FortBotBuildingContainerBlacklistDataTableRow.h"
 
 FFortBotBuildingContainerBlacklistDataTableRow::FFortBotBuildingContainerBlacklistDataTableRow() {
-    this->BlacklistedActorClass = NULL;
-    this->bIsBlacklisted = false;
+    BlacklistedActorClass = NULL;
+    bIsBlacklisted = false;
 }
 

@@ -1,6 +1,6 @@
 #include "RawPointToLastServerIndexPlusAlpha.h"
 
 FRawPointToLastServerIndexPlusAlpha::FRawPointToLastServerIndexPlusAlpha() {
-    this->ReppedLastServerIndexPlusAlpha = 1;
+    ReppedLastServerIndexPlusAlpha = 1;
 }
 

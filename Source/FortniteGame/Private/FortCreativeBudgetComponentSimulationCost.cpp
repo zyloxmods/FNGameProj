@@ -1,6 +1,6 @@
 #include "FortCreativeBudgetComponentSimulationCost.h"
 
 FFortCreativeBudgetComponentSimulationCost::FFortCreativeBudgetComponentSimulationCost() {
-    this->SimulationCost = 0;
+    SimulationCost = 0;
 }
 

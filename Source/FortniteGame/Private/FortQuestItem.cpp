@@ -136,15 +136,15 @@ bool UFortQuestItem::CanPinQuest() const {
 }
 
 UFortQuestItem::UFortQuestItem() {
-    this->LastNotifiedQuestCount = 0;
-    this->quest_state = EFortQuestState::Inactive;
-    this->sent_new_notification = false;
-    this->bSentCompleteNotification = false;
-    this->bAllObjectivesComplete = false;
-    this->bIsTransientManuallyGrantedQuest = false;
-    this->bHasRegisteredWithQuestManager = false;
-    this->CurrentStage = 0;
-    this->xp_reward_scalar = 1;
-    this->PlayerLevel = 0;
+    LastNotifiedQuestCount = 0;
+    quest_state = EFortQuestState::Inactive;
+    sent_new_notification = false;
+    bSentCompleteNotification = false;
+    bAllObjectivesComplete = false;
+    bIsTransientManuallyGrantedQuest = false;
+    bHasRegisteredWithQuestManager = false;
+    CurrentStage = 0;
+    xp_reward_scalar = 1;
+    PlayerLevel = 0;
 }
 

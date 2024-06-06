@@ -17,9 +17,9 @@ void AFortScriptedAction::CancelAction(bool bRegisterActionAgain) {
 }
 
 AFortScriptedAction::AFortScriptedAction() {
-    this->ActionEnvironment = EFortScriptedActionEnvironment::FrontEnd;
-    this->ActionPriority = 0;
-    this->bAllowOtherActionsWhenActive = false;
-    this->bIsActive = false;
+    ActionEnvironment = EFortScriptedActionEnvironment::FrontEnd;
+    ActionPriority = 0;
+    bAllowOtherActionsWhenActive = false;
+    bIsActive = false;
 }
 

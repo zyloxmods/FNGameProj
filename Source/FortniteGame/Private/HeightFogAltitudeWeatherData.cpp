@@ -1,6 +1,6 @@
 #include "HeightFogAltitudeWeatherData.h"
 
 FHeightFogAltitudeWeatherData::FHeightFogAltitudeWeatherData() {
-    this->HeightFogZOffset = NULL;
+    HeightFogZOffset = NULL;
 }
 

@@ -1,7 +1,7 @@
 #include "FortAnimNotifyState_RestartTraversalEmote.h"
 
 UFortAnimNotifyState_RestartTraversalEmote::UFortAnimNotifyState_RestartTraversalEmote() {
-    this->InMotionMontage = NULL;
-    this->BlendOutSpeed = 1;
+    InMotionMontage = NULL;
+    BlendOutSpeed = 1;
 }
 

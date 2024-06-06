@@ -2,6 +2,6 @@
 
 
 ABuildingTimeOfDayLights::ABuildingTimeOfDayLights() {
-    this->bUseTimeOfDayControlledLights = true;
+    bUseTimeOfDayControlledLights = true;
 }
 

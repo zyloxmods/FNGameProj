@@ -29,11 +29,11 @@ void ABattleLabDeviceGameplayActor_VendingMachine::GetLifetimeReplicatedProps(TA
 }
 
 ABattleLabDeviceGameplayActor_VendingMachine::ABattleLabDeviceGameplayActor_VendingMachine() {
-    this->VendingMachineMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Vending Machine Mesh"));
-    this->FunnelMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Funnel Mesh"));
-    this->FunnelCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Funnel Box Collision"));
-    this->SpawnLootTransformArrow = CreateDefaultSubobject<UArrowComponent>(TEXT("Loot Spawn Arrow Location"));
-    this->LootTossSpeed = 1;
-    this->DroppedIntoFunnelPickup = NULL;
+    VendingMachineMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Vending Machine Mesh"));
+    FunnelMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Funnel Mesh"));
+    FunnelCollision = CreateDefaultSubobject<UBoxComponent>(TEXT("Funnel Box Collision"));
+    SpawnLootTransformArrow = CreateDefaultSubobject<UArrowComponent>(TEXT("Loot Spawn Arrow Location"));
+    LootTossSpeed = 1;
+    DroppedIntoFunnelPickup = NULL;
 }
 

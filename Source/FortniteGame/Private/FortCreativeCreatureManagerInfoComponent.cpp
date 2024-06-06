@@ -101,16 +101,16 @@ TSoftClassPtr<AFortAIPawn> UFortCreativeCreatureManagerInfoComponent::GetCreatur
 }
 
 UFortCreativeCreatureManagerInfoComponent::UFortCreativeCreatureManagerInfoComponent() {
-    this->MaxHealth = 0;
-    this->HearingAggroRange = 1;
-    this->ScorePoints = 0;
-    this->DamageCaused = 1;
-    this->EnvironmentalDamageOverride = 1;
-    this->MovementSpeedMultiplier = 1;
-    this->CreatureManagerComponent = NULL;
-    this->DamageOverrideEffect = NULL;
-    this->EnvironmentalDamageOverrideEffect = NULL;
-    this->MovementSpeedOverrideEffect = NULL;
-    this->ScoreDistribution = EScoreDistributionType::Default;
+    MaxHealth = 0;
+    HearingAggroRange = 1;
+    ScorePoints = 0;
+    DamageCaused = 1;
+    EnvironmentalDamageOverride = 1;
+    MovementSpeedMultiplier = 1;
+    CreatureManagerComponent = NULL;
+    DamageOverrideEffect = NULL;
+    EnvironmentalDamageOverrideEffect = NULL;
+    MovementSpeedOverrideEffect = NULL;
+    ScoreDistribution = EScoreDistributionType::Default;
 }
 

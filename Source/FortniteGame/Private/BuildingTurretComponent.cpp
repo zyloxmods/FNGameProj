@@ -38,11 +38,11 @@ void UBuildingTurretComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 UBuildingTurretComponent::UBuildingTurretComponent() {
-    this->FiringInterval = 1;
-    this->CurrentTargetValidationInterval = 1;
-    this->bPerformPeriodicValidationOnCurrentTarget = true;
-    this->TargetingOverlapComponent = NULL;
-    this->OwnerASC = NULL;
-    this->CurrentTarget = NULL;
+    FiringInterval = 1;
+    CurrentTargetValidationInterval = 1;
+    bPerformPeriodicValidationOnCurrentTarget = true;
+    TargetingOverlapComponent = NULL;
+    OwnerASC = NULL;
+    CurrentTarget = NULL;
 }
 

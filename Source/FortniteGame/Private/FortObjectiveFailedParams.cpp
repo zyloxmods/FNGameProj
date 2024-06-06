@@ -7,6 +7,6 @@ void UFortObjectiveFailedParams::BreakParams(AFortObjectiveBase*& _FailedObjecti
 }
 
 UFortObjectiveFailedParams::UFortObjectiveFailedParams() {
-    this->FailedObjective = NULL;
+    FailedObjective = NULL;
 }
 

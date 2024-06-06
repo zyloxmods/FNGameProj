@@ -1,6 +1,6 @@
 #include "PetStimuliRepData.h"
 
 FPetStimuliRepData::FPetStimuliRepData() {
-    this->GameTimeEnd = 1;
+    GameTimeEnd = 1;
 }
 

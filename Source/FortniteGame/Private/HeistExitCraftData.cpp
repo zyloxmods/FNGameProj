@@ -1,11 +1,11 @@
 #include "HeistExitCraftData.h"
 
 FHeistExitCraftData::FHeistExitCraftData() {
-    this->ExitCraftSpawner = NULL;
-    this->SpawnedExitCraft = NULL;
-    this->ExitCraftState = EHeistExitCraftState::None;
-    this->SpawnTime = 1;
-    this->bIsUsed = false;
-    this->bHasDeparted = false;
+    ExitCraftSpawner = NULL;
+    SpawnedExitCraft = NULL;
+    ExitCraftState = EHeistExitCraftState::None;
+    SpawnTime = 1;
+    bIsUsed = false;
+    bHasDeparted = false;
 }
 

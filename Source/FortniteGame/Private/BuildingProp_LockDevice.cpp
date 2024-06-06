@@ -52,8 +52,8 @@ void ABuildingProp_LockDevice::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 ABuildingProp_LockDevice::ABuildingProp_LockDevice() {
-    this->SearchAreaSize = 1;
-    this->LockableObject = NULL;
-    this->CurrentLockState = ELockState::INVALID;
+    SearchAreaSize = 1;
+    LockableObject = NULL;
+    CurrentLockState = ELockState::INVALID;
 }
 

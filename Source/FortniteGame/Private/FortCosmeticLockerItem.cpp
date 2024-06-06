@@ -5,6 +5,6 @@ bool UFortCosmeticLockerItem::IsValidLockerName(UWorld* ContextWorld, const FStr
 }
 
 UFortCosmeticLockerItem::UFortCosmeticLockerItem() {
-    this->use_count = 0;
+    use_count = 0;
 }
 

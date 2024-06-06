@@ -1,7 +1,7 @@
 #include "ServerLaunchInfo.h"
 
 FServerLaunchInfo::FServerLaunchInfo() {
-    this->LaunchServerTime = 1;
-    this->LaunchedPawn = NULL;
+    LaunchServerTime = 1;
+    LaunchedPawn = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "BagelLootTierOverrideAssetData.h"
 
 FBagelLootTierOverrideAssetData::FBagelLootTierOverrideAssetData() {
-    this->SafeZoneIndex = 0;
+    SafeZoneIndex = 0;
 }
 

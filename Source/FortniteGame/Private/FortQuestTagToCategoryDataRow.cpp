@@ -1,6 +1,6 @@
 #include "FortQuestTagToCategoryDataRow.h"
 
 FFortQuestTagToCategoryDataRow::FFortQuestTagToCategoryDataRow() {
-    this->Priority = 0;
+    Priority = 0;
 }
 

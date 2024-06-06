@@ -1,5 +1,6 @@
 #include "FortHomebaseBannerColorItemDefinition.h"
 
-UFortHomebaseBannerColorItemDefinition::UFortHomebaseBannerColorItemDefinition() {
+UFortHomebaseBannerColorItemDefinition::UFortHomebaseBannerColorItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

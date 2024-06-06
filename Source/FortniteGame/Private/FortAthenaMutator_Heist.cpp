@@ -34,21 +34,21 @@ void AFortAthenaMutator_Heist::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 AFortAthenaMutator_Heist::AFortAthenaMutator_Heist() {
-    this->ExitCraftInfo = NULL;
-    this->HeistVictorySoundCue = NULL;
-    this->bCurrExitCraftDeparted = false;
-    this->SpawnExitCraftTime = 1;
-    this->CurrExitCraftIndexToSpawn = 0;
-    this->SupplyDropStartingAngle = 1;
-    this->ExitCraftStartingAngle = 1;
-    this->CurrBlingSupplyDropIndexHandled = 0;
-    this->NumUnspawnedExitCrafts = 0;
-    this->NumSpawnedExitCrafts = 0;
-    this->NumDepartedExitCrafts = 0;
-    this->JewelsLostToStorm = 0;
-    this->SafesLostToStorm = 0;
-    this->LastAcquiredEnemyMsgTime = 1;
-    this->MinTimeAllowedBetweenAcquiredEnemyMessages = 1;
-    this->IconToShowInSquadBar = NULL;
+    ExitCraftInfo = NULL;
+    HeistVictorySoundCue = NULL;
+    bCurrExitCraftDeparted = false;
+    SpawnExitCraftTime = 1;
+    CurrExitCraftIndexToSpawn = 0;
+    SupplyDropStartingAngle = 1;
+    ExitCraftStartingAngle = 1;
+    CurrBlingSupplyDropIndexHandled = 0;
+    NumUnspawnedExitCrafts = 0;
+    NumSpawnedExitCrafts = 0;
+    NumDepartedExitCrafts = 0;
+    JewelsLostToStorm = 0;
+    SafesLostToStorm = 0;
+    LastAcquiredEnemyMsgTime = 1;
+    MinTimeAllowedBetweenAcquiredEnemyMessages = 1;
+    IconToShowInSquadBar = NULL;
 }
 

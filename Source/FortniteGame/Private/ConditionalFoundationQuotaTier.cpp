@@ -1,7 +1,7 @@
 #include "ConditionalFoundationQuotaTier.h"
 
 FConditionalFoundationQuotaTier::FConditionalFoundationQuotaTier() {
-    this->MinFoundations = 0;
-    this->MaxFoundations = 0;
+    MinFoundations = 0;
+    MaxFoundations = 0;
 }
 

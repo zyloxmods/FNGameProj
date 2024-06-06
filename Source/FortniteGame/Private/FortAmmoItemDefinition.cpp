@@ -4,10 +4,11 @@ TSoftObjectPtr<UTexture2D> UFortAmmoItemDefinition::GetHUDAmmoSmallPreviewImage(
     return NULL;
 }
 
-UFortAmmoItemDefinition::UFortAmmoItemDefinition() {
-    this->bTriggersFeedbackLines = false;
-    this->WorldItemClassOverride = NULL;
-    this->ItemOptions = NULL;
-    this->ItemType = EFortItemType::Ammo;
+UFortAmmoItemDefinition::UFortAmmoItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bTriggersFeedbackLines = false;
+    WorldItemClassOverride = NULL;
+    ItemOptions = NULL;
+    ItemType = EFortItemType::Ammo;
 }
 

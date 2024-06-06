@@ -14,8 +14,8 @@ void AFortAthenaMutator_Score::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 AFortAthenaMutator_Score::AFortAthenaMutator_Score() {
-    this->NumCoinWaves = 0;
-    this->bSupportsRespawnConfig = false;
-    this->bRespawnsAllowed = false;
+    NumCoinWaves = 0;
+    bSupportsRespawnConfig = false;
+    bRespawnsAllowed = false;
 }
 

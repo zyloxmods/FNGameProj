@@ -16,6 +16,6 @@ void UFortPlayspaceComponent::OnMeshNetworkEventBurst(const FName EventName, con
 }
 
 UFortPlayspaceComponent::UFortPlayspaceComponent() {
-    this->bSubscribeToMeshNetwork = false;
+    bSubscribeToMeshNetwork = false;
 }
 

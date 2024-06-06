@@ -5,6 +5,6 @@ void AFortBodyPartOverridePreviewActor::ApplyMyCosmeticItemToHero(AFortPlayerPaw
 }
 
 AFortBodyPartOverridePreviewActor::AFortBodyPartOverridePreviewActor() {
-    this->MyCosmeticItem = NULL;
+    MyCosmeticItem = NULL;
 }
 

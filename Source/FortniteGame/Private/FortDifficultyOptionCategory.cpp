@@ -1,8 +1,8 @@
 #include "FortDifficultyOptionCategory.h"
 
 UFortDifficultyOptionCategory::UFortDifficultyOptionCategory() {
-    this->bIsRequired = false;
-    this->bIsStatic = false;
-    this->bHasValueRange = false;
+    bIsRequired = false;
+    bIsStatic = false;
+    bHasValueRange = false;
 }
 

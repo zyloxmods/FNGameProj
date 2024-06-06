@@ -19,6 +19,6 @@ protected:
     bool bRequiresBattlePass;
     
 public:
-    UFortRestedXpBoosterToken();
+    UFortRestedXpBoosterToken(const FObjectInitializer& ObjectInitializer);
 };
 

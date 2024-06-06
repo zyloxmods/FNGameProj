@@ -28,12 +28,12 @@ void AFortAthenaMutator_CreativeTutorial::DisplayBackToHubMessage() {
 }
 
 AFortAthenaMutator_CreativeTutorial::AFortAthenaMutator_CreativeTutorial() {
-    this->bHasSeenInventoryTutorial = false;
-    this->bHasSeenReturnToCreativeHubTutorial = false;
-    this->bHasSeenMyIslandTutorial = false;
-    this->bHasSeenWelcomeTutorial = false;
-    this->bHasSeenPermissionsTutorial = false;
-    this->bCanShowMyIslandMessage = false;
-    this->ServerShutdownTimeRemaining = 1;
+    bHasSeenInventoryTutorial = false;
+    bHasSeenReturnToCreativeHubTutorial = false;
+    bHasSeenMyIslandTutorial = false;
+    bHasSeenWelcomeTutorial = false;
+    bHasSeenPermissionsTutorial = false;
+    bCanShowMyIslandMessage = false;
+    ServerShutdownTimeRemaining = 1;
 }
 

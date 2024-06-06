@@ -1,6 +1,6 @@
 #include "BackendExportedClipInfo.h"
 
 FBackendExportedClipInfo::FBackendExportedClipInfo() {
-    this->PGS_Duration = 1;
+    PGS_Duration = 1;
 }
 

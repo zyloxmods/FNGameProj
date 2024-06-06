@@ -7,8 +7,8 @@ void UFortItemDroppedParams::BreakParams(UFortWorldItemDefinition*& _DroppedItem
 }
 
 UFortItemDroppedParams::UFortItemDroppedParams() {
-    this->DroppedItemDefinition = NULL;
-    this->DroppedBy = NULL;
-    this->AmountDropped = 0;
+    DroppedItemDefinition = NULL;
+    DroppedBy = NULL;
+    AmountDropped = 0;
 }
 

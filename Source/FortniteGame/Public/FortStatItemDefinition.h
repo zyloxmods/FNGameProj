@@ -17,6 +17,6 @@ protected:
     FGameplayAttribute StatAttribute;
     
 public:
-    UFortStatItemDefinition();
+    UFortStatItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

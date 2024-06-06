@@ -6,6 +6,7 @@ void UAthenaShoutItemDefinition::SpawnSoundComponent(TSoftObjectPtr<USoundBase> 
 void UAthenaShoutItemDefinition::ConfigureSoundComponent(TSoftObjectPtr<USoundBase> OverrideSound, UAudioComponent* ComponentToConfigure) const {
 }
 
-UAthenaShoutItemDefinition::UAthenaShoutItemDefinition() {
+UAthenaShoutItemDefinition::UAthenaShoutItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

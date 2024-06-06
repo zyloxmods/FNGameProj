@@ -1,10 +1,10 @@
 #include "ExponentialHeightFogWeatherData.h"
 
 FExponentialHeightFogWeatherData::FExponentialHeightFogWeatherData() {
-    this->FogDensityScale = NULL;
-    this->FogHeightFalloffScale = NULL;
-    this->SecondFogDensityScale = NULL;
-    this->SecondFogHeightFalloffScale = NULL;
-    this->SecondHeightFogOffsetBias = NULL;
+    FogDensityScale = NULL;
+    FogHeightFalloffScale = NULL;
+    SecondFogDensityScale = NULL;
+    SecondFogHeightFalloffScale = NULL;
+    SecondHeightFogOffsetBias = NULL;
 }
 

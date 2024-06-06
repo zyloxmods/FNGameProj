@@ -19,9 +19,9 @@ UMaterialInstanceDynamic* UFortItemThumbnailRenderer::GetItemPreviewMaterial() {
 }
 
 UFortItemThumbnailRenderer::UFortItemThumbnailRenderer() {
-    this->PreviewMaterial = NULL;
-    this->CaptureEnvironmentActorClass = NULL;
-    this->ItemDefinition = NULL;
-    this->PreviewMaterialInstance = NULL;
+    PreviewMaterial = NULL;
+    CaptureEnvironmentActorClass = NULL;
+    ItemDefinition = NULL;
+    PreviewMaterialInstance = NULL;
 }
 

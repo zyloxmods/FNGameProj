@@ -176,7 +176,7 @@ private:
     FFortCreativeTagsHelper CreativeTagsHelper;
     
 public:
-    UFortWeaponItemDefinition();
+    UFortWeaponItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool UsesPhantomReserveAmmo() const;
     

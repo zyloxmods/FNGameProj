@@ -28,19 +28,19 @@ void AFortGameModePvE::AddAllowIdlePlayerLocation(AActor* LocationActor, float R
 }
 
 AFortGameModePvE::AFortGameModePvE() {
-    this->bIdleKickEnabledByConfig = true;
-    this->bIdleKickEnabledByBlueprint = true;
-    this->bOnlyIdleKickPublicMatches = false;
-    this->bResetDefaultIdleTimeWhenNoLongerSolo = true;
-    this->bAnyMovementNotIdleWhilePrivate = true;
-    this->bRestrictMaxIdleTime = true;
-    this->RestrictedMaxIdleTime = 1;
-    this->bSendIdleAnalytics = true;
-    this->bWaitForAircraft = false;
-    this->bBuildingContainersStartAlreadySearched = false;
-    this->bSpawnLootForBuildingContainersThatStartAlreadySearched = false;
-    this->bSpawnWeaponsWithMaxPerks = true;
-    this->bSpawnTrapsWithMaxPerks = false;
-    this->bUseHighPerkSlotValues = false;
+    bIdleKickEnabledByConfig = true;
+    bIdleKickEnabledByBlueprint = true;
+    bOnlyIdleKickPublicMatches = false;
+    bResetDefaultIdleTimeWhenNoLongerSolo = true;
+    bAnyMovementNotIdleWhilePrivate = true;
+    bRestrictMaxIdleTime = true;
+    RestrictedMaxIdleTime = 1;
+    bSendIdleAnalytics = true;
+    bWaitForAircraft = false;
+    bBuildingContainersStartAlreadySearched = false;
+    bSpawnLootForBuildingContainersThatStartAlreadySearched = false;
+    bSpawnWeaponsWithMaxPerks = true;
+    bSpawnTrapsWithMaxPerks = false;
+    bUseHighPerkSlotValues = false;
 }
 

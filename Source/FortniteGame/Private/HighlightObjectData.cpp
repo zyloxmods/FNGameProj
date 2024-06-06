@@ -1,12 +1,12 @@
 #include "HighlightObjectData.h"
 
 FHighlightObjectData::FHighlightObjectData() {
-    this->FriendlyStencilIndex = 0;
-    this->EnemyStencilIndex = 0;
-    this->Effect = NULL;
-    this->OverlapRadius = 1;
-    this->ActorClassFilter = NULL;
-    this->bIgnoreDistanceCheck = false;
-    this->bOnlyHighlightOwningActor = false;
+    FriendlyStencilIndex = 0;
+    EnemyStencilIndex = 0;
+    Effect = NULL;
+    OverlapRadius = 1;
+    ActorClassFilter = NULL;
+    bIgnoreDistanceCheck = false;
+    bOnlyHighlightOwningActor = false;
 }
 

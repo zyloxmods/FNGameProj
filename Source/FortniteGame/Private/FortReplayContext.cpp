@@ -75,7 +75,7 @@ void UFortReplayContext::DecreasePlaybackMultiplier() {
 }
 
 UFortReplayContext::UFortReplayContext() {
-    this->TimeBeforeEvent = 1;
-    this->SpectatingPC = NULL;
+    TimeBeforeEvent = 1;
+    SpectatingPC = NULL;
 }
 

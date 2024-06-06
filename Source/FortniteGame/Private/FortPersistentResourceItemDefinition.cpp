@@ -4,8 +4,9 @@ bool UFortPersistentResourceItemDefinition::IsEventItem() const {
     return false;
 }
 
-UFortPersistentResourceItemDefinition::UFortPersistentResourceItemDefinition() {
-    this->bIsEventItem = false;
-    this->ItemType = EFortItemType::AccountResource;
+UFortPersistentResourceItemDefinition::UFortPersistentResourceItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bIsEventItem = false;
+    ItemType = EFortItemType::AccountResource;
 }
 

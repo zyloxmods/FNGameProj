@@ -1,7 +1,8 @@
 #include "FortTrapItemDefinition.h"
 
-UFortTrapItemDefinition::UFortTrapItemDefinition() {
-    this->bKnockBackUsingPawnDir = false;
-    this->ItemType = EFortItemType::Trap;
+UFortTrapItemDefinition::UFortTrapItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bKnockBackUsingPawnDir = false;
+    ItemType = EFortItemType::Trap;
 }
 

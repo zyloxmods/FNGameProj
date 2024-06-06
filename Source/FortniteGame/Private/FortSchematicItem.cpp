@@ -17,9 +17,9 @@ int32 UFortSchematicItem::GetRequiredTeamLevelToCraft() const {
 }
 
 UFortSchematicItem::UFortSchematicItem() {
-    this->Refundable = false;
-    this->refund_legacy_item = false;
-    this->bGrantedByAbility = false;
-    this->RequiredTeamLevel = 0;
+    Refundable = false;
+    refund_legacy_item = false;
+    bGrantedByAbility = false;
+    RequiredTeamLevel = 0;
 }
 

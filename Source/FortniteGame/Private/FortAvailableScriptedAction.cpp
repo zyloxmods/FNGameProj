@@ -1,6 +1,6 @@
 #include "FortAvailableScriptedAction.h"
 
 FFortAvailableScriptedAction::FFortAvailableScriptedAction() {
-    this->ActionDefaults = NULL;
+    ActionDefaults = NULL;
 }
 

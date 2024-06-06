@@ -35,10 +35,10 @@ void UFortCurieManager::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 }
 
 UFortCurieManager::UFortCurieManager() {
-    this->SpatialManager = NULL;
-    this->FirePropagationManager = NULL;
-    this->ElectricityPropagationManager = NULL;
-    this->CableSignalManager = NULL;
-    this->FXManager = NULL;
+    SpatialManager = NULL;
+    FirePropagationManager = NULL;
+    ElectricityPropagationManager = NULL;
+    CableSignalManager = NULL;
+    FXManager = NULL;
 }
 

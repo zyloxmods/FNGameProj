@@ -1,8 +1,8 @@
 #include "FortStatEventSequence.h"
 
 FFortStatEventSequence::FFortStatEventSequence() {
-    this->RepeatType = EFortEventRepeat::EFER_Inactive;
-    this->AssociatedStat = NULL;
-    this->FPC = NULL;
+    RepeatType = EFortEventRepeat::EFER_Inactive;
+    AssociatedStat = NULL;
+    FPC = NULL;
 }
 

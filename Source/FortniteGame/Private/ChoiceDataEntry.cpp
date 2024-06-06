@@ -1,8 +1,8 @@
 #include "ChoiceDataEntry.h"
 
 FChoiceDataEntry::FChoiceDataEntry() {
-    this->bEnabled = false;
-    this->bRequireConfirmation = false;
-    this->bCloseAfterSelection = false;
+    bEnabled = false;
+    bRequireConfirmation = false;
+    bCloseAfterSelection = false;
 }
 

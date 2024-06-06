@@ -8,6 +8,6 @@ void UFortNotificationHandler::ClearNotification_Implementation() {
 }
 
 UFortNotificationHandler::UFortNotificationHandler() {
-    this->bNotificationCleared = false;
+    bNotificationCleared = false;
 }
 

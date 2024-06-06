@@ -69,23 +69,23 @@ bool AFortWeaponPickaxeAthena::AttachesAnimTrailsToWeapon() const {
 }
 
 AFortWeaponPickaxeAthena::AFortWeaponPickaxeAthena() {
-    this->SwingVFX = NULL;
-    this->IdleVFX = NULL;
-    this->AnimTrailsPSC = NULL;
-    this->AnimTrailsPSCTemplate = NULL;
-    this->AnimTrailsNiagaraAsset = NULL;
-    this->bUseAnimTrailsPSC = true;
-    this->AnimTrailsFirstSocketName = TEXT("Melee_R_Upper");
-    this->AnimTrailsSecondSocketName = TEXT("Melee_R_Lower");
-    this->AnimTrailsWidth = 1;
-    this->IdleFXSocketName = TEXT("idle_fx");
-    this->SwingFXSocketName = TEXT("SwingFX");
-    this->GenericImpactSound = NULL;
-    this->Material0MID = NULL;
-    this->bWatchKills = false;
-    this->WatchedKills = 1;
-    this->bCandyCaneKillReaction = false;
-    this->CQCEnemyAudio = NULL;
-    this->CachedCosmeticItemDefinition = NULL;
+    SwingVFX = NULL;
+    IdleVFX = NULL;
+    AnimTrailsPSC = NULL;
+    AnimTrailsPSCTemplate = NULL;
+    AnimTrailsNiagaraAsset = NULL;
+    bUseAnimTrailsPSC = true;
+    AnimTrailsFirstSocketName = TEXT("Melee_R_Upper");
+    AnimTrailsSecondSocketName = TEXT("Melee_R_Lower");
+    AnimTrailsWidth = 1;
+    IdleFXSocketName = TEXT("idle_fx");
+    SwingFXSocketName = TEXT("SwingFX");
+    GenericImpactSound = NULL;
+    Material0MID = NULL;
+    bWatchKills = false;
+    WatchedKills = 1;
+    bCandyCaneKillReaction = false;
+    CQCEnemyAudio = NULL;
+    CachedCosmeticItemDefinition = NULL;
 }
 

@@ -22,10 +22,10 @@ void AFortSoundCameraLensEffect::SetIcon(UTexture* NewIcon) {
 
 
 AFortSoundCameraLensEffect::AFortSoundCameraLensEffect() {
-    this->IndicatorType = EFortSoundIndicatorTypes::Generic;
-    this->SnapToSections = 0;
-    this->MaxAudibleDistanceOnSpawn = 1;
-    this->InstigatingActor = NULL;
-    this->IconOverride = NULL;
+    IndicatorType = EFortSoundIndicatorTypes::Generic;
+    SnapToSections = 0;
+    MaxAudibleDistanceOnSpawn = 1;
+    InstigatingActor = NULL;
+    IconOverride = NULL;
 }
 

@@ -24,10 +24,10 @@ void UValetRaisinComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 UValetRaisinComponent::UValetRaisinComponent() {
-    this->AttenuationSettings = NULL;
-    this->PresetChain = NULL;
-    this->bShouldManageOwnAudio = true;
-    this->DynamicAudioComponent = NULL;
-    this->ReplicatedSource = NULL;
+    AttenuationSettings = NULL;
+    PresetChain = NULL;
+    bShouldManageOwnAudio = true;
+    DynamicAudioComponent = NULL;
+    ReplicatedSource = NULL;
 }
 

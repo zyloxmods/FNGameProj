@@ -1,8 +1,8 @@
 #include "AthenaPawnReplayData.h"
 
 FAthenaPawnReplayData::FAthenaPawnReplayData() {
-    this->HealthRatio = 1;
-    this->ShieldRatio = 1;
-    this->World = NULL;
+    HealthRatio = 1;
+    ShieldRatio = 1;
+    World = NULL;
 }
 

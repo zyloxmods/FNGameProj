@@ -30,35 +30,35 @@ void ABuildingGameplayActorSentry::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 ABuildingGameplayActorSentry::ABuildingGameplayActorSentry() {
-    this->CameraStaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CameraMesh"));
-    this->BaseStaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BaseMesh"));
-    this->AngleRaysStaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("AngleRaysMesh"));
-    this->SpotLightComp = NULL;
-    this->bYawLimitWhileTracking = true;
-    this->bDoesNotRotate = false;
-    this->bLocateDamagerIfHitWhileIdle = true;
-    this->CurrentSentryState = EBuildingGameplayActorSentry_State::PassiveIdle;
-    this->PawnBeingTracked = NULL;
-    this->bIdleRotationStopped = false;
-    this->IdleRotationPauseTime = 1;
-    this->ReturnToIdlePauseTime = 1;
-    this->RotationRate = 1;
-    this->ReturnToIdleRotationRate = 1;
-    this->TrackingRotationRate = 1;
-    this->LocatingDamagerRotationRate = 1;
-    this->TrackingAdditionalZLook = 1;
-    this->bGoDormantAfterPassiveIdle = true;
-    this->bSetRayScaleOnTrackTick = false;
-    this->AngleRaysTrackingYScale = 1;
-    this->AngleRaysTrackingZScale = 1;
-    this->bBaseFollowsTargetRotation = false;
-    this->bWasIdleStopped = false;
-    this->bIdleRotatingRight = false;
-    this->LastNetworkReceiveTime = 1;
-    this->DisableTickAfterNoNetworkTrafficTime = 1;
-    this->SentryPitchClampMin = 1;
-    this->SentryPitchClampMax = 1;
-    this->SpotLightRadiusLerpSpeed = 1;
-    this->SpotLightOuterConeAngleLerpSpeed = 1;
+    CameraStaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CameraMesh"));
+    BaseStaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BaseMesh"));
+    AngleRaysStaticMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("AngleRaysMesh"));
+    SpotLightComp = NULL;
+    bYawLimitWhileTracking = true;
+    bDoesNotRotate = false;
+    bLocateDamagerIfHitWhileIdle = true;
+    CurrentSentryState = EBuildingGameplayActorSentry_State::PassiveIdle;
+    PawnBeingTracked = NULL;
+    bIdleRotationStopped = false;
+    IdleRotationPauseTime = 1;
+    ReturnToIdlePauseTime = 1;
+    RotationRate = 1;
+    ReturnToIdleRotationRate = 1;
+    TrackingRotationRate = 1;
+    LocatingDamagerRotationRate = 1;
+    TrackingAdditionalZLook = 1;
+    bGoDormantAfterPassiveIdle = true;
+    bSetRayScaleOnTrackTick = false;
+    AngleRaysTrackingYScale = 1;
+    AngleRaysTrackingZScale = 1;
+    bBaseFollowsTargetRotation = false;
+    bWasIdleStopped = false;
+    bIdleRotatingRight = false;
+    LastNetworkReceiveTime = 1;
+    DisableTickAfterNoNetworkTrafficTime = 1;
+    SentryPitchClampMin = 1;
+    SentryPitchClampMax = 1;
+    SpotLightRadiusLerpSpeed = 1;
+    SpotLightOuterConeAngleLerpSpeed = 1;
 }
 

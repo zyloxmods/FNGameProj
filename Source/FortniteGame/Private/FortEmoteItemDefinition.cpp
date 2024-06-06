@@ -4,7 +4,8 @@ FText UFortEmoteItemDefinition::GetCommandName() const {
     return FText::GetEmpty();
 }
 
-UFortEmoteItemDefinition::UFortEmoteItemDefinition() {
-    this->ItemType = EFortItemType::Emote;
+UFortEmoteItemDefinition::UFortEmoteItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ItemType = EFortItemType::Emote;
 }
 

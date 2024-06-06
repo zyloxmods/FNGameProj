@@ -31,15 +31,15 @@ void ABuildingLayoutRequirement::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 ABuildingLayoutRequirement::ABuildingLayoutRequirement() {
-    this->LayoutRequirementSMActorClass = NULL;
-    this->bIgnoreResourceTypeRequirements = false;
-    this->bMakeSatisfyingActorIndestructibleWhileRequirementExists = false;
-    this->bNeedToInitializeRequirementStatus = false;
-    this->bRequirementSatisfied = false;
-    this->RequirementStatus = ELayoutRequirementStatus::Inactive_Invisible;
-    this->OverrideResourceType = EFortResourceType::None;
-    this->bAllowAnyPattern = false;
-    this->bAllowOccupantPatternEditing = false;
-    this->LayoutDisplayMID = NULL;
+    LayoutRequirementSMActorClass = NULL;
+    bIgnoreResourceTypeRequirements = false;
+    bMakeSatisfyingActorIndestructibleWhileRequirementExists = false;
+    bNeedToInitializeRequirementStatus = false;
+    bRequirementSatisfied = false;
+    RequirementStatus = ELayoutRequirementStatus::Inactive_Invisible;
+    OverrideResourceType = EFortResourceType::None;
+    bAllowAnyPattern = false;
+    bAllowOccupantPatternEditing = false;
+    LayoutDisplayMID = NULL;
 }
 

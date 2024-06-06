@@ -1,8 +1,8 @@
 #include "BaseVariantDef.h"
 
 FBaseVariantDef::FBaseVariantDef() {
-    this->bStartUnlocked = false;
-    this->bIsDefault = false;
-    this->bHideIfNotOwned = false;
+    bStartUnlocked = false;
+    bIsDefault = false;
+    bHideIfNotOwned = false;
 }
 

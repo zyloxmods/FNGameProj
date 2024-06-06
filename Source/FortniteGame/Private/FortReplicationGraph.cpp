@@ -10,9 +10,9 @@ void UFortReplicationGraph::OnGameStatePlaylistLoaded(FName PlaylistName, const 
 }
 
 UFortReplicationGraph::UFortReplicationGraph() {
-    this->RootGridNode = NULL;
-    this->AlwaysRelevantNode = NULL;
-    this->LiveSpectatorRelevancyNode = NULL;
-    this->PlayerStateLimiterNode = NULL;
+    RootGridNode = NULL;
+    AlwaysRelevantNode = NULL;
+    LiveSpectatorRelevancyNode = NULL;
+    PlayerStateLimiterNode = NULL;
 }
 

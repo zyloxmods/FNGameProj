@@ -1,7 +1,7 @@
 #include "TeamRoles.h"
 
 FTeamRoles::FTeamRoles() {
-    this->PusherTeam = 0;
-    this->DefenderTeam = 0;
+    PusherTeam = 0;
+    DefenderTeam = 0;
 }
 

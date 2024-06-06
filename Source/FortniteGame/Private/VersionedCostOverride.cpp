@@ -1,8 +1,8 @@
 #include "VersionedCostOverride.h"
 
 FVersionedCostOverride::FVersionedCostOverride() {
-    this->IntroducedVersion = ELevelSaveRecordVersion::CloudSaveInfoAdded;
-    this->DeprecatedVersion = ELevelSaveRecordVersion::CloudSaveInfoAdded;
-    this->OverrideCost = 0;
+    IntroducedVersion = ELevelSaveRecordVersion::CloudSaveInfoAdded;
+    DeprecatedVersion = ELevelSaveRecordVersion::CloudSaveInfoAdded;
+    OverrideCost = 0;
 }
 

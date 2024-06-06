@@ -32,8 +32,8 @@ void AInfiltrationCarryObjectCapturePoint::GetLifetimeReplicatedProps(TArray<FLi
 }
 
 AInfiltrationCarryObjectCapturePoint::AInfiltrationCarryObjectCapturePoint() {
-    this->UIShowDistance = 1;
-    this->UIDetailDistance = 1;
-    this->bCapturePointEnabled = false;
+    UIShowDistance = 1;
+    UIDetailDistance = 1;
+    bCapturePointEnabled = false;
 }
 

@@ -58,25 +58,25 @@ void AFortPlayerParachute::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortPlayerParachute::AFortPlayerParachute() {
-    this->CurrentGliderOpenSound = NULL;
-    this->CurrentGliderCloseSound = NULL;
-    this->FortLayeredAudioComponentGlider = CreateDefaultSubobject<UFortGliderAudioComponent>(TEXT("FortLayeredAudioComponent0"));
-    this->PlayerPawn = NULL;
-    this->ParachuteItemDef = NULL;
-    this->ParachuteHiddenAnimFinishTime = 1;
-    this->bGliderFullyDeployed = false;
-    this->bChuteOpened = false;
-    this->bIsFrontEndPreview = false;
-    this->bParachuteVisible = false;
-    this->bActivateTrailOnRationalMovement = true;
-    this->ParachuteTrailParameterName = TEXT("Moving");
-    this->IsCosmeticPreview = false;
-    this->bIsEtherealBackgroundPreview = false;
-    this->TrailVFX = NULL;
-    this->TrailVFX2 = NULL;
-    this->ParachuteMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("ParachuteMesh0"));
-    this->TrailParticles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParachuteTrails0"));
-    this->CurrentGliderPlayerAnimSet = NULL;
-    this->bUsesDayPhaseChange = false;
+    CurrentGliderOpenSound = NULL;
+    CurrentGliderCloseSound = NULL;
+    FortLayeredAudioComponentGlider = CreateDefaultSubobject<UFortGliderAudioComponent>(TEXT("FortLayeredAudioComponent0"));
+    PlayerPawn = NULL;
+    ParachuteItemDef = NULL;
+    ParachuteHiddenAnimFinishTime = 1;
+    bGliderFullyDeployed = false;
+    bChuteOpened = false;
+    bIsFrontEndPreview = false;
+    bParachuteVisible = false;
+    bActivateTrailOnRationalMovement = true;
+    ParachuteTrailParameterName = TEXT("Moving");
+    IsCosmeticPreview = false;
+    bIsEtherealBackgroundPreview = false;
+    TrailVFX = NULL;
+    TrailVFX2 = NULL;
+    ParachuteMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("ParachuteMesh0"));
+    TrailParticles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParachuteTrails0"));
+    CurrentGliderPlayerAnimSet = NULL;
+    bUsesDayPhaseChange = false;
 }
 

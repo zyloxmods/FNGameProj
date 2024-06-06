@@ -9,6 +9,6 @@ UFortHelpItem* UFortHelpItem::GetItemWithID(const FName _ItemID) {
 }
 
 UFortHelpItem::UFortHelpItem() {
-    this->ItemType = EFortHelpItemType::Header;
+    ItemType = EFortHelpItemType::Header;
 }
 

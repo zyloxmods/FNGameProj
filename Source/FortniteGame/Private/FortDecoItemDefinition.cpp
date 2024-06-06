@@ -121,43 +121,44 @@ TSubclassOf<ABuildingActor> UFortDecoItemDefinition::GetBlueprintClass() const {
     return NULL;
 }
 
-UFortDecoItemDefinition::UFortDecoItemDefinition() {
-    this->bReplacesEditedSurfaces = false;
-    this->bCanBePlacedOnEnemyBuildings = false;
-    this->GridSnapSizeOverride = 1;
-    this->RotationAngleIncrement = 1;
-    this->GridPlacementOffset = 1;
-    this->PlacementTypeOverride = EPlacementType::None;
-    this->bForceIgnoreOverlapTest = false;
-    this->bIgnoreCollisionWithVehicles = true;
-    this->bForceIgnoreBuildingOverlaps = false;
-    this->bIgnoreCollisionWithCriticalActors = false;
-    this->bIgnoreCollisionWithStructuralGridActors = false;
-    this->bIgnoreCollisionWithFortStaticMeshActors = false;
-    this->bIgnoreCollisionWithPlayers = true;
-    this->bDisableLocationLerpWhilePlacing = true;
-    this->bDisableRotationLerpWhilePlacing = true;
-    this->bDisableScaleLerpWhilePlacing = true;
-    this->bAttachWhenPlacing = true;
-    this->bAllowPlacementOnWorldGeometry = true;
-    this->bAllowPlacementOnBuildings = true;
-    this->bDestroySmallObjectsWhenPlaced = false;
-    this->bSetOwningPlayerForSpawnedDeco = false;
-    this->bSetSpawnedDecoOnPlayerTeam = true;
-    this->bConsumeWhenPlaced = true;
-    this->bCancelToolWhenPlaced = true;
-    this->bCancelAbilityOnUnequip = true;
-    this->bRequiresPlayerPlaceableAttachmentActors = false;
-    this->bUseRelativeCameraRotation = true;
-    this->bAllowStairsWhenAttachingToFloors = false;
-    this->bSnapYawToHorizontalAxes = false;
-    this->bAllowAnyFloorPlacement = false;
-    this->bRequiresPermissionToEditWorld = false;
-    this->bAutoCreateAttachmentBuilding = false;
-    this->AutoCreateAttachmentBuildingResourceType = EFortResourceType::None;
-    this->MaxPlacementDistance = 0;
-    this->bReplacesDecoOnAttachment = false;
-    this->bShowPreviewOnPressHeld = false;
-    this->ItemType = EFortItemType::Deco;
+UFortDecoItemDefinition::UFortDecoItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bReplacesEditedSurfaces = false;
+    bCanBePlacedOnEnemyBuildings = false;
+    GridSnapSizeOverride = 1;
+    RotationAngleIncrement = 1;
+    GridPlacementOffset = 1;
+    PlacementTypeOverride = EPlacementType::None;
+    bForceIgnoreOverlapTest = false;
+    bIgnoreCollisionWithVehicles = true;
+    bForceIgnoreBuildingOverlaps = false;
+    bIgnoreCollisionWithCriticalActors = false;
+    bIgnoreCollisionWithStructuralGridActors = false;
+    bIgnoreCollisionWithFortStaticMeshActors = false;
+    bIgnoreCollisionWithPlayers = true;
+    bDisableLocationLerpWhilePlacing = true;
+    bDisableRotationLerpWhilePlacing = true;
+    bDisableScaleLerpWhilePlacing = true;
+    bAttachWhenPlacing = true;
+    bAllowPlacementOnWorldGeometry = true;
+    bAllowPlacementOnBuildings = true;
+    bDestroySmallObjectsWhenPlaced = false;
+    bSetOwningPlayerForSpawnedDeco = false;
+    bSetSpawnedDecoOnPlayerTeam = true;
+    bConsumeWhenPlaced = true;
+    bCancelToolWhenPlaced = true;
+    bCancelAbilityOnUnequip = true;
+    bRequiresPlayerPlaceableAttachmentActors = false;
+    bUseRelativeCameraRotation = true;
+    bAllowStairsWhenAttachingToFloors = false;
+    bSnapYawToHorizontalAxes = false;
+    bAllowAnyFloorPlacement = false;
+    bRequiresPermissionToEditWorld = false;
+    bAutoCreateAttachmentBuilding = false;
+    AutoCreateAttachmentBuildingResourceType = EFortResourceType::None;
+    MaxPlacementDistance = 0;
+    bReplacesDecoOnAttachment = false;
+    bShowPreviewOnPressHeld = false;
+    ItemType = EFortItemType::Deco;
 }
 

@@ -2,9 +2,9 @@
 #include "Components/BoxComponent.h"
 
 AFortGameplayTagBuildingActor::AFortGameplayTagBuildingActor() {
-    this->XGridCells = 0;
-    this->YGridCells = 0;
-    this->ZGridCells = 0;
-    this->BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComp"));
+    XGridCells = 0;
+    YGridCells = 0;
+    ZGridCells = 0;
+    BoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComp"));
 }
 

@@ -5,10 +5,10 @@ int32 UFortQuotaItem::GetCurrentQuotaAmount() {
 }
 
 UFortQuotaItem::UFortQuotaItem() {
-    this->current_value = 1;
-    this->last_mod_time = TEXT("UNINITIALIZED");
-    this->units_per_minute_recharge = 0;
-    this->max_quota = 0;
-    this->recharge_delay_minutes = 0;
+    current_value = 1;
+    last_mod_time = TEXT("UNINITIALIZED");
+    units_per_minute_recharge = 0;
+    max_quota = 0;
+    recharge_delay_minutes = 0;
 }
 

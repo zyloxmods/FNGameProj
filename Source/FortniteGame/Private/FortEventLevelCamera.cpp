@@ -7,6 +7,6 @@ void AFortEventLevelCamera::StartLevelTransition(bool bStreamIn) {
 }
 
 AFortEventLevelCamera::AFortEventLevelCamera() {
-    this->bRestorLastSelected = false;
+    bRestorLastSelected = false;
 }
 

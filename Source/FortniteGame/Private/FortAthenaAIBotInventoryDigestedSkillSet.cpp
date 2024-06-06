@@ -1,8 +1,8 @@
 #include "FortAthenaAIBotInventoryDigestedSkillSet.h"
 
 UFortAthenaAIBotInventoryDigestedSkillSet::UFortAthenaAIBotInventoryDigestedSkillSet() {
-    this->DefaultWeaponSelectionDistance = 1;
-    this->DefaultWeaponSelectionDistanceDeviation = 1;
-    this->bHasInfiniteResources = false;
+    DefaultWeaponSelectionDistance = 1;
+    DefaultWeaponSelectionDistanceDeviation = 1;
+    bHasInfiniteResources = false;
 }
 

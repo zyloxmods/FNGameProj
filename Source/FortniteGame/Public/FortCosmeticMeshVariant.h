@@ -9,7 +9,7 @@ class UFortCosmeticMeshVariant : public UFortCosmeticVariantBackedByArray {
     GENERATED_BODY()
 public:
 protected:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, TitleProperty="VariantName"))
     TArray<FMeshVariantDef> MeshOptions;
     
 public:

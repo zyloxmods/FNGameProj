@@ -1,8 +1,8 @@
 #include "AudioAnalysisParameterScalar.h"
 
 FAudioAnalysisParameterScalar::FAudioAnalysisParameterScalar() {
-    this->MaterialCollection = NULL;
-    this->NiagaraCollection = NULL;
-    this->bDebug = false;
+    MaterialCollection = NULL;
+    NiagaraCollection = NULL;
+    bDebug = false;
 }
 

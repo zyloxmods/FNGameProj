@@ -10,8 +10,8 @@ void UFortAIComponent_Telemetry::OnDidDamage(AActor* DamagedActor, float Damage,
 }
 
 UFortAIComponent_Telemetry::UFortAIComponent_Telemetry() {
-    this->PossessedPawn = NULL;
-    this->CachedAIController = NULL;
-    this->DeathInstigator = NULL;
+    PossessedPawn = NULL;
+    CachedAIController = NULL;
+    DeathInstigator = NULL;
 }
 

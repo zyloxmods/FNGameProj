@@ -43,16 +43,16 @@ void ABuildingGameplayActorPetrol::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 ABuildingGameplayActorPetrol::ABuildingGameplayActorPetrol() {
-    this->SphereCollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("NewUSphereComponent"));
-    this->MaterialInstanceDynamic = NULL;
-    this->SplatterDecal = CreateDefaultSubobject<UDecalComponent>(TEXT("NewSplatterDecalComponent"));
-    this->DamageEffectClass = NULL;
-    this->IgniteRange = 1;
-    this->DamageRange = 1;
-    this->CurrentSize = 1;
-    this->bIgnited = false;
-    this->ProjectileCount = 0;
-    this->SplatterMinDecalWidth = 1;
-    this->SplatterMaxDecalWidth = 1;
+    SphereCollisionComponent = CreateDefaultSubobject<USphereComponent>(TEXT("NewUSphereComponent"));
+    MaterialInstanceDynamic = NULL;
+    SplatterDecal = CreateDefaultSubobject<UDecalComponent>(TEXT("NewSplatterDecalComponent"));
+    DamageEffectClass = NULL;
+    IgniteRange = 1;
+    DamageRange = 1;
+    CurrentSize = 1;
+    bIgnited = false;
+    ProjectileCount = 0;
+    SplatterMinDecalWidth = 1;
+    SplatterMaxDecalWidth = 1;
 }
 

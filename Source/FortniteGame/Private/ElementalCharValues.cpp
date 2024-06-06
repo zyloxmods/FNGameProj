@@ -1,6 +1,6 @@
 #include "ElementalCharValues.h"
 
 FElementalCharValues::FElementalCharValues() {
-    this->ElectricalCharEmissive = 1;
+    ElectricalCharEmissive = 1;
 }
 

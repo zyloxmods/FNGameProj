@@ -1,5 +1,6 @@
 #include "FortBuildingItemDefinition.h"
 
-UFortBuildingItemDefinition::UFortBuildingItemDefinition() {
+UFortBuildingItemDefinition::UFortBuildingItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

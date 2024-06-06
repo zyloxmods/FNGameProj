@@ -2,6 +2,6 @@
 
 
 AFortEmotePreviewActor::AFortEmotePreviewActor() {
-    this->PreviewingEmote = NULL;
+    PreviewingEmote = NULL;
 }
 

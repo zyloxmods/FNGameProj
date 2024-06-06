@@ -7,7 +7,7 @@ void UFortToggledCursorModeParams::BreakParams(AFortPlayerController*& _PlayerTh
 }
 
 UFortToggledCursorModeParams::UFortToggledCursorModeParams() {
-    this->PlayerThatToggledCursorMode = NULL;
-    this->bInCursorMode = false;
+    PlayerThatToggledCursorMode = NULL;
+    bInCursorMode = false;
 }
 

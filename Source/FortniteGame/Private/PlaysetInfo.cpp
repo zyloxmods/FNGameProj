@@ -1,7 +1,7 @@
 #include "PlaysetInfo.h"
 
 FPlaysetInfo::FPlaysetInfo() {
-    this->Playset = NULL;
-    this->FlashCounter = 0;
+    Playset = NULL;
+    FlashCounter = 0;
 }
 

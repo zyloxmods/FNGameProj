@@ -4,14 +4,14 @@ void UFortAthenaAIBotEvaluator_EvasiveManeuvers::OnMoveCompleted(FAIRequestID Re
 }
 
 UFortAthenaAIBotEvaluator_EvasiveManeuvers::UFortAthenaAIBotEvaluator_EvasiveManeuvers() {
-    this->CrouchExecutionStatusName = TEXT("AIEvaluator_Crouch_ExecutionStatus");
-    this->JumpExecutionStatusName = TEXT("AIEvaluator_Jump_ExecutionStatus");
-    this->DodgeName = TEXT("AIEvaluator_Dodge_ExecutionStatus");
-    this->DestinationKeyName = TEXT("AIEvaluator_Dodge_Destination");
-    this->bDoCrouching = true;
-    this->bDoDodging = true;
-    this->bDoJumping = true;
-    this->bDoJumpingDistanceCheck = true;
-    this->CacheEMDigestedSkillSet = NULL;
+    CrouchExecutionStatusName = TEXT("AIEvaluator_Crouch_ExecutionStatus");
+    JumpExecutionStatusName = TEXT("AIEvaluator_Jump_ExecutionStatus");
+    DodgeName = TEXT("AIEvaluator_Dodge_ExecutionStatus");
+    DestinationKeyName = TEXT("AIEvaluator_Dodge_Destination");
+    bDoCrouching = true;
+    bDoDodging = true;
+    bDoJumping = true;
+    bDoJumpingDistanceCheck = true;
+    CacheEMDigestedSkillSet = NULL;
 }
 

@@ -37,7 +37,7 @@ private:
     TArray<FFortItemQuantityPair> ItemRewards;
     
 public:
-    UFortBadgeItemDefinition();
+    UFortBadgeItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     int32 GetUIMissionPointsOffset() const;
     

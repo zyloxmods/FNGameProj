@@ -109,18 +109,18 @@ void UFortHeldObjectComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 UFortHeldObjectComponent::UFortHeldObjectComponent() {
-    this->PlayerAttachmentScaleRule = EAttachmentRule::KeepRelative;
-    this->bBlocksVehicleDriverSeat = true;
-    this->bApplyAngularImpulseOnThrow = false;
-    this->PlacementPreviewClass = NULL;
-    this->bUsePreviewMaterial = false;
-    this->bCollisionBlockedByPawns = false;
-    this->bDroppedFromWeaponSwap = false;
-    this->HeldObjectState = EHeldObjectState::Unheld;
-    this->OwningPawn = NULL;
-    this->ProjectileMovementComponent = NULL;
-    this->PhysicsObjectComponent = NULL;
-    this->ReferenceMeshComponent = NULL;
-    this->PlacementPreviewActor = NULL;
+    PlayerAttachmentScaleRule = EAttachmentRule::KeepRelative;
+    bBlocksVehicleDriverSeat = true;
+    bApplyAngularImpulseOnThrow = false;
+    PlacementPreviewClass = NULL;
+    bUsePreviewMaterial = false;
+    bCollisionBlockedByPawns = false;
+    bDroppedFromWeaponSwap = false;
+    HeldObjectState = EHeldObjectState::Unheld;
+    OwningPawn = NULL;
+    ProjectileMovementComponent = NULL;
+    PhysicsObjectComponent = NULL;
+    ReferenceMeshComponent = NULL;
+    PlacementPreviewActor = NULL;
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable, MinimalAPI)
 class UFortFeatItemDefinition : public UFortQuestItemDefinition {
     GENERATED_BODY()
 public:
-    UFortFeatItemDefinition();
+    UFortFeatItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

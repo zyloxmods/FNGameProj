@@ -1,7 +1,7 @@
 #include "MinigameScoreboardBucketRow.h"
 
 FMinigameScoreboardBucketRow::FMinigameScoreboardBucketRow() {
-    this->Standing = 0;
-    this->BucketIndex = 0;
+    Standing = 0;
+    BucketIndex = 0;
 }
 

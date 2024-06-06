@@ -10,32 +10,32 @@ FVector AFortItemPreviewOnPawnActor::GetPawnLocation() const {
 }
 
 AFortItemPreviewOnPawnActor::AFortItemPreviewOnPawnActor() {
-    this->ZoomedInBodyCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInBodyCameraComponent"));
-    this->ZoomedOutTallBodyCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutTallBodyCameraComponent"));
-    this->ZoomedInTallBodyCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInTallBodyCameraComponent"));
-    this->ZoomedOutBackpackCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutBackpackCameraComponent"));
-    this->ZoomedInBackpackCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInBackpackCameraComponent"));
-    this->ZoomedOutSkydiveCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutSkydiveCameraComponent"));
-    this->ZoomedInSkydiveCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInSkydiveCameraComponent"));
-    this->ZoomedOutEmoteCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutEmoteCameraComponent"));
-    this->ZoomedInEmoteCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInEmoteCameraComponent"));
-    this->ZoomedOutEmoteHighCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutEmoteHighCameraComponent"));
-    this->ZoomedInEmoteHighCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInEmoteHighCameraComponent"));
-    this->ZoomedOutEmoticonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutEmoticonCameraComponent"));
-    this->ZoomedInEmoticonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInEmoticonCameraComponent"));
-    this->ZoomedOutPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutPickaxeCameraComponent"));
-    this->ZoomedInPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInPickaxeCameraComponent"));
-    this->ZoomedOutDualPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutDualPickaxeCameraComponent"));
-    this->ZoomedInDualPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInDualPickaxeCameraComponent"));
-    this->ZoomedOutPersonalGliderCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutPersonalGliderCameraComponent"));
-    this->ZoomedInPersonalGliderCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInPersonalGliderCameraComponent"));
-    this->HeroPawnComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("HeroPawnComponent"));
-    this->EquippedWeapon = NULL;
-    this->EquippedParachute = NULL;
-    this->ContrailGlideVerticalVelocity = 1;
-    this->ContrailDiveVerticalVelocity = 1;
-    this->EmotePlayDelay = 1;
-    this->EmoteFXDuration = 1;
-    this->FXSystemComponent = NULL;
+    ZoomedInBodyCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInBodyCameraComponent"));
+    ZoomedOutTallBodyCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutTallBodyCameraComponent"));
+    ZoomedInTallBodyCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInTallBodyCameraComponent"));
+    ZoomedOutBackpackCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutBackpackCameraComponent"));
+    ZoomedInBackpackCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInBackpackCameraComponent"));
+    ZoomedOutSkydiveCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutSkydiveCameraComponent"));
+    ZoomedInSkydiveCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInSkydiveCameraComponent"));
+    ZoomedOutEmoteCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutEmoteCameraComponent"));
+    ZoomedInEmoteCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInEmoteCameraComponent"));
+    ZoomedOutEmoteHighCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutEmoteHighCameraComponent"));
+    ZoomedInEmoteHighCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInEmoteHighCameraComponent"));
+    ZoomedOutEmoticonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutEmoticonCameraComponent"));
+    ZoomedInEmoticonCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInEmoticonCameraComponent"));
+    ZoomedOutPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutPickaxeCameraComponent"));
+    ZoomedInPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInPickaxeCameraComponent"));
+    ZoomedOutDualPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutDualPickaxeCameraComponent"));
+    ZoomedInDualPickaxeCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInDualPickaxeCameraComponent"));
+    ZoomedOutPersonalGliderCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutPersonalGliderCameraComponent"));
+    ZoomedInPersonalGliderCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInPersonalGliderCameraComponent"));
+    HeroPawnComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("HeroPawnComponent"));
+    EquippedWeapon = NULL;
+    EquippedParachute = NULL;
+    ContrailGlideVerticalVelocity = 1;
+    ContrailDiveVerticalVelocity = 1;
+    EmotePlayDelay = 1;
+    EmoteFXDuration = 1;
+    FXSystemComponent = NULL;
 }
 

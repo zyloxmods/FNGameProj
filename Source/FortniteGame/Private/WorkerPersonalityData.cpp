@@ -1,6 +1,6 @@
 #include "WorkerPersonalityData.h"
 
 FWorkerPersonalityData::FWorkerPersonalityData() {
-    this->SelectionWeight = 0;
+    SelectionWeight = 0;
 }
 

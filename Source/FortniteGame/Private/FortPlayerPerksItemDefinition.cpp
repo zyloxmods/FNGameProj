@@ -1,6 +1,7 @@
 #include "FortPlayerPerksItemDefinition.h"
 
-UFortPlayerPerksItemDefinition::UFortPlayerPerksItemDefinition() {
-    this->XpCurve = NULL;
+UFortPlayerPerksItemDefinition::UFortPlayerPerksItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    XpCurve = NULL;
 }
 

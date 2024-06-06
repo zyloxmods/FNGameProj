@@ -13,15 +13,15 @@ void AFortAthenaTutorial_Move::OnBeginOverlapCrouchEndTriggerBox(AActor* Overlap
 }
 
 AFortAthenaTutorial_Move::AFortAthenaTutorial_Move() {
-    this->JumpMarker = NULL;
-    this->JumpArrows = NULL;
-    this->JumpTriggerBox = NULL;
-    this->JumpEndTriggerBox = NULL;
-    this->CrouchMarker = NULL;
-    this->CrouchArrows = NULL;
-    this->CrouchTriggerBox = NULL;
-    this->CrouchEndTriggerBox = NULL;
-    this->BlockerJump = NULL;
-    this->BlockerCrouch = NULL;
+    JumpMarker = NULL;
+    JumpArrows = NULL;
+    JumpTriggerBox = NULL;
+    JumpEndTriggerBox = NULL;
+    CrouchMarker = NULL;
+    CrouchArrows = NULL;
+    CrouchTriggerBox = NULL;
+    CrouchEndTriggerBox = NULL;
+    BlockerJump = NULL;
+    BlockerCrouch = NULL;
 }
 

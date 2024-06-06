@@ -26,7 +26,7 @@ void UFortUINotification::ClearNotification_Implementation() {
 }
 
 UFortUINotification::UFortUINotification() {
-    this->bHasAction = false;
-    this->NotificationType = EFortNotificationType::Default;
+    bHasAction = false;
+    NotificationType = EFortNotificationType::Default;
 }
 

@@ -1,6 +1,6 @@
 #include "PerkItemSet.h"
 
 FPerkItemSet::FPerkItemSet() {
-    this->Time = 1;
+    Time = 1;
 }
 

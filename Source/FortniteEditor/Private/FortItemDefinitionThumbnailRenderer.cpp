@@ -27,7 +27,7 @@ void UFortItemDefinitionThumbnailRenderer::Draw(UObject* Object, int32 X, int32 
 		TSoftObjectPtr<UTexture2D> IconToDraw;
 		TSoftObjectPtr<UTexture2D> LargePreviewImage  = Item->GetLargePreviewImage();
 		TSoftObjectPtr<UTexture2D> SmallPreviewImage  = Item->GetSmallPreviewImage();
-		TSoftObjectPtr<UTexture2D> WidePreviewImage  = Item->WidePreviewImage;
+		TSoftObjectPtr<UTexture2D> WidePreviewImage  = Item->WidePreviewImage.LoadSynchronous();
 		if (LargePreviewImage != nullptr)
 		{
 			IconToDraw = LargePreviewImage;
@@ -47,10 +47,10 @@ void UFortItemDefinitionThumbnailRenderer::Draw(UObject* Object, int32 X, int32 
 		TSoftObjectPtr<UTexture2D> IconToDraw;
 		TSoftObjectPtr<UTexture2D> LargePreviewImageHero  = CharItem->HeroDefinition->GetLargePreviewImage();
 		TSoftObjectPtr<UTexture2D> SmallPreviewImageHero  = CharItem->HeroDefinition->GetSmallPreviewImage();
-		TSoftObjectPtr<UTexture2D> WidePreviewImageHero  = CharItem->HeroDefinition->WidePreviewImage;
+		TSoftObjectPtr<UTexture2D> WidePreviewImageHero  = CharItem->HeroDefinition->WidePreviewImage.LoadSynchronous();
 		TSoftObjectPtr<UTexture2D> LargePreviewImage  = CharItem->GetLargePreviewImage();
 		TSoftObjectPtr<UTexture2D> SmallPreviewImage  = CharItem->GetSmallPreviewImage();
-		TSoftObjectPtr<UTexture2D> WidePreviewImage  = CharItem->WidePreviewImage;
+		TSoftObjectPtr<UTexture2D> WidePreviewImage  = CharItem->WidePreviewImage.LoadSynchronous();
 		if (CharItem->HeroDefinition != nullptr)
 		{
 			if (LargePreviewImageHero != nullptr)
@@ -89,10 +89,10 @@ void UFortItemDefinitionThumbnailRenderer::Draw(UObject* Object, int32 X, int32 
 		TSoftObjectPtr<UTexture2D> IconToDraw;
 		TSoftObjectPtr<UTexture2D> LargePreviewImageWID  = PickaxeItem->WeaponDefinition->GetLargePreviewImage();
 		TSoftObjectPtr<UTexture2D> SmallPreviewImageWID  = PickaxeItem->WeaponDefinition->GetSmallPreviewImage();
-		TSoftObjectPtr<UTexture2D> WidePreviewImageWID  = PickaxeItem->WeaponDefinition->WidePreviewImage;
+		TSoftObjectPtr<UTexture2D> WidePreviewImageWID  = PickaxeItem->WeaponDefinition->WidePreviewImage.LoadSynchronous();
 		TSoftObjectPtr<UTexture2D> LargePreviewImage  = PickaxeItem->GetLargePreviewImage();
 		TSoftObjectPtr<UTexture2D> SmallPreviewImage  = PickaxeItem->GetSmallPreviewImage();
-		TSoftObjectPtr<UTexture2D> WidePreviewImage  = PickaxeItem->WidePreviewImage;
+		TSoftObjectPtr<UTexture2D> WidePreviewImage  = PickaxeItem->WidePreviewImage.LoadSynchronous();
 		if (PickaxeItem->WeaponDefinition != nullptr)
 		{
 			if (LargePreviewImageWID != nullptr)

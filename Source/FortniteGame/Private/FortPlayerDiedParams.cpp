@@ -7,8 +7,8 @@ void UFortPlayerDiedParams::BreakParams(AFortPlayerPawn*& _KilledPlayer, AContro
 }
 
 UFortPlayerDiedParams::UFortPlayerDiedParams() {
-    this->KilledPlayer = NULL;
-    this->KilledPlayerController = NULL;
-    this->KilledBy = NULL;
+    KilledPlayer = NULL;
+    KilledPlayerController = NULL;
+    KilledBy = NULL;
 }
 

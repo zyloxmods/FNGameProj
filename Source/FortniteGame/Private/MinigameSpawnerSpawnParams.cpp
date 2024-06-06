@@ -1,7 +1,7 @@
 #include "MinigameSpawnerSpawnParams.h"
 
 FMinigameSpawnerSpawnParams::FMinigameSpawnerSpawnParams() {
-    this->PickupQuantity = 0;
-    this->PickupInstigatorHandle = 0;
+    PickupQuantity = 0;
+    PickupInstigatorHandle = 0;
 }
 

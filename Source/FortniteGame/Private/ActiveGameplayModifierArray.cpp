@@ -1,7 +1,7 @@
 #include "ActiveGameplayModifierArray.h"
 
 FActiveGameplayModifierArray::FActiveGameplayModifierArray() {
-    this->ModifierHandleGenerator = 0;
-    this->bSupportRuntimeModifierShutdown = false;
+    ModifierHandleGenerator = 0;
+    bSupportRuntimeModifierShutdown = false;
 }
 

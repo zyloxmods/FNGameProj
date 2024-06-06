@@ -1,25 +1,25 @@
 #include "SharedRepMovement.h"
 
 FSharedRepMovement::FSharedRepMovement() {
-    this->RepTimeStamp = 1;
-    this->TurretYaw = 1;
-    this->TurretPitch = 1;
-    this->RemoteViewData32 = 0;
-    this->AccelerationPack = 0;
-    this->AccelerationZPack = 0;
-    this->RepMovementMode = 0;
-    this->JumpFlashCountPacked = 0;
-    this->LandingFlashCountPacked = 0;
-    this->CurrentMovementStyle = EFortMovementStyle::Running;
-    this->bProxyIsJumpForceApplied = false;
-    this->bIsCrouched = false;
-    this->bIsSkydiving = false;
-    this->bIsParachuteOpen = false;
-    this->bIsSlopeSliding = false;
-    this->bIsProxySimulationTimedOut = false;
-    this->bIsTargeting = false;
-    this->bIsWaterJump = false;
-    this->bIsWaterSprintBoost = false;
-    this->bIsWaterSprintBoostPending = false;
+    RepTimeStamp = 1;
+    TurretYaw = 1;
+    TurretPitch = 1;
+    RemoteViewData32 = 0;
+    AccelerationPack = 0;
+    AccelerationZPack = 0;
+    RepMovementMode = 0;
+    JumpFlashCountPacked = 0;
+    LandingFlashCountPacked = 0;
+    CurrentMovementStyle = EFortMovementStyle::Running;
+    bProxyIsJumpForceApplied = false;
+    bIsCrouched = false;
+    bIsSkydiving = false;
+    bIsParachuteOpen = false;
+    bIsSlopeSliding = false;
+    bIsProxySimulationTimedOut = false;
+    bIsTargeting = false;
+    bIsWaterJump = false;
+    bIsWaterSprintBoost = false;
+    bIsWaterSprintBoostPending = false;
 }
 

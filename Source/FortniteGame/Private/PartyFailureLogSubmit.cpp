@@ -1,8 +1,8 @@
 #include "PartyFailureLogSubmit.h"
 
 FPartyFailureLogSubmit::FPartyFailureLogSubmit() {
-    this->bSubmitLogs = false;
-    this->bSubmitSecondaryLogs = false;
-    this->LogTailKb = 0;
+    bSubmitLogs = false;
+    bSubmitSecondaryLogs = false;
+    LogTailKb = 0;
 }
 

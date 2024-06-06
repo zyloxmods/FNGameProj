@@ -9,7 +9,7 @@ class UFortCosmeticScriptedActionVariant : public UFortCosmeticVariantBackedByAr
     GENERATED_BODY()
 public:
 protected:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, TitleProperty="VariantName"))
     TArray<FScriptedActionVariantDef> ActionOptions;
     
 public:

@@ -1,7 +1,7 @@
 #include "FortCollectedResourceItem.h"
 
 UFortCollectedResourceItem::UFortCollectedResourceItem() {
-    this->stored_value = 4294967295;
-    this->PayoutResource = NULL;
+    stored_value = 4294967295;
+    PayoutResource = NULL;
 }
 

@@ -1,9 +1,9 @@
 #include "SpawnMachineRepData.h"
 
 FSpawnMachineRepData::FSpawnMachineRepData() {
-    this->SpawnMachineState = ESpawnMachineState::Default;
-    this->SpawnMachineCooldownStartTime = 1;
-    this->SpawnMachineCooldownEndTime = 1;
-    this->SpawnMachineRepDataHandle = 0;
+    SpawnMachineState = ESpawnMachineState::Default;
+    SpawnMachineCooldownStartTime = 1;
+    SpawnMachineCooldownEndTime = 1;
+    SpawnMachineRepDataHandle = 0;
 }
 

@@ -40,19 +40,19 @@ void UFortVehicleSeatWeaponComponent::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 UFortVehicleSeatWeaponComponent::UFortVehicleSeatWeaponComponent() {
-    this->ActiveSeatIdx = 0;
-    this->CachedWeapon = NULL;
-    this->CachedWeaponDef = NULL;
-    this->CachedOverheatMax = 1;
-    this->CachedOverheatValue = 1;
-    this->OverheatValueRepped = 1;
-    this->bWeaponEquipped = false;
-    this->bUseVehicleOrientationForShootingCone = false;
-    this->bControlledByMultipleSeats = false;
-    this->ActorBase = NULL;
-    this->bReadyToSleep = true;
-    this->ShotsFired = 0;
-    this->bWeaponOverheatDataHasBeenCached = false;
-    this->bSaveAndRestoreWeaponData = false;
+    ActiveSeatIdx = 0;
+    CachedWeapon = NULL;
+    CachedWeaponDef = NULL;
+    CachedOverheatMax = 1;
+    CachedOverheatValue = 1;
+    OverheatValueRepped = 1;
+    bWeaponEquipped = false;
+    bUseVehicleOrientationForShootingCone = false;
+    bControlledByMultipleSeats = false;
+    ActorBase = NULL;
+    bReadyToSleep = true;
+    ShotsFired = 0;
+    bWeaponOverheatDataHasBeenCached = false;
+    bSaveAndRestoreWeaponData = false;
 }
 

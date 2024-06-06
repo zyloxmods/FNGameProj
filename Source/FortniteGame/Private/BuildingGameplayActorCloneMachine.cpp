@@ -24,11 +24,11 @@ void ABuildingGameplayActorCloneMachine::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 ABuildingGameplayActorCloneMachine::ABuildingGameplayActorCloneMachine() {
-    this->CloneLocation = NULL;
-    this->bRespawnCompleteAndSelfDestructing = false;
-    this->OnDamagedNotifyPlayerSound = NULL;
-    this->OnDestroyedNotifyPlayerSound = NULL;
-    this->ActivationServerEndTime = 1;
-    this->RespawnServerEndTime = 1;
+    CloneLocation = NULL;
+    bRespawnCompleteAndSelfDestructing = false;
+    OnDamagedNotifyPlayerSound = NULL;
+    OnDestroyedNotifyPlayerSound = NULL;
+    ActivationServerEndTime = 1;
+    RespawnServerEndTime = 1;
 }
 

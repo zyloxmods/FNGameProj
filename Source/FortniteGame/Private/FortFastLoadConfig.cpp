@@ -1,16 +1,16 @@
 #include "FortFastLoadConfig.h"
 
 UFortFastLoadConfig::UFortFastLoadConfig() {
-    this->bDisableStreamInBuildings = true;
-    this->bDisableStartupAIDirector = true;
-    this->bDisableUpgradePlayerBuildingClasses = true;
-    this->bUseMinimalPlayerBuildingClasses = true;
-    this->bDisableStartingMissions = true;
-    this->bUseFastLoadDefaultInventory = true;
-    this->bDisableNavAgentCostData = true;
-    this->bDisableThreatVisualsManager = true;
-    this->bDisablePreLoadAssets = true;
-    this->bDisablePreLoadLootAssets = true;
-    this->bDisableLoadStateClientAthena = true;
+    bDisableStreamInBuildings = true;
+    bDisableStartupAIDirector = true;
+    bDisableUpgradePlayerBuildingClasses = true;
+    bUseMinimalPlayerBuildingClasses = true;
+    bDisableStartingMissions = true;
+    bUseFastLoadDefaultInventory = true;
+    bDisableNavAgentCostData = true;
+    bDisableThreatVisualsManager = true;
+    bDisablePreLoadAssets = true;
+    bDisablePreLoadLootAssets = true;
+    bDisableLoadStateClientAthena = true;
 }
 

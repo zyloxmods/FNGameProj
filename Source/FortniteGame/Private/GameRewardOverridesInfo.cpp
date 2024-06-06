@@ -1,6 +1,6 @@
 #include "GameRewardOverridesInfo.h"
 
 FGameRewardOverridesInfo::FGameRewardOverridesInfo() {
-    this->LootLevel = 0;
+    LootLevel = 0;
 }
 

@@ -1,6 +1,6 @@
 #include "AthenaLoadingScreenPreviewPanel.h"
 
 UAthenaLoadingScreenPreviewPanel::UAthenaLoadingScreenPreviewPanel() {
-    this->LoadingScreenDefinition = NULL;
+    LoadingScreenDefinition = NULL;
 }
 

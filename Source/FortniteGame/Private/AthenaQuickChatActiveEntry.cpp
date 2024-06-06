@@ -1,7 +1,7 @@
 #include "AthenaQuickChatActiveEntry.h"
 
 FAthenaQuickChatActiveEntry::FAthenaQuickChatActiveEntry() {
-    this->ContextValue = 0;
-    this->Index = 0;
+    ContextValue = 0;
+    Index = 0;
 }
 

@@ -1,5 +1,6 @@
 #include "AthenaItemWrapDefinition.h"
 
-UAthenaItemWrapDefinition::UAthenaItemWrapDefinition() {
+UAthenaItemWrapDefinition::UAthenaItemWrapDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

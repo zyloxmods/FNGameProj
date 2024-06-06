@@ -1,11 +1,11 @@
 #include "FortMinigameStatQuery.h"
 
 FFortMinigameStatQuery::FFortMinigameStatQuery() {
-    this->Stat = NULL;
-    this->Scope = EFortMinigameStatScope::Group;
-    this->bAnyMatch = false;
-    this->Operation = EFortMinigameStatOperation::Equal;
-    this->Value = 0;
-    this->bStaticCount = false;
+    Stat = NULL;
+    Scope = EFortMinigameStatScope::Group;
+    bAnyMatch = false;
+    Operation = EFortMinigameStatOperation::Equal;
+    Value = 0;
+    bStaticCount = false;
 }
 

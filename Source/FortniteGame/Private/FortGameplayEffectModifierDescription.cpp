@@ -1,9 +1,9 @@
 #include "FortGameplayEffectModifierDescription.h"
 
 FFortGameplayEffectModifierDescription::FFortGameplayEffectModifierDescription() {
-    this->bIsBuff = false;
-    this->MagnitudeFormat = EFortAttributeDisplay::BasicInt;
-    this->DisplayType = EFortStatDisplayType::Category;
-    this->Magnitude = 1;
+    bIsBuff = false;
+    MagnitudeFormat = EFortAttributeDisplay::BasicInt;
+    DisplayType = EFortStatDisplayType::Category;
+    Magnitude = 1;
 }
 

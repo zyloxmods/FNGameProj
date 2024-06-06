@@ -1,11 +1,11 @@
 #include "CustomCharacterPartAnimInstance_ZeppelinBody.h"
 
 UCustomCharacterPartAnimInstance_ZeppelinBody::UCustomCharacterPartAnimInstance_ZeppelinBody() {
-    this->ThighLeftAlpha = 1;
-    this->ThighRightAlpha = 1;
-    this->CalfLeftAlpha = 1;
-    this->CalfRightAlpha = 1;
-    this->BeltAlpha = 1;
-    this->FrontEndIdleAlpha = 1;
+    ThighLeftAlpha = 1;
+    ThighRightAlpha = 1;
+    CalfLeftAlpha = 1;
+    CalfRightAlpha = 1;
+    BeltAlpha = 1;
+    FrontEndIdleAlpha = 1;
 }
 

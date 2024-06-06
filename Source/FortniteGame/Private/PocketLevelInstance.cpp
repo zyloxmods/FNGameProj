@@ -7,9 +7,9 @@ void UPocketLevelInstance::HandlePocketLevelLoaded() {
 }
 
 UPocketLevelInstance::UPocketLevelInstance() {
-    this->PocketLevel = NULL;
-    this->World = NULL;
-    this->LocalPlayer = NULL;
-    this->StreamingPocketLevel = NULL;
+    PocketLevel = NULL;
+    World = NULL;
+    LocalPlayer = NULL;
+    StreamingPocketLevel = NULL;
 }
 

@@ -1,8 +1,8 @@
 #include "ReplayEliminationEventInfo.h"
 
 FReplayEliminationEventInfo::FReplayEliminationEventInfo() {
-    this->DeathCause = EDeathCause::OutsideSafeZone;
-    this->bDBNO = false;
-    this->EventType = EFortReplayEventType::Elimination;
+    DeathCause = EDeathCause::OutsideSafeZone;
+    bDBNO = false;
+    EventType = EFortReplayEventType::Elimination;
 }
 

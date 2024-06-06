@@ -1,6 +1,6 @@
 #include "FortDailyRewardsNotification.h"
 
 FFortDailyRewardsNotification::FFortDailyRewardsNotification() {
-    this->DaysLoggedIn = 0;
+    DaysLoggedIn = 0;
 }
 

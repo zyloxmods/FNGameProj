@@ -4,8 +4,8 @@ void UAthenaMatchmakingPlayButtonBase::HandleCurrentlyViewedAccountInfoChanged(F
 }
 
 UAthenaMatchmakingPlayButtonBase::UAthenaMatchmakingPlayButtonBase() {
-    this->Mobile_FTUE_In = NULL;
-    this->Mobile_FTUE_Idle = NULL;
-    this->Mobile_FTUE_Anim = NULL;
+    Mobile_FTUE_In = NULL;
+    Mobile_FTUE_Idle = NULL;
+    Mobile_FTUE_Anim = NULL;
 }
 

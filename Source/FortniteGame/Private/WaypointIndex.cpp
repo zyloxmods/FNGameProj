@@ -1,7 +1,7 @@
 #include "WaypointIndex.h"
 
 FWaypointIndex::FWaypointIndex() {
-    this->WaypointGroup = 0;
-    this->WaypointIndex = 0;
+    WaypointGroup = 0;
+    WaypointIndex = 0;
 }
 

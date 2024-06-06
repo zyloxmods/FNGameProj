@@ -9,6 +9,6 @@ void AFortClientAnnouncement_ZoneModifiers::GetLifetimeReplicatedProps(TArray<FL
 }
 
 AFortClientAnnouncement_ZoneModifiers::AFortClientAnnouncement_ZoneModifiers() {
-    this->DisplayTime = 1;
+    DisplayTime = 1;
 }
 

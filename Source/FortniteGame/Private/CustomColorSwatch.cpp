@@ -1,7 +1,7 @@
 #include "CustomColorSwatch.h"
 
 UCustomColorSwatch::UCustomColorSwatch() {
-    this->GenderPermitted = EFortCustomGender::Both;
-    this->ColorSwatchType = EColorSwatchType::EColorSwatchType_NumTypes;
+    GenderPermitted = EFortCustomGender::Both;
+    ColorSwatchType = EColorSwatchType::EColorSwatchType_Accessory;
 }
 

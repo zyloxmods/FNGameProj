@@ -194,20 +194,20 @@ void UFortQuestManager::AppendTemporaryRelevancyTags(const FGameplayTagContainer
 }
 
 UFortQuestManager::UFortQuestManager() {
-    this->DamageEventFlushDelaySeconds = 1;
-    this->BuildingEventFlushDelaySeconds = 1;
-    this->bDoQuestStateLogging = false;
-    this->bBlockBRXPWhenDead = true;
-    this->bFlatCurrentQuestsSearch = false;
-    this->bBlockQuestCompletion = false;
-    this->bBlockAthenaQuestCompletion = false;
-    this->bBlockStWQuestCompletion = false;
-    this->bBlockXPEventsInAnyAAState = false;
-    this->bBlockAthenaQuestCompletionInCompetitive = false;
-    this->bBlockPartyAssist = true;
-    this->bUseSquadForPartyAssist = true;
-    this->bBlockAthenaFeatsCompletionInCompetitive = true;
-    this->bAllowAthenaMCPNotifyOnComplete = true;
-    this->QuestMapMode = EQuestMapScreenMode::Invalid;
+    DamageEventFlushDelaySeconds = 1;
+    BuildingEventFlushDelaySeconds = 1;
+    bDoQuestStateLogging = false;
+    bBlockBRXPWhenDead = true;
+    bFlatCurrentQuestsSearch = false;
+    bBlockQuestCompletion = false;
+    bBlockAthenaQuestCompletion = false;
+    bBlockStWQuestCompletion = false;
+    bBlockXPEventsInAnyAAState = false;
+    bBlockAthenaQuestCompletionInCompetitive = false;
+    bBlockPartyAssist = true;
+    bUseSquadForPartyAssist = true;
+    bBlockAthenaFeatsCompletionInCompetitive = true;
+    bAllowAthenaMCPNotifyOnComplete = true;
+    QuestMapMode = EQuestMapScreenMode::Invalid;
 }
 

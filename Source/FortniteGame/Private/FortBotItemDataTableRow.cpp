@@ -1,6 +1,6 @@
 #include "FortBotItemDataTableRow.h"
 
 FFortBotItemDataTableRow::FFortBotItemDataTableRow() {
-    this->bIsSupported = false;
+    bIsSupported = false;
 }
 

@@ -10,9 +10,9 @@ void UFortAudioShapeComponent::Disable(float FadeTime) {
 }
 
 UFortAudioShapeComponent::UFortAudioShapeComponent() {
-    this->UpdateFrequencyInaudible = 1;
-    this->UpdateFrequencyAudible = 1;
-    this->MaxDistanceOffset = 1;
-    this->SmoothingDistance = 1;
+    UpdateFrequencyInaudible = 1;
+    UpdateFrequencyAudible = 1;
+    MaxDistanceOffset = 1;
+    SmoothingDistance = 1;
 }
 

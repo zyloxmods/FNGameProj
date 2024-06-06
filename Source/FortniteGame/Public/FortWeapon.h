@@ -1,9 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
-#include "UObject/NoExportTypes.h"
+#include "EFortWeaponSoundState.h"
 #include "GameFramework/Actor.h"
 #include "Engine/DataTable.h"
 #include "Engine/EngineTypes.h"
@@ -244,32 +242,32 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     USoundBase* OutOfAmmoSound;
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* ReloadSounds[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortReloadFXState"))
+    USoundBase* ReloadSounds[EFortReloadFXState::Max_None];
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     USoundBase* PrimaryFireSound1P;
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* PrimaryFireSound[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortWeaponSoundState"))
+    USoundBase* PrimaryFireSound[EFortWeaponSoundState::Max_None];
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     USoundBase* PrimaryFireStopSound1P;
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* PrimaryFireStopSound[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortWeaponSoundState"))
+    USoundBase* PrimaryFireStopSound[EFortWeaponSoundState::Max_None];
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* SecondaryFireSound[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortWeaponSoundState"))
+    USoundBase* SecondaryFireSound[EFortWeaponSoundState::Max_None];
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* SecondaryFireStopSound[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortWeaponSoundState"))
+    USoundBase* SecondaryFireStopSound[EFortWeaponSoundState::Max_None];
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* ChargeFireSound1P[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortWeaponChargeStateForFireFX"))
+    USoundBase* ChargeFireSound1P[EFortWeaponChargeStateForFireFX::Max_None];
     
-    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true))
-    USoundBase* ChargeFireSound[3];
+    UPROPERTY(EditAnywhere, meta=(AllowPrivateAccess=true, ArraySizeEnum="EFortWeaponChargeStateForFireFX"))
+    USoundBase* ChargeFireSound[EFortWeaponChargeStateForFireFX::Max_None];
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     USoundBase* TargetingStartSound;

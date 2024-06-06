@@ -22,7 +22,7 @@ private:
     FName ActorName;
     
 public:
-    UFortPlaceableActorItemDefinition();
+    UFortPlaceableActorItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FName GetActorName() const;
     

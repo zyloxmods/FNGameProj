@@ -18,8 +18,8 @@ int32 AFortAthenaMutator_RoundHelper::GetCurrentRound() const {
 }
 
 AFortAthenaMutator_RoundHelper::AFortAthenaMutator_RoundHelper() {
-    this->NumOfRounds = 0;
-    this->NumOfTeams = 0;
-    this->StartingTeamNum = 3;
+    NumOfRounds = 0;
+    NumOfTeams = 0;
+    StartingTeamNum = 3;
 }
 

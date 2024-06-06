@@ -8,13 +8,13 @@ float ACustomCharacterPartModifier_SlurpLegendsBody::GetCurrentShieldPercentage(
 }
 
 ACustomCharacterPartModifier_SlurpLegendsBody::ACustomCharacterPartModifier_SlurpLegendsBody() {
-    this->TransformBurst = NULL;
-    this->LoopingDrip = NULL;
-    this->InterpolationRate = 1;
-    this->ShieldOverride = 1;
-    this->bUseShieldOverride = false;
-    this->AssociatedPS = NULL;
-    this->AssociatedAnimInstance = NULL;
-    this->BodyMID = NULL;
+    TransformBurst = NULL;
+    LoopingDrip = NULL;
+    InterpolationRate = 1;
+    ShieldOverride = 1;
+    bUseShieldOverride = false;
+    AssociatedPS = NULL;
+    AssociatedAnimInstance = NULL;
+    BodyMID = NULL;
 }
 

@@ -1,6 +1,7 @@
 #include "AthenaPetCarrierItemDefinition.h"
 
-UAthenaPetCarrierItemDefinition::UAthenaPetCarrierItemDefinition() {
-    this->DefaultPet = NULL;
+UAthenaPetCarrierItemDefinition::UAthenaPetCarrierItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    DefaultPet = NULL;
 }
 

@@ -1,7 +1,7 @@
 #include "ProfileGoCommand.h"
 
 FProfileGoCommand::FProfileGoCommand() {
-    this->Wait = 1;
-    this->CopyOutputToGameLog = false;
+    Wait = 1;
+    CopyOutputToGameLog = false;
 }
 

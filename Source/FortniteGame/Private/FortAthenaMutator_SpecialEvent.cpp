@@ -186,19 +186,19 @@ void AFortAthenaMutator_SpecialEvent::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 AFortAthenaMutator_SpecialEvent::AFortAthenaMutator_SpecialEvent() {
-    this->bPlayersAreInvincible = false;
-    this->MinimumScoreBumpForAutomadeGoal = 0;
-    this->ScoreBrackets.AddDefaulted(11);
-    this->bEnforceInfiniteWarmup = false;
-    this->EventAircraft = NULL;
-    this->EventAircraftClass = NULL;
-    this->bDisableHUD = false;
-    this->GameResumed = 0;
-    this->bParachutesDisabled = false;
-    this->bPawnsOnlyRelevantToOwner = false;
-    this->bCanStreamBuildingFoundationsIn = true;
-    this->AllPlayerTeleportedCount = 0;
-    this->WeightForContainerLootRoll = 1;
-    this->SpecialEventsInputComponent = NULL;
+    bPlayersAreInvincible = false;
+    MinimumScoreBumpForAutomadeGoal = 0;
+    ScoreBrackets.AddDefaulted(11);
+    bEnforceInfiniteWarmup = false;
+    EventAircraft = NULL;
+    EventAircraftClass = NULL;
+    bDisableHUD = false;
+    GameResumed = 0;
+    bParachutesDisabled = false;
+    bPawnsOnlyRelevantToOwner = false;
+    bCanStreamBuildingFoundationsIn = true;
+    AllPlayerTeleportedCount = 0;
+    WeightForContainerLootRoll = 1;
+    SpecialEventsInputComponent = NULL;
 }
 

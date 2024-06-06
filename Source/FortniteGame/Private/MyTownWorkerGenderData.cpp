@@ -1,7 +1,7 @@
 #include "MyTownWorkerGenderData.h"
 
 FMyTownWorkerGenderData::FMyTownWorkerGenderData() {
-    this->Gender = EFortCustomGender::Invalid;
-    this->SelectionWeight = 0;
+    Gender = EFortCustomGender::Invalid;
+    SelectionWeight = 0;
 }
 

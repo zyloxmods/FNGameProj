@@ -1,10 +1,10 @@
 #include "FortGameplayCueCameraShakeInfo.h"
 
 FFortGameplayCueCameraShakeInfo::FFortGameplayCueCameraShakeInfo() {
-    this->Shake = NULL;
-    this->Scale = 1;
-    this->bAlwaysPlayOnTarget = false;
-    this->bCalculateUserPlaySpaceRotationFromLocation = false;
-    this->bCancelOnRemove = false;
+    Shake = NULL;
+    Scale = 1;
+    bAlwaysPlayOnTarget = false;
+    bCalculateUserPlaySpaceRotationFromLocation = false;
+    bCancelOnRemove = false;
 }
 

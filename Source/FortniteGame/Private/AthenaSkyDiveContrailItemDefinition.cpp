@@ -4,8 +4,9 @@ TSoftObjectPtr<UFXSystemAsset> UAthenaSkyDiveContrailItemDefinition::GetContrail
     return NULL;
 }
 
-UAthenaSkyDiveContrailItemDefinition::UAthenaSkyDiveContrailItemDefinition() {
-    this->VelocityVectorParameterName = TEXT("User.FEVec");
-    this->ParaGlideLeanParameterName = TEXT("User.ParaGlideLeanAlpha");
+UAthenaSkyDiveContrailItemDefinition::UAthenaSkyDiveContrailItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    VelocityVectorParameterName = TEXT("User.FEVec");
+    ParaGlideLeanParameterName = TEXT("User.ParaGlideLeanAlpha");
 }
 

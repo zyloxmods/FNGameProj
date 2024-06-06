@@ -1,11 +1,11 @@
 #include "FortProjectilePetrol.h"
 
 AFortProjectilePetrol::AFortProjectilePetrol() {
-    this->FuelAmount = 1;
-    this->PetrolTemplate = NULL;
-    this->FortSplineGroundPathTemplate = NULL;
-    this->bImpacted = false;
-    this->MaxLifeSpanOnCollision = 1;
-    this->GroundSlopeAngleThreshold = 1;
+    FuelAmount = 1;
+    PetrolTemplate = NULL;
+    FortSplineGroundPathTemplate = NULL;
+    bImpacted = false;
+    MaxLifeSpanOnCollision = 1;
+    GroundSlopeAngleThreshold = 1;
 }
 

@@ -1,13 +1,13 @@
 #include "AIAssignmentInfo.h"
 
 FAIAssignmentInfo::FAIAssignmentInfo() {
-    this->TimeCurrentGoalWasChosen = 1;
-    this->TimeExitedLastAssignmentOfType[0] = 1;
-    this->TimeExitedLastAssignmentOfType[1] = 1;
-    this->TimeExitedLastAssignmentOfType[2] = 1;
-    this->TimeExitedLastAssignmentOfType[3] = 1;
-    this->bWaitingForQueryResponse = false;
-    this->bSuppressGoalUpdates = false;
-    this->bReportEnemyGoalSelection = false;
+    TimeCurrentGoalWasChosen = 1;
+    TimeExitedLastAssignmentOfType[0] = 1;
+    TimeExitedLastAssignmentOfType[1] = 1;
+    TimeExitedLastAssignmentOfType[2] = 1;
+    TimeExitedLastAssignmentOfType[3] = 1;
+    bWaitingForQueryResponse = false;
+    bSuppressGoalUpdates = false;
+    bReportEnemyGoalSelection = false;
 }
 

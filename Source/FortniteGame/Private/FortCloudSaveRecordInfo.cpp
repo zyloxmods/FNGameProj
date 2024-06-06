@@ -1,7 +1,7 @@
 #include "FortCloudSaveRecordInfo.h"
 
 FFortCloudSaveRecordInfo::FFortCloudSaveRecordInfo() {
-    this->RecordIndex = 0;
-    this->ArchiveNumber = 0;
+    RecordIndex = 0;
+    ArchiveNumber = 0;
 }
 

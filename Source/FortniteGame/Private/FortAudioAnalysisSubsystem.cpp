@@ -21,7 +21,7 @@ UFortAudioAnalysisSettings* UFortAudioAnalysisSubsystem::GetAnalysisSettings() c
 }
 
 UFortAudioAnalysisSubsystem::UFortAudioAnalysisSubsystem() {
-    this->AudioAnalysisSettings = NULL;
-    this->DebugWidget = NULL;
+    AudioAnalysisSettings = NULL;
+    DebugWidget = NULL;
 }
 

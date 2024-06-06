@@ -116,6 +116,6 @@ void UFortPartyContext::AcceptMcpFriendRequest(const FUniqueNetIdRepl& PlayerId)
 }
 
 UFortPartyContext::UFortPartyContext() {
-    this->LocalPlayerTeam = NULL;
+    LocalPlayerTeam = NULL;
 }
 

@@ -1,5 +1,6 @@
 #include "FortEventPurchaseTrackerItemDefinition.h"
 
-UFortEventPurchaseTrackerItemDefinition::UFortEventPurchaseTrackerItemDefinition() {
+UFortEventPurchaseTrackerItemDefinition::UFortEventPurchaseTrackerItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

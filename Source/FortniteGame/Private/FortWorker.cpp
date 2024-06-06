@@ -5,7 +5,7 @@ UFortWorkerType* UFortWorker::GetWorkerTypeBP() const {
 }
 
 UFortWorker::UFortWorker() {
-    this->building_slot_used = 0;
-    this->Gender = 0;
+    building_slot_used = 0;
+    Gender = 0;
 }
 

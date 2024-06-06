@@ -49,33 +49,33 @@ float UFortMovementComp_Character::GetFallingStartedZ() const {
 }
 
 UFortMovementComp_Character::UFortMovementComp_Character() {
-    this->LandHardSoundFallSpeedThreshold = 1;
-    this->LandSoundFallSpeedThreshold = 1;
-    this->PushBumpedPawnClass = NULL;
-    this->NetworkSmoothingVisibilityThreshold = 1;
-    this->NetworkSmoothingThrottleProxyUpdateForPawnLOD = 0;
-    this->NetworkSmoothingViewAngleThreshold = 1;
-    this->NetworkSmoothingViewAngleThresholdSmall = 1;
-    this->NetworkSmoothingNoThrottleWithinDistanceInMeters = 1;
-    this->PlayerLodRequiredForFloorCheckWhenRendered = 0;
-    this->AILodRequiredForFloorCheckWhenRendered = EFortAILODLevel::MIN;
-    this->VelocityBasedStrafeCurve = NULL;
-    this->VelocityBasedTurnCurve = NULL;
-    this->VelocityBasedBackupCurve = NULL;
-    this->bWasUsingVelocityBasedTurnCurve = false;
-    this->RotationYawRateToRestore = 1;
-    this->FallingSlopeSafeSlideAngleCached = 1;
-    this->FallingSlopeSafeSlideNormalZ = 1;
-    this->bComputeWaterSplineDataOnSimulatedMovement = false;
-    this->SkydivingMaxSmoothUpdateDistanceScale = 1;
-    this->SlideTimeUntilReset = 1;
-    this->SlideIfVelocityLessThanZ = 1;
-    this->GravityCeilingRelation = 0;
-    this->CurrentZiplineVelocityDirection = 1;
-    this->GracePeriodToConnectToZipline = 1;
-    this->FallingStartedZ = 1;
-    this->bTriggeredFallingFeedbackSinceLanded = false;
-    this->bUpdatesFloorWhenNotInFullSimulation = false;
-    this->bUpdatesFloorWhenNotInFullSimulationOnlyOnNetUpdate = false;
+    LandHardSoundFallSpeedThreshold = 1;
+    LandSoundFallSpeedThreshold = 1;
+    PushBumpedPawnClass = NULL;
+    NetworkSmoothingVisibilityThreshold = 1;
+    NetworkSmoothingThrottleProxyUpdateForPawnLOD = 0;
+    NetworkSmoothingViewAngleThreshold = 1;
+    NetworkSmoothingViewAngleThresholdSmall = 1;
+    NetworkSmoothingNoThrottleWithinDistanceInMeters = 1;
+    PlayerLodRequiredForFloorCheckWhenRendered = 0;
+    AILodRequiredForFloorCheckWhenRendered = EFortAILODLevel::MIN;
+    VelocityBasedStrafeCurve = NULL;
+    VelocityBasedTurnCurve = NULL;
+    VelocityBasedBackupCurve = NULL;
+    bWasUsingVelocityBasedTurnCurve = false;
+    RotationYawRateToRestore = 1;
+    FallingSlopeSafeSlideAngleCached = 1;
+    FallingSlopeSafeSlideNormalZ = 1;
+    bComputeWaterSplineDataOnSimulatedMovement = false;
+    SkydivingMaxSmoothUpdateDistanceScale = 1;
+    SlideTimeUntilReset = 1;
+    SlideIfVelocityLessThanZ = 1;
+    GravityCeilingRelation = 0;
+    CurrentZiplineVelocityDirection = 1;
+    GracePeriodToConnectToZipline = 1;
+    FallingStartedZ = 1;
+    bTriggeredFallingFeedbackSinceLanded = false;
+    bUpdatesFloorWhenNotInFullSimulation = false;
+    bUpdatesFloorWhenNotInFullSimulationOnlyOnNetUpdate = false;
 }
 

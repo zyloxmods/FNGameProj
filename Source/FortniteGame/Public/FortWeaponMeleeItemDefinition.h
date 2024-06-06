@@ -106,6 +106,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bCandyCaneKillReaction;
     
-    UFortWeaponMeleeItemDefinition();
+    UFortWeaponMeleeItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

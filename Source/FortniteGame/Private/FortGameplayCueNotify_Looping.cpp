@@ -15,18 +15,18 @@ bool AFortGameplayCueNotify_Looping::GetSpawnTransform(AActor* TargetActor, FNam
 }
 
 AFortGameplayCueNotify_Looping::AFortGameplayCueNotify_Looping() {
-    this->StartSound = NULL;
-    this->StopSound = NULL;
-    this->StartParticleSystem = NULL;
-    this->StopParticleSystem = NULL;
-    this->bStayAttached = true;
-    this->bSnapToAttachPointAndPreserveWorldRotation = false;
-    this->bUseHitResult = false;
-    this->bUseWeapon = false;
-    this->bIgnoreRotation = false;
-    this->PoolingMethod = EPSCPoolMethod::None;
-    this->bIsValid = true;
-    this->AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
-    this->ParticleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParticleSystemComponent"));
+    StartSound = NULL;
+    StopSound = NULL;
+    StartParticleSystem = NULL;
+    StopParticleSystem = NULL;
+    bStayAttached = true;
+    bSnapToAttachPointAndPreserveWorldRotation = false;
+    bUseHitResult = false;
+    bUseWeapon = false;
+    bIgnoreRotation = false;
+    PoolingMethod = EPSCPoolMethod::None;
+    bIsValid = true;
+    AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
+    ParticleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("ParticleSystemComponent"));
 }
 

@@ -14,13 +14,13 @@ void AFortAthenaTutorialManager::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortAthenaTutorialManager::AFortAthenaTutorialManager() {
-    this->bPlayTutorials = true;
-    this->InitialTutorial = NULL;
-    this->Athena_Tutorial_Spawn_Point = NULL;
-    this->ForceEnableDefensiveBuildingFlow = false;
-    this->CurrentTutorialIndex = 0;
-    this->GuidedTutorialTimeStart = 1;
-    this->CurrentTutorialStepTimeStart = 1;
-    this->TutorialHUD = NULL;
+    bPlayTutorials = true;
+    InitialTutorial = NULL;
+    Athena_Tutorial_Spawn_Point = NULL;
+    ForceEnableDefensiveBuildingFlow = false;
+    CurrentTutorialIndex = 0;
+    GuidedTutorialTimeStart = 1;
+    CurrentTutorialStepTimeStart = 1;
+    TutorialHUD = NULL;
 }
 

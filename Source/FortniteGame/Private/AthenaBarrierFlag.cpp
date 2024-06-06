@@ -31,7 +31,7 @@ void AAthenaBarrierFlag::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AAthenaBarrierFlag::AAthenaBarrierFlag() {
-    this->CurrentState = EBarrierFlagState::FlagUp;
-    this->FoodTeam = EBarrierFoodTeam::Burger;
+    CurrentState = EBarrierFlagState::FlagUp;
+    FoodTeam = EBarrierFoodTeam::Burger;
 }
 

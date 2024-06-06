@@ -26,6 +26,6 @@ void UFortCreativeCostComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 UFortCreativeCostComponent::UFortCreativeCostComponent() {
-    this->bShowCostInInteractionIndicator = true;
+    bShowCostInInteractionIndicator = true;
 }
 

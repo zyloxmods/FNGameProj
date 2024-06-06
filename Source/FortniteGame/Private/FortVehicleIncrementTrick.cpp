@@ -1,10 +1,10 @@
 #include "FortVehicleIncrementTrick.h"
 
 FFortVehicleIncrementTrick::FFortVehicleIncrementTrick() {
-    this->HalfSpinsNeeded = 0;
-    this->BaseScore = 0;
-    this->Repeats = 0;
-    this->RepeatsHalfSpinsPerTrick = 0;
-    this->MultiplierIncrement = 0;
+    HalfSpinsNeeded = 0;
+    BaseScore = 0;
+    Repeats = 0;
+    RepeatsHalfSpinsPerTrick = 0;
+    MultiplierIncrement = 0;
 }
 

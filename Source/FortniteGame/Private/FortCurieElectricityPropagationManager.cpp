@@ -1,15 +1,15 @@
 #include "FortCurieElectricityPropagationManager.h"
 
 UFortCurieElectricityPropagationManager::UFortCurieElectricityPropagationManager() {
-    this->DefaultPropagationDepthLimit = 0;
-    this->PropagationTimeDelay = 1;
-    this->bIncludeGridActorsFromOctree = false;
-    this->bAllowNonConductiveGridInterrupt = false;
-    this->bApplyToNonConductiveNeighbors = true;
-    this->ElectricGridWarningLimit = 0;
-    this->ElectricGridHighWaterMark = 0;
-    this->ApplicationMapDefaultSlack = 0;
-    this->NeighborCacheDefaultSlack = 0;
-    this->MaxDeltaTimePerFrame = 1;
+    DefaultPropagationDepthLimit = 0;
+    PropagationTimeDelay = 1;
+    bIncludeGridActorsFromOctree = false;
+    bAllowNonConductiveGridInterrupt = false;
+    bApplyToNonConductiveNeighbors = true;
+    ElectricGridWarningLimit = 0;
+    ElectricGridHighWaterMark = 0;
+    ApplicationMapDefaultSlack = 0;
+    NeighborCacheDefaultSlack = 0;
+    MaxDeltaTimePerFrame = 1;
 }
 

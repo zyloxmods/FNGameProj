@@ -1,8 +1,8 @@
 #include "TrackConnectorMeshConfig.h"
 
 FTrackConnectorMeshConfig::FTrackConnectorMeshConfig() {
-    this->InclineSideA = ETrackIncline::NoNeighbor;
-    this->InclineSideB = ETrackIncline::NoNeighbor;
-    this->Mesh = NULL;
+    InclineSideA = ETrackIncline::NoNeighbor;
+    InclineSideB = ETrackIncline::NoNeighbor;
+    Mesh = NULL;
 }
 

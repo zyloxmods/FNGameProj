@@ -1,12 +1,12 @@
 #include "FortInGameLeaderboardPlacementData.h"
 
 FFortInGameLeaderboardPlacementData::FFortInGameLeaderboardPlacementData() {
-    this->Score = 0;
-    this->ScoreToWin = 0;
-    this->TeamNum = 0;
-    this->Placement = 0;
-    this->SortIndex = 0;
-    this->bRepresentsLocalPlayer = false;
-    this->PctToWin = 1;
+    Score = 0;
+    ScoreToWin = 0;
+    TeamNum = 0;
+    Placement = 0;
+    SortIndex = 0;
+    bRepresentsLocalPlayer = false;
+    PctToWin = 1;
 }
 

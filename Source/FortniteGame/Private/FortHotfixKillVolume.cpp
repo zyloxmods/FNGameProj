@@ -8,6 +8,6 @@ void AFortHotfixKillVolume::CopyToClipboard() {
 }
 
 AFortHotfixKillVolume::AFortHotfixKillVolume() {
-    this->KillBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("KillBox0"));
+    KillBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("KillBox0"));
 }
 

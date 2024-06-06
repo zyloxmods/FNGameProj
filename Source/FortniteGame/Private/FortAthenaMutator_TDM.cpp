@@ -7,7 +7,7 @@ void AFortAthenaMutator_TDM::OnGamePhaseStepChanged(const TScriptInterface<IFort
 }
 
 AFortAthenaMutator_TDM::AFortAthenaMutator_TDM() {
-    this->bIsTwoTeamTDM = false;
-    this->bShouldGrantInventoryToNewPlayers = true;
+    bIsTwoTeamTDM = false;
+    bShouldGrantInventoryToNewPlayers = true;
 }
 

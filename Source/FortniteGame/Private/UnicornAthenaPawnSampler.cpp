@@ -4,6 +4,6 @@ void UUnicornAthenaPawnSampler::HandlePawnDBNOChanged(AFortPawn* FortPawn, bool 
 }
 
 UUnicornAthenaPawnSampler::UUnicornAthenaPawnSampler() {
-    this->bShouldListenOutToDBNOEvent = true;
+    bShouldListenOutToDBNOEvent = true;
 }
 

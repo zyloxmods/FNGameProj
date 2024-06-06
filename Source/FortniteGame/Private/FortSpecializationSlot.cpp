@@ -1,6 +1,6 @@
 #include "FortSpecializationSlot.h"
 
 FFortSpecializationSlot::FFortSpecializationSlot() {
-    this->MinimumHeroLevel = 0;
+    MinimumHeroLevel = 0;
 }
 

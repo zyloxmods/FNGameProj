@@ -1,11 +1,11 @@
 #include "FortBounceData.h"
 
 FFortBounceData::FFortBounceData() {
-    this->StartTime = 1;
-    this->BounceValue = 1;
-    this->Radius = 1;
-    this->BounceType = EFortBounceType::Hit;
-    this->bLocalInstigator = false;
-    this->bIsPlaying = false;
+    StartTime = 1;
+    BounceValue = 1;
+    Radius = 1;
+    BounceType = EFortBounceType::Hit;
+    bLocalInstigator = false;
+    bIsPlaying = false;
 }
 

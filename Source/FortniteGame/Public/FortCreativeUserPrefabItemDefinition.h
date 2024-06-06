@@ -12,6 +12,6 @@ protected:
     FName UserSaveContentName;
     
 public:
-    UFortCreativeUserPrefabItemDefinition();
+    UFortCreativeUserPrefabItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

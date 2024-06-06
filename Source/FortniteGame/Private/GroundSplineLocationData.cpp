@@ -1,9 +1,9 @@
 #include "GroundSplineLocationData.h"
 
 FGroundSplineLocationData::FGroundSplineLocationData() {
-    this->DistanceAlongSpline = 1;
-    this->SplineComponent = NULL;
-    this->TeleportRequestNum = 0;
-    this->Timestamp = 1;
+    DistanceAlongSpline = 1;
+    SplineComponent = NULL;
+    TeleportRequestNum = 0;
+    Timestamp = 1;
 }
 

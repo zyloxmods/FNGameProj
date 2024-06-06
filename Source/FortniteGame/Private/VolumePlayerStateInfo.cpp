@@ -1,6 +1,6 @@
 #include "VolumePlayerStateInfo.h"
 
 FVolumePlayerStateInfo::FVolumePlayerStateInfo() {
-    this->Volume = NULL;
+    Volume = NULL;
 }
 

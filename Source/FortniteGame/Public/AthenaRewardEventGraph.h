@@ -43,6 +43,6 @@ private:
     UAthenaRewardEventGraphCosmeticItemDefinition* CosmeticRandomnes;
     
 public:
-    UAthenaRewardEventGraph();
+    UAthenaRewardEventGraph(const FObjectInitializer& ObjectInitializer);
 };
 

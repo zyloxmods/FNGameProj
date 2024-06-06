@@ -6,11 +6,11 @@ bool AFortPlayerStartCreative::IsClaimedByPlayer(FUniqueNetIdRepl UniqueId) cons
 }
 
 AFortPlayerStartCreative::AFortPlayerStartCreative() : APlayerStart(FObjectInitializer::Get()) {
-    this->PortalIndex = 0;
-    this->ApplicableTeam = 1;
-    this->bUseAsIslandStart = false;
-    this->PriorityGroup = 0;
-    this->bIsEnabled = true;
-    this->CreativeLinkComponent = CreateDefaultSubobject<UFortCreativeVolumeLinkComponent>(TEXT("CreativeLinkComponent"));
+    PortalIndex = 0;
+    ApplicableTeam = 1;
+    bUseAsIslandStart = false;
+    PriorityGroup = 0;
+    bIsEnabled = true;
+    CreativeLinkComponent = CreateDefaultSubobject<UFortCreativeVolumeLinkComponent>(TEXT("CreativeLinkComponent"));
 }
 

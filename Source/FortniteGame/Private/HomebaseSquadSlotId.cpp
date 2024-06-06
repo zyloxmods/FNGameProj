@@ -1,6 +1,6 @@
 #include "HomebaseSquadSlotId.h"
 
 FHomebaseSquadSlotId::FHomebaseSquadSlotId() {
-    this->SquadSlotIndex = 0;
+    SquadSlotIndex = 0;
 }
 

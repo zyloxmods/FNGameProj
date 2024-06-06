@@ -72,7 +72,7 @@ protected:
     FGameplayTagContainer TagsWhichIndicateEmoteParent;
     
 public:
-    UFortMontageItemDefinitionBase();
+    UFortMontageItemDefinitionBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool ShouldPlayRandomSectionByName() const;
     

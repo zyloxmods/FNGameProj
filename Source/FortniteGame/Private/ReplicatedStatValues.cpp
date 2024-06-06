@@ -1,7 +1,7 @@
 #include "ReplicatedStatValues.h"
 
 FReplicatedStatValues::FReplicatedStatValues() {
-    this->StatValue = 0;
-    this->ScoreValue = 0;
+    StatValue = 0;
+    ScoreValue = 0;
 }
 

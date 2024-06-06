@@ -1,7 +1,7 @@
 #include "SimpleMetricInformation.h"
 
 FSimpleMetricInformation::FSimpleMetricInformation() {
-    this->NormalizedGroupBudgetValue = 1;
-    this->GroupTotalBudget = 0;
+    NormalizedGroupBudgetValue = 1;
+    GroupTotalBudget = 0;
 }
 

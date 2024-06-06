@@ -34,7 +34,7 @@ private:
     uint8 bImplicitlyNotBrowsable: 1;
     
 public:
-    UFortPlaysetPropItemDefinition();
+    UFortPlaysetPropItemDefinition(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

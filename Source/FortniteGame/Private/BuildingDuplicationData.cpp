@@ -1,10 +1,10 @@
 #include "BuildingDuplicationData.h"
 
 FBuildingDuplicationData::FBuildingDuplicationData() {
-    this->ClassData = NULL;
-    this->TextureData[0] = NULL;
-    this->TextureData[1] = NULL;
-    this->TextureData[2] = NULL;
-    this->TextureData[3] = NULL;
+    ClassData = NULL;
+    TextureData[0] = NULL;
+    TextureData[1] = NULL;
+    TextureData[2] = NULL;
+    TextureData[3] = NULL;
 }
 

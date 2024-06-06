@@ -1,7 +1,7 @@
 #include "FortQuestObjectiveCompletion.h"
 
 FFortQuestObjectiveCompletion::FFortQuestObjectiveCompletion() {
-    this->Count = 0;
-    this->TimestampOffset = 0;
+    Count = 0;
+    TimestampOffset = 0;
 }
 

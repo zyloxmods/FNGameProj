@@ -1,9 +1,9 @@
 #include "FortHelpAdditionalContent.h"
 
 FFortHelpAdditionalContent::FFortHelpAdditionalContent() {
-    this->ContentLocation = EFortHelpContentLocation::Top;
-    this->ShowAdditionalImage = false;
-    this->ShowAdditionalWidget = false;
-    this->WidgetToDisplay = NULL;
+    ContentLocation = EFortHelpContentLocation::Top;
+    ShowAdditionalImage = false;
+    ShowAdditionalWidget = false;
+    WidgetToDisplay = NULL;
 }
 

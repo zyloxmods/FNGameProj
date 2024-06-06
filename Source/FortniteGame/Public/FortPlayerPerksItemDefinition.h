@@ -26,6 +26,6 @@ private:
     TArray<FTechCurrentLevelCap> LevelCaps;
     
 public:
-    UFortPlayerPerksItemDefinition();
+    UFortPlayerPerksItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

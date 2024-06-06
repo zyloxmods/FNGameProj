@@ -15,8 +15,8 @@ void AFortAthenaMutator_Traverse::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 AFortAthenaMutator_Traverse::AFortAthenaMutator_Traverse() {
-    this->CurrentPointIndex = 0;
-    this->TraversePointClass = NULL;
-    this->BoundsXYSplineClass = NULL;
+    CurrentPointIndex = 0;
+    TraversePointClass = NULL;
+    BoundsXYSplineClass = NULL;
 }
 

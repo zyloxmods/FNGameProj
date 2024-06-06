@@ -21,7 +21,7 @@ protected:
     TSet<UAudioComponent*> TemporarilyHeldAudioComponents;
     
 public:
-    UAthenaShoutItemDefinition();
+    UAthenaShoutItemDefinition(const FObjectInitializer& ObjectInitializer);
 protected:
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContext"))
     void SpawnSoundComponent(TSoftObjectPtr<USoundBase> OverrideSound, USceneComponent* Component, FVector LocationAt, UAudioComponent*& SpawnedComponent, UObject* WorldContext);

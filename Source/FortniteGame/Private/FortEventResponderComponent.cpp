@@ -4,7 +4,7 @@ void UFortEventResponderComponent::OnMeshNetworkReady(EMeshNetworkNodeType NodeT
 }
 
 UFortEventResponderComponent::UFortEventResponderComponent() {
-    this->bServerRespondToEvents = true;
-    this->bClientRespondToEvents = true;
+    bServerRespondToEvents = true;
+    bClientRespondToEvents = true;
 }
 

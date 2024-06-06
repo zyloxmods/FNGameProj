@@ -1,9 +1,9 @@
 #include "AthenaAwardGroup.h"
 
 FAthenaAwardGroup::FAthenaAwardGroup() {
-    this->RewardSource = ERewardSource::Invalid;
-    this->Score = 0;
-    this->SeasonXp = 1;
-    this->BookXp = 0;
+    RewardSource = ERewardSource::Invalid;
+    Score = 0;
+    SeasonXp = 1;
+    BookXp = 0;
 }
 

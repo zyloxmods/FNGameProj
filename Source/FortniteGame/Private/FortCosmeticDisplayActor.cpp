@@ -5,9 +5,9 @@
 
 
 AFortCosmeticDisplayActor::AFortCosmeticDisplayActor() {
-    this->CustomizationCosmeticDefinition = NULL;
-    this->PreviewActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("PreviewActor"));
-    this->SkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
-    this->bApplyLightingOverrideToChildren = false;
+    CustomizationCosmeticDefinition = NULL;
+    PreviewActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("PreviewActor"));
+    SkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMesh"));
+    bApplyLightingOverrideToChildren = false;
 }
 

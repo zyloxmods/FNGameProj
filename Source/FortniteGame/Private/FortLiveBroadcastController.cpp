@@ -23,7 +23,7 @@ bool AFortLiveBroadcastController::CanStartBattleBus() {
 }
 
 AFortLiveBroadcastController::AFortLiveBroadcastController() {
-    this->BroadcastPostProcessingActorClass = NULL;
-    this->SquadMarkerActorClass = NULL;
+    BroadcastPostProcessingActorClass = NULL;
+    SquadMarkerActorClass = NULL;
 }
 

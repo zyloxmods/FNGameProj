@@ -1,6 +1,7 @@
 #pragma once
 #include "CoreMinimal.h"
 #include "Animation/AnimNotifies/AnimNotifyState.h"
+#include "Components/AudioComponent.h"
 #include "FortAnimNotifyState_EmoteSound.generated.h"
 
 class USoundBase;
@@ -18,7 +19,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bPrimarySound;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(VisibleAnywhere, meta=(AllowPrivateAccess=true))
     FName SoundName;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -26,7 +27,11 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool CopyrightedAudio;
-    
+
+#if WITH_EDITORONLY_DATA
+    UPROPERTY(Transient, BlueprintReadOnly)
+    UAudioComponent* PreviewComp = nullptr;
+#endif
     UFortAnimNotifyState_EmoteSound();
     virtual void NotifyBegin(class USkeletalMeshComponent * MeshComp, class UAnimSequenceBase * Animation, float TotalDuration) override;
 };

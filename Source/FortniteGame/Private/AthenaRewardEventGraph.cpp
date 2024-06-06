@@ -1,8 +1,9 @@
 #include "AthenaRewardEventGraph.h"
 
-UAthenaRewardEventGraph::UAthenaRewardEventGraph() {
-    this->bRewardKeysInternally = false;
-    this->CosmeticRandomnes = NULL;
-    this->ItemType = EFortItemType::AthenaRewardGraph;
+UAthenaRewardEventGraph::UAthenaRewardEventGraph(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bRewardKeysInternally = false;
+    CosmeticRandomnes = NULL;
+    ItemType = EFortItemType::AthenaRewardGraph;
 }
 

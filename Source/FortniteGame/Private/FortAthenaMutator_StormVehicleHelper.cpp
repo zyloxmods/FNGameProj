@@ -4,7 +4,7 @@ void AFortAthenaMutator_StormVehicleHelper::OnPlaylistDataLoaded(FName PlaylistN
 }
 
 AFortAthenaMutator_StormVehicleHelper::AFortAthenaMutator_StormVehicleHelper() {
-    this->EventName = TEXT("FSGA01");
-    this->WallHeight = 1;
+    EventName = TEXT("FSGA01");
+    WallHeight = 1;
 }
 

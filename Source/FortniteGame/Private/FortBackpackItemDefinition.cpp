@@ -1,5 +1,6 @@
 #include "FortBackpackItemDefinition.h"
 
-UFortBackpackItemDefinition::UFortBackpackItemDefinition() {
+UFortBackpackItemDefinition::UFortBackpackItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

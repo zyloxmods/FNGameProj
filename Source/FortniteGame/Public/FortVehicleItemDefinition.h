@@ -50,6 +50,6 @@ protected:
     TSoftObjectPtr<USkeletalMesh> PreviewSkeletalMesh;
     
 public:
-    UFortVehicleItemDefinition();
+    UFortVehicleItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

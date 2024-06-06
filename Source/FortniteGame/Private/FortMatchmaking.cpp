@@ -2,11 +2,11 @@
 #include "FortPartyBeaconClient.h"
 
 UFortMatchmaking::UFortMatchmaking() {
-    this->ReservationBeaconClientClass = AFortPartyBeaconClient::StaticClass();
-    this->ReservationBeaconClient = NULL;
-    this->LobbyBeaconClient = NULL;
-    this->ControllerId = 0;
-    this->Matchmaking = NULL;
-    this->LastMatchmakingPrivacyConfiguration = EFortMatchmakingPrivacyConfiguration::UserPartyConfigured;
+    ReservationBeaconClientClass = AFortPartyBeaconClient::StaticClass();
+    ReservationBeaconClient = NULL;
+    LobbyBeaconClient = NULL;
+    ControllerId = 0;
+    Matchmaking = NULL;
+    LastMatchmakingPrivacyConfiguration = EFortMatchmakingPrivacyConfiguration::UserPartyConfigured;
 }
 

@@ -1,5 +1,6 @@
 #include "FortItemCacheItemDefinition.h"
 
-UFortItemCacheItemDefinition::UFortItemCacheItemDefinition() {
+UFortItemCacheItemDefinition::UFortItemCacheItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

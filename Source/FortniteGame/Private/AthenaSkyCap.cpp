@@ -15,6 +15,6 @@ void AAthenaSkyCap::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 }
 
 AAthenaSkyCap::AAthenaSkyCap() {
-    this->SkyCapState = ESkyCapState::Hidden;
+    SkyCapState = ESkyCapState::Hidden;
 }
 

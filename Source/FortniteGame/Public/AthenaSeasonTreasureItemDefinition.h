@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaSeasonTreasureItemDefinition : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaSeasonTreasureItemDefinition();
+    UAthenaSeasonTreasureItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

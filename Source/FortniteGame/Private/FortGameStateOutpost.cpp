@@ -22,13 +22,13 @@ void AFortGameStateOutpost::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortGameStateOutpost::AFortGameStateOutpost() {
-    this->bOutpostDefenseActive = false;
-    this->bWargameActive = false;
-    this->StormShieldDefenseType = EStormShieldDefense::NotSSD;
-    this->bOutpostStatusAllowsMissionStart = false;
-    this->IronCityLowestPlayerAccountLevel = 0;
-    this->IronCityMinPowerLevel = 1;
-    this->IronCityMaxPowerLevel = 1;
-    this->PlayerWeaponSkillLevel = 1;
+    bOutpostDefenseActive = false;
+    bWargameActive = false;
+    StormShieldDefenseType = EStormShieldDefense::NotSSD;
+    bOutpostStatusAllowsMissionStart = false;
+    IronCityLowestPlayerAccountLevel = 0;
+    IronCityMinPowerLevel = 1;
+    IronCityMaxPowerLevel = 1;
+    PlayerWeaponSkillLevel = 1;
 }
 

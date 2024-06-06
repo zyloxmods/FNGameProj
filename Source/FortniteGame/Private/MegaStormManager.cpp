@@ -1,13 +1,13 @@
 #include "MegaStormManager.h"
 
 AMegaStormManager::AMegaStormManager() {
-    this->MaxSecondsInMegaStormUpdate = 1;
-    this->NumBuildingActorMegaStormShouldDamagePerFrame = 0;
-    this->SleepTimeAfterDamagingBuildingActors = 1;
-    this->MinDelayTimeBeforeDestruction = 1;
-    this->bFloorRadiusToGridConversion = false;
-    this->GridRadiusCellOffset = 0;
-    this->MegaStormStartTime = 1;
-    this->SleepTimeRemaining = 1;
+    MaxSecondsInMegaStormUpdate = 1;
+    NumBuildingActorMegaStormShouldDamagePerFrame = 0;
+    SleepTimeAfterDamagingBuildingActors = 1;
+    MinDelayTimeBeforeDestruction = 1;
+    bFloorRadiusToGridConversion = false;
+    GridRadiusCellOffset = 0;
+    MegaStormStartTime = 1;
+    SleepTimeRemaining = 1;
 }
 

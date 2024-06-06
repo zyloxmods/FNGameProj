@@ -155,7 +155,8 @@ public:
     UCustomCharacterPart();
     UFUNCTION(BlueprintCallable, BlueprintPure)
     USkeletalMesh* GetSkeletalMesh() const;
-    
+    friend class UFortHeroType;
+    friend class UAthenaCharacterItemDefinition;
     UFUNCTION(BlueprintCallable)
     TMap<int32, UMaterialInterface*> GetMaterialOverridesByIndex();
     

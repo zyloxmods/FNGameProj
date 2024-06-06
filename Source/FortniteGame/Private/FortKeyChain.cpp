@@ -1,6 +1,6 @@
 #include "FortKeyChain.h"
 
 FFortKeyChain::FFortKeyChain() {
-    this->Hash = 0;
+    Hash = 0;
 }
 

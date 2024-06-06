@@ -13,11 +13,11 @@ FBox AThreatCloud::GetThreatVolume() const {
 }
 
 AThreatCloud::AThreatCloud() {
-    this->MiniMapIconPercent = 1;
-    this->ActiveTransitionTime = 1;
-    this->DeathTimerDuration = 1;
-    this->CloudMiniMapTickInterval = 1;
-    this->MiniMapFarOffIconDegreesOfArc = 1;
-    this->GroundLevelUnderCloud = 1;
+    MiniMapIconPercent = 1;
+    ActiveTransitionTime = 1;
+    DeathTimerDuration = 1;
+    CloudMiniMapTickInterval = 1;
+    MiniMapFarOffIconDegreesOfArc = 1;
+    GroundLevelUnderCloud = 1;
 }
 

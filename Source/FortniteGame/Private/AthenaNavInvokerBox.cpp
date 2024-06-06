@@ -5,7 +5,7 @@ void AAthenaNavInvokerBox::SetInvokerEnabled(bool bEnable) {
 }
 
 AAthenaNavInvokerBox::AAthenaNavInvokerBox() {
-    this->GenerationRange = 1;
-    this->InvokerComp = CreateDefaultSubobject<UNavigationInvokerComponent>(TEXT("InvokerComponent"));
+    GenerationRange = 1;
+    InvokerComp = CreateDefaultSubobject<UNavigationInvokerComponent>(TEXT("InvokerComponent"));
 }
 

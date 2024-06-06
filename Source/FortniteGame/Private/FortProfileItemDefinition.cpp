@@ -1,8 +1,9 @@
 #include "FortProfileItemDefinition.h"
 
-UFortProfileItemDefinition::UFortProfileItemDefinition() {
-    this->bCanBeFavorite = true;
-    this->bCanBeMarkedSeen = true;
-    this->GrantToProfileType = TEXT("campaign");
+UFortProfileItemDefinition::UFortProfileItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bCanBeFavorite = true;
+    bCanBeMarkedSeen = true;
+    GrantToProfileType = TEXT("campaign");
 }
 

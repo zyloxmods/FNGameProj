@@ -5,8 +5,8 @@ void AAthenaCreativeRift::NotifyActorDespawnEndOverlap(UPrimitiveComponent* Over
 
 
 AAthenaCreativeRift::AAthenaCreativeRift() {
-    this->DespawnSphereComponent = NULL;
-    this->ParentTrap = NULL;
-    this->bHasLoadedSettings = false;
+    DespawnSphereComponent = NULL;
+    ParentTrap = NULL;
+    bHasLoadedSettings = false;
 }
 

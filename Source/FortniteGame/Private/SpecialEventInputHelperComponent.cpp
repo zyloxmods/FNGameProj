@@ -7,7 +7,7 @@ void USpecialEventInputHelperComponent::PopInputComponent() {
 }
 
 USpecialEventInputHelperComponent::USpecialEventInputHelperComponent() {
-    this->bBlockInput = false;
-    this->InputComp = NULL;
+    bBlockInput = false;
+    InputComp = NULL;
 }
 

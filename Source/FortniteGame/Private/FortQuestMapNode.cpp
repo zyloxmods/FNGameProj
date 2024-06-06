@@ -1,9 +1,9 @@
 #include "FortQuestMapNode.h"
 
 FFortQuestMapNode::FFortQuestMapNode() {
-    this->QuestItemDefinition = NULL;
-    this->NodeType = EFortQuestMapNodeType::MandatoryQuest;
-    this->LabelPosition = EFortQuestMapNodeLabelPosition::Top;
-    this->UseHighContrastMode = false;
+    QuestItemDefinition = NULL;
+    NodeType = EFortQuestMapNodeType::MandatoryQuest;
+    LabelPosition = EFortQuestMapNodeLabelPosition::Top;
+    UseHighContrastMode = false;
 }
 

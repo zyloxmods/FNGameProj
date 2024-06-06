@@ -1,8 +1,9 @@
 #include "FortAwardItemDefinition.h"
 
-UFortAwardItemDefinition::UFortAwardItemDefinition() {
-    this->bSingleSharedDetector = false;
-    this->bCanEarnMultipleTimes = false;
-    this->DetectorClass = NULL;
+UFortAwardItemDefinition::UFortAwardItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bSingleSharedDetector = false;
+    bCanEarnMultipleTimes = false;
+    DetectorClass = NULL;
 }
 

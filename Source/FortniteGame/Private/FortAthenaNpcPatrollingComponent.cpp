@@ -4,8 +4,8 @@ void UFortAthenaNpcPatrollingComponent::SetPatrolPath(const AFortAthenaPatrolPat
 }
 
 UFortAthenaNpcPatrollingComponent::UFortAthenaNpcPatrollingComponent() {
-    this->bCanPropagatePatrollingProgression = false;
-    this->CachedBotController = NULL;
-    this->PatrolPath = NULL;
+    bCanPropagatePatrollingProgression = false;
+    CachedBotController = NULL;
+    PatrolPath = NULL;
 }
 

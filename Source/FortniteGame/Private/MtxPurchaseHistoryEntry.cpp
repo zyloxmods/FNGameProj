@@ -1,8 +1,8 @@
 #include "MtxPurchaseHistoryEntry.h"
 
 FMtxPurchaseHistoryEntry::FMtxPurchaseHistoryEntry() {
-    this->FreeRefundEligible = false;
-    this->bHasBeenRefunded = false;
-    this->TotalMtxPaid = 0;
+    FreeRefundEligible = false;
+    bHasBeenRefunded = false;
+    TotalMtxPaid = 0;
 }
 

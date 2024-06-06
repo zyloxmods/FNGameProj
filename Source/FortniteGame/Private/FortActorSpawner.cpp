@@ -6,8 +6,8 @@ bool AFortActorSpawner::TrySpawnActor() {
 
 
 AFortActorSpawner::AFortActorSpawner() {
-    this->SpawnerAuthority = EFortActorSpawnerAuthority::ServerAuthoritative;
-    this->bSpawnOnBeginPlay = true;
-    this->bDestroyAfterSpawn = true;
+    SpawnerAuthority = EFortActorSpawnerAuthority::ServerAuthoritative;
+    bSpawnOnBeginPlay = true;
+    bDestroyAfterSpawn = true;
 }
 

@@ -11,6 +11,6 @@ void AFortAthenaMutator_NamePlate::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortAthenaMutator_NamePlate::AFortAthenaMutator_NamePlate() {
-    this->DisplayMode = EIndicatorDisplayMode::Default;
+    DisplayMode = EIndicatorDisplayMode::Default;
 }
 

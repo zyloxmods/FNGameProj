@@ -1,8 +1,8 @@
 #include "FortGameFeatureSize.h"
 
 FFortGameFeatureSize::FFortGameFeatureSize() {
-    this->DownloadSize = 0;
-    this->InstallSize = 0;
-    this->FreeSpace = 0;
+    DownloadSize = 0;
+    InstallSize = 0;
+    FreeSpace = 0;
 }
 

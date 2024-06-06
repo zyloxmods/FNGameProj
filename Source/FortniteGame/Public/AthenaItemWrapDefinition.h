@@ -19,6 +19,6 @@ private:
     TSoftObjectPtr<UMaterialInterface> ItemWrapMaterial;
     
 public:
-    UAthenaItemWrapDefinition();
+    UAthenaItemWrapDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

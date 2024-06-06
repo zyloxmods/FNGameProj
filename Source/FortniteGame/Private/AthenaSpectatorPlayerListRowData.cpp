@@ -8,12 +8,12 @@ AFortPlayerStateAthena* UAthenaSpectatorPlayerListRowData::GetPlayerState() {
 }
 
 UAthenaSpectatorPlayerListRowData::UAthenaSpectatorPlayerListRowData() {
-    this->Rank = 0;
-    this->TeamNumber = 0;
-    this->PlayerName = TEXT("PlayerName");
-    this->Kills = 0;
-    this->IsRecordingPlayer = false;
-    this->IsSpectatorTarget = false;
-    this->PlayerState = NULL;
+    Rank = 0;
+    TeamNumber = 0;
+    PlayerName = TEXT("PlayerName");
+    Kills = 0;
+    IsRecordingPlayer = false;
+    IsSpectatorTarget = false;
+    PlayerState = NULL;
 }
 

@@ -1,10 +1,11 @@
 #include "FortConsumableAccountItemDefinition.h"
 
-UFortConsumableAccountItemDefinition::UFortConsumableAccountItemDefinition() {
-    this->bCanActivateOnSelf = true;
-    this->bCanActivateOnOthers = false;
-    this->bIsAutomaticallyConsumed = false;
-    this->ProfileType = EItemProfileType::Common;
-    this->ItemType = EFortItemType::ConsumableAccountItem;
+UFortConsumableAccountItemDefinition::UFortConsumableAccountItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bCanActivateOnSelf = true;
+    bCanActivateOnOthers = false;
+    bIsAutomaticallyConsumed = false;
+    ProfileType = EItemProfileType::Common;
+    ItemType = EFortItemType::ConsumableAccountItem;
 }
 

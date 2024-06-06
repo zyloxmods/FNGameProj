@@ -17,10 +17,11 @@ bool UFortGiftBoxItemDefinition::HasHeaderSubWidget() const {
     return false;
 }
 
-UFortGiftBoxItemDefinition::UFortGiftBoxItemDefinition() {
-    this->RestrictToSubgame = ESubGame::Campaign;
-    this->GiftWrapType = EFortGiftWrapType::System;
-    this->SortPriority = 0;
-    this->bReuseExistingBoxIfPossible = false;
+UFortGiftBoxItemDefinition::UFortGiftBoxItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    RestrictToSubgame = ESubGame::Campaign;
+    GiftWrapType = EFortGiftWrapType::System;
+    SortPriority = 0;
+    bReuseExistingBoxIfPossible = false;
 }
 

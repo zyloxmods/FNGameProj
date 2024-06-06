@@ -59,24 +59,24 @@ void ADeployableBasePlot::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 ADeployableBasePlot::ADeployableBasePlot() {
-    this->OccupantDeployableBaseRecord = NULL;
-    this->SavableSpaceComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("SavableSpaceComponent"));
-    this->EntirePlotSpaceComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("EntirePlotSpaceComponent"));
-    this->SpawnOffsetComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));
-    this->DeployableBaseCore = NULL;
-    this->bDirty = false;
-    this->bDirtiedSinceLastWriteToBuffer = false;
-    this->bCloudFileSavedSinceLastCloudItemUpdate = false;
-    this->CurrentBuildingState = EDeployableBaseBuildingState::Empty;
-    this->GoalBuildingState = EDeployableBaseBuildingState::Empty;
-    this->PlotInventory = NULL;
-    this->DeferredActorIdxToResumeAt = 0;
-    this->NumActorsFromRecordDestroyed = 0;
-    this->MaxActorsToCreatePerBuildingCall = 0;
-    this->MaxActorsToDestroyPerDestroyCall = 0;
-    this->DelayBetweenActorRecordBuilding = 1;
-    this->DelayBetweenActorRecordDestroying = 1;
-    this->PlayerStart = NULL;
-    this->ConstructionTimeEffect = NULL;
+    OccupantDeployableBaseRecord = NULL;
+    SavableSpaceComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("SavableSpaceComponent"));
+    EntirePlotSpaceComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("EntirePlotSpaceComponent"));
+    SpawnOffsetComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));
+    DeployableBaseCore = NULL;
+    bDirty = false;
+    bDirtiedSinceLastWriteToBuffer = false;
+    bCloudFileSavedSinceLastCloudItemUpdate = false;
+    CurrentBuildingState = EDeployableBaseBuildingState::Empty;
+    GoalBuildingState = EDeployableBaseBuildingState::Empty;
+    PlotInventory = NULL;
+    DeferredActorIdxToResumeAt = 0;
+    NumActorsFromRecordDestroyed = 0;
+    MaxActorsToCreatePerBuildingCall = 0;
+    MaxActorsToDestroyPerDestroyCall = 0;
+    DelayBetweenActorRecordBuilding = 1;
+    DelayBetweenActorRecordDestroying = 1;
+    PlayerStart = NULL;
+    ConstructionTimeEffect = NULL;
 }
 

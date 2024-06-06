@@ -2,6 +2,6 @@
 
 
 UFortEventLevelNavigationBangCheckComponent::UFortEventLevelNavigationBangCheckComponent() {
-    this->OwningNavigationActor = NULL;
+    OwningNavigationActor = NULL;
 }
 

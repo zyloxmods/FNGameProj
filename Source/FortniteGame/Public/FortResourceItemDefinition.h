@@ -22,7 +22,7 @@ private:
     FFortCreativeTagsHelper CreativeTagsHelper;
     
 public:
-    UFortResourceItemDefinition();
+    UFortResourceItemDefinition(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

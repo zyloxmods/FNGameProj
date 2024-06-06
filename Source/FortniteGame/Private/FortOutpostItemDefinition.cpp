@@ -4,8 +4,9 @@ FText UFortOutpostItemDefinition::GetLongDescription() const {
     return FText::GetEmpty();
 }
 
-UFortOutpostItemDefinition::UFortOutpostItemDefinition() {
-    this->TheaterIndex = 0;
-    this->ItemType = EFortItemType::Outpost;
+UFortOutpostItemDefinition::UFortOutpostItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    TheaterIndex = 0;
+    ItemType = EFortItemType::Outpost;
 }
 

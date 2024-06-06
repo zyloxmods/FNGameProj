@@ -1,8 +1,8 @@
 #include "ReplicatedMontagePair.h"
 
 FReplicatedMontagePair::FReplicatedMontagePair() {
-    this->Montage1 = NULL;
-    this->Montage2 = NULL;
-    this->RepIndex = 0;
+    Montage1 = NULL;
+    Montage2 = NULL;
+    RepIndex = 0;
 }
 

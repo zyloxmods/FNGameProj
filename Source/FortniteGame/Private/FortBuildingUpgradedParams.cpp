@@ -7,9 +7,9 @@ void UFortBuildingUpgradedParams::BreakParams(ABuildingActor*& _OriginalBuilding
 }
 
 UFortBuildingUpgradedParams::UFortBuildingUpgradedParams() {
-    this->OriginalBuilding = NULL;
-    this->NewBuilding = NULL;
-    this->BuildingType = EFortBuildingType::Wall;
-    this->Editor = NULL;
+    OriginalBuilding = NULL;
+    NewBuilding = NULL;
+    BuildingType = EFortBuildingType::Wall;
+    Editor = NULL;
 }
 

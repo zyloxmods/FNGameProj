@@ -1,7 +1,7 @@
 #include "FortSpawnPointsPercentageCurve.h"
 
 FFortSpawnPointsPercentageCurve::FFortSpawnPointsPercentageCurve() {
-    this->SpawnPointsPercentageCurveTable = NULL;
-    this->MaxRampTime = 1;
+    SpawnPointsPercentageCurveTable = NULL;
+    MaxRampTime = 1;
 }
 

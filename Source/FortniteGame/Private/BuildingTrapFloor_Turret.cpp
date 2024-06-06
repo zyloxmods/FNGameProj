@@ -72,29 +72,29 @@ void ABuildingTrapFloor_Turret::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 ABuildingTrapFloor_Turret::ABuildingTrapFloor_Turret() {
-    this->MinigameLogic = CreateDefaultSubobject<UFortMinigameLogicComponent>(TEXT("MinigameComponent"));
-    this->RotateComp = NULL;
-    this->FiringPoint = NULL;
-    this->OverlapCollisionComponent = NULL;
-    this->RotateInterval = 1;
-    this->BlockingActor = NULL;
-    this->Target = NULL;
-    this->MinRotationSpeed = 1;
-    this->MaxRotationSpeed = 1;
-    this->CurrentRotationalSpeed = 1;
-    this->UpdateIntervalTime = 1;
-    this->CachedUpdateTime = 1;
-    this->IncreaseIntervalRotationSpeed = 1;
-    this->DecreaseIntervalRotationSpeed = 1;
-    this->bCurrentlyActive = false;
-    this->bInSlowdownMode = false;
-    this->bUseOwnerTeam = false;
-    this->bCanTakeDamage = false;
-    this->LifeTime = 1;
-    this->FireRate = 1;
-    this->ReloadTime = 1;
-    this->CurrentAmmoCount = 0;
-    this->MaxAmmo = 0;
-    this->bIsSearching = false;
+    MinigameLogic = CreateDefaultSubobject<UFortMinigameLogicComponent>(TEXT("MinigameComponent"));
+    RotateComp = NULL;
+    FiringPoint = NULL;
+    OverlapCollisionComponent = NULL;
+    RotateInterval = 1;
+    BlockingActor = NULL;
+    Target = NULL;
+    MinRotationSpeed = 1;
+    MaxRotationSpeed = 1;
+    CurrentRotationalSpeed = 1;
+    UpdateIntervalTime = 1;
+    CachedUpdateTime = 1;
+    IncreaseIntervalRotationSpeed = 1;
+    DecreaseIntervalRotationSpeed = 1;
+    bCurrentlyActive = false;
+    bInSlowdownMode = false;
+    bUseOwnerTeam = false;
+    bCanTakeDamage = false;
+    LifeTime = 1;
+    FireRate = 1;
+    ReloadTime = 1;
+    CurrentAmmoCount = 0;
+    MaxAmmo = 0;
+    bIsSearching = false;
 }
 

@@ -1,10 +1,10 @@
 #include "PickupInstigatorData.h"
 
 FPickupInstigatorData::FPickupInstigatorData() {
-    this->TeamIndex = 0;
-    this->TargetAttitude = ETeamAttitude::Friendly;
-    this->AccentColorParam = 1;
-    this->ScoreValue = 0;
-    this->OverridePickupClass = NULL;
+    TeamIndex = 0;
+    TargetAttitude = ETeamAttitude::Friendly;
+    AccentColorParam = 1;
+    ScoreValue = 0;
+    OverridePickupClass = NULL;
 }
 

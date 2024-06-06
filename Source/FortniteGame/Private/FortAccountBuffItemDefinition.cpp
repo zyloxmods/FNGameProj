@@ -1,5 +1,6 @@
 #include "FortAccountBuffItemDefinition.h"
 
-UFortAccountBuffItemDefinition::UFortAccountBuffItemDefinition() {
+UFortAccountBuffItemDefinition::UFortAccountBuffItemDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

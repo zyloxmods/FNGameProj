@@ -1,7 +1,7 @@
 #include "CreativeItemGranterItemEntry.h"
 
 FCreativeItemGranterItemEntry::FCreativeItemGranterItemEntry() {
-    this->Count = 0;
-    this->Level = 0;
+    Count = 0;
+    Level = 0;
 }
 

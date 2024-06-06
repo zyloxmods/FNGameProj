@@ -1,7 +1,7 @@
 #include "FortReppedPoint.h"
 
 FFortReppedPoint::FFortReppedPoint() {
-    this->LastServerIndex = 0;
-    this->BurnTime = 1;
+    LastServerIndex = 0;
+    BurnTime = 1;
 }
 

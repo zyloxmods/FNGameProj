@@ -4,6 +4,6 @@ void UFortWeaponAnimInstance::AnimNotify_FullyBlendedReducedWork(const UAnimNoti
 }
 
 UFortWeaponAnimInstance::UFortWeaponAnimInstance() {
-    this->bWantsReducedWork = false;
+    bWantsReducedWork = false;
 }
 

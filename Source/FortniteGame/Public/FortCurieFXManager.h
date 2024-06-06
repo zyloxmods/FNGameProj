@@ -92,8 +92,8 @@ private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
     TArray<FFortCurieFireParticleGrassData> CachedFireParticleGrassData;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
-    TSet<FFortCurieSpatialCellIndex> CachedBurningGrassGridCells;
+    //UPROPERTY(BlueprintReadWrite, EditAnywhere, Transient, meta=(AllowPrivateAccess=true))
+   // TSet<FFortCurieSpatialCellIndex> CachedBurningGrassGridCells;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, Transient, meta=(AllowPrivateAccess=true))
     TArray<UFortCurieComponent*> CharredEffectInterpComponents;

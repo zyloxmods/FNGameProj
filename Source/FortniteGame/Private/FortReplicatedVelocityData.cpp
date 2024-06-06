@@ -1,6 +1,6 @@
 #include "FortReplicatedVelocityData.h"
 
 FFortReplicatedVelocityData::FFortReplicatedVelocityData() {
-    this->RepIncrement = 0;
+    RepIncrement = 0;
 }
 

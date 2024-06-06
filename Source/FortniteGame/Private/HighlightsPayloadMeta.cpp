@@ -1,7 +1,7 @@
 #include "HighlightsPayloadMeta.h"
 
 FHighlightsPayloadMeta::FHighlightsPayloadMeta() {
-    this->UCRN_PayloadVersion = 0;
-    this->UCRN_bIsCustomMatch = false;
+    UCRN_PayloadVersion = 0;
+    UCRN_bIsCustomMatch = false;
 }
 

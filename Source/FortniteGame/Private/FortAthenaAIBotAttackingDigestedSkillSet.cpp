@@ -1,11 +1,11 @@
 #include "FortAthenaAIBotAttackingDigestedSkillSet.h"
 
 UFortAthenaAIBotAttackingDigestedSkillSet::UFortAthenaAIBotAttackingDigestedSkillSet() {
-    this->MaxDistanceToEngageMeleeSq = 1;
-    this->bOnlyEngageMeleeAgainstThreatThatHasNoRangeWeapon = false;
-    this->MaxDistanceToConsiderAsAnAlternateTargetSq = 1;
-    this->bEnableWTFBehavior = true;
-    this->MinCooldownDelayBetweenMeleeAttackAttempts = 1;
-    this->MaxCooldownDelayBetweenMeleeAttackAttempts = 1;
+    MaxDistanceToEngageMeleeSq = 1;
+    bOnlyEngageMeleeAgainstThreatThatHasNoRangeWeapon = false;
+    MaxDistanceToConsiderAsAnAlternateTargetSq = 1;
+    bEnableWTFBehavior = true;
+    MinCooldownDelayBetweenMeleeAttackAttempts = 1;
+    MaxCooldownDelayBetweenMeleeAttackAttempts = 1;
 }
 

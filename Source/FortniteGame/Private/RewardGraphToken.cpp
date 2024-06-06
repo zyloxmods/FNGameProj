@@ -1,5 +1,6 @@
 #include "RewardGraphToken.h"
 
-URewardGraphToken::URewardGraphToken() {
+URewardGraphToken::URewardGraphToken(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

@@ -10,25 +10,25 @@ bool UFortPetAnimInstance_HighTowerRadish::IsTurningSharply() const {
 }
 
 UFortPetAnimInstance_HighTowerRadish::UFortPetAnimInstance_HighTowerRadish() {
-    this->OwnerAnimBP = NULL;
-    this->OwnerLocomotionDirection = 1;
-    this->OwnerLocomotionSpeed = 1;
-    this->StoppedMovingOrMeleeForLongEnoughTime = false;
-    this->SharpDirectionChange = false;
-    this->bPetUnderwater = false;
-    this->HighTowerRadish_LobbySkyDive_Diving = false;
-    this->HighTowerRadish_LobbySkyDive_Gliding = false;
-    this->FrontEndIdleTransition = false;
-    this->AdditiveTransitionCurve = 1;
-    this->LeftHandIKCurve = 1;
-    this->RandomLocomotionBreak = 0;
-    this->AllowRandomLocomotionBreak = false;
-    this->HasTargettedInLastNSeconds = false;
-    this->TurnOffLeans = 1;
-    this->OffsetRootYawFractioned = 1;
-    this->OffsetRootYawSmooth = 1;
-    this->bIsPlayingEmoteExtra = false;
-    this->bIsInVehicle = false;
-    this->InVehicle = 1;
+    OwnerAnimBP = NULL;
+    OwnerLocomotionDirection = 1;
+    OwnerLocomotionSpeed = 1;
+    StoppedMovingOrMeleeForLongEnoughTime = false;
+    SharpDirectionChange = false;
+    bPetUnderwater = false;
+    HighTowerRadish_LobbySkyDive_Diving = false;
+    HighTowerRadish_LobbySkyDive_Gliding = false;
+    FrontEndIdleTransition = false;
+    AdditiveTransitionCurve = 1;
+    LeftHandIKCurve = 1;
+    RandomLocomotionBreak = 0;
+    AllowRandomLocomotionBreak = false;
+    HasTargettedInLastNSeconds = false;
+    TurnOffLeans = 1;
+    OffsetRootYawFractioned = 1;
+    OffsetRootYawSmooth = 1;
+    bIsPlayingEmoteExtra = false;
+    bIsInVehicle = false;
+    InVehicle = 1;
 }
 

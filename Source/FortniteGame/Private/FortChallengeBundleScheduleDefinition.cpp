@@ -24,12 +24,13 @@ bool UFortChallengeBundleScheduleDefinition::DoesChallengeBundleScheduleExpire()
     return false;
 }
 
-UFortChallengeBundleScheduleDefinition::UFortChallengeBundleScheduleDefinition() {
-    this->CleanUpOnBundleCompletion = false;
-    this->bHideInLegacyAllChallengesEscapeMenu = false;
-    this->bSeperateEachBundleForDisplay = false;
-    this->SortPriority = 0;
-    this->bHideCountdownFromMapChallenges = false;
-    this->ItemType = EFortItemType::ChallengeBundleSchedule;
+UFortChallengeBundleScheduleDefinition::UFortChallengeBundleScheduleDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    CleanUpOnBundleCompletion = false;
+    bHideInLegacyAllChallengesEscapeMenu = false;
+    bSeperateEachBundleForDisplay = false;
+    SortPriority = 0;
+    bHideCountdownFromMapChallenges = false;
+    ItemType = EFortItemType::ChallengeBundleSchedule;
 }
 

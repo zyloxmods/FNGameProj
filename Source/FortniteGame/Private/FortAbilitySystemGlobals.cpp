@@ -1,6 +1,6 @@
 #include "FortAbilitySystemGlobals.h"
 
 UFortAbilitySystemGlobals::UFortAbilitySystemGlobals() {
-    this->BROnlyAttributeSetDefaultsToExclude.AddDefaulted(3);
+    BROnlyAttributeSetDefaultsToExclude.AddDefaulted(3);
 }
 

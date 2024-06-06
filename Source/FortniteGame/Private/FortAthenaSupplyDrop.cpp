@@ -62,15 +62,15 @@ void AFortAthenaSupplyDrop::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortAthenaSupplyDrop::AFortAthenaSupplyDrop() {
-    this->WaveSpawnSoundCue = NULL;
-    this->SpawnOffsetZ = 1;
-    this->SearchingSoundCueLoop = NULL;
-    this->bReplicateLongUseNotifies = false;
-    this->CachedSpecialActorIdx = 0;
-    this->CachedInStormDespawnTimeInSeconds = 1;
-    this->LongInteractAudioComponent = NULL;
-    this->SpectatorMapIcon = CreateDefaultSubobject<UFortSpectateClickableMapIcon>(TEXT("FortSpectateClickableMapIcon"));
-    this->NumPlayersInteracting = 0;
-    this->bVisualizePlayerInteractionChanges = false;
+    WaveSpawnSoundCue = NULL;
+    SpawnOffsetZ = 1;
+    SearchingSoundCueLoop = NULL;
+    bReplicateLongUseNotifies = false;
+    CachedSpecialActorIdx = 0;
+    CachedInStormDespawnTimeInSeconds = 1;
+    LongInteractAudioComponent = NULL;
+    SpectatorMapIcon = CreateDefaultSubobject<UFortSpectateClickableMapIcon>(TEXT("FortSpectateClickableMapIcon"));
+    NumPlayersInteracting = 0;
+    bVisualizePlayerInteractionChanges = false;
 }
 

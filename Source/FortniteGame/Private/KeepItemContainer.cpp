@@ -34,13 +34,13 @@ void AKeepItemContainer::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AKeepItemContainer::AKeepItemContainer() {
-    this->HostUpgradeLevel = 0;
-    this->ContainerType = EKeepContainerType::Base;
-    this->bUseDefaultLootLogic = false;
-    this->bResetThisWhenKeepResets = true;
-    this->ContainerDataTable = NULL;
-    this->bShowChoiceUI = false;
-    this->BestAvailableRarity = EFortRarity::Common;
-    this->MaxItems = 0;
+    HostUpgradeLevel = 0;
+    ContainerType = EKeepContainerType::Base;
+    bUseDefaultLootLogic = false;
+    bResetThisWhenKeepResets = true;
+    ContainerDataTable = NULL;
+    bShowChoiceUI = false;
+    BestAvailableRarity = EFortRarity::Common;
+    MaxItems = 0;
 }
 

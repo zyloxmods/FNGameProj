@@ -1,11 +1,11 @@
 #include "OutpostPOSTRequirementData.h"
 
 UOutpostPOSTRequirementData::UOutpostPOSTRequirementData() {
-    this->RequirementItemDefinition = NULL;
-    this->TotalRequired = 0;
-    this->AlreadyDeposited = 0;
-    this->AmountOwned = 0;
-    this->bHasEnough = false;
-    this->AmountToDeposit = 0;
+    RequirementItemDefinition = NULL;
+    TotalRequired = 0;
+    AlreadyDeposited = 0;
+    AmountOwned = 0;
+    bHasEnough = false;
+    AmountToDeposit = 0;
 }
 

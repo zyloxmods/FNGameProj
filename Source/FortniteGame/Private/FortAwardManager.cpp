@@ -4,6 +4,6 @@ void UFortAwardManager::GetSourceAndContextTags(FGameplayTagContainer& OutSource
 }
 
 UFortAwardManager::UFortAwardManager() {
-    this->PlayerController = NULL;
+    PlayerController = NULL;
 }
 

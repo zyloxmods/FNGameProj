@@ -1,7 +1,7 @@
 #include "FortCurieExecutionEntry.h"
 
 FFortCurieExecutionEntry::FFortCurieExecutionEntry() {
-    this->ExecutionType = EFortCurieExecutionType::Application;
-    this->ApplicationEvent = EFortCurieApplicationEvent::OnHit;
+    ExecutionType = EFortCurieExecutionType::Application;
+    ApplicationEvent = EFortCurieApplicationEvent::OnHit;
 }
 

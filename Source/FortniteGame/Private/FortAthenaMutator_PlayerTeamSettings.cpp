@@ -24,6 +24,6 @@ bool AFortAthenaMutator_PlayerTeamSettings::AddDataSourceForTeam(uint8 TeamIndex
 }
 
 AFortAthenaMutator_PlayerTeamSettings::AFortAthenaMutator_PlayerTeamSettings() {
-    this->TeamSettingsClass = NULL;
+    TeamSettingsClass = NULL;
 }
 

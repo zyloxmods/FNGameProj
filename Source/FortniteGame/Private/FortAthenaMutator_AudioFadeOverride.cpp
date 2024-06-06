@@ -5,6 +5,6 @@ void AFortAthenaMutator_AudioFadeOverride::HandleAudioFade(bool bFadeOut, float 
 }
 
 AFortAthenaMutator_AudioFadeOverride::AFortAthenaMutator_AudioFadeOverride() {
-    this->FadeoutSoundMix = NULL;
+    FadeoutSoundMix = NULL;
 }
 

@@ -1,8 +1,9 @@
 #include "FortAccountItemDefinition.h"
 
-UFortAccountItemDefinition::UFortAccountItemDefinition() {
-    this->MinLevel = 0;
-    this->MaxLevel = 0;
-    this->GrantToProfileType = TEXT("campaign");
+UFortAccountItemDefinition::UFortAccountItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    MinLevel = 0;
+    MaxLevel = 0;
+    GrantToProfileType = TEXT("campaign");
 }
 

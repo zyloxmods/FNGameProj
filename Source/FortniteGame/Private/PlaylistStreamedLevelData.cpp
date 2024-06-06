@@ -1,7 +1,7 @@
 #include "PlaylistStreamedLevelData.h"
 
 FPlaylistStreamedLevelData::FPlaylistStreamedLevelData() {
-    this->bIsFinishedStreaming = false;
-    this->bIsServerOnly = false;
+    bIsFinishedStreaming = false;
+    bIsServerOnly = false;
 }
 

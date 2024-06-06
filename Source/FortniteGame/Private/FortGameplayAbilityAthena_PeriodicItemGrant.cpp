@@ -7,6 +7,6 @@ void UFortGameplayAbilityAthena_PeriodicItemGrant::StartItemAwardTimers() {
 }
 
 UFortGameplayAbilityAthena_PeriodicItemGrant::UFortGameplayAbilityAthena_PeriodicItemGrant() {
-    this->OwnerControllerCachedValue = NULL;
+    OwnerControllerCachedValue = NULL;
 }
 

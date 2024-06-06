@@ -42,7 +42,7 @@ void AContentBeaconClient::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AContentBeaconClient::AContentBeaconClient() {
-    this->ClientContentReadiness = EClientContentReadiness::AwaitingServerResponse;
-    this->bHostActivatedContent = false;
+    ClientContentReadiness = EClientContentReadiness::AwaitingServerResponse;
+    bHostActivatedContent = false;
 }
 

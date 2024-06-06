@@ -1,7 +1,8 @@
 #include "FortRepeatableDailiesCardItemDefinition.h"
 
-UFortRepeatableDailiesCardItemDefinition::UFortRepeatableDailiesCardItemDefinition() {
-    this->FillCount = 0;
-    this->ItemType = EFortItemType::RepeatableDailiesCard;
+UFortRepeatableDailiesCardItemDefinition::UFortRepeatableDailiesCardItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    FillCount = 0;
+    ItemType = EFortItemType::RepeatableDailiesCard;
 }
 

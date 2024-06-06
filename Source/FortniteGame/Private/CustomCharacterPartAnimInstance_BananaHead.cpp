@@ -1,8 +1,8 @@
 #include "CustomCharacterPartAnimInstance_BananaHead.h"
 
 UCustomCharacterPartAnimInstance_BananaHead::UCustomCharacterPartAnimInstance_BananaHead() {
-    this->ADSRigidBodyAlpha = 1;
-    this->ADSFlapAlpha = 1;
-    this->DisableFaceOverride = 1;
+    ADSRigidBodyAlpha = 1;
+    ADSFlapAlpha = 1;
+    DisableFaceOverride = 1;
 }
 

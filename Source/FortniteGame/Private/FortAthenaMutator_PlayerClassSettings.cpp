@@ -20,7 +20,7 @@ bool AFortAthenaMutator_PlayerClassSettings::AddDataSourceForPlayerClass(uint8 C
 }
 
 AFortAthenaMutator_PlayerClassSettings::AFortAthenaMutator_PlayerClassSettings() {
-    this->NumClassSlots = 16;
-    this->ClassSettingsClass = NULL;
+    NumClassSlots = 16;
+    ClassSettingsClass = NULL;
 }
 

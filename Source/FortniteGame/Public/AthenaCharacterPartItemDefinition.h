@@ -14,7 +14,7 @@ protected:
     TArray<UCustomCharacterPart*> CharacterParts;
     
 public:
-    UAthenaCharacterPartItemDefinition();
+    UAthenaCharacterPartItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TArray<UCustomCharacterPart*> GetCharacterParts() const;
     

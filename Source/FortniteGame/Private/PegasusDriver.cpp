@@ -19,11 +19,11 @@ void UPegasusDriver::HandleVideoManagerFinishedAllJobs() {
 }
 
 UPegasusDriver::UPegasusDriver() {
-    this->PollIntervalSeconds = 1;
-    this->BaseHoursUntilClose = 1;
-    this->VideoManager = NULL;
-    this->bShouldDevBuildsShowFPS = true;
-    this->InactivityCheckSecondsInterval = 1;
-    this->MaxSecondsBetweenVideoExports = 1;
+    PollIntervalSeconds = 1;
+    BaseHoursUntilClose = 1;
+    VideoManager = NULL;
+    bShouldDevBuildsShowFPS = true;
+    InactivityCheckSecondsInterval = 1;
+    MaxSecondsBetweenVideoExports = 1;
 }
 

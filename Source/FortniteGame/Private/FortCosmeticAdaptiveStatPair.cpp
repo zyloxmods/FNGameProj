@@ -1,6 +1,6 @@
 #include "FortCosmeticAdaptiveStatPair.h"
 
 FFortCosmeticAdaptiveStatPair::FFortCosmeticAdaptiveStatPair() {
-    this->StatValue = 0;
+    StatValue = 0;
 }
 

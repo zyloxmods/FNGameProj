@@ -28,13 +28,13 @@ void UFortHealthBarComponent::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 UFortHealthBarComponent::UFortHealthBarComponent() {
-    this->BuildingActorOwner = NULL;
-    this->DisplayText = FText::FromString(TEXT("Health"));
-    this->bIsHealthBarVisible = true;
-    this->MaxDistance = 1;
-    this->ScaleOverDistanceCurve = NULL;
-    this->bClampToScreen = false;
-    this->bShowClampToScreenArrow = false;
-    this->HealthBarColorCurve = NULL;
+    BuildingActorOwner = NULL;
+    DisplayText = FText::FromString(TEXT("Health"));
+    bIsHealthBarVisible = true;
+    MaxDistance = 1;
+    ScaleOverDistanceCurve = NULL;
+    bClampToScreen = false;
+    bShowClampToScreenArrow = false;
+    HealthBarColorCurve = NULL;
 }
 

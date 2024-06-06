@@ -1,6 +1,6 @@
 #include "ChosenQuotaInfo.h"
 
 FChosenQuotaInfo::FChosenQuotaInfo() {
-    this->LootTier = 0;
+    LootTier = 0;
 }
 

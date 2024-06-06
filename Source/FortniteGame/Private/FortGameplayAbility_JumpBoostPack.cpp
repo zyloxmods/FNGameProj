@@ -33,9 +33,9 @@ void UFortGameplayAbility_JumpBoostPack::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 UFortGameplayAbility_JumpBoostPack::UFortGameplayAbility_JumpBoostPack() {
-    this->ServerCurrentState = EJumpBoostPackState::Idle;
-    this->CurrentState = EJumpBoostPackState::Idle;
-    this->DelayRegenStartTime = 1;
-    this->bAbilityMarkedForPendingKill = false;
+    ServerCurrentState = EJumpBoostPackState::Idle;
+    CurrentState = EJumpBoostPackState::Idle;
+    DelayRegenStartTime = 1;
+    bAbilityMarkedForPendingKill = false;
 }
 

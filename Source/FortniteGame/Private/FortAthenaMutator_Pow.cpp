@@ -19,6 +19,6 @@ void AFortAthenaMutator_Pow::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortAthenaMutator_Pow::AFortAthenaMutator_Pow() {
-    this->bRespawningCurrentlyAllowed = true;
+    bRespawningCurrentlyAllowed = true;
 }
 

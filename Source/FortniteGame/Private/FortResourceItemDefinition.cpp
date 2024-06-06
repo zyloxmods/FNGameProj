@@ -1,7 +1,8 @@
 #include "FortResourceItemDefinition.h"
 
-UFortResourceItemDefinition::UFortResourceItemDefinition() {
-    this->ResourceType = EFortResourceType::Wood;
-    this->AccumulatingStatType = EFortReplicatedStat::None;
+UFortResourceItemDefinition::UFortResourceItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ResourceType = EFortResourceType::Wood;
+    AccumulatingStatType = EFortReplicatedStat::None;
 }
 

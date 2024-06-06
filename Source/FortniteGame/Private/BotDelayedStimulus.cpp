@@ -1,6 +1,6 @@
 #include "BotDelayedStimulus.h"
 
 FBotDelayedStimulus::FBotDelayedStimulus() {
-    this->SourceActor = NULL;
+    SourceActor = NULL;
 }
 

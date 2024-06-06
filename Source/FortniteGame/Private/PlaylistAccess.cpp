@@ -1,14 +1,14 @@
 #include "PlaylistAccess.h"
 
 FPlaylistAccess::FPlaylistAccess() {
-    this->bForcePlaylistOff = false;
-    this->bEnabled = false;
-    this->bVisibleWhenDisabled = false;
-    this->bInvisibleWhenEnabled = false;
-    this->bIsDefaultPlaylist = false;
-    this->AdvertiseType = EPlaylistAdvertisementType::None;
-    this->bDisplayAsLimitedTime = false;
-    this->DisplayPriority = 0;
-    this->CategoryIndex = 0;
+    bForcePlaylistOff = false;
+    bEnabled = false;
+    bVisibleWhenDisabled = false;
+    bInvisibleWhenEnabled = false;
+    bIsDefaultPlaylist = false;
+    AdvertiseType = EPlaylistAdvertisementType::None;
+    bDisplayAsLimitedTime = false;
+    DisplayPriority = 0;
+    CategoryIndex = 0;
 }
 

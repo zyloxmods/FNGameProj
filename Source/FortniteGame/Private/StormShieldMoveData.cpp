@@ -1,8 +1,8 @@
 #include "StormShieldMoveData.h"
 
 FStormShieldMoveData::FStormShieldMoveData() {
-    this->MoveRate = 1;
-    this->SafeAreaStartLocationChangeTime = 1;
-    this->SafeAreaFinishLocationChangeTime = 1;
+    MoveRate = 1;
+    SafeAreaStartLocationChangeTime = 1;
+    SafeAreaFinishLocationChangeTime = 1;
 }
 

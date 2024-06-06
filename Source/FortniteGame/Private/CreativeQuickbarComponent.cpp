@@ -59,11 +59,11 @@ void UCreativeQuickbarComponent::ActivateQuickbarSlot_Implementation(int32 SlotI
 }
 
 UCreativeQuickbarComponent::UCreativeQuickbarComponent() {
-    this->bIsCreativeQuickbarActive = false;
-    this->bIsCreativeQuickbarEquipped = false;
-    this->QuickbarSlotPlaysetItemDefinition = NULL;
-    this->CurrentQuickbarRequestSaveRecord = NULL;
-    this->CreativeQuickbarInputComponent = NULL;
-    this->CreativeQuickbarActiveInputComponent = NULL;
+    bIsCreativeQuickbarActive = false;
+    bIsCreativeQuickbarEquipped = false;
+    QuickbarSlotPlaysetItemDefinition = NULL;
+    CurrentQuickbarRequestSaveRecord = NULL;
+    CreativeQuickbarInputComponent = NULL;
+    CreativeQuickbarActiveInputComponent = NULL;
 }
 

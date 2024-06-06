@@ -20,6 +20,6 @@ void ABuildingPhoenixItemCollectorActor::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 ABuildingPhoenixItemCollectorActor::ABuildingPhoenixItemCollectorActor() {
-    this->VendingTier = 0;
+    VendingTier = 0;
 }
 

@@ -1,10 +1,10 @@
 #include "ThighMod_LegPitchSpring.h"
 
 FThighMod_LegPitchSpring::FThighMod_LegPitchSpring() {
-    this->LegPitchStiffness = 1;
-    this->LegPitchDampening = 1;
-    this->LegPitchMass = 1;
-    this->LegPitchClampMin = 1;
-    this->LegPitchClampMax = 1;
+    LegPitchStiffness = 1;
+    LegPitchDampening = 1;
+    LegPitchMass = 1;
+    LegPitchClampMin = 1;
+    LegPitchClampMax = 1;
 }
 

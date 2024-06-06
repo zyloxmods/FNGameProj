@@ -1,6 +1,6 @@
 #include "FortContentEncryptionSettings.h"
 
 UFortContentEncryptionSettings::UFortContentEncryptionSettings() {
-    this->bAutoEncryptUnreleasedStoreItems = false;
+    bAutoEncryptUnreleasedStoreItems = false;
 }
 

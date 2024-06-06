@@ -1,7 +1,7 @@
 #include "FortRecordVersion.h"
 
 FFortRecordVersion::FFortRecordVersion() {
-    this->DataVersion = 0;
-    this->PackageFileVersion = 0;
+    DataVersion = 0;
+    PackageFileVersion = 0;
 }
 

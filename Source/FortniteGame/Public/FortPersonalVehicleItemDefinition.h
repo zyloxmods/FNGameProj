@@ -37,6 +37,6 @@ private:
     TSoftObjectPtr<USoundBase> DeactivateSound;
     
 public:
-    UFortPersonalVehicleItemDefinition();
+    UFortPersonalVehicleItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

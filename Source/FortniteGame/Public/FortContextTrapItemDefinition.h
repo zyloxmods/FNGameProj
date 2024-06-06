@@ -16,6 +16,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UFortTrapItemDefinition* WallTrap;
     
-    UFortContextTrapItemDefinition();
+    UFortContextTrapItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

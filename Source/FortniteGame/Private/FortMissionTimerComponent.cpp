@@ -90,11 +90,11 @@ void UFortMissionTimerComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 UFortMissionTimerComponent::UFortMissionTimerComponent() {
-    this->bShowTimeElapsed = false;
-    this->bUpdateQuestsTimeElapsed = false;
-    this->TimerLabelText = FText::FromString(TEXT("Time Remaining"));
-    this->bDisplayInTimeFormat = true;
-    this->TimerVisibilityOverrideSetting = ETimerOverrideSetting::DefaultBehavior;
-    this->TimerVisibilityShowAtEndTime = 1;
+    bShowTimeElapsed = false;
+    bUpdateQuestsTimeElapsed = false;
+    TimerLabelText = FText::FromString(TEXT("Time Remaining"));
+    bDisplayInTimeFormat = true;
+    TimerVisibilityOverrideSetting = ETimerOverrideSetting::DefaultBehavior;
+    TimerVisibilityShowAtEndTime = 1;
 }
 

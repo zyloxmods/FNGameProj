@@ -13,9 +13,9 @@ bool AFortAthenaVehicleSpawner::GetForceSpawnAlways() const {
 }
 
 AFortAthenaVehicleSpawner::AFortAthenaVehicleSpawner() {
-    this->DummyRoot = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
-    this->bForceSpawnAlways = false;
-    this->CachedFortVehicleItemDef = NULL;
-    this->bIsVehicleItemDefCached = false;
+    DummyRoot = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
+    bForceSpawnAlways = false;
+    CachedFortVehicleItemDef = NULL;
+    bIsVehicleItemDefCached = false;
 }
 

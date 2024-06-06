@@ -32,15 +32,15 @@ void AFortCreativeRoundSettings::ClearResourcesGivenPerRound() {
 }
 
 AFortCreativeRoundSettings::AFortCreativeRoundSettings() {
-    this->RoundIndex = 0;
-    this->KeepItemsBetweenRounds = 0;
-    this->PercentageOfResourcesKeptBetweenRounds = 1;
-    this->ReloadAndRestockWeaponsEachRound = 0;
-    this->bIsRelevantThisRound = false;
-    this->Active = 0;
-    this->bActiveDuringMinigame = true;
-    this->WinningTeamOnMessageReceived = 0;
-    this->LastTeamStandingWins = 0;
-    this->DefaultRestockAmmoAmount = 0;
+    RoundIndex = 0;
+    KeepItemsBetweenRounds = 0;
+    PercentageOfResourcesKeptBetweenRounds = 1;
+    ReloadAndRestockWeaponsEachRound = 0;
+    bIsRelevantThisRound = false;
+    Active = 0;
+    bActiveDuringMinigame = true;
+    WinningTeamOnMessageReceived = 0;
+    LastTeamStandingWins = 0;
+    DefaultRestockAmmoAmount = 0;
 }
 

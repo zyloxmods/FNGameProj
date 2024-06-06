@@ -38,12 +38,12 @@ void UAthenaMarkerComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 UAthenaMarkerComponent::UAthenaMarkerComponent() {
-    this->MarkerWidgetClass = NULL;
-    this->MarkerActorClass = NULL;
-    this->LocalPlaceableMarkersPerRate = 0;
-    this->RemotePlayableMarkerSoundsPerRate = 0;
-    this->PendingCancelMarker = NULL;
-    this->LastHoveredMarker = NULL;
-    this->bIsAimingDownSights = false;
+    MarkerWidgetClass = NULL;
+    MarkerActorClass = NULL;
+    LocalPlaceableMarkersPerRate = 0;
+    RemotePlayableMarkerSoundsPerRate = 0;
+    PendingCancelMarker = NULL;
+    LastHoveredMarker = NULL;
+    bIsAimingDownSights = false;
 }
 

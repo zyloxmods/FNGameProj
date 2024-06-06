@@ -1,7 +1,7 @@
 #include "McpLeaderboardResultRow.h"
 
 FMcpLeaderboardResultRow::FMcpLeaderboardResultRow() {
-    this->Rank = 0;
-    this->Value = 0;
+    Rank = 0;
+    Value = 0;
 }
 

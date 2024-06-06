@@ -1,9 +1,9 @@
 #include "CombatEventData.h"
 
 FCombatEventData::FCombatEventData() {
-    this->Heat = 1;
-    this->MaxHeatContribution = 1;
-    this->CoolDownRate = 1;
-    this->ContributionType = EFortCombatEventContribution::Linear;
+    Heat = 1;
+    MaxHeatContribution = 1;
+    CoolDownRate = 1;
+    ContributionType = EFortCombatEventContribution::Linear;
 }
 

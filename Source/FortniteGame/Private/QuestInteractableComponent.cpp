@@ -28,8 +28,8 @@ void UQuestInteractableComponent::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 UQuestInteractableComponent::UQuestInteractableComponent() {
-    this->QuestItemDefinition = NULL;
-    this->bReady = false;
-    this->bDestroyActorWhenUnavailable = true;
+    QuestItemDefinition = NULL;
+    bReady = false;
+    bDestroyActorWhenUnavailable = true;
 }
 

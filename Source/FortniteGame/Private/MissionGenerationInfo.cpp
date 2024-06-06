@@ -1,8 +1,8 @@
 #include "MissionGenerationInfo.h"
 
 FMissionGenerationInfo::FMissionGenerationInfo() {
-    this->NumMissionsRequired = 0;
-    this->MaxMissionsAllowed = 0;
-    this->NumMissionsGeneratedMatchingRequirements = 0;
+    NumMissionsRequired = 0;
+    MaxMissionsAllowed = 0;
+    NumMissionsGeneratedMatchingRequirements = 0;
 }
 

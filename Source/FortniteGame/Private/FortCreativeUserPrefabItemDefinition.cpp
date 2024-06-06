@@ -1,5 +1,6 @@
 #include "FortCreativeUserPrefabItemDefinition.h"
 
-UFortCreativeUserPrefabItemDefinition::UFortCreativeUserPrefabItemDefinition() {
+UFortCreativeUserPrefabItemDefinition::UFortCreativeUserPrefabItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

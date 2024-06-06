@@ -26,23 +26,23 @@ void AFortAthenaAircraft::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 AFortAthenaAircraft::AFortAthenaAircraft() {
-    this->NumSpawnSlots = 0;
-    this->SpawnOffsetRadius = 1;
-    this->FlightStartTime = 1;
-    this->FlightEndTime = 1;
-    this->DropStartTime = 1;
-    this->DropEndTime = 1;
-    this->bIsOutOfPhaseAircraft = false;
-    this->ReplicatedFlightTimestamp = 1;
-    this->FlightElapsedTime = 1;
-    this->ClientFlightTimerDrift = 1;
-    this->MiniMapIconScale = 1;
-    this->MiniMapTeamIndicatorIconScale = 1;
-    this->DefaultBusSkin = NULL;
-    this->SpawnedCosmeticActor = NULL;
-    this->AsyncLoadingSkin = NULL;
-    this->AircraftIndex = 0;
-    this->Indicator = NULL;
-    this->TeamIndicator = NULL;
+    NumSpawnSlots = 0;
+    SpawnOffsetRadius = 1;
+    FlightStartTime = 1;
+    FlightEndTime = 1;
+    DropStartTime = 1;
+    DropEndTime = 1;
+    bIsOutOfPhaseAircraft = false;
+    ReplicatedFlightTimestamp = 1;
+    FlightElapsedTime = 1;
+    ClientFlightTimerDrift = 1;
+    MiniMapIconScale = 1;
+    MiniMapTeamIndicatorIconScale = 1;
+    DefaultBusSkin = NULL;
+    SpawnedCosmeticActor = NULL;
+    AsyncLoadingSkin = NULL;
+    AircraftIndex = 0;
+    Indicator = NULL;
+    TeamIndicator = NULL;
 }
 

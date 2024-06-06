@@ -41,6 +41,6 @@ bool UFortMobileInteractionComponent::IsAvailable() const {
 }
 
 UFortMobileInteractionComponent::UFortMobileInteractionComponent() {
-    this->IconMID = NULL;
+    IconMID = NULL;
 }
 

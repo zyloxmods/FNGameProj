@@ -9,6 +9,6 @@ void AFortSafeZoneIndicatorFuture::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortSafeZoneIndicatorFuture::AFortSafeZoneIndicatorFuture() {
-    this->NextNextRadius = 1;
+    NextNextRadius = 1;
 }
 

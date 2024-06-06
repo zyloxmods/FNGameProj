@@ -1,9 +1,9 @@
 #include "FortAIPawnVariant.h"
 
 UFortAIPawnVariant::UFortAIPawnVariant() {
-    this->MinPlayersToSpawnVariant = 0;
-    this->CachedSpawnPointValue = 0;
-    this->EncounterExpectedLifespan = 1;
-    this->VersionNum = 0;
+    MinPlayersToSpawnVariant = 0;
+    CachedSpawnPointValue = 0;
+    EncounterExpectedLifespan = 1;
+    VersionNum = 0;
 }
 

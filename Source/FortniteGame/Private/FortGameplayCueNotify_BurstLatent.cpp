@@ -4,6 +4,6 @@
 
 
 AFortGameplayCueNotify_BurstLatent::AFortGameplayCueNotify_BurstLatent() {
-    this->MaxBurstLatentLifetime = 1;
+    MaxBurstLatentLifetime = 1;
 }
 

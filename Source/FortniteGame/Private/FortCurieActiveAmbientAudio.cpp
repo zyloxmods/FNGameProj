@@ -1,8 +1,8 @@
 #include "FortCurieActiveAmbientAudio.h"
 
 FFortCurieActiveAmbientAudio::FFortCurieActiveAmbientAudio() {
-    this->AudioComponent = NULL;
-    this->OwningComponent = NULL;
-    this->AudioClusterCount = 0;
+    AudioComponent = NULL;
+    OwningComponent = NULL;
+    AudioClusterCount = 0;
 }
 

@@ -1,13 +1,13 @@
 #include "FortWeaponDurabilityByRarityStats.h"
 
 FFortWeaponDurabilityByRarityStats::FFortWeaponDurabilityByRarityStats() {
-    this->Common = 0;
-    this->Uncommon = 0;
-    this->Rare = 0;
-    this->Epic = 0;
-    this->Legendary = 0;
-    this->Mythic = 0;
-    this->Transcendent = 0;
-    this->Unattainable = 0;
+    Common = 0;
+    Uncommon = 0;
+    Rare = 0;
+    Epic = 0;
+    Legendary = 0;
+    Mythic = 0;
+    Transcendent = 0;
+    Unattainable = 0;
 }
 

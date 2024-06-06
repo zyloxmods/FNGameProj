@@ -27,7 +27,7 @@ bool UFortGameplayAbilityTooltip::GetApplicationTag_Implementation(const UGamepl
 }
 
 UFortGameplayAbilityTooltip::UFortGameplayAbilityTooltip() {
-    this->CachedAbilityInstance = NULL;
-    this->CachedContext = NULL;
+    CachedAbilityInstance = NULL;
+    CachedContext = NULL;
 }
 

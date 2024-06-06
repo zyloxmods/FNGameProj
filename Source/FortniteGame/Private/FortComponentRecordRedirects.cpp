@@ -1,6 +1,6 @@
 #include "FortComponentRecordRedirects.h"
 
 UFortComponentRecordRedirects::UFortComponentRecordRedirects() {
-    this->ComponentRecordRedirects.AddDefaulted(1);
+    ComponentRecordRedirects.AddDefaulted(1);
 }
 

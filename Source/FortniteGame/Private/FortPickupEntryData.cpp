@@ -1,6 +1,6 @@
 #include "FortPickupEntryData.h"
 
 FFortPickupEntryData::FFortPickupEntryData() {
-    this->StartTime = 1;
+    StartTime = 1;
 }
 

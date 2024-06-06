@@ -21,13 +21,15 @@ class UFrontendAnimInstance;
 class UItemPreviewAnimInstance;
 
 UCLASS(Blueprintable)
-class FORTNITEGAME_API UFortHeroType : public UFortWorkerType/*, public IPreviewCollectionInterface*/ {
+class FORTNITEGAME_API UFortHeroType : public UFortWorkerType, public IPreviewCollectionInterface {
     GENERATED_BODY()
 public:
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("Hero", GetFName());
     }
+    virtual USkeletalMesh* GetPreviewBaseMesh() const override;
+    virtual void GetPreviewSkeletalMeshes(TArray<USkeletalMesh*>& OutMeshes, TArray<TSubclassOf<UAnimInstance>>& OutAnimClasses) const override;
 protected:
     /** If true, head accessory will be shown regardless of client option setting; Used for cases where the head accessory is a critical part of the character */
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Character Parts")
@@ -38,7 +40,7 @@ protected:
     uint8 bForceShowBackpack: 1;
 
     /** Hero specializations that this hero gets */
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Specialization")
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, AssetBundles="ItemDetails, AvatarDisplay"), Category = "Specialization")
     TArray<TSoftObjectPtr<UFortHeroSpecialization>> Specializations;
 
     //Shared lookup table for most montages this character may play on its root skeleton.  OverrideMontageLookupTable will be checked first.  If no match is found there, it will look for matches in this table.  If this table is empty, it will check the character's head data for the montage table there.  This location should generally only be used to choose animations if the hero's abilities are defining the animation to use or if the hero's actual head is shared (which ought not be the case in general, but may be more common in BR).
@@ -50,7 +52,7 @@ protected:
     TSoftObjectPtr<UFortMontageLookupTable> OverrideMontageLookupTable;
 
     /** Contains gameplay effects that use meta attributes to affect other attributes */
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Combined Stats")
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, AssetBundles="ItemDetails, Equipped"), Category = "Combined Stats")
     TArray<FGameplayEffectApplicationInfo> CombinedStatGEs;
     
     /** GPTags required for this ability to be available for player */
@@ -66,7 +68,7 @@ protected:
     TSoftObjectPtr<UFortFeedbackBank> FemaleOverrideFeedback;
 
     /** Pawn class to use, can be useful to add class-specific blueprint functions or visuals */
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Pawn")
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, AssetBundles="ItemDetails"), Category = "Pawn")
     TSoftClassPtr<AFortPlayerPawn> OverridePawnClass;
 
     //Asset that holds all gameplay-related data for the hero (but NOT cosmetic data).
@@ -117,7 +119,10 @@ protected:
     TSoftObjectPtr<UAnimMontage> ItemPreviewMontage_Female;
     
 public:
-    UFortHeroType();
+#if WITH_EDITOR
+    friend class UAthenaCharacterItemDefinition;
+#endif
+    UFortHeroType(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetSubType() const;
     
@@ -129,8 +134,5 @@ public:
     
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSubclassOf<UFrontendAnimInstance> GetFrontendAnimClass() const;
-    
-    
-    // Fix for true pure virtual functions not being implemented
 };
 

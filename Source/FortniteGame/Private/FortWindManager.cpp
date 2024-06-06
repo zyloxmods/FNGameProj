@@ -63,16 +63,16 @@ FFortWindImpulseHandle AFortWindManager::AddWindImpulse(const FFortWindImpulseRa
 }
 
 AFortWindManager::AFortWindManager() {
-    this->bAllowWindImpulses = true;
-    this->bAllowResponderAudio = true;
-    this->SectionWidth = 1;
-    this->MinimumSectionBlendTime = 1;
-    this->WindVectorParameterName = TEXT("WindVector_CodeControlled");
-    this->NextNearbyIndexToUpdate = 0;
-    this->AudioWindSpeedParameterName = TEXT("WindSpeed");
-    this->AudioWindInterpSpeed = 1;
-    this->AudioWindMaxResponderDistance = 1;
-    this->UpdateWindMaxResponderDistance = 1;
-    this->ViewerMovementDistanceForRefresh = 1;
+    bAllowWindImpulses = true;
+    bAllowResponderAudio = true;
+    SectionWidth = 1;
+    MinimumSectionBlendTime = 1;
+    WindVectorParameterName = TEXT("WindVector_CodeControlled");
+    NextNearbyIndexToUpdate = 0;
+    AudioWindSpeedParameterName = TEXT("WindSpeed");
+    AudioWindInterpSpeed = 1;
+    AudioWindMaxResponderDistance = 1;
+    UpdateWindMaxResponderDistance = 1;
+    ViewerMovementDistanceForRefresh = 1;
 }
 

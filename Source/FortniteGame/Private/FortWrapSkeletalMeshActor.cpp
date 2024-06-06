@@ -8,10 +8,10 @@ ACustomItemWrapModifier* AFortWrapSkeletalMeshActor::GetWrapModifier() const {
 }
 
 AFortWrapSkeletalMeshActor::AFortWrapSkeletalMeshActor() {
-    this->WrapToApply = NULL;
-    this->WrapMaterialType = EItemWrapMaterialType::WeaponWrap;
-    this->ItemWrapModifier = NULL;
-    this->bHasSectionLimit = true;
-    this->MaterialSectionMask = 0;
+    WrapToApply = NULL;
+    WrapMaterialType = EItemWrapMaterialType::WeaponWrap;
+    ItemWrapModifier = NULL;
+    bHasSectionLimit = true;
+    MaterialSectionMask = 0;
 }
 

@@ -18,13 +18,13 @@ void AAthenaCobaltStormShield::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 AAthenaCobaltStormShield::AAthenaCobaltStormShield() {
-    this->ShieldBoundarySound = NULL;
-    this->LowpassAudioListenerRange = 1;
-    this->LowpassAudioValueOutside = 1;
-    this->LowpassAudioValueInside = 1;
-    this->LowpassAudioInterpSpeed = 1;
-    this->CachedMutator = NULL;
-    this->ClientStormShieldShrinkTimerValue = 1;
-    this->ShieldBoundaryAudio = NULL;
+    ShieldBoundarySound = NULL;
+    LowpassAudioListenerRange = 1;
+    LowpassAudioValueOutside = 1;
+    LowpassAudioValueInside = 1;
+    LowpassAudioInterpSpeed = 1;
+    CachedMutator = NULL;
+    ClientStormShieldShrinkTimerValue = 1;
+    ShieldBoundaryAudio = NULL;
 }
 

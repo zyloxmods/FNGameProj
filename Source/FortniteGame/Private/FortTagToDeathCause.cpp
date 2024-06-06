@@ -1,7 +1,7 @@
 #include "FortTagToDeathCause.h"
 
 FFortTagToDeathCause::FFortTagToDeathCause() {
-    this->DBNOCause = EDeathCause::OutsideSafeZone;
-    this->DeathCause = EDeathCause::OutsideSafeZone;
+    DBNOCause = EDeathCause::OutsideSafeZone;
+    DeathCause = EDeathCause::OutsideSafeZone;
 }
 

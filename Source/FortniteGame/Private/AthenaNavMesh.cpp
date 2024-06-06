@@ -7,6 +7,6 @@ void AAthenaNavMesh::ComputeOffsetForMoveTiles(const FVector& StartPosition, con
 }
 
 AAthenaNavMesh::AAthenaNavMesh() {
-    this->HotSpotPathfindingMaxSearchNodes = 0;
+    HotSpotPathfindingMaxSearchNodes = 0;
 }
 

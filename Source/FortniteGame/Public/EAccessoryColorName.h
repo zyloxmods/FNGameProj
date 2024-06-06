@@ -7,6 +7,6 @@ enum EAccessoryColorName {
     EAccessoryColorName_AccessoryColor1,
     EAccessoryColorName_AccessoryColor2,
     EAccessoryColorName_AccessoryColor3,
-    EAccessoryColorName_NumTypes,
+    EAccessoryColorName_NumTypes UMETA(Hidden),
 };
 

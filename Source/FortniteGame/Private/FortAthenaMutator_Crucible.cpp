@@ -126,8 +126,8 @@ void AFortAthenaMutator_Crucible::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 AFortAthenaMutator_Crucible::AFortAthenaMutator_Crucible() {
-    this->ParticipantBestTimes.AddDefaulted(18);
-    this->CurrentControlType = EFortCrucibleControlType::Gamepad;
-    this->LatestServerTime = 1;
+    ParticipantBestTimes.AddDefaulted(18);
+    CurrentControlType = EFortCrucibleControlType::Gamepad;
+    LatestServerTime = 1;
 }
 

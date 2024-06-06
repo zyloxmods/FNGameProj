@@ -1,7 +1,7 @@
 #include "FortSpawnActorInfo.h"
 
 UFortSpawnActorInfo::UFortSpawnActorInfo() {
-    this->SpawnActorClass = NULL;
-    this->SpawnTiming = EFortSpawnActorTime::PostPlaylistLoad;
+    SpawnActorClass = NULL;
+    SpawnTiming = EFortSpawnActorTime::PostPlaylistLoad;
 }
 

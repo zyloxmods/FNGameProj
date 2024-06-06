@@ -1,7 +1,7 @@
 #include "ReplayDataMoveSnapshot.h"
 
 FReplayDataMoveSnapshot::FReplayDataMoveSnapshot() {
-    this->MovementStyle = EFortMovementStyle::Running;
-    this->WorldTime = 0;
+    MovementStyle = EFortMovementStyle::Running;
+    WorldTime = 0;
 }
 

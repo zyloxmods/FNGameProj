@@ -7,6 +7,6 @@ void UFortAmbientOneShotInstance::OnTrigger() {
 }
 
 UFortAmbientOneShotInstance::UFortAmbientOneShotInstance() {
-    this->bActive = false;
+    bActive = false;
 }
 

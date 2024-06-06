@@ -8,6 +8,6 @@ void AFortLevelSpawnActor::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortLevelSpawnActor::AFortLevelSpawnActor() {
-    this->CachedSpecialActorIdx = 0;
+    CachedSpecialActorIdx = 0;
 }
 

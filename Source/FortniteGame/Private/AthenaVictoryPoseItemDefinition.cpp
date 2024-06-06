@@ -1,5 +1,6 @@
 #include "AthenaVictoryPoseItemDefinition.h"
 
-UAthenaVictoryPoseItemDefinition::UAthenaVictoryPoseItemDefinition() {
+UAthenaVictoryPoseItemDefinition::UAthenaVictoryPoseItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

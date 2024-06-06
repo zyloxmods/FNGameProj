@@ -5,7 +5,7 @@ FTransform ADeployableBaseCore::GetSimpleDeathFXTransform_Implementation() const
 }
 
 ADeployableBaseCore::ADeployableBaseCore() {
-    this->Plot = NULL;
-    this->bRegisterAsGlobalGameplayEventListener = false;
+    Plot = NULL;
+    bRegisterAsGlobalGameplayEventListener = false;
 }
 

@@ -1,11 +1,11 @@
 #include "VehiclePawnState.h"
 
 FVehiclePawnState::FVehiclePawnState() {
-    this->Vehicle = NULL;
-    this->VehicleApexZ = 1;
-    this->SeatIndex = 0;
-    this->ExitSocketIndex = 0;
-    this->bOverrideVehicleExit = false;
-    this->EntryTime = 1;
+    Vehicle = NULL;
+    VehicleApexZ = 1;
+    SeatIndex = 0;
+    ExitSocketIndex = 0;
+    bOverrideVehicleExit = false;
+    EntryTime = 1;
 }
 

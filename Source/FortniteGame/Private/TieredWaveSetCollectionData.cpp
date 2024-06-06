@@ -1,7 +1,7 @@
 #include "TieredWaveSetCollectionData.h"
 
 FTieredWaveSetCollectionData::FTieredWaveSetCollectionData() {
-    this->MinLvl = 0;
-    this->MaxLvl = 0;
+    MinLvl = 0;
+    MaxLvl = 0;
 }
 

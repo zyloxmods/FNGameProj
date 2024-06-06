@@ -1,6 +1,6 @@
 #include "HomebaseBannerColorData.h"
 
 FHomebaseBannerColorData::FHomebaseBannerColorData() {
-    this->SubCategoryGroup = 0;
+    SubCategoryGroup = 0;
 }
 

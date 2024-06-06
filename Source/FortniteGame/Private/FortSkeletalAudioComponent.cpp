@@ -13,10 +13,10 @@ void UFortSkeletalAudioComponent::SetCanPlay(bool CanPlay) {
 }
 
 UFortSkeletalAudioComponent::UFortSkeletalAudioComponent() {
-    this->AudioAssetBank = NULL;
-    this->bShouldIgnoreDilation = false;
-    this->InterpSpeed = 1;
-    this->bShouldAttachOneShots = false;
-    this->SkeletalMesh = NULL;
+    AudioAssetBank = NULL;
+    bShouldIgnoreDilation = false;
+    InterpSpeed = 1;
+    bShouldAttachOneShots = false;
+    SkeletalMesh = NULL;
 }
 

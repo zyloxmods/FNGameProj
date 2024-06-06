@@ -22,6 +22,6 @@ void UFortItemWrapOverrideComponent::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortItemWrapOverrideComponent::UFortItemWrapOverrideComponent() {
-    this->CurrentOverrideHardRef = NULL;
+    CurrentOverrideHardRef = NULL;
 }
 

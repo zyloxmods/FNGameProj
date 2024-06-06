@@ -1,7 +1,8 @@
 #include "FortChallengeBundleProgressTrackerToken.h"
 
-UFortChallengeBundleProgressTrackerToken::UFortChallengeBundleProgressTrackerToken() {
-    this->ProfileType = EItemProfileType::Common;
-    this->ItemType = EFortItemType::ChallengeBundleCompletionToken;
+UFortChallengeBundleProgressTrackerToken::UFortChallengeBundleProgressTrackerToken(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ProfileType = EItemProfileType::Common;
+    ItemType = EFortItemType::ChallengeBundleCompletionToken;
 }
 

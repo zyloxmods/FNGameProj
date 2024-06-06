@@ -1,9 +1,9 @@
 #include "GameplayMutatorEventData.h"
 
 FGameplayMutatorEventData::FGameplayMutatorEventData() {
-    this->EventId = 0;
-    this->EventParam1 = 0;
-    this->EventParam2 = 0;
-    this->EventParam3 = 0;
+    EventId = 0;
+    EventParam1 = 0;
+    EventParam2 = 0;
+    EventParam3 = 0;
 }
 

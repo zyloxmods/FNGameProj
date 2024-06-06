@@ -1,7 +1,7 @@
 #include "FortTestControllerStreamingTest.h"
 
 UFortTestControllerStreamingTest::UFortTestControllerStreamingTest() {
-    this->SkydivePathArray.AddDefaulted(9);
-    this->PostSkydiveMinWait = 1;
+    SkydivePathArray.AddDefaulted(9);
+    PostSkydiveMinWait = 1;
 }
 

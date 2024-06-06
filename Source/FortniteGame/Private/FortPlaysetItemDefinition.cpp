@@ -19,16 +19,17 @@ FVector UFortPlaysetItemDefinition::AdjustToFinalLocation(UObject* WorldContextO
     return FVector{};
 }
 
-UFortPlaysetItemDefinition::UFortPlaysetItemDefinition() {
-    this->SizeX = 0;
-    this->SizeY = 0;
-    this->SizeZ = 0;
-    this->ZSnapTolerance = 1;
-    this->OffsetType = EPlaysetOffsetType::CustomOffsetFromCorner;
-    this->bUseLocationOffset = false;
-    this->bAdjustForWorldCollision = false;
-    this->bUsePlaysetProps = false;
-    this->LevelSaveRecord = NULL;
-    this->PlaysetPropLevelSaveRecordCollection = NULL;
+UFortPlaysetItemDefinition::UFortPlaysetItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    SizeX = 0;
+    SizeY = 0;
+    SizeZ = 0;
+    ZSnapTolerance = 1;
+    OffsetType = EPlaysetOffsetType::CustomOffsetFromCorner;
+    bUseLocationOffset = false;
+    bAdjustForWorldCollision = false;
+    bUsePlaysetProps = false;
+    LevelSaveRecord = NULL;
+    PlaysetPropLevelSaveRecordCollection = NULL;
 }
 

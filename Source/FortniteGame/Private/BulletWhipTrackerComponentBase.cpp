@@ -10,7 +10,7 @@ void UBulletWhipTrackerComponentBase::Disable() {
 }
 
 UBulletWhipTrackerComponentBase::UBulletWhipTrackerComponentBase() {
-    this->bEnableGravityCheck = false;
-    this->CachedPassByPawn = NULL;
+    bEnableGravityCheck = false;
+    CachedPassByPawn = NULL;
 }
 

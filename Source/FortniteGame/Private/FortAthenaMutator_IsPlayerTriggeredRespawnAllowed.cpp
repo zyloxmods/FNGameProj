@@ -8,6 +8,6 @@ void AFortAthenaMutator_IsPlayerTriggeredRespawnAllowed::GetLifetimeReplicatedPr
 }
 
 AFortAthenaMutator_IsPlayerTriggeredRespawnAllowed::AFortAthenaMutator_IsPlayerTriggeredRespawnAllowed() {
-    this->bIsPlayerTriggeredRespawnAllowed = true;
+    bIsPlayerTriggeredRespawnAllowed = true;
 }
 

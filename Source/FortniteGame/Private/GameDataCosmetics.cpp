@@ -4,20 +4,20 @@ void UGameDataCosmetics::CreateBannerAssets() {
 }
 
 UGameDataCosmetics::UGameDataCosmetics() {
-    this->STWHeroBackpackItemDefinition = NULL;
-    this->STWHeroNoDefaultBackpackItemDefinition = NULL;
-    this->DefaultBattleBusSkin = NULL;
-    this->DefaultGliderSkin = NULL;
-    this->DefaultContrailEffect = NULL;
-    this->DefaultMusicPack = NULL;
-    this->FilterTagTable = NULL;
-    this->CosmeticMarkupTable = NULL;
-    this->ItemPreviewLODStreamingTimeout = 1;
-    this->CharmConfigAsset = NULL;
-    this->PlaceholderItemToShowForDeniedCosmetics = NULL;
-    this->CameraPositionTransitionCurve = NULL;
-    this->CameraPositionTransitionDuration = 1;
-    this->CameraPositionTargetMaxLerpDistance = 1;
-    this->MinPanelSizeForFraming = 1;
+    STWHeroBackpackItemDefinition = NULL;
+    STWHeroNoDefaultBackpackItemDefinition = NULL;
+    DefaultBattleBusSkin = NULL;
+    DefaultGliderSkin = NULL;
+    DefaultContrailEffect = NULL;
+    DefaultMusicPack = NULL;
+    FilterTagTable = NULL;
+    CosmeticMarkupTable = NULL;
+    ItemPreviewLODStreamingTimeout = 1;
+    CharmConfigAsset = NULL;
+    PlaceholderItemToShowForDeniedCosmetics = NULL;
+    CameraPositionTransitionCurve = NULL;
+    CameraPositionTransitionDuration = 1;
+    CameraPositionTargetMaxLerpDistance = 1;
+    MinPanelSizeForFraming = 1;
 }
 

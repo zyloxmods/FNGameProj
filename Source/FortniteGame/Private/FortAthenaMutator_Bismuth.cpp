@@ -7,9 +7,9 @@ void AFortAthenaMutator_Bismuth::AIBotPawnDeath(AActor* DamagedActor, float Dama
 }
 
 AFortAthenaMutator_Bismuth::AFortAthenaMutator_Bismuth() {
-    this->BotData = NULL;
-    this->BotTeamStartIndex = 0;
-    this->ReflectGameplayEffect = NULL;
-    this->InitiateGameplayEffect = NULL;
+    BotData = NULL;
+    BotTeamStartIndex = 0;
+    ReflectGameplayEffect = NULL;
+    InitiateGameplayEffect = NULL;
 }
 

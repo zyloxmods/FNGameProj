@@ -1,10 +1,10 @@
 #include "FortItemViewSettings.h"
 
 FFortItemViewSettings::FFortItemViewSettings() {
-    this->UsesPlacementActor = false;
-    this->UsesFixedCamera = false;
-    this->SupportsZooming = false;
-    this->DefaultZoomLevel = 1;
-    this->RotationMode = EFortItemViewRotationMode::None;
+    UsesPlacementActor = false;
+    UsesFixedCamera = false;
+    SupportsZooming = false;
+    DefaultZoomLevel = 1;
+    RotationMode = EFortItemViewRotationMode::None;
 }
 

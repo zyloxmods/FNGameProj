@@ -5,6 +5,6 @@ void AFortProjectileTrajectory::SetTrajectorySpline_Implementation(const TArray<
 }
 
 AFortProjectileTrajectory::AFortProjectileTrajectory() {
-    this->SplineComponent = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComponent"));
+    SplineComponent = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComponent"));
 }
 

@@ -23,7 +23,7 @@ void AFortPlayerPetRepState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortPlayerPetRepState::AFortPlayerPetRepState() {
-    this->LookAtTarget = NULL;
-    this->PetItemDef = NULL;
+    LookAtTarget = NULL;
+    PetItemDef = NULL;
 }
 

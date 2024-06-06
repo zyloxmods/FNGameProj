@@ -50,7 +50,7 @@ protected:
     FFortCreativeTagsHelper CreativeTagsHelper;
     
 public:
-    UFortAmmoItemDefinition();
+    UFortAmmoItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftObjectPtr<UTexture2D> GetHUDAmmoSmallPreviewImage() const;
     

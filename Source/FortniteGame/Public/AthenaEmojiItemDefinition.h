@@ -65,7 +65,7 @@ private:
     UMaterialInstance* GeneratedMaterial;
     
 public:
-    UAthenaEmojiItemDefinition();
+    UAthenaEmojiItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure=false)
     void ConfigureParticleSystem(UParticleSystemComponent* ParticleSystem, TSoftObjectPtr<UTexture2D> OverrideImage) const;
 

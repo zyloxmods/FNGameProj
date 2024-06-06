@@ -1,6 +1,6 @@
 #include "FortDepositedResources.h"
 
 FFortDepositedResources::FFortDepositedResources() {
-    this->Quantity = 0;
+    Quantity = 0;
 }
 

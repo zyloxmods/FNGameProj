@@ -1,10 +1,10 @@
 #include "FortAthenaCompassIcon.h"
 
 FFortAthenaCompassIcon::FFortAthenaCompassIcon() {
-    this->Scale = 1;
-    this->MaxPawnDistanceForScaling = 1;
-    this->DistanceForScalingMultiplier_Min = 1;
-    this->DistanceForScalingMultiplier_Max = 1;
-    this->YOffset = 1;
+    Scale = 1;
+    MaxPawnDistanceForScaling = 1;
+    DistanceForScalingMultiplier_Min = 1;
+    DistanceForScalingMultiplier_Max = 1;
+    YOffset = 1;
 }
 

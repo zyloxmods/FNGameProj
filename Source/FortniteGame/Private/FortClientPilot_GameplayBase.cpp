@@ -1,14 +1,14 @@
 #include "FortClientPilot_GameplayBase.h"
 
 UFortClientPilot_GameplayBase::UFortClientPilot_GameplayBase() {
-    this->LastRandomTurnTime = 1;
-    this->LastPickLootTime = 1;
-    this->LastPickEnemyTime = 1;
-    this->LastEnemyKilledTime = 1;
-    this->LastBuildingKilledTime = 1;
-    this->LastGoodInteraction = 1;
-    this->LastCheckGoodTarget = 1;
-    this->LastPickEditTime = 1;
-    this->MyPawn = NULL;
+    LastRandomTurnTime = 1;
+    LastPickLootTime = 1;
+    LastPickEnemyTime = 1;
+    LastEnemyKilledTime = 1;
+    LastBuildingKilledTime = 1;
+    LastGoodInteraction = 1;
+    LastCheckGoodTarget = 1;
+    LastPickEditTime = 1;
+    MyPawn = NULL;
 }
 

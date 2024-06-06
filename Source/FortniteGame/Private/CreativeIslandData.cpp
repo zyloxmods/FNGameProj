@@ -1,7 +1,7 @@
 #include "CreativeIslandData.h"
 
 FCreativeIslandData::FCreativeIslandData() {
-    this->PublishedIslandVersion = 0;
-    this->bIsDeleted = false;
+    PublishedIslandVersion = 0;
+    bIsDeleted = false;
 }
 

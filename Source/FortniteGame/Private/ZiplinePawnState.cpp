@@ -1,11 +1,11 @@
 #include "ZiplinePawnState.h"
 
 FZiplinePawnState::FZiplinePawnState() {
-    this->Zipline = NULL;
-    this->bIsZiplining = false;
-    this->bJumped = false;
-    this->AuthoritativeValue = 0;
-    this->TimeZipliningBegan = 1;
-    this->TimeZipliningEndedFromJump = 1;
+    Zipline = NULL;
+    bIsZiplining = false;
+    bJumped = false;
+    AuthoritativeValue = 0;
+    TimeZipliningBegan = 1;
+    TimeZipliningEndedFromJump = 1;
 }
 

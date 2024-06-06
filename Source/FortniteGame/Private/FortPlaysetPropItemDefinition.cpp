@@ -1,8 +1,9 @@
 #include "FortPlaysetPropItemDefinition.h"
 
-UFortPlaysetPropItemDefinition::UFortPlaysetPropItemDefinition() {
-    this->ActorSaveRecord = NULL;
-    this->bExplicitlyNotBrowsable = false;
-    this->bImplicitlyNotBrowsable = false;
+UFortPlaysetPropItemDefinition::UFortPlaysetPropItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ActorSaveRecord = NULL;
+    bExplicitlyNotBrowsable = false;
+    bImplicitlyNotBrowsable = false;
 }
 

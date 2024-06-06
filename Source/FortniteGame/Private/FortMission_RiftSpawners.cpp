@@ -28,20 +28,20 @@ void AFortMission_RiftSpawners::HandleAISpawned(UFortAIEncounterInfo* Encounter,
 }
 
 AFortMission_RiftSpawners::AFortMission_RiftSpawners() {
-    this->bStartBasedOnAthenaGamePhases = false;
-    this->StartingGamePhase = EAthenaGamePhase::None;
-    this->StartingDelay = 1;
-    this->bUseAthenaSafeZonePhases = false;
-    this->bSynchronizeEncounterStartTimes = true;
-    this->MinEncounterIndex = 0;
-    this->MaxEncounterIndex = 0;
-    this->bAllowRiftIntensification = false;
-    this->SpawnerShutdownCheckInterval = 1;
-    this->BurstFallbackTime = 1;
-    this->CalendarRecheckInterval = 1;
-    this->CurrentEncounterIndex = 0;
-    this->bRiftSpawningInProgress = false;
-    this->SyncedEncounterStartTime = 1;
-    this->bCalendarAllowsSpawning = true;
+    bStartBasedOnAthenaGamePhases = false;
+    StartingGamePhase = EAthenaGamePhase::None;
+    StartingDelay = 1;
+    bUseAthenaSafeZonePhases = false;
+    bSynchronizeEncounterStartTimes = true;
+    MinEncounterIndex = 0;
+    MaxEncounterIndex = 0;
+    bAllowRiftIntensification = false;
+    SpawnerShutdownCheckInterval = 1;
+    BurstFallbackTime = 1;
+    CalendarRecheckInterval = 1;
+    CurrentEncounterIndex = 0;
+    bRiftSpawningInProgress = false;
+    SyncedEncounterStartTime = 1;
+    bCalendarAllowsSpawning = true;
 }
 

@@ -120,6 +120,6 @@ void UFortMatchmakingContext::CancelMatchmaking() {
 }
 
 UFortMatchmakingContext::UFortMatchmakingContext() {
-    this->bMatchmakingFlowActive = false;
+    bMatchmakingFlowActive = false;
 }
 

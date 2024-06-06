@@ -23,7 +23,7 @@ protected:
     EItemProfileType ProfileType;
     
 public:
-    UFortCodeTokenItemDefinition();
+    UFortCodeTokenItemDefinition(const FObjectInitializer& ObjectInitializer);
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("CodeToken", GetFName());

@@ -1,6 +1,6 @@
 #include "CustomPartMaterialOverrideData.h"
 
 FCustomPartMaterialOverrideData::FCustomPartMaterialOverrideData() {
-    this->MaterialOverrideIndex = 0;
+    MaterialOverrideIndex = 0;
 }
 

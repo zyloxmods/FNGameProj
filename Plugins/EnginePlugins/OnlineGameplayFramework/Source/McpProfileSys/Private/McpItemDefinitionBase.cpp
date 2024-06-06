@@ -1,5 +1,8 @@
 #include "McpItemDefinitionBase.h"
 
-UMcpItemDefinitionBase::UMcpItemDefinitionBase() {
+UMcpItemDefinitionBase::UMcpItemDefinitionBase(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer)
+{
 }
+
 

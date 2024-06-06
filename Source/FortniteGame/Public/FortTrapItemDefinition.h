@@ -29,6 +29,6 @@ public:
     {
         return FPrimaryAssetId("Trap", GetFName());
     }
-    UFortTrapItemDefinition();
+    UFortTrapItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

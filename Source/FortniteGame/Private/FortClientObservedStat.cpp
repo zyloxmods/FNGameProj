@@ -1,6 +1,6 @@
 #include "FortClientObservedStat.h"
 
 FFortClientObservedStat::FFortClientObservedStat() {
-    this->StatValue = 0;
+    StatValue = 0;
 }
 

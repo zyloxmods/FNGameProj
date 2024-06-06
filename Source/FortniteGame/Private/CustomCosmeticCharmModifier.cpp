@@ -18,7 +18,7 @@ void ACustomCosmeticCharmModifier::ForceResetParticleSystems() {
 }
 
 ACustomCosmeticCharmModifier::ACustomCosmeticCharmModifier() {
-    this->CharmType = EFortCustomCharmType::NumTypes;
-    this->MyCharmOwner = NULL;
+    CharmType = EFortCustomCharmType::NumTypes;
+    MyCharmOwner = NULL;
 }
 

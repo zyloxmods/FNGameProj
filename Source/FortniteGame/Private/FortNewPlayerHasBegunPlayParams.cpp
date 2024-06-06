@@ -7,6 +7,6 @@ void UFortNewPlayerHasBegunPlayParams::BreakParams(AFortPlayerController*& _NewP
 }
 
 UFortNewPlayerHasBegunPlayParams::UFortNewPlayerHasBegunPlayParams() {
-    this->NewPlayerPC = NULL;
+    NewPlayerPC = NULL;
 }
 

@@ -22,7 +22,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float MusicPreviewStartTime;
     
-    UAthenaMusicPackItemDefinition();
+    UAthenaMusicPackItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftObjectPtr<UTexture2D> GetCoverArt() const;
     

@@ -13,6 +13,6 @@ protected:
     EEventTokenType TokenType;
     
 public:
-    UAthenaEventTokenItemDefinition();
+    UAthenaEventTokenItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

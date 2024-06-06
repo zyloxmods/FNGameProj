@@ -1,6 +1,6 @@
 #include "FortBotDigestedHealingItems.h"
 
 FFortBotDigestedHealingItems::FFortBotDigestedHealingItems() {
-    this->UseItemResourceThreshold = 1;
+    UseItemResourceThreshold = 1;
 }
 

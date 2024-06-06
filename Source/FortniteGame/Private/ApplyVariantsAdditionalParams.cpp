@@ -1,11 +1,11 @@
 #include "ApplyVariantsAdditionalParams.h"
 
 FApplyVariantsAdditionalParams::FApplyVariantsAdditionalParams() {
-    this->bApplyToAdditionalVariantComponentsOnly = false;
-    this->bDeriveMIDNameFromParent = false;
-    this->bShouldResetOverrideMaterialsOnMeshSwap = false;
-    this->bBackpackReliesOnVariantsFromCID = false;
-    this->bGliderReliesOnVariantsFromCID = false;
-    this->bForbidParticleSwapping = false;
+    bApplyToAdditionalVariantComponentsOnly = false;
+    bDeriveMIDNameFromParent = false;
+    bShouldResetOverrideMaterialsOnMeshSwap = false;
+    bBackpackReliesOnVariantsFromCID = false;
+    bGliderReliesOnVariantsFromCID = false;
+    bForbidParticleSwapping = false;
 }
 

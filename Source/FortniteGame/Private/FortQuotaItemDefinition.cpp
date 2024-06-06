@@ -1,10 +1,11 @@
 #include "FortQuotaItemDefinition.h"
 
-UFortQuotaItemDefinition::UFortQuotaItemDefinition() {
-    this->StartingValue = 1;
-    this->MaximumValue = 0;
-    this->UnitsPerMinuteRechargeRate = 1;
-    this->RechargeDelayMinutes = 0;
-    this->ItemType = EFortItemType::Quota;
+UFortQuotaItemDefinition::UFortQuotaItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    StartingValue = 1;
+    MaximumValue = 0;
+    UnitsPerMinuteRechargeRate = 1;
+    RechargeDelayMinutes = 0;
+    ItemType = EFortItemType::Quota;
 }
 

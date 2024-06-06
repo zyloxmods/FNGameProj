@@ -8,7 +8,8 @@ UFortAbilityKit* UFortTeamPerkItemDefinition::GetAbilityKitBP() const {
     return NULL;
 }
 
-UFortTeamPerkItemDefinition::UFortTeamPerkItemDefinition() {
-    this->bProgressiveBonus = false;
+UFortTeamPerkItemDefinition::UFortTeamPerkItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bProgressiveBonus = false;
 }
 

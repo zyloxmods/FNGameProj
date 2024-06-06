@@ -1,8 +1,8 @@
 #include "FortHLODSMActor.h"
 
 AFortHLODSMActor::AFortHLODSMActor() {
-    this->bIsDynamic = false;
-    this->MaxDrawDistanceMultiplier = 1;
-    this->StaticMeshComponent = NULL;
+    bIsDynamic = false;
+    MaxDrawDistanceMultiplier = 1;
+    StaticMeshComponent = NULL;
 }
 

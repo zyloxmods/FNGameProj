@@ -2,6 +2,6 @@
 #include "Components/SkeletalMeshComponent.h"
 
 AFortPhysicsReplicatedTargetGhost::AFortPhysicsReplicatedTargetGhost() {
-    this->SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMeshComponent"));
+    SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMeshComponent"));
 }
 

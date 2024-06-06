@@ -1,6 +1,6 @@
 #include "AthenaMatchLootReward.h"
 
 FAthenaMatchLootReward::FAthenaMatchLootReward() {
-    this->Amount = 0;
+    Amount = 0;
 }
 

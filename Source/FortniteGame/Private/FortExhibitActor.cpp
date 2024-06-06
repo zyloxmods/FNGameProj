@@ -1,6 +1,6 @@
 #include "FortExhibitActor.h"
 
 AFortExhibitActor::AFortExhibitActor() {
-    this->CameraFOV = 1;
+    CameraFOV = 1;
 }
 

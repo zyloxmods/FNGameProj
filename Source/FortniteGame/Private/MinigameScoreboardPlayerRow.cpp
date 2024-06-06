@@ -1,6 +1,6 @@
 #include "MinigameScoreboardPlayerRow.h"
 
 FMinigameScoreboardPlayerRow::FMinigameScoreboardPlayerRow() {
-    this->PlayerState = NULL;
+    PlayerState = NULL;
 }
 

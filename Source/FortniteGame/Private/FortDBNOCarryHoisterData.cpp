@@ -1,7 +1,7 @@
 #include "FortDBNOCarryHoisterData.h"
 
 FFortDBNOCarryHoisterData::FFortDBNOCarryHoisterData() {
-    this->DBNOHoister = NULL;
-    this->DBNOCarryEvent = EFortDBNOCarryEvent::PickedUp;
+    DBNOHoister = NULL;
+    DBNOCarryEvent = EFortDBNOCarryEvent::PickedUp;
 }
 

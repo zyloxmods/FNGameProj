@@ -14,6 +14,6 @@ void UPapayaServerMigrationComponent::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 UPapayaServerMigrationComponent::UPapayaServerMigrationComponent() {
-    this->LastRequestedTimeForMigrationTimerPushback = 1;
+    LastRequestedTimeForMigrationTimerPushback = 1;
 }
 

@@ -1,8 +1,8 @@
 #include "IgnoreCollisionActor.h"
 
 FIgnoreCollisionActor::FIgnoreCollisionActor() {
-    this->IgnoreActor = NULL;
-    this->TimeIgnoreStarted = 1;
-    this->IgnoreDuration = 1;
+    IgnoreActor = NULL;
+    TimeIgnoreStarted = 1;
+    IgnoreDuration = 1;
 }
 

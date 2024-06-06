@@ -106,7 +106,7 @@ private:
     FMarshalledVFXAuthoredData AuthoredParticleData;
     
 public:
-    UAthenaGliderItemDefinition();
+    UAthenaGliderItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FName GetUserSkeletonParameterName() const;
     

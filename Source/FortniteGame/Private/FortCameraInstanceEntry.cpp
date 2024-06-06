@@ -1,8 +1,8 @@
 #include "FortCameraInstanceEntry.h"
 
 FFortCameraInstanceEntry::FFortCameraInstanceEntry() {
-    this->CameraClass = NULL;
-    this->ViewTarget = NULL;
-    this->Camera = NULL;
+    CameraClass = NULL;
+    ViewTarget = NULL;
+    Camera = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "FortCurieEntityStateBehavior.h"
 
 UFortCurieEntityStateBehavior::UFortCurieEntityStateBehavior() {
-    this->bActAsDmgSrcDirectly = false;
+    bActAsDmgSrcDirectly = false;
 }
 

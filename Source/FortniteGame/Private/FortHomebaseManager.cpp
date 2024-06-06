@@ -40,12 +40,12 @@ bool UFortHomebaseManager::AreNodeCostsMet(const UFortHomebaseNodeItemDefinition
 }
 
 UFortHomebaseManager::UFortHomebaseManager() {
-    this->HomebaseNodeGameplayEffectDataTable = NULL;
-    this->ResearchSystemUpgradesTable = NULL;
-    this->StatsGamplayEffect = NULL;
-    this->HomebaseSquadDataTable = NULL;
-    this->ExpeditionSlotsDataTable = NULL;
-    this->ManagerSquadSynergyBonusTable = NULL;
-    this->SquadGE = NULL;
+    HomebaseNodeGameplayEffectDataTable = NULL;
+    ResearchSystemUpgradesTable = NULL;
+    StatsGamplayEffect = NULL;
+    HomebaseSquadDataTable = NULL;
+    ExpeditionSlotsDataTable = NULL;
+    ManagerSquadSynergyBonusTable = NULL;
+    SquadGE = NULL;
 }
 

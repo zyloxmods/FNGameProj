@@ -3,8 +3,9 @@
 void UFortEventItemDefinitionBase::CreateCalendarPayload() {
 }
 
-UFortEventItemDefinitionBase::UFortEventItemDefinitionBase() {
-    this->EventPriority = 0;
-    this->bActivateByDefault = false;
+UFortEventItemDefinitionBase::UFortEventItemDefinitionBase(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    EventPriority = 0;
+    bActivateByDefault = false;
 }
 

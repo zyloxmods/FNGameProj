@@ -16,8 +16,8 @@ void AFortMissionState::OnAllPlayersLoadedInWrapper() {
 
 
 AFortMissionState::AFortMissionState() {
-    this->bAlreadySetTimerOnce = false;
-    this->bAlreadyCalledOnAllPlayersLoadedIn = false;
-    this->TimerForOnAllPlayersLoadedIn = 1;
+    bAlreadySetTimerOnce = false;
+    bAlreadyCalledOnAllPlayersLoadedIn = false;
+    TimerForOnAllPlayersLoadedIn = 1;
 }
 

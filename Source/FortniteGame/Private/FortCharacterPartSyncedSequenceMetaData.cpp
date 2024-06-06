@@ -1,7 +1,7 @@
 #include "FortCharacterPartSyncedSequenceMetaData.h"
 
 UFortCharacterPartSyncedSequenceMetaData::UFortCharacterPartSyncedSequenceMetaData() {
-    this->SyncedSequence = NULL;
-    this->Priority = 0;
+    SyncedSequence = NULL;
+    Priority = 0;
 }
 

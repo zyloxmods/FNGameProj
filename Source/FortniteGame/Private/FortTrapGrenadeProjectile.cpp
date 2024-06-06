@@ -18,8 +18,8 @@ void AFortTrapGrenadeProjectile::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortTrapGrenadeProjectile::AFortTrapGrenadeProjectile() {
-    this->ProjectileDecoTool = NULL;
-    this->ProjectileDecoHelper = NULL;
-    this->TrapDefinition = NULL;
+    ProjectileDecoTool = NULL;
+    ProjectileDecoHelper = NULL;
+    TrapDefinition = NULL;
 }
 

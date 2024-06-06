@@ -46,12 +46,12 @@ void AFortDecoTool::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 }
 
 AFortDecoTool::AFortDecoTool() {
-    this->bButtonDown = false;
-    this->ItemDefinition = NULL;
-    this->DecoHelper = NULL;
-    this->CarriedActor = NULL;
-    this->bPlaceCarriedActor = false;
-    this->bPreventExecutionOnOwningPlayerFalling = false;
-    this->bIsEquipped = false;
+    bButtonDown = false;
+    ItemDefinition = NULL;
+    DecoHelper = NULL;
+    CarriedActor = NULL;
+    bPlaceCarriedActor = false;
+    bPreventExecutionOnOwningPlayerFalling = false;
+    bIsEquipped = false;
 }
 

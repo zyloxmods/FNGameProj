@@ -1,6 +1,6 @@
 #include "HomebaseRatingDifficultyMappingData.h"
 
 FHomebaseRatingDifficultyMappingData::FHomebaseRatingDifficultyMappingData() {
-    this->Difficulty = 0;
+    Difficulty = 0;
 }
 

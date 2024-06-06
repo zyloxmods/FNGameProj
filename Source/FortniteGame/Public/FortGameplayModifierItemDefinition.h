@@ -36,7 +36,7 @@ protected:
     FGameplayTagContainer DynamicPlaylistNameTags;
     
 public:
-    UFortGameplayModifierItemDefinition();
+    UFortGameplayModifierItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsHiddenInUI() const;
     

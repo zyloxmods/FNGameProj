@@ -1,6 +1,6 @@
 #include "FortRiftReservationHandle.h"
 
 FFortRiftReservationHandle::FFortRiftReservationHandle() {
-    this->RiftReservationID = 0;
+    RiftReservationID = 0;
 }
 

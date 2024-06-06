@@ -48,7 +48,7 @@ private:
     TSoftObjectPtr<UFortPackPersonality> PackPersonality;
     
 public:
-    UFortCardPackItemDefinition();
+    UFortCardPackItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsLlama() const;
     

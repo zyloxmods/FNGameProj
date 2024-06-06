@@ -44,7 +44,7 @@ void AFortMinigameScoreRegistry::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortMinigameScoreRegistry::AFortMinigameScoreRegistry() {
-    this->Playset = NULL;
-    this->bPostToKillFeed = true;
+    Playset = NULL;
+    bPostToKillFeed = true;
 }
 

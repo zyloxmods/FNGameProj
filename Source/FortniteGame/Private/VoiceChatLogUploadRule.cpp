@@ -1,6 +1,6 @@
 #include "VoiceChatLogUploadRule.h"
 
 FVoiceChatLogUploadRule::FVoiceChatLogUploadRule() {
-    this->LogSubmitChance = 1;
+    LogSubmitChance = 1;
 }
 

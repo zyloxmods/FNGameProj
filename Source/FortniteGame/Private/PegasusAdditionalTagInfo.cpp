@@ -1,6 +1,6 @@
 #include "PegasusAdditionalTagInfo.h"
 
 FPegasusAdditionalTagInfo::FPegasusAdditionalTagInfo() {
-    this->PGS_ScalarValue = 1;
+    PGS_ScalarValue = 1;
 }
 

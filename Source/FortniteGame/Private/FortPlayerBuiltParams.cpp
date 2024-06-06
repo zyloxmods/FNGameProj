@@ -7,8 +7,8 @@ void UFortPlayerBuiltParams::BreakParams(ABuildingActor*& _Building, TEnumAsByte
 }
 
 UFortPlayerBuiltParams::UFortPlayerBuiltParams() {
-    this->Building = NULL;
-    this->BuildingType = EFortBuildingType::Wall;
-    this->Builder = NULL;
+    Building = NULL;
+    BuildingType = EFortBuildingType::Wall;
+    Builder = NULL;
 }
 

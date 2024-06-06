@@ -1,10 +1,10 @@
 #include "FortGlobalMission.h"
 
 FFortGlobalMission::FFortGlobalMission() {
-    this->MaxDifficultyLevel = 1;
-    this->MinDifficultyLevel = 1;
-    this->bIsPrototype = false;
-    this->bAllowInTestMaps = false;
-    this->bEnabled = false;
+    MaxDifficultyLevel = 1;
+    MinDifficultyLevel = 1;
+    bIsPrototype = false;
+    bAllowInTestMaps = false;
+    bEnabled = false;
 }
 

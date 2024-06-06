@@ -7,6 +7,6 @@ void UFortMcpProfileCollections::AddToCollection_Implementation(const FString& C
 }
 */
 UFortMcpProfileCollections::UFortMcpProfileCollections() {
-    this->TaskManager = NULL;
+    TaskManager = NULL;
 }
 

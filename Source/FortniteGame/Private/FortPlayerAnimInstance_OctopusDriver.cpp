@@ -1,27 +1,27 @@
 #include "FortPlayerAnimInstance_OctopusDriver.h"
 
 UFortPlayerAnimInstance_OctopusDriver::UFortPlayerAnimInstance_OctopusDriver() {
-    this->PivotDir = EFortCardinalDirection::North;
-    this->LowerVelocityTime = 1;
-    this->LowerVelocityDuration = 1;
-    this->FwdBwd = 1;
-    this->LeftRight = 1;
-    this->SeatSteerYaw = 1;
-    this->SeatSteerPitch = 1;
-    this->SeatSteerStrength = 1;
-    this->bIsLowerVelocity = false;
-    this->bWasLowerVelocity = false;
-    this->bShouldPlayGrappleFire = false;
-    this->bShouldApplyLeanAdditive = false;
-    this->bShouldPlayPivotTransition = false;
-    this->bHasDriver = false;
-    this->bIsBoosting = false;
-    this->bWantsEastWestPivot = false;
-    this->bWantsNorthSouthPivot = false;
-    this->bIsInAir = false;
-    this->bIsTowhookHolstered = false;
-    this->bIsTowhookExtending = false;
-    this->bIsTowhookAttached = false;
-    this->bEnterMovingInPlace = false;
+    PivotDir = EFortCardinalDirection::North;
+    LowerVelocityTime = 1;
+    LowerVelocityDuration = 1;
+    FwdBwd = 1;
+    LeftRight = 1;
+    SeatSteerYaw = 1;
+    SeatSteerPitch = 1;
+    SeatSteerStrength = 1;
+    bIsLowerVelocity = false;
+    bWasLowerVelocity = false;
+    bShouldPlayGrappleFire = false;
+    bShouldApplyLeanAdditive = false;
+    bShouldPlayPivotTransition = false;
+    bHasDriver = false;
+    bIsBoosting = false;
+    bWantsEastWestPivot = false;
+    bWantsNorthSouthPivot = false;
+    bIsInAir = false;
+    bIsTowhookHolstered = false;
+    bIsTowhookExtending = false;
+    bIsTowhookAttached = false;
+    bEnterMovingInPlace = false;
 }
 

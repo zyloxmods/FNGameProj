@@ -4,7 +4,7 @@ void UFortSpawnActorComponent::OnPlaylistDataLoaded(AFortGameStateAthena* GameSt
 }
 
 UFortSpawnActorComponent::UFortSpawnActorComponent() {
-    this->ActorToSpawnClass = NULL;
-    this->bAttachSpawnedActorToOwner = true;
+    ActorToSpawnClass = NULL;
+    bAttachSpawnedActorToOwner = true;
 }
 

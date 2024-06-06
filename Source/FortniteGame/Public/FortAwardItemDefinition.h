@@ -21,6 +21,6 @@ protected:
     TSubclassOf<UFortAwardDetector> DetectorClass;
     
 public:
-    UFortAwardItemDefinition();
+    UFortAwardItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

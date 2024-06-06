@@ -13,16 +13,16 @@ void ABuildingProp_CreatureManager::AdjustCollisionOfStaticMesh(bool bIgnore, US
 }
 
 ABuildingProp_CreatureManager::ABuildingProp_CreatureManager() {
-    this->SelectedOverrideAggroDistance = 1;
-    this->SelectedOverrideHealth = 0;
-    this->SelectedOverrideScoreValue = 0;
-    this->SelectedOverrideScoreDistribution = EScoreDistributionType::Default;
-    this->SelectedOverrideDamage = 1;
-    this->SelectedEnvironmentalDamageOverride = 1;
-    this->SelectedMovementSpeedMultiplier = 1;
-    this->DamageOverrideEffect = NULL;
-    this->EnvironmentalDamageOverrideEffect = NULL;
-    this->MovementSpeedOverrideEffect = NULL;
-    this->CreatureInfoComponent = CreateDefaultSubobject<UFortCreativeCreatureManagerInfoComponent>(TEXT("CreatureManagerInfoComponent"));
+    SelectedOverrideAggroDistance = 1;
+    SelectedOverrideHealth = 0;
+    SelectedOverrideScoreValue = 0;
+    SelectedOverrideScoreDistribution = EScoreDistributionType::Default;
+    SelectedOverrideDamage = 1;
+    SelectedEnvironmentalDamageOverride = 1;
+    SelectedMovementSpeedMultiplier = 1;
+    DamageOverrideEffect = NULL;
+    EnvironmentalDamageOverrideEffect = NULL;
+    MovementSpeedOverrideEffect = NULL;
+    CreatureInfoComponent = CreateDefaultSubobject<UFortCreativeCreatureManagerInfoComponent>(TEXT("CreatureManagerInfoComponent"));
 }
 

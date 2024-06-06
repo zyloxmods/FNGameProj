@@ -31,7 +31,7 @@ private:
     TSoftObjectPtr<UFortHomebaseNodeItemDefinition> TeamPerkUnlockNode;
     
 public:
-    UFortCampaignHeroLoadoutItemDefinition();
+    UFortCampaignHeroLoadoutItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TArray<FFortCrewSlotInformation> GetSlots() const;
     

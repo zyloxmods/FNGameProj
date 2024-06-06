@@ -1,7 +1,7 @@
 #include "FortMcpCollectedFishProperties.h"
 
 FFortMcpCollectedFishProperties::FFortMcpCollectedFishProperties() {
-    this->Weight = 1;
-    this->Length = 1;
+    Weight = 1;
+    Length = 1;
 }
 

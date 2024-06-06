@@ -8,6 +8,6 @@ void AFortInventoryOutpost::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortInventoryOutpost::AFortInventoryOutpost() {
-    this->bHasUnavailableItems = false;
+    bHasUnavailableItems = false;
 }
 

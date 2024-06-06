@@ -72,22 +72,22 @@ void UFortLevelSaveComponent::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 UFortLevelSaveComponent::UFortLevelSaveComponent() {
-    this->RestrictedPlotDefinition = NULL;
-    this->bAutoLoadFromRestrictedPlotDefinition = false;
-    this->LinkCodeNumberToAutoLoad = 0;
-    this->bLoadRandomLinkCode = false;
-    this->bLoadMatchAssignedCode = false;
-    this->bCuratedHub = false;
-    this->bLoadPlaysetFromPlot = true;
-    this->LoadedPlot = NULL;
-    this->bPermissionsSaveInProgress = false;
-    this->bCurated = false;
-    this->bIsLoaded = false;
-    this->bIsAutoSaving = false;
-    this->BackupSaveState = EBackupSaveState::Ready;
-    this->RestoringState = EBackupSaveState::Ready;
-    this->PublishRateLimitSeconds = 0;
-    this->BackupRateLimitSeconds = 0;
-    this->RestoreRateLimitSeconds = 0;
+    RestrictedPlotDefinition = NULL;
+    bAutoLoadFromRestrictedPlotDefinition = false;
+    LinkCodeNumberToAutoLoad = 0;
+    bLoadRandomLinkCode = false;
+    bLoadMatchAssignedCode = false;
+    bCuratedHub = false;
+    bLoadPlaysetFromPlot = true;
+    LoadedPlot = NULL;
+    bPermissionsSaveInProgress = false;
+    bCurated = false;
+    bIsLoaded = false;
+    bIsAutoSaving = false;
+    BackupSaveState = EBackupSaveState::Ready;
+    RestoringState = EBackupSaveState::Ready;
+    PublishRateLimitSeconds = 0;
+    BackupRateLimitSeconds = 0;
+    RestoreRateLimitSeconds = 0;
 }
 

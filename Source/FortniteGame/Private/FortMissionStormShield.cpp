@@ -57,22 +57,22 @@ void AFortMissionStormShield::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortMissionStormShield::AFortMissionStormShield() {
-    this->Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-    this->ShieldRing = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shield Ring"));
-    this->MapWorldScale = 1;
-    this->ReplicatedRadius = 1;
-    this->UseGrowthRateDirectly = false;
-    this->bAntiStormShield = false;
-    this->RadiusToWorldScaleConversion = 1;
-    this->SafeAreaTemplate = NULL;
-    this->StormShieldQuery = NULL;
-    this->CurrentLocalRadius = 1;
-    this->StormMiniMapMaterial = NULL;
-    this->StormMiniMapMaterialMID = NULL;
-    this->StormMainMapMaterial = NULL;
-    this->StormMainMapMaterialMID = NULL;
-    this->bRegisterWithGameState = true;
-    this->Level = 0;
-    this->AutoHideRadius = 1;
+    Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+    ShieldRing = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Shield Ring"));
+    MapWorldScale = 1;
+    ReplicatedRadius = 1;
+    UseGrowthRateDirectly = false;
+    bAntiStormShield = false;
+    RadiusToWorldScaleConversion = 1;
+    SafeAreaTemplate = NULL;
+    StormShieldQuery = NULL;
+    CurrentLocalRadius = 1;
+    StormMiniMapMaterial = NULL;
+    StormMiniMapMaterialMID = NULL;
+    StormMainMapMaterial = NULL;
+    StormMainMapMaterialMID = NULL;
+    bRegisterWithGameState = true;
+    Level = 0;
+    AutoHideRadius = 1;
 }
 

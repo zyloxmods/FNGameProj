@@ -1,7 +1,7 @@
 #include "FortAIBaseLootDropRow.h"
 
 FFortAIBaseLootDropRow::FFortAIBaseLootDropRow() {
-    this->Priority = 0;
-    this->ItemDropChance = 1;
+    Priority = 0;
+    ItemDropChance = 1;
 }
 

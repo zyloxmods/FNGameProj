@@ -1,12 +1,12 @@
 #include "RepGraphActorSettingsBase.h"
 
 FRepGraphActorSettingsBase::FRepGraphActorSettingsBase() {
-    this->bAddClassRepInfoToMap = false;
-    this->bUseCustomClassRepInfo = false;
-    this->bAddToExplicitCSVStatTracker = false;
-    this->bAddToImplicitCSVStatTracker = false;
-    this->bAddToRPC_Multicast_OpenChannelForClassMap = false;
-    this->bRPC_Multicast_OpenChannelForClass = false;
-    this->ClassNodeMapping = NotRouted;
+    bAddClassRepInfoToMap = false;
+    bUseCustomClassRepInfo = false;
+    bAddToExplicitCSVStatTracker = false;
+    bAddToImplicitCSVStatTracker = false;
+    bAddToRPC_Multicast_OpenChannelForClassMap = false;
+    bRPC_Multicast_OpenChannelForClass = false;
+    ClassNodeMapping = NotRouted;
 }
 

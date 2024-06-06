@@ -1,6 +1,6 @@
 #include "GameplayEffectApplicationInfo.h"
 
 FGameplayEffectApplicationInfo::FGameplayEffectApplicationInfo() {
-    this->Level = 1;
+    Level = 1;
 }
 

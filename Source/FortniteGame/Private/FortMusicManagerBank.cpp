@@ -1,7 +1,7 @@
 #include "FortMusicManagerBank.h"
 
 UFortMusicManagerBank::UFortMusicManagerBank() {
-    this->TimeOfDayBank = NULL;
-    this->CombatBank = NULL;
+    TimeOfDayBank = NULL;
+    CombatBank = NULL;
 }
 

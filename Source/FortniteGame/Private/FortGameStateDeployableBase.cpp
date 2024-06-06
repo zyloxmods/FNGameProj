@@ -41,7 +41,7 @@ void AFortGameStateDeployableBase::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortGameStateDeployableBase::AFortGameStateDeployableBase() {
-    this->DeployableBaseManager = NULL;
-    this->bFireEndOfDayDelegate = true;
+    DeployableBaseManager = NULL;
+    bFireEndOfDayDelegate = true;
 }
 

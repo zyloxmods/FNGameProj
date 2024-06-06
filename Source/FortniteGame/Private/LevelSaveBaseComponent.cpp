@@ -60,8 +60,8 @@ void ULevelSaveBaseComponent::ApplySaveToWorld(const bool bComplexShouldSpawn) {
 }
 
 ULevelSaveBaseComponent::ULevelSaveBaseComponent() {
-    this->TimeBetweenSaves = 1;
-    this->bAutoLoadRecord = false;
-    this->LevelRecord = NULL;
+    TimeBetweenSaves = 1;
+    bAutoLoadRecord = false;
+    LevelRecord = NULL;
 }
 

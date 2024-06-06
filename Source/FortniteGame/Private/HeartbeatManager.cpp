@@ -1,10 +1,10 @@
 #include "HeartbeatManager.h"
 
 UHeartbeatManager::UHeartbeatManager() {
-    this->bShouldTrackLocation = true;
-    this->TrackLocationFrequencySec = 1;
-    this->bShouldSendPerMinuteResourceAndDamageEvents = true;
-    this->bShouldSendPerMinuteVehicleEvents = true;
-    this->AnalyticsClientEngagementsManager = NULL;
+    bShouldTrackLocation = true;
+    TrackLocationFrequencySec = 1;
+    bShouldSendPerMinuteResourceAndDamageEvents = true;
+    bShouldSendPerMinuteVehicleEvents = true;
+    AnalyticsClientEngagementsManager = NULL;
 }
 

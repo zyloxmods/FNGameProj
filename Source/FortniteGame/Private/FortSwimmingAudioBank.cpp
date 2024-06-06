@@ -13,24 +13,24 @@ float UFortSwimmingAudioBank::GetRequiredImmersionDepth() {
 }
 
 UFortSwimmingAudioBank::UFortSwimmingAudioBank() {
-    this->SwimmingAssets1P[0] = NULL;
-    this->SwimmingAssets1P[1] = NULL;
-    this->SwimmingAssets1P[2] = NULL;
-    this->SwimmingAssets1P[3] = NULL;
-    this->SwimmingAssets1P[4] = NULL;
-    this->SwimmingAssets1P[5] = NULL;
-    this->SwimmingAssets1P[6] = NULL;
-    this->SwimmingAssets1P[7] = NULL;
-    this->SwimmingAssets3P[0] = NULL;
-    this->SwimmingAssets3P[1] = NULL;
-    this->SwimmingAssets3P[2] = NULL;
-    this->SwimmingAssets3P[3] = NULL;
-    this->SwimmingAssets3P[4] = NULL;
-    this->SwimmingAssets3P[5] = NULL;
-    this->SwimmingAssets3P[6] = NULL;
-    this->SwimmingAssets3P[7] = NULL;
-    this->TeammateVolumeMultiplier = 1;
-    this->MaxSwimmingDistance = 1;
-    this->RequiredImmersionDepth = 1;
+    SwimmingAssets1P[0] = NULL;
+    SwimmingAssets1P[1] = NULL;
+    SwimmingAssets1P[2] = NULL;
+    SwimmingAssets1P[3] = NULL;
+    SwimmingAssets1P[4] = NULL;
+    SwimmingAssets1P[5] = NULL;
+    SwimmingAssets1P[6] = NULL;
+    SwimmingAssets1P[7] = NULL;
+    SwimmingAssets3P[0] = NULL;
+    SwimmingAssets3P[1] = NULL;
+    SwimmingAssets3P[2] = NULL;
+    SwimmingAssets3P[3] = NULL;
+    SwimmingAssets3P[4] = NULL;
+    SwimmingAssets3P[5] = NULL;
+    SwimmingAssets3P[6] = NULL;
+    SwimmingAssets3P[7] = NULL;
+    TeammateVolumeMultiplier = 1;
+    MaxSwimmingDistance = 1;
+    RequiredImmersionDepth = 1;
 }
 

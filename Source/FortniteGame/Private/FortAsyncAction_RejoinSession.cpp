@@ -5,6 +5,6 @@ UFortAsyncAction_RejoinSession* UFortAsyncAction_RejoinSession::RejoinSession(AF
 }
 
 UFortAsyncAction_RejoinSession::UFortAsyncAction_RejoinSession() {
-    this->PlayerController = NULL;
+    PlayerController = NULL;
 }
 

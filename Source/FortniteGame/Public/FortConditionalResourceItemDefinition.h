@@ -21,6 +21,6 @@ protected:
     TSoftObjectPtr<UFortAccountItemDefinition> FailedConditionItem;
     
 public:
-    UFortConditionalResourceItemDefinition();
+    UFortConditionalResourceItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

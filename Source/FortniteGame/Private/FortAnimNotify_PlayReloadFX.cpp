@@ -4,6 +4,6 @@ void UFortAnimNotify_PlayReloadFX::SetReloadStage(EFortReloadFXState InReloadSta
 }
 
 UFortAnimNotify_PlayReloadFX::UFortAnimNotify_PlayReloadFX() {
-    this->ReloadStage = EFortReloadFXState::ReloadStart;
+    ReloadStage = EFortReloadFXState::ReloadStart;
 }
 

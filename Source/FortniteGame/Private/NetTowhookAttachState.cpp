@@ -1,6 +1,6 @@
 #include "NetTowhookAttachState.h"
 
 FNetTowhookAttachState::FNetTowhookAttachState() {
-    this->Component = NULL;
+    Component = NULL;
 }
 

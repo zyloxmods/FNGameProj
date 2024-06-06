@@ -13,7 +13,7 @@ void AFortTeamPrivateInfo::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortTeamPrivateInfo::AFortTeamPrivateInfo() {
-    this->TeamInfo = NULL;
-    this->AverageDamageDealt = 0;
+    TeamInfo = NULL;
+    AverageDamageDealt = 0;
 }
 

@@ -15,7 +15,7 @@ void AFortHotfixBlockingVolume::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortHotfixBlockingVolume::AFortHotfixBlockingVolume() {
-    this->BlockBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BlockBox0"));
-    this->bNeededOnClient = true;
+    BlockBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BlockBox0"));
+    bNeededOnClient = true;
 }
 

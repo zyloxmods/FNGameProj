@@ -13,7 +13,7 @@ void AFortCheckPointCosmeticActor::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortCheckPointCosmeticActor::AFortCheckPointCosmeticActor() {
-    this->CheckPointIndex = 0;
-    this->bIsEndPoint = false;
+    CheckPointIndex = 0;
+    bIsEndPoint = false;
 }
 

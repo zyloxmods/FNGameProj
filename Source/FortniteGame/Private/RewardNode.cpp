@@ -1,10 +1,10 @@
 #include "RewardNode.h"
 
 FRewardNode::FRewardNode() {
-    this->KeyCount = 0;
-    this->MinKeyCountToUnlock = 0;
-    this->DaysFromEventStartToUnlock = 0;
-    this->bGrantedAtGraphDestruction = false;
-    this->bRequiredOwnership = false;
+    KeyCount = 0;
+    MinKeyCountToUnlock = 0;
+    DaysFromEventStartToUnlock = 0;
+    bGrantedAtGraphDestruction = false;
+    bRequiredOwnership = false;
 }
 

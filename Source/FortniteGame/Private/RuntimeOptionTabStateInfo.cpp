@@ -1,7 +1,7 @@
 #include "RuntimeOptionTabStateInfo.h"
 
 FRuntimeOptionTabStateInfo::FRuntimeOptionTabStateInfo() {
-    this->TabState = EFortRuntimeOptionTabState::Default;
-    this->TargetPlayer = EFortRuntimeOptionTabStateTarget::All;
+    TabState = EFortRuntimeOptionTabState::Default;
+    TargetPlayer = EFortRuntimeOptionTabStateTarget::All;
 }
 

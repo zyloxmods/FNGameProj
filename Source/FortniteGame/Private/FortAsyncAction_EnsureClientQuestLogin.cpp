@@ -5,6 +5,6 @@ UFortAsyncAction_EnsureClientQuestLogin* UFortAsyncAction_EnsureClientQuestLogin
 }
 
 UFortAsyncAction_EnsureClientQuestLogin::UFortAsyncAction_EnsureClientQuestLogin() {
-    this->QuestManager = NULL;
+    QuestManager = NULL;
 }
 

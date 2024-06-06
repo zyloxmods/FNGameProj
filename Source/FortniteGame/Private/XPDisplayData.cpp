@@ -1,6 +1,6 @@
 #include "XPDisplayData.h"
 
 FXPDisplayData::FXPDisplayData() {
-    this->IconMaterial = NULL;
+    IconMaterial = NULL;
 }
 

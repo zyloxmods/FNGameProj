@@ -1,19 +1,19 @@
 #include "FortAnimNotifyState_SpawnProp.h"
 
 UFortAnimNotifyState_SpawnProp::UFortAnimNotifyState_SpawnProp() {
-    this->ActorProp = NULL;
-    this->SkeletalMeshProp = NULL;
-    this->SkeletalMeshPropAnimation = NULL;
-    this->SkeletalMeshPropAnimClass = NULL;
-    this->bInheritScale = true;
-    this->bAbsoluteScale = false;
-    this->bPropAnimLooping = true;
-    this->bPrestreamTextures = true;
-    this->PrestreamTextureDuration = 1;
-    this->StaticMeshProp = NULL;
-    this->PropId = 0;
-    this->bApplyVariantsToSpawnedItems = false;
-    this->bTrackComponentPropInGC = true;
+    ActorProp = NULL;
+    SkeletalMeshProp = NULL;
+    SkeletalMeshPropAnimation = NULL;
+    SkeletalMeshPropAnimClass = NULL;
+    bInheritScale = true;
+    bAbsoluteScale = false;
+    bPropAnimLooping = true;
+    bPrestreamTextures = true;
+    PrestreamTextureDuration = 1;
+    StaticMeshProp = NULL;
+    PropId = 0;
+    bApplyVariantsToSpawnedItems = false;
+    bTrackComponentPropInGC = true;
 }
 
 void UFortAnimNotifyState_SpawnProp::NotifyBegin(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation, float TotalDuration)

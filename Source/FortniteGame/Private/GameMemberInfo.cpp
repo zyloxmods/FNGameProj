@@ -1,7 +1,7 @@
 #include "GameMemberInfo.h"
 
 FGameMemberInfo::FGameMemberInfo() {
-    this->SquadId = 0;
-    this->TeamIndex = 0;
+    SquadId = 0;
+    TeamIndex = 0;
 }
 

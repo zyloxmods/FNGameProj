@@ -56,10 +56,10 @@ void UFortCreativeKeyLockComponent::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 UFortCreativeKeyLockComponent::UFortCreativeKeyLockComponent() {
-    this->InitialState = ECreativeKeyLockState::LOCKED;
-    this->CurrentState = ECreativeKeyLockState::LOCKED;
-    this->RequiredKeysToUnlockAmount = 0;
-    this->RemainingKeysToUnlockAmount = 0;
-    this->bRequireAllKeysAtOnce = false;
+    InitialState = ECreativeKeyLockState::LOCKED;
+    CurrentState = ECreativeKeyLockState::LOCKED;
+    RequiredKeysToUnlockAmount = 0;
+    RemainingKeysToUnlockAmount = 0;
+    bRequireAllKeysAtOnce = false;
 }
 

@@ -28,6 +28,6 @@ void AFortPlayerStateOutpost::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortPlayerStateOutpost::AFortPlayerStateOutpost() {
-    this->bHasPermissionToEditOutpost = false;
+    bHasPermissionToEditOutpost = false;
 }
 

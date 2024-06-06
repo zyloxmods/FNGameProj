@@ -1,10 +1,10 @@
 #include "RootMotionSource_FollowCharacterRotation.h"
 
 FRootMotionSource_FollowCharacterRotation::FRootMotionSource_FollowCharacterRotation() {
-    this->ConstantStrength = 1;
-    this->bWasWalkingLastFrame = false;
-    this->bWasFallingLastFrame = false;
-    this->WalkingAccumulatedTime = 1;
-    this->FallingAccumulatedTime = 1;
+    ConstantStrength = 1;
+    bWasWalkingLastFrame = false;
+    bWasFallingLastFrame = false;
+    WalkingAccumulatedTime = 1;
+    FallingAccumulatedTime = 1;
 }
 

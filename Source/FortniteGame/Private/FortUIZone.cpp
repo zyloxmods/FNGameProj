@@ -23,10 +23,10 @@ void AFortUIZone::CloseFullScreenMap() {
 }
 
 AFortUIZone::AFortUIZone() {
-    this->IntensityGraph = NULL;
-    this->PIDValuesGraph = NULL;
-    this->PIDContributionsGraph = NULL;
-    this->UtilitiesGraph = NULL;
-    this->CurrentContextualReticleIconType = FCR_None;
+    IntensityGraph = NULL;
+    PIDValuesGraph = NULL;
+    PIDContributionsGraph = NULL;
+    UtilitiesGraph = NULL;
+    CurrentContextualReticleIconType = FCR_None;
 }
 

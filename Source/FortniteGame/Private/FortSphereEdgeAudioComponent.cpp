@@ -8,11 +8,11 @@ bool UFortSphereEdgeAudioComponent::GetIsPlayerInside() const {
 }
 
 UFortSphereEdgeAudioComponent::UFortSphereEdgeAudioComponent() {
-    this->SoundOnEdge = NULL;
-    this->SoundOnInside = NULL;
-    this->Radius = 1;
-    this->FadeOutDuration = 1;
-    this->SphereEdgeAudioComponent = NULL;
-    this->SphereInsideAudioComponent = NULL;
+    SoundOnEdge = NULL;
+    SoundOnInside = NULL;
+    Radius = 1;
+    FadeOutDuration = 1;
+    SphereEdgeAudioComponent = NULL;
+    SphereInsideAudioComponent = NULL;
 }
 

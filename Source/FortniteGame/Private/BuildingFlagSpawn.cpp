@@ -15,9 +15,9 @@ bool ABuildingFlagSpawn::IsSpawnedObjectAwayFromBase() const {
 }
 
 ABuildingFlagSpawn::ABuildingFlagSpawn() {
-    this->bPickupOnTouch = 0;
-    this->CarriedObjectClass = AFortCarriedObject::StaticClass();
-    this->SpawnedObject = NULL;
-    this->SpawnDelay = 1;
+    bPickupOnTouch = 0;
+    CarriedObjectClass = AFortCarriedObject::StaticClass();
+    SpawnedObject = NULL;
+    SpawnDelay = 1;
 }
 

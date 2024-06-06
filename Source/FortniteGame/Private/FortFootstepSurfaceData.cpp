@@ -4,8 +4,8 @@ void UFortFootstepSurfaceData::GetSurfaceInfo(FFortFootstepSurfaceInfo& OutInfo,
 }
 
 UFortFootstepSurfaceData::UFortFootstepSurfaceData() {
-    this->VerticalPitchMaxBelow = 1;
-    this->VerticalPitchMaxAbove = 1;
-    this->VerticalPitchTileRange = 1;
+    VerticalPitchMaxBelow = 1;
+    VerticalPitchMaxAbove = 1;
+    VerticalPitchTileRange = 1;
 }
 

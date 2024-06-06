@@ -1,8 +1,8 @@
 #include "FortDeathCameraMode.h"
 
 UFortDeathCameraMode::UFortDeathCameraMode() {
-    this->FOV = 1;
-    this->TimeToTrackTarget = 1;
-    this->TrackToTargetSpeed = 1;
+    FOV = 1;
+    TimeToTrackTarget = 1;
+    TrackToTargetSpeed = 1;
 }
 

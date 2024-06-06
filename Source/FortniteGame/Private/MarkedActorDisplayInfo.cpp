@@ -1,8 +1,8 @@
 #include "MarkedActorDisplayInfo.h"
 
 FMarkedActorDisplayInfo::FMarkedActorDisplayInfo() {
-    this->CustomIndicatorClass = NULL;
-    this->Sound = NULL;
-    this->ScreenClamping = EFortMarkedActorScreenClamping::Default;
+    CustomIndicatorClass = NULL;
+    Sound = NULL;
+    ScreenClamping = EFortMarkedActorScreenClamping::Default;
 }
 

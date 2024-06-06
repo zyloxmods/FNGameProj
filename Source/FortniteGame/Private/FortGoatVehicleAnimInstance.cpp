@@ -1,16 +1,16 @@
 #include "FortGoatVehicleAnimInstance.h"
 
 UFortGoatVehicleAnimInstance::UFortGoatVehicleAnimInstance() {
-    this->GolfCart = NULL;
-    this->GolfCartSpeed = 1;
-    this->bForwardSpeedIsNearlyZero = false;
-    this->bForwardSpeedIsGreaterThanOne = false;
-    this->bReverseSpeedIsGreaterThanOne = false;
-    this->bSpeedIsGreaterThanFiveAndPlayerHitSpace = false;
-    this->bIsBraking = false;
-    this->bIsEBraking = false;
-    this->bIsBoosting = false;
-    this->bIsPowerSliding = false;
-    this->bPlayerHitSpaceBar = false;
+    GolfCart = NULL;
+    GolfCartSpeed = 1;
+    bForwardSpeedIsNearlyZero = false;
+    bForwardSpeedIsGreaterThanOne = false;
+    bReverseSpeedIsGreaterThanOne = false;
+    bSpeedIsGreaterThanFiveAndPlayerHitSpace = false;
+    bIsBraking = false;
+    bIsEBraking = false;
+    bIsBoosting = false;
+    bIsPowerSliding = false;
+    bPlayerHitSpaceBar = false;
 }
 

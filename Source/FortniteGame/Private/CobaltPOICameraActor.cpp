@@ -2,6 +2,6 @@
 #include "Components/SceneComponent.h"
 
 ACobaltPOICameraActor::ACobaltPOICameraActor() {
-    this->TranslationSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("TranslationSceneComponent"));
+    TranslationSceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("TranslationSceneComponent"));
 }
 

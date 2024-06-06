@@ -13,13 +13,13 @@ void UPegasusGameEventCollector::HandleOwnerAthenaPlaceChanged(AFortPlayerStateA
 }
 
 UPegasusGameEventCollector::UPegasusGameEventCollector() {
-    this->InventoryChangesTimeSpan = 1;
-    this->EndSkydivePlayerCheckRadius = 1;
-    this->WeaponExecutedTimeSpan = 1;
-    this->BuildingBeginPlayTimeSpan = 1;
-    this->ExpensiveTestInterval = 1;
-    this->SquadCohesionTestRadius = 1;
-    this->PlayerResourceEventsTimeSpan = 1;
-    this->EliminationEventsTimeSpan = 1;
+    InventoryChangesTimeSpan = 1;
+    EndSkydivePlayerCheckRadius = 1;
+    WeaponExecutedTimeSpan = 1;
+    BuildingBeginPlayTimeSpan = 1;
+    ExpensiveTestInterval = 1;
+    SquadCohesionTestRadius = 1;
+    PlayerResourceEventsTimeSpan = 1;
+    EliminationEventsTimeSpan = 1;
 }
 

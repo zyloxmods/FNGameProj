@@ -1,12 +1,12 @@
 #include "FortMatchPerfReport.h"
 
 UFortMatchPerfReport::UFortMatchPerfReport() {
-    this->BadMatchTriggers.AddDefaulted(5);
-    this->PhasesToInclude.AddDefaulted(3);
-    this->ReportProbability = 4294967295;
-    this->bEnabled = true;
-    this->bEnableCsvProfile = true;
-    this->bUploadAllCsvs = true;
-    this->bAllowForcedPerformanceReport = false;
+    BadMatchTriggers.AddDefaulted(5);
+    PhasesToInclude.AddDefaulted(3);
+    ReportProbability = 4294967295;
+    bEnabled = true;
+    bEnableCsvProfile = true;
+    bUploadAllCsvs = true;
+    bAllowForcedPerformanceReport = false;
 }
 

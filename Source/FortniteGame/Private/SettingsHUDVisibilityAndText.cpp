@@ -1,7 +1,7 @@
 #include "SettingsHUDVisibilityAndText.h"
 
 FSettingsHUDVisibilityAndText::FSettingsHUDVisibilityAndText() {
-    this->DefaultHUDVisibility = ESlateVisibility::Visible;
-    this->bPlatformConstraintPC = false;
+    DefaultHUDVisibility = ESlateVisibility::Visible;
+    bPlatformConstraintPC = false;
 }
 

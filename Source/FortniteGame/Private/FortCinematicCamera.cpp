@@ -1,6 +1,6 @@
 #include "FortCinematicCamera.h"
 
 UFortCinematicCamera::UFortCinematicCamera() {
-    this->SpectatorPC = NULL;
+    SpectatorPC = NULL;
 }
 

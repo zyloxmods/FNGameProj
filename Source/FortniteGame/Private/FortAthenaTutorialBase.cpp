@@ -32,9 +32,9 @@ void AFortAthenaTutorialBase::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortAthenaTutorialBase::AFortAthenaTutorialBase() {
-    this->CameraStartPositionActor = NULL;
-    this->bExecuting = false;
-    this->CurrentStepIndex = 0;
-    this->CurrentTrackedActor = NULL;
+    CameraStartPositionActor = NULL;
+    bExecuting = false;
+    CurrentStepIndex = 0;
+    CurrentTrackedActor = NULL;
 }
 

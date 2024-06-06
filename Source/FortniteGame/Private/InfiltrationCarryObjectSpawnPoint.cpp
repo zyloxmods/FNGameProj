@@ -45,9 +45,9 @@ void AInfiltrationCarryObjectSpawnPoint::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 AInfiltrationCarryObjectSpawnPoint::AInfiltrationCarryObjectSpawnPoint() {
-    this->CurrentState = ESpawnPointState::Inactive;
-    this->CachedSceneComponent = NULL;
-    this->CachedIntelActor = NULL;
-    this->IntelClassToSpawn = NULL;
+    CurrentState = ESpawnPointState::Inactive;
+    CachedSceneComponent = NULL;
+    CachedIntelActor = NULL;
+    IntelClassToSpawn = NULL;
 }
 

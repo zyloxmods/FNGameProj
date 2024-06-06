@@ -1,14 +1,14 @@
 #include "MegaStormCircle.h"
 
 FMegaStormCircle::FMegaStormCircle() {
-    this->NumCellsFromCenter = 0;
-    this->CurrentQuadrant = 0;
-    this->RadiusInGridCells = 0;
-    this->XAdvanceAccumulation = 0;
-    this->YAdvanceAccumulation = 0;
-    this->GridRadiusSquaredX4 = 0;
-    this->NumPlots = 0;
-    this->WorldRadius = 1;
-    this->MegaStormState = EMegaStormState::GatheringActorList;
+    NumCellsFromCenter = 0;
+    CurrentQuadrant = 0;
+    RadiusInGridCells = 0;
+    XAdvanceAccumulation = 0;
+    YAdvanceAccumulation = 0;
+    GridRadiusSquaredX4 = 0;
+    NumPlots = 0;
+    WorldRadius = 1;
+    MegaStormState = EMegaStormState::GatheringActorList;
 }
 

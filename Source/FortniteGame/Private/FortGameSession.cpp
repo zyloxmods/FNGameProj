@@ -6,22 +6,22 @@ void AFortGameSession::DumpReservations() const {
 }
 
 AFortGameSession::AFortGameSession() {
-    this->ReservationBeaconHostClass = AFortPartyBeaconHost::StaticClass();
-    this->SpectatorBeaconHostClass = AFortSpectatorBeaconHost::StaticClass();
-    this->ReservationBeaconHost = NULL;
-    this->LobbyBeaconHost = NULL;
-    this->SpectatorBeaconHost = NULL;
-    this->ContentBeaconHost = NULL;
-    this->BulkUnregisterTimerDelay = 1;
-    this->MaxBroadcasters = 0;
-    this->DisconnectedReservationTimeout = 1;
-    this->bShouldServerForcePartnerId = false;
-    this->bEnableMeshNetwork = true;
-    this->MeshBeaconHost = NULL;
-    this->MeshBeaconHostObject = NULL;
-    this->MeshBeaconClient = NULL;
-    this->RetryMeshConnectDelay = 1;
-    this->MaxMeshConnectDelay = 1;
-    this->MeshNetworkServerStatusEventRate = 1;
+    ReservationBeaconHostClass = AFortPartyBeaconHost::StaticClass();
+    SpectatorBeaconHostClass = AFortSpectatorBeaconHost::StaticClass();
+    ReservationBeaconHost = NULL;
+    LobbyBeaconHost = NULL;
+    SpectatorBeaconHost = NULL;
+    ContentBeaconHost = NULL;
+    BulkUnregisterTimerDelay = 1;
+    MaxBroadcasters = 0;
+    DisconnectedReservationTimeout = 1;
+    bShouldServerForcePartnerId = false;
+    bEnableMeshNetwork = true;
+    MeshBeaconHost = NULL;
+    MeshBeaconHostObject = NULL;
+    MeshBeaconClient = NULL;
+    RetryMeshConnectDelay = 1;
+    MaxMeshConnectDelay = 1;
+    MeshNetworkServerStatusEventRate = 1;
 }
 

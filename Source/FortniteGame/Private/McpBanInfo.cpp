@@ -1,9 +1,9 @@
 #include "McpBanInfo.h"
 
 FMcpBanInfo::FMcpBanInfo() {
-    this->BanDurationDays = 1;
-    this->CompetitiveBanReason = EPlayerCompetitiveBanReasons::None;
-    this->bRequiresUserAck = false;
-    this->bBanHasStarted = false;
+    BanDurationDays = 1;
+    CompetitiveBanReason = EPlayerCompetitiveBanReasons::None;
+    bRequiresUserAck = false;
+    bBanHasStarted = false;
 }
 

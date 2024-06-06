@@ -50,21 +50,21 @@ bool ABuildingGameplayActor::AcceptsEmoteSprays_Implementation() const {
 }
 
 ABuildingGameplayActor::ABuildingGameplayActor() {
-    this->AbilitySet = NULL;
-    this->InherentAbilitySets[0] = NULL;
-    this->InherentAbilitySets[1] = NULL;
-    this->InherentAbilitySets[2] = NULL;
-    this->InherentAbilitySets[3] = NULL;
-    this->InherentAbilitySets[4] = NULL;
-    this->DamageSet = NULL;
-    this->bAllowRidingOnActor = false;
-    this->bIgnoreInstigatorCollision = false;
-    this->bAddOwnerVelocity = false;
-    this->AbilitySourceLevel = 0;
-    this->bApplyDefaultEnabledAbilityBucketsOnInit = true;
-    this->bUseSimpleActorTouchSetupForAbilityBuckets = true;
-    this->bShowInteractKeybind = true;
-    this->RegisteredTouchComponent = NULL;
-    this->PostProcessOverlapBlendWeight = 1;
+    AbilitySet = NULL;
+    InherentAbilitySets[0] = NULL;
+    InherentAbilitySets[1] = NULL;
+    InherentAbilitySets[2] = NULL;
+    InherentAbilitySets[3] = NULL;
+    InherentAbilitySets[4] = NULL;
+    DamageSet = NULL;
+    bAllowRidingOnActor = false;
+    bIgnoreInstigatorCollision = false;
+    bAddOwnerVelocity = false;
+    AbilitySourceLevel = 0;
+    bApplyDefaultEnabledAbilityBucketsOnInit = true;
+    bUseSimpleActorTouchSetupForAbilityBuckets = true;
+    bShowInteractKeybind = true;
+    RegisteredTouchComponent = NULL;
+    PostProcessOverlapBlendWeight = 1;
 }
 

@@ -71,22 +71,22 @@ void AFortWeaponRanged_Ostrich::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortWeaponRanged_Ostrich::AFortWeaponRanged_Ostrich() {
-    this->ProjectileTemplate = NULL;
-    this->bRocketsOnCooldown = false;
-    this->bLocalChargingRockets = false;
-    this->bRocketFireButtonDown = false;
-    this->RocketAmmoLocal = 0;
-    this->ServerLoadedRockets = 0;
-    this->bFiringRockets = false;
-    this->bUseShotgunSecondBarrel = false;
-    this->RocketFireTimer = 1;
-    this->RocketChargeTimer = 1;
-    this->RocketChargingLoop = NULL;
-    this->RocketFullyChargedLoop = NULL;
-    this->RocketFire = NULL;
-    this->RocketFireSettle = NULL;
-    this->RocketCooldownLoop = NULL;
-    this->RocketCooldownReady = NULL;
-    this->ShotgunFireSecondBarrel = NULL;
+    ProjectileTemplate = NULL;
+    bRocketsOnCooldown = false;
+    bLocalChargingRockets = false;
+    bRocketFireButtonDown = false;
+    RocketAmmoLocal = 0;
+    ServerLoadedRockets = 0;
+    bFiringRockets = false;
+    bUseShotgunSecondBarrel = false;
+    RocketFireTimer = 1;
+    RocketChargeTimer = 1;
+    RocketChargingLoop = NULL;
+    RocketFullyChargedLoop = NULL;
+    RocketFire = NULL;
+    RocketFireSettle = NULL;
+    RocketCooldownLoop = NULL;
+    RocketCooldownReady = NULL;
+    ShotgunFireSecondBarrel = NULL;
 }
 

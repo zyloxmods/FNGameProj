@@ -1,16 +1,16 @@
 #include "WeaponHitNotifyAudioBank.h"
 
 UWeaponHitNotifyAudioBank::UWeaponHitNotifyAudioBank() {
-    this->SoundBody = NULL;
-    this->SoundCrit = NULL;
-    this->SoundShield = NULL;
-    this->SoundDeath = NULL;
-    this->SoundDeathCrit = NULL;
-    this->SoundBodyReceive = NULL;
-    this->SoundCritReceive = NULL;
-    this->SoundDeathReceive = NULL;
-    this->SoundDeathCritReceive = NULL;
-    this->SoundFallReceive = NULL;
-    this->SoundFallDeathReceive = NULL;
+    SoundBody = NULL;
+    SoundCrit = NULL;
+    SoundShield = NULL;
+    SoundDeath = NULL;
+    SoundDeathCrit = NULL;
+    SoundBodyReceive = NULL;
+    SoundCritReceive = NULL;
+    SoundDeathReceive = NULL;
+    SoundDeathCritReceive = NULL;
+    SoundFallReceive = NULL;
+    SoundFallDeathReceive = NULL;
 }
 

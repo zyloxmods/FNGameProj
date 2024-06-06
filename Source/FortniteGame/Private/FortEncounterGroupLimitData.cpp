@@ -1,8 +1,8 @@
 #include "FortEncounterGroupLimitData.h"
 
 FFortEncounterGroupLimitData::FFortEncounterGroupLimitData() {
-    this->DesiredPawnNumCap = 0;
-    this->RemainingDesiredLimit = 0;
-    this->CurrentEncounterLimit = 0;
+    DesiredPawnNumCap = 0;
+    RemainingDesiredLimit = 0;
+    CurrentEncounterLimit = 0;
 }
 

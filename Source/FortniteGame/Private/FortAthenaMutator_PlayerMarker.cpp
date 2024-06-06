@@ -8,6 +8,6 @@ void AFortAthenaMutator_PlayerMarker::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 AFortAthenaMutator_PlayerMarker::AFortAthenaMutator_PlayerMarker() {
-    this->PlayerMarkerMarkerEffectClass = NULL;
+    PlayerMarkerMarkerEffectClass = NULL;
 }
 

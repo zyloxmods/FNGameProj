@@ -21,12 +21,12 @@ void UFortQueryTwoPointSolver::AddNamedFloatParamA(FName ParamName, float Value)
 }
 
 UFortQueryTwoPointSolver::UFortQueryTwoPointSolver() {
-    this->QueryPointA = NULL;
-    this->QueryPointB = NULL;
-    this->RotationMode = ETwoPointSolverRotationA::PointAToQuerier;
-    this->bUseNegativeAngleOffsets = false;
-    this->bUsePositiveAngleOffsets = true;
-    this->AISys = NULL;
-    this->CachedQuerier = NULL;
+    QueryPointA = NULL;
+    QueryPointB = NULL;
+    RotationMode = ETwoPointSolverRotationA::PointAToQuerier;
+    bUseNegativeAngleOffsets = false;
+    bUsePositiveAngleOffsets = true;
+    AISys = NULL;
+    CachedQuerier = NULL;
 }
 

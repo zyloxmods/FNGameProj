@@ -44,12 +44,12 @@ void ABuildingGameplayActorSpawnMachine::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 ABuildingGameplayActorSpawnMachine::ABuildingGameplayActorSpawnMachine() {
-    this->ResurrectLocation = NULL;
-    this->SquadId = 0;
-    this->ActiveTeam = 0;
-    this->SpawnMachineState = ESpawnMachineState::Default;
-    this->InteractSoundCueLoop = NULL;
-    this->SpawnMachineSubTextState = ESpawnMachineSubTextState::NoCards;
-    this->HandleIntoGameState = 0;
+    ResurrectLocation = NULL;
+    SquadId = 0;
+    ActiveTeam = 0;
+    SpawnMachineState = ESpawnMachineState::Default;
+    InteractSoundCueLoop = NULL;
+    SpawnMachineSubTextState = ESpawnMachineSubTextState::NoCards;
+    HandleIntoGameState = 0;
 }
 

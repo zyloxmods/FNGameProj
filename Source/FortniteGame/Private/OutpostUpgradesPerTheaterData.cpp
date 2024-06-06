@@ -1,7 +1,7 @@
 #include "OutpostUpgradesPerTheaterData.h"
 
 FOutpostUpgradesPerTheaterData::FOutpostUpgradesPerTheaterData() {
-    this->TheaterSlot = 0;
-    this->OutpostUpgradesData = NULL;
+    TheaterSlot = 0;
+    OutpostUpgradesData = NULL;
 }
 

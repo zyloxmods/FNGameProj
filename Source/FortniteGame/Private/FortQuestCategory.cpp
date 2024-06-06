@@ -9,7 +9,7 @@ int32 UFortQuestCategory::GetUnseenQuestCount() {
 }
 
 UFortQuestCategory::UFortQuestCategory() {
-    this->Name = FText::FromString(TEXT("Misc"));
-    this->bExpanded = true;
+    Name = FText::FromString(TEXT("Misc"));
+    bExpanded = true;
 }
 

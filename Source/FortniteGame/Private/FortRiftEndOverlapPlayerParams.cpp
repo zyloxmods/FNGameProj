@@ -1,7 +1,7 @@
 #include "FortRiftEndOverlapPlayerParams.h"
 
 UFortRiftEndOverlapPlayerParams::UFortRiftEndOverlapPlayerParams() {
-    this->Rift = NULL;
-    this->Player = NULL;
+    Rift = NULL;
+    Player = NULL;
 }
 

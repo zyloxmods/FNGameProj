@@ -1,6 +1,6 @@
 #include "FortGameplayAbilityBehaviorDistanceData.h"
 
 FFortGameplayAbilityBehaviorDistanceData::FFortGameplayAbilityBehaviorDistanceData() {
-    this->Distance = 1;
+    Distance = 1;
 }
 

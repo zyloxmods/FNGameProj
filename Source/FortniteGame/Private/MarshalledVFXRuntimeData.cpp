@@ -1,6 +1,6 @@
 #include "MarshalledVFXRuntimeData.h"
 
 FMarshalledVFXRuntimeData::FMarshalledVFXRuntimeData() {
-    this->BasedOn = NULL;
+    BasedOn = NULL;
 }
 

@@ -48,8 +48,8 @@ void UFortMutatorListComponent::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 UFortMutatorListComponent::UFortMutatorListComponent() {
-    this->bShouldMakeMutatorsDormant = false;
-    this->InitState = EMutatorListInitState::Default;
-    this->UserOptions = NULL;
+    bShouldMakeMutatorsDormant = false;
+    InitState = EMutatorListInitState::Default;
+    UserOptions = NULL;
 }
 

@@ -1,11 +1,11 @@
 #include "FortMission_HarvestingBase.h"
 
 AFortMission_HarvestingBase::AFortMission_HarvestingBase() {
-    this->ItemDropChancePercent = 1;
-    this->ItemMinDropQuantity = 0;
-    this->ItemMaxDropQuantity = 0;
-    this->MinDurationBetweenDrops = 1;
-    this->MaxFailedDropsInARow = 0;
-    this->bEnableConversations = true;
+    ItemDropChancePercent = 1;
+    ItemMinDropQuantity = 0;
+    ItemMaxDropQuantity = 0;
+    MinDurationBetweenDrops = 1;
+    MaxFailedDropsInARow = 0;
+    bEnableConversations = true;
 }
 

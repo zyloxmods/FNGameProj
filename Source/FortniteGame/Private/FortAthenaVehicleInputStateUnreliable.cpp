@@ -1,12 +1,12 @@
 #include "FortAthenaVehicleInputStateUnreliable.h"
 
 FFortAthenaVehicleInputStateUnreliable::FFortAthenaVehicleInputStateUnreliable() {
-    this->ForwardAlpha = 1;
-    this->RightAlpha = 1;
-    this->PitchAlpha = 1;
-    this->LookUpDelta = 1;
-    this->TurnDelta = 1;
-    this->SteerAlpha = 1;
-    this->GravityOffset = 1;
+    ForwardAlpha = 1;
+    RightAlpha = 1;
+    PitchAlpha = 1;
+    LookUpDelta = 1;
+    TurnDelta = 1;
+    SteerAlpha = 1;
+    GravityOffset = 1;
 }
 

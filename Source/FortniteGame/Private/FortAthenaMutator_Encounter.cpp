@@ -7,8 +7,8 @@ void AFortAthenaMutator_Encounter::HandleAISpawned(UFortAIEncounterInfo* Encount
 }
 
 AFortAthenaMutator_Encounter::AFortAthenaMutator_Encounter() {
-    this->EncounterSettings = NULL;
-    this->CurrentEncounter = NULL;
-    this->bUsesAnimationSharing = false;
+    EncounterSettings = NULL;
+    CurrentEncounter = NULL;
+    bUsesAnimationSharing = false;
 }
 

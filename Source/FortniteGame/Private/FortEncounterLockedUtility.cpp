@@ -1,7 +1,7 @@
 #include "FortEncounterLockedUtility.h"
 
 FFortEncounterLockedUtility::FFortEncounterLockedUtility() {
-    this->Utility = EFortAIUtility::KillPlayersMelee;
-    this->UtilityDesire = EFortEncounterUtilityDesire::Low;
+    Utility = EFortAIUtility::KillPlayersMelee;
+    UtilityDesire = EFortEncounterUtilityDesire::Low;
 }
 

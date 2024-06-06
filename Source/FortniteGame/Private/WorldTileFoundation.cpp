@@ -8,6 +8,6 @@ void AWorldTileFoundation::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AWorldTileFoundation::AWorldTileFoundation() {
-    this->NumRotations = 255;
+    NumRotations = 255;
 }
 

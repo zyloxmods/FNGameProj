@@ -28,10 +28,10 @@ void AFortPickupCreative::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 AFortPickupCreative::AFortPickupCreative() {
-    this->CostComponent = NULL;
-    this->bPickupOnTouch = false;
-    this->CachedPickupInstigatorHandle = 0;
-    this->bUseOverrideDespawnTime = false;
-    this->OverrideDespawnTime = 1;
+    CostComponent = NULL;
+    bPickupOnTouch = false;
+    CachedPickupInstigatorHandle = 0;
+    bUseOverrideDespawnTime = false;
+    OverrideDespawnTime = 1;
 }
 

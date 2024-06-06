@@ -1,7 +1,7 @@
 #include "FortAIDirectorDataTrackingSettings.h"
 
 UFortAIDirectorDataTrackingSettings::UFortAIDirectorDataTrackingSettings() {
-    this->PlayerDataManager = NULL;
-    this->EncounterDataManager = NULL;
+    PlayerDataManager = NULL;
+    EncounterDataManager = NULL;
 }
 

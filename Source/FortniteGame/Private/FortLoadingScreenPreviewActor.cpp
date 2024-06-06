@@ -2,7 +2,7 @@
 
 
 AFortLoadingScreenPreviewActor::AFortLoadingScreenPreviewActor() {
-    this->FullScreenPreviewWidget = NULL;
-    this->DisplayedLoadingScreen = NULL;
+    FullScreenPreviewWidget = NULL;
+    DisplayedLoadingScreen = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "PurchasedBattlePassInfo.h"
 
 FPurchasedBattlePassInfo::FPurchasedBattlePassInfo() {
-    this->Count = 0;
+    Count = 0;
 }
 

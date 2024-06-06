@@ -1,7 +1,7 @@
 #include "HighlightReel.h"
 
 FHighlightReel::FHighlightReel() {
-    this->TotalDurationSeconds = 0;
-    this->HighlightType = EHighlightReelTypes::Generic;
+    TotalDurationSeconds = 0;
+    HighlightType = EHighlightReelTypes::Generic;
 }
 

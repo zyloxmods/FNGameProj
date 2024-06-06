@@ -7,8 +7,8 @@ void AFortAthenaMutator_GalileoEquipment::ApplyPlayerLoadout(AFortPlayerState* S
 }
 
 AFortAthenaMutator_GalileoEquipment::AFortAthenaMutator_GalileoEquipment() {
-    this->StopDropsByApplyEffect = NULL;
-    this->bShouldStopDropsAfterApplying = false;
-    this->SlotToSwapToAfterGrant = 0;
+    StopDropsByApplyEffect = NULL;
+    bShouldStopDropsAfterApplying = false;
+    SlotToSwapToAfterGrant = 0;
 }
 

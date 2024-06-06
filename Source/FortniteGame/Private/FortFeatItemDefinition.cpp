@@ -1,5 +1,6 @@
 #include "FortFeatItemDefinition.h"
 
-UFortFeatItemDefinition::UFortFeatItemDefinition() {
+UFortFeatItemDefinition::UFortFeatItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

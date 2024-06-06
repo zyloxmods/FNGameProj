@@ -1,9 +1,9 @@
 #include "FortPublicAccountInfo.h"
 
 FFortPublicAccountInfo::FFortPublicAccountInfo() {
-    this->Level = 0;
-    this->MaxLevel = 0;
-    this->LevelXp = 0;
-    this->LevelXpForLevel = 0;
+    Level = 0;
+    MaxLevel = 0;
+    LevelXp = 0;
+    LevelXpForLevel = 0;
 }
 

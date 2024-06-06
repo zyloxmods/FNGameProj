@@ -1,7 +1,7 @@
 #include "AthenaAccolades.h"
 
 FAthenaAccolades::FAthenaAccolades() {
-    this->AccoladeDef = NULL;
-    this->Count = 0;
+    AccoladeDef = NULL;
+    Count = 0;
 }
 

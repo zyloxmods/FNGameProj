@@ -1,7 +1,7 @@
 #include "FortItemDeliverySupplyDropMutatorData.h"
 
 FFortItemDeliverySupplyDropMutatorData::FFortItemDeliverySupplyDropMutatorData() {
-    this->bShouldApplyMutator = false;
-    this->SupplyDropPlacementQuery = NULL;
+    bShouldApplyMutator = false;
+    SupplyDropPlacementQuery = NULL;
 }
 

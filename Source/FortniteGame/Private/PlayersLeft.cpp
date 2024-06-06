@@ -1,8 +1,8 @@
 #include "PlayersLeft.h"
 
 FPlayersLeft::FPlayersLeft() {
-    this->Humans = 0;
-    this->Bots = 0;
-    this->Total = 0;
+    Humans = 0;
+    Bots = 0;
+    Total = 0;
 }
 

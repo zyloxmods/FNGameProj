@@ -1,9 +1,9 @@
 #include "MashLeaderboardEntry.h"
 
 FMashLeaderboardEntry::FMashLeaderboardEntry() {
-    this->Value = 0;
-    this->Rank = 0;
-    this->bIsSpecialEntry = false;
-    this->bIsLocalPlayer = false;
+    Value = 0;
+    Rank = 0;
+    bIsSpecialEntry = false;
+    bIsLocalPlayer = false;
 }
 

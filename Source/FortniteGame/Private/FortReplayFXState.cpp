@@ -1,9 +1,9 @@
 #include "FortReplayFXState.h"
 
 FFortReplayFXState::FFortReplayFXState() {
-    this->DefaultParticleLODBias = 0;
-    this->DefaultDepthOfFieldQuality = 0;
-    this->OverrideParticleLODBias = 0;
-    this->OverrideDepthOfFieldQuality = 0;
+    DefaultParticleLODBias = 0;
+    DefaultDepthOfFieldQuality = 0;
+    OverrideParticleLODBias = 0;
+    OverrideDepthOfFieldQuality = 0;
 }
 

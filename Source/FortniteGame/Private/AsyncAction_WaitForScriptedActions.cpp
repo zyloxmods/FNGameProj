@@ -13,6 +13,6 @@ UAsyncAction_WaitForScriptedActions* UAsyncAction_WaitForScriptedActions::WaitFo
 }
 
 UAsyncAction_WaitForScriptedActions::UAsyncAction_WaitForScriptedActions() {
-    this->ActionManager = NULL;
+    ActionManager = NULL;
 }
 

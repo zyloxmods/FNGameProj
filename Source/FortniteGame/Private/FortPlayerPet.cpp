@@ -20,11 +20,11 @@ AFortPlayerPawn* AFortPlayerPet::GetFortPlayerPawn() const {
 }
 
 AFortPlayerPet::AFortPlayerPet() {
-    this->PetItemDef = NULL;
-    this->PetAudioComponent = NULL;
-    this->bIsFrontEndPreview = false;
-    this->PetMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("PetMesh0"));
-    this->InteractionCollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("InteractionCollisionSphere"));
-    this->SoundBank = NULL;
+    PetItemDef = NULL;
+    PetAudioComponent = NULL;
+    bIsFrontEndPreview = false;
+    PetMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("PetMesh0"));
+    InteractionCollisionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("InteractionCollisionSphere"));
+    SoundBank = NULL;
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortBackpackItemDefinition : public UFortWorldItemDefinition {
     GENERATED_BODY()
 public:
-    UFortBackpackItemDefinition();
+    UFortBackpackItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

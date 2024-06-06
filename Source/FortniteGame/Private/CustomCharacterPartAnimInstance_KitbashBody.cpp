@@ -1,8 +1,8 @@
 #include "CustomCharacterPartAnimInstance_KitbashBody.h"
 
 UCustomCharacterPartAnimInstance_KitbashBody::UCustomCharacterPartAnimInstance_KitbashBody() {
-    this->JumpAlpha = 1;
-    this->ClavUpLeft = 1;
-    this->ClavDownLeft = 1;
+    JumpAlpha = 1;
+    ClavUpLeft = 1;
+    ClavDownLeft = 1;
 }
 

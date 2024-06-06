@@ -1,9 +1,9 @@
 #include "FortPendingStoppedEncounterData.h"
 
 FFortPendingStoppedEncounterData::FFortPendingStoppedEncounterData() {
-    this->Encounter = NULL;
-    this->ObjectiveStatus = EFortObjectiveStatus::Created;
-    this->bForceDestroyAI = false;
-    this->bEncounterCompletedSuccessfully = false;
+    Encounter = NULL;
+    ObjectiveStatus = EFortObjectiveStatus::Created;
+    bForceDestroyAI = false;
+    bEncounterCompletedSuccessfully = false;
 }
 

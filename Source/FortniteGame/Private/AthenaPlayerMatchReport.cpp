@@ -19,8 +19,8 @@ void UAthenaPlayerMatchReport::GetLootRewards(TArray<FAthenaMatchLootReward>& Lo
 }
 
 UAthenaPlayerMatchReport::UAthenaPlayerMatchReport() {
-    this->bHasMatchStats = false;
-    this->bHasTeamStats = false;
-    this->bHasRewards = false;
+    bHasMatchStats = false;
+    bHasTeamStats = false;
+    bHasRewards = false;
 }
 

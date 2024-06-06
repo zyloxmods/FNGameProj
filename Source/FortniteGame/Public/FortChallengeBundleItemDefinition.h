@@ -70,7 +70,7 @@ private:
     bool bHideRewardFromMapChallenges;
     
 public:
-    UFortChallengeBundleItemDefinition();
+    UFortChallengeBundleItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsLinearChainQuest(const UFortQuestItemDefinition* InQuestDef, int32& ChainLength, int32& ChainPos) const;
     

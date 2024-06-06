@@ -1,7 +1,7 @@
 #include "WorldTheme.h"
 
 UWorldTheme::UWorldTheme() {
-    this->FillerTileGroup = NULL;
-    this->MaxCircuitSize = 0;
+    FillerTileGroup = NULL;
+    MaxCircuitSize = 0;
 }
 

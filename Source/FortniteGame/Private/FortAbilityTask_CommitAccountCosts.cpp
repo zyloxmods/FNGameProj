@@ -5,8 +5,8 @@ UFortAbilityTask_CommitAccountCosts* UFortAbilityTask_CommitAccountCosts::Commit
 }
 
 UFortAbilityTask_CommitAccountCosts::UFortAbilityTask_CommitAccountCosts() {
-    this->bWasCancellable = false;
-    this->bRequestPending = false;
-    this->bCommittedLocally = false;
+    bWasCancellable = false;
+    bRequestPending = false;
+    bCommittedLocally = false;
 }
 

@@ -36,6 +36,6 @@ protected:
     FScalableFloat IsEnabledAsFloat;
     
 public:
-    UFortSpyTechItemDefinition();
+    UFortSpyTechItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

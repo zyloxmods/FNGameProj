@@ -34,6 +34,6 @@ public:
     {
         return FPrimaryAssetId("Token", GetFName());
     }
-    UFortTokenType();
+    UFortTokenType(const FObjectInitializer& ObjectInitializer);
 };
 

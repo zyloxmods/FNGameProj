@@ -55,17 +55,17 @@ void UCreativeQuestComponent::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 UCreativeQuestComponent::UCreativeQuestComponent() {
-    this->StatToTrack = ECreativeQuestStat::None;
-    this->SharingMode = ECreativeQuestSharing::Individual;
-    this->TargetTeam = 0;
-    this->TargetClass = 0;
-    this->AssignedToTeam = 0;
-    this->TargetDeathCause = EDeathCause::OutsideSafeZone;
-    this->bSelfEliminationsCount = true;
-    this->MinigameTargetAmount = 0;
-    this->bShowQuestOnHUD = true;
-    this->ShowProgressMode = EShowProgressMode::Total;
-    this->bShowCompleteEffects = true;
-    this->QuestAllProgress = 0;
+    StatToTrack = ECreativeQuestStat::None;
+    SharingMode = ECreativeQuestSharing::Individual;
+    TargetTeam = 0;
+    TargetClass = 0;
+    AssignedToTeam = 0;
+    TargetDeathCause = EDeathCause::OutsideSafeZone;
+    bSelfEliminationsCount = true;
+    MinigameTargetAmount = 0;
+    bShowQuestOnHUD = true;
+    ShowProgressMode = EShowProgressMode::Total;
+    bShowCompleteEffects = true;
+    QuestAllProgress = 0;
 }
 

@@ -103,17 +103,17 @@ void AFortObjectiveBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AFortObjectiveBase::AFortObjectiveBase() {
-    this->ObjectiveRewardBadge = NULL;
-    this->bStartPlayingOnMissionStart = true;
-    this->bAcceptsMissionEventsWhenFinished = false;
-    this->MissionRequirement = EFortObjectiveRequirement::Optional;
-    this->bIsObjectiveVisible = true;
-    this->VisibilityOverride = EFortMissionVisibilityOverride::Visible;
-    this->bIsProgressBarHidden = false;
-    this->ObjectiveAudiblity = EFortMissionAudibility::UseVisibility;
-    this->bRelevantToSpecificTeam = false;
-    this->RelevantTeam = EFortTeam::HumanCampaign;
-    this->ObjectiveStatus = EFortObjectiveStatus::Created;
-    this->TimerComponent = CreateDefaultSubobject<UFortMissionTimerComponent>(TEXT("TimerComponent0"));
+    ObjectiveRewardBadge = NULL;
+    bStartPlayingOnMissionStart = true;
+    bAcceptsMissionEventsWhenFinished = false;
+    MissionRequirement = EFortObjectiveRequirement::Optional;
+    bIsObjectiveVisible = true;
+    VisibilityOverride = EFortMissionVisibilityOverride::Visible;
+    bIsProgressBarHidden = false;
+    ObjectiveAudiblity = EFortMissionAudibility::UseVisibility;
+    bRelevantToSpecificTeam = false;
+    RelevantTeam = EFortTeam::HumanCampaign;
+    ObjectiveStatus = EFortObjectiveStatus::Created;
+    TimerComponent = CreateDefaultSubobject<UFortMissionTimerComponent>(TEXT("TimerComponent0"));
 }
 

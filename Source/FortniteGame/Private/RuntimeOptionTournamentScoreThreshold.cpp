@@ -1,7 +1,7 @@
 #include "RuntimeOptionTournamentScoreThreshold.h"
 
 FRuntimeOptionTournamentScoreThreshold::FRuntimeOptionTournamentScoreThreshold() {
-    this->StartingPlacement = 0;
-    this->PointsIncrement = 0;
+    StartingPlacement = 0;
+    PointsIncrement = 0;
 }
 

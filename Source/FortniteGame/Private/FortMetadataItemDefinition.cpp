@@ -1,7 +1,8 @@
 #include "FortMetadataItemDefinition.h"
 
-UFortMetadataItemDefinition::UFortMetadataItemDefinition() {
-    this->MinLevel = 0;
-    this->MaxLevel = 0;
+UFortMetadataItemDefinition::UFortMetadataItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    MinLevel = 0;
+    MaxLevel = 0;
 }
 

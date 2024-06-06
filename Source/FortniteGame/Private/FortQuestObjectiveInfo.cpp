@@ -24,17 +24,17 @@ void UFortQuestObjectiveInfo::DisplayDynamicQuestUpdate() {
 }
 
 UFortQuestObjectiveInfo::UFortQuestObjectiveInfo() {
-    this->StatEvent = EFortQuestObjectiveStatEvent::Kill;
-    this->ItemEvent = EFortQuestObjectiveItemEvent::Craft;
-    this->HudIcon = NULL;
-    this->AchievedCount = 0;
-    this->RequiredCount = 0;
-    this->LastNotifiedCount = 0;
-    this->LastKnownMCPCount = 0;
-    this->QuestOwner = NULL;
-    this->AssistPlayerState = NULL;
-    this->bIsHelper = false;
-    this->bVisible = false;
-    this->bActive = false;
+    StatEvent = EFortQuestObjectiveStatEvent::Kill;
+    ItemEvent = EFortQuestObjectiveItemEvent::Craft;
+    HudIcon = NULL;
+    AchievedCount = 0;
+    RequiredCount = 0;
+    LastNotifiedCount = 0;
+    LastKnownMCPCount = 0;
+    QuestOwner = NULL;
+    AssistPlayerState = NULL;
+    bIsHelper = false;
+    bVisible = false;
+    bActive = false;
 }
 

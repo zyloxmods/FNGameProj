@@ -5,6 +5,6 @@ UFortAbilityTask_AutoAimConditionFailed* UFortAbilityTask_AutoAimConditionFailed
 }
 
 UFortAbilityTask_AutoAimConditionFailed::UFortAbilityTask_AutoAimConditionFailed() {
-    this->CachedPawn = NULL;
+    CachedPawn = NULL;
 }
 

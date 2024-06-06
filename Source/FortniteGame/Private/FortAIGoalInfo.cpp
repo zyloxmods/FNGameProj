@@ -1,6 +1,6 @@
 #include "FortAIGoalInfo.h"
 
 FFortAIGoalInfo::FFortAIGoalInfo() {
-    this->bActorAlwaysPerceived = false;
+    bActorAlwaysPerceived = false;
 }
 

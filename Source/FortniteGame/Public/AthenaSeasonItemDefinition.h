@@ -190,6 +190,6 @@ protected:
     TArray<FGameplayTag> FirstTimeTrackedBitFlags;
     
 public:
-    UAthenaSeasonItemDefinition();
+    UAthenaSeasonItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

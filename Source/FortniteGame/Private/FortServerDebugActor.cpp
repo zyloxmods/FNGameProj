@@ -17,15 +17,15 @@ void AFortServerDebugActor::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortServerDebugActor::AFortServerDebugActor() {
-    this->ServerMemSharedInKb = 0;
-    this->ServerMemUniqueInKb = 0;
-    this->ServerMemVirtualInKb = 0;
-    this->ServerMemPhysicalInKb = 0;
-    this->SharedDeltaInLastMinute = 0;
-    this->SharedDeltaSinceProcessStart = 0;
-    this->SharedDeltaSinceDebugStart = 0;
-    this->UniqueDeltaInLastMinute = 0;
-    this->UniqueDeltaSinceProcessStart = 0;
-    this->UniqueDeltaSinceDebugStart = 0;
+    ServerMemSharedInKb = 0;
+    ServerMemUniqueInKb = 0;
+    ServerMemVirtualInKb = 0;
+    ServerMemPhysicalInKb = 0;
+    SharedDeltaInLastMinute = 0;
+    SharedDeltaSinceProcessStart = 0;
+    SharedDeltaSinceDebugStart = 0;
+    UniqueDeltaInLastMinute = 0;
+    UniqueDeltaSinceProcessStart = 0;
+    UniqueDeltaSinceDebugStart = 0;
 }
 

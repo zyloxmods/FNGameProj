@@ -1,6 +1,6 @@
 #include "GameMemberInfoArray.h"
 
 FGameMemberInfoArray::FGameMemberInfoArray() {
-    this->OwningGameState = NULL;
+    OwningGameState = NULL;
 }
 

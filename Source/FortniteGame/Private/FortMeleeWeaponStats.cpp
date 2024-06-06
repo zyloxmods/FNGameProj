@@ -1,15 +1,15 @@
 #include "FortMeleeWeaponStats.h"
 
 FFortMeleeWeaponStats::FFortMeleeWeaponStats() {
-    this->RangeVSEnemies = 1;
-    this->ConeYawAngle = 1;
-    this->ConePitchAngle = 1;
-    this->SwingPlaySpeed = 1;
-    this->SwingTime = 1;
-    this->BuildingConeAngle = 1;
-    this->BuildingConeAnglePitch = 1;
-    this->RangeVSBuildings2D = 1;
-    this->RangeVSBuildingsZ = 1;
-    this->RangeVSWeakSpots = 1;
+    RangeVSEnemies = 1;
+    ConeYawAngle = 1;
+    ConePitchAngle = 1;
+    SwingPlaySpeed = 1;
+    SwingTime = 1;
+    BuildingConeAngle = 1;
+    BuildingConeAnglePitch = 1;
+    RangeVSBuildings2D = 1;
+    RangeVSBuildingsZ = 1;
+    RangeVSWeakSpots = 1;
 }
 

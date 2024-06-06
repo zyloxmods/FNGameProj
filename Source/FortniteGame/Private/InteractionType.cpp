@@ -1,7 +1,7 @@
 #include "InteractionType.h"
 
 FInteractionType::FInteractionType() {
-    this->InteractionType = TInteractionType::IT_NoInteraction;
-    this->InteractionBeingAttempted = EInteractionBeingAttempted::FirstInteraction;
+    InteractionType = TInteractionType::IT_NoInteraction;
+    InteractionBeingAttempted = EInteractionBeingAttempted::FirstInteraction;
 }
 

@@ -1,16 +1,16 @@
 #include "SpawnItemVariantParams.h"
 
 FSpawnItemVariantParams::FSpawnItemVariantParams() {
-    this->WorldItemDefinition = NULL;
-    this->NumberToSpawn = 0;
-    this->OverrideMaxStackCount = 0;
-    this->bToss = false;
-    this->bRandomRotation = false;
-    this->bBlockedFromAutoPickup = false;
-    this->PickupInstigatorHandle = 0;
-    this->SourceType = EFortPickupSourceTypeFlag::Other;
-    this->Source = EFortPickupSpawnSource::Unset;
-    this->OptionalOwnerPC = NULL;
-    this->bPickupOnlyRelevantToOwner = false;
+    WorldItemDefinition = NULL;
+    NumberToSpawn = 0;
+    OverrideMaxStackCount = 0;
+    bToss = false;
+    bRandomRotation = false;
+    bBlockedFromAutoPickup = false;
+    PickupInstigatorHandle = 0;
+    SourceType = EFortPickupSourceTypeFlag::Other;
+    Source = EFortPickupSpawnSource::Unset;
+    OptionalOwnerPC = NULL;
+    bPickupOnlyRelevantToOwner = false;
 }
 

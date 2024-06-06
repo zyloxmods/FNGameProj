@@ -13,9 +13,9 @@ FText UFortTieredCollectionLayout::GetCollectionLayoutDisplayName() const {
 }
 
 UFortTieredCollectionLayout::UFortTieredCollectionLayout() {
-    this->bUseTierAsRandomSeed = true;
-    this->bFiniteTiers = true;
-    this->MaxNumberOfTiersAllowed = 0;
-    this->InitialTierUnlocked = 0;
+    bUseTierAsRandomSeed = true;
+    bFiniteTiers = true;
+    MaxNumberOfTiersAllowed = 0;
+    InitialTierUnlocked = 0;
 }
 

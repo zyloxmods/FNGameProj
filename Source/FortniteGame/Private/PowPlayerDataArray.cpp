@@ -1,6 +1,6 @@
 #include "PowPlayerDataArray.h"
 
 FPowPlayerDataArray::FPowPlayerDataArray() {
-    this->OwningMutator = NULL;
+    OwningMutator = NULL;
 }
 

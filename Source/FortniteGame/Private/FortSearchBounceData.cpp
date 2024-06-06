@@ -1,6 +1,6 @@
 #include "FortSearchBounceData.h"
 
 FFortSearchBounceData::FFortSearchBounceData() {
-    this->SearchAnimationCount = 0;
+    SearchAnimationCount = 0;
 }
 

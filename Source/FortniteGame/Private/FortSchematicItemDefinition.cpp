@@ -28,9 +28,10 @@ bool UFortSchematicItemDefinition::DoesResultWorldItemDisassembleRecipeMatchExac
     return false;
 }
 
-UFortSchematicItemDefinition::UFortSchematicItemDefinition() {
-    this->CraftingTimeRowName = TEXT("Craft_Tier_1");
-    this->bUseSchematicDisplayName = false;
-    this->ItemType = EFortItemType::Schematic;
+UFortSchematicItemDefinition::UFortSchematicItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    CraftingTimeRowName = TEXT("Craft_Tier_1");
+    bUseSchematicDisplayName = false;
+    ItemType = EFortItemType::Schematic;
 }
 

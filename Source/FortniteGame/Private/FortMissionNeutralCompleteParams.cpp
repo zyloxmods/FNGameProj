@@ -7,6 +7,6 @@ void UFortMissionNeutralCompleteParams::BreakParams(AFortMission*& _NeutrallyCom
 }
 
 UFortMissionNeutralCompleteParams::UFortMissionNeutralCompleteParams() {
-    this->NeutrallyCompletedMission = NULL;
+    NeutrallyCompletedMission = NULL;
 }
 

@@ -1,18 +1,18 @@
 #include "FortAnimInput_STWHoverBoard.h"
 
 FFortAnimInput_STWHoverBoard::FFortAnimInput_STWHoverBoard() {
-    this->HoverCycleVelocityCurve = NULL;
-    this->HoverHeightCurve = NULL;
-    this->HoverLeanCurve = NULL;
-    this->HoverPitchCurve = NULL;
-    this->HoverTransformAlpha = 1;
-    this->HoverCycle = 1;
-    this->HoverHeight = 1;
-    this->HoverLeanAngle = 1;
-    this->HoverPitchAngle = 1;
-    this->HoverYaw = 1;
-    this->HoverYawCurrent = 1;
-    this->HoverIdleLeanAlpha = 1;
-    this->bIsUsingHoverboard = false;
+    HoverCycleVelocityCurve = NULL;
+    HoverHeightCurve = NULL;
+    HoverLeanCurve = NULL;
+    HoverPitchCurve = NULL;
+    HoverTransformAlpha = 1;
+    HoverCycle = 1;
+    HoverHeight = 1;
+    HoverLeanAngle = 1;
+    HoverPitchAngle = 1;
+    HoverYaw = 1;
+    HoverYawCurrent = 1;
+    HoverIdleLeanAlpha = 1;
+    bIsUsingHoverboard = false;
 }
 

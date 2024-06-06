@@ -1,6 +1,6 @@
 #include "FortMissionWeightedReward.h"
 
 FFortMissionWeightedReward::FFortMissionWeightedReward() {
-    this->Weight = 1;
+    Weight = 1;
 }
 

@@ -1,6 +1,6 @@
 #include "FortPhoenixLevelUpData.h"
 
 FFortPhoenixLevelUpData::FFortPhoenixLevelUpData() {
-    this->Level = 0;
+    Level = 0;
 }
 

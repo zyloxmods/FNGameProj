@@ -1,10 +1,10 @@
 #include "FortEncounterSettingsFixedPace.h"
 
 FFortEncounterSettingsFixedPace::FFortEncounterSettingsFixedPace() {
-    this->RiftSpawnInterval = 1;
-    this->RiftSpawnCount = 0;
-    this->AIMaxCount = 0;
-    this->SpawnAIIntervalTime = 1;
-    this->SpawnAIIntervalCount = 0;
+    RiftSpawnInterval = 1;
+    RiftSpawnCount = 0;
+    AIMaxCount = 0;
+    SpawnAIIntervalTime = 1;
+    SpawnAIIntervalCount = 0;
 }
 

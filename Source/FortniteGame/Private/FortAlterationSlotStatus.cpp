@@ -1,8 +1,8 @@
 #include "FortAlterationSlotStatus.h"
 
 FFortAlterationSlotStatus::FFortAlterationSlotStatus() {
-    this->Alteration = NULL;
-    this->MinRequiredLevel = 0;
-    this->MinHostItemRarity = EFortRarity::Common;
+    Alteration = NULL;
+    MinRequiredLevel = 0;
+    MinHostItemRarity = EFortRarity::Common;
 }
 

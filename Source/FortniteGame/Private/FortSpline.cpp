@@ -63,6 +63,6 @@ void UFortSpline::AddControlPoint(const FVector& Point, int32 Index) {
 }
 
 UFortSpline::UFortSpline() {
-    this->bConstantVelocity = false;
+    bConstantVelocity = false;
 }
 

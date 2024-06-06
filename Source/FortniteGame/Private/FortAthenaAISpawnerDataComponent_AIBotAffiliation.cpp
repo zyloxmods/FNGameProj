@@ -5,7 +5,7 @@ bool UFortAthenaAISpawnerDataComponent_AIBotAffiliation::GetSquadID_Implementati
 }
 
 UFortAthenaAISpawnerDataComponent_AIBotAffiliation::UFortAthenaAISpawnerDataComponent_AIBotAffiliation() {
-    this->bOverrideIsAnAthenaGameParticipant = false;
-    this->bIsAnAthenaGameParticipant = false;
+    bOverrideIsAnAthenaGameParticipant = false;
+    bIsAnAthenaGameParticipant = false;
 }
 

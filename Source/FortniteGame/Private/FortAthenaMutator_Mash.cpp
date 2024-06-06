@@ -69,27 +69,27 @@ void AFortAthenaMutator_Mash::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortAthenaMutator_Mash::AFortAthenaMutator_Mash() {
-    this->bOverrideReplicationSettingsDebug = false;
-    this->CurrentDifficulty = EMashDifficulty::Easy;
-    this->ObjectiveObjectClass = NULL;
-    this->FinalPhaseObjectiveObjectClass = NULL;
-    this->SpawnScoreMultiplierTraceStartHeight = 1;
-    this->SpawnSscoreMultiplierTraceEndHeight = 1;
-    this->DifficultyEncounterSettingsStatic = NULL;
-    this->DifficultyEncounterSettingsDynamic = NULL;
-    this->DifficultyEncounterSettingsFinalPhase = NULL;
-    this->bUseLootTierOverrides = false;
-    this->FriendsLeaderboardDisplayedNumber = 0;
-    this->TimeSecRetreiveLeaderboardTimeOut = 1;
-    this->bIsGameOver = false;
-    this->bIsRespawningAllowed = true;
-    this->CurrentObjectiveAreaIndex = 0;
-    this->TotalObjectiveAreaCount = 0;
-    this->CurrentEncounter = NULL;
-    this->FinalPhaseEncounter = NULL;
-    this->TeamScoreMultiplier = 1;
-    this->CurrentPhase = EMashPhase::NotStarted;
-    this->RespawnLocationActor = NULL;
-    this->FinalBoss = NULL;
+    bOverrideReplicationSettingsDebug = false;
+    CurrentDifficulty = EMashDifficulty::Easy;
+    ObjectiveObjectClass = NULL;
+    FinalPhaseObjectiveObjectClass = NULL;
+    SpawnScoreMultiplierTraceStartHeight = 1;
+    SpawnSscoreMultiplierTraceEndHeight = 1;
+    DifficultyEncounterSettingsStatic = NULL;
+    DifficultyEncounterSettingsDynamic = NULL;
+    DifficultyEncounterSettingsFinalPhase = NULL;
+    bUseLootTierOverrides = false;
+    FriendsLeaderboardDisplayedNumber = 0;
+    TimeSecRetreiveLeaderboardTimeOut = 1;
+    bIsGameOver = false;
+    bIsRespawningAllowed = true;
+    CurrentObjectiveAreaIndex = 0;
+    TotalObjectiveAreaCount = 0;
+    CurrentEncounter = NULL;
+    FinalPhaseEncounter = NULL;
+    TeamScoreMultiplier = 1;
+    CurrentPhase = EMashPhase::NotStarted;
+    RespawnLocationActor = NULL;
+    FinalBoss = NULL;
 }
 

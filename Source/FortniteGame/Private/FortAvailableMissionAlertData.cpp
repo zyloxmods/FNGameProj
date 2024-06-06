@@ -1,6 +1,6 @@
 #include "FortAvailableMissionAlertData.h"
 
 FFortAvailableMissionAlertData::FFortAvailableMissionAlertData() {
-    this->TileIndex = 0;
+    TileIndex = 0;
 }
 

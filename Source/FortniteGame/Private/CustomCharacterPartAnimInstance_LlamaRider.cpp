@@ -1,8 +1,8 @@
 #include "CustomCharacterPartAnimInstance_LlamaRider.h"
 
 UCustomCharacterPartAnimInstance_LlamaRider::UCustomCharacterPartAnimInstance_LlamaRider() {
-    this->LlamaEmote = NULL;
-    this->MeshToCopy = NULL;
-    this->LlamaHeadPhysAlpha = 1;
+    LlamaEmote = NULL;
+    MeshToCopy = NULL;
+    LlamaHeadPhysAlpha = 1;
 }
 

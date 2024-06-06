@@ -33,11 +33,11 @@ AActor* UFortLinkToActorComponent::GetActorLinkedTo() const {
 }
 
 UFortLinkToActorComponent::UFortLinkToActorComponent() {
-    this->bPerformLinkingCheckOnBeginPlay = true;
-    this->bRegisterWithOwnerMovementComponent = true;
-    this->bUseActorRotationForDirectionVectors = false;
-    this->bMonitorLinkedActorForChanges = false;
-    this->DirectionForLink = ELinkToDirection::Up;
-    this->DirectionTraceLength = 1;
+    bPerformLinkingCheckOnBeginPlay = true;
+    bRegisterWithOwnerMovementComponent = true;
+    bUseActorRotationForDirectionVectors = false;
+    bMonitorLinkedActorForChanges = false;
+    DirectionForLink = ELinkToDirection::Up;
+    DirectionTraceLength = 1;
 }
 

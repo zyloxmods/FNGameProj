@@ -1,8 +1,8 @@
 #include "PropertyOverrideData.h"
 
 FPropertyOverrideData::FPropertyOverrideData() {
-    this->OverrideMode = EPropertyOverrideTargetType::None;
-    this->BaseObject = NULL;
-    this->MutableObject = NULL;
+    OverrideMode = EPropertyOverrideTargetType::None;
+    BaseObject = NULL;
+    MutableObject = NULL;
 }
 

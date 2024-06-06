@@ -1,9 +1,9 @@
 #include "FortCreativeItemListData.h"
 
 FFortCreativeItemListData::FFortCreativeItemListData() {
-    this->Category = ECreativeItemCategory::Prefabs;
-    this->Count = 0;
-    this->SortPriority = 1;
-    this->bIncluded = false;
+    Category = ECreativeItemCategory::Prefabs;
+    Count = 0;
+    SortPriority = 1;
+    bIncluded = false;
 }
 

@@ -1,7 +1,7 @@
 #include "SkyCapTargetData.h"
 
 FSkyCapTargetData::FSkyCapTargetData() {
-    this->TargetHeight = 1;
-    this->MoveTime = 1;
+    TargetHeight = 1;
+    MoveTime = 1;
 }
 

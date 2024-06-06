@@ -11,11 +11,11 @@ float UFortSpectatorCameraComponent::GetAutoCameraCutDistanceThreshold() const {
 }
 
 UFortSpectatorCameraComponent::UFortSpectatorCameraComponent() {
-    this->SpectatorController = NULL;
-    this->IntendedViewTarget = NULL;
-    this->CurrentBlend = NULL;
-    this->ScreenFringeFOVCurve = NULL;
-    this->ZoomRate = 1;
-    this->FocalLengthInterpSpeed = 1;
+    SpectatorController = NULL;
+    IntendedViewTarget = NULL;
+    CurrentBlend = NULL;
+    ScreenFringeFOVCurve = NULL;
+    ZoomRate = 1;
+    FocalLengthInterpSpeed = 1;
 }
 

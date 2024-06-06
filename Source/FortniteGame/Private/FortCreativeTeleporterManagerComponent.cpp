@@ -15,6 +15,6 @@ TSet<AFortCreativeTeleporter*> UFortCreativeTeleporterManagerComponent::GetTelep
 }
 
 UFortCreativeTeleporterManagerComponent::UFortCreativeTeleporterManagerComponent() {
-    this->TeleporterGroupList.AddDefaulted(26);
+    TeleporterGroupList.AddDefaulted(26);
 }
 

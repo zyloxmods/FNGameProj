@@ -1,13 +1,13 @@
 #include "FortAIBatchedDamageCues.h"
 
 FFortAIBatchedDamageCues::FFortAIBatchedDamageCues() {
-    this->bImpact = false;
-    this->bImpactWeapon = false;
-    this->bDamage = false;
-    this->bDamageShields = false;
-    this->bDamageWeapon = false;
-    this->bFatal = false;
-    this->bWeaponActivated = false;
-    this->TargetActor = NULL;
+    bImpact = false;
+    bImpactWeapon = false;
+    bDamage = false;
+    bDamageShields = false;
+    bDamageWeapon = false;
+    bFatal = false;
+    bWeaponActivated = false;
+    TargetActor = NULL;
 }
 

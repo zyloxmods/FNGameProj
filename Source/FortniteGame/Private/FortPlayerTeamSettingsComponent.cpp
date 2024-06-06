@@ -9,10 +9,10 @@ void UFortPlayerTeamSettingsComponent::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 UFortPlayerTeamSettingsComponent::UFortPlayerTeamSettingsComponent() {
-    this->TeamIndex = 255;
-    this->TeamColorIndex = 0;
-    this->bRunOutTimeToWin = false;
-    this->DefaultClassSlot = 255;
-    this->RespawnWaveType = ECreativeRespawnWaveType::None;
+    TeamIndex = 255;
+    TeamColorIndex = 0;
+    bRunOutTimeToWin = false;
+    DefaultClassSlot = 255;
+    RespawnWaveType = ECreativeRespawnWaveType::None;
 }
 

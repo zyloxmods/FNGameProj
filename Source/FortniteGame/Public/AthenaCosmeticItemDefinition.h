@@ -113,7 +113,7 @@ protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Visual|Overrides")
     TArray<UFortMontageItemDefinitionBase*> BuiltInEmotes;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=true), Category = "Variants")
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Instanced, meta=(AllowPrivateAccess=truee, TitleProperty="VariantChannelName"), Category = "Variants")
     TArray<UFortCosmeticVariant*> ItemVariants;
 
 	// The thumbnails from the specified variant channel will be used to set the thumbnail of this item if it is set and it exists
@@ -178,7 +178,7 @@ protected:
     TSoftObjectPtr<UTexture2D> ExclusiveIcon;
     
 public:
-    UAthenaCosmeticItemDefinition();
+    UAthenaCosmeticItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsOwnedByCampaignHero() const;
     

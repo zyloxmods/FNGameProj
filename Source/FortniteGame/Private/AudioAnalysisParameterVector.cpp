@@ -1,8 +1,8 @@
 #include "AudioAnalysisParameterVector.h"
 
 FAudioAnalysisParameterVector::FAudioAnalysisParameterVector() {
-    this->MaterialCollection = NULL;
-    this->NiagaraCollection = NULL;
-    this->bDebug = false;
+    MaterialCollection = NULL;
+    NiagaraCollection = NULL;
+    bDebug = false;
 }
 

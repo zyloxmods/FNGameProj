@@ -14,6 +14,6 @@ void AFortAthenaMutator_InfiniteResources::GetLifetimeReplicatedProps(TArray<FLi
 }
 
 AFortAthenaMutator_InfiniteResources::AFortAthenaMutator_InfiniteResources() {
-    this->bInfiniteResources = false;
+    bInfiniteResources = false;
 }
 

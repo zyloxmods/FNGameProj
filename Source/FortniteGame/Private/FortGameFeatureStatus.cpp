@@ -1,12 +1,12 @@
 #include "FortGameFeatureStatus.h"
 
 FFortGameFeatureStatus::FFortGameFeatureStatus() {
-    this->Feature = EFortGameFeature::EarlyStartup;
-    this->CurrentState = EFortGameFeatureState::Unknown;
-    this->RequestedState = EFortGameFeatureState::Unknown;
-    this->bIsUsingBackgroundDownloads = false;
-    this->bIsProgressPaused = false;
-    this->IsActive = false;
-    this->IsPendingActive = false;
+    Feature = EFortGameFeature::EarlyStartup;
+    CurrentState = EFortGameFeatureState::Unknown;
+    RequestedState = EFortGameFeatureState::Unknown;
+    bIsUsingBackgroundDownloads = false;
+    bIsProgressPaused = false;
+    IsActive = false;
+    IsPendingActive = false;
 }
 

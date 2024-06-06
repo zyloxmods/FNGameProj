@@ -7,6 +7,6 @@ void UFortObjectiveSucceededParams::BreakParams(AFortObjectiveBase*& _SucceededO
 }
 
 UFortObjectiveSucceededParams::UFortObjectiveSucceededParams() {
-    this->SucceededObjective = NULL;
+    SucceededObjective = NULL;
 }
 

@@ -1,9 +1,9 @@
 #include "FortRespawnData.h"
 
 FFortRespawnData::FFortRespawnData() {
-    this->bRespawnDataAvailable = false;
-    this->bClientIsReady = false;
-    this->bServerIsReady = false;
-    this->RespawnCameraDistance = 1;
+    bRespawnDataAvailable = false;
+    bClientIsReady = false;
+    bServerIsReady = false;
+    RespawnCameraDistance = 1;
 }
 

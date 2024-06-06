@@ -1,10 +1,10 @@
 #include "FortActiveMontageDecisionWindow.h"
 
 FFortActiveMontageDecisionWindow::FFortActiveMontageDecisionWindow() {
-    this->DecisionWindow = NULL;
-    this->DecisionAnimation = NULL;
-    this->bReceivedPrimaryInput = false;
-    this->bReceivedSecondaryInput = false;
-    this->bAlreadyProcessedInput = false;
+    DecisionWindow = NULL;
+    DecisionAnimation = NULL;
+    bReceivedPrimaryInput = false;
+    bReceivedSecondaryInput = false;
+    bAlreadyProcessedInput = false;
 }
 

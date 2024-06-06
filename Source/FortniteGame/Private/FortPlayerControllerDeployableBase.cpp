@@ -46,7 +46,7 @@ void AFortPlayerControllerDeployableBase::ClientOnHordeTierComplete_Implementati
 }
 
 AFortPlayerControllerDeployableBase::AFortPlayerControllerDeployableBase() {
-    this->CurrentPlot = NULL;
-    this->PreviousPlot = NULL;
+    CurrentPlot = NULL;
+    PreviousPlot = NULL;
 }
 

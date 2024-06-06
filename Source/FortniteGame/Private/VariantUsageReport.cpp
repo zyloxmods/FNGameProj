@@ -1,6 +1,6 @@
 #include "VariantUsageReport.h"
 
 FVariantUsageReport::FVariantUsageReport() {
-    this->TotalUses = 0;
+    TotalUses = 0;
 }
 

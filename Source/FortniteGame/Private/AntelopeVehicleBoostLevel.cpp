@@ -1,7 +1,7 @@
 #include "AntelopeVehicleBoostLevel.h"
 
 FAntelopeVehicleBoostLevel::FAntelopeVehicleBoostLevel() {
-    this->AccumulationPercent = 1;
-    this->BoostTime = 1;
+    AccumulationPercent = 1;
+    BoostTime = 1;
 }
 

@@ -18,8 +18,8 @@ void UFortMinigameVolumeComponent::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 UFortMinigameVolumeComponent::UFortMinigameVolumeComponent() {
-    this->CurrentMinigameSettingsMachine = NULL;
-    this->MinigameClass = NULL;
-    this->CurrentMinigame = NULL;
+    CurrentMinigameSettingsMachine = NULL;
+    MinigameClass = NULL;
+    CurrentMinigame = NULL;
 }
 

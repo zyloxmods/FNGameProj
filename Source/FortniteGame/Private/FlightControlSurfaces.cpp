@@ -1,9 +1,9 @@
 #include "FlightControlSurfaces.h"
 
 FFlightControlSurfaces::FFlightControlSurfaces() {
-    this->RudderAngle = 1;
-    this->AileronAngle = 1;
-    this->ElevatorAngle = 1;
-    this->FlapAngle = 1;
+    RudderAngle = 1;
+    AileronAngle = 1;
+    ElevatorAngle = 1;
+    FlapAngle = 1;
 }
 

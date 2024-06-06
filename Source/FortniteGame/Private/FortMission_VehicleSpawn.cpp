@@ -4,6 +4,6 @@ void AFortMission_VehicleSpawn::VehicleDestroyed(AActor* InVehicle) {
 }
 
 AFortMission_VehicleSpawn::AFortMission_VehicleSpawn() {
-    this->SpawnLocationQuery = NULL;
+    SpawnLocationQuery = NULL;
 }
 

@@ -16,6 +16,6 @@ protected:
     FString BannerIconTemplateName;
     
 public:
-    UFortBannerTokenType();
+    UFortBannerTokenType(const FObjectInitializer& ObjectInitializer);
 };
 

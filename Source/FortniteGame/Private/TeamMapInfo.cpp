@@ -1,6 +1,6 @@
 #include "TeamMapInfo.h"
 
 FTeamMapInfo::FTeamMapInfo() {
-    this->TeamId = 0;
+    TeamId = 0;
 }
 

@@ -1,13 +1,13 @@
 #include "IntelState.h"
 
 FIntelState::FIntelState() {
-    this->bInRange = false;
-    this->TimeRemaining = 1;
-    this->ServerEndTime = 1;
-    this->ServerGroundTimerEnd = 1;
-    this->IntelState = EIntelStateEnum::None;
-    this->WinningTeam = 0;
-    this->AttackingTeam = 0;
-    this->DefendingTeam = 0;
+    bInRange = false;
+    TimeRemaining = 1;
+    ServerEndTime = 1;
+    ServerGroundTimerEnd = 1;
+    IntelState = EIntelStateEnum::None;
+    WinningTeam = 0;
+    AttackingTeam = 0;
+    DefendingTeam = 0;
 }
 

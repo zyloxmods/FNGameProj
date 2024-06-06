@@ -1,13 +1,13 @@
 #include "FortAthenaMutator_SpawningPolicyBase.h"
 
 AFortAthenaMutator_SpawningPolicyBase::AFortAthenaMutator_SpawningPolicyBase() {
-    this->CachedSpecialActorIdx = 0;
-    this->SpawnFailureLockoutTime = 1;
-    this->GamePhaseToStartSpawning = EAthenaGamePhase::None;
-    this->bShouldCenterGroundCheckAtFoundLocation = true;
-    this->bShouldMaintainItemCount = true;
-    this->bAllowedDespawnToMaintainItemCount = false;
-    this->bWaitForNavmeshToBeLoaded = true;
-    this->ItemDataRemovalQueryPending = NULL;
+    CachedSpecialActorIdx = 0;
+    SpawnFailureLockoutTime = 1;
+    GamePhaseToStartSpawning = EAthenaGamePhase::None;
+    bShouldCenterGroundCheckAtFoundLocation = true;
+    bShouldMaintainItemCount = true;
+    bAllowedDespawnToMaintainItemCount = false;
+    bWaitForNavmeshToBeLoaded = true;
+    ItemDataRemovalQueryPending = NULL;
 }
 

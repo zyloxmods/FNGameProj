@@ -1,12 +1,12 @@
 #include "DigestedTargetBasedAccuracy.h"
 
 FDigestedTargetBasedAccuracy::FDigestedTargetBasedAccuracy() {
-    this->AimTrackingOffsetErrorMultiplier = 1;
-    this->AimTrackingHeightOffsetErrorMultiplier = 1;
-    this->AimTrackingDistanceErrorMultiplier = 1;
-    this->AimTrackingReactionTimeMultiplier = 1;
-    this->AimTrackingInterpTimeMultiplier = 1;
-    this->AimTrackingInAirVelocityThresholdMultiplier = 1;
-    this->AimTrackinginAirHeightDataThresholdMultiplier = 1;
+    AimTrackingOffsetErrorMultiplier = 1;
+    AimTrackingHeightOffsetErrorMultiplier = 1;
+    AimTrackingDistanceErrorMultiplier = 1;
+    AimTrackingReactionTimeMultiplier = 1;
+    AimTrackingInterpTimeMultiplier = 1;
+    AimTrackingInAirVelocityThresholdMultiplier = 1;
+    AimTrackinginAirHeightDataThresholdMultiplier = 1;
 }
 

@@ -40,10 +40,10 @@ float ABuildingPropAtlas::GetDefenseAnimSpeed() const {
 }
 
 ABuildingPropAtlas::ABuildingPropAtlas() {
-    this->Ring1Comp = NULL;
-    this->Ring2Comp = NULL;
-    this->Ring3Comp = NULL;
-    this->RingTransitionMID = NULL;
-    this->PortalAudioComp = NULL;
+    Ring1Comp = NULL;
+    Ring2Comp = NULL;
+    Ring3Comp = NULL;
+    RingTransitionMID = NULL;
+    PortalAudioComp = NULL;
 }
 

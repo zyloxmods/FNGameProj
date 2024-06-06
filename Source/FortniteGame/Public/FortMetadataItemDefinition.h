@@ -15,6 +15,6 @@ protected:
     int32 MaxLevel;
     
 public:
-    UFortMetadataItemDefinition();
+    UFortMetadataItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

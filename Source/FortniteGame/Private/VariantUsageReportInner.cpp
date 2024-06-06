@@ -1,6 +1,6 @@
 #include "VariantUsageReportInner.h"
 
 FVariantUsageReportInner::FVariantUsageReportInner() {
-    this->UseCount = 0;
+    UseCount = 0;
 }
 

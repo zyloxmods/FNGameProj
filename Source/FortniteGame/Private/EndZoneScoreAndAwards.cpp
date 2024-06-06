@@ -1,11 +1,11 @@
 #include "EndZoneScoreAndAwards.h"
 
 FEndZoneScoreAndAwards::FEndZoneScoreAndAwards() {
-    this->bResultsPendingSave = false;
-    this->TotalScore = 0;
-    this->bCriticalMatchBonus = false;
-    this->bDidLeech = false;
-    this->NumMissionPoints = 0;
-    this->MissionLeechScaling = 1;
+    bResultsPendingSave = false;
+    TotalScore = 0;
+    bCriticalMatchBonus = false;
+    bDidLeech = false;
+    NumMissionPoints = 0;
+    MissionLeechScaling = 1;
 }
 

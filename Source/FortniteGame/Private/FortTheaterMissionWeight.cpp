@@ -1,6 +1,6 @@
 #include "FortTheaterMissionWeight.h"
 
 FFortTheaterMissionWeight::FFortTheaterMissionWeight() {
-    this->Weight = 1;
+    Weight = 1;
 }
 

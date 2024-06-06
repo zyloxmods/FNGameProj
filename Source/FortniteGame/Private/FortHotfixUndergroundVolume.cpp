@@ -21,7 +21,7 @@ void AFortHotfixUndergroundVolume::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortHotfixUndergroundVolume::AFortHotfixUndergroundVolume() {
-    this->TriggerBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BlockBox0"));
-    this->bNeededOnClient = false;
+    TriggerBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("BlockBox0"));
+    bNeededOnClient = false;
 }
 

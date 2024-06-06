@@ -2,6 +2,6 @@
 
 
 AFortItemCaptureActor::AFortItemCaptureActor() {
-    this->ItemDefinition = NULL;
+    ItemDefinition = NULL;
 }
 

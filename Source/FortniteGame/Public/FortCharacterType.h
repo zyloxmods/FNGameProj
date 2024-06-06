@@ -7,6 +7,6 @@ UCLASS(Abstract, Blueprintable)
 class UFortCharacterType : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UFortCharacterType();
+    UFortCharacterType(const FObjectInitializer& ObjectInitializer);
 };
 

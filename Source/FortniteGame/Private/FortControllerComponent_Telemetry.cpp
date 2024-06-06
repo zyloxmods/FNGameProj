@@ -1,12 +1,12 @@
 #include "FortControllerComponent_Telemetry.h"
 
 UFortControllerComponent_Telemetry::UFortControllerComponent_Telemetry() {
-    this->TotalTeleports = 0;
-    this->TotalAmmoCheats = 0;
-    this->SpawnTime = 1;
-    this->TotalItemsConsumed = 0;
-    this->TotalTimesRevived = 0;
-    this->bHasLandedFromSkyDiving = false;
-    this->SkyDiveLandAsyncQueue = 0;
+    TotalTeleports = 0;
+    TotalAmmoCheats = 0;
+    SpawnTime = 1;
+    TotalItemsConsumed = 0;
+    TotalTimesRevived = 0;
+    bHasLandedFromSkyDiving = false;
+    SkyDiveLandAsyncQueue = 0;
 }
 

@@ -17,12 +17,8 @@ class UCustomCharacterPartThumbnailRenderer : public USkeletalMeshThumbnailRende
 	GENERATED_UCLASS_BODY()
 	
 	// Begin UThumbnailRenderer Object
-	FORTNITEEDITOR_API virtual void Draw(UObject* Object, int32 X, int32 Y, uint32 Width, uint32 Height, FRenderTarget*, FCanvas* Canvas) override;
+	FORTNITEEDITOR_API virtual void Draw(UObject* Object, int32 X, int32 Y, uint32 Width, uint32 Height, FRenderTarget*, FCanvas* Canvas, bool bAdditionalViewFamily) override;
 	// End UThumbnailRenderer Object
-
-	// UObject implementation
-	FORTNITEEDITOR_API virtual void BeginDestroy() override;
-
 private:
 	class FSkeletalMeshThumbnailScene* ThumbnailScene;
 };

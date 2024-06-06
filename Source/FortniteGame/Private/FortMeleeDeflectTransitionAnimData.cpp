@@ -1,7 +1,7 @@
 #include "FortMeleeDeflectTransitionAnimData.h"
 
 FFortMeleeDeflectTransitionAnimData::FFortMeleeDeflectTransitionAnimData() {
-    this->TransitionAnim = NULL;
-    this->NextDeflectDataIndex = 0;
+    TransitionAnim = NULL;
+    NextDeflectDataIndex = 0;
 }
 

@@ -1,9 +1,9 @@
 #include "ItemLoadoutTeamMap.h"
 
 FItemLoadoutTeamMap::FItemLoadoutTeamMap() {
-    this->TeamIndex = 0;
-    this->LoadoutIndex = 0;
-    this->UpdateOverrideType = EAthenaInventorySpawnOverride::NoOverride;
-    this->DropAllItemsOverride = EAthenaLootDropOverride::NoOverride;
+    TeamIndex = 0;
+    LoadoutIndex = 0;
+    UpdateOverrideType = EAthenaInventorySpawnOverride::NoOverride;
+    DropAllItemsOverride = EAthenaLootDropOverride::NoOverride;
 }
 

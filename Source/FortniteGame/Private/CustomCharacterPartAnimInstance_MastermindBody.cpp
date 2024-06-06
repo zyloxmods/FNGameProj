@@ -1,7 +1,7 @@
 #include "CustomCharacterPartAnimInstance_MastermindBody.h"
 
 UCustomCharacterPartAnimInstance_MastermindBody::UCustomCharacterPartAnimInstance_MastermindBody() {
-    this->ThighUpLeft = 1;
-    this->ThighUpRight = 1;
+    ThighUpLeft = 1;
+    ThighUpRight = 1;
 }
 

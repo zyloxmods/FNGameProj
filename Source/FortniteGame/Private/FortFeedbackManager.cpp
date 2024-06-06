@@ -20,8 +20,8 @@ void AFortFeedbackManager::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortFeedbackManager::AFortFeedbackManager() {
-    this->bUsesStWFeedbackEvents = true;
-    this->AnnouncerPawnClass = NULL;
-    this->Announcer = NULL;
+    bUsesStWFeedbackEvents = true;
+    AnnouncerPawnClass = NULL;
+    Announcer = NULL;
 }
 

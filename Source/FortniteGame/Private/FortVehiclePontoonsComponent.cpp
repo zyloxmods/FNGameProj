@@ -11,8 +11,8 @@ void UFortVehiclePontoonsComponent::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 UFortVehiclePontoonsComponent::UFortVehiclePontoonsComponent() {
-    this->OwnerVehicle = NULL;
-    this->WaterLineStartPontoonIndex = 0;
-    this->WaterLineEndPontoonIndex = 0;
+    OwnerVehicle = NULL;
+    WaterLineStartPontoonIndex = 0;
+    WaterLineEndPontoonIndex = 0;
 }
 

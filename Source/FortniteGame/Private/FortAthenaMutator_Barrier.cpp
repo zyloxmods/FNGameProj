@@ -20,9 +20,9 @@ void AFortAthenaMutator_Barrier::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortAthenaMutator_Barrier::AFortAthenaMutator_Barrier() {
-    this->BigBaseWallClass = NULL;
-    this->ObjectiveFlag = NULL;
-    this->bGameEndsWhenObjectiveIsDestroyed = false;
-    this->BigBaseWall = NULL;
+    BigBaseWallClass = NULL;
+    ObjectiveFlag = NULL;
+    bGameEndsWhenObjectiveIsDestroyed = false;
+    BigBaseWall = NULL;
 }
 

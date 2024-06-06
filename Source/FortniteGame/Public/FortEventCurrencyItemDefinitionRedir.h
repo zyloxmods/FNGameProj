@@ -14,6 +14,6 @@ private:
     UFortItemDefinition* CurrentCurrencyItem;
     
 public:
-    UFortEventCurrencyItemDefinitionRedir();
+    UFortEventCurrencyItemDefinitionRedir(const FObjectInitializer& ObjectInitializer);
 };
 

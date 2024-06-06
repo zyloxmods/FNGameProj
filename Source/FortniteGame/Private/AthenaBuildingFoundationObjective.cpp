@@ -10,7 +10,7 @@ void AAthenaBuildingFoundationObjective::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 AAthenaBuildingFoundationObjective::AAthenaBuildingFoundationObjective() {
-    this->CurrentHealth = 1;
-    this->MaxHealth = 1;
+    CurrentHealth = 1;
+    MaxHealth = 1;
 }
 

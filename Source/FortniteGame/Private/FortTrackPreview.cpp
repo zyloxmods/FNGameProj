@@ -4,12 +4,12 @@ void AFortTrackPreview::InitializeTrackPreview(UStaticMeshComponent* InTrackMesh
 }
 
 AFortTrackPreview::AFortTrackPreview() {
-    this->TrackPieceMeshesByType[0] = NULL;
-    this->TrackPieceMeshesByType[1] = NULL;
-    this->TrackPieceMeshesByType[2] = NULL;
-    this->TrackPieceMeshesByType[3] = NULL;
-    this->TrackPieceMeshesByType[4] = NULL;
-    this->CellSize = 1;
-    this->TrackMeshComp = NULL;
+    TrackPieceMeshesByType[0] = NULL;
+    TrackPieceMeshesByType[1] = NULL;
+    TrackPieceMeshesByType[2] = NULL;
+    TrackPieceMeshesByType[3] = NULL;
+    TrackPieceMeshesByType[4] = NULL;
+    CellSize = 1;
+    TrackMeshComp = NULL;
 }
 

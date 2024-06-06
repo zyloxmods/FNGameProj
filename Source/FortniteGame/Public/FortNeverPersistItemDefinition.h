@@ -10,6 +10,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bAccumulateOnPlayerState: 1;
     
-    UFortNeverPersistItemDefinition();
+    UFortNeverPersistItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

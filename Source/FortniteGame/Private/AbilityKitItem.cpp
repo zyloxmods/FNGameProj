@@ -1,8 +1,8 @@
 #include "AbilityKitItem.h"
 
 FAbilityKitItem::FAbilityKitItem() {
-    this->Item = NULL;
-    this->Quantity = 0;
-    this->Replenishment = EFortReplenishmentType::Restricted;
+    Item = NULL;
+    Quantity = 0;
+    Replenishment = EFortReplenishmentType::Restricted;
 }
 

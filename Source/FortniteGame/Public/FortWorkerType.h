@@ -37,6 +37,6 @@ protected:
     int32 MismatchingPersonalityPenalty;
     
 public:
-    UFortWorkerType();
+    UFortWorkerType(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -10,6 +10,6 @@ bool UAthenaLayoutRequirementData::FindMatchingLayoutRequirementClass(ABuildingS
 }
 
 UAthenaLayoutRequirementData::UAthenaLayoutRequirementData() {
-    this->BuildingClass = NULL;
+    BuildingClass = NULL;
 }
 

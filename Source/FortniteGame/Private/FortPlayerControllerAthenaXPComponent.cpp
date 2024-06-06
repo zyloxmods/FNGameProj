@@ -70,19 +70,19 @@ void UFortPlayerControllerAthenaXPComponent::GetLifetimeReplicatedProps(TArray<F
 }
 
 UFortPlayerControllerAthenaXPComponent::UFortPlayerControllerAthenaXPComponent() {
-    this->RestXP = 0;
-    this->bRegisteredWithQuestManager = false;
-    this->CachedSeasonDef = NULL;
-    this->CachedSeasonMatchXpBoost = 0;
-    this->CurrentLevel = 0;
-    this->PlayerXp = 0;
-    this->TotalXpEarned = 0;
-    this->MedalBonusXP = 0;
-    this->SurvivalXp = 0;
-    this->CombatXp = 0;
-    this->MatchXp = 0;
-    this->ChallengeXp = 0;
-    this->HasBRMatchReportCompletedProfileVer = 0;
-    this->InMatchProfileVer = 0;
+    RestXP = 0;
+    bRegisteredWithQuestManager = false;
+    CachedSeasonDef = NULL;
+    CachedSeasonMatchXpBoost = 0;
+    CurrentLevel = 0;
+    PlayerXp = 0;
+    TotalXpEarned = 0;
+    MedalBonusXP = 0;
+    SurvivalXp = 0;
+    CombatXp = 0;
+    MatchXp = 0;
+    ChallengeXp = 0;
+    HasBRMatchReportCompletedProfileVer = 0;
+    InMatchProfileVer = 0;
 }
 

@@ -1,5 +1,6 @@
 #include "FortItemIconDefinition.h"
 
-UFortItemIconDefinition::UFortItemIconDefinition() {
+UFortItemIconDefinition::UFortItemIconDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

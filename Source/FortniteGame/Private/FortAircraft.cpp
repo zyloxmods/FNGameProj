@@ -13,7 +13,7 @@ void AFortAircraft::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 }
 
 AFortAircraft::AFortAircraft() {
-    this->JumpFlashCount = 0;
-    this->CameraModeClass = UFortCameraMode_ThirdPerson::StaticClass();
+    JumpFlashCount = 0;
+    CameraModeClass = UFortCameraMode_ThirdPerson::StaticClass();
 }
 

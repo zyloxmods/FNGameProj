@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortCollectedResourceItemDefinition : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UFortCollectedResourceItemDefinition();
+    UFortCollectedResourceItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

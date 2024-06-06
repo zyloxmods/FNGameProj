@@ -21,6 +21,6 @@ protected:
     FScalableFloat MaxNumberConsumablesToSpawn;
     
 public:
-    UBGAConsumableWrapperItemDefinition();
+    UBGAConsumableWrapperItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

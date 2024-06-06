@@ -62,8 +62,8 @@ void UFortActorOptionsComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 UFortActorOptionsComponent::UFortActorOptionsComponent() {
-    this->OverrideDisplayNameOption = NULL;
-    this->PlayerOptions = NULL;
-    this->bRedirectInteractToParent = true;
+    OverrideDisplayNameOption = NULL;
+    PlayerOptions = NULL;
+    bRedirectInteractToParent = true;
 }
 

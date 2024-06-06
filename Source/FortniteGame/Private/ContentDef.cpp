@@ -1,6 +1,6 @@
 #include "ContentDef.h"
 
 FContentDef::FContentDef() {
-    this->Version = 0;
+    Version = 0;
 }
 

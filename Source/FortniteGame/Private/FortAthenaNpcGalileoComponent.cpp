@@ -18,7 +18,7 @@ TArray<AFortAthenaAIBotController*> UFortAthenaNpcGalileoComponent::GetCommunica
 }
 
 UFortAthenaNpcGalileoComponent::UFortAthenaNpcGalileoComponent() {
-    this->CachedBotController = NULL;
-    this->PossessedPawn = NULL;
+    CachedBotController = NULL;
+    PossessedPawn = NULL;
 }
 

@@ -4,8 +4,9 @@ TEnumAsByte<EFortAlteration::Type> UFortAlterationItemDefinition::GetAlterationT
     return EFortAlteration::AttributeSlot;
 }
 
-UFortAlterationItemDefinition::UFortAlterationItemDefinition() {
-    this->AlterationType = EFortAlteration::AttributeSlot;
-    this->ItemType = EFortItemType::Alteration;
+UFortAlterationItemDefinition::UFortAlterationItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    AlterationType = EFortAlteration::AttributeSlot;
+    ItemType = EFortItemType::Alteration;
 }
 

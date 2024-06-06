@@ -16,12 +16,12 @@ void UFortMinigameObjectiveComponent::SetIsInteractionAllowed(bool bInIsInteract
 }
 
 UFortMinigameObjectiveComponent::UFortMinigameObjectiveComponent() {
-    this->TrackedIndex = 0;
-    this->ProgressPercentage = 1;
-    this->TrackedState = 0;
-    this->TrackedStateOwnerTeam = 0;
-    this->bIsInteractionAllowed = false;
-    this->ObjectiveType = EObjectiveType::DestructionObjective;
-    this->bPurgeTrackingHistoryOnRemoval = true;
+    TrackedIndex = 0;
+    ProgressPercentage = 1;
+    TrackedState = 0;
+    TrackedStateOwnerTeam = 0;
+    bIsInteractionAllowed = false;
+    ObjectiveType = EObjectiveType::DestructionObjective;
+    bPurgeTrackingHistoryOnRemoval = true;
 }
 

@@ -14,30 +14,30 @@ void AFortPhysicsBall::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 }
 
 AFortPhysicsBall::AFortPhysicsBall() {
-    this->bDetachRootChildrenOnServer = true;
-    this->bUpdateRotationOnlyIfRendered = true;
-    this->bRollingAudioFaded = false;
-    this->UpdateRollingAudioRangeMeters = 1;
-    this->SphereCollision = CreateDefaultSubobject<USphereComponent>(TEXT("SphereCollision"));
-    this->RotationPivot = NULL;
-    this->WaterInteractionComponent = CreateDefaultSubobject<UFortWaterInteractionComponent>(TEXT("WaterInteractionComponent"));
-    this->RotatedComponent = NULL;
-    this->RollingAudioComponent = NULL;
-    this->bEnableBackspinOnKick = true;
-    this->bApplyingBackspin = false;
-    this->BackspinRotationScale = 1;
-    this->bEnableLiftAndDrag = false;
-    this->bStopLiftWhenFalling = true;
-    this->bApplyingLift = false;
-    this->LiftFactor = 1;
-    this->StopLiftHorizontalVelocityThreshold = 1;
-    this->StopLiftVerticalVelocityThreshold = 1;
-    this->StopLiftTimeDuration = 1;
-    this->LiftDuration = 1;
-    this->DragVelocityThreshold = 1;
-    this->DragFactor = 1;
-    this->WaterMinRotationSpeed = 1;
-    this->WaterRotationInterpSpeed = 1;
-    this->WaterAxisFlipSpeed = 1;
+    bDetachRootChildrenOnServer = true;
+    bUpdateRotationOnlyIfRendered = true;
+    bRollingAudioFaded = false;
+    UpdateRollingAudioRangeMeters = 1;
+    SphereCollision = CreateDefaultSubobject<USphereComponent>(TEXT("SphereCollision"));
+    RotationPivot = NULL;
+    WaterInteractionComponent = CreateDefaultSubobject<UFortWaterInteractionComponent>(TEXT("WaterInteractionComponent"));
+    RotatedComponent = NULL;
+    RollingAudioComponent = NULL;
+    bEnableBackspinOnKick = true;
+    bApplyingBackspin = false;
+    BackspinRotationScale = 1;
+    bEnableLiftAndDrag = false;
+    bStopLiftWhenFalling = true;
+    bApplyingLift = false;
+    LiftFactor = 1;
+    StopLiftHorizontalVelocityThreshold = 1;
+    StopLiftVerticalVelocityThreshold = 1;
+    StopLiftTimeDuration = 1;
+    LiftDuration = 1;
+    DragVelocityThreshold = 1;
+    DragFactor = 1;
+    WaterMinRotationSpeed = 1;
+    WaterRotationInterpSpeed = 1;
+    WaterAxisFlipSpeed = 1;
 }
 

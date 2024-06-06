@@ -14,7 +14,7 @@ void AFortWaterBodyActor::GetWaterSurfaceInfo(FVector QueryLocation, FVector& Wa
 }
 
 AFortWaterBodyActor::AFortWaterBodyActor() {
-    this->WaterPriority = 0;
-    this->bIsSwamp = false;
+    WaterPriority = 0;
+    bIsSwamp = false;
 }
 

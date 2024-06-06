@@ -4,6 +4,6 @@ void UFortPawnComponent_Convert::OnConvertedPawnDied(AActor* DamagedActor, float
 }
 
 UFortPawnComponent_Convert::UFortPawnComponent_Convert() {
-    this->ConvertInteractionSound = NULL;
+    ConvertInteractionSound = NULL;
 }
 

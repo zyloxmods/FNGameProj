@@ -3,6 +3,6 @@
 
 
 ABuildingTrapCeiling_Falling::ABuildingTrapCeiling_Falling() {
-    this->VisibleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Visible Mesh Component"));
+    VisibleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Visible Mesh Component"));
 }
 

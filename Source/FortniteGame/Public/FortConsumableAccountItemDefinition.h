@@ -22,6 +22,6 @@ protected:
     EItemProfileType ProfileType;
     
 public:
-    UFortConsumableAccountItemDefinition();
+    UFortConsumableAccountItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

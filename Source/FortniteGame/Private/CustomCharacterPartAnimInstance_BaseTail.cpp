@@ -1,29 +1,29 @@
 #include "CustomCharacterPartAnimInstance_BaseTail.h"
 
 UCustomCharacterPartAnimInstance_BaseTail::UCustomCharacterPartAnimInstance_BaseTail() {
-    this->TailSkydiveLean = 1;
-    this->TailDiveSpeed = 1;
-    this->TailSkydiveYaw = 1;
-    this->SpeedAdjustedPlayrate = 1;
-    this->bIsInShoppingCartSprinting = false;
-    this->bIsInShoppingCartMoving = false;
-    this->bIsInShoppingCartCoasting = false;
-    this->bIsInShoppingCartInAir = false;
-    this->bIsHoverboardJumping = false;
-    this->bIsHoverboardLanding = false;
-    this->bIsWearingCape = false;
-    this->bBlendInBackwardPose = false;
-    this->bTransition_Idle_Locomotion = false;
-    this->bTransition_Locomotion_Idle = false;
-    this->bTransition_Idle_Skydive = false;
-    this->bTransition_Idle_Crouching = false;
-    this->bTransition_Skydive_Idle = false;
-    this->bTransition_StartJump_SkyDive = false;
-    this->bTransition_JumpLoop_Idle = false;
-    this->bTransition_DownSights_Conduit_DownSightsToIdle = false;
-    this->bTransition_Crouching_Locomotion = false;
-    this->bShoppingCartSprint_Or_Sprint = false;
-    this->bIsFalling_Or_IsJumping_Or_IsShoppingCartInAir = false;
-    this->bIsFalling_Or_IsHoverboardJumping = false;
+    TailSkydiveLean = 1;
+    TailDiveSpeed = 1;
+    TailSkydiveYaw = 1;
+    SpeedAdjustedPlayrate = 1;
+    bIsInShoppingCartSprinting = false;
+    bIsInShoppingCartMoving = false;
+    bIsInShoppingCartCoasting = false;
+    bIsInShoppingCartInAir = false;
+    bIsHoverboardJumping = false;
+    bIsHoverboardLanding = false;
+    bIsWearingCape = false;
+    bBlendInBackwardPose = false;
+    bTransition_Idle_Locomotion = false;
+    bTransition_Locomotion_Idle = false;
+    bTransition_Idle_Skydive = false;
+    bTransition_Idle_Crouching = false;
+    bTransition_Skydive_Idle = false;
+    bTransition_StartJump_SkyDive = false;
+    bTransition_JumpLoop_Idle = false;
+    bTransition_DownSights_Conduit_DownSightsToIdle = false;
+    bTransition_Crouching_Locomotion = false;
+    bShoppingCartSprint_Or_Sprint = false;
+    bIsFalling_Or_IsJumping_Or_IsShoppingCartInAir = false;
+    bIsFalling_Or_IsHoverboardJumping = false;
 }
 

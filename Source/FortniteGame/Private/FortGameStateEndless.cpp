@@ -15,6 +15,6 @@ void AFortGameStateEndless::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortGameStateEndless::AFortGameStateEndless() {
-    this->WaveNumber = 0;
+    WaveNumber = 0;
 }
 

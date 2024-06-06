@@ -3,6 +3,6 @@
 
 
 AFortLevelScriptActor::AFortLevelScriptActor() {
-    this->bWorldReadyCalled = false;
+    bWorldReadyCalled = false;
 }
 

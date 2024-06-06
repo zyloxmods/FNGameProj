@@ -61,7 +61,7 @@ void UFortMiniMapComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 UFortMiniMapComponent::UFortMiniMapComponent() {
-    this->LocalMinimapIconOverride = NULL;
-    this->MinimapIndicatorClass = UFortMiniMapIndicator::StaticClass();
+    LocalMinimapIconOverride = NULL;
+    MinimapIndicatorClass = UFortMiniMapIndicator::StaticClass();
 }
 

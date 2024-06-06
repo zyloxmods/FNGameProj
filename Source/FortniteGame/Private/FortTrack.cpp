@@ -48,34 +48,34 @@ void AFortTrack::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifeti
 }
 
 AFortTrack::AFortTrack() {
-    this->ToggleSwitchText = FText::FromString(TEXT("Toggle Track"));
-    this->ToggleInteractTime = 1;
-    this->TrackPieceMeshesByType[0] = NULL;
-    this->TrackPieceMeshesByType[1] = NULL;
-    this->TrackPieceMeshesByType[2] = NULL;
-    this->TrackPieceMeshesByType[3] = NULL;
-    this->TrackPieceMeshesByType[4] = NULL;
-    this->bUseFloorMesh = true;
-    this->TrackFloorMeshesByVerticality[0] = NULL;
-    this->TrackFloorMeshesByVerticality[1] = NULL;
-    this->TrackFloorMeshesByVerticality[2] = NULL;
-    this->NeighborsByDirection[0] = NULL;
-    this->NeighborsByDirection[1] = NULL;
-    this->NeighborsByDirection[2] = NULL;
-    this->NeighborsByDirection[3] = NULL;
-    this->SwitchState = 0;
-    this->ConfigurationIdx = 0;
-    this->TrackMeshComp = NULL;
-    this->TrackFloorMeshComp = NULL;
-    this->ConnectorMeshCompsByDirection[0] = NULL;
-    this->ConnectorMeshCompsByDirection[1] = NULL;
-    this->ConnectorMeshCompsByDirection[2] = NULL;
-    this->ConnectorMeshCompsByDirection[3] = NULL;
-    this->PlacementCollision1 = CreateDefaultSubobject<UBoxComponent>(TEXT("PlacementCollision1"));
-    this->PlacementCollision2 = CreateDefaultSubobject<UBoxComponent>(TEXT("PlacementCollision2"));
-    this->SplineComp1 = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComp1"));
-    this->SplineComp2 = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComp2"));
-    this->SwitchCompBase = CreateDefaultSubobject<USceneComponent>(TEXT("SwitchCompBase"));
-    this->SwitchComp = NULL;
+    ToggleSwitchText = FText::FromString(TEXT("Toggle Track"));
+    ToggleInteractTime = 1;
+    TrackPieceMeshesByType[0] = NULL;
+    TrackPieceMeshesByType[1] = NULL;
+    TrackPieceMeshesByType[2] = NULL;
+    TrackPieceMeshesByType[3] = NULL;
+    TrackPieceMeshesByType[4] = NULL;
+    bUseFloorMesh = true;
+    TrackFloorMeshesByVerticality[0] = NULL;
+    TrackFloorMeshesByVerticality[1] = NULL;
+    TrackFloorMeshesByVerticality[2] = NULL;
+    NeighborsByDirection[0] = NULL;
+    NeighborsByDirection[1] = NULL;
+    NeighborsByDirection[2] = NULL;
+    NeighborsByDirection[3] = NULL;
+    SwitchState = 0;
+    ConfigurationIdx = 0;
+    TrackMeshComp = NULL;
+    TrackFloorMeshComp = NULL;
+    ConnectorMeshCompsByDirection[0] = NULL;
+    ConnectorMeshCompsByDirection[1] = NULL;
+    ConnectorMeshCompsByDirection[2] = NULL;
+    ConnectorMeshCompsByDirection[3] = NULL;
+    PlacementCollision1 = CreateDefaultSubobject<UBoxComponent>(TEXT("PlacementCollision1"));
+    PlacementCollision2 = CreateDefaultSubobject<UBoxComponent>(TEXT("PlacementCollision2"));
+    SplineComp1 = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComp1"));
+    SplineComp2 = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComp2"));
+    SwitchCompBase = CreateDefaultSubobject<USceneComponent>(TEXT("SwitchCompBase"));
+    SwitchComp = NULL;
 }
 

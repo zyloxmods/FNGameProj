@@ -17,7 +17,7 @@ UFortHeroType* UFortHero::GetHeroTypeBP() const {
 }
 
 UFortHero::UFortHero() {
-    this->hero_name = TEXT("Default Hero Name");
-    this->Refundable = false;
+    hero_name = TEXT("Default Hero Name");
+    Refundable = false;
 }
 

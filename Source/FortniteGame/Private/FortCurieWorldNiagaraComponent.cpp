@@ -1,6 +1,6 @@
 #include "FortCurieWorldNiagaraComponent.h"
 
 UFortCurieWorldNiagaraComponent::UFortCurieWorldNiagaraComponent() {
-    this->AssociatedControllerId = 0;
+    AssociatedControllerId = 0;
 }
 

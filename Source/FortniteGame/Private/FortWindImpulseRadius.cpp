@@ -1,13 +1,13 @@
 #include "FortWindImpulseRadius.h"
 
 FFortWindImpulseRadius::FFortWindImpulseRadius() {
-    this->Radius = 1;
-    this->CurrentRadius = 1;
-    this->PreviousRadius = 1;
-    this->Magnitude = 1;
-    this->CurrentMagnitude = 1;
-    this->PreviousMagnitude = 1;
-    this->BlendTime = 1;
-    this->CurrentBlendTime = 1;
+    Radius = 1;
+    CurrentRadius = 1;
+    PreviousRadius = 1;
+    Magnitude = 1;
+    CurrentMagnitude = 1;
+    PreviousMagnitude = 1;
+    BlendTime = 1;
+    CurrentBlendTime = 1;
 }
 

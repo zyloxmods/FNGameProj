@@ -1,17 +1,17 @@
 #include "FortItemLayerAnimInstance_FullLocomotion.h"
 
 UFortItemLayerAnimInstance_FullLocomotion::UFortItemLayerAnimInstance_FullLocomotion() {
-    this->LocalVelocityYawAngle = 1;
-    this->LocalVelocityYawAngleMinusMeleeTwist = 1;
-    this->LocalVelocityYawAngleMinusJogBlendSpaceRotation = 1;
-    this->StartAnimDeltaAngleNorth = 1;
-    this->StartAnimDeltaAngleEast = 1;
-    this->StartAnimDeltaAngleSouth = 1;
-    this->StartAnimDeltaAngleWest = 1;
-    this->SpeedAdjustedPlayrate = 1;
-    this->LocomotionCardinalDirection = EFortCardinalDirection::North;
-    this->StopCardinalDirection = EFortCardinalDirection::North;
-    this->PrePivotCardinalDirection = EFortCardinalDirection::North;
-    this->PostPivotCardinalDirection = EFortCardinalDirection::North;
+    LocalVelocityYawAngle = 1;
+    LocalVelocityYawAngleMinusMeleeTwist = 1;
+    LocalVelocityYawAngleMinusJogBlendSpaceRotation = 1;
+    StartAnimDeltaAngleNorth = 1;
+    StartAnimDeltaAngleEast = 1;
+    StartAnimDeltaAngleSouth = 1;
+    StartAnimDeltaAngleWest = 1;
+    SpeedAdjustedPlayrate = 1;
+    LocomotionCardinalDirection = EFortCardinalDirection::North;
+    StopCardinalDirection = EFortCardinalDirection::North;
+    PrePivotCardinalDirection = EFortCardinalDirection::North;
+    PostPivotCardinalDirection = EFortCardinalDirection::North;
 }
 

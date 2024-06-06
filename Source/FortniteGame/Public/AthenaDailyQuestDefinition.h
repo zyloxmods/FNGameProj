@@ -7,6 +7,6 @@ UCLASS(Blueprintable, MinimalAPI)
 class UAthenaDailyQuestDefinition : public UFortQuestItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaDailyQuestDefinition();
+    UAthenaDailyQuestDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

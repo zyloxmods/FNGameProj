@@ -1,6 +1,6 @@
 #include "GameplayTagAnimationData.h"
 
 FGameplayTagAnimationData::FGameplayTagAnimationData() {
-    this->ValidGenders = EFortCustomGender::Invalid;
+    ValidGenders = EFortCustomGender::Invalid;
 }
 

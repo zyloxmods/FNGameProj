@@ -16,11 +16,11 @@ bool UFortAbilityTask_SpawnProjectileAndWait::BeginSpawningActor(UGameplayAbilit
 }
 
 UFortAbilityTask_SpawnProjectileAndWait::UFortAbilityTask_SpawnProjectileAndWait() {
-    this->RequestedBy = NULL;
-    this->InitialSpeed = 1;
-    this->GravityScale = 1;
-    this->HomingTarget = NULL;
-    this->bAllowSpawnWhenDead = false;
-    this->bAllowSpawnWhenDBNO = false;
+    RequestedBy = NULL;
+    InitialSpeed = 1;
+    GravityScale = 1;
+    HomingTarget = NULL;
+    bAllowSpawnWhenDead = false;
+    bAllowSpawnWhenDBNO = false;
 }
 

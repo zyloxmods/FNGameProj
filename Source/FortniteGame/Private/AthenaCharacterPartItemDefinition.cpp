@@ -4,6 +4,7 @@ TArray<UCustomCharacterPart*> UAthenaCharacterPartItemDefinition::GetCharacterPa
     return TArray<UCustomCharacterPart*>();
 }
 
-UAthenaCharacterPartItemDefinition::UAthenaCharacterPartItemDefinition() {
+UAthenaCharacterPartItemDefinition::UAthenaCharacterPartItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

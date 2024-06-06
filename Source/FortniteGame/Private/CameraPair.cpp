@@ -1,7 +1,7 @@
 #include "CameraPair.h"
 
 FCameraPair::FCameraPair() {
-    this->Type = EFrontEndCamera::Invalid;
-    this->Camera = NULL;
+    Type = EFrontEndCamera::Invalid;
+    Camera = NULL;
 }
 

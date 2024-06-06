@@ -1,8 +1,8 @@
 #include "BuildingPropWall.h"
 
 ABuildingPropWall::ABuildingPropWall() {
-    this->AreaShapeType = EBuildingWallArea::Regular;
-    this->AreaWidthOverride = 1;
-    this->bOverrideAreaWidth = false;
+    AreaShapeType = EBuildingWallArea::Regular;
+    AreaWidthOverride = 1;
+    bOverrideAreaWidth = false;
 }
 

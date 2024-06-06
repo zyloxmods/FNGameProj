@@ -1,7 +1,7 @@
 #include "ItemRequirement.h"
 
 FItemRequirement::FItemRequirement() {
-    this->ItemDef = NULL;
-    this->bMustOwnItem = false;
+    ItemDef = NULL;
+    bMustOwnItem = false;
 }
 

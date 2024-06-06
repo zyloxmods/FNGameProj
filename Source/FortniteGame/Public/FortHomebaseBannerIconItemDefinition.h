@@ -14,6 +14,6 @@ public:
     UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bFullUsageRights: 1;
     
-    UFortHomebaseBannerIconItemDefinition();
+    UFortHomebaseBannerIconItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

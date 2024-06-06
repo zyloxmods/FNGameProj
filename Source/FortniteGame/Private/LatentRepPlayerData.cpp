@@ -1,20 +1,20 @@
 #include "LatentRepPlayerData.h"
 
 FLatentRepPlayerData::FLatentRepPlayerData() {
-    this->PlayerState = NULL;
-    this->LastPawnNotRelevantTime = 1;
-    this->bPawnIsRelevant = false;
-    this->bWasPawnRelevantLastUpdate = false;
-    this->CurrentYaw = 1;
-    this->LastLocationReplicationTime = 1;
-    this->PrevLocationReplicatedTime = 1;
-    this->LastYawReplicationTime = 1;
-    this->PrevYawReplicatedTime = 1;
-    this->LastRepYaw = 1;
-    this->PrevRepYaw = 1;
-    this->LerpStartYaw = 1;
-    this->PawnStateMask = EFortPawnState::Default;
-    this->CurrPawnStateMask = EFortPawnState::Default;
-    this->CurieStateBitfield = 0;
+    PlayerState = NULL;
+    LastPawnNotRelevantTime = 1;
+    bPawnIsRelevant = false;
+    bWasPawnRelevantLastUpdate = false;
+    CurrentYaw = 1;
+    LastLocationReplicationTime = 1;
+    PrevLocationReplicatedTime = 1;
+    LastYawReplicationTime = 1;
+    PrevYawReplicatedTime = 1;
+    LastRepYaw = 1;
+    PrevRepYaw = 1;
+    LerpStartYaw = 1;
+    PawnStateMask = EFortPawnState::Default;
+    CurrPawnStateMask = EFortPawnState::Default;
+    CurieStateBitfield = 0;
 }
 

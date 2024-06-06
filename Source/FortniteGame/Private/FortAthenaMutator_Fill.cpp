@@ -17,7 +17,7 @@ void AFortAthenaMutator_Fill::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortAthenaMutator_Fill::AFortAthenaMutator_Fill() {
-    this->FloorActorClass = NULL;
-    this->LavaFloor = NULL;
+    FloorActorClass = NULL;
+    LavaFloor = NULL;
 }
 

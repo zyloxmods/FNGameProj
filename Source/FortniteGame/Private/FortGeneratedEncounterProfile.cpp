@@ -1,10 +1,10 @@
 #include "FortGeneratedEncounterProfile.h"
 
 FFortGeneratedEncounterProfile::FFortGeneratedEncounterProfile() {
-    this->EncounterDifficultyLevel = 1;
-    this->DifficultyOptionPointsAvailableAtGeneration = 0;
-    this->MinDifficultyOptionPointsToUse = 0;
-    this->bShouldReselectOptionsPerInstance = false;
-    this->GeneratedEncounterIndex = 0;
+    EncounterDifficultyLevel = 1;
+    DifficultyOptionPointsAvailableAtGeneration = 0;
+    MinDifficultyOptionPointsToUse = 0;
+    bShouldReselectOptionsPerInstance = false;
+    GeneratedEncounterIndex = 0;
 }
 

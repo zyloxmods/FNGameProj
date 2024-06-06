@@ -5,14 +5,14 @@ void AFortAthenaTutorial_Shoot::OnTargetDestroyed(int32 TargetIndex) {
 
 
 AFortAthenaTutorial_Shoot::AFortAthenaTutorial_Shoot() {
-    this->ShootCameraPoint = NULL;
-    this->TargetCounterScreen = NULL;
-    this->AmmoCountToTriggerReload = 0;
-    this->ShootMarkerAppearDelay = 1;
-    this->CameraInSpeed = 1;
-    this->CameraInDuration = 1;
-    this->CameraWaitTime = 1;
-    this->CameraOutSpeed = 1;
-    this->CameraOutDuration = 1;
+    ShootCameraPoint = NULL;
+    TargetCounterScreen = NULL;
+    AmmoCountToTriggerReload = 0;
+    ShootMarkerAppearDelay = 1;
+    CameraInSpeed = 1;
+    CameraInDuration = 1;
+    CameraWaitTime = 1;
+    CameraOutSpeed = 1;
+    CameraOutDuration = 1;
 }
 

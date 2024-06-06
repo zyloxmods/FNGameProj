@@ -1,20 +1,20 @@
 #include "DrunkHomingConfig.h"
 
 FDrunkHomingConfig::FDrunkHomingConfig() {
-    this->DrunkOverrideSpeedCurve = NULL;
-    this->DirectionChangeRate = 1;
-    this->LookaheadDist = 1;
-    this->TurnAngle = 1;
-    this->TurnAngleBlendOut = 1;
-    this->DrunkDuration = 1;
-    this->MinPitch = 1;
-    this->RandomTargetPositionRadius = 1;
-    this->PassedTargetSlackTime = 1;
-    this->TurnAngleClamp = 1;
-    this->DrunkBlendOutRange = 1;
-    this->DrunkBlendOutTimeThreshold = 1;
-    this->DrunkBlendOutTime = 1;
-    this->DrunkBlendOutTurnSpeed = 1;
-    this->AimPointMaxRange = 1;
+    DrunkOverrideSpeedCurve = NULL;
+    DirectionChangeRate = 1;
+    LookaheadDist = 1;
+    TurnAngle = 1;
+    TurnAngleBlendOut = 1;
+    DrunkDuration = 1;
+    MinPitch = 1;
+    RandomTargetPositionRadius = 1;
+    PassedTargetSlackTime = 1;
+    TurnAngleClamp = 1;
+    DrunkBlendOutRange = 1;
+    DrunkBlendOutTimeThreshold = 1;
+    DrunkBlendOutTime = 1;
+    DrunkBlendOutTurnSpeed = 1;
+    AimPointMaxRange = 1;
 }
 

@@ -2,8 +2,8 @@
 
 
 UFortMissionVoteUINotification::UFortMissionVoteUINotification() {
-    this->VoteType = EFortVoteType::SurvivalVote;
-    this->bHasVoteEnded = false;
-    this->VoteResult = 0;
+    VoteType = EFortVoteType::SurvivalVote;
+    bHasVoteEnded = false;
+    VoteResult = 0;
 }
 

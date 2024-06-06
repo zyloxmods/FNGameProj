@@ -1,8 +1,8 @@
 #include "FortAthenaSeasonStats.h"
 
 FFortAthenaSeasonStats::FFortAthenaSeasonStats() {
-    this->NumWins = 0;
-    this->NumHighBracket = 0;
-    this->NumLowBracket = 0;
+    NumWins = 0;
+    NumHighBracket = 0;
+    NumLowBracket = 0;
 }
 

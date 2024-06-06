@@ -52,15 +52,16 @@ void UAthenaCosmeticItemDefinition::ApplyVariantsToComponent(UPrimitiveComponent
 void UAthenaCosmeticItemDefinition::ApplyVariants(AActor* InActor, const FFortAthenaLoadout& Loadout, const FApplyVariantsAdditionalParams& Params) const {
 }
 
-UAthenaCosmeticItemDefinition::UAthenaCosmeticItemDefinition() {
-    this->bIsShuffleTile = false;
-    this->bIsOwnedByCampaignHero = false;
-    this->bHasMoreThanOneCharacterPartVariant = false;
-    this->bHideIfNotOwned = false;
-    this->bInitializedConfiguredDynamicInstallBundles = false;
-    this->bDynamicInstallBundlesError = false;
-    this->bDynamicInstallBundlesComplete = false;
-    this->DynamicInstallBundlesUpdateStartTime = 4294967295;
-    this->VariantUnlockType = EVariantUnlockType::UnlockAll;
+UAthenaCosmeticItemDefinition::UAthenaCosmeticItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bIsShuffleTile = false;
+    bIsOwnedByCampaignHero = false;
+    bHasMoreThanOneCharacterPartVariant = false;
+    bHideIfNotOwned = false;
+    bInitializedConfiguredDynamicInstallBundles = false;
+    bDynamicInstallBundlesError = false;
+    bDynamicInstallBundlesComplete = false;
+    DynamicInstallBundlesUpdateStartTime = 4294967295;
+    VariantUnlockType = EVariantUnlockType::UnlockAll;
 }
 

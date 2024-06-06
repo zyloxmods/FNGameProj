@@ -1,8 +1,8 @@
 #include "FortAbilityCost.h"
 
 FFortAbilityCost::FFortAbilityCost() {
-    this->CostSource = EFortAbilityCostSource::Stamina;
-    this->ItemDefinition = NULL;
-    this->bOnlyApplyCostOnHit = false;
+    CostSource = EFortAbilityCostSource::Stamina;
+    ItemDefinition = NULL;
+    bOnlyApplyCostOnHit = false;
 }
 

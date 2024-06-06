@@ -1,19 +1,19 @@
 #include "FortPlayerInputSettings.h"
 
 UFortPlayerInputSettings::UFortPlayerInputSettings() {
-    this->HoldInputTime = 1;
-    this->HoldCraftAmmoTime = 1;
-    this->HoldHudChatTime = 1;
-    this->HoldVoteDialogTime = 1;
-    this->bBuildingPickerOnlyChoosesCategories = false;
-    this->bWeaponPickerShowOnlySlottedItems = false;
-    this->bTrapPickerUsesRadial = false;
-    this->bRadialClosesOnRelease = false;
-    this->NumActiveTrapSlots = 0;
-    this->bWeaponSlotsAreSharedWhenUsingGamepad = false;
-    this->bEditModeUsableFromCombatMode = false;
-    this->bOnlyShowNextPrevBuildingSlotKeybinds = false;
-    this->bEnabledForCampaign = false;
-    this->bEnabledForAthena = false;
+    HoldInputTime = 1;
+    HoldCraftAmmoTime = 1;
+    HoldHudChatTime = 1;
+    HoldVoteDialogTime = 1;
+    bBuildingPickerOnlyChoosesCategories = false;
+    bWeaponPickerShowOnlySlottedItems = false;
+    bTrapPickerUsesRadial = false;
+    bRadialClosesOnRelease = false;
+    NumActiveTrapSlots = 0;
+    bWeaponSlotsAreSharedWhenUsingGamepad = false;
+    bEditModeUsableFromCombatMode = false;
+    bOnlyShowNextPrevBuildingSlotKeybinds = false;
+    bEnabledForCampaign = false;
+    bEnabledForAthena = false;
 }
 

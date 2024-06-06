@@ -22,8 +22,8 @@ void AFortSpectatorBeaconClient::ClientAllowedToProceedFromReservation_Implement
 
 
 AFortSpectatorBeaconClient::AFortSpectatorBeaconClient() {
-    this->ReconnectionInitialTimeout = 1;
-    this->ReconnectionTimeout = 1;
-    this->bHasReconnected = false;
+    ReconnectionInitialTimeout = 1;
+    ReconnectionTimeout = 1;
+    bHasReconnected = false;
 }
 

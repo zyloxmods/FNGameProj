@@ -51,27 +51,27 @@ void UFortMovementComp_GroundSpline::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortMovementComp_GroundSpline::UFortMovementComp_GroundSpline() {
-    this->SplineLocationOffsetZ = 1;
-    this->bOffsetZIsAbsolute = false;
-    this->bTickGroundSplineMovement = false;
-    this->NumberOfMoveRetriesPerTick = 0;
-    this->ClimbSpeedPercent = 1;
-    this->PitchSpeed = 1;
-    this->PitchThreshold = 1;
-    this->PitchThresholdSmoothing = 1;
-    this->LinearJerk = 1;
-    this->YawJerk = 1;
-    this->GroundCheckFrequency = 1;
-    this->GroundCheckDistance = 1;
-    this->AttemptUnstickMinimumAngleDegrees = 1;
-    this->PawnPushTime = 1;
-    this->ClientImmediatelySnapToReplicatedLocationTime = 1;
-    this->ClientImmediatelySnapToReplicatedLocationDistanceMinimumSquared = 1;
-    this->PawnPushForceMultiplier = 1;
-    this->GameplayEffectClassDestroyBuildings = NULL;
-    this->SplineDistanceReplicationRecoveryPercent = 1;
-    this->SplineDistanceReplicationRecoveryMinDistancePerSecond = 1;
-    this->SpeedTimeReplicationRecoveryPercent = 1;
-    this->AbilitySystemComponent = NULL;
+    SplineLocationOffsetZ = 1;
+    bOffsetZIsAbsolute = false;
+    bTickGroundSplineMovement = false;
+    NumberOfMoveRetriesPerTick = 0;
+    ClimbSpeedPercent = 1;
+    PitchSpeed = 1;
+    PitchThreshold = 1;
+    PitchThresholdSmoothing = 1;
+    LinearJerk = 1;
+    YawJerk = 1;
+    GroundCheckFrequency = 1;
+    GroundCheckDistance = 1;
+    AttemptUnstickMinimumAngleDegrees = 1;
+    PawnPushTime = 1;
+    ClientImmediatelySnapToReplicatedLocationTime = 1;
+    ClientImmediatelySnapToReplicatedLocationDistanceMinimumSquared = 1;
+    PawnPushForceMultiplier = 1;
+    GameplayEffectClassDestroyBuildings = NULL;
+    SplineDistanceReplicationRecoveryPercent = 1;
+    SplineDistanceReplicationRecoveryMinDistancePerSecond = 1;
+    SpeedTimeReplicationRecoveryPercent = 1;
+    AbilitySystemComponent = NULL;
 }
 

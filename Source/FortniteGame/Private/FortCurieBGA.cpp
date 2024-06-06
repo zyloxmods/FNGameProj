@@ -2,6 +2,6 @@
 #include "FortCurieComponent.h"
 
 AFortCurieBGA::AFortCurieBGA() {
-    this->CurieComponent = CreateDefaultSubobject<UFortCurieComponent>(TEXT("CurieComponent"));
+    CurieComponent = CreateDefaultSubobject<UFortCurieComponent>(TEXT("CurieComponent"));
 }
 

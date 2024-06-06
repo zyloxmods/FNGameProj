@@ -1,8 +1,8 @@
 #include "HeistTeamHoldingJewelInfo.h"
 
 FHeistTeamHoldingJewelInfo::FHeistTeamHoldingJewelInfo() {
-    this->JewelsHeld = 0;
-    this->TimeStartedHoldingJewel = 1;
-    this->AccumulatedTotalTime = 1;
+    JewelsHeld = 0;
+    TimeStartedHoldingJewel = 1;
+    AccumulatedTotalTime = 1;
 }
 

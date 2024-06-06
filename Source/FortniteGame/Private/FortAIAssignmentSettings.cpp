@@ -1,9 +1,9 @@
 #include "FortAIAssignmentSettings.h"
 
 UFortAIAssignmentSettings::UFortAIAssignmentSettings() {
-    this->bGoalLocationsAlwaysKnown = true;
-    this->bIsEnemyAssignment = false;
-    this->MaxAIAllowedForAssignment = 1;
-    this->MaxAIAllowedPerGoal = 1;
+    bGoalLocationsAlwaysKnown = true;
+    bIsEnemyAssignment = false;
+    MaxAIAllowedForAssignment = 1;
+    MaxAIAllowedPerGoal = 1;
 }
 

@@ -12,9 +12,9 @@ void UFortAthenaAILODComponent::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 UFortAthenaAILODComponent::UFortAthenaAILODComponent() {
-    this->CurrentFortAILODLevel = EFortAILODLevel::MIN;
-    this->bCouldBeVisibleToPlayers = false;
-    this->CachedFortPawn = NULL;
-    this->AILODSettingsContainer = NULL;
+    CurrentFortAILODLevel = EFortAILODLevel::MIN;
+    bCouldBeVisibleToPlayers = false;
+    CachedFortPawn = NULL;
+    AILODSettingsContainer = NULL;
 }
 

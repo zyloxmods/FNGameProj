@@ -1,13 +1,13 @@
 #include "AthenaServerStartAircraftStats.h"
 
 FAthenaServerStartAircraftStats::FAthenaServerStartAircraftStats() {
-    this->WarmupDurationSec = 1;
-    this->NumPlayersMissing = 0;
-    this->NumPlayersQuitting = 0;
-    this->bStartedEarly = false;
-    this->StartReason = EAircraftLaunchReason::StdTimerAllPlayers;
-    this->ExpectedPlayers = 0;
-    this->PlayersReadied = 0;
-    this->PlayersLoadingScreenDropped = 0;
+    WarmupDurationSec = 1;
+    NumPlayersMissing = 0;
+    NumPlayersQuitting = 0;
+    bStartedEarly = false;
+    StartReason = EAircraftLaunchReason::StdTimerAllPlayers;
+    ExpectedPlayers = 0;
+    PlayersReadied = 0;
+    PlayersLoadingScreenDropped = 0;
 }
 

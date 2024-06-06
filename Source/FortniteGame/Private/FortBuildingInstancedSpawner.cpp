@@ -4,6 +4,6 @@ void AFortBuildingInstancedSpawner::HandlePlayerAdded(APlayerController* AddedPl
 }
 
 AFortBuildingInstancedSpawner::AFortBuildingInstancedSpawner() {
-    this->BuildingToInstance = NULL;
+    BuildingToInstance = NULL;
 }
 

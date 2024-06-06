@@ -17,6 +17,6 @@ void UFortControllerComponent_Aircraft::ClientEnterAircraft_Implementation(AFort
 }
 
 UFortControllerComponent_Aircraft::UFortControllerComponent_Aircraft() {
-    this->CurrentAircraft = NULL;
+    CurrentAircraft = NULL;
 }
 

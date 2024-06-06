@@ -1,13 +1,13 @@
 #include "FortAIDataProvider_Pawn.h"
 
 UFortAIDataProvider_Pawn::UFortAIDataProvider_Pawn() {
-    this->SightRadius = 1;
-    this->HearingRadius = 1;
-    this->ViewLocationOffsetFromGround = 1;
-    this->MaxStepHeight = 1;
-    this->TetheredBoxWidth = 1;
-    this->TetheredBoxHeight = 1;
-    this->TetheredBoxEQSGridSize = 1;
-    this->TetheredBoxEQSSpaceBetween = 1;
+    SightRadius = 1;
+    HearingRadius = 1;
+    ViewLocationOffsetFromGround = 1;
+    MaxStepHeight = 1;
+    TetheredBoxWidth = 1;
+    TetheredBoxHeight = 1;
+    TetheredBoxEQSGridSize = 1;
+    TetheredBoxEQSSpaceBetween = 1;
 }
 

@@ -1,6 +1,6 @@
 #include "CommunityVoteInfo.h"
 
 FCommunityVoteInfo::FCommunityVoteInfo() {
-    this->VotesRemaining = 0;
+    VotesRemaining = 0;
 }
 

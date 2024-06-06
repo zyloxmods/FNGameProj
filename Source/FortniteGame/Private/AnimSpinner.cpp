@@ -1,10 +1,10 @@
 #include "AnimSpinner.h"
 
 FAnimSpinner::FAnimSpinner() {
-    this->BaseRotationSpeed = 1;
-    this->RotationRate = 1;
-    this->InterpolationRateSpeedUp = 1;
-    this->InterpolationRateSlowDown = 1;
-    this->RotationAngle = 1;
+    BaseRotationSpeed = 1;
+    RotationRate = 1;
+    InterpolationRateSpeedUp = 1;
+    InterpolationRateSlowDown = 1;
+    RotationAngle = 1;
 }
 

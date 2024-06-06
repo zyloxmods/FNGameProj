@@ -11,7 +11,7 @@ void AFortAthenaMutator_SpyRumble::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortAthenaMutator_SpyRumble::AFortAthenaMutator_SpyRumble() {
-    this->NumKillsForNextPerkUnlock = 0;
-    this->KillCountCutOff = 0;
+    NumKillsForNextPerkUnlock = 0;
+    KillCountCutOff = 0;
 }
 

@@ -1,11 +1,11 @@
 #include "CustomCharacterPartAnimInstance_SpaceWandererBody.h"
 
 UCustomCharacterPartAnimInstance_SpaceWandererBody::UCustomCharacterPartAnimInstance_SpaceWandererBody() {
-    this->CrouchAlpha = 1;
-    this->CrouchMoveAlpha = 1;
-    this->SkydiveAlpha = 1;
-    this->SuspenderAlpha = 1;
-    this->JumpAlpha = 1;
-    this->PickaxeSwingMoving = 1;
+    CrouchAlpha = 1;
+    CrouchMoveAlpha = 1;
+    SkydiveAlpha = 1;
+    SuspenderAlpha = 1;
+    JumpAlpha = 1;
+    PickaxeSwingMoving = 1;
 }
 

@@ -1,6 +1,6 @@
 #include "AIDirectorDebugInfo.h"
 
 FAIDirectorDebugInfo::FAIDirectorDebugInfo() {
-    this->Timestamp = 1;
+    Timestamp = 1;
 }
 

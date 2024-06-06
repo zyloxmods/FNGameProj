@@ -45,14 +45,14 @@ TSubclassOf<UGameplayEffect> ABuildingGameplayActorConsumable::DetermineOnConsum
 }
 
 ABuildingGameplayActorConsumable::ABuildingGameplayActorConsumable() {
-    this->OnConsumeGameplayEffect = NULL;
-    this->OnConsumeMontageAbility = NULL;
-    this->OnConsumeMontage = NULL;
-    this->bSpawnerCalculateRandomRotation = true;
-    this->DeathParticles = NULL;
-    this->DeathSound = NULL;
-    this->MaxDrawDistanceStw = 1;
-    this->MaxDrawDistanceAthena = 1;
-    this->SearchAnim = NULL;
+    OnConsumeGameplayEffect = NULL;
+    OnConsumeMontageAbility = NULL;
+    OnConsumeMontage = NULL;
+    bSpawnerCalculateRandomRotation = true;
+    DeathParticles = NULL;
+    DeathSound = NULL;
+    MaxDrawDistanceStw = 1;
+    MaxDrawDistanceAthena = 1;
+    SearchAnim = NULL;
 }
 

@@ -1,7 +1,7 @@
 #include "RecipeDataTableRowHandleQuantityData.h"
 
 FRecipeDataTableRowHandleQuantityData::FRecipeDataTableRowHandleQuantityData() {
-    this->Quantity = 0;
-    this->ConvertRemainderUp = false;
+    Quantity = 0;
+    ConvertRemainderUp = false;
 }
 

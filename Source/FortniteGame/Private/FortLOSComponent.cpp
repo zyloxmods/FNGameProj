@@ -8,11 +8,11 @@ void UFortLOSComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 }
 
 UFortLOSComponent::UFortLOSComponent() {
-    this->LOSMaxDistance = 1;
-    this->FOVInDegrees = 1;
-    this->TimeBetweenChecks = 1;
-    this->bStopAfterHasBeenFound = true;
-    this->bDistanceCheckOnly = false;
-    this->bHasBeenFound = false;
+    LOSMaxDistance = 1;
+    FOVInDegrees = 1;
+    TimeBetweenChecks = 1;
+    bStopAfterHasBeenFound = true;
+    bDistanceCheckOnly = false;
+    bHasBeenFound = false;
 }
 

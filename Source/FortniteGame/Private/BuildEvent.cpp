@@ -1,6 +1,6 @@
 #include "BuildEvent.h"
 
 FBuildEvent::FBuildEvent() {
-    this->bIsEdit = false;
+    bIsEdit = false;
 }
 

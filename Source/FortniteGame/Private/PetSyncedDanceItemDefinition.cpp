@@ -4,6 +4,7 @@ TSoftObjectPtr<UAnimMontage> UPetSyncedDanceItemDefinition::GetPetAnimation(cons
     return NULL;
 }
 
-UPetSyncedDanceItemDefinition::UPetSyncedDanceItemDefinition() {
+UPetSyncedDanceItemDefinition::UPetSyncedDanceItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

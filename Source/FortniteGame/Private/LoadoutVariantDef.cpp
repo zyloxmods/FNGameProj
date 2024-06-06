@@ -1,9 +1,9 @@
 #include "LoadoutVariantDef.h"
 
 FLoadoutVariantDef::FLoadoutVariantDef() {
-    this->LocationToInsert = ELoadoutVariantInsertType::StartOfArray;
-    this->bItemExpectedInLoadout = false;
-    this->bRequireItemToBeCurrent = false;
-    this->bIgnoreRequireItemToBeCurrentInFrontEnd = false;
+    LocationToInsert = ELoadoutVariantInsertType::StartOfArray;
+    bItemExpectedInLoadout = false;
+    bRequireItemToBeCurrent = false;
+    bIgnoreRequireItemToBeCurrentInFrontEnd = false;
 }
 

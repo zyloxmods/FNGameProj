@@ -15,7 +15,7 @@ bool UFortCardPackItem::CanStoreOpen() const {
 }
 
 UFortCardPackItem::UFortCardPackItem() {
-    this->is_loot_tier_overridden = false;
-    this->override_loot_tier = 0;
+    is_loot_tier_overridden = false;
+    override_loot_tier = 0;
 }
 

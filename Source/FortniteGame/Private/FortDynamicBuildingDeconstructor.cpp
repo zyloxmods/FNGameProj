@@ -1,12 +1,12 @@
 #include "FortDynamicBuildingDeconstructor.h"
 
 AFortDynamicBuildingDeconstructor::AFortDynamicBuildingDeconstructor() {
-    this->bDebugDrawBounds = false;
-    this->bSelectiveDestruction = false;
-    this->bIgnoreMissionActors = false;
-    this->bShrinkAndDestroyEffect = false;
-    this->NumOfPiecesToDestroyAtOnce = 0;
-    this->TimeBetweenChunks = 1;
-    this->CurrentIndex = 0;
+    bDebugDrawBounds = false;
+    bSelectiveDestruction = false;
+    bIgnoreMissionActors = false;
+    bShrinkAndDestroyEffect = false;
+    NumOfPiecesToDestroyAtOnce = 0;
+    TimeBetweenChunks = 1;
+    CurrentIndex = 0;
 }
 

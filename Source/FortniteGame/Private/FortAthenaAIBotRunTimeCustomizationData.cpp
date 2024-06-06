@@ -1,9 +1,9 @@
 #include "FortAthenaAIBotRunTimeCustomizationData.h"
 
 FFortAthenaAIBotRunTimeCustomizationData::FFortAthenaAIBotRunTimeCustomizationData() {
-    this->CullDistanceSquared = 1;
-    this->bCheckForOverlaps = false;
-    this->bHasCustomSquadId = false;
-    this->CustomSquadId = 0;
+    CullDistanceSquared = 1;
+    bCheckForOverlaps = false;
+    bHasCustomSquadId = false;
+    CustomSquadId = 0;
 }
 

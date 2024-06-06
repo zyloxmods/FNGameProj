@@ -1,7 +1,7 @@
 #include "AthenaJumpPenalty.h"
 
 FAthenaJumpPenalty::FAthenaJumpPenalty() {
-    this->JumpScalar = 1;
-    this->MovementScalar = 1;
+    JumpScalar = 1;
+    MovementScalar = 1;
 }
 

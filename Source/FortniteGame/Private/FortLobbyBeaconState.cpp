@@ -16,10 +16,10 @@ void AFortLobbyBeaconState::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortLobbyBeaconState::AFortLobbyBeaconState() {
-    this->bIsLobbyTimerPaused = false;
-    this->MatchmakingLevel = 0;
-    this->CachedMissionGeneratorCDO = NULL;
-    this->MissionGeneratorDetailsRequirement = ELobbyMissionGeneratorDetailsRequirement::Unknown;
-    this->bWorldRecordLoaded = false;
+    bIsLobbyTimerPaused = false;
+    MatchmakingLevel = 0;
+    CachedMissionGeneratorCDO = NULL;
+    MissionGeneratorDetailsRequirement = ELobbyMissionGeneratorDetailsRequirement::Unknown;
+    bWorldRecordLoaded = false;
 }
 

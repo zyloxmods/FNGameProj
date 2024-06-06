@@ -1,6 +1,6 @@
 #include "HotfixableBlacklistLiteralLocations.h"
 
 FHotfixableBlacklistLiteralLocations::FHotfixableBlacklistLiteralLocations() {
-    this->Radius = 1;
+    Radius = 1;
 }
 

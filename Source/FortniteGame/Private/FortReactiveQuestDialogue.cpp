@@ -1,7 +1,7 @@
 #include "FortReactiveQuestDialogue.h"
 
 FFortReactiveQuestDialogue::FFortReactiveQuestDialogue() {
-    this->Conversation = NULL;
-    this->PlayOnObjectiveCount = 0;
+    Conversation = NULL;
+    PlayOnObjectiveCount = 0;
 }
 

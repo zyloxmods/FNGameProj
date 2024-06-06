@@ -1,12 +1,12 @@
 #include "FortPushCannonAnimInstance.h"
 
 UFortPushCannonAnimInstance::UFortPushCannonAnimInstance() {
-    this->bHasDriver = false;
-    this->bHasPassenger = false;
-    this->bIsCoolDownEnded = false;
-    this->bIsCannonFired = false;
-    this->PushCannon = NULL;
-    this->CooldownEndedOverheatThreshold = 1;
-    this->OnFiredOverheatValue = 1;
+    bHasDriver = false;
+    bHasPassenger = false;
+    bIsCoolDownEnded = false;
+    bIsCannonFired = false;
+    PushCannon = NULL;
+    CooldownEndedOverheatThreshold = 1;
+    OnFiredOverheatValue = 1;
 }
 

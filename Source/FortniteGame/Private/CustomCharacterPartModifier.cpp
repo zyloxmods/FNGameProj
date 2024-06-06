@@ -26,7 +26,7 @@ void ACustomCharacterPartModifier::ForceResetParticleSystems() {
 }
 
 ACustomCharacterPartModifier::ACustomCharacterPartModifier() {
-    this->IdleVFX = NULL;
-    this->PartType = EFortCustomPartType::NumTypes;
+    IdleVFX = NULL;
+    PartType = EFortCustomPartType::NumTypes;
 }
 

@@ -42,6 +42,6 @@ void AFortAthenaMutator_Payback::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortAthenaMutator_Payback::AFortAthenaMutator_Payback() {
-    this->PaybackMarkerEffectClass = NULL;
+    PaybackMarkerEffectClass = NULL;
 }
 

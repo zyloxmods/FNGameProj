@@ -9,8 +9,8 @@ void AFortNavigationActor_EventGraphItem::CosmeticVariantAssets_PostLoad() {
 }
 
 AFortNavigationActor_EventGraphItem::AFortNavigationActor_EventGraphItem() {
-    this->RewardGraphToReprisent = NULL;
-    this->bInitializedCalled = false;
-    this->CanNavigateToWhenClaimed = true;
+    RewardGraphToReprisent = NULL;
+    bInitializedCalled = false;
+    CanNavigateToWhenClaimed = true;
 }
 

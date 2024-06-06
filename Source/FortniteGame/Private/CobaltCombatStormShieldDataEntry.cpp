@@ -1,14 +1,14 @@
 #include "CobaltCombatStormShieldDataEntry.h"
 
 FCobaltCombatStormShieldDataEntry::FCobaltCombatStormShieldDataEntry() {
-    this->bStormShieldActive = false;
-    this->StormShieldActor = NULL;
-    this->RoundIndex = 0;
-    this->LeadingTeam = 0;
-    this->TieBreakerTeam = 0;
-    this->bAwardedFirstEliminationOfRound = false;
-    this->FirstLandTeam = 0;
-    this->POICamera = NULL;
-    this->NextSupplyDropSpawnTime = 1;
+    bStormShieldActive = false;
+    StormShieldActor = NULL;
+    RoundIndex = 0;
+    LeadingTeam = 0;
+    TieBreakerTeam = 0;
+    bAwardedFirstEliminationOfRound = false;
+    FirstLandTeam = 0;
+    POICamera = NULL;
+    NextSupplyDropSpawnTime = 1;
 }
 

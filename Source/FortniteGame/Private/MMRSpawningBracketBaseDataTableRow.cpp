@@ -1,7 +1,7 @@
 #include "MMRSpawningBracketBaseDataTableRow.h"
 
 FMMRSpawningBracketBaseDataTableRow::FMMRSpawningBracketBaseDataTableRow() {
-    this->MMRBracketLow = 0;
-    this->MMRBracketHigh = 0;
+    MMRBracketLow = 0;
+    MMRBracketHigh = 0;
 }
 

@@ -1,9 +1,9 @@
 #include "AttachedInfo.h"
 
 FAttachedInfo::FAttachedInfo() {
-    this->AttachedToActor = NULL;
-    this->NarrowPlacementAgainstVelocityThreshold = 1;
-    this->StickyOffsetFromPhysicsMesh = 1;
-    this->StickyOffsetFromBoneCenter = 1;
+    AttachedToActor = NULL;
+    NarrowPlacementAgainstVelocityThreshold = 1;
+    StickyOffsetFromPhysicsMesh = 1;
+    StickyOffsetFromBoneCenter = 1;
 }
 

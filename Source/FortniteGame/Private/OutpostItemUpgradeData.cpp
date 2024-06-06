@@ -1,6 +1,6 @@
 #include "OutpostItemUpgradeData.h"
 
 FOutpostItemUpgradeData::FOutpostItemUpgradeData() {
-    this->ItemLevel = 0;
+    ItemLevel = 0;
 }
 

@@ -1,6 +1,6 @@
 #include "TimeOfDayPhase.h"
 
 FTimeOfDayPhase::FTimeOfDayPhase() {
-    this->Time = 1;
+    Time = 1;
 }
 

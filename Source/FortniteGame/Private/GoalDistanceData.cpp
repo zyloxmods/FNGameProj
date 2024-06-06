@@ -1,6 +1,6 @@
 #include "GoalDistanceData.h"
 
 FGoalDistanceData::FGoalDistanceData() {
-    this->bIgnoreScreeningDistance = false;
+    bIgnoreScreeningDistance = false;
 }
 

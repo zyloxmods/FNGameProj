@@ -1,6 +1,6 @@
 #include "FortSquadStart.h"
 
 AFortSquadStart::AFortSquadStart() {
-    this->PlayerStarts.AddDefaulted(4);
+    PlayerStarts.AddDefaulted(4);
 }
 

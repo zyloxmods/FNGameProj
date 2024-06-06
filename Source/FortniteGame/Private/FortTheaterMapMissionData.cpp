@@ -1,8 +1,8 @@
 #include "FortTheaterMapMissionData.h"
 
 FFortTheaterMapMissionData::FFortTheaterMapMissionData() {
-    this->NumMissionsAvailable = 0;
-    this->NumMissionsToChange = 0;
-    this->MissionChangeFrequency = 1;
+    NumMissionsAvailable = 0;
+    NumMissionsToChange = 0;
+    MissionChangeFrequency = 1;
 }
 

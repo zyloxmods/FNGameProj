@@ -1,18 +1,18 @@
 #include "FortAntelopeVehicleAnimInstance.h"
 
 UFortAntelopeVehicleAnimInstance::UFortAntelopeVehicleAnimInstance() {
-    this->AntelopeVehicle = NULL;
-    this->VehicleSpeed = 1;
-    this->bForwardSpeedIsNearlyZero = false;
-    this->bForwardSpeedIsGreaterThanOne = false;
-    this->bReverseSpeedIsGreaterThanOne = false;
-    this->bSpeedIsGreaterThanFiveAndPlayerHitSpace = false;
-    this->bIsBraking = false;
-    this->bIsBoosting = false;
-    this->bPlayerHitSpaceBar = false;
-    this->ChargingValue = 1;
-    this->ChargingMax = 1;
-    this->ChargingMin = 1;
-    this->ChargingInterpSpeed = 1;
+    AntelopeVehicle = NULL;
+    VehicleSpeed = 1;
+    bForwardSpeedIsNearlyZero = false;
+    bForwardSpeedIsGreaterThanOne = false;
+    bReverseSpeedIsGreaterThanOne = false;
+    bSpeedIsGreaterThanFiveAndPlayerHitSpace = false;
+    bIsBraking = false;
+    bIsBoosting = false;
+    bPlayerHitSpaceBar = false;
+    ChargingValue = 1;
+    ChargingMax = 1;
+    ChargingMin = 1;
+    ChargingInterpSpeed = 1;
 }
 

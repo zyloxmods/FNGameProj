@@ -1,8 +1,8 @@
 #include "MinigameScoreboardValue.h"
 
 FMinigameScoreboardValue::FMinigameScoreboardValue() {
-    this->StatFilter = NULL;
-    this->Value = 0;
-    this->bHighlight = false;
+    StatFilter = NULL;
+    Value = 0;
+    bHighlight = false;
 }
 

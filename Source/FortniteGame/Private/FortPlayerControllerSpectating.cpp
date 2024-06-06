@@ -200,27 +200,27 @@ void AFortPlayerControllerSpectating::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 AFortPlayerControllerSpectating::AFortPlayerControllerSpectating() {
-    this->CurrentCameraType = ESpectatorCameraType::ThirdPerson;
-    this->CameraModeCycle.AddDefaulted(5);
-    this->ZoomThresholdForPlayerNames = 1;
-    this->SpectatorPostProcessMaterial = NULL;
-    this->SpectatorPawnBaseClass = AFortReplaySpectatorPawnBase::StaticClass();
-    this->ThirdPersonPawnBaseClass = AFortSpectatorThirdPersonPawn::StaticClass();
-    this->HoverDronePawnClass = AHoverDronePawn::StaticClass();
-    this->BattleMapPawnClass = NULL;
-    this->ARDronePawnClass = NULL;
-    this->MinimapIndicatorClass = NULL;
-    this->SavedCameraStates.AddDefaulted(9);
-    this->LastDamagerOfViewTarget = NULL;
-    this->HoveredActor = NULL;
-    this->FullScreenMapInputComponent = NULL;
-    this->LastKnownViewTarget = NULL;
-    this->CameraBoundsVolume = NULL;
-    this->ClampDroneToCameraBoundsVolume = false;
-    this->RelevancyZoneIndicatorClass = NULL;
-    this->RelevancyZoneIndicator = NULL;
-    this->ReplayContext = NULL;
-    this->MarkerComponent = CreateDefaultSubobject<UAthenaMarkerComponent>(TEXT("MarkerComponent"));
-    this->FollowedPlayerRemoteClientInfo = NULL;
+    CurrentCameraType = ESpectatorCameraType::ThirdPerson;
+    CameraModeCycle.AddDefaulted(5);
+    ZoomThresholdForPlayerNames = 1;
+    SpectatorPostProcessMaterial = NULL;
+    SpectatorPawnBaseClass = AFortReplaySpectatorPawnBase::StaticClass();
+    ThirdPersonPawnBaseClass = AFortSpectatorThirdPersonPawn::StaticClass();
+    HoverDronePawnClass = AHoverDronePawn::StaticClass();
+    BattleMapPawnClass = NULL;
+    ARDronePawnClass = NULL;
+    MinimapIndicatorClass = NULL;
+    SavedCameraStates.AddDefaulted(9);
+    LastDamagerOfViewTarget = NULL;
+    HoveredActor = NULL;
+    FullScreenMapInputComponent = NULL;
+    LastKnownViewTarget = NULL;
+    CameraBoundsVolume = NULL;
+    ClampDroneToCameraBoundsVolume = false;
+    RelevancyZoneIndicatorClass = NULL;
+    RelevancyZoneIndicator = NULL;
+    ReplayContext = NULL;
+    MarkerComponent = CreateDefaultSubobject<UAthenaMarkerComponent>(TEXT("MarkerComponent"));
+    FollowedPlayerRemoteClientInfo = NULL;
 }
 

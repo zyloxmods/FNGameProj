@@ -21,10 +21,10 @@ UFortAthenaAISpawnerDataComponent_ConstructionBase* UFortAthenaAIBotSpawnerData:
 }
 
 UFortAthenaAIBotSpawnerData::UFortAthenaAIBotSpawnerData() {
-    this->CosmeticComponent = NULL;
-    this->GameplayAbilityComponent = NULL;
-    this->SkillSetComponent = NULL;
-    this->InventoryComponent = NULL;
-    this->ConstructionComponent = NULL;
+    CosmeticComponent = NULL;
+    GameplayAbilityComponent = NULL;
+    SkillSetComponent = NULL;
+    InventoryComponent = NULL;
+    ConstructionComponent = NULL;
 }
 

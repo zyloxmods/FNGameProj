@@ -43,8 +43,8 @@ void UFortExpeditionItem::GetBonusCriteriaBP(TArray<FFortCriteriaRequirementData
 }
 
 UFortExpeditionItem::UFortExpeditionItem() {
-    this->expedition_max_target_power = 0;
-    this->expedition_min_target_power = 0;
-    this->expedition_success_chance = 1;
+    expedition_max_target_power = 0;
+    expedition_min_target_power = 0;
+    expedition_success_chance = 1;
 }
 

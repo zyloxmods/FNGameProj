@@ -1,8 +1,8 @@
 #include "AthenaXPStats.h"
 
 FAthenaXPStats::FAthenaXPStats() {
-    this->Count = 0;
-    this->XP = 0;
-    this->Subtype = EFortAccoladeSubtype::NotSet;
+    Count = 0;
+    XP = 0;
+    Subtype = EFortAccoladeSubtype::NotSet;
 }
 

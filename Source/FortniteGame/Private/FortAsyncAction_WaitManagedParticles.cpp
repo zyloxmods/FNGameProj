@@ -5,6 +5,6 @@ UFortAsyncAction_WaitManagedParticles* UFortAsyncAction_WaitManagedParticles::Sp
 }
 
 UFortAsyncAction_WaitManagedParticles::UFortAsyncAction_WaitManagedParticles() {
-    this->MyContext = NULL;
+    MyContext = NULL;
 }
 

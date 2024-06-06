@@ -1,8 +1,8 @@
 #include "CreateBuildingActorData.h"
 
 FCreateBuildingActorData::FCreateBuildingActorData() {
-    this->BuildingClassHandle = 0;
-    this->bMirrored = false;
-    this->SyncKey = 1;
+    BuildingClassHandle = 0;
+    bMirrored = false;
+    SyncKey = 1;
 }
 

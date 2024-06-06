@@ -30,10 +30,10 @@ void AFortMissionStormSafeZone::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortMissionStormSafeZone::AFortMissionStormSafeZone() {
-    this->SafeZoneMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Safe Zone Mesh"));
-    this->bScaleUniformly = true;
-    this->bSafeZoneInStormStateChanged = false;
-    this->SafeZoneRadius = 1;
-    this->AbilityComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("Ability Component"));
+    SafeZoneMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Safe Zone Mesh"));
+    bScaleUniformly = true;
+    bSafeZoneInStormStateChanged = false;
+    SafeZoneRadius = 1;
+    AbilityComponent = CreateDefaultSubobject<UAbilitySystemComponent>(TEXT("Ability Component"));
 }
 

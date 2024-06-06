@@ -1,8 +1,8 @@
 #include "BuildingClassData.h"
 
 FBuildingClassData::FBuildingClassData() {
-    this->BuildingClass = NULL;
-    this->PreviousBuildingLevel = 0;
-    this->UpgradeLevel = 0;
+    BuildingClass = NULL;
+    PreviousBuildingLevel = 0;
+    UpgradeLevel = 0;
 }
 

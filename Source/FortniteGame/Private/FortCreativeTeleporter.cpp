@@ -6,9 +6,9 @@ bool AFortCreativeTeleporter::IsTeleporterBlocked(const AActor* ActorToTeleport,
 }
 
 AFortCreativeTeleporter::AFortCreativeTeleporter() {
-    this->TeleporterAbility = NULL;
-    this->Knob_TeleporterGroup = EFortCreativeTeleporterGroup::Group_A;
-    this->Knob_TargetTeleporterGroup = EFortCreativeTeleporterGroup::Group_A;
-    this->TeleportToWhenReceived = CreateDefaultSubobject<UFortGameplayReceiverMessageComponent>(TEXT("TeleportToWhenReceived"));
+    TeleporterAbility = NULL;
+    Knob_TeleporterGroup = EFortCreativeTeleporterGroup::Group_A;
+    Knob_TargetTeleporterGroup = EFortCreativeTeleporterGroup::Group_A;
+    TeleportToWhenReceived = CreateDefaultSubobject<UFortGameplayReceiverMessageComponent>(TEXT("TeleportToWhenReceived"));
 }
 

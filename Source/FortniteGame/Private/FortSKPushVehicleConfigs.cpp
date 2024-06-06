@@ -1,26 +1,26 @@
 #include "FortSKPushVehicleConfigs.h"
 
 UFortSKPushVehicleConfigs::UFortSKPushVehicleConfigs() {
-    this->PedalForceMultiplier = 1;
-    this->PedalTopSpeedMultiplier = 1;
-    this->PedalForceDuration = 1;
-    this->CoastBrakingMinDelta = 1;
-    this->CoastBrakingMaxDelta = 1;
-    this->PedalMinDuration = 1;
-    this->MountDuration = 1;
-    this->DismountDuration = 1;
-    this->MinPreDismountCooldown = 1;
-    this->PreDismountCooldown = 1;
-    this->PedalCooldown = 1;
-    this->CoastBrakingStrength = 1;
-    this->ShoppingMinPedalCoastSpeed = 1;
-    this->VehicleDebugStrafeCoastMultiplier = 1;
-    this->CanCoastCooldown = 1;
-    this->MaxAutoDismountForwardSpeed = 1;
-    this->PedalMinForwardVelocity = 1;
-    this->FastDismountIncline = 1;
-    this->FastDismountDuration = 1;
-    this->CanCoastAfterFastDismountCooldown = 1;
-    this->PassengerVehicleWeightShiftYawStrength = 1;
+    PedalForceMultiplier = 1;
+    PedalTopSpeedMultiplier = 1;
+    PedalForceDuration = 1;
+    CoastBrakingMinDelta = 1;
+    CoastBrakingMaxDelta = 1;
+    PedalMinDuration = 1;
+    MountDuration = 1;
+    DismountDuration = 1;
+    MinPreDismountCooldown = 1;
+    PreDismountCooldown = 1;
+    PedalCooldown = 1;
+    CoastBrakingStrength = 1;
+    ShoppingMinPedalCoastSpeed = 1;
+    VehicleDebugStrafeCoastMultiplier = 1;
+    CanCoastCooldown = 1;
+    MaxAutoDismountForwardSpeed = 1;
+    PedalMinForwardVelocity = 1;
+    FastDismountIncline = 1;
+    FastDismountDuration = 1;
+    CanCoastAfterFastDismountCooldown = 1;
+    PassengerVehicleWeightShiftYawStrength = 1;
 }
 

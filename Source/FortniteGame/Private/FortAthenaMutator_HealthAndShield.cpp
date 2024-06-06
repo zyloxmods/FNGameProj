@@ -1,10 +1,10 @@
 #include "FortAthenaMutator_HealthAndShield.h"
 
 AFortAthenaMutator_HealthAndShield::AFortAthenaMutator_HealthAndShield() {
-    this->NumericalMutatorOverride = EAthenaMutatorEvaluators::NoOverride;
-    this->MaxHealth = 1;
-    this->StartingHealth = 1;
-    this->MaxShield = 1;
-    this->StartingShield = 1;
+    NumericalMutatorOverride = EAthenaMutatorEvaluators::NoOverride;
+    MaxHealth = 1;
+    StartingHealth = 1;
+    MaxShield = 1;
+    StartingShield = 1;
 }
 

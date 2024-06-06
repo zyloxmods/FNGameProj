@@ -1,6 +1,6 @@
 #include "FortRevivedInfo.h"
 
 FFortRevivedInfo::FFortRevivedInfo() {
-    this->ReviverTeam = 0;
+    ReviverTeam = 0;
 }
 

@@ -7,8 +7,8 @@ void UFortBuildingDamagedParams::BreakParams(ABuildingActor*& _Building, TEnumAs
 }
 
 UFortBuildingDamagedParams::UFortBuildingDamagedParams() {
-    this->Building = NULL;
-    this->BuildingType = EFortBuildingType::Wall;
-    this->DamagedBy = NULL;
+    Building = NULL;
+    BuildingType = EFortBuildingType::Wall;
+    DamagedBy = NULL;
 }
 

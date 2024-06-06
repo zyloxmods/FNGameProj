@@ -28,7 +28,7 @@ void UFortControllerComponent_HeldDeviceUsage::DestroyDroppedDevice(AActor* Drop
 }
 
 UFortControllerComponent_HeldDeviceUsage::UFortControllerComponent_HeldDeviceUsage() {
-    this->LastBattleLabDeviceItemDefinition = NULL;
-    this->LastHeldObjectComponent = NULL;
+    LastBattleLabDeviceItemDefinition = NULL;
+    LastHeldObjectComponent = NULL;
 }
 

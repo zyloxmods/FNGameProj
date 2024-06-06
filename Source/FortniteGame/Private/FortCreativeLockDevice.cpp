@@ -7,6 +7,6 @@ void AFortCreativeLockDevice::HandleLocalPawnEnterToPreviewArea(APawn* Pawn) {
 }
 
 AFortCreativeLockDevice::AFortCreativeLockDevice() {
-    this->CachedLocalController = NULL;
+    CachedLocalController = NULL;
 }
 

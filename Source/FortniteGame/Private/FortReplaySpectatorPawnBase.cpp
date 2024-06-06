@@ -2,6 +2,6 @@
 #include "FortSpectatorCameraComponent.h"
 
 AFortReplaySpectatorPawnBase::AFortReplaySpectatorPawnBase() {
-    this->SpectatorCameraComponent = CreateDefaultSubobject<UFortSpectatorCameraComponent>(TEXT("SpectatorCameraComponent0"));
+    SpectatorCameraComponent = CreateDefaultSubobject<UFortSpectatorCameraComponent>(TEXT("SpectatorCameraComponent0"));
 }
 

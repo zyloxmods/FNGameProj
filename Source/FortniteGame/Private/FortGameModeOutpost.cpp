@@ -5,11 +5,11 @@ bool AFortGameModeOutpost::DoesOutpostStatusAllowMissionStart() const {
 }
 
 AFortGameModeOutpost::AFortGameModeOutpost() {
-    this->bSavePlayerBuiltStructuresAtAllTimes = false;
-    this->MinTotalContinuousOneHitResourcesDistributedForForcedSave = 0;
-    this->MaxContinuousOneHitResourcesDistributedBeforeForcedSave = 0;
-    this->bEnableLargeScaleDisassemblyForcedSaves = true;
-    this->bEnableUnsupportedStructureDisassembly = false;
-    this->bCheckNavMeshAvailability = false;
+    bSavePlayerBuiltStructuresAtAllTimes = false;
+    MinTotalContinuousOneHitResourcesDistributedForForcedSave = 0;
+    MaxContinuousOneHitResourcesDistributedBeforeForcedSave = 0;
+    bEnableLargeScaleDisassemblyForcedSaves = true;
+    bEnableUnsupportedStructureDisassembly = false;
+    bCheckNavMeshAvailability = false;
 }
 

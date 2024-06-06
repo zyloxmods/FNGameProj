@@ -13,11 +13,11 @@ void ULevelSaveRecord::FailsafeTimerExpired() {
 }
 
 ULevelSaveRecord::ULevelSaveRecord() {
-    this->SaveVersion = 0;
-    this->bCompressed = false;
-    this->LastRecordID = 0;
-    this->TaskQueue = NULL;
-    this->CreativeAssetPathRedirects.AddDefaulted(227);
-    this->bRequiresGridPlacement = false;
+    SaveVersion = 0;
+    bCompressed = false;
+    LastRecordID = 0;
+    TaskQueue = NULL;
+    CreativeAssetPathRedirects.AddDefaulted(227);
+    bRequiresGridPlacement = false;
 }
 

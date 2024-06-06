@@ -5,6 +5,6 @@ UFortAsyncAction_OpenChoiceUI* UFortAsyncAction_OpenChoiceUI::OpenChoiceUI(AFort
 }
 
 UFortAsyncAction_OpenChoiceUI::UFortAsyncAction_OpenChoiceUI() {
-    this->PlayerController = NULL;
+    PlayerController = NULL;
 }
 

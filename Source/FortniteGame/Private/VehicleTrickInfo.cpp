@@ -1,24 +1,24 @@
 #include "VehicleTrickInfo.h"
 
 FVehicleTrickInfo::FVehicleTrickInfo() {
-    this->LastOnGroundTime = 1;
-    this->bInAirTrick = false;
-    this->bCreditTrick = false;
-    this->mCreditDisabledTime = 1;
-    this->bTrickDeactivated = false;
-    this->bStuckLanding = false;
-    this->TrickScore = 0;
-    this->TrickAxisCount = 0;
-    this->bDoingRotationTrick = false;
-    this->AirControlsAlpha = 1;
-    this->AirDistance = 1;
-    this->AirDistanceSqrd = 1;
-    this->AirTime = 1;
-    this->AirHeight = 1;
-    this->TimeAtLaunch = 1;
-    this->PeterPanCount = 0;
-    this->StoopingSquirrelCount = 0;
-    this->bDidPeterPan = false;
-    this->bDidStoopingSquirrel = false;
+    LastOnGroundTime = 1;
+    bInAirTrick = false;
+    bCreditTrick = false;
+    mCreditDisabledTime = 1;
+    bTrickDeactivated = false;
+    bStuckLanding = false;
+    TrickScore = 0;
+    TrickAxisCount = 0;
+    bDoingRotationTrick = false;
+    AirControlsAlpha = 1;
+    AirDistance = 1;
+    AirDistanceSqrd = 1;
+    AirTime = 1;
+    AirHeight = 1;
+    TimeAtLaunch = 1;
+    PeterPanCount = 0;
+    StoopingSquirrelCount = 0;
+    bDidPeterPan = false;
+    bDidStoopingSquirrel = false;
 }
 

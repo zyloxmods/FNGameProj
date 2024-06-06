@@ -15,18 +15,18 @@ void ABuildingItemWeaponUpgradeActor::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 ABuildingItemWeaponUpgradeActor::ABuildingItemWeaponUpgradeActor() {
-    this->bAllowSecondInteraction = true;
-    this->WoodItem = NULL;
-    this->MetalItem = NULL;
-    this->BrickItem = NULL;
-    this->UpgradeInteractionResult = EFortWeaponUpgradeInteractionResult::Upgradable;
-    this->HorizontalUpgradeInteractionResult = EFortWeaponUpgradeInteractionResult::Upgradable;
-    this->RequiredResources = NULL;
-    this->RequiredHorizontalResources = NULL;
-    this->CurrentWeaponDefinition = NULL;
-    this->UpgradedWeaponRarity = EFortRarity::Common;
-    this->BuildingAttachmentType = EBuildingAttachmentType::ATTACH_None;
-    this->bBlocksAttachmentPlacement = true;
-    this->BuildingActorAttachedTo = NULL;
+    bAllowSecondInteraction = true;
+    WoodItem = NULL;
+    MetalItem = NULL;
+    BrickItem = NULL;
+    UpgradeInteractionResult = EFortWeaponUpgradeInteractionResult::Upgradable;
+    HorizontalUpgradeInteractionResult = EFortWeaponUpgradeInteractionResult::Upgradable;
+    RequiredResources = NULL;
+    RequiredHorizontalResources = NULL;
+    CurrentWeaponDefinition = NULL;
+    UpgradedWeaponRarity = EFortRarity::Common;
+    BuildingAttachmentType = EBuildingAttachmentType::ATTACH_None;
+    bBlocksAttachmentPlacement = true;
+    BuildingActorAttachedTo = NULL;
 }
 

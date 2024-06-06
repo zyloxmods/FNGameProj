@@ -21,9 +21,9 @@ void AFortAthenaMutator_FF2::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortAthenaMutator_FF2::AFortAthenaMutator_FF2() {
-    this->CurrentRound = 0;
-    this->CurrentHealth = 1;
-    this->MaxHealth = 1;
-    this->EndOfLastRoundServerTime = 1;
+    CurrentRound = 0;
+    CurrentHealth = 1;
+    MaxHealth = 1;
+    EndOfLastRoundServerTime = 1;
 }
 

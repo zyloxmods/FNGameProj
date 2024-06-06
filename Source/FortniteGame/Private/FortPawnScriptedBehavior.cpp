@@ -4,7 +4,7 @@ void UFortPawnScriptedBehavior::PlaceStructure() {
 }
 
 UFortPawnScriptedBehavior::UFortPawnScriptedBehavior() {
-    this->ActionTemplates.AddDefaulted(23);
-    this->ScriptedBehaviors.AddDefaulted(31);
+    ActionTemplates.AddDefaulted(23);
+    ScriptedBehaviors.AddDefaulted(31);
 }
 

@@ -1,9 +1,9 @@
 #include "FortCurieGlowFadeRequest.h"
 
 FFortCurieGlowFadeRequest::FFortCurieGlowFadeRequest() {
-    this->CurieComponent = NULL;
-    this->FXType = EFortCurieNativeFXType::None;
-    this->StartTimestamp = 1;
-    this->bIsFadeIn = false;
+    CurieComponent = NULL;
+    FXType = EFortCurieNativeFXType::None;
+    StartTimestamp = 1;
+    bIsFadeIn = false;
 }
 

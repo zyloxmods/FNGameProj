@@ -1,9 +1,9 @@
 #include "BuildingGridActorFilter.h"
 
 FBuildingGridActorFilter::FBuildingGridActorFilter() {
-    this->bIncludeWalls = false;
-    this->bIncludeFloors = false;
-    this->bIncludeFloorInTop = false;
-    this->bIncludeCenterCell = false;
+    bIncludeWalls = false;
+    bIncludeFloors = false;
+    bIncludeFloorInTop = false;
+    bIncludeCenterCell = false;
 }
 

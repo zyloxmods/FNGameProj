@@ -2,6 +2,6 @@
 #include "Components/StaticMeshComponent.h"
 
 AFortAthenaSMVehicle::AFortAthenaSMVehicle() {
-    this->Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
+    Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
 }
 

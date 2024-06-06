@@ -7,7 +7,7 @@ void UFortEnemyKilledParams::BreakParams(AFortPawn*& _KilledPawn, AFortPlayerCon
 }
 
 UFortEnemyKilledParams::UFortEnemyKilledParams() {
-    this->KilledPawn = NULL;
-    this->KilledBy = NULL;
+    KilledPawn = NULL;
+    KilledBy = NULL;
 }
 

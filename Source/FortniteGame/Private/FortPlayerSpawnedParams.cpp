@@ -7,6 +7,6 @@ void UFortPlayerSpawnedParams::BreakParams(AFortPlayerController*& _SpawnedPlaye
 }
 
 UFortPlayerSpawnedParams::UFortPlayerSpawnedParams() {
-    this->SpawnedPlayerController = NULL;
+    SpawnedPlayerController = NULL;
 }
 

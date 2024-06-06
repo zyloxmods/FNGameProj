@@ -1,7 +1,7 @@
 #include "NotificationUISettings.h"
 
 FNotificationUISettings::FNotificationUISettings() {
-    this->DisplayTime = 1;
-    this->bShouldOverrideVisibilitySettings = false;
+    DisplayTime = 1;
+    bShouldOverrideVisibilitySettings = false;
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaConsumableEmoteItemDefinition : public UFortMontageItemDefinitionBase {
     GENERATED_BODY()
 public:
-    UAthenaConsumableEmoteItemDefinition();
+    UAthenaConsumableEmoteItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

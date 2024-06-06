@@ -8,6 +8,6 @@ void AFortAthenaMutator_AllowSpectateOtherTeams::GetLifetimeReplicatedProps(TArr
 }
 
 AFortAthenaMutator_AllowSpectateOtherTeams::AFortAthenaMutator_AllowSpectateOtherTeams() {
-    this->bAllowSpectateOtherTeams = true;
+    bAllowSpectateOtherTeams = true;
 }
 

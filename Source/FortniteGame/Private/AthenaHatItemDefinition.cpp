@@ -1,5 +1,6 @@
 #include "AthenaHatItemDefinition.h"
 
-UAthenaHatItemDefinition::UAthenaHatItemDefinition() {
+UAthenaHatItemDefinition::UAthenaHatItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

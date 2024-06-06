@@ -1,11 +1,11 @@
 #include "FortRootMotionSource_FallingBoost.h"
 
 FFortRootMotionSource_FallingBoost::FFortRootMotionSource_FallingBoost() {
-    this->VerticalImpulse = 1;
-    this->GravityScalar = 1;
-    this->MaxAcceleration = 1;
-    this->LateralFriction = 1;
-    this->MaxLateralSpeed = 1;
-    this->bHasAppliedVerticalImpulse = false;
+    VerticalImpulse = 1;
+    GravityScalar = 1;
+    MaxAcceleration = 1;
+    LateralFriction = 1;
+    MaxLateralSpeed = 1;
+    bHasAppliedVerticalImpulse = false;
 }
 

@@ -40,6 +40,6 @@ void AFortPlayerControllerFrontEnd::CloseEmotePicker() {
 }
 
 AFortPlayerControllerFrontEnd::AFortPlayerControllerFrontEnd() {
-    this->bUnlockAllZones = false;
+    bUnlockAllZones = false;
 }
 

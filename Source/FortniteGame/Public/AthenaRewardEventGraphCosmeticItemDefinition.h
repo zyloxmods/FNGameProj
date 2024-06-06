@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaRewardEventGraphCosmeticItemDefinition : public UAthenaCosmeticItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaRewardEventGraphCosmeticItemDefinition();
+    UAthenaRewardEventGraphCosmeticItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

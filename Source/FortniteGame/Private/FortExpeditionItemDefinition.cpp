@@ -10,12 +10,13 @@ void UFortExpeditionItemDefinition::GetExpeditionCosts(TArray<FItemAndCount>& Ou
 void UFortExpeditionItemDefinition::GetAllRewards(TArray<UFortCardPackItemDefinition*>& OutRewards) {
 }
 
-UFortExpeditionItemDefinition::UFortExpeditionItemDefinition() {
-    this->ExpeditionDuration_Minutes = 1;
-    this->ExpeditionExpirationDuration_Minutes = 1;
-    this->BaseTargetPowerRating = 0;
-    this->TierFactor = 0;
-    this->MaxTargetPowerClamp = 0;
-    this->ItemType = EFortItemType::Expedition;
+UFortExpeditionItemDefinition::UFortExpeditionItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ExpeditionDuration_Minutes = 1;
+    ExpeditionExpirationDuration_Minutes = 1;
+    BaseTargetPowerRating = 0;
+    TierFactor = 0;
+    MaxTargetPowerClamp = 0;
+    ItemType = EFortItemType::Expedition;
 }
 

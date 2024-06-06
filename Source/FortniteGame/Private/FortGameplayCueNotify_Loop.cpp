@@ -13,7 +13,7 @@
 
 
 AFortGameplayCueNotify_Loop::AFortGameplayCueNotify_Loop() {
-    this->bTickEnabled = false;
-    this->TickInterval = 1;
+    bTickEnabled = false;
+    TickInterval = 1;
 }
 

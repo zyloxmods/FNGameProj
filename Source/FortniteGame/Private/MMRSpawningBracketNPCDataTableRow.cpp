@@ -1,6 +1,6 @@
 #include "MMRSpawningBracketNPCDataTableRow.h"
 
 FMMRSpawningBracketNPCDataTableRow::FMMRSpawningBracketNPCDataTableRow() {
-    this->Skill = 1;
+    Skill = 1;
 }
 

@@ -7,6 +7,6 @@ void UFortMissionSucceededParams::BreakParams(AFortMission*& _SucceededMission) 
 }
 
 UFortMissionSucceededParams::UFortMissionSucceededParams() {
-    this->SucceededMission = NULL;
+    SucceededMission = NULL;
 }
 

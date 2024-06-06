@@ -1,8 +1,8 @@
 #include "AthenaDynamicRestedXpProgression.h"
 
 FAthenaDynamicRestedXpProgression::FAthenaDynamicRestedXpProgression() {
-    this->PctOfGoldenPath = 1;
-    this->CalculatedDynamicRestMult = 1;
-    this->RestXPPoolExchangeRate = 1;
+    PctOfGoldenPath = 1;
+    CalculatedDynamicRestMult = 1;
+    RestXPPoolExchangeRate = 1;
 }
 

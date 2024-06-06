@@ -1,6 +1,6 @@
 #include "FortCreativeTag.h"
 
 FFortCreativeTag::FFortCreativeTag() {
-    this->SortPriority = 1;
+    SortPriority = 1;
 }
 

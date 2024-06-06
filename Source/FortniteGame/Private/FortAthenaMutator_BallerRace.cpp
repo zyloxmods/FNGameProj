@@ -17,6 +17,6 @@ void AFortAthenaMutator_BallerRace::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 AFortAthenaMutator_BallerRace::AFortAthenaMutator_BallerRace() {
-    this->ServerWorldTimeToStartRace = 1;
+    ServerWorldTimeToStartRace = 1;
 }
 

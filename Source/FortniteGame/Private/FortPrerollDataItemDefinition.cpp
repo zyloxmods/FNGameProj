@@ -1,7 +1,8 @@
 #include "FortPrerollDataItemDefinition.h"
 
-UFortPrerollDataItemDefinition::UFortPrerollDataItemDefinition() {
-    this->StreakbreakerRefundMultiplier = 1;
-    this->StreakbreakerAccumulationMultiplier = 1;
+UFortPrerollDataItemDefinition::UFortPrerollDataItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    StreakbreakerRefundMultiplier = 1;
+    StreakbreakerAccumulationMultiplier = 1;
 }
 

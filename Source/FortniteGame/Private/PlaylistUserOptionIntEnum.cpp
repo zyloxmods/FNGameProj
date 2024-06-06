@@ -1,6 +1,6 @@
 #include "PlaylistUserOptionIntEnum.h"
 
 UPlaylistUserOptionIntEnum::UPlaylistUserOptionIntEnum() {
-    this->DefaultValueIndex = 0;
+    DefaultValueIndex = 0;
 }
 

@@ -8,6 +8,6 @@ void UFortAsyncAction_InitialCalendarSyncCompleted::HandleInitialCalendarSyncCom
 }
 
 UFortAsyncAction_InitialCalendarSyncCompleted::UFortAsyncAction_InitialCalendarSyncCompleted() {
-    this->MyGameInstance = NULL;
+    MyGameInstance = NULL;
 }
 

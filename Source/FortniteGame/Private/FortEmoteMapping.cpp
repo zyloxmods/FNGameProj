@@ -1,7 +1,7 @@
 #include "FortEmoteMapping.h"
 
 FFortEmoteMapping::FFortEmoteMapping() {
-    this->BodyType = EFortCustomBodyType::NONE;
-    this->Gender = EFortCustomGender::Invalid;
+    BodyType = EFortCustomBodyType::NONE;
+    Gender = EFortCustomGender::Invalid;
 }
 

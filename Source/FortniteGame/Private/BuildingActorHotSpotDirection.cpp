@@ -1,10 +1,10 @@
 #include "BuildingActorHotSpotDirection.h"
 
 FBuildingActorHotSpotDirection::FBuildingActorHotSpotDirection() {
-    this->HotSpotConfig = NULL;
-    this->bMirrorX = false;
-    this->bMirrorY = false;
-    this->Direction = EFortHotSpotDirection::PositiveX;
-    this->TypeConfigUsage = EHotspotTypeConfigMode::AlwaysAdd;
+    HotSpotConfig = NULL;
+    bMirrorX = false;
+    bMirrorY = false;
+    Direction = EFortHotSpotDirection::PositiveX;
+    TypeConfigUsage = EHotspotTypeConfigMode::AlwaysAdd;
 }
 

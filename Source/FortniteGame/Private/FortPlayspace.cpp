@@ -16,7 +16,7 @@ void AFortPlayspace::OnMeshNetworkEventBurst(const FName EventName, const EMeshN
 }
 
 AFortPlayspace::AFortPlayspace() {
-    this->bSubscribeToMeshNetwork = false;
-    this->UserAcceptanceType = EFortPlayspaceUserAcceptanceType::CustomLogic;
+    bSubscribeToMeshNetwork = false;
+    UserAcceptanceType = EFortPlayspaceUserAcceptanceType::CustomLogic;
 }
 

@@ -38,6 +38,6 @@ protected:
     FString GrantToProfileType;
     
 public:
-    UFortAccountItemDefinition();
+    UFortAccountItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

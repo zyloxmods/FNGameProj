@@ -64,31 +64,31 @@ void AFortInGameMapManager::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortInGameMapManager::AFortInGameMapManager() {
-    this->bClearAllFog = false;
-    this->MapLayerSize = 0;
-    this->SceneCaptureClass = NULL;
-    this->SceneCaptureBlurryClass = NULL;
-    this->MapMaterial = NULL;
-    this->MapMaterialMID = NULL;
-    this->MapOpacityWhenWalking = 1;
-    this->OffsetZ = 1;
-    this->IconVisibilityFogThreshold = 0;
-    this->DelayBetweenDispersions = 1;
-    this->ExploredRadius = 1;
-    this->ExploredFalloffRadius = 1;
-    this->SeenRadius = 1;
-    this->SeenFalloffRadius = 1;
-    this->VisibilityMaxGradient = 0;
-    this->UnexploredOpacity = 0;
-    this->MaxPercentageMapExplored = 1;
-    this->MapExplorationThresholdPercentage = 1;
-    this->LastMapExplorationThresholdPercentageReached = 1;
-    this->MapCaptureMethod = EMapCaptureMethod::None;
-    this->SceneCapture = NULL;
-    this->SceneCaptureBlurry = NULL;
-    this->FogMask = NULL;
-    this->HeatmapMask = NULL;
-    this->MapWorldScale = 1;
-    this->MobileMapLocationFontSizeOverride = 0;
+    bClearAllFog = false;
+    MapLayerSize = 0;
+    SceneCaptureClass = NULL;
+    SceneCaptureBlurryClass = NULL;
+    MapMaterial = NULL;
+    MapMaterialMID = NULL;
+    MapOpacityWhenWalking = 1;
+    OffsetZ = 1;
+    IconVisibilityFogThreshold = 0;
+    DelayBetweenDispersions = 1;
+    ExploredRadius = 1;
+    ExploredFalloffRadius = 1;
+    SeenRadius = 1;
+    SeenFalloffRadius = 1;
+    VisibilityMaxGradient = 0;
+    UnexploredOpacity = 0;
+    MaxPercentageMapExplored = 1;
+    MapExplorationThresholdPercentage = 1;
+    LastMapExplorationThresholdPercentageReached = 1;
+    MapCaptureMethod = EMapCaptureMethod::None;
+    SceneCapture = NULL;
+    SceneCaptureBlurry = NULL;
+    FogMask = NULL;
+    HeatmapMask = NULL;
+    MapWorldScale = 1;
+    MobileMapLocationFontSizeOverride = 0;
 }
 

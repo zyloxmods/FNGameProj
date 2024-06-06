@@ -19,21 +19,21 @@ void UFortContrailsComponent::HandleBeginParachuteMovement() {
 }
 
 UFortContrailsComponent::UFortContrailsComponent() {
-    this->bAlwaysShowContrails = false;
-    this->bIsFrontend = false;
-    this->ContrailsDefinition = NULL;
-    this->ContrailFXAsset = NULL;
-    this->VaporEmitterTemplate = NULL;
-    this->ContrailFXComp = NULL;
-    this->VaporFXComp = NULL;
-    this->PoolingMethod = EPSCPoolMethod::None;
-    this->VelocityInRangeMin = 1;
-    this->VelocityInRangeMax = 1;
-    this->NiagaraParamsOutRangeMin = 1;
-    this->NiagaraParamsOutRangeMax = 1;
-    this->TrailAlphaOutRangeMin = 1;
-    this->TrailAlphaOutRangeMax = 1;
-    this->TrailWidthOutRangeMin = 1;
-    this->TrailWidthOutRangeMax = 1;
+    bAlwaysShowContrails = false;
+    bIsFrontend = false;
+    ContrailsDefinition = NULL;
+    ContrailFXAsset = NULL;
+    VaporEmitterTemplate = NULL;
+    ContrailFXComp = NULL;
+    VaporFXComp = NULL;
+    PoolingMethod = EPSCPoolMethod::None;
+    VelocityInRangeMin = 1;
+    VelocityInRangeMax = 1;
+    NiagaraParamsOutRangeMin = 1;
+    NiagaraParamsOutRangeMax = 1;
+    TrailAlphaOutRangeMin = 1;
+    TrailAlphaOutRangeMax = 1;
+    TrailWidthOutRangeMin = 1;
+    TrailWidthOutRangeMax = 1;
 }
 

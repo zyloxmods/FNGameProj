@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UWorld> AthenaLobbyBackgroundLevelName;
     
-    ULobbyBackgroundTakeoverEvent();
+    ULobbyBackgroundTakeoverEvent(const FObjectInitializer& ObjectInitializer);
 };
 

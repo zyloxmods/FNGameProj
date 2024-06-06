@@ -1,8 +1,8 @@
 #include "FortAnimInput_RandomizeMontageSection.h"
 
 FFortAnimInput_RandomizeMontageSection::FFortAnimInput_RandomizeMontageSection() {
-    this->CurrentAnimation = NULL;
-    this->TimeUntilNextSectionChange = 1;
-    this->CurrentSectionParamIndex = 0;
+    CurrentAnimation = NULL;
+    TimeUntilNextSectionChange = 1;
+    CurrentSectionParamIndex = 0;
 }
 

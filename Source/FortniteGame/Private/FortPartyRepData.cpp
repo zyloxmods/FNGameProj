@@ -1,14 +1,14 @@
 #include "FortPartyRepData.h"
 
 FFortPartyRepData::FFortPartyRepData() {
-    this->PartyState = EFortPartyState::Undetermined;
-    this->LobbyConnectionStarted = false;
-    this->MatchmakingResult = EMatchmakingCompleteResult::NotStarted;
-    this->MatchmakingState = EMatchmakingState::NotMatchmaking;
-    this->SessionIsCriticalMission = false;
-    this->ZoneTileIndex = 0;
-    this->AllowJoinInProgress = false;
-    this->AthenaSquadFill = false;
-    this->PartyIsJoinedInProgress = false;
+    PartyState = EFortPartyState::Undetermined;
+    LobbyConnectionStarted = false;
+    MatchmakingResult = EMatchmakingCompleteResult::NotStarted;
+    MatchmakingState = EMatchmakingState::NotMatchmaking;
+    SessionIsCriticalMission = false;
+    ZoneTileIndex = 0;
+    AllowJoinInProgress = false;
+    AthenaSquadFill = false;
+    PartyIsJoinedInProgress = false;
 }
 

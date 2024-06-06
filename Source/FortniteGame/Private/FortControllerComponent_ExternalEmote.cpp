@@ -18,6 +18,6 @@ void UFortControllerComponent_ExternalEmote::GetLifetimeReplicatedProps(TArray<F
 }
 
 UFortControllerComponent_ExternalEmote::UFortControllerComponent_ExternalEmote() {
-    this->InputComponent = NULL;
+    InputComponent = NULL;
 }
 

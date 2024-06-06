@@ -1,6 +1,6 @@
 #include "FortChallengeBundleLevelReward.h"
 
 FFortChallengeBundleLevelReward::FFortChallengeBundleLevelReward() {
-    this->NumObjectivesNeeded = 0;
+    NumObjectivesNeeded = 0;
 }
 

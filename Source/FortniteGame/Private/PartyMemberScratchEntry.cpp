@@ -1,7 +1,7 @@
 #include "PartyMemberScratchEntry.h"
 
 FPartyMemberScratchEntry::FPartyMemberScratchEntry() {
-    this->T = 0;
-    this->V = 0;
+    T = 0;
+    V = 0;
 }
 

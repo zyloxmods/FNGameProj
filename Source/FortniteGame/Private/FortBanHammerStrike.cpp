@@ -1,6 +1,6 @@
 #include "FortBanHammerStrike.h"
 
 FFortBanHammerStrike::FFortBanHammerStrike() {
-    this->Action = EFortBanHammerNotificationAction::BanAndKick;
+    Action = EFortBanHammerNotificationAction::BanAndKick;
 }
 

@@ -1,6 +1,6 @@
 #include "TechCurrentLevelCap.h"
 
 FTechCurrentLevelCap::FTechCurrentLevelCap() {
-    this->LevelCap = 0;
+    LevelCap = 0;
 }
 

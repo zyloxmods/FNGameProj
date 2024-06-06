@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaHatItemDefinition : public UAthenaCharacterPartItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaHatItemDefinition();
+    UAthenaHatItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

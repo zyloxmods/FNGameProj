@@ -1,6 +1,6 @@
 #include "FortHostSessionParams.h"
 
 FFortHostSessionParams::FFortHostSessionParams() {
-    this->ControllerId = 0;
+    ControllerId = 0;
 }
 

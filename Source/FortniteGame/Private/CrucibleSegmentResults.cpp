@@ -1,14 +1,14 @@
 #include "CrucibleSegmentResults.h"
 
 FCrucibleSegmentResults::FCrucibleSegmentResults() {
-    this->SegmentId = 0;
-    this->CalculatedScore = 1;
-    this->CalculatedPenalty = 1;
-    this->CalculatedMissedTargets = 0;
-    this->StartTime = 1;
-    this->FinishTime = 1;
-    this->CancelTime = 1;
-    this->NumAIElims = 0;
-    this->NumTargetElims = 0;
+    SegmentId = 0;
+    CalculatedScore = 1;
+    CalculatedPenalty = 1;
+    CalculatedMissedTargets = 0;
+    StartTime = 1;
+    FinishTime = 1;
+    CancelTime = 1;
+    NumAIElims = 0;
+    NumTargetElims = 0;
 }
 

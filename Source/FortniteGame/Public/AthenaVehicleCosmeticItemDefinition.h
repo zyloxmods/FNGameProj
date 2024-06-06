@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName DecoSocketName;
     
-    UAthenaVehicleCosmeticItemDefinition();
+    UAthenaVehicleCosmeticItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

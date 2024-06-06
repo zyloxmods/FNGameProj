@@ -5,6 +5,6 @@ UFortAsyncAction_AbandonSession* UFortAsyncAction_AbandonSession::AbandonSession
 }
 
 UFortAsyncAction_AbandonSession::UFortAsyncAction_AbandonSession() {
-    this->PlayerController = NULL;
+    PlayerController = NULL;
 }
 

@@ -14,6 +14,6 @@ protected:
     UFortBattleLabDeviceItemDefinition* BattleLabDeviceItemDefinition;
     
 public:
-    UFortBattleLabDeviceAccountItemDefinition();
+    UFortBattleLabDeviceAccountItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -28,12 +28,13 @@ int32 UFortCardPackItemDefinition::GetDisplayRarityLevel() const {
     return 0;
 }
 
-UFortCardPackItemDefinition::UFortCardPackItemDefinition() {
-    this->bIsLlama = false;
-    this->ItemType = EFortItemType::CardPack;
-    this->bIsChoicePack = false;
-    this->bAutoOpenAsReward = true;
-    this->LootTier = 0;
-    this->DisplayRarityLevel = 0;
+UFortCardPackItemDefinition::UFortCardPackItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bIsLlama = false;
+    ItemType = EFortItemType::CardPack;
+    bIsChoicePack = false;
+    bAutoOpenAsReward = true;
+    LootTier = 0;
+    DisplayRarityLevel = 0;
 }
 

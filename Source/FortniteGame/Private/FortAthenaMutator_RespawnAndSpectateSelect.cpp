@@ -23,13 +23,13 @@ void AFortAthenaMutator_RespawnAndSpectateSelect::GetLifetimeReplicatedProps(TAr
 }
 
 AFortAthenaMutator_RespawnAndSpectateSelect::AFortAthenaMutator_RespawnAndSpectateSelect() {
-    this->DefaultSpawnLocationCameraClass = NULL;
-    this->DefaultRespawnTexture = NULL;
-    this->DisplayPriority_Teammate = 0;
-    this->CameraModeOverrideForNonPlayers = NULL;
-    this->bAreAllRespawnTargetsAvailableToAllPlayersCheat = false;
-    this->ManagerObject = NULL;
-    this->ScreenFadeOutDeathCamTime = 1;
-    this->ScreenFadeInSpectateCamTime = 1;
+    DefaultSpawnLocationCameraClass = NULL;
+    DefaultRespawnTexture = NULL;
+    DisplayPriority_Teammate = 0;
+    CameraModeOverrideForNonPlayers = NULL;
+    bAreAllRespawnTargetsAvailableToAllPlayersCheat = false;
+    ManagerObject = NULL;
+    ScreenFadeOutDeathCamTime = 1;
+    ScreenFadeInSpectateCamTime = 1;
 }
 

@@ -1,15 +1,15 @@
 #include "SpawnGroupInstanceInfo.h"
 
 FSpawnGroupInstanceInfo::FSpawnGroupInstanceInfo() {
-    this->SpawnGroup = NULL;
-    this->NumActiveAlive = 0;
-    this->TotalGroupCost = 0;
-    this->SpawnPointsUsed = 0;
-    this->NumEngaged = 0;
-    this->bReadyToSpawn = false;
-    this->bFinishedSpawning = false;
-    this->EnemySpawnDataIndex = 0;
-    this->TimeSelected = 1;
-    this->NextEnemyToSpawnIndex = 0;
+    SpawnGroup = NULL;
+    NumActiveAlive = 0;
+    TotalGroupCost = 0;
+    SpawnPointsUsed = 0;
+    NumEngaged = 0;
+    bReadyToSpawn = false;
+    bFinishedSpawning = false;
+    EnemySpawnDataIndex = 0;
+    TimeSelected = 1;
+    NextEnemyToSpawnIndex = 0;
 }
 

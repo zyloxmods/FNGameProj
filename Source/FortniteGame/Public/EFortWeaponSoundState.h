@@ -8,7 +8,7 @@ namespace EFortWeaponSoundState {
         Normal,
         LowAmmo,
         Degraded,
-        Max_None,
+        Max_None UMETA(Hidden),
     };
 }
 

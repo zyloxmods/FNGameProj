@@ -7,7 +7,7 @@ void UFortDayPhaseChangeParams::BreakParams(AFortTimeOfDayManager*& _LightingAnd
 }
 
 UFortDayPhaseChangeParams::UFortDayPhaseChangeParams() {
-    this->LightingAndFogManager = NULL;
-    this->NewDayPhase = EFortDayPhase::Morning;
+    LightingAndFogManager = NULL;
+    NewDayPhase = EFortDayPhase::Morning;
 }
 

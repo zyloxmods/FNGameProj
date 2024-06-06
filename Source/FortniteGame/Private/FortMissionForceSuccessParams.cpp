@@ -7,6 +7,6 @@ void UFortMissionForceSuccessParams::BreakParams(float& _FractionCompleted) {
 }
 
 UFortMissionForceSuccessParams::UFortMissionForceSuccessParams() {
-    this->FractionCompleted = 1;
+    FractionCompleted = 1;
 }
 

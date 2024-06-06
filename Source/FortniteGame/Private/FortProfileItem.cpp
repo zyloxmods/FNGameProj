@@ -4,7 +4,7 @@ void UFortProfileItem::MarkItemAsSeen() {
 }
 
 UFortProfileItem::UFortProfileItem() {
-    this->item_seen = false;
-    this->favorite = false;
+    item_seen = false;
+    favorite = false;
 }
 

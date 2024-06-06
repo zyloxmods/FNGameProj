@@ -40,7 +40,7 @@ private:
     FDataTableRowHandle ExpeditionRules;
     
 public:
-    UFortExpeditionItemDefinition();
+    UFortExpeditionItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FGameplayTagContainer GetRequiredTags() const;
     

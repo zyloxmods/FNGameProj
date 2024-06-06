@@ -15,7 +15,7 @@ protected:
     TSoftObjectPtr<UFortPlaysetItemDefinition> PlaysetToSpawn;
     
 public:
-    UFortPlaysetGrenadeItemDefinition();
+    UFortPlaysetGrenadeItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     UFortPlaysetItemDefinition* GetPlaysetToSpawn(bool bForceLoad) const;
     

@@ -1,7 +1,7 @@
 #include "AthenaMatchTeamStats.h"
 
 FAthenaMatchTeamStats::FAthenaMatchTeamStats() {
-    this->Place = 0;
-    this->TotalPlayers = 0;
+    Place = 0;
+    TotalPlayers = 0;
 }
 

@@ -1,12 +1,12 @@
 #include "FortRiftSpawnerData.h"
 
 FFortRiftSpawnerData::FFortRiftSpawnerData() {
-    this->Rift = NULL;
-    this->Encounter = NULL;
-    this->EncounterSequence = NULL;
-    this->TriggerDamagePercentage = 1;
-    this->KillingInstigator = NULL;
-    this->KillingDamageCauser = NULL;
-    this->bUseOverrideSettings = false;
+    Rift = NULL;
+    Encounter = NULL;
+    EncounterSequence = NULL;
+    TriggerDamagePercentage = 1;
+    KillingInstigator = NULL;
+    KillingDamageCauser = NULL;
+    bUseOverrideSettings = false;
 }
 

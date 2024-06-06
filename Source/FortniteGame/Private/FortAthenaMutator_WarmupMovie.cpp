@@ -16,13 +16,13 @@ void AFortAthenaMutator_WarmupMovie::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 AFortAthenaMutator_WarmupMovie::AFortAthenaMutator_WarmupMovie() {
-    this->MovieLengthSeconds = 1;
-    this->bServerMovieStart = false;
-    this->MovieWidget = NULL;
-    this->SkydiveTransitionMusic = NULL;
-    this->WarmupMovieMix = NULL;
-    this->WaitingScreen = NULL;
-    this->SpawnEffectClass = NULL;
-    this->MediaPlayer = NULL;
+    MovieLengthSeconds = 1;
+    bServerMovieStart = false;
+    MovieWidget = NULL;
+    SkydiveTransitionMusic = NULL;
+    WarmupMovieMix = NULL;
+    WaitingScreen = NULL;
+    SpawnEffectClass = NULL;
+    MediaPlayer = NULL;
 }
 

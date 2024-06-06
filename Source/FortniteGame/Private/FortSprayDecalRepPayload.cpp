@@ -1,7 +1,7 @@
 #include "FortSprayDecalRepPayload.h"
 
 FFortSprayDecalRepPayload::FFortSprayDecalRepPayload() {
-    this->SprayAsset = NULL;
-    this->SavedStatValue = 0;
+    SprayAsset = NULL;
+    SavedStatValue = 0;
 }
 

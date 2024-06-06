@@ -64,7 +64,7 @@ private:
     bool bHideCountdownFromMapChallenges;
     
 public:
-    UFortChallengeBundleScheduleDefinition();
+    UFortChallengeBundleScheduleDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     int32 GetSortPriority() const;
     

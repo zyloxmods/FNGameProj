@@ -8,9 +8,9 @@ TSoftObjectPtr<UTexture2D> AFortItemPreviewOffPawnActor::GetPreviewIcon() const 
 }
 
 AFortItemPreviewOffPawnActor::AFortItemPreviewOffPawnActor() {
-    this->PreviewActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("PreviewActor"));
-    this->PreviewStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PreviewStaticMesh"));
-    this->PreviewSkelMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("PreviewSkeletalMesh"));
-    this->bUseItemDefConfiguredLocation = true;
+    PreviewActorComponent = CreateDefaultSubobject<UChildActorComponent>(TEXT("PreviewActor"));
+    PreviewStaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PreviewStaticMesh"));
+    PreviewSkelMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("PreviewSkeletalMesh"));
+    bUseItemDefConfiguredLocation = true;
 }
 

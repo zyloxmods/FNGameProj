@@ -37,10 +37,10 @@ void UFortGameplayDataTrackerComponent::GetLifetimeReplicatedProps(TArray<FLifet
 }
 
 UFortGameplayDataTrackerComponent::UFortGameplayDataTrackerComponent() {
-    this->bShouldReplicateEvents = true;
-    this->bUseFirstPlayerControllerViewTargetAsAvatarActor = false;
-    this->CachedGameState = NULL;
-    this->VislogFrequencySeconds = 1;
-    this->LastVislogTime = 1;
+    bShouldReplicateEvents = true;
+    bUseFirstPlayerControllerViewTargetAsAvatarActor = false;
+    CachedGameState = NULL;
+    VislogFrequencySeconds = 1;
+    LastVislogTime = 1;
 }
 

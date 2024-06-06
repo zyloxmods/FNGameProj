@@ -1,7 +1,7 @@
 #include "FortLevelStreamingInfo.h"
 
 FFortLevelStreamingInfo::FFortLevelStreamingInfo() {
-    this->LevelState = LSS_Unloaded;
-    this->bFailedToLoad = false;
+    LevelState = LSS_Unloaded;
+    bFailedToLoad = false;
 }
 

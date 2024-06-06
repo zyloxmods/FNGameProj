@@ -5,21 +5,21 @@ bool UFortInteractContextInfo::HasValidContextOverride() const {
 }
 
 UFortInteractContextInfo::UFortInteractContextInfo() {
-    this->ContextOverrideWidget = NULL;
-    this->ReceivingActor = NULL;
-    this->InteractComponent = NULL;
-    this->OptionalObjectData = NULL;
-    this->LongInteractSound = NULL;
-    this->OptionalHUDDisplayWidget = NULL;
-    this->InteractionBeingAttempted = EInteractionBeingAttempted::FirstInteraction;
-    this->RequiredDuration = 1;
-    this->SecondRequiredDuration = 1;
-    this->bShowCountDown = false;
-    this->bShowFirstInteraction = true;
-    this->bShowSecondInteraction = false;
-    this->bIsSecondInteractionActive = false;
-    this->bDisplayTextOnly = false;
-    this->bSuppressInteractionWidget = false;
-    this->bSuppressSimpleInteractionWidgetForTouch = true;
+    ContextOverrideWidget = NULL;
+    ReceivingActor = NULL;
+    InteractComponent = NULL;
+    OptionalObjectData = NULL;
+    LongInteractSound = NULL;
+    OptionalHUDDisplayWidget = NULL;
+    InteractionBeingAttempted = EInteractionBeingAttempted::FirstInteraction;
+    RequiredDuration = 1;
+    SecondRequiredDuration = 1;
+    bShowCountDown = false;
+    bShowFirstInteraction = true;
+    bShowSecondInteraction = false;
+    bIsSecondInteractionActive = false;
+    bDisplayTextOnly = false;
+    bSuppressInteractionWidget = false;
+    bSuppressSimpleInteractionWidgetForTouch = true;
 }
 

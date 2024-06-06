@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortAlterableItemDefinition : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UFortAlterableItemDefinition();
+    UFortAlterableItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

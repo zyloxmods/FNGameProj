@@ -1555,26 +1555,26 @@ void UFortCheatManager::AcceptEULA() {
 }
 
 UFortCheatManager::UFortCheatManager() {
-    this->bDebugInteractTrace = false;
-    this->bDebugPickupSpline = false;
-    this->bEnableScoreboard = false;
-    this->bDebugBounceCurve = false;
-    this->bDebugBeautyMode = false;
-    this->bDisplayWindDebugging = false;
-    this->bDebugStructuralSupportSystem = false;
-    this->bInfiniteStamina = false;
-    this->bShowGameDifficultyHUD = true;
-    this->bShowIntensityHUD = false;
-    this->bShowMaxAIHUD = false;
-    this->bShowItemIDsOnCards = false;
-    this->bEnableContextMenus = false;
-    this->bUnlimitedHealth = false;
-    this->bCanExitWorld = false;
-    this->bUnlimitedAIHealth = false;
-    this->bFreezeAILOD = false;
-    this->bForceAILOD = false;
-    this->AbilitySystemCycleCounter = 0;
-    this->ForcedAILODValue = EFortAILODLevel::MIN;
-    this->CurrentReplaySpotLight = NULL;
+    bDebugInteractTrace = false;
+    bDebugPickupSpline = false;
+    bEnableScoreboard = false;
+    bDebugBounceCurve = false;
+    bDebugBeautyMode = false;
+    bDisplayWindDebugging = false;
+    bDebugStructuralSupportSystem = false;
+    bInfiniteStamina = false;
+    bShowGameDifficultyHUD = true;
+    bShowIntensityHUD = false;
+    bShowMaxAIHUD = false;
+    bShowItemIDsOnCards = false;
+    bEnableContextMenus = false;
+    bUnlimitedHealth = false;
+    bCanExitWorld = false;
+    bUnlimitedAIHealth = false;
+    bFreezeAILOD = false;
+    bForceAILOD = false;
+    AbilitySystemCycleCounter = 0;
+    ForcedAILODValue = EFortAILODLevel::MIN;
+    CurrentReplaySpotLight = NULL;
 }
 

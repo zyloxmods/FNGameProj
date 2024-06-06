@@ -15,11 +15,11 @@ void ABuildingPropMusicPlayer::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 ABuildingPropMusicPlayer::ABuildingPropMusicPlayer() {
-    this->bCheckAlternateHotfixValue = false;
-    this->bPlayingByDefault = false;
-    this->bPlayRandomSong = false;
-    this->MusicTrackTable = NULL;
-    this->SongAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("SongAudioComponent"));
-    this->PlaybackType = EMusicTrackPlayback::Disabled;
+    bCheckAlternateHotfixValue = false;
+    bPlayingByDefault = false;
+    bPlayRandomSong = false;
+    MusicTrackTable = NULL;
+    SongAudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("SongAudioComponent"));
+    PlaybackType = EMusicTrackPlayback::Disabled;
 }
 

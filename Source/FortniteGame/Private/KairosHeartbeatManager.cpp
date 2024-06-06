@@ -1,7 +1,7 @@
 #include "KairosHeartbeatManager.h"
 
 UKairosHeartbeatManager::UKairosHeartbeatManager() {
-    this->FLP = NULL;
-    this->HeartbeatInterval = 1;
+    FLP = NULL;
+    HeartbeatInterval = 1;
 }
 

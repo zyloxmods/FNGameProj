@@ -1,5 +1,6 @@
 #include "AthenaConsumableEmoteItemDefinition.h"
 
-UAthenaConsumableEmoteItemDefinition::UAthenaConsumableEmoteItemDefinition() {
+UAthenaConsumableEmoteItemDefinition::UAthenaConsumableEmoteItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

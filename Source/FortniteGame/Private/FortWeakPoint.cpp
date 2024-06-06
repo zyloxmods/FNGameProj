@@ -25,9 +25,9 @@ void AFortWeakPoint::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLi
 }
 
 AFortWeakPoint::AFortWeakPoint() {
-    this->CachedWeakPointCoordinator = NULL;
-    this->WeakPointState = EFortWeakPointState::Uninitialized;
-    this->bShouldDisplayHealthBarWhenActive = false;
-    this->bShouldRegisterForAimAssist = true;
+    CachedWeakPointCoordinator = NULL;
+    WeakPointState = EFortWeakPointState::Uninitialized;
+    bShouldDisplayHealthBarWhenActive = false;
+    bShouldRegisterForAimAssist = true;
 }
 

@@ -1,8 +1,8 @@
 #include "EndOfDayRecap.h"
 
 FEndOfDayRecap::FEndOfDayRecap() {
-    this->DayNumber = 0;
-    this->TeamScoreAtStartOfDay = 0;
-    this->TeamScoreAtEndOfDay = 0;
+    DayNumber = 0;
+    TeamScoreAtStartOfDay = 0;
+    TeamScoreAtEndOfDay = 0;
 }
 

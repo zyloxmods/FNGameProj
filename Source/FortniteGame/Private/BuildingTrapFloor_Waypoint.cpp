@@ -24,12 +24,12 @@ void ABuildingTrapFloor_Waypoint::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 ABuildingTrapFloor_Waypoint::ABuildingTrapFloor_Waypoint() {
-    this->bIsActive = true;
-    this->NextPoint = NULL;
-    this->PreviousPoint = NULL;
-    this->SplinePointLocation = CreateDefaultSubobject<USceneComponent>(TEXT("SplineLocation"));
-    this->DeactivatedMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DeactivatedMesh"));
-    this->WaypointGroup = NULL;
-    this->CachedWaypointGroup = NULL;
+    bIsActive = true;
+    NextPoint = NULL;
+    PreviousPoint = NULL;
+    SplinePointLocation = CreateDefaultSubobject<USceneComponent>(TEXT("SplineLocation"));
+    DeactivatedMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DeactivatedMesh"));
+    WaypointGroup = NULL;
+    CachedWaypointGroup = NULL;
 }
 

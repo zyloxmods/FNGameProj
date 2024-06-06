@@ -1,18 +1,18 @@
 #include "FortPartyMemberRepData.h"
 
 FFortPartyMemberRepData::FFortPartyMemberRepData() {
-    this->Location = EFortPartyMemberLocation::PreLobby;
-    this->MatchmakingLevel = 0;
-    this->HomeBaseVersion = 0;
-    this->HasPreloadedAthena = false;
-    this->NumAthenaPlayersLeft = 0;
-    this->SpectateAPartyMemberAvailable = false;
-    this->GameReadiness = EGameReadiness::NotReady;
-    this->InGameReadyCheckStatus = EFortPartyMemberReadyCheckStatus::None;
-    this->HiddenMatchmakingDelayMax = 0;
-    this->ReadyInputType = ECommonInputType::MouseAndKeyboard;
-    this->CurrentInputType = ECommonInputType::MouseAndKeyboard;
-    this->FeatDefinition = NULL;
-    this->VoiceChatStatus = EPartyMemberVoiceChatStatus::Disabled;
+    Location = EFortPartyMemberLocation::PreLobby;
+    MatchmakingLevel = 0;
+    HomeBaseVersion = 0;
+    HasPreloadedAthena = false;
+    NumAthenaPlayersLeft = 0;
+    SpectateAPartyMemberAvailable = false;
+    GameReadiness = EGameReadiness::NotReady;
+    InGameReadyCheckStatus = EFortPartyMemberReadyCheckStatus::None;
+    HiddenMatchmakingDelayMax = 0;
+    ReadyInputType = ECommonInputType::MouseAndKeyboard;
+    CurrentInputType = ECommonInputType::MouseAndKeyboard;
+    FeatDefinition = NULL;
+    VoiceChatStatus = EPartyMemberVoiceChatStatus::Disabled;
 }
 

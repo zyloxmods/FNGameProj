@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortEditToolItemDefinition : public UFortWeaponItemDefinition {
     GENERATED_BODY()
 public:
-    UFortEditToolItemDefinition();
+    UFortEditToolItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

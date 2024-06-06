@@ -59,14 +59,15 @@ bool UFortMontageItemDefinitionBase::CanAccessMontageItem(const AFortPlayerContr
     return false;
 }
 
-UFortMontageItemDefinitionBase::UFortMontageItemDefinitionBase() {
-    this->PreviewLoops = 0;
-    this->PreviewLength = 1;
-    this->EmoteCooldownSecs = 1;
-    this->bMontageContainsFacialAnimation = false;
-    this->bPlayRandomSection = false;
-    this->bSwitchToHarvestingToolOnUse = false;
-    this->bHolsterWeapon = false;
-    this->bHolsterWeaponIfDualWieldPickaxe = false;
+UFortMontageItemDefinitionBase::UFortMontageItemDefinitionBase(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    PreviewLoops = 0;
+    PreviewLength = 1;
+    EmoteCooldownSecs = 1;
+    bMontageContainsFacialAnimation = false;
+    bPlayRandomSection = false;
+    bSwitchToHarvestingToolOnUse = false;
+    bHolsterWeapon = false;
+    bHolsterWeaponIfDualWieldPickaxe = false;
 }
 

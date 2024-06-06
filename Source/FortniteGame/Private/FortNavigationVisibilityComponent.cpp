@@ -15,12 +15,12 @@ TArray<FName> UFortNavigationVisibilityComponent::Editor_GetValidObjectives() co
 }
 
 UFortNavigationVisibilityComponent::UFortNavigationVisibilityComponent() {
-    this->bPassedRules = false;
-    this->LastProfileRevision = 0;
-    this->bEnableCollision = true;
-    this->bCustomSkipCollision = true;
-    this->bShouldLogFails = true;
-    this->debugVisibilityLastKnownState = false;
-    this->ActorResponse = EVisibilityResponse::Hide;
+    bPassedRules = false;
+    LastProfileRevision = 0;
+    bEnableCollision = true;
+    bCustomSkipCollision = true;
+    bShouldLogFails = true;
+    debugVisibilityLastKnownState = false;
+    ActorResponse = EVisibilityResponse::Hide;
 }
 

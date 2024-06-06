@@ -21,7 +21,8 @@ TSubclassOf<AFortPlayerCharm> UAthenaCharmItemDefinition::GetCharmPrefabClass() 
     return NULL;
 }
 
-UAthenaCharmItemDefinition::UAthenaCharmItemDefinition() {
-    this->ItemType = EFortItemType::AthenaCharmCosmetic;
+UAthenaCharmItemDefinition::UAthenaCharmItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ItemType = EFortItemType::AthenaCharmCosmetic;
 }
 

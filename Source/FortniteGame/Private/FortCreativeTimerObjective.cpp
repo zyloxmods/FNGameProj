@@ -15,7 +15,7 @@ void AFortCreativeTimerObjective::AddTimerObjectiveToVolume() {
 }
 
 AFortCreativeTimerObjective::AFortCreativeTimerObjective() {
-    this->Volume = NULL;
-    this->MaintainInteractionWhileLookingAround = false;
+    Volume = NULL;
+    MaintainInteractionWhileLookingAround = false;
 }
 

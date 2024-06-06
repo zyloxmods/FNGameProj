@@ -1,9 +1,9 @@
 #include "FortMatchmakingConfig.h"
 
 FFortMatchmakingConfig::FFortMatchmakingConfig() {
-    this->ChanceToHostOverride = 1;
-    this->ChanceToHostIncrease = 1;
-    this->MaxSearchResultsOverride = 0;
-    this->MaxProcessedSearchResults = 0;
+    ChanceToHostOverride = 1;
+    ChanceToHostIncrease = 1;
+    MaxSearchResultsOverride = 0;
+    MaxProcessedSearchResults = 0;
 }
 

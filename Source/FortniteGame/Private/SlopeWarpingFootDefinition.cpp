@@ -1,7 +1,7 @@
 #include "SlopeWarpingFootDefinition.h"
 
 FSlopeWarpingFootDefinition::FSlopeWarpingFootDefinition() {
-    this->NumBonesInLimb = 0;
-    this->FootSize = 1;
+    NumBonesInLimb = 0;
+    FootSize = 1;
 }
 

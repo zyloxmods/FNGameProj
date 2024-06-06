@@ -5,6 +5,6 @@ UFortAsyncAction_CosmeticAdaptiveStatWatcher* UFortAsyncAction_CosmeticAdaptiveS
 }
 
 UFortAsyncAction_CosmeticAdaptiveStatWatcher::UFortAsyncAction_CosmeticAdaptiveStatWatcher() {
-    this->MyPawn = NULL;
+    MyPawn = NULL;
 }
 

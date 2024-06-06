@@ -49,9 +49,9 @@ UFortMusicVoice* AFortMusicManager::ChangePrimaryMusic(UFortMusicAsset* NewMusic
 }
 
 AFortMusicManager::AFortMusicManager() {
-    this->ControllerOwner = NULL;
-    this->Voices[0] = CreateDefaultSubobject<UFortMusicVoice>(TEXT("MusicVoiceA"));
-    this->bWorldReadyCalled = false;
-    this->MusicBank = NULL;
+    ControllerOwner = NULL;
+    Voices[0] = CreateDefaultSubobject<UFortMusicVoice>(TEXT("MusicVoiceA"));
+    bWorldReadyCalled = false;
+    MusicBank = NULL;
 }
 

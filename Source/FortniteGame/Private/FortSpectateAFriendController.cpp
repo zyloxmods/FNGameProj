@@ -27,14 +27,14 @@ void AFortSpectateAFriendController::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 AFortSpectateAFriendController::AFortSpectateAFriendController() {
-    this->PlayerJoinedOn = NULL;
-    this->HasValidTarget = false;
-    this->TeamToFollow = 0;
-    this->FollowAnyTeam = false;
-    this->TeamJoinedOnPlacement = 0;
-    this->TeamJoinedOn = NULL;
-    this->FollowAnyTeamAfterFirst = false;
-    this->StartingDiconnectTimerLength = 1;
-    this->InvalidTargetDiconnectTimerLength = 1;
+    PlayerJoinedOn = NULL;
+    HasValidTarget = false;
+    TeamToFollow = 0;
+    FollowAnyTeam = false;
+    TeamJoinedOnPlacement = 0;
+    TeamJoinedOn = NULL;
+    FollowAnyTeamAfterFirst = false;
+    StartingDiconnectTimerLength = 1;
+    InvalidTargetDiconnectTimerLength = 1;
 }
 

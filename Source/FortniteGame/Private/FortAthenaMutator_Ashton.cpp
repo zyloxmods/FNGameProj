@@ -54,10 +54,10 @@ void AFortAthenaMutator_Ashton::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortAthenaMutator_Ashton::AFortAthenaMutator_Ashton() {
-    this->AutoEquipController = NULL;
-    this->VillainLeaderItemDef = NULL;
-    this->VillainLeaderPC = NULL;
-    this->NumVillainRespawnsRemaining = 0;
-    this->CachedNumCapturedStones = 0;
+    AutoEquipController = NULL;
+    VillainLeaderItemDef = NULL;
+    VillainLeaderPC = NULL;
+    NumVillainRespawnsRemaining = 0;
+    CachedNumCapturedStones = 0;
 }
 

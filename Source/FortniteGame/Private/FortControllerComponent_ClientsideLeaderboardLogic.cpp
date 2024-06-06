@@ -4,6 +4,6 @@ void UFortControllerComponent_ClientsideLeaderboardLogic::OnGamePhaseChanged(EAt
 }
 
 UFortControllerComponent_ClientsideLeaderboardLogic::UFortControllerComponent_ClientsideLeaderboardLogic() {
-    this->CachedGameState = NULL;
+    CachedGameState = NULL;
 }
 

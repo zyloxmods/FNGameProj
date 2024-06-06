@@ -1,8 +1,8 @@
 #include "MingiameScoreboardRow.h"
 
 FMingiameScoreboardRow::FMingiameScoreboardRow() {
-    this->TeamColorIndex = 0;
-    this->WinCount = 0;
-    this->bHighlight = false;
+    TeamColorIndex = 0;
+    WinCount = 0;
+    bHighlight = false;
 }
 

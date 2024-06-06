@@ -1,6 +1,6 @@
 #include "FortPlayerSurveyAnalyticsAnswerBase.h"
 
 FFortPlayerSurveyAnalyticsAnswerBase::FFortPlayerSurveyAnalyticsAnswerBase() {
-    this->TimeTaken = 0;
+    TimeTaken = 0;
 }
 

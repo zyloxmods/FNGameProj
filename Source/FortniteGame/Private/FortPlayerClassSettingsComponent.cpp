@@ -8,6 +8,6 @@ void UFortPlayerClassSettingsComponent::GetLifetimeReplicatedProps(TArray<FLifet
 }
 
 UFortPlayerClassSettingsComponent::UFortPlayerClassSettingsComponent() {
-    this->ClassSlotIndex = 255;
+    ClassSlotIndex = 255;
 }
 

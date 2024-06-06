@@ -1,26 +1,27 @@
 #include "AthenaSeasonItemDefinition.h"
 
-UAthenaSeasonItemDefinition::UAthenaSeasonItemDefinition() {
-    this->bXpOnlySeason = false;
-    this->bUseAccoladePunchCard = false;
-    this->SeasonXpOnlyExtendedCurve = NULL;
-    this->DailyPunchCard = NULL;
-    this->RepeatableDailiesCard = NULL;
-    this->RestedXpDailyGrant = 0;
-    this->RestedXpMaxAccrue = 0;
-    this->RestedXpMultiplier = 1;
-    this->SeasonStartCalendarOffsetDays = 0;
-    this->SeasonNumber = 0;
-    this->NumSeasonLevels = 0;
-    this->NumBookLevels = 0;
-    this->NumAdditionalBookLevels = 0;
-    this->SeasonShopVisibility = EAthenaSeasonShopVisibility::Hide;
-    this->ChallengesVisibility = EAthenaChallengeTabVisibility::Hide;
-    this->SeasonXpCurve = NULL;
-    this->BookXpCurve = NULL;
-    this->SeasonalGlyphChallengeBundle = NULL;
-    this->SeasonalGlyphRewards = NULL;
-    this->ChallengeSchedulePaid = NULL;
-    this->bRemoveAllDailyQuestsAtSeasonEnd = false;
+UAthenaSeasonItemDefinition::UAthenaSeasonItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bXpOnlySeason = false;
+    bUseAccoladePunchCard = false;
+    SeasonXpOnlyExtendedCurve = NULL;
+    DailyPunchCard = NULL;
+    RepeatableDailiesCard = NULL;
+    RestedXpDailyGrant = 0;
+    RestedXpMaxAccrue = 0;
+    RestedXpMultiplier = 1;
+    SeasonStartCalendarOffsetDays = 0;
+    SeasonNumber = 0;
+    NumSeasonLevels = 0;
+    NumBookLevels = 0;
+    NumAdditionalBookLevels = 0;
+    SeasonShopVisibility = EAthenaSeasonShopVisibility::Hide;
+    ChallengesVisibility = EAthenaChallengeTabVisibility::Hide;
+    SeasonXpCurve = NULL;
+    BookXpCurve = NULL;
+    SeasonalGlyphChallengeBundle = NULL;
+    SeasonalGlyphRewards = NULL;
+    ChallengeSchedulePaid = NULL;
+    bRemoveAllDailyQuestsAtSeasonEnd = false;
 }
 

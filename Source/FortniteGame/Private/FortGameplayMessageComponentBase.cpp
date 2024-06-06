@@ -42,7 +42,7 @@ void UFortGameplayMessageComponentBase::GetLifetimeReplicatedProps(TArray<FLifet
 }
 
 UFortGameplayMessageComponentBase::UFortGameplayMessageComponentBase() {
-    this->WeightOffset = 0;
-    this->EditWidget = NULL;
+    WeightOffset = 0;
+    EditWidget = NULL;
 }
 

@@ -4,10 +4,10 @@ void UFortCurieSpatialManager::HandleBuildingGridInitialized(UBuildingStructural
 }
 
 UFortCurieSpatialManager::UFortCurieSpatialManager() {
-    this->TickInterval = 1;
-    this->OverlapFireApplicationMagnitude = 1;
-    this->OverlapFireApplicationMaxMagnitude = 1;
-    this->GrassFoliageTypes.AddDefaulted(3);
-    this->IgnitablePhysicalMaterials.AddDefaulted(1);
+    TickInterval = 1;
+    OverlapFireApplicationMagnitude = 1;
+    OverlapFireApplicationMaxMagnitude = 1;
+    GrassFoliageTypes.AddDefaulted(3);
+    IgnitablePhysicalMaterials.AddDefaulted(1);
 }
 

@@ -29,8 +29,8 @@ int32 ABuildingProp_CaptureItemSpawner::AddItemRef() {
 }
 
 ABuildingProp_CaptureItemSpawner::ABuildingProp_CaptureItemSpawner() {
-    this->ItemRefCount = 0;
-    this->bPickupWasClaimed = false;
-    this->bShowCaptureEvents = false;
+    ItemRefCount = 0;
+    bPickupWasClaimed = false;
+    bShowCaptureEvents = false;
 }
 

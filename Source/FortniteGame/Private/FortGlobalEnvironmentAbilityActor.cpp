@@ -3,7 +3,7 @@
 #include "FortDamageSet.h"
 
 AFortGlobalEnvironmentAbilityActor::AFortGlobalEnvironmentAbilityActor() {
-    this->AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
-    this->DamageSet = CreateDefaultSubobject<UFortDamageSet>(TEXT("DamageSet"));
+    AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+    DamageSet = CreateDefaultSubobject<UFortDamageSet>(TEXT("DamageSet"));
 }
 

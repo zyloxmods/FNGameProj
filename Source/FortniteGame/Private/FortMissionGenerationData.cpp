@@ -1,8 +1,8 @@
 #include "FortMissionGenerationData.h"
 
 UFortMissionGenerationData::UFortMissionGenerationData() {
-    this->PrimaryMissionMinPowerPointsUsagePercentage = 1;
-    this->EncounterMinDifficultyOptionPointsUsagePercentage = 1;
-    this->MissionMinDifficultyOptionPointsUsagePercentage = 1;
+    PrimaryMissionMinPowerPointsUsagePercentage = 1;
+    EncounterMinDifficultyOptionPointsUsagePercentage = 1;
+    MissionMinDifficultyOptionPointsUsagePercentage = 1;
 }
 

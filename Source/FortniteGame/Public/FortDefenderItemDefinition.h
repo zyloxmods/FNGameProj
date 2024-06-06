@@ -31,7 +31,7 @@ public:
     {
         return FPrimaryAssetId("Defender", GetFName());
     }
-    UFortDefenderItemDefinition();
+    UFortDefenderItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FGameplayTag GetDefenderSubtypeTag() const;
     

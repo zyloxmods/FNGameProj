@@ -18,6 +18,6 @@ protected:
     TArray<FFortCosmeticVariantPreview> ItemVariantPreviews;
     
 public:
-    URewardGraphToken();
+    URewardGraphToken(const FObjectInitializer& ObjectInitializer);
 };
 

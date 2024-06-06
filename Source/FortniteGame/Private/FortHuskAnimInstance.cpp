@@ -8,36 +8,36 @@ EFortHuskAnimType UFortHuskAnimInstance::GetHuskAnimType() const {
 }
 
 UFortHuskAnimInstance::UFortHuskAnimInstance() {
-    this->HuskAnimType = EFortHuskAnimType::Basic;
-    this->FallAsleepAnimDuration = 1;
-    this->AltFallAsleepAnimDuration = 1;
-    this->WakeUpAnimDuration = 1;
-    this->FallAsleepToSleepingCrossfade = 1;
-    this->WakeUpToIdleCrossfade = 1;
-    this->DefaultToDwarfScaleRatio = 1;
-    this->LookAtAlpha = 1;
-    this->LookAtInterpSpeed = 1;
-    this->AdjustedLowerBodyWeight = 1;
-    this->AdjustedLowerBodyInterpSpeed = 1;
-    this->RunPlayRate = 1;
-    this->ZapperOverrideWeight = 1;
-    this->RunStartPosition = 1;
-    this->AuthoredJogSpeed = 1;
-    this->MovementStyleIsWalking = 0;
-    this->bForceFullBodyMontage = false;
-    this->bIsDwarf = false;
-    this->bIsZapper = false;
-    this->StateTransition_IdleToMove = false;
-    this->StateTransition_IdleToFallAsleep = false;
-    this->StateTransition_IdleToStunned = false;
-    this->StateTransition_IdleToKnockedbackDown = false;
-    this->StateTransition_IdleToKnockedbackUp = false;
-    this->StateTransition_MoveToIdle = false;
-    this->StateTransition_FallAsleepToSleeping = false;
-    this->StateTransition_SleepingToWakeUp = false;
-    this->StateTransition_WakeUpToIdle = false;
-    this->StateTransition_StunnedToIdle = false;
-    this->StateTransition_KnockedbackDownToIdle = false;
-    this->StateTransition_KnockedbackUpToKnockedbackDown = false;
+    HuskAnimType = EFortHuskAnimType::Basic;
+    FallAsleepAnimDuration = 1;
+    AltFallAsleepAnimDuration = 1;
+    WakeUpAnimDuration = 1;
+    FallAsleepToSleepingCrossfade = 1;
+    WakeUpToIdleCrossfade = 1;
+    DefaultToDwarfScaleRatio = 1;
+    LookAtAlpha = 1;
+    LookAtInterpSpeed = 1;
+    AdjustedLowerBodyWeight = 1;
+    AdjustedLowerBodyInterpSpeed = 1;
+    RunPlayRate = 1;
+    ZapperOverrideWeight = 1;
+    RunStartPosition = 1;
+    AuthoredJogSpeed = 1;
+    MovementStyleIsWalking = 0;
+    bForceFullBodyMontage = false;
+    bIsDwarf = false;
+    bIsZapper = false;
+    StateTransition_IdleToMove = false;
+    StateTransition_IdleToFallAsleep = false;
+    StateTransition_IdleToStunned = false;
+    StateTransition_IdleToKnockedbackDown = false;
+    StateTransition_IdleToKnockedbackUp = false;
+    StateTransition_MoveToIdle = false;
+    StateTransition_FallAsleepToSleeping = false;
+    StateTransition_SleepingToWakeUp = false;
+    StateTransition_WakeUpToIdle = false;
+    StateTransition_StunnedToIdle = false;
+    StateTransition_KnockedbackDownToIdle = false;
+    StateTransition_KnockedbackUpToKnockedbackDown = false;
 }
 

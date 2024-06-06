@@ -38,7 +38,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     bool bUseSchematicDisplayName;
     
-    UFortSchematicItemDefinition();
+    UFortSchematicItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     UFortWorldItemDefinition* GetResultWorldItemDefinition() const;
     

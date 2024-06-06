@@ -7,18 +7,18 @@ void UBuildingEditModeSupport::OnSuccessfulMatchInteractComplete() {
 }
 
 UBuildingEditModeSupport::UBuildingEditModeSupport() {
-    this->OwnerBuilding = NULL;
-    this->EditingController = NULL;
-    this->PreviewMetadata = NULL;
-    this->ScratchpadMetadata = NULL;
-    this->ExpectedMetadataClass = NULL;
-    this->LastInteractedComp = NULL;
-    this->LastHighlightedComp = NULL;
-    this->PreviewComponent = NULL;
-    this->bCanMirrorMetadataToMatch = false;
-    this->bCanRotateMetadataToMatch = false;
-    this->bEditActionInProgress = false;
-    this->bInitializedTimelines = false;
-    this->bUseAlternateMaterials = false;
+    OwnerBuilding = NULL;
+    EditingController = NULL;
+    PreviewMetadata = NULL;
+    ScratchpadMetadata = NULL;
+    ExpectedMetadataClass = NULL;
+    LastInteractedComp = NULL;
+    LastHighlightedComp = NULL;
+    PreviewComponent = NULL;
+    bCanMirrorMetadataToMatch = false;
+    bCanRotateMetadataToMatch = false;
+    bEditActionInProgress = false;
+    bInitializedTimelines = false;
+    bUseAlternateMaterials = false;
 }
 

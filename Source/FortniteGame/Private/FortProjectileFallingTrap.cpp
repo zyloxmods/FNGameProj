@@ -2,6 +2,6 @@
 #include "Components/StaticMeshComponent.h"
 
 AFortProjectileFallingTrap::AFortProjectileFallingTrap() {
-    this->MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Component"));
+    MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Component"));
 }
 

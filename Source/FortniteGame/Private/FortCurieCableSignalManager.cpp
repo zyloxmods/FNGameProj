@@ -1,6 +1,6 @@
 #include "FortCurieCableSignalManager.h"
 
 UFortCurieCableSignalManager::UFortCurieCableSignalManager() {
-    this->SignalsProcessedPerTick = 0;
+    SignalsProcessedPerTick = 0;
 }
 

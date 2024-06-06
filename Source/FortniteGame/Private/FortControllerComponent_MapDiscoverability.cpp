@@ -41,9 +41,9 @@ void UFortControllerComponent_MapDiscoverability::GetLifetimeReplicatedProps(TAr
 }
 
 UFortControllerComponent_MapDiscoverability::UFortControllerComponent_MapDiscoverability() {
-    this->DiscoverabilityMPC = NULL;
-    this->bFlipYInput = true;
-    this->DiscoveryUnmaskUpdateRate = 1;
-    this->StencilMID = NULL;
+    DiscoverabilityMPC = NULL;
+    bFlipYInput = true;
+    DiscoveryUnmaskUpdateRate = 1;
+    StencilMID = NULL;
 }
 

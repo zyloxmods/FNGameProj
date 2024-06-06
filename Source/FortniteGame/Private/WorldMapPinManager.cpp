@@ -2,6 +2,6 @@
 
 
 AWorldMapPinManager::AWorldMapPinManager() {
-    this->WorldMapMesh = NULL;
+    WorldMapMesh = NULL;
 }
 

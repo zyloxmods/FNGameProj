@@ -1,7 +1,7 @@
 #include "FortCommunityVotesState.h"
 
 FFortCommunityVotesState::FFortCommunityVotesState() {
-    this->NumWinners = 0;
-    this->WinnerStateHours = 0;
+    NumWinners = 0;
+    WinnerStateHours = 0;
 }
 

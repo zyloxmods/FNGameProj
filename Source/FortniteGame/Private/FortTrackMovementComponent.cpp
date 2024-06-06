@@ -31,11 +31,11 @@ void UFortTrackMovementComponent::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 UFortTrackMovementComponent::UFortTrackMovementComponent() {
-    this->OptionalEditorPlacedTrack = NULL;
-    this->SplineLocationOffsetZ = 1;
-    this->DiscoverSplineFrequency = 1;
-    this->TrackVelocity = 1;
-    this->bReverseYawWhenReversedOnSpline = true;
-    this->ClientPredictionSpeedModifier = 1;
+    OptionalEditorPlacedTrack = NULL;
+    SplineLocationOffsetZ = 1;
+    DiscoverSplineFrequency = 1;
+    TrackVelocity = 1;
+    bReverseYawWhenReversedOnSpline = true;
+    ClientPredictionSpeedModifier = 1;
 }
 

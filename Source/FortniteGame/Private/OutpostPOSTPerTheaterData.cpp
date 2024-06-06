@@ -1,6 +1,6 @@
 #include "OutpostPOSTPerTheaterData.h"
 
 FOutpostPOSTPerTheaterData::FOutpostPOSTPerTheaterData() {
-    this->TheaterSlot = 0;
+    TheaterSlot = 0;
 }
 

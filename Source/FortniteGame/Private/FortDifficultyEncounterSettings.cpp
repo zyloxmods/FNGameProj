@@ -1,7 +1,7 @@
 #include "FortDifficultyEncounterSettings.h"
 
 UFortDifficultyEncounterSettings::UFortDifficultyEncounterSettings() {
-    this->SpawnLimitMode = EFortEncounterSpawnLimitType::NoLimit;
-    this->PacingMode = EFortEncounterPacingMode::Fixed;
+    SpawnLimitMode = EFortEncounterSpawnLimitType::NoLimit;
+    PacingMode = EFortEncounterPacingMode::Fixed;
 }
 

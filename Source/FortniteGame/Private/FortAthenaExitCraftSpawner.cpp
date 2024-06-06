@@ -8,7 +8,7 @@ void AFortAthenaExitCraftSpawner::DestroyBlockingActors() {
 }
 
 AFortAthenaExitCraftSpawner::AFortAthenaExitCraftSpawner() {
-    this->DestructionOverlapCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("DestructionOverlapMesh_0"));
-    this->ExitCraftInfo = NULL;
+    DestructionOverlapCapsule = CreateDefaultSubobject<UCapsuleComponent>(TEXT("DestructionOverlapMesh_0"));
+    ExitCraftInfo = NULL;
 }
 

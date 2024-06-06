@@ -1,13 +1,13 @@
 #include "FortRequirementsInfo.h"
 
 FFortRequirementsInfo::FFortRequirementsInfo() {
-    this->CommanderLevel = 0;
-    this->PersonalPowerRating = 0;
-    this->MaxPersonalPowerRating = 0;
-    this->PartyPowerRating = 0;
-    this->MaxPartyPowerRating = 0;
-    this->QuestDefinition = NULL;
-    this->UncompletedQuestDefinition = NULL;
-    this->ItemDefinition = NULL;
+    CommanderLevel = 0;
+    PersonalPowerRating = 0;
+    MaxPersonalPowerRating = 0;
+    PartyPowerRating = 0;
+    MaxPartyPowerRating = 0;
+    QuestDefinition = NULL;
+    UncompletedQuestDefinition = NULL;
+    ItemDefinition = NULL;
 }
 

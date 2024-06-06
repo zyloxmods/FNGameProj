@@ -16,8 +16,8 @@ void AFortAthenaMutator_LoadoutSwap::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 AFortAthenaMutator_LoadoutSwap::AFortAthenaMutator_LoadoutSwap() {
-    this->GamePhaseToStart = EAthenaGamePhase::None;
-    this->bRandomizeLoadOuts = true;
-    this->ServerWorldTimeOfNextSwap = 1;
+    GamePhaseToStart = EAthenaGamePhase::None;
+    bRandomizeLoadOuts = true;
+    ServerWorldTimeOfNextSwap = 1;
 }
 

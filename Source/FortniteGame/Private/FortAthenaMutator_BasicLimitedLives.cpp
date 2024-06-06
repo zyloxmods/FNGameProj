@@ -11,6 +11,6 @@ void AFortAthenaMutator_BasicLimitedLives::GetLifetimeReplicatedProps(TArray<FLi
 }
 
 AFortAthenaMutator_BasicLimitedLives::AFortAthenaMutator_BasicLimitedLives() {
-    this->bAlwaysShowSquadInfo = false;
+    bAlwaysShowSquadInfo = false;
 }
 

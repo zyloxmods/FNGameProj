@@ -1,23 +1,23 @@
 #include "SphericalDriveParams.h"
 
 FSphericalDriveParams::FSphericalDriveParams() {
-    this->Radius = 1;
-    this->LowSpeedAccelerationForce = 1;
-    this->HighSpeedAccelerationForce = 1;
-    this->MaxSpeedKmh = 1;
-    this->MaxInclineDeg = 1;
-    this->MaxAirControlForce = 1;
-    this->MaxAirControlSpeedKmh = 1;
-    this->AutoBrakeSpeedKmh = 1;
-    this->DragCoefficient = 1;
-    this->DragCoefficientAutoBrake = 1;
-    this->MaxAutoBrakeSpeedKmh = 1;
-    this->ContactRepulsionForce = 1;
-    this->ContactThreshold = 1;
-    this->MassDirectionMaxAngleDeg = 1;
-    this->MassDirectionStiffness = 1;
-    this->bMassDirectionInvert = false;
-    this->ShellAngularDrag = 1;
-    this->TractionMultiplier = 1;
+    Radius = 1;
+    LowSpeedAccelerationForce = 1;
+    HighSpeedAccelerationForce = 1;
+    MaxSpeedKmh = 1;
+    MaxInclineDeg = 1;
+    MaxAirControlForce = 1;
+    MaxAirControlSpeedKmh = 1;
+    AutoBrakeSpeedKmh = 1;
+    DragCoefficient = 1;
+    DragCoefficientAutoBrake = 1;
+    MaxAutoBrakeSpeedKmh = 1;
+    ContactRepulsionForce = 1;
+    ContactThreshold = 1;
+    MassDirectionMaxAngleDeg = 1;
+    MassDirectionStiffness = 1;
+    bMassDirectionInvert = false;
+    ShellAngularDrag = 1;
+    TractionMultiplier = 1;
 }
 

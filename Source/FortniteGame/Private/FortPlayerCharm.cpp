@@ -24,10 +24,10 @@ USceneComponent* AFortPlayerCharm::GetCharmAttachedToComponent() const {
 }
 
 AFortPlayerCharm::AFortPlayerCharm() {
-    this->CharmItemDef = NULL;
-    this->CharmMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("CharmMesh0"));
-    this->bIsFrontEndPreview = false;
-    this->CharmAttachedTo = NULL;
-    this->CharmModifier = NULL;
+    CharmItemDef = NULL;
+    CharmMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("CharmMesh0"));
+    bIsFrontEndPreview = false;
+    CharmAttachedTo = NULL;
+    CharmModifier = NULL;
 }
 

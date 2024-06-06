@@ -13,6 +13,6 @@ private:
     TArray<FFortCosmeticLockerSlotInformation> LockerSlots;
     
 public:
-    UFortCosmeticLockerItemDefinition();
+    UFortCosmeticLockerItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

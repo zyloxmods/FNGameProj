@@ -1,8 +1,8 @@
 #include "FortAthenaBTTask_BotAmbushPlayer.h"
 
 UFortAthenaBTTask_BotAmbushPlayer::UFortAthenaBTTask_BotAmbushPlayer() {
-    this->FacingPrecision = 1;
-    this->WeaponCooldown = 1;
-    this->bClearBlackboardOnFinished = false;
+    FacingPrecision = 1;
+    WeaponCooldown = 1;
+    bClearBlackboardOnFinished = false;
 }
 

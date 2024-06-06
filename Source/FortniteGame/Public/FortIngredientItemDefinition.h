@@ -7,7 +7,7 @@ UCLASS(Blueprintable, MinimalAPI)
 class UFortIngredientItemDefinition : public UFortWorldItemDefinition {
     GENERATED_BODY()
 public:
-    UFortIngredientItemDefinition();
+    UFortIngredientItemDefinition(const FObjectInitializer& ObjectInitializer);
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("Ingredient", GetFName());

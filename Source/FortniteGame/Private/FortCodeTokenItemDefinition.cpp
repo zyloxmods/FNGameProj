@@ -1,8 +1,9 @@
 #include "FortCodeTokenItemDefinition.h"
 
-UFortCodeTokenItemDefinition::UFortCodeTokenItemDefinition() {
-    this->AllowedPlatforms.AddDefaulted(2);
-    this->ProfileType = EItemProfileType::Common;
-    this->ItemType = EFortItemType::CodeToken;
+UFortCodeTokenItemDefinition::UFortCodeTokenItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    AllowedPlatforms.AddDefaulted(2);
+    ProfileType = EItemProfileType::Common;
+    ItemType = EFortItemType::CodeToken;
 }
 

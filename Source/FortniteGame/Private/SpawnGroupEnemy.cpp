@@ -1,8 +1,8 @@
 #include "SpawnGroupEnemy.h"
 
 FSpawnGroupEnemy::FSpawnGroupEnemy() {
-    this->EnemyVariantClass = NULL;
-    this->bOverrideVariantSpawnPointValue = false;
-    this->SpawnValue = 0;
+    EnemyVariantClass = NULL;
+    bOverrideVariantSpawnPointValue = false;
+    SpawnValue = 0;
 }
 

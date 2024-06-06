@@ -11,6 +11,6 @@ void AFortAthenaMutator_InfiltrationRoundPlacard::GetLifetimeReplicatedProps(TAr
 }
 
 AFortAthenaMutator_InfiltrationRoundPlacard::AFortAthenaMutator_InfiltrationRoundPlacard() {
-    this->RoundInfoInterfaceRedirectReplicationObject = NULL;
+    RoundInfoInterfaceRedirectReplicationObject = NULL;
 }
 

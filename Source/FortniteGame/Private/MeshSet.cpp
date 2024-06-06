@@ -1,17 +1,17 @@
 #include "MeshSet.h"
 
 FMeshSet::FMeshSet() {
-    this->Weight = 1;
-    this->ResourceType = EFortResourceType::Wood;
-    this->bDoNotBlockBuildings = false;
-    this->bDestroyOnPlayerBuildingPlacement = false;
-    this->bNeedsDamageOverlay = false;
-    this->BaseMesh = NULL;
-    this->BreakEffect = NULL;
-    this->DeathParticles = NULL;
-    this->DeathSound = NULL;
-    this->ConstructedEffect = NULL;
-    this->SearchedMesh = NULL;
-    this->LootNoiseRange = 1;
+    Weight = 1;
+    ResourceType = EFortResourceType::Wood;
+    bDoNotBlockBuildings = false;
+    bDestroyOnPlayerBuildingPlacement = false;
+    bNeedsDamageOverlay = false;
+    BaseMesh = NULL;
+    BreakEffect = NULL;
+    DeathParticles = NULL;
+    DeathSound = NULL;
+    ConstructedEffect = NULL;
+    SearchedMesh = NULL;
+    LootNoiseRange = 1;
 }
 

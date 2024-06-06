@@ -7,7 +7,7 @@ enum class EFortReloadFXState : uint8{
         ReloadStart,
         ReloadCartridge,
         ReloadEnd,
-        Max_None,
+        Max_None UMETA(Hidden),
     };
 
 

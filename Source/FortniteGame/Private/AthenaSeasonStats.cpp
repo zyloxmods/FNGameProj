@@ -5,7 +5,7 @@ UAthenaSeasonItemDefinition* UAthenaSeasonStats::GetSeasonDefintion() {
 }
 
 UAthenaSeasonStats::UAthenaSeasonStats() {
-    this->CumulativeStats = NULL;
-    this->SeasonDefinition = NULL;
+    CumulativeStats = NULL;
+    SeasonDefinition = NULL;
 }
 

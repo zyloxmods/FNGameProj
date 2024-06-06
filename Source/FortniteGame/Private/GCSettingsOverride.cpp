@@ -1,7 +1,7 @@
 #include "GCSettingsOverride.h"
 
 FGCSettingsOverride::FGCSettingsOverride() {
-    this->bEnableGCOnServerDuringMatch = false;
-    this->GCFrequency = 1;
+    bEnableGCOnServerDuringMatch = false;
+    GCFrequency = 1;
 }
 

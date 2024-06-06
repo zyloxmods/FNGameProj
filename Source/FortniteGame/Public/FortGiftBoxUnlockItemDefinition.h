@@ -18,6 +18,6 @@ protected:
     FDateTime CreationDate;
     
 public:
-    UFortGiftBoxUnlockItemDefinition();
+    UFortGiftBoxUnlockItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

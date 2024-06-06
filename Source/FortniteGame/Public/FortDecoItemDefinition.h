@@ -139,7 +139,7 @@ protected:
     uint8 bShowPreviewOnPressHeld: 1;
     
 public:
-    UFortDecoItemDefinition();
+    UFortDecoItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool ShouldUseRelativeCameraRotation() const;
     

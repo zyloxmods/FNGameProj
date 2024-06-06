@@ -15,30 +15,30 @@ void UFrontendAnimInstance::PlayIntro() {
 
 
 UFrontendAnimInstance::UFrontendAnimInstance() {
-    this->bIsSkydiving = false;
-    this->bEnableHandIK = false;
-    this->bIsPlayingEmote = false;
-    this->bIsBodyTypeManuallySet = false;
-    this->bIsCharacterCustomizationLoaded = false;
-    this->bLookingAtBackpack = false;
-    this->bIsRebirth = false;
-    this->AnimBodyType = EFortPlayerAnimBodyType::Small;
-    this->HandIKRetargetingWeight = 1;
-    this->RightHandIKAlpha = 1;
-    this->LeftHandIKAlpha = 1;
-    this->IdlePelvisOffsetAlpha = 1;
-    this->EmoteHipOffsetAlpha = 1;
-    this->EmoteHipOffsetInterpSpeed = 1;
-    this->FortPlayerPawn = NULL;
-    this->Gender = EFortDisplayGender::Male;
-    this->IntroAnimation_Female = NULL;
-    this->IntroAnimation_Male = NULL;
-    this->OutroAnimation_Female = NULL;
-    this->OutroAnimation_Male = NULL;
-    this->SelectedAnimation_Female = NULL;
-    this->SelectedAnimation_Male = NULL;
-    this->bCanPlayCustomAnimations = false;
-    this->bDontCrossArms = false;
-    this->bNoHandsOnHips = false;
+    bIsSkydiving = false;
+    bEnableHandIK = false;
+    bIsPlayingEmote = false;
+    bIsBodyTypeManuallySet = false;
+    bIsCharacterCustomizationLoaded = false;
+    bLookingAtBackpack = false;
+    bIsRebirth = false;
+    AnimBodyType = EFortPlayerAnimBodyType::Small;
+    HandIKRetargetingWeight = 1;
+    RightHandIKAlpha = 1;
+    LeftHandIKAlpha = 1;
+    IdlePelvisOffsetAlpha = 1;
+    EmoteHipOffsetAlpha = 1;
+    EmoteHipOffsetInterpSpeed = 1;
+    FortPlayerPawn = NULL;
+    Gender = EFortDisplayGender::Male;
+    IntroAnimation_Female = NULL;
+    IntroAnimation_Male = NULL;
+    OutroAnimation_Female = NULL;
+    OutroAnimation_Male = NULL;
+    SelectedAnimation_Female = NULL;
+    SelectedAnimation_Male = NULL;
+    bCanPlayCustomAnimations = false;
+    bDontCrossArms = false;
+    bNoHandsOnHips = false;
 }
 

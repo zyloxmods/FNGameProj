@@ -1,7 +1,7 @@
 #include "FortPlaysetWorldItem.h"
 
 UFortPlaysetWorldItem::UFortPlaysetWorldItem() {
-    this->PlaysetToSpawn = NULL;
-    this->bUseVolumeToSpawn = false;
+    PlaysetToSpawn = NULL;
+    bUseVolumeToSpawn = false;
 }
 

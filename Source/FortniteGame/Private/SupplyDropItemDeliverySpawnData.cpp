@@ -1,8 +1,8 @@
 #include "SupplyDropItemDeliverySpawnData.h"
 
 FSupplyDropItemDeliverySpawnData::FSupplyDropItemDeliverySpawnData() {
-    this->NumItemsToDeliver = 0;
-    this->NextSpawnTime = 1;
-    this->NumInitialSpawns = 0;
+    NumItemsToDeliver = 0;
+    NextSpawnTime = 1;
+    NumInitialSpawns = 0;
 }
 

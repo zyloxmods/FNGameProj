@@ -17,6 +17,6 @@ void ANightNightBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutL
 }
 
 ANightNightBase::ANightNightBase() {
-    this->bPrepareClient = false;
+    bPrepareClient = false;
 }
 

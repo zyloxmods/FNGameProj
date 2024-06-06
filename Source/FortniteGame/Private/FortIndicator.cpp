@@ -4,7 +4,7 @@ void UFortIndicator::OnParentActorEndPlay(AActor* Actor, TEnumAsByte<EEndPlayRea
 }
 
 UFortIndicator::UFortIndicator() {
-    this->MaxDistance = 1;
-    this->bMoveWithPawnState = false;
+    MaxDistance = 1;
+    bMoveWithPawnState = false;
 }
 

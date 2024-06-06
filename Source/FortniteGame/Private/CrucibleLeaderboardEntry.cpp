@@ -1,8 +1,8 @@
 #include "CrucibleLeaderboardEntry.h"
 
 FCrucibleLeaderboardEntry::FCrucibleLeaderboardEntry() {
-    this->Rank = 0;
-    this->Value = 0;
-    this->bIsLocalPlayer = false;
+    Rank = 0;
+    Value = 0;
+    bIsLocalPlayer = false;
 }
 

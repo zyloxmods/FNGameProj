@@ -37,6 +37,6 @@ void UFortMcpProfileCreative::CreateNewBattleLabFile_Implementation(const FStrin
 }
 */
 UFortMcpProfileCreative::UFortMcpProfileCreative() {
-    this->bEnablePublishing = true;
+    bEnablePublishing = true;
 }
 

@@ -9,7 +9,7 @@ UFortAsyncAction_SendQuestStatEvent* UFortAsyncAction_SendQuestStatEvent::SendCl
 }
 
 UFortAsyncAction_SendQuestStatEvent::UFortAsyncAction_SendQuestStatEvent() {
-    this->QuestManager = NULL;
-    this->Count = 0;
+    QuestManager = NULL;
+    Count = 0;
 }
 

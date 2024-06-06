@@ -49,6 +49,6 @@ void AFortCustomizableAbilityDecoTool::BPPressSecondaryFire_Implementation(AFort
 
 
 AFortCustomizableAbilityDecoTool::AFortCustomizableAbilityDecoTool() {
-    this->bExecuteToolAbilityOnPress = false;
+    bExecuteToolAbilityOnPress = false;
 }
 

@@ -66,18 +66,18 @@ void UAIHotSpotSlot::ClearSlot() {
 }
 
 UAIHotSpotSlot::UAIHotSpotSlot() {
-    this->Height = 1;
-    this->Radius = 1;
-    this->DistanceToFocusActor = 1;
-    this->UserId = 0;
-    this->bStartEnabled = false;
-    this->bHasCachedAgentData = false;
-    this->bHasOverlappingSlots = false;
-    this->bHasDistanceToFocusActor = false;
-    this->bIsBlockingOthers = false;
-    this->bIsEnabled = false;
-    this->Owner = NULL;
-    this->SlotIndex = 0;
-    this->SlotState = EAIHotSpotSlot::Free;
+    Height = 1;
+    Radius = 1;
+    DistanceToFocusActor = 1;
+    UserId = 0;
+    bStartEnabled = false;
+    bHasCachedAgentData = false;
+    bHasOverlappingSlots = false;
+    bHasDistanceToFocusActor = false;
+    bIsBlockingOthers = false;
+    bIsEnabled = false;
+    Owner = NULL;
+    SlotIndex = 0;
+    SlotState = EAIHotSpotSlot::Free;
 }
 

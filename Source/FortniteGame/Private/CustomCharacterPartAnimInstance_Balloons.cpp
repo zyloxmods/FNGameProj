@@ -1,21 +1,21 @@
 #include "CustomCharacterPartAnimInstance_Balloons.h"
 
 UCustomCharacterPartAnimInstance_Balloons::UCustomCharacterPartAnimInstance_Balloons() {
-    this->PlayerPawn = NULL;
-    this->Character = NULL;
-    this->BGABalloon = NULL;
-    this->PawnSpeed = 1;
-    this->bIsMovingBackward = false;
-    this->TrailVehicleAlpha = 1;
-    this->BalloonLocationAlpha = 1;
-    this->IsFloatingAlpha = 1;
-    this->SpringAlpha = 1;
-    this->PawnZVelCheck = 1;
-    this->AimAlpha = 1;
-    this->ForwardLocationAlphas.AddDefaulted(4);
-    this->BackwardLocationAlphas.AddDefaulted(4);
-    this->ForwardRotators.AddDefaulted(4);
-    this->BackwardRotators.AddDefaulted(4);
-    this->SpringMultiplier = 1;
+    PlayerPawn = NULL;
+    Character = NULL;
+    BGABalloon = NULL;
+    PawnSpeed = 1;
+    bIsMovingBackward = false;
+    TrailVehicleAlpha = 1;
+    BalloonLocationAlpha = 1;
+    IsFloatingAlpha = 1;
+    SpringAlpha = 1;
+    PawnZVelCheck = 1;
+    AimAlpha = 1;
+    ForwardLocationAlphas.AddDefaulted(4);
+    BackwardLocationAlphas.AddDefaulted(4);
+    ForwardRotators.AddDefaulted(4);
+    BackwardRotators.AddDefaulted(4);
+    SpringMultiplier = 1;
 }
 

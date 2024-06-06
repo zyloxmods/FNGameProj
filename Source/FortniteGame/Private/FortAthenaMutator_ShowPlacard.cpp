@@ -11,10 +11,10 @@ void AFortAthenaMutator_ShowPlacard::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 AFortAthenaMutator_ShowPlacard::AFortAthenaMutator_ShowPlacard() {
-    this->ShowPlacardPhase = EShowPlacardPhase::None;
-    this->WaitBeforeInitialFadeOutDuration = 1;
-    this->FadeDuration = 1;
-    this->ShowPlacardDuration = 1;
-    this->ServerWaitsOnBlackScreenDuration = 1;
+    ShowPlacardPhase = EShowPlacardPhase::None;
+    WaitBeforeInitialFadeOutDuration = 1;
+    FadeDuration = 1;
+    ShowPlacardDuration = 1;
+    ServerWaitsOnBlackScreenDuration = 1;
 }
 

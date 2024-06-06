@@ -5,14 +5,14 @@ AFortMission* UFortAIEncounterRiftManager::GetAssociatedMission() const {
 }
 
 UFortAIEncounterRiftManager::UFortAIEncounterRiftManager() {
-    this->MyEncounter = NULL;
-    this->AIDirector = NULL;
-    this->UpdateIntervalTimeSeconds = 1;
-    this->NumRiftsToUse = 0;
-    this->MinRiftsToUse = 0;
-    this->ExtraSpawnLocationPercentage = 1;
-    this->RiftClassTemplate = NULL;
-    this->LastObjectiveBatchPathCostUpdateTime = 1;
-    this->LastPlayerBatchPathCostUpdateTime = 1;
+    MyEncounter = NULL;
+    AIDirector = NULL;
+    UpdateIntervalTimeSeconds = 1;
+    NumRiftsToUse = 0;
+    MinRiftsToUse = 0;
+    ExtraSpawnLocationPercentage = 1;
+    RiftClassTemplate = NULL;
+    LastObjectiveBatchPathCostUpdateTime = 1;
+    LastPlayerBatchPathCostUpdateTime = 1;
 }
 

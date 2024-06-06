@@ -61,6 +61,6 @@ UFortHero* UFortCampaignHeroLoadoutItem::GetCommanderHero() const {
 }
 
 UFortCampaignHeroLoadoutItem::UFortCampaignHeroLoadoutItem() {
-    this->loadout_index = 0;
+    loadout_index = 0;
 }
 

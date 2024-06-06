@@ -1,6 +1,6 @@
 #include "LiveDamageNumberComponent.h"
 
 FLiveDamageNumberComponent::FLiveDamageNumberComponent() {
-    this->Component = NULL;
+    Component = NULL;
 }
 

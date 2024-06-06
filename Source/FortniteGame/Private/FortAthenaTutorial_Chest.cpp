@@ -4,10 +4,10 @@ void AFortAthenaTutorial_Chest::OnPlayerEntersTrigger(AActor* OverlappedActor, A
 }
 
 AFortAthenaTutorial_Chest::AFortAthenaTutorial_Chest() {
-    this->Chest = NULL;
-    this->ChestLookMarker = NULL;
-    this->InteractButtonHighlightType = NULL;
-    this->TriggerBox = NULL;
-    this->ShowEasyInteractIconDelay = 1;
+    Chest = NULL;
+    ChestLookMarker = NULL;
+    InteractButtonHighlightType = NULL;
+    TriggerBox = NULL;
+    ShowEasyInteractIconDelay = 1;
 }
 

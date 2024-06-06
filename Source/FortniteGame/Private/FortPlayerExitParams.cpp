@@ -7,6 +7,6 @@ void UFortPlayerExitParams::BreakParams(AFortPlayerController*& _ExitingPlayerCo
 }
 
 UFortPlayerExitParams::UFortPlayerExitParams() {
-    this->ExitingPlayerController = NULL;
+    ExitingPlayerController = NULL;
 }
 

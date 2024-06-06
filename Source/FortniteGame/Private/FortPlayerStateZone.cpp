@@ -73,21 +73,21 @@ void AFortPlayerStateZone::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortPlayerStateZone::AFortPlayerStateZone() {
-    this->SpectatingTarget = NULL;
-    this->KickedFromSessionReason = EFortKickReason::NotKicked;
-    this->CarriedObject = NULL;
-    this->NumRejoins = 0;
-    this->OldTotalScoreStat = 0;
-    this->bInvincibleDueToUI = false;
-    this->CurrentHealth = 1;
-    this->MaxHealth = 1;
-    this->CurrentShield = 1;
-    this->MaxShield = 1;
-    this->CurrentSignalInStorm = 1;
-    this->MaxSignalInStorm = 1;
-    this->PendingDestroyedGadgetItemDefinition = NULL;
-    this->bInAircraft = false;
-    this->bHasEverSkydivedFromBus = false;
-    this->bHasEverSkydivedFromBusAndLanded = false;
+    SpectatingTarget = NULL;
+    KickedFromSessionReason = EFortKickReason::NotKicked;
+    CarriedObject = NULL;
+    NumRejoins = 0;
+    OldTotalScoreStat = 0;
+    bInvincibleDueToUI = false;
+    CurrentHealth = 1;
+    MaxHealth = 1;
+    CurrentShield = 1;
+    MaxShield = 1;
+    CurrentSignalInStorm = 1;
+    MaxSignalInStorm = 1;
+    PendingDestroyedGadgetItemDefinition = NULL;
+    bInAircraft = false;
+    bHasEverSkydivedFromBus = false;
+    bHasEverSkydivedFromBusAndLanded = false;
 }
 

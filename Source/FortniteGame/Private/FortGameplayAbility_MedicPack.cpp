@@ -33,9 +33,9 @@ void UFortGameplayAbility_MedicPack::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortGameplayAbility_MedicPack::UFortGameplayAbility_MedicPack() {
-    this->ServerCurrentState = EMedicPackState::Idle;
-    this->CurrentState = EMedicPackState::Idle;
-    this->DelayRegenStartTime = 1;
-    this->bAbilityMarkedForPendingKill = false;
+    ServerCurrentState = EMedicPackState::Idle;
+    CurrentState = EMedicPackState::Idle;
+    DelayRegenStartTime = 1;
+    bAbilityMarkedForPendingKill = false;
 }
 

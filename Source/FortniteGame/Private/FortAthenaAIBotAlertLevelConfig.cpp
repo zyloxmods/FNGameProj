@@ -1,7 +1,7 @@
 #include "FortAthenaAIBotAlertLevelConfig.h"
 
 UFortAthenaAIBotAlertLevelConfig::UFortAthenaAIBotAlertLevelConfig() {
-    this->AlertLevels = 0;
-    this->ScalableSenseConfig = NULL;
+    AlertLevels = 0;
+    ScalableSenseConfig = NULL;
 }
 

@@ -2,6 +2,6 @@
 #include "MeshNetworkComponent.h"
 
 AFortMeshNetworkActor::AFortMeshNetworkActor() {
-    this->MeshNetworkComponent = CreateDefaultSubobject<UMeshNetworkComponent>(TEXT("MeshNetworkComp"));
+    MeshNetworkComponent = CreateDefaultSubobject<UMeshNetworkComponent>(TEXT("MeshNetworkComp"));
 }
 

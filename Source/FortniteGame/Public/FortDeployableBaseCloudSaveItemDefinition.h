@@ -13,7 +13,7 @@ protected:
     FGuid SaveFilenameGUID;
     
 public:
-    UFortDeployableBaseCloudSaveItemDefinition();
+    UFortDeployableBaseCloudSaveItemDefinition(const FObjectInitializer& ObjectInitializer);
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("DeployableBaseCloudSave", GetFName());

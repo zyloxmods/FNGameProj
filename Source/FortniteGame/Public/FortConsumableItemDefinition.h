@@ -29,7 +29,7 @@ private:
     bool bRequiresMissingHealth;
     
 public:
-    UFortConsumableItemDefinition();
+    UFortConsumableItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     UAnimMontage* GetUseAnimation() const;
     

@@ -8,7 +8,7 @@ UAudioComponent* UFortSplineAudioComponent::GetAudioComponent() {
 }
 
 UFortSplineAudioComponent::UFortSplineAudioComponent() {
-    this->ClosestPointSound = NULL;
-    this->Spline = NULL;
+    ClosestPointSound = NULL;
+    Spline = NULL;
 }
 

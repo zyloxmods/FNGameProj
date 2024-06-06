@@ -1,18 +1,18 @@
 #include "FortMountedTurretConfigs.h"
 
 UFortMountedTurretConfigs::UFortMountedTurretConfigs() {
-    this->CameraShakeAmplitudeMin = 1;
-    this->CameraShakeAmplitudeMax = 1;
-    this->CameraShakeNormalizedSpeed = 1;
-    this->CameraShakeSpeedCurvePow = 1;
-    this->AimInterpSpeed = 1;
-    this->InitialCameraInterpSpeed = 1;
-    this->InitialCameraLerpTime = 1;
-    this->MaxYawPerSecondThreshold = 1;
-    this->MaxPitchPerSecondThreshold = 1;
-    this->PitchConstraintAngleOffset = 1;
-    this->bConstrainVerticalRotationOnly = true;
-    this->PedalCyclesPerFullTurn = 1;
-    this->bWeaponIgnoresMountedTurretBase = 0;
+    CameraShakeAmplitudeMin = 1;
+    CameraShakeAmplitudeMax = 1;
+    CameraShakeNormalizedSpeed = 1;
+    CameraShakeSpeedCurvePow = 1;
+    AimInterpSpeed = 1;
+    InitialCameraInterpSpeed = 1;
+    InitialCameraLerpTime = 1;
+    MaxYawPerSecondThreshold = 1;
+    MaxPitchPerSecondThreshold = 1;
+    PitchConstraintAngleOffset = 1;
+    bConstrainVerticalRotationOnly = true;
+    PedalCyclesPerFullTurn = 1;
+    bWeaponIgnoresMountedTurretBase = 0;
 }
 

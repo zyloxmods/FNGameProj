@@ -10,20 +10,20 @@ void AFortGameSessionDedicatedAthena::HandleAllPlaylistLevelsVisible() {
 }
 
 AFortGameSessionDedicatedAthena::AFortGameSessionDedicatedAthena() {
-    this->bDownloadEventsAfterHotfixCheck = true;
-    this->ReconnectToMMSDelay = 1;
-    this->MaxReconnectToMMSDelay = 1;
-    this->MMSVersionCompatability = TEXT("*");
-    this->MMSTicketURLServer = TEXT("/api/game/v2/matchmakingservice/ticket/session/`id");
-    this->MMSPingInterval = 1;
-    this->QueryUserMode = 0;
-    this->bAutoConnectToMMS = true;
-    this->bEnableMMSBackfill = true;
-    this->bDisableBackfillDuringGracefulShutdown = true;
-    this->PostBackfillAssignmentUpdateDelay = 1;
-    this->bEnableWaitingForMatchAssignmentTimeout = true;
-    this->WaitingForMatchAssignmentRestartDelay = 1;
-    this->FullMeshRetryDelay = 1;
-    this->MeshNetworkGCTimerRate = 1;
+    bDownloadEventsAfterHotfixCheck = true;
+    ReconnectToMMSDelay = 1;
+    MaxReconnectToMMSDelay = 1;
+    MMSVersionCompatability = TEXT("*");
+    MMSTicketURLServer = TEXT("/api/game/v2/matchmakingservice/ticket/session/`id");
+    MMSPingInterval = 1;
+    QueryUserMode = 0;
+    bAutoConnectToMMS = true;
+    bEnableMMSBackfill = true;
+    bDisableBackfillDuringGracefulShutdown = true;
+    PostBackfillAssignmentUpdateDelay = 1;
+    bEnableWaitingForMatchAssignmentTimeout = true;
+    WaitingForMatchAssignmentRestartDelay = 1;
+    FullMeshRetryDelay = 1;
+    MeshNetworkGCTimerRate = 1;
 }
 

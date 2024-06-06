@@ -13,9 +13,9 @@ void UFortVehicleAudioVoice::SetParam(float Param) {
 }
 
 UFortVehicleAudioVoice::UFortVehicleAudioVoice() {
-    this->LoopingSound = NULL;
-    this->bFadeWhenOwnerDestroyed = true;
-    this->FadeTimeWhenOwnerDestroyed = 1;
-    this->OneShotGateInterpSpeed = 1;
+    LoopingSound = NULL;
+    bFadeWhenOwnerDestroyed = true;
+    FadeTimeWhenOwnerDestroyed = 1;
+    OneShotGateInterpSpeed = 1;
 }
 

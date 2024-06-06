@@ -2,9 +2,9 @@
 #include "Components/SceneComponent.h"
 
 ABGAConsumableSpawner::ABGAConsumableSpawner() {
-    this->DummyRoot = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRootComp"));
-    this->AssociatedBuildingActor = NULL;
-    this->QueryTemplate = NULL;
-    this->bAlignSpawnedActorsToSurface = true;
+    DummyRoot = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRootComp"));
+    AssociatedBuildingActor = NULL;
+    QueryTemplate = NULL;
+    bAlignSpawnedActorsToSurface = true;
 }
 

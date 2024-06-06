@@ -1,11 +1,11 @@
 #include "InfiltrationModeState.h"
 
 FInfiltrationModeState::FInfiltrationModeState() {
-    this->IntelDownloaded = 0;
-    this->IntelCaptured = 0;
-    this->TotalTime = 1;
-    this->TotalGroundTime = 1;
-    this->CurrentRound = 0;
-    this->bGameOver = false;
+    IntelDownloaded = 0;
+    IntelCaptured = 0;
+    TotalTime = 1;
+    TotalGroundTime = 1;
+    CurrentRound = 0;
+    bGameOver = false;
 }
 

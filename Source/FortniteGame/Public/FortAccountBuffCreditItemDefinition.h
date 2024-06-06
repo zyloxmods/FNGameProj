@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 MinutesOfBuffTimeToGrant;
     
-    UFortAccountBuffCreditItemDefinition();
+    UFortAccountBuffCreditItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

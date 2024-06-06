@@ -74,17 +74,17 @@ bool UFortObjectMoverInputComponent::IsEmptyInputComponentActive() {
 }
 
 UFortObjectMoverInputComponent::UFortObjectMoverInputComponent() {
-    this->OwningPC = NULL;
-    this->CreativeMoveToolEquippedInputComponent = NULL;
-    this->PropPossessorEquippedInputComponent = NULL;
-    this->MoveObjectsFreelyModeInputComponent = NULL;
-    this->MultiSelectMoveObjectsFreelyModeInputComponent = NULL;
-    this->MoveBuildingsOnGridModeInputComponent = NULL;
-    this->MultiSelectMoveBuildingsOnGridModeInputComponent = NULL;
-    this->TranslationInputComponent = NULL;
-    this->RotationInputComponent = NULL;
-    this->ScaleInputComponent = NULL;
-    this->EmptyInputComponent = NULL;
-    this->PlaysetPreviewModeInputComponent = NULL;
+    OwningPC = NULL;
+    CreativeMoveToolEquippedInputComponent = NULL;
+    PropPossessorEquippedInputComponent = NULL;
+    MoveObjectsFreelyModeInputComponent = NULL;
+    MultiSelectMoveObjectsFreelyModeInputComponent = NULL;
+    MoveBuildingsOnGridModeInputComponent = NULL;
+    MultiSelectMoveBuildingsOnGridModeInputComponent = NULL;
+    TranslationInputComponent = NULL;
+    RotationInputComponent = NULL;
+    ScaleInputComponent = NULL;
+    EmptyInputComponent = NULL;
+    PlaysetPreviewModeInputComponent = NULL;
 }
 

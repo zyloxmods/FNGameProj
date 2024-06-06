@@ -19,7 +19,7 @@ void AFortGameplayMutator::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortGameplayMutator::AFortGameplayMutator() {
-    this->bMutatorActive = false;
-    this->bNetworkDormantWhenDeactivated = false;
+    bMutatorActive = false;
+    bNetworkDormantWhenDeactivated = false;
 }
 

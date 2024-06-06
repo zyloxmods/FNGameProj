@@ -2,8 +2,8 @@
 
 
 AFortAthenaMutator_RespawnLocation::AFortAthenaMutator_RespawnLocation() {
-    this->bRespawnInAir = true;
-    this->bRespawnAtDeath = true;
-    this->RespawnHeight = 1;
+    bRespawnInAir = true;
+    bRespawnAtDeath = true;
+    RespawnHeight = 1;
 }
 

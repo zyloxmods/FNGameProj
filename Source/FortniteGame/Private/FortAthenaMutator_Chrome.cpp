@@ -21,10 +21,10 @@ void AFortAthenaMutator_Chrome::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortAthenaMutator_Chrome::AFortAthenaMutator_Chrome() {
-    this->TraversePointClass = NULL;
-    this->FuelSettingGE = NULL;
-    this->TeleportMutator = NULL;
-    this->FinishTraversePoint = NULL;
-    this->bRaceStarted = false;
+    TraversePointClass = NULL;
+    FuelSettingGE = NULL;
+    TeleportMutator = NULL;
+    FinishTraversePoint = NULL;
+    bRaceStarted = false;
 }
 

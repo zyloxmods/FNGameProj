@@ -1,7 +1,7 @@
 #include "CustomCharacterPartAnimInstance_OceanRiderBody.h"
 
 UCustomCharacterPartAnimInstance_OceanRiderBody::UCustomCharacterPartAnimInstance_OceanRiderBody() {
-    this->HeadRot = 1;
-    this->LeftArmDown = 1;
+    HeadRot = 1;
+    LeftArmDown = 1;
 }
 

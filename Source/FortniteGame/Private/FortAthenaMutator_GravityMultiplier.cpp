@@ -1,7 +1,7 @@
 #include "FortAthenaMutator_GravityMultiplier.h"
 
 AFortAthenaMutator_GravityMultiplier::AFortAthenaMutator_GravityMultiplier() {
-    this->GravityOverride = 0;
-    this->GravityPresets = NULL;
+    GravityOverride = 0;
+    GravityPresets = NULL;
 }
 

@@ -14,6 +14,6 @@ private:
     TSoftObjectPtr<UFortCardPackItemDefinition> CardPackReward;
     
 public:
-    UFortItemCacheItemDefinition();
+    UFortItemCacheItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -10,6 +10,6 @@ void UFortContextualTutorial_StormForming::HandleGamePhaseStepChanged(const TScr
 }
 
 UFortContextualTutorial_StormForming::UFortContextualTutorial_StormForming() {
-    this->bPreviousMapOpen = false;
+    bPreviousMapOpen = false;
 }
 

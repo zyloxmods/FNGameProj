@@ -51,9 +51,9 @@ void UFortPhysicsObjectComponent::BroadcastAngularVelocity_Implementation(FVecto
 }
 
 UFortPhysicsObjectComponent::UFortPhysicsObjectComponent() {
-    this->PhysicsPreset = NULL;
-    this->bInitializeUsingRootComponent = true;
-    this->SimulatingComponent = NULL;
-    this->BuoyancyComponent = NULL;
+    PhysicsPreset = NULL;
+    bInitializeUsingRootComponent = true;
+    SimulatingComponent = NULL;
+    BuoyancyComponent = NULL;
 }
 

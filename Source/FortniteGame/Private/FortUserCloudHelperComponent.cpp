@@ -1,7 +1,7 @@
 #include "FortUserCloudHelperComponent.h"
 
 UFortUserCloudHelperComponent::UFortUserCloudHelperComponent() {
-    this->LastIssuedRequestHandle = 0;
-    this->SaveSizeCompressionThreshold = 0;
+    LastIssuedRequestHandle = 0;
+    SaveSizeCompressionThreshold = 0;
 }
 

@@ -12,14 +12,19 @@
 
 class UFortInteractContextInfoWidget;
 
+/** @class UAthenaGadgetItemDefinition
+    This world item never persists and is used to add "gadget" style gameplay to FNBR.
+    Imagine activatable abilities on the quick bar that provide AOE buffs/debuffs or shoot projectiles
+    Imagine passive/override abilities like swapping your normal jump out for a jet pack
+    Imagine passive effects that grant more shields or faster sprint speed
+    The item will have an optional set of Character Parts so it can override the existing Character Parts
+    as needed. Pairs well with swapping out jump for a jetpack because it could provide the character part
+    backpack for the jet pack.
+*/
 UCLASS(Blueprintable)
 class FORTNITEGAME_API UAthenaGadgetItemDefinition : public UFortGadgetItemDefinition, public IFortCreativeTagsBearer {
     GENERATED_BODY()
 public:
-    virtual FPrimaryAssetId GetPrimaryAssetId() const override
-    {
-        return FPrimaryAssetId("AthenaGadget", GetFName());
-    }
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bCanBeDroppedWhenEquipmentChangeIsBlocked: 1;
     
@@ -73,8 +78,10 @@ private:
     FFortCreativeTagsHelper CreativeTagsHelper;
     
 public:
-    UAthenaGadgetItemDefinition();
-    
-    // Fix for true pure virtual functions not being implemented
+    UAthenaGadgetItemDefinition(const FObjectInitializer& ObjectInitializer);
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaGadget", GetFName());
+    }
 };
 

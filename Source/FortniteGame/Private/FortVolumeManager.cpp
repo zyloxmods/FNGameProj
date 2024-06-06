@@ -177,11 +177,11 @@ void AFortVolumeManager::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AFortVolumeManager::AFortVolumeManager() {
-    this->BlackListClassesTable = NULL;
-    this->BlackListObjectsTable = NULL;
-    this->bInSpawningStartup = false;
-    this->OverlapQueue = NULL;
-    this->TraceQueue = NULL;
-    this->FortCreativeGeneralThrottleManager = NULL;
+    BlackListClassesTable = NULL;
+    BlackListObjectsTable = NULL;
+    bInSpawningStartup = false;
+    OverlapQueue = NULL;
+    TraceQueue = NULL;
+    FortCreativeGeneralThrottleManager = NULL;
 }
 

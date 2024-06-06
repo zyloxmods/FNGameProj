@@ -5,6 +5,6 @@ UFortAsyncAction_CurrentQuestsReady* UFortAsyncAction_CurrentQuestsReady::Curren
 }
 
 UFortAsyncAction_CurrentQuestsReady::UFortAsyncAction_CurrentQuestsReady() {
-    this->MyQuestManager = NULL;
+    MyQuestManager = NULL;
 }
 

@@ -4,23 +4,23 @@ void AWrapPreviewGridActor::SetWrap(UAthenaItemWrapDefinition* NewWrap) {
 }
 
 AWrapPreviewGridActor::AWrapPreviewGridActor() {
-    this->WrapToApply = NULL;
-    this->MaterialTypeForRawMeshes = EItemWrapMaterialType::WeaponWrap;
-    this->WidthInItems = 0;
-    this->bScanForWeapons = false;
-    this->bShowRangedWeapons = true;
-    this->bShowMeleeWeapons = false;
-    this->bExcludePrototypeRangedWeapons = false;
-    this->bFilterOutRarityDupesForRangedWeapons = true;
-    this->bFilterOutTierDupesForWeapons = false;
-    this->bFilterOutCraftingMaterialDupesForWeapons = false;
-    this->LockerFilterMode = EWrapPreviewGridLockerMode::IgnoreLockerConfiguration;
-    this->bShowOnlyItemsThatDontHaveWrapLockerSlot = false;
-    this->bShowWrapMatchIcon = true;
-    this->bHasSectionLimit = false;
-    this->MaterialSectionMask = 0;
-    this->FailedToMatchLockerMarker = NULL;
-    this->StatusIconSize = 1;
-    this->bStatusIconScreenSizeScaled = true;
+    WrapToApply = NULL;
+    MaterialTypeForRawMeshes = EItemWrapMaterialType::WeaponWrap;
+    WidthInItems = 0;
+    bScanForWeapons = false;
+    bShowRangedWeapons = true;
+    bShowMeleeWeapons = false;
+    bExcludePrototypeRangedWeapons = false;
+    bFilterOutRarityDupesForRangedWeapons = true;
+    bFilterOutTierDupesForWeapons = false;
+    bFilterOutCraftingMaterialDupesForWeapons = false;
+    LockerFilterMode = EWrapPreviewGridLockerMode::IgnoreLockerConfiguration;
+    bShowOnlyItemsThatDontHaveWrapLockerSlot = false;
+    bShowWrapMatchIcon = true;
+    bHasSectionLimit = false;
+    MaterialSectionMask = 0;
+    FailedToMatchLockerMarker = NULL;
+    StatusIconSize = 1;
+    bStatusIconScreenSizeScaled = true;
 }
 

@@ -1,8 +1,8 @@
 #include "TrackDynamicBackground.h"
 
 FTrackDynamicBackground::FTrackDynamicBackground() {
-    this->bIsSpecial = false;
-    this->bIsFoil = false;
-    this->MinimalDiscoveryLevel = 0;
+    bIsSpecial = false;
+    bIsFoil = false;
+    MinimalDiscoveryLevel = 0;
 }
 

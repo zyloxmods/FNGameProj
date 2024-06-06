@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaChallengeBundleQuestDefinition : public UFortQuestItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaChallengeBundleQuestDefinition();
+    UAthenaChallengeBundleQuestDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -1,6 +1,7 @@
 #include "FortCurrencyItemDefinition.h"
 
-UFortCurrencyItemDefinition::UFortCurrencyItemDefinition() {
-	this->ItemType = EFortItemType::Currency;
+UFortCurrencyItemDefinition::UFortCurrencyItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+	ItemType = EFortItemType::Currency;
 }
 

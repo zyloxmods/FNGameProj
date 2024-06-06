@@ -1,8 +1,8 @@
 #include "FortAthenaAIBotReviveDigestedSkillSet.h"
 
 UFortAthenaAIBotReviveDigestedSkillSet::UFortAthenaAIBotReviveDigestedSkillSet() {
-    this->AllyEvaluationTime = 1;
-    this->AllyEvaluationTimeDeviation = 1;
-    this->CooldownOnCancel = 1;
+    AllyEvaluationTime = 1;
+    AllyEvaluationTimeDeviation = 1;
+    CooldownOnCancel = 1;
 }
 

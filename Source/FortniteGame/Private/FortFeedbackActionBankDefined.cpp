@@ -1,7 +1,7 @@
 #include "FortFeedbackActionBankDefined.h"
 
 FFortFeedbackActionBankDefined::FFortFeedbackActionBankDefined() {
-    this->MinReplayTime = 1;
-    this->MinReplayTimeForSpeaker = 1;
+    MinReplayTime = 1;
+    MinReplayTimeForSpeaker = 1;
 }
 

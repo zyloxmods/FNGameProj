@@ -1,6 +1,7 @@
 #include "FortNeverPersistItemDefinition.h"
 
-UFortNeverPersistItemDefinition::UFortNeverPersistItemDefinition() {
-    this->bAccumulateOnPlayerState = false;
+UFortNeverPersistItemDefinition::UFortNeverPersistItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bAccumulateOnPlayerState = false;
 }
 

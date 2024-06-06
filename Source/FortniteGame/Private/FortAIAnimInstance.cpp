@@ -4,30 +4,30 @@ void UFortAIAnimInstance::AnimNotify_SleepingFullyBlended(const UAnimNotify* Not
 }
 
 UFortAIAnimInstance::UFortAIAnimInstance() {
-    this->Speed = 1;
-    this->UpwardVelocity = 1;
-    this->MovementDirection = 1;
-    this->LowerBodyCurrentWeight = 1;
-    this->LowerBodyBlendTime = 1;
-    this->RunVariation = 0;
-    this->WalkVariation = 0;
-    this->MovementStyle = EFortMovementStyle::Running;
-    this->BlockGetUp = false;
-    this->bIsStunned = false;
-    this->bIsKnockedback = false;
-    this->bIsStaggered = false;
-    this->bIsSleeping = false;
-    this->bIsDBNO = false;
-    this->bIsDead = false;
-    this->bIsSprinting = false;
-    this->bIsCowering = false;
-    this->bHasWeapon = false;
-    this->bAdditiveHitReactLoop = false;
-    this->bUseAltSleepAnim = false;
-    this->bShouldUseMovementLocomotion = false;
-    this->bCanLookAtAimTarget = false;
-    this->bIsTargeting = false;
-    this->bTransitionToIdle = false;
-    this->WeaponCoreAnimation = EFortWeaponCoreAnimation::Melee;
+    Speed = 1;
+    UpwardVelocity = 1;
+    MovementDirection = 1;
+    LowerBodyCurrentWeight = 1;
+    LowerBodyBlendTime = 1;
+    RunVariation = 0;
+    WalkVariation = 0;
+    MovementStyle = EFortMovementStyle::Running;
+    BlockGetUp = false;
+    bIsStunned = false;
+    bIsKnockedback = false;
+    bIsStaggered = false;
+    bIsSleeping = false;
+    bIsDBNO = false;
+    bIsDead = false;
+    bIsSprinting = false;
+    bIsCowering = false;
+    bHasWeapon = false;
+    bAdditiveHitReactLoop = false;
+    bUseAltSleepAnim = false;
+    bShouldUseMovementLocomotion = false;
+    bCanLookAtAimTarget = false;
+    bIsTargeting = false;
+    bTransitionToIdle = false;
+    WeaponCoreAnimation = EFortWeaponCoreAnimation::Melee;
 }
 

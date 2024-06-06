@@ -18,6 +18,6 @@ void UInfiltrationCarryObjectComponent::GetLifetimeReplicatedProps(TArray<FLifet
 }
 
 UInfiltrationCarryObjectComponent::UInfiltrationCarryObjectComponent() {
-    this->bIsInteractable = false;
+    bIsInteractable = false;
 }
 

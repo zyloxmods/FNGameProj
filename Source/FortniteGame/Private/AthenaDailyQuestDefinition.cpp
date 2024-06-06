@@ -1,5 +1,6 @@
 #include "AthenaDailyQuestDefinition.h"
 
-UAthenaDailyQuestDefinition::UAthenaDailyQuestDefinition() {
+UAthenaDailyQuestDefinition::UAthenaDailyQuestDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

@@ -1,9 +1,9 @@
 #include "AthenaQuickChatLeafEntry.h"
 
 FAthenaQuickChatLeafEntry::FAthenaQuickChatLeafEntry() {
-    this->bPopulateBrushFromContextObject = false;
-    this->FilterType = EAthenaQuickChatFilteringType::AlwaysVisible;
-    this->EmojiItemDefinition = NULL;
-    this->TeamCommType = ETeamMemberState::None;
+    bPopulateBrushFromContextObject = false;
+    FilterType = EAthenaQuickChatFilteringType::AlwaysVisible;
+    EmojiItemDefinition = NULL;
+    TeamCommType = ETeamMemberState::None;
 }
 

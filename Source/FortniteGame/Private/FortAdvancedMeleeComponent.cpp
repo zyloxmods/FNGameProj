@@ -8,9 +8,9 @@ void UFortAdvancedMeleeComponent::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 UFortAdvancedMeleeComponent::UFortAdvancedMeleeComponent() {
-    this->AttackRangePrimary = 1;
-    this->AttackRangeJab = 1;
-    this->AttackRangeSpin = 1;
-    this->AttackRangeSecondary = 1;
+    AttackRangePrimary = 1;
+    AttackRangeJab = 1;
+    AttackRangeSpin = 1;
+    AttackRangeSecondary = 1;
 }
 

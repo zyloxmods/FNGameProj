@@ -1,7 +1,7 @@
 #include "MinigameItemData.h"
 
 FMinigameItemData::FMinigameItemData() {
-    this->ItemQuantity = 0;
-    this->TrackedIndex = 0;
+    ItemQuantity = 0;
+    TrackedIndex = 0;
 }
 

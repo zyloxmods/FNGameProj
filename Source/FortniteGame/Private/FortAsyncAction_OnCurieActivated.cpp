@@ -5,6 +5,6 @@ UFortAsyncAction_OnCurieActivated* UFortAsyncAction_OnCurieActivated::OnCurieAct
 }
 
 UFortAsyncAction_OnCurieActivated::UFortAsyncAction_OnCurieActivated() {
-    this->ContextObject = NULL;
+    ContextObject = NULL;
 }
 

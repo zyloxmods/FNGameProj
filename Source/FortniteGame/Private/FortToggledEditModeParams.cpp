@@ -7,8 +7,8 @@ void UFortToggledEditModeParams::BreakParams(AFortPlayerController*& _PlayerThat
 }
 
 UFortToggledEditModeParams::UFortToggledEditModeParams() {
-    this->PlayerThatToggledEditMode = NULL;
-    this->EditableActor = NULL;
-    this->bInEditMode = false;
+    PlayerThatToggledEditMode = NULL;
+    EditableActor = NULL;
+    bInEditMode = false;
 }
 

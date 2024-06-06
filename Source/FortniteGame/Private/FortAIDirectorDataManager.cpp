@@ -8,6 +8,6 @@ float AFortAIDirectorDataManager::GetAIDirectorFactorValue(EFortAIDirectorFactor
 }
 
 AFortAIDirectorDataManager::AFortAIDirectorDataManager() {
-    this->OwnerObject = NULL;
+    OwnerObject = NULL;
 }
 

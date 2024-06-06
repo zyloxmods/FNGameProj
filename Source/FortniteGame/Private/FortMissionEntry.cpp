@@ -1,11 +1,11 @@
 #include "FortMissionEntry.h"
 
 FFortMissionEntry::FFortMissionEntry() {
-    this->Weight = 1;
-    this->WorldMinLevel = 0;
-    this->WorldMaxLevel = 0;
-    this->MissionGenerator = NULL;
-    this->MissionInfo = NULL;
-    this->GenerationCategory = EMissionGenerationCategory::Primary;
+    Weight = 1;
+    WorldMinLevel = 0;
+    WorldMaxLevel = 0;
+    MissionGenerator = NULL;
+    MissionInfo = NULL;
+    GenerationCategory = EMissionGenerationCategory::Primary;
 }
 

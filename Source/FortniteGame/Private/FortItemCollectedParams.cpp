@@ -7,8 +7,8 @@ void UFortItemCollectedParams::BreakParams(UFortWorldItemDefinition*& _Collected
 }
 
 UFortItemCollectedParams::UFortItemCollectedParams() {
-    this->CollectedItemDefinition = NULL;
-    this->CollectedBy = NULL;
-    this->AmountCollected = 0;
+    CollectedItemDefinition = NULL;
+    CollectedBy = NULL;
+    AmountCollected = 0;
 }
 

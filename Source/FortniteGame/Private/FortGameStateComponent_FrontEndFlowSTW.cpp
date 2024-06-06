@@ -10,8 +10,8 @@ void UFortGameStateComponent_FrontEndFlowSTW::HandleClientEvent_HomebasePersonal
 }
 
 UFortGameStateComponent_FrontEndFlowSTW::UFortGameStateComponent_FrontEndFlowSTW() {
-    this->NameHomebaseAnnouncement = NULL;
-    this->SatelliteCinematicAnnouncement = NULL;
-    this->BannerWidgetClass = NULL;
+    NameHomebaseAnnouncement = NULL;
+    SatelliteCinematicAnnouncement = NULL;
+    BannerWidgetClass = NULL;
 }
 

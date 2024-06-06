@@ -1,7 +1,7 @@
 #include "TimeOfDayOverride.h"
 
 FTimeOfDayOverride::FTimeOfDayOverride() {
-    this->TimeOfDay = 1;
-    this->TimeOfDaySpeed = 1;
+    TimeOfDay = 1;
+    TimeOfDaySpeed = 1;
 }
 

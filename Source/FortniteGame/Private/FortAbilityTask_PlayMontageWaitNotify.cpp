@@ -20,6 +20,6 @@ void UFortAbilityTask_PlayMontageWaitNotify::OnAbilityCancelled() {
 }
 
 UFortAbilityTask_PlayMontageWaitNotify::UFortAbilityTask_PlayMontageWaitNotify() {
-    this->MontageToPlay = NULL;
+    MontageToPlay = NULL;
 }
 

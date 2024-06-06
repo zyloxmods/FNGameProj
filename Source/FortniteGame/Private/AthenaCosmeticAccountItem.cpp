@@ -21,6 +21,6 @@ UFortHero* UAthenaCosmeticAccountItem::GetHero() const {
 }
 
 UAthenaCosmeticAccountItem::UAthenaCosmeticAccountItem() {
-    this->Hero = NULL;
+    Hero = NULL;
 }
 

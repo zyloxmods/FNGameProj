@@ -1,6 +1,6 @@
 #include "TrackCategory.h"
 
 FTrackCategory::FTrackCategory() {
-    this->CategoryStartingLevel = 0;
+    CategoryStartingLevel = 0;
 }
 

@@ -7,7 +7,7 @@ void UFortPlayerDBNORevivedParams::BreakParams(AFortPlayerPawn*& _RevivedPlayer,
 }
 
 UFortPlayerDBNORevivedParams::UFortPlayerDBNORevivedParams() {
-    this->RevivedPlayer = NULL;
-    this->RevivedBy = NULL;
+    RevivedPlayer = NULL;
+    RevivedBy = NULL;
 }
 

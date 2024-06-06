@@ -37,19 +37,19 @@ void UFortStreamMediaSource::DisableSharing() {
 }
 
 UFortStreamMediaSource::UFortStreamMediaSource() {
-    this->VideoStreamSource = TEXT("Rabbit:ElectraA");
-    this->VideoStreamSourceAB = 1;
-    this->bIsLive = false;
-    this->bBlurlLive = false;
-    this->MaxResolution = 0;
-    this->MaxBandwidth = 0;
-    this->AspectRatio = 1;
-    this->bShareLock = false;
-    this->bAudioOnly = false;
-    this->bPartySync = true;
-    this->MediaDuration = 1;
-    this->bAutoClearCDNDistribution = true;
-    this->FortDownloadLocalizedOverlays = NULL;
-    this->LocalFilePlaybackAsset = NULL;
+    VideoStreamSource = TEXT("Rabbit:ElectraA");
+    VideoStreamSourceAB = 1;
+    bIsLive = false;
+    bBlurlLive = false;
+    MaxResolution = 0;
+    MaxBandwidth = 0;
+    AspectRatio = 1;
+    bShareLock = false;
+    bAudioOnly = false;
+    bPartySync = true;
+    MediaDuration = 1;
+    bAutoClearCDNDistribution = true;
+    FortDownloadLocalizedOverlays = NULL;
+    LocalFilePlaybackAsset = NULL;
 }
 

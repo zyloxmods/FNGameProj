@@ -1,6 +1,6 @@
 #include "DecoyActor.h"
 
 ADecoyActor::ADecoyActor() {
-    this->GoalOverrideRadius = 1;
+    GoalOverrideRadius = 1;
 }
 

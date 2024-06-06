@@ -1,7 +1,7 @@
 #include "FortPathFollowingComponent.h"
 
 UFortPathFollowingComponent::UFortPathFollowingComponent() {
-    this->MyAI = NULL;
-    this->MovementBlockFrustrationCooldownSpeed = 1;
+    MyAI = NULL;
+    MovementBlockFrustrationCooldownSpeed = 1;
 }
 

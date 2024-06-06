@@ -7,11 +7,11 @@ void AFortAthenaTutorial_Harvest::OnBeginOverlapHarvestTriggerBox(AActor* Overla
 }
 
 AFortAthenaTutorial_Harvest::AFortAthenaTutorial_Harvest() {
-    this->HarvestMarker = NULL;
-    this->DoorTargetAppearDelay = 1;
-    this->DoorTargetVisual = NULL;
-    this->HarvestTriggerBox = NULL;
-    this->BlockerHarvest = NULL;
-    this->BuildingToDestroy = NULL;
+    HarvestMarker = NULL;
+    DoorTargetAppearDelay = 1;
+    DoorTargetVisual = NULL;
+    HarvestTriggerBox = NULL;
+    BlockerHarvest = NULL;
+    BuildingToDestroy = NULL;
 }
 

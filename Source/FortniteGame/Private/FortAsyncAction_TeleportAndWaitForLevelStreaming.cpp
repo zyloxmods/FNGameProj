@@ -8,6 +8,6 @@ UFortAsyncAction_TeleportAndWaitForLevelStreaming* UFortAsyncAction_TeleportAndW
 }
 
 UFortAsyncAction_TeleportAndWaitForLevelStreaming::UFortAsyncAction_TeleportAndWaitForLevelStreaming() {
-    this->PlayerPawn = NULL;
+    PlayerPawn = NULL;
 }
 

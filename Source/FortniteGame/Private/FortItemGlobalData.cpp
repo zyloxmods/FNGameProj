@@ -1,13 +1,13 @@
 #include "FortItemGlobalData.h"
 
 UFortItemGlobalData::UFortItemGlobalData() {
-    this->RarityToMaxLevel[0] = 0;
-    this->RarityToMaxLevel[1] = 0;
-    this->RarityToMaxLevel[2] = 0;
-    this->RarityToMaxLevel[3] = 0;
-    this->RarityToMaxLevel[4] = 0;
-    this->RarityToMaxLevel[5] = 0;
-    this->RarityToMaxLevel[6] = 0;
-    this->RarityToMaxLevel[7] = 0;
+    RarityToMaxLevel[0] = 0;
+    RarityToMaxLevel[1] = 0;
+    RarityToMaxLevel[2] = 0;
+    RarityToMaxLevel[3] = 0;
+    RarityToMaxLevel[4] = 0;
+    RarityToMaxLevel[5] = 0;
+    RarityToMaxLevel[6] = 0;
+    RarityToMaxLevel[7] = 0;
 }
 

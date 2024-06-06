@@ -1,10 +1,10 @@
 #include "QuickBarSlot.h"
 
 FQuickBarSlot::FQuickBarSlot() {
-    this->bEnabled = false;
-    this->bIsDirty = false;
-    this->bIsReserved = false;
-    this->bIsOccupied = false;
-    this->UsedBySlotIndex = 0;
+    bEnabled = false;
+    bIsDirty = false;
+    bIsReserved = false;
+    bIsOccupied = false;
+    UsedBySlotIndex = 0;
 }
 

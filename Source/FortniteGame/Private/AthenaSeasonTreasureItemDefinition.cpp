@@ -1,5 +1,6 @@
 #include "AthenaSeasonTreasureItemDefinition.h"
 
-UAthenaSeasonTreasureItemDefinition::UAthenaSeasonTreasureItemDefinition() {
+UAthenaSeasonTreasureItemDefinition::UAthenaSeasonTreasureItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

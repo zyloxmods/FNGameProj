@@ -1,6 +1,6 @@
 #include "FortPlayerSurveyMcpDataSurveyMetadata.h"
 
 FFortPlayerSurveyMcpDataSurveyMetadata::FFortPlayerSurveyMcpDataSurveyMetadata() {
-    this->NumTimesCompleted = 0;
+    NumTimesCompleted = 0;
 }
 

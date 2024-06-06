@@ -21,7 +21,7 @@ protected:
     FName DisallowedEventTag;
     
 public:
-    UFortEventItemDefinitionBase();
+    UFortEventItemDefinitionBase(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, Exec)
     void CreateCalendarPayload();
     

@@ -11,6 +11,6 @@ void AFortLobbyBeaconStateRM::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortLobbyBeaconStateRM::AFortLobbyBeaconStateRM() {
-    this->LobbyTimeRemaining = 0;
+    LobbyTimeRemaining = 0;
 }
 

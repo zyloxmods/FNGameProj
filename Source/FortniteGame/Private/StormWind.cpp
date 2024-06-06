@@ -1,8 +1,8 @@
 #include "StormWind.h"
 
 FStormWind::FStormWind() {
-    this->Radius = 1;
-    this->Magnitude = 1;
-    this->ThreatVisualsManager = NULL;
+    Radius = 1;
+    Magnitude = 1;
+    ThreatVisualsManager = NULL;
 }
 

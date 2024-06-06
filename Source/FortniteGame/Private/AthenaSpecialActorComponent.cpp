@@ -1,7 +1,7 @@
 #include "AthenaSpecialActorComponent.h"
 
 UAthenaSpecialActorComponent::UAthenaSpecialActorComponent() {
-    this->bUseCompassIcon = false;
-    this->RenderDistance = 1;
+    bUseCompassIcon = false;
+    RenderDistance = 1;
 }
 

@@ -1,6 +1,6 @@
 #include "FortPartySquadAssignment.h"
 
 FFortPartySquadAssignment::FFortPartySquadAssignment() {
-    this->AbsoluteMemberIdx = 0;
+    AbsoluteMemberIdx = 0;
 }
 

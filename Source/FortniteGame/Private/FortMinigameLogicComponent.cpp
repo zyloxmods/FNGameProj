@@ -34,9 +34,9 @@ void UFortMinigameLogicComponent::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 UFortMinigameLogicComponent::UFortMinigameLogicComponent() {
-    this->bIsRelevantForMinigameInitialization = true;
-    this->bAlwaysTryHandleDelayedStateChange = false;
-    this->CurrentMinigame = NULL;
-    this->CachedMinigame = NULL;
+    bIsRelevantForMinigameInitialization = true;
+    bAlwaysTryHandleDelayedStateChange = false;
+    CurrentMinigame = NULL;
+    CachedMinigame = NULL;
 }
 

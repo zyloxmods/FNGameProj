@@ -4,16 +4,16 @@ void AFortAthenaMutator_ContextTutorial::HandleGamePhaseChanged(EAthenaGamePhase
 }
 
 AFortAthenaMutator_ContextTutorial::AFortAthenaMutator_ContextTutorial() {
-    this->bEnableTutorials = true;
-    this->bContextTutorialMinimumLevelOverride = 0;
-    this->MessageSound = NULL;
-    this->ConcurrentActiveContextualTutorials = 0;
-    this->CooldownTimeBetweenContextualTutorialTips = 1;
-    this->InCombatGraceTime = 1;
-    this->RayCastDistanceForNearbyEnemyCentimeter = 1;
-    this->WorldMarkerPadding = 1;
-    this->WorldMarkerSockerName = TEXT("ST_Marker");
-    this->bEnableWorldMarker = true;
-    this->bEnableHighlight = true;
+    bEnableTutorials = true;
+    bContextTutorialMinimumLevelOverride = 0;
+    MessageSound = NULL;
+    ConcurrentActiveContextualTutorials = 0;
+    CooldownTimeBetweenContextualTutorialTips = 1;
+    InCombatGraceTime = 1;
+    RayCastDistanceForNearbyEnemyCentimeter = 1;
+    WorldMarkerPadding = 1;
+    WorldMarkerSockerName = TEXT("ST_Marker");
+    bEnableWorldMarker = true;
+    bEnableHighlight = true;
 }
 

@@ -1,11 +1,11 @@
 #include "BlackWidowLegSinAnimationScalar.h"
 
 FBlackWidowLegSinAnimationScalar::FBlackWidowLegSinAnimationScalar() {
-    this->bUseConstantValue = false;
-    this->ConstantValue = 1;
-    this->TimeOffset = 1;
-    this->FrequencyOffset = 1;
-    this->SinOffset = 1;
-    this->ResultMultiplier = 1;
+    bUseConstantValue = false;
+    ConstantValue = 1;
+    TimeOffset = 1;
+    FrequencyOffset = 1;
+    SinOffset = 1;
+    ResultMultiplier = 1;
 }
 

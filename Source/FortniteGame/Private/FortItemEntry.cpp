@@ -1,21 +1,21 @@
 #include "FortItemEntry.h"
 
 FFortItemEntry::FFortItemEntry() {
-    this->Count = 0;
-    this->PreviousCount = 0;
-    this->ItemDefinition = NULL;
-    this->OrderIndex = 0;
-    this->Durability = 1;
-    this->Level = 0;
-    this->LoadedAmmo = 0;
-    this->PhantomReserveAmmo = 0;
-    this->ControlOverride = 0;
-    this->inventory_overflow_date = false;
-    this->bWasGifted = false;
-    this->bIsReplicatedCopy = false;
-    this->bIsDirty = false;
-    this->bUpdateStatsOnCollection = false;
-    this->PickupVariantIndex = 0;
-    this->ItemVariantDataMappingIndex = 0;
+    Count = 0;
+    PreviousCount = 0;
+    ItemDefinition = NULL;
+    OrderIndex = 0;
+    Durability = 1;
+    Level = 0;
+    LoadedAmmo = 0;
+    PhantomReserveAmmo = 0;
+    ControlOverride = 0;
+    inventory_overflow_date = false;
+    bWasGifted = false;
+    bIsReplicatedCopy = false;
+    bIsDirty = false;
+    bUpdateStatsOnCollection = false;
+    PickupVariantIndex = 0;
+    ItemVariantDataMappingIndex = 0;
 }
 

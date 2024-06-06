@@ -8,7 +8,8 @@ UFortPlaceableActorItemDefinition* UFortPlaceableActorItemDefinition::CreatePlac
     return NULL;
 }
 
-UFortPlaceableActorItemDefinition::UFortPlaceableActorItemDefinition() {
-    this->BasePlaceableActorClass = NULL;
+UFortPlaceableActorItemDefinition::UFortPlaceableActorItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    BasePlaceableActorClass = NULL;
 }
 

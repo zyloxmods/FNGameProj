@@ -1,6 +1,7 @@
 #include "FortCloudSaveItemDefinition.h"
 
-UFortCloudSaveItemDefinition::UFortCloudSaveItemDefinition() {
-    this->ContentVersion = 0;
+UFortCloudSaveItemDefinition::UFortCloudSaveItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ContentVersion = 0;
 }
 

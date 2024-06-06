@@ -1,6 +1,6 @@
 #include "WatchedReplayShotInfo.h"
 
 FWatchedReplayShotInfo::FWatchedReplayShotInfo() {
-    this->ShotIndex = 0;
+    ShotIndex = 0;
 }
 

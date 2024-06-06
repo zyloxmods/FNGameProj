@@ -187,27 +187,27 @@ void AFortPhysicsPawnObject::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortPhysicsPawnObject::AFortPhysicsPawnObject() {
-    this->PhysicsMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PhysicsMeshComponent"));
-    this->VisibleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisibleMeshComponent"));
-    this->PrimarySurfaceType = SurfaceType_Default;
-    this->WeaponResponseType = EFortBaseWeaponDamage::Combat;
-    this->bShowDamageNumbers = true;
-    this->bPlayDamageAudio = false;
-    this->ImpulseResponseMultiplier = 1;
-    this->ImpulseResponseZBias = 1;
-    this->CachedSpeed = 1;
-    this->DefaultHitNotifyAudioBank = NULL;
-    this->LifespanAfterDeath = 1;
-    this->bPlayedDying = false;
-    this->LastDamagedTime = 1;
-    this->PlayerCollisionGameplayEffect = NULL;
-    this->AbilitySystemComponent = NULL;
-    this->HealthSet = NULL;
-    this->ImpulseResponseSet = NULL;
-    this->DamageSet = CreateDefaultSubobject<UFortDamageSet>(TEXT("DamageSet"));
-    this->HealthBarIndicator = NULL;
-    this->bPendingDeath = false;
-    this->SurfaceTypePhysicsObjectOn = SurfaceType_Default;
-    this->StartupAbilitySet = NULL;
+    PhysicsMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PhysicsMeshComponent"));
+    VisibleMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("VisibleMeshComponent"));
+    PrimarySurfaceType = SurfaceType_Default;
+    WeaponResponseType = EFortBaseWeaponDamage::Combat;
+    bShowDamageNumbers = true;
+    bPlayDamageAudio = false;
+    ImpulseResponseMultiplier = 1;
+    ImpulseResponseZBias = 1;
+    CachedSpeed = 1;
+    DefaultHitNotifyAudioBank = NULL;
+    LifespanAfterDeath = 1;
+    bPlayedDying = false;
+    LastDamagedTime = 1;
+    PlayerCollisionGameplayEffect = NULL;
+    AbilitySystemComponent = NULL;
+    HealthSet = NULL;
+    ImpulseResponseSet = NULL;
+    DamageSet = CreateDefaultSubobject<UFortDamageSet>(TEXT("DamageSet"));
+    HealthBarIndicator = NULL;
+    bPendingDeath = false;
+    SurfaceTypePhysicsObjectOn = SurfaceType_Default;
+    StartupAbilitySet = NULL;
 }
 

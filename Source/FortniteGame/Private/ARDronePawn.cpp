@@ -14,19 +14,19 @@ void AARDronePawn::ScaleIn() {
 }
 
 AARDronePawn::AARDronePawn() {
-    this->ARRoot = CreateDefaultSubobject<USceneComponent>(TEXT("ARRoot"));
-    this->WebcamRoot = CreateDefaultSubobject<USceneComponent>(TEXT("WebcamRoot"));
-    this->WebcamRotRoot = CreateDefaultSubobject<USceneComponent>(TEXT("WebcamRotRoot"));
-    this->ScreenRoot = CreateDefaultSubobject<USceneComponent>(TEXT("ScreenRoot"));
-    this->MotionBase = CreateDefaultSubobject<USceneComponent>(TEXT("MotionBase0"));
-    this->MotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("MotionController"));
-    this->POVCaptureComponent = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("POVCaptureComponent"));
-    this->ScreenCaptureComponent = CreateDefaultSubobject<UARScreenCaptureComponent>(TEXT("ScreenCaptureComponent"));
-    this->ARCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("ARCapture"));
-    this->MediaPlayer = NULL;
-    this->MediaPlayerVideoFormatIndex = 0;
-    this->WorldToMetersMultiplier = 1;
-    this->ARPostProcessMaterial = NULL;
-    this->ARPostProcessMID = NULL;
+    ARRoot = CreateDefaultSubobject<USceneComponent>(TEXT("ARRoot"));
+    WebcamRoot = CreateDefaultSubobject<USceneComponent>(TEXT("WebcamRoot"));
+    WebcamRotRoot = CreateDefaultSubobject<USceneComponent>(TEXT("WebcamRotRoot"));
+    ScreenRoot = CreateDefaultSubobject<USceneComponent>(TEXT("ScreenRoot"));
+    MotionBase = CreateDefaultSubobject<USceneComponent>(TEXT("MotionBase0"));
+    MotionController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("MotionController"));
+    POVCaptureComponent = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("POVCaptureComponent"));
+    ScreenCaptureComponent = CreateDefaultSubobject<UARScreenCaptureComponent>(TEXT("ScreenCaptureComponent"));
+    ARCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("ARCapture"));
+    MediaPlayer = NULL;
+    MediaPlayerVideoFormatIndex = 0;
+    WorldToMetersMultiplier = 1;
+    ARPostProcessMaterial = NULL;
+    ARPostProcessMID = NULL;
 }
 

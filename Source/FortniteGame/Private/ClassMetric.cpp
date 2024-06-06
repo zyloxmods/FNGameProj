@@ -1,7 +1,7 @@
 #include "ClassMetric.h"
 
 UClassMetric::UClassMetric() {
-    this->TargetClass = NULL;
-    this->TotalNumberOfInstances = 0;
+    TargetClass = NULL;
+    TotalNumberOfInstances = 0;
 }
 

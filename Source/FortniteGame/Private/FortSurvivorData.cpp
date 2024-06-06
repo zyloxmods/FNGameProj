@@ -1,9 +1,9 @@
 #include "FortSurvivorData.h"
 
 UFortSurvivorData::UFortSurvivorData() {
-    this->SurvivorFemaleFirstNameData = NULL;
-    this->SurvivorMaleFirstNameData = NULL;
-    this->SurvivorFemaleLastNameData = NULL;
-    this->SurvivorMaleLastNameData = NULL;
+    SurvivorFemaleFirstNameData = NULL;
+    SurvivorMaleFirstNameData = NULL;
+    SurvivorFemaleLastNameData = NULL;
+    SurvivorMaleLastNameData = NULL;
 }
 

@@ -5,20 +5,19 @@
 void UAthenaEmojiItemDefinition::ConfigureParticleSystem(UParticleSystemComponent* ParticleSystem, TSoftObjectPtr<UTexture2D> OverrideImage) const {
 }
 
-UAthenaEmojiItemDefinition::UAthenaEmojiItemDefinition() {
-    this->FrameIndex = 0;
-    this->FrameCount = 0;
-    this->BaseMaterial = NULL;
-    this->LifetimeIntroSeconds = 1;
-    this->LifetimeMidSeconds = 1;
-    this->LifetimeOutroSeconds = 1;
-    this->GeneratedMaterial = NULL;
+UAthenaEmojiItemDefinition::UAthenaEmojiItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    FrameIndex = 0;
+    FrameCount = 0;
+    BaseMaterial = NULL;
+    LifetimeIntroSeconds = 1;
+    LifetimeMidSeconds = 1;
+    LifetimeOutroSeconds = 1;
+    GeneratedMaterial = NULL;
     ItemType = EFortItemType::AthenaDance;
     bMovingEmote = true;
     GameplayTags.RemoveTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Dance")));
     DisplayName = FText::FromString("Emoticon");
-    UGameplayTagsManager& Manager = UGameplayTagsManager::Get();
-    Manager.AddNativeGameplayTag(TEXT("Cosmetics.EmoteType.Emoji"));
     GameplayTags.AddTag(FGameplayTag::RequestGameplayTag(FName("Cosmetics.EmoteType.Emoji")));
 }
 

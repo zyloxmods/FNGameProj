@@ -1,7 +1,7 @@
 #include "FortNavArea.h"
 
 UFortNavArea::UFortNavArea() {
-    this->bObstacle = false;
-    this->bSmashable = false;
+    bObstacle = false;
+    bSmashable = false;
 }
 

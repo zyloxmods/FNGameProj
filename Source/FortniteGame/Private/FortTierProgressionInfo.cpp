@@ -1,6 +1,6 @@
 #include "FortTierProgressionInfo.h"
 
 FFortTierProgressionInfo::FFortTierProgressionInfo() {
-    this->HighestDefeatedTier = 0;
+    HighestDefeatedTier = 0;
 }
 

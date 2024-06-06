@@ -1,12 +1,12 @@
 #include "ProjectileHomingData.h"
 
 FProjectileHomingData::FProjectileHomingData() {
-    this->HomingStyle = EFortHomingStyle::None;
-    this->MinTurnSpeed = 1;
-    this->MaxTurnSpeed = 1;
-    this->RampTimeFromMinToMaxTurnSpeed = 1;
-    this->LockTargetDistanceThreshold = 1;
-    this->RandomSeed = 0;
-    this->ResetTurnSpeedTimer = false;
+    HomingStyle = EFortHomingStyle::None;
+    MinTurnSpeed = 1;
+    MaxTurnSpeed = 1;
+    RampTimeFromMinToMaxTurnSpeed = 1;
+    LockTargetDistanceThreshold = 1;
+    RandomSeed = 0;
+    ResetTurnSpeedTimer = false;
 }
 

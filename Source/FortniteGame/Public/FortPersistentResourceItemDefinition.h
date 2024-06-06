@@ -12,7 +12,7 @@ protected:
     bool bIsEventItem;
     
 public:
-    UFortPersistentResourceItemDefinition();
+    UFortPersistentResourceItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool IsEventItem() const;
 

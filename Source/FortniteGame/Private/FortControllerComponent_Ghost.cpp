@@ -29,12 +29,12 @@ void UFortControllerComponent_Ghost::EndGhostMode() {
 }
 
 UFortControllerComponent_Ghost::UFortControllerComponent_Ghost() {
-    this->ItemProvidingGhostMode = NULL;
-    this->bBecomeInvulnerableWhenGhosted = false;
-    this->bBecomeAIIgnoredWhenGhosted = false;
-    this->bSetHealthAndShieldsToZeroWhenGhosted = false;
-    this->bBecomeGhostOnDBNO = false;
-    this->bOverrideInteractionComponent = false;
-    this->DBNOToGhostReviveGameplayEffect = NULL;
+    ItemProvidingGhostMode = NULL;
+    bBecomeInvulnerableWhenGhosted = false;
+    bBecomeAIIgnoredWhenGhosted = false;
+    bSetHealthAndShieldsToZeroWhenGhosted = false;
+    bBecomeGhostOnDBNO = false;
+    bOverrideInteractionComponent = false;
+    DBNOToGhostReviveGameplayEffect = NULL;
 }
 

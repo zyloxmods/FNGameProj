@@ -1,7 +1,7 @@
 #include "FortCurieWorldFirePlayerSystem.h"
 
 FFortCurieWorldFirePlayerSystem::FFortCurieWorldFirePlayerSystem() {
-    this->ActiveWorldFireSystem = NULL;
-    this->LastFireParticleSampleTimestamp = 1;
+    ActiveWorldFireSystem = NULL;
+    LastFireParticleSampleTimestamp = 1;
 }
 

@@ -67,20 +67,20 @@ void AFortAthenaJackalVehicle::CacheAudioPointers(UFortVehicleAudioVoice* InAudi
 }
 
 AFortAthenaJackalVehicle::AFortAthenaJackalVehicle() {
-    this->FortJackalVehicleConfigsClass = NULL;
-    this->FortJackalVehicleConfigs = NULL;
-    this->NumBoostTimers = 0;
-    this->BoostTimers.AddDefaulted(1);
-    this->SprintCameraModeClass = NULL;
-    this->BoostCameraModeClass = NULL;
-    this->JumpCharge = 1;
-    this->JumpCooldownRemaining = 1;
-    this->CacheBoostFX = NULL;
-    this->CacheLoopingFX = NULL;
-    this->BoostMID = NULL;
-    this->CacheAudioMovement = NULL;
-    this->CacheAudioBoost = NULL;
-    this->CacheAudioWind = NULL;
-    this->BoostingAnimClass = NULL;
+    FortJackalVehicleConfigsClass = NULL;
+    FortJackalVehicleConfigs = NULL;
+    NumBoostTimers = 0;
+    BoostTimers.AddDefaulted(1);
+    SprintCameraModeClass = NULL;
+    BoostCameraModeClass = NULL;
+    JumpCharge = 1;
+    JumpCooldownRemaining = 1;
+    CacheBoostFX = NULL;
+    CacheLoopingFX = NULL;
+    BoostMID = NULL;
+    CacheAudioMovement = NULL;
+    CacheAudioBoost = NULL;
+    CacheAudioWind = NULL;
+    BoostingAnimClass = NULL;
 }
 

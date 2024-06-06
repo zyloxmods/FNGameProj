@@ -1,6 +1,7 @@
 #include "FortAthenaRewardEventGraphPurchaseToken.h"
 
-UFortAthenaRewardEventGraphPurchaseToken::UFortAthenaRewardEventGraphPurchaseToken() {
-    this->ProfileType = EItemProfileType::Common;
+UFortAthenaRewardEventGraphPurchaseToken::UFortAthenaRewardEventGraphPurchaseToken(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ProfileType = EItemProfileType::Common;
 }
 

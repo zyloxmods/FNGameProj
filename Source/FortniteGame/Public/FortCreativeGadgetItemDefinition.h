@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UPlaylistUserOptions* ItemOptions;
     
-    UFortCreativeGadgetItemDefinition();
+    UFortCreativeGadgetItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

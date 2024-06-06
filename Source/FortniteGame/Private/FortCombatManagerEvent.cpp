@@ -1,7 +1,7 @@
 #include "FortCombatManagerEvent.h"
 
 FFortCombatManagerEvent::FFortCombatManagerEvent() {
-    this->EventValue = 1;
-    this->Event = EFortCombatEvents::HuskFollowing;
+    EventValue = 1;
+    Event = EFortCombatEvents::HuskFollowing;
 }
 

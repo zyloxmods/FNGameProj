@@ -25,16 +25,17 @@ bool UAthenaGliderItemDefinition::GetAttachNiagaraEffectToPlayerPawn() const {
     return false;
 }
 
-UAthenaGliderItemDefinition::UAthenaGliderItemDefinition() {
-    this->GliderType = EFortGliderType::Glider;
-    this->bActivateTrailsOnRotationalMovement = true;
-    this->TrailParamName = TEXT("Moving");
-    this->AttachSocket = TEXT("weapon_r");
-    this->bAutoActivate = false;
-    this->DeployEffectTagName = TEXT("GliderDeploy");
-    this->CleanUpDeployEffect = false;
-    this->bAttachNiagaraEffectToPlayerPawn = false;
-    this->UserSkeletonParameterName = TEXT("SkeletalMesh");
-    this->AuthoredData = NULL;
+UAthenaGliderItemDefinition::UAthenaGliderItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    GliderType = EFortGliderType::Glider;
+    bActivateTrailsOnRotationalMovement = true;
+    TrailParamName = TEXT("Moving");
+    AttachSocket = TEXT("weapon_r");
+    bAutoActivate = false;
+    DeployEffectTagName = TEXT("GliderDeploy");
+    CleanUpDeployEffect = false;
+    bAttachNiagaraEffectToPlayerPawn = false;
+    UserSkeletonParameterName = TEXT("SkeletalMesh");
+    AuthoredData = NULL;
 }
 

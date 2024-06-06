@@ -46,7 +46,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftClassPtr<UUserWidget> GiftBoxHeaderSubWidgetRef;
     
-    UFortGiftBoxItemDefinition();
+    UFortGiftBoxItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable)
     bool TryLoadPreMessageWidgetClass(TSubclassOf<UUserWidget>& OutWidgetClass);
     

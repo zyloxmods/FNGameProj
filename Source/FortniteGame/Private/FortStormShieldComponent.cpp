@@ -17,8 +17,8 @@ void UFortStormShieldComponent::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 UFortStormShieldComponent::UFortStormShieldComponent() {
-    this->bCareAboutEdgeOfStorm = false;
-    this->bDisabled = false;
-    this->DistanceFromEdgeOfStormShield = 1;
+    bCareAboutEdgeOfStorm = false;
+    bDisabled = false;
+    DistanceFromEdgeOfStormShield = 1;
 }
 

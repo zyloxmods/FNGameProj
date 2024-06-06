@@ -16,8 +16,8 @@ bool ABuildingPhoenixRepairActor::CanWeaponBeRepaired(UFortWorldItem* WeaponItem
 }
 
 ABuildingPhoenixRepairActor::ABuildingPhoenixRepairActor() {
-    this->bCallOnLocalInteract = false;
-    this->bCurrentInteractionSuccess = false;
-    this->RepairedWeaponRarity = EFortRarity::Common;
+    bCallOnLocalInteract = false;
+    bCurrentInteractionSuccess = false;
+    RepairedWeaponRarity = EFortRarity::Common;
 }
 

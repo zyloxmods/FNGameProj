@@ -1,6 +1,6 @@
 #include "FortMissionInfoOption.h"
 
 FFortMissionInfoOption::FFortMissionInfoOption() {
-    this->MinDifficultyLevel = 1;
+    MinDifficultyLevel = 1;
 }
 

@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<TSoftClassPtr<UGameplayEffect>> BuffEffects;
     
-    UFortAccountBuffItemDefinition();
+    UFortAccountBuffItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

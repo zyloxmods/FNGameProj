@@ -1,7 +1,7 @@
 #include "ThreatGridIndex.h"
 
 FThreatGridIndex::FThreatGridIndex() {
-    this->X = 0;
-    this->Y = 0;
+    X = 0;
+    Y = 0;
 }
 

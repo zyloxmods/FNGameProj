@@ -14,6 +14,6 @@ UFortPlayerSurveyBase* UFortPlayerSurveyQuestionSelector::GetSurvey() const {
 }
 
 UFortPlayerSurveyQuestionSelector::UFortPlayerSurveyQuestionSelector() {
-    this->Survey = NULL;
+    Survey = NULL;
 }
 

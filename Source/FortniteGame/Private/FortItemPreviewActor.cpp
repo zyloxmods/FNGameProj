@@ -10,9 +10,9 @@ bool AFortItemPreviewActor::ArePreviewVisualsReady() const {
 }
 
 AFortItemPreviewActor::AFortItemPreviewActor() {
-    this->SpecialEventMaterial = NULL;
-    this->ItemPreviewRootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("ItemPreviewRootComponent"));
-    this->UserRotationComponent = CreateDefaultSubobject<USceneComponent>(TEXT("UserRotationComponent"));
-    this->ZoomLevel = 1;
+    SpecialEventMaterial = NULL;
+    ItemPreviewRootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("ItemPreviewRootComponent"));
+    UserRotationComponent = CreateDefaultSubobject<USceneComponent>(TEXT("UserRotationComponent"));
+    ZoomLevel = 1;
 }
 

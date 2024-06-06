@@ -1,8 +1,9 @@
 #include "FortVehicleItemDefinition.h"
 
-UFortVehicleItemDefinition::UFortVehicleItemDefinition() {
-    this->WrapPreviewSectionMask = 0;
-    this->bUseInWrapPreviewList = false;
-    this->ItemType = EFortItemType::Vehicle;
+UFortVehicleItemDefinition::UFortVehicleItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    WrapPreviewSectionMask = 0;
+    bUseInWrapPreviewList = false;
+    ItemType = EFortItemType::Vehicle;
 }
 

@@ -2,9 +2,9 @@
 #include "FortPartyBeaconClient.h"
 
 UFortSessionHelper::UFortSessionHelper() {
-    this->BeaconClientClass = AFortPartyBeaconClient::StaticClass();
-    this->PartyBeaconClient = NULL;
-    this->CurrentJoinState = EFortSessionHelperJoinState::NotJoining;
-    this->CurrentJoinResult = EFortSessionHelperJoinResult::NoResult;
+    BeaconClientClass = AFortPartyBeaconClient::StaticClass();
+    PartyBeaconClient = NULL;
+    CurrentJoinState = EFortSessionHelperJoinState::NotJoining;
+    CurrentJoinResult = EFortSessionHelperJoinResult::NoResult;
 }
 

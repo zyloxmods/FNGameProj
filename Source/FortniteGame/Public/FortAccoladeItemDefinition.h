@@ -61,7 +61,7 @@ protected:
     TArray<FAccoladeSecondaryXpType> SecondaryXpValues;
     
 public:
-    UFortAccoladeItemDefinition();
+    UFortAccoladeItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     EXPEventPriorityType GetPriority() const;
     

@@ -1,9 +1,9 @@
 #include "FortAthenaAIBotHarvestDigestedSkillSet.h"
 
 UFortAthenaAIBotHarvestDigestedSkillSet::UFortAthenaAIBotHarvestDigestedSkillSet() {
-    this->DelayBetweenHarvest = 1;
-    this->DeviationTimeBetweenHarvest = 1;
-    this->HarvestingMaxDistanceSquared = 1;
-    this->WeakSpotHitProbability = 1;
+    DelayBetweenHarvest = 1;
+    DeviationTimeBetweenHarvest = 1;
+    HarvestingMaxDistanceSquared = 1;
+    WeakSpotHitProbability = 1;
 }
 

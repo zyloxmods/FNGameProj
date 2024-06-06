@@ -1,9 +1,9 @@
 #include "FortCriteriaRequirementData.h"
 
 FFortCriteriaRequirementData::FFortCriteriaRequirementData() {
-    this->bGlobalMod = false;
-    this->ModValue = 1;
-    this->bRequireRarity = false;
-    this->RequiredRarity = EFortRarity::Common;
+    bGlobalMod = false;
+    ModValue = 1;
+    bRequireRarity = false;
+    RequiredRarity = EFortRarity::Common;
 }
 

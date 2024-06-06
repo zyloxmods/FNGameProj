@@ -12,9 +12,9 @@ bool UFortMediaPlayerCtrl::OpenSourceWithOptions(UMediaSource* InMediaSource, co
 }
 
 UFortMediaPlayerCtrl::UFortMediaPlayerCtrl() {
-    this->MediaPlayer = NULL;
-    this->MediaSource = NULL;
-    this->InitialBufferDurationInSeconds = 1;
-    this->SegmentBufferDurationInSeconds = 1;
+    MediaPlayer = NULL;
+    MediaSource = NULL;
+    InitialBufferDurationInSeconds = 1;
+    SegmentBufferDurationInSeconds = 1;
 }
 

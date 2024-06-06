@@ -54,24 +54,24 @@ void AFortThreatVisualsManager::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortThreatVisualsManager::AFortThreatVisualsManager() {
-    this->CloudBlueprint = NULL;
-    this->CloudRadius = 1;
-    this->ThreatBoxVolumeTopPadding = 1;
-    this->ThreatBoxVolumeBottomPadding = 1;
-    this->bUseLocalPlayersOnlyForCloudMinimumHeight = true;
-    this->bHideClouds = false;
-    this->CloudMinimumHeightAbovePlayers = 1;
-    this->CloudMinimumHeightAboveGround = 1;
-    this->CloudMinimumAltitude = 1;
-    this->CloudMaxVerticalDelta = 1;
-    this->CloudMinSpeed = 1;
-    this->CloudMaxSpeed = 1;
-    this->StormWindCloudRadius = 1;
-    this->StormWindGoalRadius = 1;
-    this->StormWindFalloffRadius = 1;
-    this->StormWindInactiveMagnitude = 1;
-    this->StormWindActiveMagnitude = 1;
-    this->StormWindDesiredDeltaBlendTime = 1;
-    this->StormWindDirectionAdditionalAngle = 1;
+    CloudBlueprint = NULL;
+    CloudRadius = 1;
+    ThreatBoxVolumeTopPadding = 1;
+    ThreatBoxVolumeBottomPadding = 1;
+    bUseLocalPlayersOnlyForCloudMinimumHeight = true;
+    bHideClouds = false;
+    CloudMinimumHeightAbovePlayers = 1;
+    CloudMinimumHeightAboveGround = 1;
+    CloudMinimumAltitude = 1;
+    CloudMaxVerticalDelta = 1;
+    CloudMinSpeed = 1;
+    CloudMaxSpeed = 1;
+    StormWindCloudRadius = 1;
+    StormWindGoalRadius = 1;
+    StormWindFalloffRadius = 1;
+    StormWindInactiveMagnitude = 1;
+    StormWindActiveMagnitude = 1;
+    StormWindDesiredDeltaBlendTime = 1;
+    StormWindDirectionAdditionalAngle = 1;
 }
 

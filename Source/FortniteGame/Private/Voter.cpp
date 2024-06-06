@@ -1,8 +1,8 @@
 #include "Voter.h"
 
 FVoter::FVoter() {
-    this->VoteDecision = 0;
-    this->LastVoteDecision = 0;
-    this->NumVotesCast = 0;
+    VoteDecision = 0;
+    LastVoteDecision = 0;
+    NumVotesCast = 0;
 }
 

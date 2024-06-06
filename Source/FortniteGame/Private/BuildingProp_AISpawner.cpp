@@ -18,13 +18,13 @@ void ABuildingProp_AISpawner::AdjustCollision(bool bIgnore, UPrimitiveComponent*
 }
 
 ABuildingProp_AISpawner::ABuildingProp_AISpawner() {
-    this->CreativeRiftClass = NULL;
-    this->CreatureManagerComponent = NULL;
-    this->MinigameProgress = CreateDefaultSubobject<UFortMinigameProgressComponent>(TEXT("MinigameComponent"));
-    this->CreativeRift = NULL;
-    this->SpawnLocation = NULL;
-    this->ActivationRangeLevel = 0;
-    this->bUseDistanceToAI = false;
-    this->DespawnRangeOverride = 1;
+    CreativeRiftClass = NULL;
+    CreatureManagerComponent = NULL;
+    MinigameProgress = CreateDefaultSubobject<UFortMinigameProgressComponent>(TEXT("MinigameComponent"));
+    CreativeRift = NULL;
+    SpawnLocation = NULL;
+    ActivationRangeLevel = 0;
+    bUseDistanceToAI = false;
+    DespawnRangeOverride = 1;
 }
 

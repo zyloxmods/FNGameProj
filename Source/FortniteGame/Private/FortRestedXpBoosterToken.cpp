@@ -1,8 +1,9 @@
 #include "FortRestedXpBoosterToken.h"
 
-UFortRestedXpBoosterToken::UFortRestedXpBoosterToken() {
-    this->ProfileType = EItemProfileType::Common;
-    this->RestedXpAmountToGrant = 0;
-    this->bRequiresBattlePass = true;
+UFortRestedXpBoosterToken::UFortRestedXpBoosterToken(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ProfileType = EItemProfileType::Common;
+    RestedXpAmountToGrant = 0;
+    bRequiresBattlePass = true;
 }
 

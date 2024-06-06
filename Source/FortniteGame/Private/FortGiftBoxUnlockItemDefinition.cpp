@@ -1,5 +1,6 @@
 #include "FortGiftBoxUnlockItemDefinition.h"
 
-UFortGiftBoxUnlockItemDefinition::UFortGiftBoxUnlockItemDefinition() {
+UFortGiftBoxUnlockItemDefinition::UFortGiftBoxUnlockItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

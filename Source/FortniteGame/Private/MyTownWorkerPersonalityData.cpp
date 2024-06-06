@@ -1,6 +1,6 @@
 #include "MyTownWorkerPersonalityData.h"
 
 FMyTownWorkerPersonalityData::FMyTownWorkerPersonalityData() {
-    this->SelectionWeight = 0;
+    SelectionWeight = 0;
 }
 

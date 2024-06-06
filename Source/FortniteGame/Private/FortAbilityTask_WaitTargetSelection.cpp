@@ -11,7 +11,7 @@ void UFortAbilityTask_WaitTargetSelection::OnTargetDataCancelledCallback() {
 }
 
 UFortAbilityTask_WaitTargetSelection::UFortAbilityTask_WaitTargetSelection() {
-    this->ConfirmationType = EGameplayTargetingConfirmation::Instant;
-    this->bForceTargetingOnServer = false;
+    ConfirmationType = EGameplayTargetingConfirmation::Instant;
+    bForceTargetingOnServer = false;
 }
 

@@ -1,18 +1,18 @@
 #include "FortTeamMemberInfo.h"
 
 FFortTeamMemberInfo::FFortTeamMemberInfo() {
-    this->bPartyLeader = false;
-    this->bIsInZone = false;
-    this->bHasBoostXp = false;
-    this->bHasRestXp = false;
-    this->bBattlePassPurchased = false;
-    this->BattlePassLevel = 0;
-    this->BattlePassSelfXpBoost = 0;
-    this->BattlePassFriendXpBoost = 0;
-    this->NumPlayersInParty = 0;
-    this->PlayerIndex = 0;
-    this->TeamAffiliation = 0;
-    this->HeroXP = 0;
-    this->HeroItem = NULL;
+    bPartyLeader = false;
+    bIsInZone = false;
+    bHasBoostXp = false;
+    bHasRestXp = false;
+    bBattlePassPurchased = false;
+    BattlePassLevel = 0;
+    BattlePassSelfXpBoost = 0;
+    BattlePassFriendXpBoost = 0;
+    NumPlayersInParty = 0;
+    PlayerIndex = 0;
+    TeamAffiliation = 0;
+    HeroXP = 0;
+    HeroItem = NULL;
 }
 

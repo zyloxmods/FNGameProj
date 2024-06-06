@@ -1,9 +1,9 @@
 #include "LookAtDigestedSetting.h"
 
 FLookAtDigestedSetting::FLookAtDigestedSetting() {
-    this->LookAtDuration = 1;
-    this->LookAtDurationDeviation = 1;
-    this->LookAtDelay = 1;
-    this->LookAtDelayDeviation = 1;
+    LookAtDuration = 1;
+    LookAtDurationDeviation = 1;
+    LookAtDelay = 1;
+    LookAtDelayDeviation = 1;
 }
 

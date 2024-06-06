@@ -1,11 +1,11 @@
 #include "InteriorAudioBuildingRotationConstraint.h"
 
 FInteriorAudioBuildingRotationConstraint::FInteriorAudioBuildingRotationConstraint() {
-    this->StartingOrientation = EInteriorAudioBuildingDefaultRotation::PositiveY;
-    this->XScaleFlipRotation = 1;
-    this->YScaleFlipRotation = 1;
-    this->Quadrant = 0;
-    this->bUseDotProductComparison = false;
-    this->DotProductComparison = 1;
+    StartingOrientation = EInteriorAudioBuildingDefaultRotation::PositiveY;
+    XScaleFlipRotation = 1;
+    YScaleFlipRotation = 1;
+    Quadrant = 0;
+    bUseDotProductComparison = false;
+    DotProductComparison = 1;
 }
 

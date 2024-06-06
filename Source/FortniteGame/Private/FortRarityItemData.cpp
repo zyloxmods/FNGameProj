@@ -1,10 +1,10 @@
 #include "FortRarityItemData.h"
 
 FFortRarityItemData::FFortRarityItemData() {
-    this->Radius = 1;
-    this->Falloff = 1;
-    this->Brightness = 1;
-    this->Roughness = 1;
-    this->Glow = 1;
+    Radius = 1;
+    Falloff = 1;
+    Brightness = 1;
+    Roughness = 1;
+    Glow = 1;
 }
 

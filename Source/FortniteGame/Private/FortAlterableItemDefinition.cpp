@@ -1,5 +1,6 @@
 #include "FortAlterableItemDefinition.h"
 
-UFortAlterableItemDefinition::UFortAlterableItemDefinition() {
+UFortAlterableItemDefinition::UFortAlterableItemDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

@@ -1,11 +1,11 @@
 #include "FortPlayerAthenaAttributeReplicationProxy.h"
 
 FFortPlayerAthenaAttributeReplicationProxy::FFortPlayerAthenaAttributeReplicationProxy() {
-    this->WalkSpeed = 1;
-    this->RunSpeed = 1;
-    this->SprintSpeed = 1;
-    this->FlySpeed = 1;
-    this->CrouchedRunSpeed = 1;
-    this->CrouchedSprintSpeed = 1;
+    WalkSpeed = 1;
+    RunSpeed = 1;
+    SprintSpeed = 1;
+    FlySpeed = 1;
+    CrouchedRunSpeed = 1;
+    CrouchedSprintSpeed = 1;
 }
 

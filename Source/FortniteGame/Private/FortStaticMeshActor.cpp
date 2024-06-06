@@ -1,7 +1,7 @@
 #include "FortStaticMeshActor.h"
 
 AFortStaticMeshActor::AFortStaticMeshActor() {
-    this->LinkCompCount = 0;
-    this->bUseAutoNavmeshFlags = true;
+    LinkCompCount = 0;
+    bUseAutoNavmeshFlags = true;
 }
 

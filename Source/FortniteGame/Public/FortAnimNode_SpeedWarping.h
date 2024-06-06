@@ -8,6 +8,7 @@
 #include "ESpeedWarpingAxisMode.h"
 #include "SpeedWarpingFootData.h"
 #include "SpeedWarpingFootDefinition.h"
+#include "Engine/SpringInterpolator.h"
 #include "FortAnimNode_SpeedWarping.generated.h"
 
 USTRUCT(BlueprintType)

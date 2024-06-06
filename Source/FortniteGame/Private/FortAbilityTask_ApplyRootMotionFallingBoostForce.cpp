@@ -20,11 +20,11 @@ void UFortAbilityTask_ApplyRootMotionFallingBoostForce::GetLifetimeReplicatedPro
 }
 
 UFortAbilityTask_ApplyRootMotionFallingBoostForce::UFortAbilityTask_ApplyRootMotionFallingBoostForce() {
-    this->VerticalImpulse = 1;
-    this->Duration = 1;
-    this->GravityScalar = 1;
-    this->MaxAcceleration = 1;
-    this->LateralFriction = 1;
-    this->MaxLateralSpeed = 1;
+    VerticalImpulse = 1;
+    Duration = 1;
+    GravityScalar = 1;
+    MaxAcceleration = 1;
+    LateralFriction = 1;
+    MaxLateralSpeed = 1;
 }
 

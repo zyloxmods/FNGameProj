@@ -1,7 +1,7 @@
 #include "FortAudioAnalysisSettings.h"
 
 UFortAudioAnalysisSettings::UFortAudioAnalysisSettings() {
-    this->DefaultAnalysisSubmix = NULL;
-    this->DebugWidgetClass = NULL;
+    DefaultAnalysisSubmix = NULL;
+    DebugWidgetClass = NULL;
 }
 

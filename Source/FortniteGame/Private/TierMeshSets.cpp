@@ -1,6 +1,6 @@
 #include "TierMeshSets.h"
 
 FTierMeshSets::FTierMeshSets() {
-    this->Tier = 0;
+    Tier = 0;
 }
 

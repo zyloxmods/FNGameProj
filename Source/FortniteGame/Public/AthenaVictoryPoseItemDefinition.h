@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaVictoryPoseItemDefinition : public UFortMontageItemDefinitionBase {
     GENERATED_BODY()
 public:
-    UAthenaVictoryPoseItemDefinition();
+    UAthenaVictoryPoseItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

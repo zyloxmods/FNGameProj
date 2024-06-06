@@ -35,17 +35,17 @@ void UFortVolumeObjectTrackingComponent::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 UFortVolumeObjectTrackingComponent::UFortVolumeObjectTrackingComponent() {
-    this->ParentVolume = NULL;
-    this->bRunNewVersion = false;
-    this->bHeatmapEnabled = false;
-    this->bHeatmapIsDirty = false;
-    this->ObjectTrackingHeatmapSize = 0;
-    this->bUseHeatmapHighPrecision = false;
-    this->ThermalGroupMatrixSizeX = 0;
-    this->ThermalGroupMatrixSizeY = 0;
-    this->LastHeatmapUpdateTime = 1;
-    this->TargetUpdateTime = 1;
-    this->SpatialInfluenceDistanceMultiplier = 1;
-    this->SpatialThermometerCellSize = 1;
+    ParentVolume = NULL;
+    bRunNewVersion = false;
+    bHeatmapEnabled = false;
+    bHeatmapIsDirty = false;
+    ObjectTrackingHeatmapSize = 0;
+    bUseHeatmapHighPrecision = false;
+    ThermalGroupMatrixSizeX = 0;
+    ThermalGroupMatrixSizeY = 0;
+    LastHeatmapUpdateTime = 1;
+    TargetUpdateTime = 1;
+    SpatialInfluenceDistanceMultiplier = 1;
+    SpatialThermometerCellSize = 1;
 }
 

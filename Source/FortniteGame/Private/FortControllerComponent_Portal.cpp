@@ -24,6 +24,6 @@ bool UFortControllerComponent_Portal::CanCancelPortalMatchmaking() const {
 }
 
 UFortControllerComponent_Portal::UFortControllerComponent_Portal() {
-    this->bAllowRequeueToLinks = false;
+    bAllowRequeueToLinks = false;
 }
 

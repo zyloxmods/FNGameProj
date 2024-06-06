@@ -2,12 +2,12 @@
 #include "Components/StaticMeshComponent.h"
 
 AFortRelevancyZoneIndicator::AFortRelevancyZoneIndicator() {
-    this->RelevancyZoneMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RelevancyZoneMesh"));
-    this->CustomDepthMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CustomDepthMesh"));
-    this->RelevancyZoneToWorldScale = 1;
-    this->MiniMapNetRelevancyOverlayMaterial = NULL;
-    this->MiniMapNetRelevancyCircleMaterial = NULL;
-    this->MinimapNetRelevancyOverlayMID = NULL;
-    this->MinimapNetRelevancyCircleMID = NULL;
+    RelevancyZoneMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RelevancyZoneMesh"));
+    CustomDepthMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CustomDepthMesh"));
+    RelevancyZoneToWorldScale = 1;
+    MiniMapNetRelevancyOverlayMaterial = NULL;
+    MiniMapNetRelevancyCircleMaterial = NULL;
+    MinimapNetRelevancyOverlayMID = NULL;
+    MinimapNetRelevancyCircleMID = NULL;
 }
 

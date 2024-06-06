@@ -1,13 +1,13 @@
 #include "FortCreativeBudgetOverride.h"
 
 FFortCreativeBudgetOverride::FFortCreativeBudgetOverride() {
-    this->AssetCost = 0;
-    this->AssetCostMultiplier = 1;
-    this->InstanceCost = 0;
-    this->InstanceCostMultiplier = 1;
-    this->SimulationCost = 0;
-    this->DrawCall = 0;
-    this->AudioCost = 0;
-    this->NetworkCost = 0;
+    AssetCost = 0;
+    AssetCostMultiplier = 1;
+    InstanceCost = 0;
+    InstanceCostMultiplier = 1;
+    SimulationCost = 0;
+    DrawCall = 0;
+    AudioCost = 0;
+    NetworkCost = 0;
 }
 

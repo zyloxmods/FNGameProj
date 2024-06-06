@@ -40,16 +40,16 @@ bool AFortEventLevelNavigationActor::CanCommitNavigationRequest_Implementation()
 }
 
 AFortEventLevelNavigationActor::AFortEventLevelNavigationActor() {
-    this->WidgetComponent_NavigationWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("WidgetComponent_NavWidget"));
-    this->WidgetComponent_CursorTargetPosition = CreateDefaultSubobject<UWidgetComponent>(TEXT("WidgetComponent_CursorTargetPosition"));
-    this->IndicatorWidgetClass = NULL;
-    this->CursorTargetWidgetClass = NULL;
-    this->DisplayMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CollisionMesh"));
-    this->bAutoClick = false;
-    this->bAlwaysHighliteOnMobile = false;
-    this->MobileHighlightStencilValue = 0;
-    this->bOverrideMobileMeshSize = false;
-    this->MeshSizeOverrideScale = 1;
-    this->CursorHoverHighlightStencilValue = 0;
+    WidgetComponent_NavigationWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("WidgetComponent_NavWidget"));
+    WidgetComponent_CursorTargetPosition = CreateDefaultSubobject<UWidgetComponent>(TEXT("WidgetComponent_CursorTargetPosition"));
+    IndicatorWidgetClass = NULL;
+    CursorTargetWidgetClass = NULL;
+    DisplayMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CollisionMesh"));
+    bAutoClick = false;
+    bAlwaysHighliteOnMobile = false;
+    MobileHighlightStencilValue = 0;
+    bOverrideMobileMeshSize = false;
+    MeshSizeOverrideScale = 1;
+    CursorHoverHighlightStencilValue = 0;
 }
 

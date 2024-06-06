@@ -45,16 +45,16 @@ void UObjectInteractionBehavior::EndCreativeInteraction_Implementation() {
 }
 
 UObjectInteractionBehavior::UObjectInteractionBehavior() {
-    this->StartInteractionAbility = NULL;
-    this->EndInteractionAbility = NULL;
-    this->TriggerInteractionAbility = NULL;
-    this->RotateClockwiseAbility = NULL;
-    this->RotateCounterclockwiseAbility = NULL;
-    this->MirrorAbility = NULL;
-    this->ExitAbility = NULL;
-    this->FailAbility = NULL;
-    this->bShouldAddToParent = true;
-    this->bShouldUseActorToSelection = false;
-    this->Priority = 0;
+    StartInteractionAbility = NULL;
+    EndInteractionAbility = NULL;
+    TriggerInteractionAbility = NULL;
+    RotateClockwiseAbility = NULL;
+    RotateCounterclockwiseAbility = NULL;
+    MirrorAbility = NULL;
+    ExitAbility = NULL;
+    FailAbility = NULL;
+    bShouldAddToParent = true;
+    bShouldUseActorToSelection = false;
+    Priority = 0;
 }
 

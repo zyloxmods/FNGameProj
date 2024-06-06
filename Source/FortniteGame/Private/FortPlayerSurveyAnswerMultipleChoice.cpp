@@ -1,6 +1,6 @@
 #include "FortPlayerSurveyAnswerMultipleChoice.h"
 
 FFortPlayerSurveyAnswerMultipleChoice::FFortPlayerSurveyAnswerMultipleChoice() {
-    this->AnswerIndex = 0;
+    AnswerIndex = 0;
 }
 

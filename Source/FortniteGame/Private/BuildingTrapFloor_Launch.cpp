@@ -2,6 +2,6 @@
 
 
 ABuildingTrapFloor_Launch::ABuildingTrapFloor_Launch() {
-    this->ForceFeedbackName = TEXT("LaunchTrap");
+    ForceFeedbackName = TEXT("LaunchTrap");
 }
 

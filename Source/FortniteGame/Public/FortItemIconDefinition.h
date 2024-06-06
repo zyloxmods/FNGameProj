@@ -15,6 +15,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftObjectPtr<UTexture2D> LargeImage;
     
-    UFortItemIconDefinition();
+    UFortItemIconDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

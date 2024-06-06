@@ -9,11 +9,11 @@ void AFortAthenaMutator_Bots::OnSafeZoneUpdated() {
 }
 
 AFortAthenaMutator_Bots::AFortAthenaMutator_Bots() {
-    this->bBotHostileToHumanPlayersOnly = true;
-    this->CacheBotData = NULL;
-    this->bSpawnInAir = false;
-    this->MaxAroundBotDistanceToSearchPOIToLand = 1;
-    this->CacheCompositeCurveTable = NULL;
-    this->CacheCompositeDataTable = NULL;
+    bBotHostileToHumanPlayersOnly = true;
+    CacheBotData = NULL;
+    bSpawnInAir = false;
+    MaxAroundBotDistanceToSearchPOIToLand = 1;
+    CacheCompositeCurveTable = NULL;
+    CacheCompositeDataTable = NULL;
 }
 

@@ -1,19 +1,19 @@
 #include "FortDynamicBuilder.h"
 
 AFortDynamicBuilder::AFortDynamicBuilder() {
-    this->BuildingInstructions = NULL;
-    this->bSelectiveDestruction = false;
-    this->bDestroyOverlapping = false;
-    this->bDestroyMatchingPiece = false;
-    this->bNoCollisionFail = false;
-    this->bIgnoreMissionActors = false;
-    this->bShrinkAndDestroyEffect = true;
-    this->bDebugDrawBounds = false;
-    this->bUsePlayerBuildAnimations = false;
-    this->BuildingConstructionTime = 1;
-    this->BuildOrder = FDynamicBuildOrder::Z;
-    this->bReverseBuild = false;
-    this->OverrideOwnerPersistentId = 0;
-    this->CurrentIndex = 0;
+    BuildingInstructions = NULL;
+    bSelectiveDestruction = false;
+    bDestroyOverlapping = false;
+    bDestroyMatchingPiece = false;
+    bNoCollisionFail = false;
+    bIgnoreMissionActors = false;
+    bShrinkAndDestroyEffect = true;
+    bDebugDrawBounds = false;
+    bUsePlayerBuildAnimations = false;
+    BuildingConstructionTime = 1;
+    BuildOrder = FDynamicBuildOrder::Z;
+    bReverseBuild = false;
+    OverrideOwnerPersistentId = 0;
+    CurrentIndex = 0;
 }
 

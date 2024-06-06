@@ -17,6 +17,6 @@ void USynchronizedTeleportPlayerComponent::GetLifetimeReplicatedProps(TArray<FLi
 }
 
 USynchronizedTeleportPlayerComponent::USynchronizedTeleportPlayerComponent() {
-    this->bIsServerWaitingForClientToCancelRespawn = false;
+    bIsServerWaitingForClientToCancelRespawn = false;
 }
 

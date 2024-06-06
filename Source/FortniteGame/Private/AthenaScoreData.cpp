@@ -1,8 +1,8 @@
 #include "AthenaScoreData.h"
 
 FAthenaScoreData::FAthenaScoreData() {
-    this->ScoringEvent = EAthenaScoringEvent::None;
-    this->NumOccurrencesForScore = 0;
-    this->NumOccurrencesPermitted = 0;
+    ScoringEvent = EAthenaScoringEvent::None;
+    NumOccurrencesForScore = 0;
+    NumOccurrencesPermitted = 0;
 }
 

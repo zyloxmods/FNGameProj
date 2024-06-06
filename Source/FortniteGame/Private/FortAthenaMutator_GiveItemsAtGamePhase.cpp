@@ -4,6 +4,6 @@ void AFortAthenaMutator_GiveItemsAtGamePhase::OnGamePhaseChanged(EAthenaGamePhas
 }
 
 AFortAthenaMutator_GiveItemsAtGamePhase::AFortAthenaMutator_GiveItemsAtGamePhase() {
-    this->PhaseToGiveItems = EAthenaGamePhase::None;
+    PhaseToGiveItems = EAthenaGamePhase::None;
 }
 

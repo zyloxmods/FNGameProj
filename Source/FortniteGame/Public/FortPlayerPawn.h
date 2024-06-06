@@ -10,7 +10,7 @@
 #include "Engine/EngineTypes.h"
 #include "Components/TimelineComponent.h"
 #include "UObject/NoExportTypes.h"
-	#include "Abilities/GameplayAbilityTypes.h"
+#include "Abilities/GameplayAbilityTypes.h"
 #include "AttributeSet.h"
 #include "AttributeSet.h"
 #include "GameplayTagContainer.h"

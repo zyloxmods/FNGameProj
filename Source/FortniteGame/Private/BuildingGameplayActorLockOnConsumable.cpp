@@ -12,10 +12,10 @@ void ABuildingGameplayActorLockOnConsumable::GetLifetimeReplicatedProps(TArray<F
 }
 
 ABuildingGameplayActorLockOnConsumable::ABuildingGameplayActorLockOnConsumable() {
-    this->SecondsBeforeDeathAfterPickup = 1;
-    this->InteractRadius = 1;
-    this->PawnInterpSpeed = 1;
-    this->PawnDisableRotationSeconds = 1;
-    this->InteractingPawn = NULL;
+    SecondsBeforeDeathAfterPickup = 1;
+    InteractRadius = 1;
+    PawnInterpSpeed = 1;
+    PawnDisableRotationSeconds = 1;
+    InteractingPawn = NULL;
 }
 

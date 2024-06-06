@@ -1,6 +1,6 @@
 #include "PlayerBannerInfo.h"
 
 FPlayerBannerInfo::FPlayerBannerInfo() {
-    this->Level = 0;
+    Level = 0;
 }
 

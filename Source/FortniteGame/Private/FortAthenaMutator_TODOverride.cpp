@@ -9,13 +9,13 @@ TArray<FText> AFortAthenaMutator_TODOverride::GetTimeOfDayPhaseNames() const {
 }
 
 AFortAthenaMutator_TODOverride::AFortAthenaMutator_TODOverride() {
-    this->TimeOfDayOverride = EAthenaTimeOfDayOverride::NoOverride;
-    this->TimeOverride = 1;
-    this->SpeedOverride = 1;
-    this->LightIntensityOverride = EAthenaLightIntensityOverride::NoOverride;
-    this->LightColorOverride = EAthenaTODColor::NoOverride;
-    this->FogDensityOverride = EAthenaFogDensityOverride::NoOverride;
-    this->FogColorOverride = EAthenaTODColor::NoOverride;
-    this->PostProcessOverride = EAthenaTODPostProcess::NoOverride;
+    TimeOfDayOverride = EAthenaTimeOfDayOverride::NoOverride;
+    TimeOverride = 1;
+    SpeedOverride = 1;
+    LightIntensityOverride = EAthenaLightIntensityOverride::NoOverride;
+    LightColorOverride = EAthenaTODColor::NoOverride;
+    FogDensityOverride = EAthenaFogDensityOverride::NoOverride;
+    FogColorOverride = EAthenaTODColor::NoOverride;
+    PostProcessOverride = EAthenaTODPostProcess::NoOverride;
 }
 

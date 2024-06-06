@@ -1,9 +1,9 @@
 #include "FortCurieActiveElectricityArc.h"
 
 FFortCurieActiveElectricityArc::FFortCurieActiveElectricityArc() {
-    this->Mesh = NULL;
-    this->OwningComponent = NULL;
-    this->StartTime = 1;
-    this->bPlayedImpact = false;
+    Mesh = NULL;
+    OwningComponent = NULL;
+    StartTime = 1;
+    bPlayedImpact = false;
 }
 

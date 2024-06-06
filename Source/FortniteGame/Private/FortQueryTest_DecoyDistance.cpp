@@ -2,6 +2,6 @@
 #include "EnvironmentQuery/Contexts/EnvQueryContext_Querier.h"
 
 UFortQueryTest_DecoyDistance::UFortQueryTest_DecoyDistance() {
-    this->DistanceTo = UEnvQueryContext_Querier::StaticClass();
+    DistanceTo = UEnvQueryContext_Querier::StaticClass();
 }
 

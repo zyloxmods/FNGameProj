@@ -1,10 +1,10 @@
 #include "FortAthenaBTTask_BotUnstuckTeleport.h"
 
 UFortAthenaBTTask_BotUnstuckTeleport::UFortAthenaBTTask_BotUnstuckTeleport() {
-    this->CanReachDestinationKeyName = TEXT("NextDestination");
-    this->TeleportExecutionStatusKeyName = TEXT("AIEvaluator_UnstuckTeleport_ExecutionStatus");
-    this->LastPartialPathTimeKeyName = TEXT("AIEvaluator_UnstuckTeleport_LastPartialPathTime");
-    this->LastPartialPathCountKeyName = TEXT("AIEvaluator_UnstuckTeleport_LastPartialCount");
-    this->UnstuckSkillSet = NULL;
+    CanReachDestinationKeyName = TEXT("NextDestination");
+    TeleportExecutionStatusKeyName = TEXT("AIEvaluator_UnstuckTeleport_ExecutionStatus");
+    LastPartialPathTimeKeyName = TEXT("AIEvaluator_UnstuckTeleport_LastPartialPathTime");
+    LastPartialPathCountKeyName = TEXT("AIEvaluator_UnstuckTeleport_LastPartialCount");
+    UnstuckSkillSet = NULL;
 }
 

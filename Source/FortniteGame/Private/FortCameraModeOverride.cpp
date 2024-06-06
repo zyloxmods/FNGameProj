@@ -1,7 +1,7 @@
 #include "FortCameraModeOverride.h"
 
 FFortCameraModeOverride::FFortCameraModeOverride() {
-    this->OriginalClass = NULL;
-    this->ClassOverride = NULL;
+    OriginalClass = NULL;
+    ClassOverride = NULL;
 }
 

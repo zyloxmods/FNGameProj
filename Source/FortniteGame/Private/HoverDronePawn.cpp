@@ -9,6 +9,6 @@ float AHoverDronePawn::GetAltitude() const {
 }
 
 AHoverDronePawn::AHoverDronePawn() {
-    this->HoverMoveComponent = NULL;
+    HoverMoveComponent = NULL;
 }
 

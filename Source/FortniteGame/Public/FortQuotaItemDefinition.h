@@ -19,7 +19,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     int32 RechargeDelayMinutes;
     
-    UFortQuotaItemDefinition();
+    UFortQuotaItemDefinition(const FObjectInitializer& ObjectInitializer);
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("Quota", GetFName());

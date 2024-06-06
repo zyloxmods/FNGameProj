@@ -24,7 +24,7 @@ protected:
     TSoftObjectPtr<UTexture2D> DecalTexture;
     
 public:
-    UAthenaSprayItemDefinition();
+    UAthenaSprayItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool ShouldUseBannerAsTexture() const;
     

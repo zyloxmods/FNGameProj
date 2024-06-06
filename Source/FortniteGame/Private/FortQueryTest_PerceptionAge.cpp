@@ -2,7 +2,7 @@
 #include "Perception/AISense_Sight.h"
 
 UFortQueryTest_PerceptionAge::UFortQueryTest_PerceptionAge() {
-    this->Sense = ECorePerceptionTypes::Sight;
-    this->SenseClass = UAISense_Sight::StaticClass();
+    Sense = ECorePerceptionTypes::Sight;
+    SenseClass = UAISense_Sight::StaticClass();
 }
 

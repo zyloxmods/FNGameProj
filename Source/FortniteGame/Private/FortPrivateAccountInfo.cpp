@@ -1,6 +1,6 @@
 #include "FortPrivateAccountInfo.h"
 
 FFortPrivateAccountInfo::FFortPrivateAccountInfo() {
-    this->MtxBalance = 0;
+    MtxBalance = 0;
 }
 

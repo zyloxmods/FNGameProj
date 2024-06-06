@@ -1,13 +1,13 @@
 #include "FortDamageNumberInfo.h"
 
 FFortDamageNumberInfo::FFortDamageNumberInfo() {
-    this->bIsCriticalDamage = false;
-    this->Damage = 0;
-    this->DamageNumberType = EFortDamageNumberType::None;
-    this->VisualDamageScale = 1;
-    this->ElementalDamageType = EFortElementalDamageType::None;
-    this->ScoreType = EStatCategory::Combat;
-    this->bAttachScoreNumberToPlayer = false;
-    this->StaticMeshComponent = NULL;
+    bIsCriticalDamage = false;
+    Damage = 0;
+    DamageNumberType = EFortDamageNumberType::None;
+    VisualDamageScale = 1;
+    ElementalDamageType = EFortElementalDamageType::None;
+    ScoreType = EStatCategory::Combat;
+    bAttachScoreNumberToPlayer = false;
+    StaticMeshComponent = NULL;
 }
 

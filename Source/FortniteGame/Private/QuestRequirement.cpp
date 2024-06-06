@@ -1,7 +1,7 @@
 #include "QuestRequirement.h"
 
 FQuestRequirement::FQuestRequirement() {
-    this->QuestDef = NULL;
-    this->DesiredState = EFortQuestState::Inactive;
+    QuestDef = NULL;
+    DesiredState = EFortQuestState::Inactive;
 }
 

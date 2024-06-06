@@ -1,6 +1,6 @@
 #include "BuildingNavObstacle.h"
 
 FBuildingNavObstacle::FBuildingNavObstacle() {
-    this->ObstacleType = EBuildingNavObstacleType::UnwalkableAll;
+    ObstacleType = EBuildingNavObstacleType::UnwalkableAll;
 }
 

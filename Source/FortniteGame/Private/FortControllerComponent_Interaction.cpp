@@ -31,27 +31,27 @@ void UFortControllerComponent_Interaction::FixupInteractionWidgetsOnUnzoom() {
 }
 
 UFortControllerComponent_Interaction::UFortControllerComponent_Interaction() {
-    this->ClearActorPendingNonInteractionTime = 1;
-    this->LongInteractAudioComponent = NULL;
-    this->PossibleInteractContextInfo = CreateDefaultSubobject<UFortInteractContextInfo>(TEXT("PossibleInteractContextInfo"));
-    this->InteractResponse = NULL;
-    this->InteractActor = NULL;
-    this->bInteractTraceStartsAtClosestPointDistance = true;
-    this->bFilterInteractTracesBehindMyFortPawn = true;
-    this->bFilterInteractTracesBehindMyFortPawnOtherThanBuildingActors = false;
-    this->bDoNotFilterBuildingActorsThatAreAttachedToPawn = true;
-    this->bFilterInteractTracesBehindMyFortPawnOnlyWithMultipleResults = true;
-    this->bInteractTracesWithStartPenetratingBlock = true;
-    this->bUseReticleAimingIfInitialBlockingInteractTraceBehindMyFortPawn = true;
-    this->InteractTracesCapsuleReductionPct = 1;
-    this->MobileUpdateCachedInteractActorsCooldown = 1;
-    this->MobileUpdateCachedInteractActorsCooldownLength = 1;
-    this->bTapInteractEnabled = false;
-    this->TouchInteractMode = ETouchInteractMode::Off;
-    this->bAllowRetryUse = true;
-    this->bAthena = false;
-    this->bUsePlayerInsteadOfCameraForTraces = false;
-    this->bShouldBlockInteractionsForAllVehiclePassengers = false;
-    this->AutoDoorInteractResponse = NULL;
+    ClearActorPendingNonInteractionTime = 1;
+    LongInteractAudioComponent = NULL;
+    PossibleInteractContextInfo = CreateDefaultSubobject<UFortInteractContextInfo>(TEXT("PossibleInteractContextInfo"));
+    InteractResponse = NULL;
+    InteractActor = NULL;
+    bInteractTraceStartsAtClosestPointDistance = true;
+    bFilterInteractTracesBehindMyFortPawn = true;
+    bFilterInteractTracesBehindMyFortPawnOtherThanBuildingActors = false;
+    bDoNotFilterBuildingActorsThatAreAttachedToPawn = true;
+    bFilterInteractTracesBehindMyFortPawnOnlyWithMultipleResults = true;
+    bInteractTracesWithStartPenetratingBlock = true;
+    bUseReticleAimingIfInitialBlockingInteractTraceBehindMyFortPawn = true;
+    InteractTracesCapsuleReductionPct = 1;
+    MobileUpdateCachedInteractActorsCooldown = 1;
+    MobileUpdateCachedInteractActorsCooldownLength = 1;
+    bTapInteractEnabled = false;
+    TouchInteractMode = ETouchInteractMode::Off;
+    bAllowRetryUse = true;
+    bAthena = false;
+    bUsePlayerInsteadOfCameraForTraces = false;
+    bShouldBlockInteractionsForAllVehiclePassengers = false;
+    AutoDoorInteractResponse = NULL;
 }
 

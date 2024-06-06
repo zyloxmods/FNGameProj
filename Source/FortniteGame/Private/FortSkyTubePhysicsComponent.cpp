@@ -39,11 +39,11 @@ void UFortSkyTubePhysicsComponent::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 UFortSkyTubePhysicsComponent::UFortSkyTubePhysicsComponent() {
-    this->MaxTubeSpeed = 1;
-    this->MaxTubeAcceleration = 1;
-    this->bMagnetizeWhenNotInSkytube = true;
-    this->SkyTube = NULL;
-    this->PrevSkyTube = NULL;
-    this->bMagnetized = true;
+    MaxTubeSpeed = 1;
+    MaxTubeAcceleration = 1;
+    bMagnetizeWhenNotInSkytube = true;
+    SkyTube = NULL;
+    PrevSkyTube = NULL;
+    bMagnetized = true;
 }
 

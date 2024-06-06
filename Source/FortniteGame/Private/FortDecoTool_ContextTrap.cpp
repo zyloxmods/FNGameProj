@@ -17,6 +17,6 @@ void AFortDecoTool_ContextTrap::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortDecoTool_ContextTrap::AFortDecoTool_ContextTrap() {
-    this->ContextTrapItemDefinition = NULL;
+    ContextTrapItemDefinition = NULL;
 }
 

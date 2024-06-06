@@ -1,9 +1,9 @@
 #include "PlaylistUserOptionFloatRange.h"
 
 UPlaylistUserOptionFloatRange::UPlaylistUserOptionFloatRange() {
-    this->min = 1;
-    this->max = 1;
-    this->DefaultValue = 1;
-    this->IncrementValue = 1;
+    min = 1;
+    max = 1;
+    DefaultValue = 1;
+    IncrementValue = 1;
 }
 

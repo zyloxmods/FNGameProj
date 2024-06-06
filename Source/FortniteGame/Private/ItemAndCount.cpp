@@ -1,7 +1,7 @@
 #include "ItemAndCount.h"
 
 FItemAndCount::FItemAndCount() {
-    this->Count = 0;
-    this->Item = NULL;
+    Count = 0;
+    Item = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "FortCollectionBookStat.h"
 
 FFortCollectionBookStat::FFortCollectionBookStat() {
-    this->MaxBookXpLevelAchieved = 0;
+    MaxBookXpLevelAchieved = 0;
 }
 

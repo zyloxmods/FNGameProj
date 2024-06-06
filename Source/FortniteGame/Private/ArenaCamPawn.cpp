@@ -1,6 +1,6 @@
 #include "ArenaCamPawn.h"
 
 AArenaCamPawn::AArenaCamPawn() {
-    this->CurrArenaCamIdx = 0;
+    CurrArenaCamIdx = 0;
 }
 

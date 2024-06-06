@@ -1,14 +1,14 @@
 #include "FortAnimNode_SlopeWarping.h"
 
 FFortAnimNode_SlopeWarping::FFortAnimNode_SlopeWarping() {
-    this->CachedDeltaTime = 1;
-    this->MaxStepHeight = 1;
-    this->bKeepMeshInsideOfCapsule = false;
-    this->bPullPelvisDown = false;
-    this->bUseCustomFloorOffset = false;
-    this->bUseCapsuleInfoInsteadOfFootTraces = false;
-    this->bWasOnGround = false;
-    this->bShowDebug = false;
-    this->bFloorSmoothingInitialized = false;
+    CachedDeltaTime = 1;
+    MaxStepHeight = 1;
+    bKeepMeshInsideOfCapsule = false;
+    bPullPelvisDown = false;
+    bUseCustomFloorOffset = false;
+    bUseCapsuleInfoInsteadOfFootTraces = false;
+    bWasOnGround = false;
+    bShowDebug = false;
+    bFloorSmoothingInitialized = false;
 }
 

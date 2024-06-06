@@ -18,7 +18,7 @@ void UFortCreativeVolumeLinkComponent::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 UFortCreativeVolumeLinkComponent::UFortCreativeVolumeLinkComponent() {
-    this->LinkedVolume = NULL;
-    this->bShouldFindVolumeAtStart = true;
+    LinkedVolume = NULL;
+    bShouldFindVolumeAtStart = true;
 }
 

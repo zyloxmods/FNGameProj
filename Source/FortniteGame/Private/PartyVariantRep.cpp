@@ -1,6 +1,6 @@
 #include "PartyVariantRep.h"
 
 FPartyVariantRep::FPartyVariantRep() {
-    this->dE = 0;
+    dE = 0;
 }
 

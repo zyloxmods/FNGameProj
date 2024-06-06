@@ -9,6 +9,6 @@ TArray<UAthenaSeasonStats*> UFortMcpProfileAthenaStats::GetLifeTimeAndSeasonList
 }
 
 UFortMcpProfileAthenaStats::UFortMcpProfileAthenaStats() {
-    this->LifeTimeStats = NULL;
+    LifeTimeStats = NULL;
 }
 

@@ -18,17 +18,17 @@ void UFortServerBotManagerAthena::JoinTeam(const AController* SourceTeamControll
 }
 
 UFortServerBotManagerAthena::UFortServerBotManagerAthena() {
-    this->CachedGameMode = NULL;
-    this->CachedGameState = NULL;
-    this->CachedBotMutator = NULL;
-    this->bBotHostileToHumanPlayersOnly = false;
-    this->TagQueryWeightChance = NULL;
-    this->BotItemDataTable = NULL;
-    this->MaxAroundBotDistanceToSearchPOIToLand = 1;
-    this->LastTeamPlayerStart = NULL;
-    this->DeadBotCleanupMinDelay = 1;
-    this->CurrentFillingTeam = NULL;
-    this->CurrentBotControllerUID = 0;
-    this->CachedAIPopulationTracker = NULL;
+    CachedGameMode = NULL;
+    CachedGameState = NULL;
+    CachedBotMutator = NULL;
+    bBotHostileToHumanPlayersOnly = false;
+    TagQueryWeightChance = NULL;
+    BotItemDataTable = NULL;
+    MaxAroundBotDistanceToSearchPOIToLand = 1;
+    LastTeamPlayerStart = NULL;
+    DeadBotCleanupMinDelay = 1;
+    CurrentFillingTeam = NULL;
+    CurrentBotControllerUID = 0;
+    CachedAIPopulationTracker = NULL;
 }
 

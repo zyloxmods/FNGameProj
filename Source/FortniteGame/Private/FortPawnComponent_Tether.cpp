@@ -42,33 +42,33 @@ void UFortPawnComponent_Tether::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 UFortPawnComponent_Tether::UFortPawnComponent_Tether() {
-    this->TetherPawn = NULL;
-    this->TetherPawnSavedCullDistanceSquared = 1;
-    this->bTetheredWithoutWeapon = false;
-    this->bPressedTetheredBoost = false;
-    this->bAllowVehicleTether = false;
-    this->TetherSlackLength = 1;
-    this->TetherCatchupLength = 1;
-    this->TetherViewPlayerLength = 1;
-    this->TetherBreakLength = 1;
-    this->TetheredSpeedToBackOff = 1;
-    this->TetheredMaxSpeed = 1;
-    this->TetheredMovementAccelBackOff = 1;
-    this->TetheredMovementAccelNudge = 1;
-    this->TetheredMovementGroundFrictionMultiplier = 1;
-    this->TetheredMovementWaterFrictionMultiplier = 1;
-    this->TetheredMovementMaxAccel = 1;
-    this->SetViewTargetToTetherPawnDelayTime = 1;
-    this->SetViewTargetToTetherPawnBlendTime = 1;
-    this->TetherJumpServerCorrectionExpansionTime = 1;
-    this->TetherInitialYankLaunchZ = 1;
-    this->TetherRopeMesh = NULL;
-    this->TetherRopeMaterial = NULL;
-    this->TetherRopeComp = NULL;
-    this->TetherRopeRodMesh = NULL;
-    this->TetherRopeRodComp = NULL;
-    this->TetherRightInput = 1;
-    this->TetheredInputComponent = NULL;
-    this->TetheredExitHoldTime = 1;
+    TetherPawn = NULL;
+    TetherPawnSavedCullDistanceSquared = 1;
+    bTetheredWithoutWeapon = false;
+    bPressedTetheredBoost = false;
+    bAllowVehicleTether = false;
+    TetherSlackLength = 1;
+    TetherCatchupLength = 1;
+    TetherViewPlayerLength = 1;
+    TetherBreakLength = 1;
+    TetheredSpeedToBackOff = 1;
+    TetheredMaxSpeed = 1;
+    TetheredMovementAccelBackOff = 1;
+    TetheredMovementAccelNudge = 1;
+    TetheredMovementGroundFrictionMultiplier = 1;
+    TetheredMovementWaterFrictionMultiplier = 1;
+    TetheredMovementMaxAccel = 1;
+    SetViewTargetToTetherPawnDelayTime = 1;
+    SetViewTargetToTetherPawnBlendTime = 1;
+    TetherJumpServerCorrectionExpansionTime = 1;
+    TetherInitialYankLaunchZ = 1;
+    TetherRopeMesh = NULL;
+    TetherRopeMaterial = NULL;
+    TetherRopeComp = NULL;
+    TetherRopeRodMesh = NULL;
+    TetherRopeRodComp = NULL;
+    TetherRightInput = 1;
+    TetheredInputComponent = NULL;
+    TetheredExitHoldTime = 1;
 }
 

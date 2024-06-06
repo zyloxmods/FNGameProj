@@ -1,6 +1,6 @@
 #include "LocationLerpData.h"
 
 FLocationLerpData::FLocationLerpData() {
-    this->TotalLerpTime = 1;
+    TotalLerpTime = 1;
 }
 

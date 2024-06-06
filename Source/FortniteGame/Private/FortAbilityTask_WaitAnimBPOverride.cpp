@@ -11,6 +11,6 @@ void UFortAbilityTask_WaitAnimBPOverride::OnFinishedCharacterCustomizationCallba
 }
 
 UFortAbilityTask_WaitAnimBPOverride::UFortAbilityTask_WaitAnimBPOverride() {
-    this->FortPlayerPawn = NULL;
+    FortPlayerPawn = NULL;
 }
 

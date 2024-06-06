@@ -1,7 +1,7 @@
 #include "FortPoiGridInfo.h"
 
 FFortPoiGridInfo::FFortPoiGridInfo() {
-    this->GridCountX = 0;
-    this->GridCountY = 0;
+    GridCountX = 0;
+    GridCountY = 0;
 }
 

@@ -7,6 +7,6 @@ void UFortAnimSet::UpdateAssets() {
 }
 
 UFortAnimSet::UFortAnimSet() {
-    this->FallbackSequence = NULL;
+    FallbackSequence = NULL;
 }
 

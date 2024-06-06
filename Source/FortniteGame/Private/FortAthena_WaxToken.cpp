@@ -6,14 +6,14 @@
 
 
 AFortAthena_WaxToken::AFortAthena_WaxToken() {
-    this->TokenMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TokenMesh"));
-    this->EntrySpline = CreateDefaultSubobject<USplineComponent>(TEXT("EntrySpline"));
-    this->ExitSpline = CreateDefaultSubobject<USplineComponent>(TEXT("ExitSpline"));
-    this->ReusedSpline = CreateDefaultSubobject<USplineComponent>(TEXT("ReusedSpline"));
-    this->Target = NULL;
-    this->PayloadCount = 0;
-    this->CurrentState = EWaxTokenState::None;
-    this->TimeInState = 1;
-    this->InterpolationSpeed = 1;
+    TokenMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TokenMesh"));
+    EntrySpline = CreateDefaultSubobject<USplineComponent>(TEXT("EntrySpline"));
+    ExitSpline = CreateDefaultSubobject<USplineComponent>(TEXT("ExitSpline"));
+    ReusedSpline = CreateDefaultSubobject<USplineComponent>(TEXT("ReusedSpline"));
+    Target = NULL;
+    PayloadCount = 0;
+    CurrentState = EWaxTokenState::None;
+    TimeInState = 1;
+    InterpolationSpeed = 1;
 }
 

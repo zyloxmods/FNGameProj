@@ -14,6 +14,6 @@ protected:
     TSoftClassPtr<ABattleLabDeviceGameplayActor> BattleLabDeviceActorClass;
     
 public:
-    UFortBattleLabDeviceItemDefinition();
+    UFortBattleLabDeviceItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

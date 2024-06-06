@@ -15,10 +15,10 @@ int32 UFortWorldItem::GetFuelChargeValue() const {
 }
 
 UFortWorldItem::UFortWorldItem() {
-    this->bIsTemporaryItem = false;
-    this->bNeedsPersistentUpdate = false;
-    this->bPendingPersistentDelete = false;
-    this->OwnerInventory = NULL;
-    this->BaseRegenCooldown = 1;
+    bIsTemporaryItem = false;
+    bNeedsPersistentUpdate = false;
+    bPendingPersistentDelete = false;
+    OwnerInventory = NULL;
+    BaseRegenCooldown = 1;
 }
 

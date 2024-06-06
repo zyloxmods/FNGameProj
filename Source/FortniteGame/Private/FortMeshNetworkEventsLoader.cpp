@@ -14,6 +14,6 @@ void AFortMeshNetworkEventsLoader::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortMeshNetworkEventsLoader::AFortMeshNetworkEventsLoader() {
-    this->bMeshNetworkReady = false;
+    bMeshNetworkReady = false;
 }
 

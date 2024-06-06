@@ -18,7 +18,7 @@ void AFortLauncherAthena::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 AFortLauncherAthena::AFortLauncherAthena() {
-    this->OnLaunchSound3P = NULL;
-    this->OnLaunchSound1P = NULL;
+    OnLaunchSound3P = NULL;
+    OnLaunchSound1P = NULL;
 }
 

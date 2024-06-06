@@ -1,18 +1,18 @@
 #include "CustomCharacterPartAnimInstance_SRDriftBody.h"
 
 UCustomCharacterPartAnimInstance_SRDriftBody::UCustomCharacterPartAnimInstance_SRDriftBody() {
-    this->RightFootJacketBackDistanceAlpha = 1;
-    this->LeftFootJacketBackDistanceAlpha = 1;
-    this->LegJacketFrontAlpha = 1;
-    this->CrouchJacketFrontRightAlpha = 1;
-    this->AnimDynamicsAlpha = 1;
-    this->CrouchJacketBackRightAlpha = 1;
-    this->CrouchJacketFrontLeftAlpha = 1;
-    this->JacketCopyBoneAlpha = 1;
-    this->JacketRightSleeveDynamicAlpha = 1;
-    this->JacketLeftSleeveDynamicAlpha = 1;
-    this->JacketTailGroundAlpha = 1;
-    this->ThighLeftAlpha = 1;
-    this->ThighRightAlpha = 1;
+    RightFootJacketBackDistanceAlpha = 1;
+    LeftFootJacketBackDistanceAlpha = 1;
+    LegJacketFrontAlpha = 1;
+    CrouchJacketFrontRightAlpha = 1;
+    AnimDynamicsAlpha = 1;
+    CrouchJacketBackRightAlpha = 1;
+    CrouchJacketFrontLeftAlpha = 1;
+    JacketCopyBoneAlpha = 1;
+    JacketRightSleeveDynamicAlpha = 1;
+    JacketLeftSleeveDynamicAlpha = 1;
+    JacketTailGroundAlpha = 1;
+    ThighLeftAlpha = 1;
+    ThighRightAlpha = 1;
 }
 

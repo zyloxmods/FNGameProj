@@ -24,8 +24,8 @@ void UConsolidatedQuestComponent::DelayBeginPlay() {
 }
 
 UConsolidatedQuestComponent::UConsolidatedQuestComponent() {
-    this->ComponentResponse = EQuestVisibilityResponse::Hide;
-    this->UpdateType = EQuestUpdateType::ObjectiveCompleted;
-    this->bIsInteractable = false;
+    ComponentResponse = EQuestVisibilityResponse::Hide;
+    UpdateType = EQuestUpdateType::ObjectiveCompleted;
+    bIsInteractable = false;
 }
 

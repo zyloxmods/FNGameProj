@@ -7,8 +7,8 @@ void UAudioAnalysisSubmixAnalyzer::OnSubmixEnvelope(const TArray<float>& Amplitu
 }
 
 UAudioAnalysisSubmixAnalyzer::UAudioAnalysisSubmixAnalyzer() {
-    this->Submix = NULL;
-    this->AnalysisSettings = NULL;
-    this->OwningSubsystem = NULL;
+    Submix = NULL;
+    AnalysisSettings = NULL;
+    OwningSubsystem = NULL;
 }
 

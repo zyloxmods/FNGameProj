@@ -1,14 +1,14 @@
 #include "PelvisMod_BankAngleInput_Spring.h"
 
 FPelvisMod_BankAngleInput_Spring::FPelvisMod_BankAngleInput_Spring() {
-    this->BankLeanStrafeA = 1;
-    this->BankLeanStrafeB = 1;
-    this->BankTurnA = 1;
-    this->BankTurnB = 1;
-    this->BankStiffness = 1;
-    this->BankDampening = 1;
-    this->BankMass = 1;
-    this->BankClampMin = 1;
-    this->BankClampMax = 1;
+    BankLeanStrafeA = 1;
+    BankLeanStrafeB = 1;
+    BankTurnA = 1;
+    BankTurnB = 1;
+    BankStiffness = 1;
+    BankDampening = 1;
+    BankMass = 1;
+    BankClampMin = 1;
+    BankClampMax = 1;
 }
 

@@ -1,5 +1,6 @@
 #include "FortPlaysetWorldItemDefinition.h"
 
-UFortPlaysetWorldItemDefinition::UFortPlaysetWorldItemDefinition() {
+UFortPlaysetWorldItemDefinition::UFortPlaysetWorldItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

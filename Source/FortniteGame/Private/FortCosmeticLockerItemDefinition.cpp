@@ -1,5 +1,6 @@
 #include "FortCosmeticLockerItemDefinition.h"
 
-UFortCosmeticLockerItemDefinition::UFortCosmeticLockerItemDefinition() {
+UFortCosmeticLockerItemDefinition::UFortCosmeticLockerItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

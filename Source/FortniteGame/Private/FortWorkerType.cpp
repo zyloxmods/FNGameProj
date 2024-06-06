@@ -1,9 +1,10 @@
 #include "FortWorkerType.h"
 
-UFortWorkerType::UFortWorkerType() {
-    this->Gender = EFortCustomGender::Female;
-    this->bIsManager = false;
-    this->MatchingPersonalityBonus = 0;
-    this->MismatchingPersonalityPenalty = 0;
+UFortWorkerType::UFortWorkerType(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    Gender = EFortCustomGender::Female;
+    bIsManager = false;
+    MatchingPersonalityBonus = 0;
+    MismatchingPersonalityPenalty = 0;
 }
 

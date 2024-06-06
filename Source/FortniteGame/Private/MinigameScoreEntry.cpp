@@ -1,7 +1,7 @@
 #include "MinigameScoreEntry.h"
 
 FMinigameScoreEntry::FMinigameScoreEntry() {
-    this->Score = 1;
-    this->bHasScore = false;
+    Score = 1;
+    bHasScore = false;
 }
 

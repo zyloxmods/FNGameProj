@@ -1,6 +1,6 @@
 #include "WindVectorMaterialInterpolationData.h"
 
 FWindVectorMaterialInterpolationData::FWindVectorMaterialInterpolationData() {
-    this->MaterialParameterIndex = 0;
+    MaterialParameterIndex = 0;
 }
 

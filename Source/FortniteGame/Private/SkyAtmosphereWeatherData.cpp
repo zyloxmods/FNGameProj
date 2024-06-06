@@ -1,8 +1,8 @@
 #include "SkyAtmosphereWeatherData.h"
 
 FSkyAtmosphereWeatherData::FSkyAtmosphereWeatherData() {
-    this->MieScatteringScaleScale = NULL;
-    this->MieAbsorptionScaleScale = NULL;
-    this->HeightFogContributionScale = NULL;
+    MieScatteringScaleScale = NULL;
+    MieAbsorptionScaleScale = NULL;
+    HeightFogContributionScale = NULL;
 }
 

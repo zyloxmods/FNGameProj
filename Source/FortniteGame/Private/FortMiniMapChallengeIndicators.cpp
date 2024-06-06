@@ -1,7 +1,7 @@
 #include "FortMiniMapChallengeIndicators.h"
 
 UFortMiniMapChallengeIndicators::UFortMiniMapChallengeIndicators() {
-    this->AthenaPlayerController = NULL;
-    this->ChallengeIndicatorCache = NULL;
+    AthenaPlayerController = NULL;
+    ChallengeIndicatorCache = NULL;
 }
 

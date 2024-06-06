@@ -1,8 +1,8 @@
 #include "McpMatchResults.h"
 
 FMcpMatchResults::FMcpMatchResults() {
-    this->Placement = 0;
-    this->Kills = 0;
-    this->Deaths = 0;
+    Placement = 0;
+    Kills = 0;
+    Deaths = 0;
 }
 

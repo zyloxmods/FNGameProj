@@ -1,9 +1,9 @@
 #include "FortRewardActivity.h"
 
 FFortRewardActivity::FFortRewardActivity() {
-    this->ActivityType = EFortRewardActivityType::General;
-    this->RewardDisplayTime = 1;
-    this->ActivityCompletionResult = EFortCompletionResult::Win;
-    this->AdditionalCompletionMissionPoints = 0;
+    ActivityType = EFortRewardActivityType::General;
+    RewardDisplayTime = 1;
+    ActivityCompletionResult = EFortCompletionResult::Win;
+    AdditionalCompletionMissionPoints = 0;
 }
 

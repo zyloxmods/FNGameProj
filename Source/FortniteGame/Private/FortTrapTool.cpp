@@ -4,6 +4,6 @@ void AFortTrapTool::OnEquip(AFortWeapon* OldWeapon) {
 }
 
 AFortTrapTool::AFortTrapTool() {
-    this->bRecalculateTrapPositionOnServer = true;
+    bRecalculateTrapPositionOnServer = true;
 }
 

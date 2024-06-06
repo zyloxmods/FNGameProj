@@ -1,6 +1,6 @@
 #include "TimeOfDaySpeed.h"
 
 FTimeOfDaySpeed::FTimeOfDaySpeed() {
-    this->Speed = 1;
+    Speed = 1;
 }
 

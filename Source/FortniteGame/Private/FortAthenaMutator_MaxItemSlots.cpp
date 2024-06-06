@@ -8,6 +8,6 @@ void AFortAthenaMutator_MaxItemSlots::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 AFortAthenaMutator_MaxItemSlots::AFortAthenaMutator_MaxItemSlots() {
-    this->MaxItemSlots = 1;
+    MaxItemSlots = 1;
 }
 

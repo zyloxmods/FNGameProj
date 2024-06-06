@@ -1,9 +1,9 @@
 #include "RecordedGunshot.h"
 
 FRecordedGunshot::FRecordedGunshot() {
-    this->Weapon = NULL;
-    this->InstigatingFortPawn = NULL;
-    this->Strength = 1;
-    this->Time = 1;
+    Weapon = NULL;
+    InstigatingFortPawn = NULL;
+    Strength = 1;
+    Time = 1;
 }
 

@@ -1,5 +1,6 @@
 #include "AthenaRewardEventGraphCosmeticItemDefinition.h"
 
-UAthenaRewardEventGraphCosmeticItemDefinition::UAthenaRewardEventGraphCosmeticItemDefinition() {
+UAthenaRewardEventGraphCosmeticItemDefinition::UAthenaRewardEventGraphCosmeticItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

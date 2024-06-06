@@ -1,7 +1,7 @@
 #include "FortGoalActorEncounterDataManagerPair.h"
 
 FFortGoalActorEncounterDataManagerPair::FFortGoalActorEncounterDataManagerPair() {
-    this->GoalActor = NULL;
-    this->EncounterDataManager = NULL;
+    GoalActor = NULL;
+    EncounterDataManager = NULL;
 }
 

@@ -1,5 +1,6 @@
 #include "FortCharacterType.h"
 
-UFortCharacterType::UFortCharacterType() {
+UFortCharacterType::UFortCharacterType(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

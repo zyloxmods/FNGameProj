@@ -279,7 +279,7 @@ protected:
     uint8 NumberOfSlotsToTake;
     
 public:
-    UFortWorldItemDefinition();
+    UFortWorldItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     float GetMaxDurability(int32 ItemLevel) const;
     

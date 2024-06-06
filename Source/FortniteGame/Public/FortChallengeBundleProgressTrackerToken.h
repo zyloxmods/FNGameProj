@@ -13,7 +13,7 @@ protected:
     EItemProfileType ProfileType;
     
 public:
-    UFortChallengeBundleProgressTrackerToken();
+    UFortChallengeBundleProgressTrackerToken(const FObjectInitializer& ObjectInitializer);
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("ChallengeBundleCompletionToken", GetFName());

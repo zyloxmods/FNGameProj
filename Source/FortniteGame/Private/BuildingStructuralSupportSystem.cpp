@@ -106,7 +106,7 @@ bool UBuildingStructuralSupportSystem::AreGridIndicesValid(const FBuildingSuppor
 }
 
 UBuildingStructuralSupportSystem::UBuildingStructuralSupportSystem() {
-    this->BatchedRemovalInstigator = NULL;
-    this->NavGraph = NULL;
+    BatchedRemovalInstigator = NULL;
+    NavGraph = NULL;
 }
 

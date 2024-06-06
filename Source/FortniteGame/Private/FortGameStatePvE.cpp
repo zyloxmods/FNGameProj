@@ -59,15 +59,15 @@ void AFortGameStatePvE::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 }
 
 AFortGameStatePvE::AFortGameStatePvE() {
-    this->bAllowMulching = true;
-    this->Aircraft = NULL;
-    this->bUseMoonbeamHUD = false;
-    this->PickupsAllowedMax = 0;
-    this->PickupsDesiredSlack = 0;
-    this->PickupDespawnDelaySeconds = 1;
-    this->bDebugPickupManagement = false;
-    this->bEnablePickupManagement = true;
-    this->ImportantPickupThreshold = EFortRarity::Common;
-    this->bWeaponSwappingEnabled = false;
+    bAllowMulching = true;
+    Aircraft = NULL;
+    bUseMoonbeamHUD = false;
+    PickupsAllowedMax = 0;
+    PickupsDesiredSlack = 0;
+    PickupDespawnDelaySeconds = 1;
+    bDebugPickupManagement = false;
+    bEnablePickupManagement = true;
+    ImportantPickupThreshold = EFortRarity::Common;
+    bWeaponSwappingEnabled = false;
 }
 

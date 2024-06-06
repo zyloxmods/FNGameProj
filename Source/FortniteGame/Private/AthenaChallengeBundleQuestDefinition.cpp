@@ -1,5 +1,6 @@
 #include "AthenaChallengeBundleQuestDefinition.h"
 
-UAthenaChallengeBundleQuestDefinition::UAthenaChallengeBundleQuestDefinition() {
+UAthenaChallengeBundleQuestDefinition::UAthenaChallengeBundleQuestDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

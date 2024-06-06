@@ -1,6 +1,7 @@
 #include "FortBattleLabDeviceAccountItemDefinition.h"
 
-UFortBattleLabDeviceAccountItemDefinition::UFortBattleLabDeviceAccountItemDefinition() {
-    this->BattleLabDeviceItemDefinition = NULL;
+UFortBattleLabDeviceAccountItemDefinition::UFortBattleLabDeviceAccountItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    BattleLabDeviceItemDefinition = NULL;
 }
 

@@ -4,8 +4,9 @@ TSoftObjectPtr<UTexture2D> UAthenaMusicPackItemDefinition::GetCoverArt() const {
     return NULL;
 }
 
-UAthenaMusicPackItemDefinition::UAthenaMusicPackItemDefinition() {
-    this->bIsDefaultMusicPack = false;
-    this->MusicPreviewStartTime = 1;
+UAthenaMusicPackItemDefinition::UAthenaMusicPackItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bIsDefaultMusicPack = false;
+    MusicPreviewStartTime = 1;
 }
 

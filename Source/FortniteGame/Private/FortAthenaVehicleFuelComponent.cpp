@@ -11,11 +11,11 @@ void UFortAthenaVehicleFuelComponent::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 UFortAthenaVehicleFuelComponent::UFortAthenaVehicleFuelComponent() {
-    this->bShouldInitializeWithStartingFuel = true;
-    this->OwnerVehicle = NULL;
-    this->ServerFuel = 1;
-    this->OutOfFuelSound = NULL;
-    this->LowFuelSound = NULL;
-    this->LowFuelRepeatingPing = NULL;
+    bShouldInitializeWithStartingFuel = true;
+    OwnerVehicle = NULL;
+    ServerFuel = 1;
+    OutOfFuelSound = NULL;
+    LowFuelSound = NULL;
+    LowFuelRepeatingPing = NULL;
 }
 

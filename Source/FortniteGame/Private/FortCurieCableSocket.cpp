@@ -1,9 +1,9 @@
 #include "FortCurieCableSocket.h"
 
 FFortCurieCableSocket::FFortCurieCableSocket() {
-    this->bAutoSendSignalOnElementAttachment = false;
-    this->bAutoSendSignalOnElementDetachment = false;
-    this->bAutoRouteToCurieComponentOnReceive = false;
-    this->bAutoCreateElectricLinksOnSend = false;
+    bAutoSendSignalOnElementAttachment = false;
+    bAutoSendSignalOnElementDetachment = false;
+    bAutoRouteToCurieComponentOnReceive = false;
+    bAutoCreateElectricLinksOnSend = false;
 }
 

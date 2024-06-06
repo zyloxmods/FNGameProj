@@ -11,25 +11,25 @@ void AFortAthenaTutorial_Ambush::HandleOnAIDummyDied(AActor* DamagedActor, float
 }
 
 AFortAthenaTutorial_Ambush::AFortAthenaTutorial_Ambush() {
-    this->ReachAmbushLocationMarker = NULL;
-    this->AmbushTriggerBox = NULL;
-    this->HealItemSpawnerBlueprint = NULL;
-    this->ShieldItemSpawnerBlueprint = NULL;
-    this->BlockerAmbush = NULL;
-    this->AmbushDirectionArrows = NULL;
-    this->AmbushCameraPoint = NULL;
-    this->AISpawnerAttachedTo = NULL;
-    this->SpawnedAIPawn = NULL;
-    this->AiAccuracyRadius = 1;
-    this->AiRateOfFire = 1;
-    this->AiFirstShotDamage = 1;
-    this->AiDamage = 1;
-    this->MaxLocationErrorKeyName = TEXT("MaxLocationError");
-    this->MaxLocationErrorValue = 1;
-    this->MinLocationErrorKeyName = TEXT("MinLocationError");
-    this->MinLocationErrorValue = 1;
-    this->BotController = NULL;
-    this->AmbushCameraInSpeed = 1;
-    this->AmbushCameraOutSpeed = 1;
+    ReachAmbushLocationMarker = NULL;
+    AmbushTriggerBox = NULL;
+    HealItemSpawnerBlueprint = NULL;
+    ShieldItemSpawnerBlueprint = NULL;
+    BlockerAmbush = NULL;
+    AmbushDirectionArrows = NULL;
+    AmbushCameraPoint = NULL;
+    AISpawnerAttachedTo = NULL;
+    SpawnedAIPawn = NULL;
+    AiAccuracyRadius = 1;
+    AiRateOfFire = 1;
+    AiFirstShotDamage = 1;
+    AiDamage = 1;
+    MaxLocationErrorKeyName = TEXT("MaxLocationError");
+    MaxLocationErrorValue = 1;
+    MinLocationErrorKeyName = TEXT("MinLocationError");
+    MinLocationErrorValue = 1;
+    BotController = NULL;
+    AmbushCameraInSpeed = 1;
+    AmbushCameraOutSpeed = 1;
 }
 

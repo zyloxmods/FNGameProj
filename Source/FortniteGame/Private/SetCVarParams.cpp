@@ -1,7 +1,7 @@
 #include "SetCVarParams.h"
 
 FSetCVarParams::FSetCVarParams() {
-    this->Type = ESetCVarType::Numeric;
-    this->NumberValue = 1;
+    Type = ESetCVarType::Numeric;
+    NumberValue = 1;
 }
 

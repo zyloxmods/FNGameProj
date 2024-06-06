@@ -49,7 +49,7 @@ void UFortGameStateComponent_EventLevel::CanGainRestedXp(bool& bResult) const {
 }
 
 UFortGameStateComponent_EventLevel::UFortGameStateComponent_EventLevel() {
-    this->RewardGraph = NULL;
-    this->EventLevelCinematicOverrideClass = NULL;
+    RewardGraph = NULL;
+    EventLevelCinematicOverrideClass = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "VehicleDamageablePartConfig.h"
 
 FVehicleDamageablePartConfig::FVehicleDamageablePartConfig() {
-    this->MaxHealth = 1;
+    MaxHealth = 1;
 }
 

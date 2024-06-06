@@ -4,9 +4,9 @@ void AFortCampaignJackalVehicle::HandleOnPlayerDamaged(AActor* DamagedActor, flo
 }
 
 AFortCampaignJackalVehicle::AFortCampaignJackalVehicle() {
-    this->bVehicleLeftAnalogStrafing = true;
-    this->VehicleLeftAnalogStrafingMultiplier = 1;
-    this->MinSpeedToWallRun = 1;
-    this->AggroRangeOverride = 1;
+    bVehicleLeftAnalogStrafing = true;
+    VehicleLeftAnalogStrafingMultiplier = 1;
+    MinSpeedToWallRun = 1;
+    AggroRangeOverride = 1;
 }
 

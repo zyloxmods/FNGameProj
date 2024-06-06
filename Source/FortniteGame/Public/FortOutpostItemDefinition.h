@@ -21,7 +21,7 @@ protected:
     FText LongDescription;
     
 public:
-    UFortOutpostItemDefinition();
+    UFortOutpostItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetLongDescription() const;
 

@@ -1,9 +1,9 @@
 #include "FortWindMaterialData.h"
 
 FFortWindMaterialData::FFortWindMaterialData() {
-    this->Mid = NULL;
-    this->IntenseStateMID = NULL;
-    this->MaterialParameterPairIndices = 0;
-    this->WindVectorParameterIndex = 0;
+    Mid = NULL;
+    IntenseStateMID = NULL;
+    MaterialParameterPairIndices = 0;
+    WindVectorParameterIndex = 0;
 }
 

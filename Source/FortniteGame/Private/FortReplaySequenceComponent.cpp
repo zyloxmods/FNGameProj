@@ -30,7 +30,7 @@ int32 UFortReplaySequenceComponent::GetCurrentShotIndex() const {
 }
 
 UFortReplaySequenceComponent::UFortReplaySequenceComponent() {
-    this->CurrentShotIdx = 0;
-    this->ReplayContext = NULL;
+    CurrentShotIdx = 0;
+    ReplayContext = NULL;
 }
 

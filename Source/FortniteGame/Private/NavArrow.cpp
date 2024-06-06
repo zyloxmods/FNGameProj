@@ -10,6 +10,6 @@ void ANavArrow::HideArrow_Implementation() {
 }
 
 ANavArrow::ANavArrow() {
-    this->DestinationTrackerComponent = NULL;
+    DestinationTrackerComponent = NULL;
 }
 

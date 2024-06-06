@@ -8,8 +8,8 @@ void UFortAbilityKit::BP_GetGadgets(TArray<UFortGadgetItemDefinition*>& GadgetIt
 }
 
 UFortAbilityKit::UFortAbilityKit() {
-    this->Tooltip = NULL;
-    this->SummaryTooltip = NULL;
-    this->StatList = NULL;
+    Tooltip = NULL;
+    SummaryTooltip = NULL;
+    StatList = NULL;
 }
 

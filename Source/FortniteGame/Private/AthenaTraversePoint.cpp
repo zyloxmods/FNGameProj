@@ -30,7 +30,7 @@ void AAthenaTraversePoint::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AAthenaTraversePoint::AAthenaTraversePoint() {
-    this->bShouldTeleportToGround = true;
-    this->CurrentState = ETraversePointState::None;
+    bShouldTeleportToGround = true;
+    CurrentState = ETraversePointState::None;
 }
 

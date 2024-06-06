@@ -7,6 +7,6 @@ void UFortPlaysetGrenadeInputComponent::PopPlaysetGrenadeInputMode(APlayerContro
 }
 
 UFortPlaysetGrenadeInputComponent::UFortPlaysetGrenadeInputComponent() {
-    this->PlaysetGrenadeInputComponent = NULL;
+    PlaysetGrenadeInputComponent = NULL;
 }
 

@@ -32,7 +32,7 @@ void UCreativePlayerHealthInfoComponent::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 UCreativePlayerHealthInfoComponent::UCreativePlayerHealthInfoComponent() {
-    this->ControllingMinigame = NULL;
-    this->BossPlayerState = NULL;
+    ControllingMinigame = NULL;
+    BossPlayerState = NULL;
 }
 

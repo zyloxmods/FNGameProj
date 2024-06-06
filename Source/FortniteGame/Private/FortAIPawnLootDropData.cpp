@@ -1,6 +1,6 @@
 #include "FortAIPawnLootDropData.h"
 
 FFortAIPawnLootDropData::FFortAIPawnLootDropData() {
-    this->LootDropChance = 1;
+    LootDropChance = 1;
 }
 

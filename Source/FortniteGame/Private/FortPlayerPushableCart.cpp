@@ -130,11 +130,11 @@ void AFortPlayerPushableCart::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortPlayerPushableCart::AFortPlayerPushableCart() {
-    this->MovementComponent = CreateDefaultSubobject<UFortMovementComp_GroundSpline>(TEXT("Ground Spline Movement Component"));
-    this->CurrentCheckPoint = 0;
-    this->TotalActivePushers = 0;
-    this->TotalActiveDefenders = 0;
-    this->bIsPushable = false;
-    this->bIsNearCheckpoint = false;
+    MovementComponent = CreateDefaultSubobject<UFortMovementComp_GroundSpline>(TEXT("Ground Spline Movement Component"));
+    CurrentCheckPoint = 0;
+    TotalActivePushers = 0;
+    TotalActiveDefenders = 0;
+    bIsPushable = false;
+    bIsNearCheckpoint = false;
 }
 

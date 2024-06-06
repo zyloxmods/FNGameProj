@@ -1,7 +1,7 @@
 #include "IgnoredPawn.h"
 
 FIgnoredPawn::FIgnoredPawn() {
-    this->Pawn = NULL;
-    this->Time = 1;
+    Pawn = NULL;
+    Time = 1;
 }
 

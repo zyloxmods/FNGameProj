@@ -140,54 +140,55 @@ bool UFortWeaponItemDefinition::AllowSecondaryFireToInterruptPrimary() const {
     return false;
 }
 
-UFortWeaponItemDefinition::UFortWeaponItemDefinition() {
+UFortWeaponItemDefinition::UFortWeaponItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 	/* FortWorldItemDefinition modified defaults */
-	this->DropBehavior = EWorldItemDropBehavior::DropAsPickup;
-	this->bIgnoreRespawningForDroppingAsPickup = false;
-	this->bCanAutoEquipByClass = true;
-	this->bPersistInInventoryWhenFinalStackEmpty = false;
-	this->bSupportsQuickbarFocus = true;
-	this->bSupportsQuickbarFocusForGamepadOnly = false;
-	this->bShouldActivateWhenFocused = true;
-	this->bForceFocusWhenAdded = false;
-	this->bForceIntoOverflow = false;
-	this->bForceStayInOverflow = false;
-	this->bDropCurrentItemOnOverflow = true;
-	this->bShouldShowItemToast = true;
-	this->bShowDirectionalArrowWhenFarOff = true;
-	this->bCanBeDropped = true;
-	this->bCanBeReplacedByPickup = true;
-	this->bItemCanBeStolen = true;
-	this->bCanBeDepositedInStorageVault = true;
-	this->bItemHasDurability = true;
-	this->bAllowedToBeLockedInInventory = false;
-	this->bOverridePickupMeshTransform = false;
-	this->bAlwaysCountForCollectionQuest = false;
-	this->bDropOnDeath = false;
-	this->bDropOnLogout = false;
-	this->bDropOnDBNO = false;
-	this->bDoesNotNeedSourceSchematic = false;
-	this->bInventorySizeLimited = true;
-	this->DropCount = -1;
-	this->MiniMapViewableDistance = 8000.00f;
-	this->DisassembleDurabilityDegradeMinLootPercent = 0.20f;
-	this->DisassembleDurabilityDegradeMaxLootPercent = 0.80f;
-	this->PreferredQuickbarSlot = -1;
-	this->MinLevel = 0;
-	this->MaxLevel = 0;
+	DropBehavior = EWorldItemDropBehavior::DropAsPickup;
+	bIgnoreRespawningForDroppingAsPickup = false;
+	bCanAutoEquipByClass = true;
+	bPersistInInventoryWhenFinalStackEmpty = false;
+	bSupportsQuickbarFocus = true;
+	bSupportsQuickbarFocusForGamepadOnly = false;
+	bShouldActivateWhenFocused = true;
+	bForceFocusWhenAdded = false;
+	bForceIntoOverflow = false;
+	bForceStayInOverflow = false;
+	bDropCurrentItemOnOverflow = true;
+	bShouldShowItemToast = true;
+	bShowDirectionalArrowWhenFarOff = true;
+	bCanBeDropped = true;
+	bCanBeReplacedByPickup = true;
+	bItemCanBeStolen = true;
+	bCanBeDepositedInStorageVault = true;
+	bItemHasDurability = true;
+	bAllowedToBeLockedInInventory = false;
+	bOverridePickupMeshTransform = false;
+	bAlwaysCountForCollectionQuest = false;
+	bDropOnDeath = false;
+	bDropOnLogout = false;
+	bDropOnDBNO = false;
+	bDoesNotNeedSourceSchematic = false;
+	bInventorySizeLimited = true;
+	DropCount = -1;
+	MiniMapViewableDistance = 8000.00f;
+	DisassembleDurabilityDegradeMinLootPercent = 0.20f;
+	DisassembleDurabilityDegradeMaxLootPercent = 0.80f;
+	PreferredQuickbarSlot = -1;
+	MinLevel = 0;
+	MaxLevel = 0;
 
 	/* FortWeaponItemDefinition defaults */
-    this->LowAmmoPercentage = 0.25f;
-    this->TriggerType = EFortWeaponTriggerType::OnPress;
-    this->DisplayTier = EFortDisplayTier::Invalid;
-    this->bUsesCustomAmmoType = false;
-    this->bAllowTargetingDuringReload = false;
-    this->bTargetingPreventsReload = false;
-    this->bAlwaysChargeUpToMin = false;
-    this->bReticleCornerOutsideSpreadRadius = false;
-    this->bValidForLastEquipped = true;
-    this->bPreventDefaultPreload = false;
-    this->HitNotifyDuration = 0.00f;
-    this->ItemType = EFortItemType::Weapon;
+    LowAmmoPercentage = 0.25f;
+    TriggerType = EFortWeaponTriggerType::OnPress;
+    DisplayTier = EFortDisplayTier::Invalid;
+    bUsesCustomAmmoType = false;
+    bAllowTargetingDuringReload = false;
+    bTargetingPreventsReload = false;
+    bAlwaysChargeUpToMin = false;
+    bReticleCornerOutsideSpreadRadius = false;
+    bValidForLastEquipped = true;
+    bPreventDefaultPreload = false;
+    HitNotifyDuration = 0.00f;
+    ItemType = EFortItemType::Weapon;
 }
 

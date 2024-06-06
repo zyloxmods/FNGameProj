@@ -1,6 +1,6 @@
 #include "DynamicStreamingLevelData.h"
 
 FDynamicStreamingLevelData::FDynamicStreamingLevelData() {
-    this->CameraOverride = EFrontEndCamera::Invalid;
+    CameraOverride = EFrontEndCamera::Invalid;
 }
 

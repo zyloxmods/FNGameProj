@@ -1,7 +1,7 @@
 #include "InlineObjectiveStatTagCheckEntry.h"
 
 FInlineObjectiveStatTagCheckEntry::FInlineObjectiveStatTagCheckEntry() {
-    this->Type = EInlineObjectiveStatTagCheckEntryType::Target;
-    this->Require = false;
+    Type = EInlineObjectiveStatTagCheckEntryType::Target;
+    Require = false;
 }
 

@@ -10,7 +10,7 @@ void UAthenaAIServiceLoot::OnGamePhaseStepChanged(const TScriptInterface<IFortSa
 }
 
 UAthenaAIServiceLoot::UAthenaAIServiceLoot() {
-    this->CachedWorldItem = NULL;
-    this->BotBuildingContainerBlacklistDataTable = NULL;
+    CachedWorldItem = NULL;
+    BotBuildingContainerBlacklistDataTable = NULL;
 }
 

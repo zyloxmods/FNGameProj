@@ -1,7 +1,7 @@
 #include "DirectionalLightValues.h"
 
 FDirectionalLightValues::FDirectionalLightValues() {
-    this->Brightness = 1;
-    this->VolumetricScatteringIntensity = 1;
+    Brightness = 1;
+    VolumetricScatteringIntensity = 1;
 }
 

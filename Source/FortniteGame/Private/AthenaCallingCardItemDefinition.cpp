@@ -1,5 +1,6 @@
 #include "AthenaCallingCardItemDefinition.h"
 
-UAthenaCallingCardItemDefinition::UAthenaCallingCardItemDefinition() {
+UAthenaCallingCardItemDefinition::UAthenaCallingCardItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

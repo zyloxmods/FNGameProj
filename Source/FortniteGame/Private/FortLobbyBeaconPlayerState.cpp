@@ -46,14 +46,14 @@ void AFortLobbyBeaconPlayerState::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 AFortLobbyBeaconPlayerState::AFortLobbyBeaconPlayerState() {
-    this->TeamAffiliation = 0;
-    this->CurrentCharXP = 0;
-    this->MatchmakingLevel = 0;
-    this->HeroType = NULL;
-    this->LobbyTimeRemaining = 0;
-    this->HomeBaseVersion = 0;
-    this->SelectedGadgets.AddDefaulted(2);
-    this->TrustedPlatformType = ETrustedPlatformType::Unknown;
-    this->CharacterGender = EFortCustomGender::Invalid;
+    TeamAffiliation = 0;
+    CurrentCharXP = 0;
+    MatchmakingLevel = 0;
+    HeroType = NULL;
+    LobbyTimeRemaining = 0;
+    HomeBaseVersion = 0;
+    SelectedGadgets.AddDefaulted(2);
+    TrustedPlatformType = ETrustedPlatformType::Unknown;
+    CharacterGender = EFortCustomGender::Invalid;
 }
 

@@ -1,7 +1,7 @@
 #include "AthenaItemShopSectionPriority.h"
 
 FAthenaItemShopSectionPriority::FAthenaItemShopSectionPriority() {
-    this->Section = EFortItemShopSection::RMTItemOffer;
-    this->Priority = 0;
+    Section = EFortItemShopSection::RMTItemOffer;
+    Priority = 0;
 }
 

@@ -15,10 +15,10 @@ void ABuildingGameplayActorSpawnChip::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 ABuildingGameplayActorSpawnChip::ABuildingGameplayActorSpawnChip() {
-    this->OwnerPlayerController = NULL;
-    this->OwnerPlayerState = NULL;
-    this->IndicatorClass = NULL;
-    this->bAutoAcquireSpawnChip = false;
-    this->SquadId = 0;
+    OwnerPlayerController = NULL;
+    OwnerPlayerState = NULL;
+    IndicatorClass = NULL;
+    bAutoAcquireSpawnChip = false;
+    SquadId = 0;
 }
 

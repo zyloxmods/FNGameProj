@@ -17,9 +17,9 @@ void AFortAthenaMutator_SafeZoneOrderOptimize::GetLifetimeReplicatedProps(TArray
 }
 
 AFortAthenaMutator_SafeZoneOrderOptimize::AFortAthenaMutator_SafeZoneOrderOptimize() {
-    this->bInitialized = false;
-    this->bPaused = true;
-    this->MaxRoutesPerOrder = 0;
-    this->MapUILineThickness = 1;
+    bInitialized = false;
+    bPaused = true;
+    MaxRoutesPerOrder = 0;
+    MapUILineThickness = 1;
 }
 

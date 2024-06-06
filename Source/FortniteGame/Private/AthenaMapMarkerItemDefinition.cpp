@@ -1,5 +1,6 @@
 #include "AthenaMapMarkerItemDefinition.h"
 
-UAthenaMapMarkerItemDefinition::UAthenaMapMarkerItemDefinition() {
+UAthenaMapMarkerItemDefinition::UAthenaMapMarkerItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

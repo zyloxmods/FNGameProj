@@ -5,6 +5,6 @@ UFortItemDefinition* AFortBluGloManager::GetBluGloItemDefinition() const {
 }
 
 AFortBluGloManager::AFortBluGloManager() {
-    this->BluGloPerMinute = 1;
+    BluGloPerMinute = 1;
 }
 

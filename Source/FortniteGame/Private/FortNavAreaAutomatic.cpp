@@ -1,7 +1,7 @@
 #include "FortNavAreaAutomatic.h"
 
 UFortNavAreaAutomatic::UFortNavAreaAutomatic() {
-    this->NavAreaStrength = 0;
-    this->AutomaticNavCost = 1;
+    NavAreaStrength = 0;
+    AutomaticNavCost = 1;
 }
 

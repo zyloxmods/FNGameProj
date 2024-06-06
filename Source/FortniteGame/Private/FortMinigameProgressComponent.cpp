@@ -24,6 +24,6 @@ void UFortMinigameProgressComponent::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortMinigameProgressComponent::UFortMinigameProgressComponent() {
-    this->ActivationTime = 1;
+    ActivationTime = 1;
 }
 

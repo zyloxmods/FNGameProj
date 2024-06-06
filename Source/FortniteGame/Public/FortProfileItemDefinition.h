@@ -18,6 +18,6 @@ protected:
     FString GrantToProfileType;
     
 public:
-    UFortProfileItemDefinition();
+    UFortProfileItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

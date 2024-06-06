@@ -13,10 +13,10 @@ UFortClientSettingsRecord* UFortLocalPlayer::GetClientSettings() const {
 }
 
 UFortLocalPlayer::UFortLocalPlayer() {
-    this->FortOnlineAccount = NULL;
-    this->ClientSettingsRecord = NULL;
-    this->ContentControlsManager = NULL;
-    this->bControllerAttached = true;
-    this->PoiTracker = NULL;
+    FortOnlineAccount = NULL;
+    ClientSettingsRecord = NULL;
+    ContentControlsManager = NULL;
+    bControllerAttached = true;
+    PoiTracker = NULL;
 }
 

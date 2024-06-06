@@ -1,8 +1,9 @@
 #include "FortMedalsPunchCardItemDefinition.h"
 
-UFortMedalsPunchCardItemDefinition::UFortMedalsPunchCardItemDefinition() {
-    this->NumPunches = 0;
-    this->bAllowMedalReplacement = false;
-    this->ItemType = EFortItemType::MedalsPunchCard;
+UFortMedalsPunchCardItemDefinition::UFortMedalsPunchCardItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    NumPunches = 0;
+    bAllowMedalReplacement = false;
+    ItemType = EFortItemType::MedalsPunchCard;
 }
 

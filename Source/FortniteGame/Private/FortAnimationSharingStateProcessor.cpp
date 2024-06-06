@@ -1,10 +1,10 @@
 #include "FortAnimationSharingStateProcessor.h"
 
 UFortAnimationSharingStateProcessor::UFortAnimationSharingStateProcessor() {
-    this->RunningVelocityThreshold = 1;
-    this->WalkingVelocityThreshold = 1;
-    this->SprintingVelocityThreshold = 1;
-    this->IdleVelocityThreshold = 1;
-    this->FallingZVelocityThreshold = 1;
+    RunningVelocityThreshold = 1;
+    WalkingVelocityThreshold = 1;
+    SprintingVelocityThreshold = 1;
+    IdleVelocityThreshold = 1;
+    FallingZVelocityThreshold = 1;
 }
 

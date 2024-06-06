@@ -31,8 +31,8 @@ void AFortPartyBeaconClient::ClientAllowedToProceedFromReservation_Implementatio
 //}
 
 AFortPartyBeaconClient::AFortPartyBeaconClient() {
-    this->ReconnectionInitialTimeout = 1;
-    this->ReconnectionTimeout = 1;
-    this->bHasReconnected = false;
+    ReconnectionInitialTimeout = 1;
+    ReconnectionTimeout = 1;
+    bHasReconnected = false;
 }
 

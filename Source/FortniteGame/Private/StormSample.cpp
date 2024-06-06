@@ -1,7 +1,7 @@
 #include "StormSample.h"
 
 FStormSample::FStormSample() {
-    this->Radius = 1;
-    this->bIsValid = false;
+    Radius = 1;
+    bIsValid = false;
 }
 

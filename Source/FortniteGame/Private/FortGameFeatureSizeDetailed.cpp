@@ -1,9 +1,9 @@
 #include "FortGameFeatureSizeDetailed.h"
 
 FFortGameFeatureSizeDetailed::FFortGameFeatureSizeDetailed() {
-    this->DownloadSize = 0;
-    this->InstallSize = 0;
-    this->InstallOverheadSize = 0;
-    this->FreeSpace = 0;
+    DownloadSize = 0;
+    InstallSize = 0;
+    InstallOverheadSize = 0;
+    FreeSpace = 0;
 }
 

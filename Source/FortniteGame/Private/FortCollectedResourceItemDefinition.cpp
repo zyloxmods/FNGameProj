@@ -1,5 +1,6 @@
 #include "FortCollectedResourceItemDefinition.h"
 
-UFortCollectedResourceItemDefinition::UFortCollectedResourceItemDefinition() {
+UFortCollectedResourceItemDefinition::UFortCollectedResourceItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

@@ -18,12 +18,12 @@ void AFortCheckPointSplineActor::HideMapUI() {
 
 
 AFortCheckPointSplineActor::AFortCheckPointSplineActor() {
-    this->bSmoothSplineMesh = false;
-    this->SplineMeshTension = 1;
-    this->bShowSplineMeshAtStartup = false;
-    this->bDrawSplineMapUI = false;
-    this->NumSplineMapUISegments = 0;
-    this->SplineMapUIThickness = 1;
-    this->bSplineMapUIAntialias = true;
+    bSmoothSplineMesh = false;
+    SplineMeshTension = 1;
+    bShowSplineMeshAtStartup = false;
+    bDrawSplineMapUI = false;
+    NumSplineMapUISegments = 0;
+    SplineMapUIThickness = 1;
+    bSplineMapUIAntialias = true;
 }
 

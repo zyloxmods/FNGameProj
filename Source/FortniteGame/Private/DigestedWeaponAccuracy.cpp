@@ -1,9 +1,9 @@
 #include "DigestedWeaponAccuracy.h"
 
 FDigestedWeaponAccuracy::FDigestedWeaponAccuracy() {
-    this->IdealAttackRange = 1;
-    this->TargetingIdealAttackRange = 1;
-    this->MaxAttackRange = 1;
-    this->ChanceToAimAtTargetsFeet = 1;
+    IdealAttackRange = 1;
+    TargetingIdealAttackRange = 1;
+    MaxAttackRange = 1;
+    ChanceToAimAtTargetsFeet = 1;
 }
 

@@ -1,6 +1,6 @@
 #include "FortMatchmakingGather.h"
 
 UFortMatchmakingGather::UFortMatchmakingGather() {
-    this->ChanceToJoinInProgress = 1;
+    ChanceToJoinInProgress = 1;
 }
 

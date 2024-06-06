@@ -7,7 +7,7 @@ void UFortPlayerDBNOEnterParams::BreakParams(AFortPlayerPawn*& _KilledPlayer, AC
 }
 
 UFortPlayerDBNOEnterParams::UFortPlayerDBNOEnterParams() {
-    this->KilledPlayer = NULL;
-    this->KilledBy = NULL;
+    KilledPlayer = NULL;
+    KilledBy = NULL;
 }
 

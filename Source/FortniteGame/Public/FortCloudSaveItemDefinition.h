@@ -12,6 +12,6 @@ protected:
     int32 ContentVersion;
     
 public:
-    UFortCloudSaveItemDefinition();
+    UFortCloudSaveItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

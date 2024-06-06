@@ -1,9 +1,9 @@
 #include "AthenaRewardItemReference.h"
 
 FAthenaRewardItemReference::FAthenaRewardItemReference() {
-    this->Quantity = 0;
-    this->IsChaseReward = false;
-    this->RewardType = EAthenaRewardItemType::Normal;
-    this->RewardVisualImportanceType = EAthenaRewardVisualImportanceType::Normal;
+    Quantity = 0;
+    IsChaseReward = false;
+    RewardType = EAthenaRewardItemType::Normal;
+    RewardVisualImportanceType = EAthenaRewardVisualImportanceType::Normal;
 }
 

@@ -1,7 +1,7 @@
 #include "IntensityData.h"
 
 FIntensityData::FIntensityData() {
-    this->ContributionsTotal = 1;
-    this->ExceptionEditModeWeight = 1;
+    ContributionsTotal = 1;
+    ExceptionEditModeWeight = 1;
 }
 

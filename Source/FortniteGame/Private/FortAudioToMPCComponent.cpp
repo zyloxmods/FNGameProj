@@ -10,9 +10,9 @@ float UFortAudioToMPCComponent::GetCachedAverageMagnitude() const {
 }
 
 UFortAudioToMPCComponent::UFortAudioToMPCComponent() {
-    this->bPushDataToMPC = true;
-    this->bCacheDataForBlueprintUse = true;
-    this->MaterialParameterCollection = NULL;
-    this->bWasPlaying = false;
+    bPushDataToMPC = true;
+    bCacheDataForBlueprintUse = true;
+    MaterialParameterCollection = NULL;
+    bWasPlaying = false;
 }
 

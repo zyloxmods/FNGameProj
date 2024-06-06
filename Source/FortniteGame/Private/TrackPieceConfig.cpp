@@ -1,6 +1,6 @@
 #include "TrackPieceConfig.h"
 
 FTrackPieceConfig::FTrackPieceConfig() {
-    this->Type = ETrackPieceType::None;
+    Type = ETrackPieceType::None;
 }
 

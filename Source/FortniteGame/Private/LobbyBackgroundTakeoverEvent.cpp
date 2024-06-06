@@ -1,5 +1,6 @@
 #include "LobbyBackgroundTakeoverEvent.h"
 
-ULobbyBackgroundTakeoverEvent::ULobbyBackgroundTakeoverEvent() {
+ULobbyBackgroundTakeoverEvent::ULobbyBackgroundTakeoverEvent(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

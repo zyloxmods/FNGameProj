@@ -30,10 +30,10 @@ void AFortAthenaMutator_Infiltration::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 AFortAthenaMutator_Infiltration::AFortAthenaMutator_Infiltration() {
-    this->VerticalBuffer = 1;
-    this->PerkUnlockedGameplayEffectClass = NULL;
-    this->CurrentSpawnPoint = NULL;
-    this->CurrentCapturePoint = NULL;
-    this->DilationCurve = NULL;
+    VerticalBuffer = 1;
+    PerkUnlockedGameplayEffectClass = NULL;
+    CurrentSpawnPoint = NULL;
+    CurrentCapturePoint = NULL;
+    DilationCurve = NULL;
 }
 

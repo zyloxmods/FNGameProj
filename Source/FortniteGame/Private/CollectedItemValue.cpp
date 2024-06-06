@@ -1,9 +1,9 @@
 #include "CollectedItemValue.h"
 
 FCollectedItemValue::FCollectedItemValue() {
-    this->CollectedItem = NULL;
-    this->DepositAmount = 0;
-    this->DepositGoal = 0;
-    this->CaptureCount = 0;
+    CollectedItem = NULL;
+    DepositAmount = 0;
+    DepositGoal = 0;
+    CaptureCount = 0;
 }
 

@@ -1,8 +1,8 @@
 #include "TrackMovement.h"
 
 FTrackMovement::FTrackMovement() {
-    this->CurrentSpline = NULL;
-    this->DistanceAlongSpline = 1;
-    this->bReverseDirectionAlongSpline = false;
+    CurrentSpline = NULL;
+    DistanceAlongSpline = 1;
+    bReverseDirectionAlongSpline = false;
 }
 

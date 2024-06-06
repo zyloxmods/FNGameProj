@@ -23,9 +23,9 @@ void AFortAthenaMutator_IsWorldResourceWidgetVisible::GetLifetimeReplicatedProps
 }
 
 AFortAthenaMutator_IsWorldResourceWidgetVisible::AFortAthenaMutator_IsWorldResourceWidgetVisible() {
-    this->bWoodResourceWidgetVisible = true;
-    this->bStoneResourceWidgetVisible = true;
-    this->bMetalResourceWidgetVisible = true;
-    this->bGoldCurrencyResourceWidgetVisible = false;
+    bWoodResourceWidgetVisible = true;
+    bStoneResourceWidgetVisible = true;
+    bMetalResourceWidgetVisible = true;
+    bGoldCurrencyResourceWidgetVisible = false;
 }
 

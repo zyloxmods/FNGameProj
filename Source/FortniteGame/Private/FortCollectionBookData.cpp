@@ -4,13 +4,13 @@ void UFortCollectionBookData::GetPageIdsFromCategoryId(FName CategoryId, TArray<
 }
 
 UFortCollectionBookData::UFortCollectionBookData() {
-    this->PageCategoryData = NULL;
-    this->PageData = NULL;
-    this->SectionData = NULL;
-    this->SlotData = NULL;
-    this->SlotSourceData = NULL;
-    this->XPWeightData = NULL;
-    this->SlotRarityFactorData = NULL;
-    this->BookXPData = NULL;
+    PageCategoryData = NULL;
+    PageData = NULL;
+    SectionData = NULL;
+    SlotData = NULL;
+    SlotSourceData = NULL;
+    XPWeightData = NULL;
+    SlotRarityFactorData = NULL;
+    BookXPData = NULL;
 }
 

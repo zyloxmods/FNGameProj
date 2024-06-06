@@ -2,7 +2,7 @@
 #include "Camera/CameraComponent.h"
 
 AFortItemPreviewSingleAngleActor::AFortItemPreviewSingleAngleActor() {
-    this->ZoomedOutCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutCameraComponent"));
-    this->ZoomedInCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInCameraComponent"));
+    ZoomedOutCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutCameraComponent"));
+    ZoomedInCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInCameraComponent"));
 }
 

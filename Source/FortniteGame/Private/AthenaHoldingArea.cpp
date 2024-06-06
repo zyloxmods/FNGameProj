@@ -16,7 +16,7 @@ void AAthenaHoldingArea::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AAthenaHoldingArea::AAthenaHoldingArea() {
-    this->MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
-    this->bHoldingAreaActive = false;
+    MeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComp"));
+    bHoldingAreaActive = false;
 }
 

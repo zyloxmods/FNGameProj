@@ -14,13 +14,13 @@ void UFortProjectileMoveComp_Drunk::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 UFortProjectileMoveComp_Drunk::UFortProjectileMoveComp_Drunk() {
-    this->DrunkTravelTime = 1;
-    this->bDrunkDirectionChange = false;
-    this->RandSeed = 0;
-    this->DrunkDirectionChangeTimer = 1;
-    this->DrunkHomingDirectionChangeTimer = 1;
-    this->DrunkBlendOutMaxRange = 1;
-    this->bDoingTimeBasedBlendOut = false;
-    this->CachedBlendAlpha = 1;
+    DrunkTravelTime = 1;
+    bDrunkDirectionChange = false;
+    RandSeed = 0;
+    DrunkDirectionChangeTimer = 1;
+    DrunkHomingDirectionChangeTimer = 1;
+    DrunkBlendOutMaxRange = 1;
+    bDoingTimeBasedBlendOut = false;
+    CachedBlendAlpha = 1;
 }
 

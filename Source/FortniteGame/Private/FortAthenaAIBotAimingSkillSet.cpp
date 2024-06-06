@@ -1,6 +1,6 @@
 #include "FortAthenaAIBotAimingSkillSet.h"
 
 UFortAthenaAIBotAimingSkillSet::UFortAthenaAIBotAimingSkillSet() {
-    this->bDigestTrackingOffsetModifiersWithAvgMatchMMR = false;
+    bDigestTrackingOffsetModifiersWithAvgMatchMMR = false;
 }
 

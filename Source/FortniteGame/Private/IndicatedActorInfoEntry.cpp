@@ -1,9 +1,9 @@
 #include "IndicatedActorInfoEntry.h"
 
 FIndicatedActorInfoEntry::FIndicatedActorInfoEntry() {
-    this->Actor = NULL;
-    this->StartTime = 1;
-    this->EndTime = 1;
-    this->bReplaceExistingWhenAdded = false;
+    Actor = NULL;
+    StartTime = 1;
+    EndTime = 1;
+    bReplaceExistingWhenAdded = false;
 }
 

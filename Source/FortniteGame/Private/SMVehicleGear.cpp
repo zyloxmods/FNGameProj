@@ -1,12 +1,12 @@
 #include "SMVehicleGear.h"
 
 FSMVehicleGear::FSMVehicleGear() {
-    this->TopSpeed = 1;
-    this->MinSpeed = 1;
-    this->PushForce = 1;
-    this->RampTime = 1;
-    this->SteeringAngleMultiplier = 1;
-    this->bAutoBrake = false;
-    this->bIgnoreGravity = false;
+    TopSpeed = 1;
+    MinSpeed = 1;
+    PushForce = 1;
+    RampTime = 1;
+    SteeringAngleMultiplier = 1;
+    bAutoBrake = false;
+    bIgnoreGravity = false;
 }
 

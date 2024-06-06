@@ -1,18 +1,18 @@
 #include "VehicleSpringInfo.h"
 
 FVehicleSpringInfo::FVehicleSpringInfo() {
-    this->SpringLength = 1;
-    this->SpringStiff = 1;
-    this->SpringDamp = 1;
-    this->SpringRadius = 1;
-    this->MaxAccelChange = 1;
-    this->SeatSocketIndex = 0;
-    this->bIsLookAhead = false;
-    this->bNormalToGroundTriangle = false;
-    this->bForceAlongSpringNormal = false;
-    this->LookAheadMinSpeed = 1;
-    this->LookAheadMaxSpeed = 1;
-    this->LookAheadMinStiff = 1;
-    this->LookAheadMaxStiff = 1;
+    SpringLength = 1;
+    SpringStiff = 1;
+    SpringDamp = 1;
+    SpringRadius = 1;
+    MaxAccelChange = 1;
+    SeatSocketIndex = 0;
+    bIsLookAhead = false;
+    bNormalToGroundTriangle = false;
+    bForceAlongSpringNormal = false;
+    LookAheadMinSpeed = 1;
+    LookAheadMaxSpeed = 1;
+    LookAheadMinStiff = 1;
+    LookAheadMaxStiff = 1;
 }
 

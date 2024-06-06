@@ -1,6 +1,6 @@
 #include "FortPhoenixLevelUpNotification.h"
 
 FFortPhoenixLevelUpNotification::FFortPhoenixLevelUpNotification() {
-    this->Level = 0;
+    Level = 0;
 }
 

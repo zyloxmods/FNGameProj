@@ -20,6 +20,6 @@ ABuildingSMActor* UFortGameplayAbility_AIPortal::GetPortalBuilding() const {
 }
 
 UFortGameplayAbility_AIPortal::UFortGameplayAbility_AIPortal() {
-    this->PortalLifespan = 1;
+    PortalLifespan = 1;
 }
 

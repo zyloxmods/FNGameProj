@@ -66,17 +66,17 @@ void AFortRemoteControlledPawnAthena::GetLifetimeReplicatedProps(TArray<FLifetim
 }
 
 AFortRemoteControlledPawnAthena::AFortRemoteControlledPawnAthena() {
-    this->bCurrentlyDelayingLaunch = true;
-    this->ServerFuseStartTime = 1;
-    this->RCTeam = 0;
-    this->OverrideAbilitySystemComponent = NULL;
-    this->TriggeredHealthThreshold = 1;
-    this->RemoteControlPawnSet = NULL;
-    this->bTriggeredForDestroy = false;
-    this->RemoteControlledPawnDefaultCameraClass = NULL;
-    this->RemoteControlledPawnTriggeredCameraClass = NULL;
-    this->ControllingPlayerEffect = NULL;
-    this->bIsKeyboardTurnPressed = false;
-    this->bIsKeyboardLookPressed = false;
+    bCurrentlyDelayingLaunch = true;
+    ServerFuseStartTime = 1;
+    RCTeam = 0;
+    OverrideAbilitySystemComponent = NULL;
+    TriggeredHealthThreshold = 1;
+    RemoteControlPawnSet = NULL;
+    bTriggeredForDestroy = false;
+    RemoteControlledPawnDefaultCameraClass = NULL;
+    RemoteControlledPawnTriggeredCameraClass = NULL;
+    ControllingPlayerEffect = NULL;
+    bIsKeyboardTurnPressed = false;
+    bIsKeyboardLookPressed = false;
 }
 

@@ -1,6 +1,6 @@
 #include "SpawningInfo.h"
 
 FSpawningInfo::FSpawningInfo() {
-    this->ItemSpawnData = NULL;
+    ItemSpawnData = NULL;
 }
 

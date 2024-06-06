@@ -67,22 +67,22 @@ void ABuildingFoundation::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 ABuildingFoundation::ABuildingFoundation() {
-    this->bConditionalFoundation = false;
-    this->bServerStreamedInLevel = false;
-    this->bShowHLODWhenDisabled = false;
-    this->bOverrideNavigationGraphCells = true;
-    this->bHasExcludedZone = false;
-    this->bForceDitheringTransition = true;
-    this->bStreamingDataBasedBounds = false;
-    this->FoundationEnabledState = EDynamicFoundationEnabledState::Unknown;
-    this->DynamicFoundationType = EDynamicFoundationType::Static;
-    this->FoundationType = BFT_None;
-    this->NavExclusionMinX = 0;
-    this->NavExclusionMaxX = 0;
-    this->NavExclusionMinY = 0;
-    this->NavExclusionMaxY = 0;
-    this->ParentFoundation = NULL;
-    this->ProxyMeshMaxDrawDistanceMultiplier = 1;
-    this->LevelStreamInfo = NULL;
+    bConditionalFoundation = false;
+    bServerStreamedInLevel = false;
+    bShowHLODWhenDisabled = false;
+    bOverrideNavigationGraphCells = true;
+    bHasExcludedZone = false;
+    bForceDitheringTransition = true;
+    bStreamingDataBasedBounds = false;
+    FoundationEnabledState = EDynamicFoundationEnabledState::Unknown;
+    DynamicFoundationType = EDynamicFoundationType::Static;
+    FoundationType = BFT_None;
+    NavExclusionMinX = 0;
+    NavExclusionMaxX = 0;
+    NavExclusionMinY = 0;
+    NavExclusionMaxY = 0;
+    ParentFoundation = NULL;
+    ProxyMeshMaxDrawDistanceMultiplier = 1;
+    LevelStreamInfo = NULL;
 }
 

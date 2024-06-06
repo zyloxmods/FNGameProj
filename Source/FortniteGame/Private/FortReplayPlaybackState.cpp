@@ -1,13 +1,13 @@
 #include "FortReplayPlaybackState.h"
 
 FFortReplayPlaybackState::FFortReplayPlaybackState() {
-    this->StartTime = 1;
-    this->EndTime = 1;
-    this->TimeNow = 1;
-    this->bIsPaused = false;
-    this->PlaybackSpeedMultiplier = 1;
-    this->HUDVisibility = EHudVisibilityState::FullyVisible;
-    this->bLevelStreaming = false;
-    this->bHasRelevancyZone = false;
+    StartTime = 1;
+    EndTime = 1;
+    TimeNow = 1;
+    bIsPaused = false;
+    PlaybackSpeedMultiplier = 1;
+    HUDVisibility = EHudVisibilityState::FullyVisible;
+    bLevelStreaming = false;
+    bHasRelevancyZone = false;
 }
 

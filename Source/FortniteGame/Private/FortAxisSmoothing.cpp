@@ -1,8 +1,8 @@
 #include "FortAxisSmoothing.h"
 
 FFortAxisSmoothing::FFortAxisSmoothing() {
-    this->ZeroTime = 1;
-    this->Samples = 0;
-    this->TotalSampleTime = 1;
+    ZeroTime = 1;
+    Samples = 0;
+    TotalSampleTime = 1;
 }
 

@@ -1,7 +1,7 @@
 #include "FortSyncedAnimMetaData.h"
 
 UFortSyncedAnimMetaData::UFortSyncedAnimMetaData() {
-    this->SyncedMontage = NULL;
-    this->SyncedMontageFemaleOverride = NULL;
+    SyncedMontage = NULL;
+    SyncedMontageFemaleOverride = NULL;
 }
 

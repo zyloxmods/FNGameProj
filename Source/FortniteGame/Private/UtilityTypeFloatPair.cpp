@@ -1,7 +1,7 @@
 #include "UtilityTypeFloatPair.h"
 
 FUtilityTypeFloatPair::FUtilityTypeFloatPair() {
-    this->Utility = EFortAIUtility::KillPlayersMelee;
-    this->Value = 1;
+    Utility = EFortAIUtility::KillPlayersMelee;
+    Value = 1;
 }
 

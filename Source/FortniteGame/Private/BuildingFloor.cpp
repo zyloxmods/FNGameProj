@@ -5,6 +5,6 @@ bool ABuildingFloor::IsBalcony() const {
 }
 
 ABuildingFloor::ABuildingFloor() {
-    this->bShouldIgnoreForHorizontalHotspotSearch = true;
+    bShouldIgnoreForHorizontalHotspotSearch = true;
 }
 

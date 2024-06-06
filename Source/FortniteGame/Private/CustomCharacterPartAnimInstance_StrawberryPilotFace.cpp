@@ -1,12 +1,12 @@
 #include "CustomCharacterPartAnimInstance_StrawberryPilotFace.h"
 
 UCustomCharacterPartAnimInstance_StrawberryPilotFace::UCustomCharacterPartAnimInstance_StrawberryPilotFace() {
-    this->HeadSwingDeltaValue = 1;
-    this->ArmSwingDeltaLValue = 1;
-    this->ArmSwingDeltaRValue = 1;
-    this->HeadTwistLValue = 1;
-    this->HeadTwistRValue = 1;
-    this->HeadSwingDeltaTargetLValue = 1;
-    this->HeadSwingDeltaTargetRValue = 1;
+    HeadSwingDeltaValue = 1;
+    ArmSwingDeltaLValue = 1;
+    ArmSwingDeltaRValue = 1;
+    HeadTwistLValue = 1;
+    HeadTwistRValue = 1;
+    HeadSwingDeltaTargetLValue = 1;
+    HeadSwingDeltaTargetRValue = 1;
 }
 

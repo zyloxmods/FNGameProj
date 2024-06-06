@@ -31,7 +31,7 @@ private:
     TSoftObjectPtr<UFortTaggedSoundBank> PetSoundBank;
     
 public:
-    UAthenaPetItemDefinition();
+    UAthenaPetItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSubclassOf<AFortPlayerPet> GetPetPrefabClass() const;
     

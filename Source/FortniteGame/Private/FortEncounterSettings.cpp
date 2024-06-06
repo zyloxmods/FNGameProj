@@ -1,31 +1,31 @@
 #include "FortEncounterSettings.h"
 
 FFortEncounterSettings::FFortEncounterSettings() {
-    this->bRiftsDestroyPlayerBuiltBuildings = false;
-    this->bValidateIfPlayerIsAtSpawnLocation = false;
-    this->bMustFindSpawnPoints = false;
-    this->bStopIfCantFindSpawnPoint = false;
-    this->bIgnoreCollisionWhenSpawningAI = false;
-    this->bTrackCombatParticipation = false;
-    this->bDisplayThreatVisuals = false;
-    this->BurstSpawnThreatVisualsEndDelayOverride = 1;
-    this->NumRiftsToUseOverride = 0;
-    this->bUseEQSQueryToFindAISpawnLocations = false;
-    this->bRelevantForTotalAICap = false;
-    this->bEnableRecreateRift = false;
-    this->bRespawnRiftWhenRiftDead = false;
-    this->bRandomiseQueryRiftLocations = false;
-    this->bOverrideEqsFallback = false;
-    this->PreSpawnRequeryTime = 1;
-    this->SpawnAIIntervalTime = 1;
-    this->SpawnRiftIntervalTime = 1;
-    this->bSpawnFirstRiftNoDelay = false;
-    this->RiftSelectionQuery = NULL;
-    this->RiftSlotsEQSQueryOverride = NULL;
-    this->RiftClassOverride = NULL;
-    this->EncounterGroupID = 0;
-    this->ZoneIndex = 0;
-    this->DifficultyIndex = 0;
-    this->AIDespawnDistanceOverride = 1;
+    bRiftsDestroyPlayerBuiltBuildings = false;
+    bValidateIfPlayerIsAtSpawnLocation = false;
+    bMustFindSpawnPoints = false;
+    bStopIfCantFindSpawnPoint = false;
+    bIgnoreCollisionWhenSpawningAI = false;
+    bTrackCombatParticipation = false;
+    bDisplayThreatVisuals = false;
+    BurstSpawnThreatVisualsEndDelayOverride = 1;
+    NumRiftsToUseOverride = 0;
+    bUseEQSQueryToFindAISpawnLocations = false;
+    bRelevantForTotalAICap = false;
+    bEnableRecreateRift = false;
+    bRespawnRiftWhenRiftDead = false;
+    bRandomiseQueryRiftLocations = false;
+    bOverrideEqsFallback = false;
+    PreSpawnRequeryTime = 1;
+    SpawnAIIntervalTime = 1;
+    SpawnRiftIntervalTime = 1;
+    bSpawnFirstRiftNoDelay = false;
+    RiftSelectionQuery = NULL;
+    RiftSlotsEQSQueryOverride = NULL;
+    RiftClassOverride = NULL;
+    EncounterGroupID = 0;
+    ZoneIndex = 0;
+    DifficultyIndex = 0;
+    AIDespawnDistanceOverride = 1;
 }
 

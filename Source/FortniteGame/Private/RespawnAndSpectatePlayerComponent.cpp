@@ -17,9 +17,9 @@ void URespawnAndSpectatePlayerComponent::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 URespawnAndSpectatePlayerComponent::URespawnAndSpectatePlayerComponent() {
-    this->RespawnFailSafeTime = 1;
-    this->ManagingMutator = NULL;
-    this->RespawningState = ERespawnAndSpectatePlayerRespawningState::None;
-    this->ReplicateClientScreenFade_FadeIn = 0;
+    RespawnFailSafeTime = 1;
+    ManagingMutator = NULL;
+    RespawningState = ERespawnAndSpectatePlayerRespawningState::None;
+    ReplicateClientScreenFade_FadeIn = 0;
 }
 

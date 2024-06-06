@@ -1,7 +1,7 @@
 #include "PlaylistUserOptionItemType.h"
 
 UPlaylistUserOptionItemType::UPlaylistUserOptionItemType() {
-    this->ItemType = EFortItemType::WorldItem;
-    this->DefaultValueIndex = 0;
+    ItemType = EFortItemType::WorldItem;
+    DefaultValueIndex = 0;
 }
 

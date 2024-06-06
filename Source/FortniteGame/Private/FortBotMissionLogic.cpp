@@ -29,7 +29,7 @@ void UFortBotMissionLogic::ClearAllLocated() {
 }
 
 UFortBotMissionLogic::UFortBotMissionLogic() {
-    this->Mission = NULL;
-    this->CurrentBehaviorAsset = NULL;
+    Mission = NULL;
+    CurrentBehaviorAsset = NULL;
 }
 

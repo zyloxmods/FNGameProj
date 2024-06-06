@@ -1,17 +1,17 @@
 #include "FortWindImpulseCylinderDelta.h"
 
 FFortWindImpulseCylinderDelta::FFortWindImpulseCylinderDelta() {
-    this->bInitialized = false;
-    this->bRippleOutward = false;
-    this->SectionWidth = 1;
-    this->InnerSectionRadius = 1;
-    this->OuterSectionRadius = 1;
-    this->MaximumRadius = 1;
-    this->DesiredOverallBlendTime = 1;
-    this->SectionBlendTime = 1;
-    this->SectionCurrentBlendTime = 1;
-    this->PreviousMagnitude = 1;
-    this->SectionCurrentMagnitude = 1;
-    this->DesiredMagnitude = 1;
+    bInitialized = false;
+    bRippleOutward = false;
+    SectionWidth = 1;
+    InnerSectionRadius = 1;
+    OuterSectionRadius = 1;
+    MaximumRadius = 1;
+    DesiredOverallBlendTime = 1;
+    SectionBlendTime = 1;
+    SectionCurrentBlendTime = 1;
+    PreviousMagnitude = 1;
+    SectionCurrentMagnitude = 1;
+    DesiredMagnitude = 1;
 }
 

@@ -1,7 +1,7 @@
 #include "GrantItemMultiData.h"
 
 FGrantItemMultiData::FGrantItemMultiData() {
-    this->bRemoveExistingBeforeGrant = false;
-    this->bRequiresPreviousInstance = false;
+    bRemoveExistingBeforeGrant = false;
+    bRequiresPreviousInstance = false;
 }
 

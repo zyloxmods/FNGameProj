@@ -6,6 +6,6 @@ AFortAircraft* AFortMissionAircraft::CreateAircraft(const FTransform SpawnTransf
 }
 
 AFortMissionAircraft::AFortMissionAircraft() {
-    this->Aircraft = NULL;
+    Aircraft = NULL;
 }
 

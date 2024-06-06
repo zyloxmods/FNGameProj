@@ -1,11 +1,11 @@
 #include "FortCurieFirePropagationManager.h"
 
 UFortCurieFirePropagationManager::UFortCurieFirePropagationManager() {
-    this->TickInterval = 1;
-    this->DefaultPropagationFuel = 0;
-    this->PropagationApplicationMagnitude = 1;
-    this->bUseConnectivityPointsForFireSpread = true;
-    this->DefaultConnectivityPoints = 0;
-    this->HalfAngleForUpwardMobilityCalculation = 1;
+    TickInterval = 1;
+    DefaultPropagationFuel = 0;
+    PropagationApplicationMagnitude = 1;
+    bUseConnectivityPointsForFireSpread = true;
+    DefaultConnectivityPoints = 0;
+    HalfAngleForUpwardMobilityCalculation = 1;
 }
 

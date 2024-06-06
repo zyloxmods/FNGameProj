@@ -1,8 +1,8 @@
 #include "TournamentPayoutData.h"
 
 FTournamentPayoutData::FTournamentPayoutData() {
-    this->RewardType = EPayoutRewardType::Invalid;
-    this->Quantity = 0;
-    this->TeamSize = 0;
+    RewardType = EPayoutRewardType::Invalid;
+    Quantity = 0;
+    TeamSize = 0;
 }
 

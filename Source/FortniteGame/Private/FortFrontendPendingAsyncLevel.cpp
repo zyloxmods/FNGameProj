@@ -4,8 +4,8 @@ void UFortFrontendPendingAsyncLevel::HandleLevelLoadedAsync() {
 }
 
 UFortFrontendPendingAsyncLevel::UFortFrontendPendingAsyncLevel() {
-    this->SubgameStreamingLevel = NULL;
-    this->FrontEndFlow = NULL;
-    this->CameraOverride = EFrontEndCamera::Invalid;
+    SubgameStreamingLevel = NULL;
+    FrontEndFlow = NULL;
+    CameraOverride = EFrontEndCamera::Invalid;
 }
 

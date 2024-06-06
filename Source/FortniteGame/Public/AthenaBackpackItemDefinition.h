@@ -7,7 +7,7 @@ UCLASS(Blueprintable, MinimalAPI)
 class UAthenaBackpackItemDefinition : public UAthenaCharacterPartItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaBackpackItemDefinition();
+    UAthenaBackpackItemDefinition(const FObjectInitializer& ObjectInitializer);
 
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {

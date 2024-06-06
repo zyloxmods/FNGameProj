@@ -11,6 +11,6 @@ void AFortAthenaMutator_GameStartCountdown::GetLifetimeReplicatedProps(TArray<FL
 }
 
 AFortAthenaMutator_GameStartCountdown::AFortAthenaMutator_GameStartCountdown() {
-    this->bCountdownTimerRunning = false;
+    bCountdownTimerRunning = false;
 }
 

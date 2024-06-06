@@ -2,13 +2,13 @@
 
 
 UFortGameplayCueNotify_Simple::UFortGameplayCueNotify_Simple() {
-    this->StartSound = NULL;
-    this->StartParticleSystem = NULL;
-    this->bStayAttached = false;
-    this->bUseHitResult = false;
-    this->bUseWeapon = false;
-    this->bIgnoreRotation = false;
-    this->bUseUnsmoothedNetworkPosition = false;
-    this->PoolingMethod = EPSCPoolMethod::None;
+    StartSound = NULL;
+    StartParticleSystem = NULL;
+    bStayAttached = false;
+    bUseHitResult = false;
+    bUseWeapon = false;
+    bIgnoreRotation = false;
+    bUseUnsmoothedNetworkPosition = false;
+    PoolingMethod = EPSCPoolMethod::None;
 }
 

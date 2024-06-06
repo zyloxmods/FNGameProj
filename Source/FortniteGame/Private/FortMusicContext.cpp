@@ -12,6 +12,6 @@ UAthenaMusicPackItemDefinition* UFortMusicContext::GetEquippedMusicPack() {
 }
 
 UFortMusicContext::UFortMusicContext() {
-    this->DesiredActiveMusicPack = NULL;
+    DesiredActiveMusicPack = NULL;
 }
 

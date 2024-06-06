@@ -1,9 +1,9 @@
 #include "MinigameActivityStartedData.h"
 
 FMinigameActivityStartedData::FMinigameActivityStartedData() {
-    this->Stat = EMinigameActivityStat::Time;
-    this->InitialStatValue = 1;
-    this->InitialScore = 0;
-    this->TotalScore = 0;
+    Stat = EMinigameActivityStat::Time;
+    InitialStatValue = 1;
+    InitialScore = 0;
+    TotalScore = 0;
 }
 

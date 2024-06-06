@@ -54,14 +54,14 @@ void AFortAthenaMutator_DadBro::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortAthenaMutator_DadBro::AFortAthenaMutator_DadBro() {
-    this->DadBroEncounter = NULL;
-    this->DadBroEncounterInstance = NULL;
-    this->DadBroPawn = NULL;
-    this->MaxPickupsToDespawnAtOnce = 0;
-    this->PickupTimeRangeToDespawnAtOnce = 1;
-    this->DadBroCodeState = EDadBroState::NotYet;
-    this->ServerTimeDadBroStarted = 1;
-    this->TimeTakenToDefeatDadBro = 1;
-    this->ListeningPawn = NULL;
+    DadBroEncounter = NULL;
+    DadBroEncounterInstance = NULL;
+    DadBroPawn = NULL;
+    MaxPickupsToDespawnAtOnce = 0;
+    PickupTimeRangeToDespawnAtOnce = 1;
+    DadBroCodeState = EDadBroState::NotYet;
+    ServerTimeDadBroStarted = 1;
+    TimeTakenToDefeatDadBro = 1;
+    ListeningPawn = NULL;
 }
 

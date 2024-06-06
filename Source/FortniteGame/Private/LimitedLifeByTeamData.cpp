@@ -1,7 +1,7 @@
 #include "LimitedLifeByTeamData.h"
 
 FLimitedLifeByTeamData::FLimitedLifeByTeamData() {
-    this->bUseTeamPooledLives = false;
-    this->Lives = 0;
+    bUseTeamPooledLives = false;
+    Lives = 0;
 }
 

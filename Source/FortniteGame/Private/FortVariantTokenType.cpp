@@ -12,11 +12,12 @@ UFortItemDefinition* UFortVariantTokenType::GetCosmeticItem() const {
     return NULL;
 }
 
-UFortVariantTokenType::UFortVariantTokenType() {
-    this->ProfileType = EItemProfileType::Common;
-    this->cosmetic_item = NULL;
-    this->bAutoEquipVariant = true;
-    this->bMarkItemUnseen = true;
-    this->bCreateGiftbox = false;
+UFortVariantTokenType::UFortVariantTokenType(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ProfileType = EItemProfileType::Common;
+    cosmetic_item = NULL;
+    bAutoEquipVariant = true;
+    bMarkItemUnseen = true;
+    bCreateGiftbox = false;
 }
 

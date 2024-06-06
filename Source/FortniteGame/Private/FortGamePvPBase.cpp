@@ -1,6 +1,6 @@
 #include "FortGamePvPBase.h"
 
 AFortGamePvPBase::AFortGamePvPBase() {
-    this->NumTeams = 0;
+    NumTeams = 0;
 }
 

@@ -1,11 +1,11 @@
 #include "WorldTileType.h"
 
 UWorldTileType::UWorldTileType() {
-    this->TileID = TEXT("Default Name");
-    this->TileWeight = 0;
-    this->North = EFortTileEdgeType::Undefined;
-    this->East = EFortTileEdgeType::Undefined;
-    this->South = EFortTileEdgeType::Undefined;
-    this->West = EFortTileEdgeType::Undefined;
+    TileID = TEXT("Default Name");
+    TileWeight = 0;
+    North = EFortTileEdgeType::Undefined;
+    East = EFortTileEdgeType::Undefined;
+    South = EFortTileEdgeType::Undefined;
+    West = EFortTileEdgeType::Undefined;
 }
 

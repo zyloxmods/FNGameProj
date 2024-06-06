@@ -11,6 +11,6 @@ void AFortClientAnnouncement_Tutorial::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 AFortClientAnnouncement_Tutorial::AFortClientAnnouncement_Tutorial() {
-    this->AutoContinueDelay = 1;
+    AutoContinueDelay = 1;
 }
 

@@ -9,7 +9,7 @@ void AFortItemWrapPreviewActor::ApplyWrapToSkelMesh(USkeletalMeshComponent* Mesh
 }
 
 AFortItemWrapPreviewActor::AFortItemWrapPreviewActor() {
-    this->MyWrap = NULL;
-    this->ItemWrapModifier = NULL;
+    MyWrap = NULL;
+    ItemWrapModifier = NULL;
 }
 

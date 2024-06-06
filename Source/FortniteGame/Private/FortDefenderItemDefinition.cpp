@@ -8,7 +8,8 @@ EFortDefenderSubtype UFortDefenderItemDefinition::GetDefenderSubtype() const {
     return EFortDefenderSubtype::AssaultRifle;
 }
 
-UFortDefenderItemDefinition::UFortDefenderItemDefinition() {
-    this->ItemType = EFortItemType::Defender;
+UFortDefenderItemDefinition::UFortDefenderItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ItemType = EFortItemType::Defender;
 }
 

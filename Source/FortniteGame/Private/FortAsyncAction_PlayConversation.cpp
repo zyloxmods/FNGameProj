@@ -5,7 +5,7 @@ UFortAsyncAction_PlayConversation* UFortAsyncAction_PlayConversation::PlayConver
 }
 
 UFortAsyncAction_PlayConversation::UFortAsyncAction_PlayConversation() {
-    this->Pawn = NULL;
-    this->ConversationToPlay = NULL;
+    Pawn = NULL;
+    ConversationToPlay = NULL;
 }
 

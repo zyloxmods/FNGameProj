@@ -1,13 +1,13 @@
 #include "GameDataBR.h"
 
 UGameDataBR::UGameDataBR() {
-    this->FallbackSeason = NULL;
-    this->TimeOfDayRGBForPeripherals = NULL;
-    this->AthenaSoundMix = NULL;
-    this->AthenaReverbEffect = NULL;
-    this->VisualizationSoundMix = NULL;
-    this->RespawnDataTable = NULL;
-    this->NamedWeightsByPoi = NULL;
-    this->AthenaMemoryCostRegister = NULL;
+    FallbackSeason = NULL;
+    TimeOfDayRGBForPeripherals = NULL;
+    AthenaSoundMix = NULL;
+    AthenaReverbEffect = NULL;
+    VisualizationSoundMix = NULL;
+    RespawnDataTable = NULL;
+    NamedWeightsByPoi = NULL;
+    AthenaMemoryCostRegister = NULL;
 }
 

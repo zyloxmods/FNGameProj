@@ -1,12 +1,12 @@
 #include "CustomCharacterPartAnimInstance_Dragon_Mask.h"
 
 UCustomCharacterPartAnimInstance_Dragon_Mask::UCustomCharacterPartAnimInstance_Dragon_Mask() {
-    this->ShortsAlpha = 1;
-    this->ArmUp_R = 1;
-    this->ArmBack_R = 1;
-    this->ArmUpMore_R = 1;
-    this->HeadRotBack = 1;
-    this->CalfRotBack_R = 1;
-    this->CalfRotBack_L = 1;
+    ShortsAlpha = 1;
+    ArmUp_R = 1;
+    ArmBack_R = 1;
+    ArmUpMore_R = 1;
+    HeadRotBack = 1;
+    CalfRotBack_R = 1;
+    CalfRotBack_L = 1;
 }
 

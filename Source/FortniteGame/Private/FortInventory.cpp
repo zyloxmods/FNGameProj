@@ -13,10 +13,10 @@ void AFortInventory::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLi
 }
 
 AFortInventory::AFortInventory() {
-    this->InventoryType = EFortInventoryType::World;
-    this->ReplayPawn = NULL;
-    this->bRequiresLocalUpdate = true;
-    this->bRequiresSaving = true;
-    this->bIsShuttingDown = false;
+    InventoryType = EFortInventoryType::World;
+    ReplayPawn = NULL;
+    bRequiresLocalUpdate = true;
+    bRequiresSaving = true;
+    bIsShuttingDown = false;
 }
 

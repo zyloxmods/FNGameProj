@@ -1,7 +1,7 @@
 #include "FortPointOnCurveRange.h"
 
 FFortPointOnCurveRange::FFortPointOnCurveRange() {
-    this->MinPercentage = 1;
-    this->MaxPercentage = 1;
+    MinPercentage = 1;
+    MaxPercentage = 1;
 }
 

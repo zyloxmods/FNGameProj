@@ -22,7 +22,7 @@ protected:
     TSoftClassPtr<AFortToyPreviewActor> FrontEndPreviewActor;
     
 public:
-    UAthenaToyItemDefinition();
+    UAthenaToyItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftClassPtr<AActor> GetToyActorClass() const;
     

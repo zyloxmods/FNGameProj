@@ -1,9 +1,9 @@
 #include "MtxBreakdown.h"
 
 FMtxBreakdown::FMtxBreakdown() {
-    this->AvailableTotalMtx = 0;
-    this->AvailablePremiumMtx = 0;
-    this->UnavailableTotalMtx = 0;
-    this->UnavailablePremiumMtx = 0;
+    AvailableTotalMtx = 0;
+    AvailablePremiumMtx = 0;
+    UnavailableTotalMtx = 0;
+    UnavailablePremiumMtx = 0;
 }
 

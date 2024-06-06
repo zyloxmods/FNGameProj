@@ -2,6 +2,6 @@
 #include "FortNavArea_Obstacle.h"
 
 UFortNavObstacleComponent::UFortNavObstacleComponent() {
-    this->ObstacleAreaClass = UFortNavArea_Obstacle::StaticClass();
+    ObstacleAreaClass = UFortNavArea_Obstacle::StaticClass();
 }
 

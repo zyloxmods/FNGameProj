@@ -11,7 +11,7 @@ void AFortAthenaMutator_SynchronizedTeleport::GetLifetimeReplicatedProps(TArray<
 }
 
 AFortAthenaMutator_SynchronizedTeleport::AFortAthenaMutator_SynchronizedTeleport() {
-    this->HidePawnGameplayEffectClass = NULL;
-    this->bTeleportComplete = true;
+    HidePawnGameplayEffectClass = NULL;
+    bTeleportComplete = true;
 }
 

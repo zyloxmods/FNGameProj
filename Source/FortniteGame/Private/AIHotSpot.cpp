@@ -158,17 +158,17 @@ void AAIHotSpot::AssignFromWaitingList() {
 }
 
 AAIHotSpot::AAIHotSpot() {
-    this->SlotGenerator = NULL;
-    this->FocusActor = NULL;
-    this->FilterClass = URecastFilter_UseDefaultArea::StaticClass();
-    this->bStartEnabled = true;
-    this->bAllowSlotlessAssignment = false;
-    this->bAllowClaimingMultipleSlots = false;
-    this->bTrackOverlappingSlots = true;
-    this->bProjectSlotsOnNavmesh = true;
-    this->bCustomNavmeshSearchExtent = false;
-    this->bIsEnabled = false;
-    this->RenderingComponent = NULL;
-    this->SpriteComponent = CreateDefaultSubobject<UBillboardComponent>(TEXT("Sprite"));
+    SlotGenerator = NULL;
+    FocusActor = NULL;
+    FilterClass = URecastFilter_UseDefaultArea::StaticClass();
+    bStartEnabled = true;
+    bAllowSlotlessAssignment = false;
+    bAllowClaimingMultipleSlots = false;
+    bTrackOverlappingSlots = true;
+    bProjectSlotsOnNavmesh = true;
+    bCustomNavmeshSearchExtent = false;
+    bIsEnabled = false;
+    RenderingComponent = NULL;
+    SpriteComponent = CreateDefaultSubobject<UBillboardComponent>(TEXT("Sprite"));
 }
 

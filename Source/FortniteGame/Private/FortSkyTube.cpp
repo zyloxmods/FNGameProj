@@ -23,9 +23,9 @@ void AFortSkyTube::DeferredEnableOverlaps() {
 }
 
 AFortSkyTube::AFortSkyTube() {
-    this->bExemptFromShutdown = false;
-    this->Spline = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComponent"));
-    this->bEnabled = true;
-    this->bShuttingDown = false;
+    bExemptFromShutdown = false;
+    Spline = CreateDefaultSubobject<USplineComponent>(TEXT("SplineComponent"));
+    bEnabled = true;
+    bShuttingDown = false;
 }
 

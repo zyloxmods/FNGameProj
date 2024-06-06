@@ -1,6 +1,7 @@
 #include "FortHomebaseNodeItemDefinition.h"
 
-UFortHomebaseNodeItemDefinition::UFortHomebaseNodeItemDefinition() {
-    this->DisplayType = EHomebaseNodeType::Gadget;
+UFortHomebaseNodeItemDefinition::UFortHomebaseNodeItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    DisplayType = EHomebaseNodeType::Gadget;
 }
 

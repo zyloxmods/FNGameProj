@@ -4,7 +4,7 @@
 
 
 AFortPawn_Taker::AFortPawn_Taker() {
-    this->SlowShackleScale = 1;
-    this->bUseClimbLinks = true;
+    SlowShackleScale = 1;
+    bUseClimbLinks = true;
 }
 

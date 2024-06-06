@@ -17,6 +17,6 @@ void AFortAthenaZipline::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AFortAthenaZipline::AFortAthenaZipline() {
-    this->bInitialized = false;
+    bInitialized = false;
 }
 

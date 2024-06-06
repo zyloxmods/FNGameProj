@@ -1,6 +1,6 @@
 #include "EarnedBadgePlayerData.h"
 
 FEarnedBadgePlayerData::FEarnedBadgePlayerData() {
-    this->Count = 0;
+    Count = 0;
 }
 

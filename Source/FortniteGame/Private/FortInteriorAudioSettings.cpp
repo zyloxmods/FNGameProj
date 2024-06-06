@@ -1,22 +1,22 @@
 #include "FortInteriorAudioSettings.h"
 
 UFortInteriorAudioSettings::UFortInteriorAudioSettings() {
-    this->HorizontalScanDistance = 0;
-    this->VerticalScanDistance = 0;
-    this->TraceCollisionChannel = ECC_WorldStatic;
-    this->TotalBuildingCountRequiredForInterior = 0;
-    this->TotalNonPartialBuildingCountRequiredForInterior = 0;
-    this->InteriorSoundMix = NULL;
-    this->PartialInteriorSoundMix = NULL;
-    this->AmbientEntryPriority = 0;
-    this->AmbientBanks[0] = NULL;
-    this->AmbientBanks[1] = NULL;
-    this->AmbientBanks[2] = NULL;
-    this->AmbientBanks[3] = NULL;
-    this->AmbientBanks[4] = NULL;
-    this->SourceBusAsset = NULL;
-    this->SourceBusFadeInTime = 1;
-    this->SourceBusFadeOutTime = 1;
-    this->SourceBusCrossfadeTime = 1;
+    HorizontalScanDistance = 0;
+    VerticalScanDistance = 0;
+    TraceCollisionChannel = ECC_WorldStatic;
+    TotalBuildingCountRequiredForInterior = 0;
+    TotalNonPartialBuildingCountRequiredForInterior = 0;
+    InteriorSoundMix = NULL;
+    PartialInteriorSoundMix = NULL;
+    AmbientEntryPriority = 0;
+    AmbientBanks[0] = NULL;
+    AmbientBanks[1] = NULL;
+    AmbientBanks[2] = NULL;
+    AmbientBanks[3] = NULL;
+    AmbientBanks[4] = NULL;
+    SourceBusAsset = NULL;
+    SourceBusFadeInTime = 1;
+    SourceBusFadeOutTime = 1;
+    SourceBusCrossfadeTime = 1;
 }
 

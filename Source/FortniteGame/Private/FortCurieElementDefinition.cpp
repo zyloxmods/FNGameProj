@@ -1,7 +1,7 @@
 #include "FortCurieElementDefinition.h"
 
 FFortCurieElementDefinition::FFortCurieElementDefinition() {
-    this->MaxIntensity = 1;
-    this->IntensityDecayRate = 1;
+    MaxIntensity = 1;
+    IntensityDecayRate = 1;
 }
 

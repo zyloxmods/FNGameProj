@@ -15,7 +15,7 @@ protected:
     TSoftObjectPtr<UAnimMontage> DefaultPetAnimation;
     
 public:
-    UPetSyncedDanceItemDefinition();
+    UPetSyncedDanceItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftObjectPtr<UAnimMontage> GetPetAnimation(const UAthenaPetItemDefinition* PetItemDef) const;
     

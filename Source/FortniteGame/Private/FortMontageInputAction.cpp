@@ -1,6 +1,6 @@
 #include "FortMontageInputAction.h"
 
 FFortMontageInputAction::FFortMontageInputAction() {
-    this->InputType = EFortMontageInputType::WindowClickOrHold;
+    InputType = EFortMontageInputType::WindowClickOrHold;
 }
 

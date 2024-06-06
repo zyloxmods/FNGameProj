@@ -10,7 +10,7 @@ bool AFortSkyTubeAnchor::IsEnabled() const {
 }
 
 AFortSkyTubeAnchor::AFortSkyTubeAnchor() {
-    this->bEnabled = true;
-    this->bExemptFromShutdown = false;
+    bEnabled = true;
+    bExemptFromShutdown = false;
 }
 

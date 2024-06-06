@@ -1,5 +1,6 @@
 #include "FortPlayerSurveyTokenItemDefinition.h"
 
-UFortPlayerSurveyTokenItemDefinition::UFortPlayerSurveyTokenItemDefinition() {
+UFortPlayerSurveyTokenItemDefinition::UFortPlayerSurveyTokenItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

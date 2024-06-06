@@ -5,7 +5,7 @@ UFortAsyncAction_CheckForUpdate* UFortAsyncAction_CheckForUpdate::CheckForUpdate
 }
 
 UFortAsyncAction_CheckForUpdate::UFortAsyncAction_CheckForUpdate() {
-    this->WorldContextObject = NULL;
-    this->bShowDialogOnFailure = true;
+    WorldContextObject = NULL;
+    bShowDialogOnFailure = true;
 }
 

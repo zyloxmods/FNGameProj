@@ -1,7 +1,7 @@
 #include "FortChallengeBundleInfoLockedReason.h"
 
 FFortChallengeBundleInfoLockedReason::FFortChallengeBundleInfoLockedReason() {
-    this->ReasonCode = EFortChallengeBundleInfoLockedReasonCode::Unlocked;
-    this->RequiredTier = 0;
+    ReasonCode = EFortChallengeBundleInfoLockedReasonCode::Unlocked;
+    RequiredTier = 0;
 }
 

@@ -1,3 +1,10 @@
-#include "Modules/ModuleManager.h"
+#include "FortniteGameModule.h"
 
-IMPLEMENT_MODULE(FDefaultGameModuleImpl, FortniteGame);
+#include "Modules/ModuleManager.h"
+#include "GameplayTagsManager.h"
+
+IMPLEMENT_PRIMARY_GAME_MODULE(FFortniteGameModule, FortniteGame, "Fortnite");
+
+void FFortniteGameModule::StartupModule()
+{
+}

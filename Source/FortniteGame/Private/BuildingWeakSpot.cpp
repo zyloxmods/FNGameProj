@@ -7,12 +7,12 @@ void ABuildingWeakSpot::Deactivate() {
 }
 
 ABuildingWeakSpot::ABuildingWeakSpot() {
-    this->bHit = false;
-    this->bFadeOut = false;
-    this->bActive = false;
-    this->HitCount = 0;
-    this->Level = 0;
-    this->MaxLevel = 0;
-    this->PhysicalSurfaceType = SurfaceType12;
+    bHit = false;
+    bFadeOut = false;
+    bActive = false;
+    HitCount = 0;
+    Level = 0;
+    MaxLevel = 0;
+    PhysicalSurfaceType = SurfaceType12;
 }
 

@@ -1,6 +1,6 @@
 #include "TeamSetupDataEntry.h"
 
 FTeamSetupDataEntry::FTeamSetupDataEntry() {
-    this->TeamNum = 0;
+    TeamNum = 0;
 }
 

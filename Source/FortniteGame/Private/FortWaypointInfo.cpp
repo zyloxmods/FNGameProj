@@ -20,6 +20,6 @@ void AFortWaypointInfo::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 }
 
 AFortWaypointInfo::AFortWaypointInfo() {
-    this->Spline = NULL;
+    Spline = NULL;
 }
 

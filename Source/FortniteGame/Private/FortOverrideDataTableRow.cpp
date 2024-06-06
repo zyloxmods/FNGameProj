@@ -1,6 +1,6 @@
 #include "FortOverrideDataTableRow.h"
 
 FFortOverrideDataTableRow::FFortOverrideDataTableRow() {
-    this->Weight = 1;
+    Weight = 1;
 }
 

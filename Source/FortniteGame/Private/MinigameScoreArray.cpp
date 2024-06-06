@@ -1,6 +1,6 @@
 #include "MinigameScoreArray.h"
 
 FMinigameScoreArray::FMinigameScoreArray() {
-    this->Owner = NULL;
+    Owner = NULL;
 }
 

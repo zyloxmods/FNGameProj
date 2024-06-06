@@ -3,7 +3,7 @@
 #include "FortAthenaSimpleCarMovementComponent.h"
 
 AFortAthenaSimpleCar::AFortAthenaSimpleCar() {
-    this->WheeledVehicleMovementComponent = CreateDefaultSubobject<UFortAthenaSimpleCarMovementComponent>(TEXT("FortAthenaWheeledVehicleMovementComponent0"));
-    this->MeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMeshComponent0"));
+    WheeledVehicleMovementComponent = CreateDefaultSubobject<UFortAthenaSimpleCarMovementComponent>(TEXT("FortAthenaWheeledVehicleMovementComponent0"));
+    MeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("SkeletalMeshComponent0"));
 }
 

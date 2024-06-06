@@ -30,7 +30,7 @@ void UAthenaResurrectionComponent::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 UAthenaResurrectionComponent::UAthenaResurrectionComponent() {
-    this->ClosestSpawnMachineIndex = 0;
-    this->NotifyPlayerDamageThrottle = 1;
+    ClosestSpawnMachineIndex = 0;
+    NotifyPlayerDamageThrottle = 1;
 }
 

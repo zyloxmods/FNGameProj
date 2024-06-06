@@ -1,6 +1,6 @@
 #include "PetResponseFromQuestSystem.h"
 
 FPetResponseFromQuestSystem::FPetResponseFromQuestSystem() {
-    this->ResponseDuration = 1;
+    ResponseDuration = 1;
 }
 

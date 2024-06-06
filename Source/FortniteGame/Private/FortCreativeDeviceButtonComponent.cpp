@@ -4,7 +4,7 @@ void UFortCreativeDeviceButtonComponent::SetButtonLabel(const FText& InButtonLab
 }
 
 UFortCreativeDeviceButtonComponent::UFortCreativeDeviceButtonComponent() {
-    this->WeightOffset = 0;
-    this->EditWidget = NULL;
+    WeightOffset = 0;
+    EditWidget = NULL;
 }
 

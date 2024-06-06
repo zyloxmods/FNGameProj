@@ -1,18 +1,18 @@
 #include "GameDifficultyInfo.h"
 
 FGameDifficultyInfo::FGameDifficultyInfo() {
-    this->bIsOnboarding = false;
-    this->Difficulty = 1;
-    this->DifficultyMatchmakingMinOverride = 1;
-    this->DifficultyMatchmakingMaxOverride = 1;
-    this->LootLevel = 0;
-    this->RatingsEnforcement = ERatingsEnforcementType::Default;
-    this->RequiredRating = 0;
-    this->MaximumRating = 0;
-    this->PvPRating = 0;
-    this->RecommendedRating = 0;
-    this->ScoreBonus = 1;
-    this->NumDifficultyIncreases = 0;
-    this->DefaultPlayerLives = 0;
+    bIsOnboarding = false;
+    Difficulty = 1;
+    DifficultyMatchmakingMinOverride = 1;
+    DifficultyMatchmakingMaxOverride = 1;
+    LootLevel = 0;
+    RatingsEnforcement = ERatingsEnforcementType::Default;
+    RequiredRating = 0;
+    MaximumRating = 0;
+    PvPRating = 0;
+    RecommendedRating = 0;
+    ScoreBonus = 1;
+    NumDifficultyIncreases = 0;
+    DefaultPlayerLives = 0;
 }
 

@@ -117,9 +117,9 @@ void AFortPlayerControllerOutpost::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortPlayerControllerOutpost::AFortPlayerControllerOutpost() {
-    this->BuildingBeingUpgraded = NULL;
-    this->LevelBeforeUpgrade = 0;
-    this->bOutpostRefundDialogPending = false;
-    this->bIsOutpostOwnerInPIE = true;
+    BuildingBeingUpgraded = NULL;
+    LevelBeforeUpgrade = 0;
+    bOutpostRefundDialogPending = false;
+    bIsOutpostOwnerInPIE = true;
 }
 

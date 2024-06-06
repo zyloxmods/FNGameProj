@@ -12,8 +12,8 @@ UFortAIEncounterInfo* UFortAIGoalProvider::GetEncounterInfo() const {
 }
 
 UFortAIGoalProvider::UFortAIGoalProvider() {
-    this->World = NULL;
-    this->AssignmentOwner = NULL;
-    this->EncounterInfo = NULL;
+    World = NULL;
+    AssignmentOwner = NULL;
+    EncounterInfo = NULL;
 }
 

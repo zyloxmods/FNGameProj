@@ -1,6 +1,6 @@
 #include "ReplayTimecodeEventInfo.h"
 
 FReplayTimecodeEventInfo::FReplayTimecodeEventInfo() {
-    this->UTCTimecode = 0;
+    UTCTimecode = 0;
 }
 

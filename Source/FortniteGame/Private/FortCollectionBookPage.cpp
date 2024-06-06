@@ -9,6 +9,6 @@ EFortCollectionBookState UFortCollectionBookPage::GetPageState() const {
 }
 
 UFortCollectionBookPage::UFortCollectionBookPage() {
-    this->State = EFortCollectionBookState::Active;
+    State = EFortCollectionBookState::Active;
 }
 

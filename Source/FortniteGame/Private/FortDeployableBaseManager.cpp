@@ -47,19 +47,19 @@ void AFortDeployableBaseManager::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortDeployableBaseManager::AFortDeployableBaseManager() {
-    this->bRestrictedBuildingActive = true;
-    this->bBusyWithPlotActions = false;
-    this->bDestroyAllBuildingPiecesOnReload = true;
-    this->NumPiecesDestroyedOnZoneCleanupPerUpdate = 0;
-    this->NumEnvPiecesRestoredPerUpdate = 0;
-    this->bDeployableBasesReadOnly = false;
-    this->DeployableBaseUseType = EDeployableBaseUseType::Neighborhood;
-    this->DeployableBaseItemDefinition = NULL;
-    this->DeployableBasePlotClass = NULL;
-    this->SupportedSkillTreeBasedUnlocks = NULL;
-    this->NumExpectedPlots = 0;
-    this->bCaptureEnvironmentActorsForRestoration = false;
-    this->bWorldInitialized = false;
-    this->bKeepBasesOnLogout = false;
+    bRestrictedBuildingActive = true;
+    bBusyWithPlotActions = false;
+    bDestroyAllBuildingPiecesOnReload = true;
+    NumPiecesDestroyedOnZoneCleanupPerUpdate = 0;
+    NumEnvPiecesRestoredPerUpdate = 0;
+    bDeployableBasesReadOnly = false;
+    DeployableBaseUseType = EDeployableBaseUseType::Neighborhood;
+    DeployableBaseItemDefinition = NULL;
+    DeployableBasePlotClass = NULL;
+    SupportedSkillTreeBasedUnlocks = NULL;
+    NumExpectedPlots = 0;
+    bCaptureEnvironmentActorsForRestoration = false;
+    bWorldInitialized = false;
+    bKeepBasesOnLogout = false;
 }
 

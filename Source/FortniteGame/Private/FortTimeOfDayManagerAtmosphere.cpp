@@ -2,6 +2,6 @@
 #include "Components/SkyAtmosphereComponent.h"
 
 AFortTimeOfDayManagerAtmosphere::AFortTimeOfDayManagerAtmosphere() {
-    this->SkyAtmosphereComponent = CreateDefaultSubobject<USkyAtmosphereComponent>(TEXT("SkyAtmosphereComponent"));
+    SkyAtmosphereComponent = CreateDefaultSubobject<USkyAtmosphereComponent>(TEXT("SkyAtmosphereComponent"));
 }
 

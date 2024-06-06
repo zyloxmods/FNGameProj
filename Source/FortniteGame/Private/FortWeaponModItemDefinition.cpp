@@ -1,5 +1,6 @@
 #include "FortWeaponModItemDefinition.h"
 
-UFortWeaponModItemDefinition::UFortWeaponModItemDefinition() {
+UFortWeaponModItemDefinition::UFortWeaponModItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

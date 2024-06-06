@@ -7,6 +7,6 @@ bool AFortLiveSpectatorController::ServerSetFollowedPlayer_Validate(AFortPlayerS
 }
 
 AFortLiveSpectatorController::AFortLiveSpectatorController() {
-    this->FollowedPlayerState = NULL;
+    FollowedPlayerState = NULL;
 }
 

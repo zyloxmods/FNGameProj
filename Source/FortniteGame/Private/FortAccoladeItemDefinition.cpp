@@ -36,14 +36,15 @@ float UFortAccoladeItemDefinition::GetAccoladeLevel() const {
     return 0.0f;
 }
 
-UFortAccoladeItemDefinition::UFortAccoladeItemDefinition() {
-    this->AccoladeType = EFortAccoladeType::Acknowledgement;
-    this->AccoladeSubtype = EFortAccoladeSubtype::NotSet;
-    this->Priority = EXPEventPriorityType::NearReticle;
-    this->AccoladeLevel = 1;
-    this->bOnlyAllowOncePerDay = false;
-    this->bIgnoreInAntiAddictionReducedStates = false;
-    this->AwardedSoundCue = NULL;
-    this->ItemType = EFortItemType::Accolades;
+UFortAccoladeItemDefinition::UFortAccoladeItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    AccoladeType = EFortAccoladeType::Acknowledgement;
+    AccoladeSubtype = EFortAccoladeSubtype::NotSet;
+    Priority = EXPEventPriorityType::NearReticle;
+    AccoladeLevel = 1;
+    bOnlyAllowOncePerDay = false;
+    bIgnoreInAntiAddictionReducedStates = false;
+    AwardedSoundCue = NULL;
+    ItemType = EFortItemType::Accolades;
 }
 

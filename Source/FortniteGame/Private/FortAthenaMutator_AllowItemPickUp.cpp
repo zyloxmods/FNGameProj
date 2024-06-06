@@ -8,6 +8,6 @@ void AFortAthenaMutator_AllowItemPickUp::GetLifetimeReplicatedProps(TArray<FLife
 }
 
 AFortAthenaMutator_AllowItemPickUp::AFortAthenaMutator_AllowItemPickUp() {
-    this->bAllowItemPickUp = true;
+    bAllowItemPickUp = true;
 }
 

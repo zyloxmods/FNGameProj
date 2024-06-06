@@ -196,20 +196,20 @@ void AFortPlayerControllerZone::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortPlayerControllerZone::AFortPlayerControllerZone() {
-    this->bDontChangeReticleColorForEnemy = false;
-    this->LastVehicleSeatSwitchTime = 1;
-    this->PlayerToSpectateOnDeath = NULL;
-    this->DeathInputComponent = NULL;
-    this->RemoteControlledPawnInputComponent = NULL;
-    this->bClientNotifiedOfPawnDied = false;
-    this->bEnterCameraModeOnDeath = true;
-    this->PlayerLeecherStatus = ELeecherStatus::NotReady;
-    this->LastScoreEarnedTime = 1;
-    this->VehicleSeatTransitionTargetIndex = 0;
-    this->VoiceChatChannelImplementation = 0;
-    this->bJetpackExecuteToggle = false;
-    this->bAllowMovementCancellableActionsWithIceFeet = true;
-    this->MoveForwardOnlyEmoteCancelBackwardsThreshold = 1;
-    this->MoveForwardOnlyEmoteCancelStrafeThreshold = 1;
+    bDontChangeReticleColorForEnemy = false;
+    LastVehicleSeatSwitchTime = 1;
+    PlayerToSpectateOnDeath = NULL;
+    DeathInputComponent = NULL;
+    RemoteControlledPawnInputComponent = NULL;
+    bClientNotifiedOfPawnDied = false;
+    bEnterCameraModeOnDeath = true;
+    PlayerLeecherStatus = ELeecherStatus::NotReady;
+    LastScoreEarnedTime = 1;
+    VehicleSeatTransitionTargetIndex = 0;
+    VoiceChatChannelImplementation = 0;
+    bJetpackExecuteToggle = false;
+    bAllowMovementCancellableActionsWithIceFeet = true;
+    MoveForwardOnlyEmoteCancelBackwardsThreshold = 1;
+    MoveForwardOnlyEmoteCancelStrafeThreshold = 1;
 }
 

@@ -12,10 +12,10 @@ void AFortLightningActor::CleanupLightning() {
 }
 
 AFortLightningActor::AFortLightningActor() {
-    this->MaxBoltMeshes = 0;
-    this->MaxBoltWidth = 1;
-    this->BoltMaterialParamTopPct = TEXT("topSplinePercentage");
-    this->BoltMaterialParamBottomPct = TEXT("BottomSplinePercentage");
-    this->ActorToNotify = NULL;
+    MaxBoltMeshes = 0;
+    MaxBoltWidth = 1;
+    BoltMaterialParamTopPct = TEXT("topSplinePercentage");
+    BoltMaterialParamBottomPct = TEXT("BottomSplinePercentage");
+    ActorToNotify = NULL;
 }
 

@@ -18,9 +18,9 @@ void UFortUITeamInfo::GetTeamHitPointFractions(TArray<float>& HealthFractions, T
 }
 
 UFortUITeamInfo::UFortUITeamInfo() {
-    this->TeamContext = NULL;
-    this->TeamAssignment = 255;
-    this->TotalFilledSlots = 0;
-    this->PreviousFilledSlots = 0;
+    TeamContext = NULL;
+    TeamAssignment = 255;
+    TotalFilledSlots = 0;
+    PreviousFilledSlots = 0;
 }
 

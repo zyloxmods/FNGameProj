@@ -21,6 +21,6 @@ void UCreativeMiniMapComponent::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 UCreativeMiniMapComponent::UCreativeMiniMapComponent() {
-    this->IconList = NULL;
+    IconList = NULL;
 }
 

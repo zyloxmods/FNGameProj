@@ -1,6 +1,7 @@
 #include "FortHomebaseBannerIconItemDefinition.h"
 
-UFortHomebaseBannerIconItemDefinition::UFortHomebaseBannerIconItemDefinition() {
-    this->bFullUsageRights = true;
+UFortHomebaseBannerIconItemDefinition::UFortHomebaseBannerIconItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bFullUsageRights = true;
 }
 

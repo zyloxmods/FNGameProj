@@ -26,15 +26,15 @@ void AFortAthenaSKPushCannon::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortAthenaSKPushCannon::AFortAthenaSKPushCannon() {
-    this->MovementParam = 1;
-    this->BatteryParam = 1;
-    this->RumbleIntensity = 1;
-    this->DriverCameraShake = NULL;
-    this->PassengerCameraShake = NULL;
-    this->bPlayerTorquingRepped = false;
-    this->bPlayerTorquing = false;
-    this->CannonBoneIdx = 0;
-    this->PushCannonNoSleepPhysicsMaterial = NULL;
-    this->PushCannonPhysicsMaterial = NULL;
+    MovementParam = 1;
+    BatteryParam = 1;
+    RumbleIntensity = 1;
+    DriverCameraShake = NULL;
+    PassengerCameraShake = NULL;
+    bPlayerTorquingRepped = false;
+    bPlayerTorquing = false;
+    CannonBoneIdx = 0;
+    PushCannonNoSleepPhysicsMaterial = NULL;
+    PushCannonPhysicsMaterial = NULL;
 }
 

@@ -37,7 +37,7 @@ void UFortMcpProfileWorld::BatchUpdatePlayers_Implementation(const TArray<FFortB
 }*/
 
 UFortMcpProfileWorld::UFortMcpProfileWorld() {
-    this->FortInventory = NULL;
-    this->bIsInventoryInitialized = false;
+    FortInventory = NULL;
+    bIsInventoryInitialized = false;
 }
 

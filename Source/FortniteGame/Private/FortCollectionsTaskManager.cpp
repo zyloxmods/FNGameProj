@@ -1,6 +1,6 @@
 #include "FortCollectionsTaskManager.h"
 
 UFortCollectionsTaskManager::UFortCollectionsTaskManager() {
-    this->DefaultTimeoutSeconds = 1;
+    DefaultTimeoutSeconds = 1;
 }
 

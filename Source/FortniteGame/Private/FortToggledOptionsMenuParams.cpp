@@ -7,7 +7,7 @@ void UFortToggledOptionsMenuParams::BreakParams(AFortPlayerController*& _PlayerT
 }
 
 UFortToggledOptionsMenuParams::UFortToggledOptionsMenuParams() {
-    this->PlayerThatToggledOptionsMenu = NULL;
-    this->bInOptionsMenu = false;
+    PlayerThatToggledOptionsMenu = NULL;
+    bInOptionsMenu = false;
 }
 

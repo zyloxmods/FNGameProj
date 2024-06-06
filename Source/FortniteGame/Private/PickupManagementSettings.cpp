@@ -1,13 +1,13 @@
 #include "PickupManagementSettings.h"
 
 FPickupManagementSettings::FPickupManagementSettings() {
-    this->PickupsAllowedMax = 0;
-    this->PickupsDesiredSlack = 0;
-    this->PickupDespawnDelaySeconds = 1;
-    this->bDebugPickupManagement = false;
-    this->bEnablePickupManagement = false;
-    this->NotJunkPickupThreshold = EFortRarity::Common;
-    this->ImportantPickupThreshold = EFortRarity::Common;
-    this->bFlagPlayerDropsAsImportant = false;
+    PickupsAllowedMax = 0;
+    PickupsDesiredSlack = 0;
+    PickupDespawnDelaySeconds = 1;
+    bDebugPickupManagement = false;
+    bEnablePickupManagement = false;
+    NotJunkPickupThreshold = EFortRarity::Common;
+    ImportantPickupThreshold = EFortRarity::Common;
+    bFlagPlayerDropsAsImportant = false;
 }
 

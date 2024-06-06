@@ -5,11 +5,11 @@
 #include "FortRegenHealthSet.h"
 
 AFortAIProxyActor::AFortAIProxyActor() {
-    this->PrimaryPhysicalSurface = SurfaceType_Default;
-    this->HealthSet = CreateDefaultSubobject<UFortRegenHealthSet>(TEXT("HealthSet"));
-    this->DamageSet = CreateDefaultSubobject<UFortDamageSet>(TEXT("DamageSet"));
-    this->MovementSet = CreateDefaultSubobject<UFortMovementSet>(TEXT("MovementSet"));
-    this->AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
-    this->BaseWeaponDamageResponseType = EFortBaseWeaponDamage::Combat;
+    PrimaryPhysicalSurface = SurfaceType_Default;
+    HealthSet = CreateDefaultSubobject<UFortRegenHealthSet>(TEXT("HealthSet"));
+    DamageSet = CreateDefaultSubobject<UFortDamageSet>(TEXT("DamageSet"));
+    MovementSet = CreateDefaultSubobject<UFortMovementSet>(TEXT("MovementSet"));
+    AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+    BaseWeaponDamageResponseType = EFortBaseWeaponDamage::Combat;
 }
 

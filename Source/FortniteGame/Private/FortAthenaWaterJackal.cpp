@@ -11,7 +11,7 @@ void AFortAthenaWaterJackal::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortAthenaWaterJackal::AFortAthenaWaterJackal() {
-    this->FortWaterJackalVehicleConfigsClass = NULL;
-    this->FortWaterJackalVehicleConfigs = NULL;
+    FortWaterJackalVehicleConfigsClass = NULL;
+    FortWaterJackalVehicleConfigs = NULL;
 }
 

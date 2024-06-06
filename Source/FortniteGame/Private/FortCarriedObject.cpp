@@ -21,9 +21,9 @@ void AFortCarriedObject::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AFortCarriedObject::AFortCarriedObject() {
-    this->ProjectileComp = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileComp0"));
-    this->bPickupOnTouch = false;
-    this->Team = 0;
-    this->SpawnPointActor = NULL;
+    ProjectileComp = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileComp0"));
+    bPickupOnTouch = false;
+    Team = 0;
+    SpawnPointActor = NULL;
 }
 

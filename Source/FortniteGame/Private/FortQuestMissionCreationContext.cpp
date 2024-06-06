@@ -1,7 +1,7 @@
 #include "FortQuestMissionCreationContext.h"
 
 FFortQuestMissionCreationContext::FFortQuestMissionCreationContext() {
-    this->bSetQuestOwnerAsMissionOwner = false;
-    this->MaxNumberToSpawnInWorld = 0;
+    bSetQuestOwnerAsMissionOwner = false;
+    MaxNumberToSpawnInWorld = 0;
 }
 

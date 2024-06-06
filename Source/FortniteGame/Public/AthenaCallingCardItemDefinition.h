@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UAthenaCallingCardItemDefinition : public UAthenaCosmeticItemDefinition {
     GENERATED_BODY()
 public:
-    UAthenaCallingCardItemDefinition();
+    UAthenaCallingCardItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

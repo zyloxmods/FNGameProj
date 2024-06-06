@@ -182,7 +182,7 @@ void UFortMcpProfileCampaign::AbandonExpedition_Implementation(const FString& Ex
 }
 */
 UFortMcpProfileCampaign::UFortMcpProfileCampaign() {
-    this->bEnableHeroLoadoutMocking = true;
-    this->HeroLoadoutCommandDelaySeconds = 1;
+    bEnableHeroLoadoutMocking = true;
+    HeroLoadoutCommandDelaySeconds = 1;
 }
 

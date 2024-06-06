@@ -17,6 +17,6 @@ void AFortAthenaMutator_TimedRespawnHelper::GetLifetimeReplicatedProps(TArray<FL
 }
 
 AFortAthenaMutator_TimedRespawnHelper::AFortAthenaMutator_TimedRespawnHelper() {
-    this->ServerTimeRespawnIsDisallowed = 1;
+    ServerTimeRespawnIsDisallowed = 1;
 }
 

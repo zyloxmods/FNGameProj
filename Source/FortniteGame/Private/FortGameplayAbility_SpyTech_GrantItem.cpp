@@ -7,10 +7,10 @@ void UFortGameplayAbility_SpyTech_GrantItem::LevelUpgradeTagApplied(const FGamep
 }
 
 UFortGameplayAbility_SpyTech_GrantItem::UFortGameplayAbility_SpyTech_GrantItem() {
-    this->bSkipUpgradeCheck = false;
-    this->bRechargeStackOnGrant = false;
-    this->FortPlayerController = NULL;
-    this->FortPlayerPawn = NULL;
-    this->TextItemSource = TEXT("SpyTech_GrantItem");
+    bSkipUpgradeCheck = false;
+    bRechargeStackOnGrant = false;
+    FortPlayerController = NULL;
+    FortPlayerPawn = NULL;
+    TextItemSource = TEXT("SpyTech_GrantItem");
 }
 

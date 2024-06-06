@@ -11,7 +11,7 @@ UFortAbilityTask_PlayAnimAndWait* UFortAbilityTask_PlayAnimAndWait::CreatePlayAn
 }
 
 UFortAbilityTask_PlayAnimAndWait::UFortAbilityTask_PlayAnimAndWait() {
-    this->AnimState = EFortSharedAnimationState::Anim_Walk;
-    this->bStopWhenAbilityEnds = true;
+    AnimState = EFortSharedAnimationState::Anim_Walk;
+    bStopWhenAbilityEnds = true;
 }
 

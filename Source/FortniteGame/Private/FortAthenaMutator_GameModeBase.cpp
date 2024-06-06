@@ -17,8 +17,8 @@ FText AFortAthenaMutator_GameModeBase::GetPOINameForTag(const FGameplayTag& POIT
 }
 
 AFortAthenaMutator_GameModeBase::AFortAthenaMutator_GameModeBase() {
-    this->bAutomaticallyFinishInitialization = true;
-    this->StingerAudioComponent = NULL;
-    this->StingerEventForwarder = NULL;
+    bAutomaticallyFinishInitialization = true;
+    StingerAudioComponent = NULL;
+    StingerEventForwarder = NULL;
 }
 

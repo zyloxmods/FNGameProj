@@ -1,15 +1,15 @@
 #include "FortEffectDistanceQuality.h"
 
 FFortEffectDistanceQuality::FFortEffectDistanceQuality() {
-    this->MinDistanceCinematic = 1;
-    this->MinDistanceEpic = 1;
-    this->MinDistanceHigh = 1;
-    this->MinDistanceMedium = 1;
-    this->MinDistanceLow = 1;
-    this->bAllowCinematic = false;
-    this->bAllowEpic = false;
-    this->bAllowHigh = false;
-    this->bAllowMedium = false;
-    this->bAllowLow = false;
+    MinDistanceCinematic = 1;
+    MinDistanceEpic = 1;
+    MinDistanceHigh = 1;
+    MinDistanceMedium = 1;
+    MinDistanceLow = 1;
+    bAllowCinematic = false;
+    bAllowEpic = false;
+    bAllowHigh = false;
+    bAllowMedium = false;
+    bAllowLow = false;
 }
 

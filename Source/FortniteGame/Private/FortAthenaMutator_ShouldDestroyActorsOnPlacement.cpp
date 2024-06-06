@@ -8,6 +8,6 @@ void AFortAthenaMutator_ShouldDestroyActorsOnPlacement::GetLifetimeReplicatedPro
 }
 
 AFortAthenaMutator_ShouldDestroyActorsOnPlacement::AFortAthenaMutator_ShouldDestroyActorsOnPlacement() {
-    this->bShouldDestroyOnPlacement = true;
+    bShouldDestroyOnPlacement = true;
 }
 

@@ -35,10 +35,10 @@ void UPlaysetLevelStreamComponent::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 UPlaysetLevelStreamComponent::UPlaysetLevelStreamComponent() {
-    this->MaxStreamInDistance = 1;
-    this->bAutoLoadLevel = true;
-    this->bAllowUnload = true;
-    this->CurrentPlayset = NULL;
-    this->StreamedLevel = NULL;
+    MaxStreamInDistance = 1;
+    bAutoLoadLevel = true;
+    bAllowUnload = true;
+    CurrentPlayset = NULL;
+    StreamedLevel = NULL;
 }
 

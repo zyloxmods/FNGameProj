@@ -2,6 +2,6 @@
 #include "FortQueryContext_EncounterTargetObjective.h"
 
 UFortQueryTest_NavGraphDistance::UFortQueryTest_NavGraphDistance() {
-    this->DistanceTo = UFortQueryContext_EncounterTargetObjective::StaticClass();
+    DistanceTo = UFortQueryContext_EncounterTargetObjective::StaticClass();
 }
 

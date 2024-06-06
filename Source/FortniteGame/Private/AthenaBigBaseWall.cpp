@@ -27,9 +27,9 @@ void AAthenaBigBaseWall::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AAthenaBigBaseWall::AAthenaBigBaseWall() {
-    this->WallGravity = 1;
-    this->TimeUntilWallComesDown = 1;
-    this->bResetBool = false;
-    this->BarrierState = EBarrierState::BarrierUp;
+    WallGravity = 1;
+    TimeUntilWallComesDown = 1;
+    bResetBool = false;
+    BarrierState = EBarrierState::BarrierUp;
 }
 

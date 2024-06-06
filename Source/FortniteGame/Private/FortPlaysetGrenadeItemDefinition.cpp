@@ -4,6 +4,7 @@ UFortPlaysetItemDefinition* UFortPlaysetGrenadeItemDefinition::GetPlaysetToSpawn
     return NULL;
 }
 
-UFortPlaysetGrenadeItemDefinition::UFortPlaysetGrenadeItemDefinition() {
+UFortPlaysetGrenadeItemDefinition::UFortPlaysetGrenadeItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

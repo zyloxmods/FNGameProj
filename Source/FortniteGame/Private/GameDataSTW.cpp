@@ -17,32 +17,32 @@ float UGameDataSTW::GetPersonalXpBoost() {
 }
 
 UGameDataSTW::UGameDataSTW() {
-    this->ScoreDisplayFactor = 1;
-    this->ScoreDivisor = 0;
-    this->XPMult = 0;
-    this->GroupScoreRates[0] = 1;
-    this->GroupScoreRates[1] = 1;
-    this->GroupScoreRates[2] = 1;
-    this->GroupScoreRates[3] = 1;
-    this->GroupScoreRates[4] = 1;
-    this->ScoreToXPLinearRate = 1;
-    this->LinearEnd = 0;
-    this->XpPerAccountLevel = 0;
-    this->CriticalMatch_XpBonusPercent = 1;
-    this->PersonalBoost_XpBonusPercent = 1;
-    this->GroupBoost_XpBonusPercent = 1;
-    this->GroupBoost_BuffMultiplier = 1;
-    this->Rest_XpBonusPercent = 1;
-    this->LowXpConningValue = 1;
-    this->VeryLowXpConningValue = 1;
-    this->NoXpConningValue = 1;
-    this->MaxCraftQueueSize = 0;
-    this->SquadMemberStatBonusMultiplier = 1;
-    this->DailyMissionAlertQuota = 0;
-    this->MinLevelToPromoteItem = 0;
-    this->LevelsPerItemPromotion = 0;
-    this->MaxPromotionsPerItem = 0;
-    this->CachedScoreMultiplierDataTable = NULL;
-    this->FORTAttributeToPowerMultiplier = 1;
+    ScoreDisplayFactor = 1;
+    ScoreDivisor = 0;
+    XPMult = 0;
+    GroupScoreRates[0] = 1;
+    GroupScoreRates[1] = 1;
+    GroupScoreRates[2] = 1;
+    GroupScoreRates[3] = 1;
+    GroupScoreRates[4] = 1;
+    ScoreToXPLinearRate = 1;
+    LinearEnd = 0;
+    XpPerAccountLevel = 0;
+    CriticalMatch_XpBonusPercent = 1;
+    PersonalBoost_XpBonusPercent = 1;
+    GroupBoost_XpBonusPercent = 1;
+    GroupBoost_BuffMultiplier = 1;
+    Rest_XpBonusPercent = 1;
+    LowXpConningValue = 1;
+    VeryLowXpConningValue = 1;
+    NoXpConningValue = 1;
+    MaxCraftQueueSize = 0;
+    SquadMemberStatBonusMultiplier = 1;
+    DailyMissionAlertQuota = 0;
+    MinLevelToPromoteItem = 0;
+    LevelsPerItemPromotion = 0;
+    MaxPromotionsPerItem = 0;
+    CachedScoreMultiplierDataTable = NULL;
+    FORTAttributeToPowerMultiplier = 1;
 }
 

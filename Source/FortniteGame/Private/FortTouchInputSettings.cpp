@@ -1,8 +1,8 @@
 #include "FortTouchInputSettings.h"
 
 UFortTouchInputSettings::UFortTouchInputSettings() {
-    this->LookSensitivityCurve = NULL;
-    this->LookVelocityScaleCurve = NULL;
-    this->MovementCurve = NULL;
+    LookSensitivityCurve = NULL;
+    LookVelocityScaleCurve = NULL;
+    MovementCurve = NULL;
 }
 

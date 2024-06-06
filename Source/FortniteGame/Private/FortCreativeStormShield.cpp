@@ -28,25 +28,25 @@ void AFortCreativeStormShield::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 AFortCreativeStormShield::AFortCreativeStormShield() {
-    this->bIsViewTargetPawnOutside = false;
-    this->GamePhaseStep = EAthenaGamePhaseStep::None;
-    this->NextTargetRadius = 1;
-    this->NextNextTargetRadius = 1;
-    this->InstancedServerTime = 1;
-    this->StartWaitTime = 1;
-    this->StartShrinkTime = 1;
-    this->FinishShrinkTime = 1;
-    this->FinishDestroyTime = 1;
-    this->AudioLowPassValue = 1;
-    this->AudioPitchMod = 1;
-    this->AudioCrossfade = 1;
-    this->MovementAudioCrossfadeCurve = NULL;
-    this->MovementAudioPitchModCurve = NULL;
-    this->ClockTickingAudioVolumeCurve = NULL;
-    this->ClockTickingAudioPitchCurve = NULL;
-    this->ShieldBoundaryAudio = NULL;
-    this->HoldingAudio = NULL;
-    this->HoldingTickAudio = NULL;
-    this->SpawnVolume = NULL;
+    bIsViewTargetPawnOutside = false;
+    GamePhaseStep = EAthenaGamePhaseStep::None;
+    NextTargetRadius = 1;
+    NextNextTargetRadius = 1;
+    InstancedServerTime = 1;
+    StartWaitTime = 1;
+    StartShrinkTime = 1;
+    FinishShrinkTime = 1;
+    FinishDestroyTime = 1;
+    AudioLowPassValue = 1;
+    AudioPitchMod = 1;
+    AudioCrossfade = 1;
+    MovementAudioCrossfadeCurve = NULL;
+    MovementAudioPitchModCurve = NULL;
+    ClockTickingAudioVolumeCurve = NULL;
+    ClockTickingAudioPitchCurve = NULL;
+    ShieldBoundaryAudio = NULL;
+    HoldingAudio = NULL;
+    HoldingTickAudio = NULL;
+    SpawnVolume = NULL;
 }
 

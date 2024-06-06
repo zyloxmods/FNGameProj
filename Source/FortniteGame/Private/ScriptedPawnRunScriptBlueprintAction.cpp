@@ -28,7 +28,7 @@ void UScriptedPawnRunScriptBlueprintAction::GetLifetimeReplicatedProps(TArray<FL
 }
 
 UScriptedPawnRunScriptBlueprintAction::UScriptedPawnRunScriptBlueprintAction() {
-    this->WorldContextObject = NULL;
-    this->ScriptedPawn = NULL;
+    WorldContextObject = NULL;
+    ScriptedPawn = NULL;
 }
 

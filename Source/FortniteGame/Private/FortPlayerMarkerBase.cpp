@@ -7,7 +7,7 @@
 
 
 AFortPlayerMarkerBase::AFortPlayerMarkerBase() {
-    this->CustomMarkerItemDefinition = NULL;
-    this->StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+    CustomMarkerItemDefinition = NULL;
+    StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
 }
 

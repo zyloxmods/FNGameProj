@@ -9,10 +9,10 @@ FString UPlaylistUserOptionBase::GetOptionKey(bool bWithScoping) const {
 }
 
 UPlaylistUserOptionBase::UPlaylistUserOptionBase() {
-    this->OptionMaterial = NULL;
-    this->bCanHaveNoOverride = false;
-    this->MenuListType = UFortMatchmakingKnobsDataSource::None;
-    this->WeightOffset = 0;
-    this->EditWidget = NULL;
+    OptionMaterial = NULL;
+    bCanHaveNoOverride = false;
+    MenuListType = UFortMatchmakingKnobsDataSource::None;
+    WeightOffset = 0;
+    EditWidget = NULL;
 }
 

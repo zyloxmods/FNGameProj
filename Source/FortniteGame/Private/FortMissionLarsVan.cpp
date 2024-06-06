@@ -9,14 +9,14 @@ void AFortMissionLarsVan::SetPlayerWaitingToJump(AFortPlayerPawn* Waiting) {
 }
 
 AFortMissionLarsVan::AFortMissionLarsVan() {
-    this->Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root Component"));
-    this->Van = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van"));
-    this->VanApparatus = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van Apparatus"));
-    this->VanBalloon = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van Balloon"));
-    this->VanFlames = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van Flames"));
-    this->Stool = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Stool"));
-    this->Lars = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Lars"));
-    this->Arrow = CreateDefaultSubobject<UArrowComponent>(TEXT("Jump Transform"));
-    this->VanMovement = CreateDefaultSubobject<UInterpToMovementComponent>(TEXT("Movment"));
+    Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root Component"));
+    Van = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van"));
+    VanApparatus = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van Apparatus"));
+    VanBalloon = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van Balloon"));
+    VanFlames = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Van Flames"));
+    Stool = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Stool"));
+    Lars = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Lars"));
+    Arrow = CreateDefaultSubobject<UArrowComponent>(TEXT("Jump Transform"));
+    VanMovement = CreateDefaultSubobject<UInterpToMovementComponent>(TEXT("Movment"));
 }
 

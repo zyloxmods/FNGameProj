@@ -1,7 +1,7 @@
 #include "FortCollectionDataFishing.h"
 
 UFortCollectionDataFishing::UFortCollectionDataFishing() {
-    this->TwoStarRating = 1;
-    this->ThreeStarRating = 1;
+    TwoStarRating = 1;
+    ThreeStarRating = 1;
 }
 

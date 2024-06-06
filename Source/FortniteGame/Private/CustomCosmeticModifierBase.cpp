@@ -58,25 +58,25 @@ AFortPlayerPawn* ACustomCosmeticModifierBase::GetAssociatedPlayerPawn() const {
 }
 
 ACustomCosmeticModifierBase::ACustomCosmeticModifierBase() {
-    this->EnteredVehicleSeatsToCareAbout = EVehicleEnteredCosmeticReaction::Driver;
-    this->bUsesDayPhaseChange = false;
-    this->bUsesWeaponChangeDelegate = false;
-    this->bUsesWeaponFire = false;
-    this->bUsesNewWeapon = false;
-    this->bUsesWeaponChange = false;
-    this->bUsesCurieWhatsoever = false;
-    this->bUsesCurieAttach = false;
-    this->bUsesCurieDetach = false;
-    this->bUsesEnteredVehicle = false;
-    this->bUsesTargetingOrFirstPersonCameraChange = false;
-    this->bUsesOnHitPawn = false;
-    this->bRegisteredForDayPhaseChange = false;
-    this->bRegisteredForSkydiving = false;
-    this->bRegisteredForTargetingOrFirstPersonCamera = false;
-    this->bRegisteredForWeaponChanges = false;
-    this->bRegisteredForCurieChanges = false;
-    this->bRegisteredForNewWeapons = false;
-    this->bRegisteredForEnterVehicle = false;
-    this->bRegisteredOnHitPawn = false;
+    EnteredVehicleSeatsToCareAbout = EVehicleEnteredCosmeticReaction::Driver;
+    bUsesDayPhaseChange = false;
+    bUsesWeaponChangeDelegate = false;
+    bUsesWeaponFire = false;
+    bUsesNewWeapon = false;
+    bUsesWeaponChange = false;
+    bUsesCurieWhatsoever = false;
+    bUsesCurieAttach = false;
+    bUsesCurieDetach = false;
+    bUsesEnteredVehicle = false;
+    bUsesTargetingOrFirstPersonCameraChange = false;
+    bUsesOnHitPawn = false;
+    bRegisteredForDayPhaseChange = false;
+    bRegisteredForSkydiving = false;
+    bRegisteredForTargetingOrFirstPersonCamera = false;
+    bRegisteredForWeaponChanges = false;
+    bRegisteredForCurieChanges = false;
+    bRegisteredForNewWeapons = false;
+    bRegisteredForEnterVehicle = false;
+    bRegisteredOnHitPawn = false;
 }
 

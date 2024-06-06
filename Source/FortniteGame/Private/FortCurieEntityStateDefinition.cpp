@@ -1,6 +1,6 @@
 #include "FortCurieEntityStateDefinition.h"
 
 FFortCurieEntityStateDefinition::FFortCurieEntityStateDefinition() {
-    this->NativeVFXType = EFortCurieNativeFXType::None;
+    NativeVFXType = EFortCurieNativeFXType::None;
 }
 

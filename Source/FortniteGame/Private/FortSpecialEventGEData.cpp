@@ -1,7 +1,7 @@
 #include "FortSpecialEventGEData.h"
 
 FFortSpecialEventGEData::FFortSpecialEventGEData() {
-    this->GameplayEffect = NULL;
-    this->Level = 0;
+    GameplayEffect = NULL;
+    Level = 0;
 }
 

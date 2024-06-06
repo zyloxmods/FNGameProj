@@ -1,11 +1,11 @@
 #include "AssetAttachment.h"
 
 FAssetAttachment::FAssetAttachment() {
-    this->SkeletalMeshAsset = NULL;
-    this->StaticMeshAsset = NULL;
-    this->bSkipOnDedicatedServers = false;
-    this->bIsCurrentWeaponSubstitute = false;
-    this->SkelMeshComp = NULL;
-    this->StaticMeshComp = NULL;
+    SkeletalMeshAsset = NULL;
+    StaticMeshAsset = NULL;
+    bSkipOnDedicatedServers = false;
+    bIsCurrentWeaponSubstitute = false;
+    SkelMeshComp = NULL;
+    StaticMeshComp = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "FortBotCosmeticItemSetDataTableRow.h"
 
 FFortBotCosmeticItemSetDataTableRow::FFortBotCosmeticItemSetDataTableRow() {
-    this->Weight = 1;
+    Weight = 1;
 }
 

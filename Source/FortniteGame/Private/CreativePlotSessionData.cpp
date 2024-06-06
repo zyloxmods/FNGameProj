@@ -1,8 +1,8 @@
 #include "CreativePlotSessionData.h"
 
 FCreativePlotSessionData::FCreativePlotSessionData() {
-    this->TimesInventoryOpened = 0;
-    this->TimesIslandMenuOpened = 0;
-    this->TimesGameStarted = 0;
+    TimesInventoryOpened = 0;
+    TimesIslandMenuOpened = 0;
+    TimesGameStarted = 0;
 }
 

@@ -41,15 +41,15 @@ void UFortThumbnailRenderer::CaptureAlphaMask() {
 }
 
 UFortThumbnailRenderer::UFortThumbnailRenderer() {
-    this->AlphaMaskMaterial = NULL;
-    this->EffectMaskMaterial = NULL;
-    this->PrivateWorld = NULL;
-    this->RendererIndex = 0;
-    this->SurfaceWidth = 0;
-    this->SurfaceHeight = 0;
-    this->DiffuseRT = NULL;
-    this->AlphaMaskRT = NULL;
-    this->EffectsRT = NULL;
-    this->CaptureComponent = NULL;
+    AlphaMaskMaterial = NULL;
+    EffectMaskMaterial = NULL;
+    PrivateWorld = NULL;
+    RendererIndex = 0;
+    SurfaceWidth = 0;
+    SurfaceHeight = 0;
+    DiffuseRT = NULL;
+    AlphaMaskRT = NULL;
+    EffectsRT = NULL;
+    CaptureComponent = NULL;
 }
 

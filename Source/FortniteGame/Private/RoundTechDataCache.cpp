@@ -1,10 +1,10 @@
 #include "RoundTechDataCache.h"
 
 FRoundTechDataCache::FRoundTechDataCache() {
-    this->LevelAtRoundStart = 0;
-    this->FactionXPAtRoundStart = 0;
-    this->bDataReady = false;
-    this->MaxCalandarLevel = 0;
-    this->MaxLevel = 0;
+    LevelAtRoundStart = 0;
+    FactionXPAtRoundStart = 0;
+    bDataReady = false;
+    MaxCalandarLevel = 0;
+    MaxLevel = 0;
 }
 

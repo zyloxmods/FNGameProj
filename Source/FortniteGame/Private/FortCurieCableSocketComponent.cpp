@@ -43,6 +43,6 @@ bool UFortCurieCableSocketComponent::Connect(FFortCurieCableSocketIdentifier Sou
 }
 
 UFortCurieCableSocketComponent::UFortCurieCableSocketComponent() {
-    this->CableSocketRadius = 1;
+    CableSocketRadius = 1;
 }
 

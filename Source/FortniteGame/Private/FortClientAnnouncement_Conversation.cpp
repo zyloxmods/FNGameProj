@@ -18,9 +18,9 @@ void AFortClientAnnouncement_Conversation::GetLifetimeReplicatedProps(TArray<FLi
 }
 
 AFortClientAnnouncement_Conversation::AFortClientAnnouncement_Conversation() {
-    this->SpeechComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("SpeechComponent_0"));
-    this->bAutoPlayConversation = true;
-    this->bCurrentlyPlaying = false;
-    this->CurrentSentenceIndex = 0;
+    SpeechComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("SpeechComponent_0"));
+    bAutoPlayConversation = true;
+    bCurrentlyPlaying = false;
+    CurrentSentenceIndex = 0;
 }
 

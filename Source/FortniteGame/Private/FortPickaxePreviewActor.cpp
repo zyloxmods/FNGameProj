@@ -2,8 +2,8 @@
 
 
 AFortPickaxePreviewActor::AFortPickaxePreviewActor() {
-    this->MontageToPlayForSwinging = NULL;
-    this->CosmeticPickaxeItemDefinition = NULL;
-    this->WeaponActor = NULL;
+    MontageToPlayForSwinging = NULL;
+    CosmeticPickaxeItemDefinition = NULL;
+    WeaponActor = NULL;
 }
 

@@ -118,35 +118,35 @@ void AFortAthenaDoghouseVehicle::GetLifetimeReplicatedProps(TArray<FLifetimeProp
 }
 
 AFortAthenaDoghouseVehicle::AFortAthenaDoghouseVehicle() {
-    this->AntiGravityScalerWhenEmpty = 1;
-    this->CameraPitchInterpSpeed = 1;
-    this->CameraYawInterpSpeed = 1;
-    this->PropSpeed = 1;
-    this->PropRotation = 1;
-    this->BoostTopSpeedKmh = 1;
-    this->BoostThrust = 1;
-    this->AirbrakeDragCoefficient = 1;
-    this->HardRollHeadingMatchRate = 1;
-    this->HardRollHeadingSteerRate = 1;
-    this->HardRollOffsetPercent = 1;
-    this->DivebombSpeedMinKmh = 1;
-    this->DivebombSpeedMaxKmh = 1;
-    this->DivebombSteerPitchRate = 1;
-    this->DivebombHeadingMatchRate = 1;
-    this->AileronRollMatchRate = 1;
-    this->AileronRollRotationalDampingCoefficient = 1;
-    this->AileronRollMaxRotationalDampingTorque = 1;
-    this->TimeBeforeStallWithNoPassengersInAir = 1;
-    this->TimeBeforeStallWithNoPassengersOnGround = 1;
-    this->AileronRollDoubleClickSpeed = 1;
-    this->bFreelookAutoRecenter = false;
-    this->FreelookPitchConstraintDegrees = 1;
-    this->FreelookYawConstraintDegrees = 1;
-    this->FreelookSensitivity = 1;
-    this->MouseSteerSensitivity = 1;
-    this->FreelookInterpolation = 1;
-    this->FreelookReturnAcceleration = 1;
-    this->FreelookReturnDecelleration = 1;
-    this->ShootAimAheadDistance = 1;
+    AntiGravityScalerWhenEmpty = 1;
+    CameraPitchInterpSpeed = 1;
+    CameraYawInterpSpeed = 1;
+    PropSpeed = 1;
+    PropRotation = 1;
+    BoostTopSpeedKmh = 1;
+    BoostThrust = 1;
+    AirbrakeDragCoefficient = 1;
+    HardRollHeadingMatchRate = 1;
+    HardRollHeadingSteerRate = 1;
+    HardRollOffsetPercent = 1;
+    DivebombSpeedMinKmh = 1;
+    DivebombSpeedMaxKmh = 1;
+    DivebombSteerPitchRate = 1;
+    DivebombHeadingMatchRate = 1;
+    AileronRollMatchRate = 1;
+    AileronRollRotationalDampingCoefficient = 1;
+    AileronRollMaxRotationalDampingTorque = 1;
+    TimeBeforeStallWithNoPassengersInAir = 1;
+    TimeBeforeStallWithNoPassengersOnGround = 1;
+    AileronRollDoubleClickSpeed = 1;
+    bFreelookAutoRecenter = false;
+    FreelookPitchConstraintDegrees = 1;
+    FreelookYawConstraintDegrees = 1;
+    FreelookSensitivity = 1;
+    MouseSteerSensitivity = 1;
+    FreelookInterpolation = 1;
+    FreelookReturnAcceleration = 1;
+    FreelookReturnDecelleration = 1;
+    ShootAimAheadDistance = 1;
 }
 

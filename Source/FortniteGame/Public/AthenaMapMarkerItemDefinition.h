@@ -12,6 +12,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TSoftClassPtr<AFortMapMarkerTopperActor> TopperActorClass;
     
-    UAthenaMapMarkerItemDefinition();
+    UAthenaMapMarkerItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

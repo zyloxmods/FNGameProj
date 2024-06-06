@@ -1,6 +1,6 @@
 #include "FortWinnerPlayerData.h"
 
 FFortWinnerPlayerData::FFortWinnerPlayerData() {
-    this->PlayerId = 0;
+    PlayerId = 0;
 }
 

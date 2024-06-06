@@ -3,6 +3,6 @@
 
 
 AQuestVisual::AQuestVisual() {
-    this->OwningLocalPlayer = NULL;
+    OwningLocalPlayer = NULL;
 }
 

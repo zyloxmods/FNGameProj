@@ -74,15 +74,15 @@ void UFortProjectileMovementComponent::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 UFortProjectileMovementComponent::UFortProjectileMovementComponent() {
-    this->InitialHomingStyle = EFortHomingStyle::None;
-    this->bHasHomedTowardTarget = false;
-    this->bSetInitialLocAndDir = false;
-    this->bReplicatedAutoRegisterUpdatedComponent = true;
-    this->bReplicateStopSimulating = false;
-    this->HomingLaserTargetDistance = 1;
-    this->HomingTravelTime = 1;
-    this->HomingOverrideSpeed = 1;
-    this->AccelerationMagnitude = 1;
-    this->WaterInteractionComponent = NULL;
+    InitialHomingStyle = EFortHomingStyle::None;
+    bHasHomedTowardTarget = false;
+    bSetInitialLocAndDir = false;
+    bReplicatedAutoRegisterUpdatedComponent = true;
+    bReplicateStopSimulating = false;
+    HomingLaserTargetDistance = 1;
+    HomingTravelTime = 1;
+    HomingOverrideSpeed = 1;
+    AccelerationMagnitude = 1;
+    WaterInteractionComponent = NULL;
 }
 

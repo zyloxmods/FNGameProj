@@ -7,8 +7,8 @@ void UFortEnemyDamagedParams::BreakParams(AFortPawn*& _DamagedPawn, AFortPlayerC
 }
 
 UFortEnemyDamagedParams::UFortEnemyDamagedParams() {
-    this->DamagedPawn = NULL;
-    this->DamagedBy = NULL;
-    this->DamageAmount = 1;
+    DamagedPawn = NULL;
+    DamagedBy = NULL;
+    DamageAmount = 1;
 }
 

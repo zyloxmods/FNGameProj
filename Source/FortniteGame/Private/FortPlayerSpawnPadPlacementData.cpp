@@ -1,8 +1,8 @@
 #include "FortPlayerSpawnPadPlacementData.h"
 
 FFortPlayerSpawnPadPlacementData::FFortPlayerSpawnPadPlacementData() {
-    this->PlacementQuery = NULL;
-    this->bSnapToGrid = false;
-    this->bAdjustPlacementForFloors = false;
+    PlacementQuery = NULL;
+    bSnapToGrid = false;
+    bAdjustPlacementForFloors = false;
 }
 

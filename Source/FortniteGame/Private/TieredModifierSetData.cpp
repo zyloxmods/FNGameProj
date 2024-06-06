@@ -1,7 +1,7 @@
 #include "TieredModifierSetData.h"
 
 FTieredModifierSetData::FTieredModifierSetData() {
-    this->WaveNumber = 0;
-    this->ModifierDuration = 0;
+    WaveNumber = 0;
+    ModifierDuration = 0;
 }
 

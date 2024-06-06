@@ -20,7 +20,8 @@ EStatCategory UFortBadgeItemDefinition::GetBadgeScoreCategory() const {
     return EStatCategory::Combat;
 }
 
-UFortBadgeItemDefinition::UFortBadgeItemDefinition() {
-    this->UIMissionPointsOffset = 0;
+UFortBadgeItemDefinition::UFortBadgeItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    UIMissionPointsOffset = 0;
 }
 

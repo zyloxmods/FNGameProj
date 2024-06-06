@@ -181,16 +181,16 @@ void AFortBroadcastRemoteClientInfo::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 AFortBroadcastRemoteClientInfo::AFortBroadcastRemoteClientInfo() {
-    this->bActive = false;
-    this->bRemoteIsInteracting = false;
-    this->RemoteEditActor = NULL;
-    this->RemoteBuildableClass = NULL;
-    this->RemoteBuildingMaterial = EFortResourceType::Wood;
-    this->bRemoteIsFullScreenMapActive = false;
-    this->bRemoteIsInventoryActive = false;
-    this->bRemoteCanDBNORevive = false;
-    this->RemoteRespawnTime = 1;
-    this->RemotePoiTagID = 0;
-    this->RemoteEventScore = 0;
+    bActive = false;
+    bRemoteIsInteracting = false;
+    RemoteEditActor = NULL;
+    RemoteBuildableClass = NULL;
+    RemoteBuildingMaterial = EFortResourceType::Wood;
+    bRemoteIsFullScreenMapActive = false;
+    bRemoteIsInventoryActive = false;
+    bRemoteCanDBNORevive = false;
+    RemoteRespawnTime = 1;
+    RemotePoiTagID = 0;
+    RemoteEventScore = 0;
 }
 

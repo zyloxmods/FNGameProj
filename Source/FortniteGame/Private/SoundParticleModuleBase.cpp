@@ -1,7 +1,7 @@
 #include "SoundParticleModuleBase.h"
 
 USoundParticleModuleBase::USoundParticleModuleBase() {
-    this->bUseAverageFrequency = false;
-    this->bSpawnTimeOnly = true;
+    bUseAverageFrequency = false;
+    bSpawnTimeOnly = true;
 }
 

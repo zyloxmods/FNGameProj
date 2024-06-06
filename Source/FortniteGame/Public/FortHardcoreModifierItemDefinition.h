@@ -26,6 +26,6 @@ public:
     {
         return FPrimaryAssetId("HardcoreModifier", GetFName());
     }
-    UFortHardcoreModifierItemDefinition();
+    UFortHardcoreModifierItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

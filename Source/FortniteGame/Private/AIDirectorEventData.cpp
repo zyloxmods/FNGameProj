@@ -1,8 +1,8 @@
 #include "AIDirectorEventData.h"
 
 FAIDirectorEventData::FAIDirectorEventData() {
-    this->Event = EFortAIDirectorEvent::PlayerAIEnemies;
-    this->ContributionType = EFortAIDirectorEventContribution::Increment;
-    this->OwnerParticipantType = EFortAIDirectorEventParticipant::Target;
+    Event = EFortAIDirectorEvent::PlayerAIEnemies;
+    ContributionType = EFortAIDirectorEventContribution::Increment;
+    OwnerParticipantType = EFortAIDirectorEventParticipant::Target;
 }
 

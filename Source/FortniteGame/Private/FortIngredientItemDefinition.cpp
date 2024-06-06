@@ -1,6 +1,7 @@
 #include "FortIngredientItemDefinition.h"
 
-UFortIngredientItemDefinition::UFortIngredientItemDefinition() {
-	this->ItemType = EFortItemType::Ingredient;
+UFortIngredientItemDefinition::UFortIngredientItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+	ItemType = EFortItemType::Ingredient;
 }
 

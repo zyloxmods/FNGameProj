@@ -11,6 +11,6 @@ void AFortAthenaMutator_BossHealthInfo::GetLifetimeReplicatedProps(TArray<FLifet
 }
 
 AFortAthenaMutator_BossHealthInfo::AFortAthenaMutator_BossHealthInfo() {
-    this->DisplayMode = ECreativeBossDisplayMode::DontOverride;
+    DisplayMode = ECreativeBossDisplayMode::DontOverride;
 }
 

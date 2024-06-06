@@ -1,9 +1,9 @@
 #include "AthenaLevelUpData.h"
 
 FAthenaLevelUpData::FAthenaLevelUpData() {
-    this->Level = 0;
-    this->XpToNextLevel = 0;
-    this->XpTotal = 0;
-    this->CurrencyReward = 0;
+    Level = 0;
+    XpToNextLevel = 0;
+    XpTotal = 0;
+    CurrencyReward = 0;
 }
 

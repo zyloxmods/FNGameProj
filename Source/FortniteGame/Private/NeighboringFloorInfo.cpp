@@ -1,6 +1,6 @@
 #include "NeighboringFloorInfo.h"
 
 FNeighboringFloorInfo::FNeighboringFloorInfo() {
-    this->FloorPosition = EStructuralFloorPosition::Top;
+    FloorPosition = EStructuralFloorPosition::Top;
 }
 

@@ -8,16 +8,16 @@ bool UFortNavSystem::IsNavmeshInRadiusInitialized(UObject* WorldContext, const F
 }
 
 UFortNavSystem::UFortNavSystem() {
-    this->NamedNavmeshes.AddDefaulted(2);
-    this->bAllowAutoRebuild = true;
-    this->bRebuildOnInitialUnlock = true;
-    this->bUsesStreamedInNavLevel = false;
-    this->bUseStaticMeshLinks = false;
-    this->bUseStaticWorldLinksDown = true;
-    this->bUseStaticWorldLinksUp = true;
-    this->bUseJumpLinkActors = true;
-    this->bGenerateWallClimbLinks = true;
-    this->DirtyAreasUpdateFreqInactive = 1;
-    this->NavGraphData = NULL;
+    NamedNavmeshes.AddDefaulted(2);
+    bAllowAutoRebuild = true;
+    bRebuildOnInitialUnlock = true;
+    bUsesStreamedInNavLevel = false;
+    bUseStaticMeshLinks = false;
+    bUseStaticWorldLinksDown = true;
+    bUseStaticWorldLinksUp = true;
+    bUseJumpLinkActors = true;
+    bGenerateWallClimbLinks = true;
+    DirtyAreasUpdateFreqInactive = 1;
+    NavGraphData = NULL;
 }
 

@@ -153,27 +153,27 @@ void ABuildingTrap::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 }
 
 ABuildingTrap::ABuildingTrap() {
-    this->TraceLocation = CreateDefaultSubobject<USceneComponent>(TEXT("Trace Location"));
-    this->PlacementSkeletalMesh = NULL;
-    this->TrapRangeMesh = NULL;
-    this->TrapPreviewMesh = NULL;
-    this->TrapData = NULL;
-    this->bShouldAffectAllPawnsInMinigames = true;
-    this->bTriggerAbilityOnEndoverlap = false;
-    this->AbilitySet = NULL;
-    this->DamageAttributeSet = NULL;
-    this->AttachedTo = NULL;
-    this->bTargetWithAttachedTo = true;
-    this->LastAttachedTo = NULL;
-    this->DelayBeforeDestroyAfterDurabilityExpired = 1;
-    this->SavedDurabilityPct = 1;
-    this->ObstructedTargetRecheckInterval = 1;
-    this->ShouldTriggerTraceOffsets.AddDefaulted(1);
-    this->bIgnoreBuildingObstructions = false;
-    this->bOwnAllFacesOfAttachedToActor = false;
-    this->AlternateMaterialInstance = NULL;
-    this->StimSourceComponent = CreateDefaultSubobject<UAthenaTrapAIPerceptionStimuliSourceComponent>(TEXT("Trap AI Perception Stimuli Source Component"));
-    this->TrapLevel = 0;
-    this->OriginalTrapLevel = 0;
+    TraceLocation = CreateDefaultSubobject<USceneComponent>(TEXT("Trace Location"));
+    PlacementSkeletalMesh = NULL;
+    TrapRangeMesh = NULL;
+    TrapPreviewMesh = NULL;
+    TrapData = NULL;
+    bShouldAffectAllPawnsInMinigames = true;
+    bTriggerAbilityOnEndoverlap = false;
+    AbilitySet = NULL;
+    DamageAttributeSet = NULL;
+    AttachedTo = NULL;
+    bTargetWithAttachedTo = true;
+    LastAttachedTo = NULL;
+    DelayBeforeDestroyAfterDurabilityExpired = 1;
+    SavedDurabilityPct = 1;
+    ObstructedTargetRecheckInterval = 1;
+    ShouldTriggerTraceOffsets.AddDefaulted(1);
+    bIgnoreBuildingObstructions = false;
+    bOwnAllFacesOfAttachedToActor = false;
+    AlternateMaterialInstance = NULL;
+    StimSourceComponent = CreateDefaultSubobject<UAthenaTrapAIPerceptionStimuliSourceComponent>(TEXT("Trap AI Perception Stimuli Source Component"));
+    TrapLevel = 0;
+    OriginalTrapLevel = 0;
 }
 

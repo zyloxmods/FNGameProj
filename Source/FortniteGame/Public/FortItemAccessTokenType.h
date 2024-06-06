@@ -21,7 +21,7 @@ protected:
     FText UnlockDescription;
     
 public:
-    UFortItemAccessTokenType();
+    UFortItemAccessTokenType(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetUnlockDescription() const;
     

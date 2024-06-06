@@ -1,8 +1,8 @@
 #include "AthenaSeasonRewardLevelInfo.h"
 
 FAthenaSeasonRewardLevelInfo::FAthenaSeasonRewardLevelInfo() {
-    this->Track = EAthenaSeasonRewardTrack::Invalid;
-    this->Level = 0;
-    this->XpToNextLevel = 0;
+    Track = EAthenaSeasonRewardTrack::Invalid;
+    Level = 0;
+    XpToNextLevel = 0;
 }
 

@@ -4,7 +4,7 @@ void AFortGameStateSurvival::SetGameDifficultyRow(const FDataTableRowHandle& Gam
 }
 
 AFortGameStateSurvival::AFortGameStateSurvival() {
-    this->bFireEndOfDayDelegate = true;
-    this->TimeToDelayEndOfDayZoneScoreWidgetDisplay = 1;
+    bFireEndOfDayDelegate = true;
+    TimeToDelayEndOfDayZoneScoreWidgetDisplay = 1;
 }
 

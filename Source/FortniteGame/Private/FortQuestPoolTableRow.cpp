@@ -1,15 +1,15 @@
 #include "FortQuestPoolTableRow.h"
 
 FFortQuestPoolTableRow::FFortQuestPoolTableRow() {
-    this->RefreshIntervalHours = 0;
-    this->LootTier = 0;
-    this->RerollLimit = 0;
-    this->bGlobalPull = false;
-    this->bRollOnActivation = false;
-    this->bDeleteActiveOnRefresh = false;
-    this->MaxActive = 0;
-    this->DaysToKeepClaimed = 0;
-    this->DaysToKeepCompleted = 0;
-    this->MaxUnclaimed = 0;
+    RefreshIntervalHours = 0;
+    LootTier = 0;
+    RerollLimit = 0;
+    bGlobalPull = false;
+    bRollOnActivation = false;
+    bDeleteActiveOnRefresh = false;
+    MaxActive = 0;
+    DaysToKeepClaimed = 0;
+    DaysToKeepCompleted = 0;
+    MaxUnclaimed = 0;
 }
 

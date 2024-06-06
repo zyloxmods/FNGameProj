@@ -28,7 +28,7 @@ FSlateBrush UFortItemDefinition::GetSmallPreviewImageBrush() const {
 }
 
 TSoftObjectPtr<UTexture2D> UFortItemDefinition::GetSmallPreviewImage() const {
-    return SmallPreviewImage;
+    return SmallPreviewImage.LoadSynchronous();
 }
 
 FText UFortItemDefinition::GetSingleLineDescription() const {
@@ -80,11 +80,12 @@ FString UFortItemDefinition::GetPersistentName() const {
 
 TSoftObjectPtr<UTexture2D> UFortItemDefinition::GetLargePreviewImage() const
 {
-    return LargePreviewImage;
+    return LargePreviewImage.LoadSynchronous();
 }
 
 FText UFortItemDefinition::GetItemTypeName(bool bUsePlural) const {
-    return FText::GetEmpty();
+    FString EnumString = UEnum::GetValueAsString<EFortItemType>(ItemType);
+    return FText::FromString(EnumString);
 }
 
 EFortItemType UFortItemDefinition::GetItemType() const {
@@ -132,21 +133,32 @@ UFortItem* UFortItemDefinition::CreateTemporaryInstanceFromExistingItemBP(UFortI
 void UFortItemDefinition::CopyTemplateIdToClipboard() {
 }
 
-UFortItemDefinition::UFortItemDefinition() {
-    this->Rarity = EFortRarity::Common;
-    this->ItemType = EFortItemType::WorldItem;
-    this->PrimaryAssetIdItemTypeOverride = EFortItemType::WorldItem;
-    this->FilterOverride = EFortInventoryFilter::WeaponMelee;
-    this->Tier = EFortItemTier::No_Tier;
-    this->MaxTier = EFortItemTier::No_Tier;
-    this->Access = EFortTemplateAccess::Normal;
-    this->bIsAccountItem = false;
-    this->bNeverPersisted = false;
-    this->bAllowMultipleStacks = true;
-    this->bAutoBalanceStacks = true;
-    this->bForceAutoPickup = false;
-    this->bInventorySizeLimited = false;
-    this->FrontendPreviewScale = 1;
-    this->Series = NULL;
+UFortItemDefinition::UFortItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    Rarity = EFortRarity::Common;
+    ItemType = EFortItemType::WorldItem;
+    PrimaryAssetIdItemTypeOverride = EFortItemType::WorldItem;
+    FilterOverride = EFortInventoryFilter::WeaponMelee;
+    Tier = EFortItemTier::No_Tier;
+    MaxTier = EFortItemTier::No_Tier;
+    Access = EFortTemplateAccess::Normal;
+    bIsAccountItem = false;
+    bNeverPersisted = false;
+    bAllowMultipleStacks = true;
+    bAutoBalanceStacks = true;
+    bForceAutoPickup = false;
+    bInventorySizeLimited = false;
+    FrontendPreviewScale = 1;
+    Series = NULL;
+    
+    FText ItemTypeText = GetItemTypeName(false);
+    FString AssetName = GetFName().ToString().ToLower();
+    FString ItemType = ItemTypeText.ToString();
+    int32 Index;
+    if (ItemType.FindLastChar(':', Index))
+        {
+        ItemType = ItemType.RightChop(Index + 1);
+        }
+    EditorTemplateId = FString(TEXT("" + ItemType + ":" + AssetName));
 }
 

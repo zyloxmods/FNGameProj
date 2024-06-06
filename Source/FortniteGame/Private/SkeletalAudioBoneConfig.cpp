@@ -1,14 +1,14 @@
 #include "SkeletalAudioBoneConfig.h"
 
 FSkeletalAudioBoneConfig::FSkeletalAudioBoneConfig() {
-    this->SoundLoop = NULL;
-    this->SoundMediumDelta = NULL;
-    this->SoundHighDelta = NULL;
-    this->ThresholdLoop = 1;
-    this->ThresholdMedium = 1;
-    this->ThresholdHigh = 1;
-    this->RetriggerDelay = 1;
-    this->TrackingSpace = ESkeletalAudioBoneSpace::Relative;
-    this->VelocityTrackingType = ESkeletalAudioBoneVelocityType::Linear;
+    SoundLoop = NULL;
+    SoundMediumDelta = NULL;
+    SoundHighDelta = NULL;
+    ThresholdLoop = 1;
+    ThresholdMedium = 1;
+    ThresholdHigh = 1;
+    RetriggerDelay = 1;
+    TrackingSpace = ESkeletalAudioBoneSpace::Relative;
+    VelocityTrackingType = ESkeletalAudioBoneVelocityType::Linear;
 }
 

@@ -12,6 +12,6 @@ void UFortPawnSpinParamsObj::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 UFortPawnSpinParamsObj::UFortPawnSpinParamsObj() {
-    this->bReplicatedFlag = false;
+    bReplicatedFlag = false;
 }
 

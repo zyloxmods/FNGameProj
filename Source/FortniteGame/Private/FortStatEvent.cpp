@@ -1,10 +1,10 @@
 #include "FortStatEvent.h"
 
 FFortStatEvent::FFortStatEvent() {
-    this->RepeatType = EFortEventRepeat::EFER_Inactive;
-    this->AnnouncementToDisplay = NULL;
-    this->NotificationParameter = NULL;
-    this->AssociatedStat = NULL;
-    this->FPC = NULL;
+    RepeatType = EFortEventRepeat::EFER_Inactive;
+    AnnouncementToDisplay = NULL;
+    NotificationParameter = NULL;
+    AssociatedStat = NULL;
+    FPC = NULL;
 }
 

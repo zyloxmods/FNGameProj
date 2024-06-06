@@ -1,10 +1,10 @@
 #include "FortEncounterModeSettings.h"
 
 FFortEncounterModeSettings::FFortEncounterModeSettings() {
-    this->PacingMode = EFortEncounterPacingMode::SpawnPointsPercentageCurve;
-    this->SpawnLocationManagementMode = EFortEncounterSpawnLocationManagementMode::Spawn;
-    this->SpawnLocationMode = EFortEncounterSpawnLocationPlacementMode::Directional;
-    this->UtilitiesMode = EFortEncounterUtilitiesMode::LockedOnly;
-    this->SpawnLimitMode = EFortEncounterSpawnLimitType::NoLimit;
+    PacingMode = EFortEncounterPacingMode::SpawnPointsPercentageCurve;
+    SpawnLocationManagementMode = EFortEncounterSpawnLocationManagementMode::Spawn;
+    SpawnLocationMode = EFortEncounterSpawnLocationPlacementMode::Directional;
+    UtilitiesMode = EFortEncounterUtilitiesMode::LockedOnly;
+    SpawnLimitMode = EFortEncounterSpawnLimitType::NoLimit;
 }
 

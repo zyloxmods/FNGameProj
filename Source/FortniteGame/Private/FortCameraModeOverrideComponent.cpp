@@ -8,6 +8,6 @@ void UFortCameraModeOverrideComponent::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 UFortCameraModeOverrideComponent::UFortCameraModeOverrideComponent() {
-    this->CameraModeOverride = NULL;
+    CameraModeOverride = NULL;
 }
 

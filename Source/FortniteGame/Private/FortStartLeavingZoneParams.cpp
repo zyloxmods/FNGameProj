@@ -4,6 +4,6 @@ void UFortStartLeavingZoneParams::BreakParams(AFortPlayerController*& _PlayerCon
 }
 
 UFortStartLeavingZoneParams::UFortStartLeavingZoneParams() {
-    this->PlayerControllerRequestingLeaving = NULL;
+    PlayerControllerRequestingLeaving = NULL;
 }
 

@@ -1,6 +1,6 @@
 #include "FortPlayerSurveyDescription.h"
 
 FFortPlayerSurveyDescription::FFortPlayerSurveyDescription() {
-    this->DefaultAnswer = 0;
+    DefaultAnswer = 0;
 }
 

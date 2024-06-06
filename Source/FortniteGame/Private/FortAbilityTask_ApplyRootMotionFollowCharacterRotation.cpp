@@ -16,10 +16,10 @@ void UFortAbilityTask_ApplyRootMotionFollowCharacterRotation::GetLifetimeReplica
 }
 
 UFortAbilityTask_ApplyRootMotionFollowCharacterRotation::UFortAbilityTask_ApplyRootMotionFollowCharacterRotation() {
-    this->Strength = 1;
-    this->Duration = 1;
-    this->bIsAdditive = false;
-    this->StrengthOverTime = NULL;
-    this->bEnableGravity = false;
+    Strength = 1;
+    Duration = 1;
+    bIsAdditive = false;
+    StrengthOverTime = NULL;
+    bEnableGravity = false;
 }
 

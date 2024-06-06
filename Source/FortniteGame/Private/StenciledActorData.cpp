@@ -1,11 +1,11 @@
 #include "StenciledActorData.h"
 
 FStenciledActorData::FStenciledActorData() {
-    this->Duration = 1;
-    this->StepTime = 1;
-    this->ShareActorWith = EShareActorWith::None;
-    this->Sound = NULL;
-    this->FriendlyStencilIndex = 0;
-    this->EnemyStencilIndex = 0;
+    Duration = 1;
+    StepTime = 1;
+    ShareActorWith = EShareActorWith::None;
+    Sound = NULL;
+    FriendlyStencilIndex = 0;
+    EnemyStencilIndex = 0;
 }
 

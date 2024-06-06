@@ -1,6 +1,6 @@
 #include "FortCharacter.h"
 
 UFortCharacter::UFortCharacter() {
-    this->squad_slot_idx = 0;
+    squad_slot_idx = 0;
 }
 

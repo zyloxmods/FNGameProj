@@ -32,8 +32,8 @@ void UFortControllerComponent_PerkSystem::GetLifetimeReplicatedProps(TArray<FLif
 }
 
 UFortControllerComponent_PerkSystem::UFortControllerComponent_PerkSystem() {
-    this->ServerTimeToRelease = 1;
-    this->RerollCount = 0;
-    this->PerkSelection.AddDefaulted(3);
+    ServerTimeToRelease = 1;
+    RerollCount = 0;
+    PerkSelection.AddDefaulted(3);
 }
 

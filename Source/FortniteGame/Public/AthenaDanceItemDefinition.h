@@ -79,7 +79,7 @@ private:
     FText ChatTriggerCommandName;
     
 public:
-    UAthenaDanceItemDefinition();
+    UAthenaDanceItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetChatTriggerCommandName() const;
     virtual FPrimaryAssetId GetPrimaryAssetId() const override

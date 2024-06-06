@@ -1,7 +1,7 @@
 #include "BagelDifficultySettings.h"
 
 FBagelDifficultySettings::FBagelDifficultySettings() {
-    this->SpawnCountMultiplier = 1;
-    this->AIEffectMultiplier = 1;
+    SpawnCountMultiplier = 1;
+    AIEffectMultiplier = 1;
 }
 

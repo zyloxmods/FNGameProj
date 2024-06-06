@@ -1,6 +1,6 @@
 #include "FortEncounterTransitionSettings.h"
 
 FFortEncounterTransitionSettings::FFortEncounterTransitionSettings() {
-    this->bShouldMaintainEncounterState = false;
+    bShouldMaintainEncounterState = false;
 }
 

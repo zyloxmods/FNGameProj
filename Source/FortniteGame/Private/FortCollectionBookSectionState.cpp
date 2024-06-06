@@ -1,6 +1,6 @@
 #include "FortCollectionBookSectionState.h"
 
 FFortCollectionBookSectionState::FFortCollectionBookSectionState() {
-    this->State = EFortCollectionBookState::Active;
+    State = EFortCollectionBookState::Active;
 }
 

@@ -19,8 +19,8 @@ void AFortAIBuddy::AddTagListener(AActor* TargetActor, const FGameplayTag Tag) {
 }
 
 AFortAIBuddy::AFortAIBuddy() {
-    this->ConsumableItem = NULL;
-    this->DrainPawn = NULL;
-    this->DrainItem = NULL;
+    ConsumableItem = NULL;
+    DrainPawn = NULL;
+    DrainItem = NULL;
 }
 

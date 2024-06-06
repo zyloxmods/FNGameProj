@@ -7,6 +7,6 @@ void UFortInfluenceMap::K2_AddInfluenceSource(UObject* WorldContext, const FVect
 }
 
 UFortInfluenceMap::UFortInfluenceMap() {
-    this->GraphData = NULL;
+    GraphData = NULL;
 }
 

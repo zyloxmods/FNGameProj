@@ -4,16 +4,16 @@ void UHoverDroneMovementComponent::OnFollowedPlayerChanged(AFortPlayerController
 }
 
 UHoverDroneMovementComponent::UHoverDroneMovementComponent() {
-    this->RotAcceleration = 1;
-    this->RotDeceleration = 1;
-    this->MaxPitchRotSpeed = 1;
-    this->MaxYawRotSpeed = 1;
-    this->TurboRotAcceleration = 1;
-    this->TurboRotDeceleration = 1;
-    this->TurboMaxPitchRotSpeed = 1;
-    this->TurboMaxYawRotSpeed = 1;
-    this->TurboDeceleration = 1;
-    this->TurboHoverThrustScale = 1;
-    this->FullAirFrictionVelocity = 1;
+    RotAcceleration = 1;
+    RotDeceleration = 1;
+    MaxPitchRotSpeed = 1;
+    MaxYawRotSpeed = 1;
+    TurboRotAcceleration = 1;
+    TurboRotDeceleration = 1;
+    TurboMaxPitchRotSpeed = 1;
+    TurboMaxYawRotSpeed = 1;
+    TurboDeceleration = 1;
+    TurboHoverThrustScale = 1;
+    FullAirFrictionVelocity = 1;
 }
 

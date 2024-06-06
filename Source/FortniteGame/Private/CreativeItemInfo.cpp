@@ -1,8 +1,8 @@
 #include "CreativeItemInfo.h"
 
 FCreativeItemInfo::FCreativeItemInfo() {
-    this->ItemDefinition = NULL;
-    this->DesiredSlot = 0;
-    this->bUseVolumeToSpawn = false;
+    ItemDefinition = NULL;
+    DesiredSlot = 0;
+    bUseVolumeToSpawn = false;
 }
 

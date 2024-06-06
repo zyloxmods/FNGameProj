@@ -1,6 +1,6 @@
 #include "RotationLerpData.h"
 
 FRotationLerpData::FRotationLerpData() {
-    this->TotalLerpTime = 1;
+    TotalLerpTime = 1;
 }
 

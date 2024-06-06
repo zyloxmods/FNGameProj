@@ -1,7 +1,7 @@
 #include "MtxPurchaseHistory.h"
 
 FMtxPurchaseHistory::FMtxPurchaseHistory() {
-    this->RefundCredits = 0;
-    this->RefundsUsed = 0;
+    RefundCredits = 0;
+    RefundsUsed = 0;
 }
 

@@ -4,7 +4,7 @@ void UFortGameplayAbility_AITurnTransition::GetTurnTransitionMontageSectionNameA
 }
 
 UFortGameplayAbility_AITurnTransition::UFortGameplayAbility_AITurnTransition() {
-    this->MinTurnTransitionYawAngle = 1;
-    this->PickedTurnYawRotationRate = 1;
+    MinTurnTransitionYawAngle = 1;
+    PickedTurnYawRotationRate = 1;
 }
 

@@ -1,6 +1,6 @@
 #include "FortMissionCompletionNotification.h"
 
 FFortMissionCompletionNotification::FFortMissionCompletionNotification() {
-    this->bWasCritical = false;
+    bWasCritical = false;
 }
 

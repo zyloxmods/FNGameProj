@@ -54,14 +54,14 @@ bool ABattleMapPawnReplay::BP_IsOnTimelineMode() const {
 }
 
 ABattleMapPawnReplay::ABattleMapPawnReplay() {
-    this->GroundMoveNodeClass = NULL;
-    this->AirMoveNodeClass = NULL;
-    this->GotKillNodeClass = NULL;
-    this->ZoneNodeClass = NULL;
-    this->TeamFlightNodeClass = NULL;
-    this->TimeIndicatorClass = NULL;
-    this->SelectedNodeSound = NULL;
-    this->HoveredNodeSound = NULL;
-    this->ScrubbingToSound = NULL;
+    GroundMoveNodeClass = NULL;
+    AirMoveNodeClass = NULL;
+    GotKillNodeClass = NULL;
+    ZoneNodeClass = NULL;
+    TeamFlightNodeClass = NULL;
+    TimeIndicatorClass = NULL;
+    SelectedNodeSound = NULL;
+    HoveredNodeSound = NULL;
+    ScrubbingToSound = NULL;
 }
 

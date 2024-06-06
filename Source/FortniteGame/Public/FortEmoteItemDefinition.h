@@ -12,7 +12,7 @@ private:
     FText CommandName;
     
 public:
-    UFortEmoteItemDefinition();
+    UFortEmoteItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FText GetCommandName() const;
     virtual FPrimaryAssetId GetPrimaryAssetId() const override

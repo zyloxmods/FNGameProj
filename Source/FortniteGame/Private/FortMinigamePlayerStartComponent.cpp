@@ -15,6 +15,6 @@ bool UFortMinigamePlayerStartComponent::GetPlayerCheckpointLastUsedTime(APlayerS
 }
 
 UFortMinigamePlayerStartComponent::UFortMinigamePlayerStartComponent() {
-    this->bIsCheckpoint = false;
+    bIsCheckpoint = false;
 }
 

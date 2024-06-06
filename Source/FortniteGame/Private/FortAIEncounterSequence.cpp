@@ -51,11 +51,11 @@ bool UFortAIEncounterSequence::EncounterBelongsToSequence(UFortAIEncounterInfo* 
 }
 
 UFortAIEncounterSequence::UFortAIEncounterSequence() {
-    this->CurrentEncounterIndexInSequence = 0;
-    this->CurrentEncounter = NULL;
-    this->AssociatedAIDirector = NULL;
-    this->AssociatedMission = NULL;
-    this->AssignmentSettings = NULL;
-    this->OptionalQueryActor = NULL;
+    CurrentEncounterIndexInSequence = 0;
+    CurrentEncounter = NULL;
+    AssociatedAIDirector = NULL;
+    AssociatedMission = NULL;
+    AssignmentSettings = NULL;
+    OptionalQueryActor = NULL;
 }
 

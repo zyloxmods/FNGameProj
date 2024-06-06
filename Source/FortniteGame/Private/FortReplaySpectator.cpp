@@ -69,18 +69,18 @@ bool AFortReplaySpectator::AreReplayGameHighlightsAvailable() const {
 }
 
 AFortReplaySpectator::AFortReplaySpectator() {
-    this->PlaybackSpeedLUT.AddDefaulted(7);
-    this->FollowedPlayerPrivate = NULL;
-    this->OverriddenTODManager = NULL;
-    this->SequencerComponent = NULL;
-    this->SequencerLoadingScreenRevealTime = 1;
-    this->bShouldUpdateReplayContextAboutSequencer = false;
-    this->BaseSequencerRetryFindPawnGraceTime = 1;
-    this->HighlightAnnotationTime = 1;
-    this->ExtendedGameHighlightsTargetSeconds = 1;
-    this->GameHighlightsTargetSeconds = 1;
-    this->FeatureReelTargetSeconds = 1;
-    this->HighlightShotExtraLeadTime = 1;
-    this->UnicornDriver = NULL;
+    PlaybackSpeedLUT.AddDefaulted(7);
+    FollowedPlayerPrivate = NULL;
+    OverriddenTODManager = NULL;
+    SequencerComponent = NULL;
+    SequencerLoadingScreenRevealTime = 1;
+    bShouldUpdateReplayContextAboutSequencer = false;
+    BaseSequencerRetryFindPawnGraceTime = 1;
+    HighlightAnnotationTime = 1;
+    ExtendedGameHighlightsTargetSeconds = 1;
+    GameHighlightsTargetSeconds = 1;
+    FeatureReelTargetSeconds = 1;
+    HighlightShotExtraLeadTime = 1;
+    UnicornDriver = NULL;
 }
 

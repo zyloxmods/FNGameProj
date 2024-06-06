@@ -156,31 +156,31 @@ void AFortSpaghettiVehicle::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortSpaghettiVehicle::AFortSpaghettiVehicle() {
-    this->CacheDriverCameraShake = NULL;
-    this->BounceContactRepulsionForce = 1;
-    this->BoostForce = 1;
-    this->MaxVerticalBoostForce = 1;
-    this->BoostSpeedKmh = 1;
-    this->TowhookSpringDeformationRateOnGround = 1;
-    this->bAutoRetractGrapple = false;
-    this->bCanHoldGrapple = false;
-    this->TowhookInterpSpeed = 1;
-    this->TowhookInterpMaxPercentPerSecond = 1;
-    this->TowhookMaxInvalidateTargetAngleDeg = 1;
-    this->TowhookMaxInvalidateTargetDot = 1;
-    this->InternalBlockerCollisionName = TEXT("InternalBlocker");
-    this->FortSpaghettiVehicleConfigsClass = NULL;
-    this->ProjectileTraceChannel = ECC_WorldStatic;
-    this->ProjectileSpeedKmh = 1;
-    this->FortSpaghettiVehicleConfigs = NULL;
-    this->CacheCoilIdleTopR = NULL;
-    this->CacheCoilIdleTopL = NULL;
-    this->CacheCoilIdleBottomR = NULL;
-    this->CacheCoilIdleBottomL = NULL;
-    this->CacheBoostFX = NULL;
-    this->CacheDustFX = NULL;
-    this->CacheAudioMovement = NULL;
-    this->CacheAudioWind = NULL;
-    this->CacheAudioTowCable = NULL;
+    CacheDriverCameraShake = NULL;
+    BounceContactRepulsionForce = 1;
+    BoostForce = 1;
+    MaxVerticalBoostForce = 1;
+    BoostSpeedKmh = 1;
+    TowhookSpringDeformationRateOnGround = 1;
+    bAutoRetractGrapple = false;
+    bCanHoldGrapple = false;
+    TowhookInterpSpeed = 1;
+    TowhookInterpMaxPercentPerSecond = 1;
+    TowhookMaxInvalidateTargetAngleDeg = 1;
+    TowhookMaxInvalidateTargetDot = 1;
+    InternalBlockerCollisionName = TEXT("InternalBlocker");
+    FortSpaghettiVehicleConfigsClass = NULL;
+    ProjectileTraceChannel = ECC_WorldStatic;
+    ProjectileSpeedKmh = 1;
+    FortSpaghettiVehicleConfigs = NULL;
+    CacheCoilIdleTopR = NULL;
+    CacheCoilIdleTopL = NULL;
+    CacheCoilIdleBottomR = NULL;
+    CacheCoilIdleBottomL = NULL;
+    CacheBoostFX = NULL;
+    CacheDustFX = NULL;
+    CacheAudioMovement = NULL;
+    CacheAudioWind = NULL;
+    CacheAudioTowCable = NULL;
 }
 

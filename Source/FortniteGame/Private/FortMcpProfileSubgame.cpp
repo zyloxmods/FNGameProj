@@ -52,6 +52,6 @@ void UFortMcpProfileSubgame::ClaimQuestReward_Implementation(const FString& Ques
 }
 
 UFortMcpProfileSubgame::UFortMcpProfileSubgame() {
-    this->LastAppliedLoadout = NULL;
+    LastAppliedLoadout = NULL;
 }
 */

@@ -1,7 +1,7 @@
 #include "FortWorldPlayerLoadout.h"
 
 FFortWorldPlayerLoadout::FFortWorldPlayerLoadout() {
-    this->bPlayerIsNew = false;
-    this->ZonesCompleted = 0;
+    bPlayerIsNew = false;
+    ZonesCompleted = 0;
 }
 

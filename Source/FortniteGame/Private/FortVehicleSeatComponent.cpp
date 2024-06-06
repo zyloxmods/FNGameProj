@@ -11,8 +11,8 @@ void UFortVehicleSeatComponent::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 UFortVehicleSeatComponent::UFortVehicleSeatComponent() {
-    this->SeatSwitchCooldown = 1;
-    this->bHasAnyMountedWeaponSeats = false;
-    this->bAlwaysAllowEntry = false;
+    SeatSwitchCooldown = 1;
+    bHasAnyMountedWeaponSeats = false;
+    bAlwaysAllowEntry = false;
 }
 

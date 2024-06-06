@@ -15,9 +15,10 @@ float UFortConsumableItemDefinition::GetAnimPlayRate() const {
 void UFortConsumableItemDefinition::ConsumeItem(const FGameplayEventData& EventData) {
 }
 
-UFortConsumableItemDefinition::UFortConsumableItemDefinition() {
-    this->UseTime = 1;
-    this->bRequiresMissingHealth = true;
-    this->ItemType = EFortItemType::Food;
+UFortConsumableItemDefinition::UFortConsumableItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    UseTime = 1;
+    bRequiresMissingHealth = true;
+    ItemType = EFortItemType::Food;
 }
 

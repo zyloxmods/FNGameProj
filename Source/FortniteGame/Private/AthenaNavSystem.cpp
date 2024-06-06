@@ -11,10 +11,10 @@ bool UAthenaNavSystem::IsInitialNavigationLockActive(UObject* WorldContextObject
 }
 
 UAthenaNavSystem::UAthenaNavSystem() {
-    this->bUseNavDataSetVariants = false;
-    this->bUseBuildingGridAsNavigableSpace = false;
-    this->bMarkBuildingFoundationDirty = false;
-    this->bSupportRuntimeNavmeshDisabling = true;
-    this->NavGenerationObserverCheckInterval = 1;
+    bUseNavDataSetVariants = false;
+    bUseBuildingGridAsNavigableSpace = false;
+    bMarkBuildingFoundationDirty = false;
+    bSupportRuntimeNavmeshDisabling = true;
+    NavGenerationObserverCheckInterval = 1;
 }
 

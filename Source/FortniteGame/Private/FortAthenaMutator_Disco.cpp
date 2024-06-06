@@ -27,10 +27,10 @@ void AFortAthenaMutator_Disco::GetLifetimeReplicatedProps(TArray<FLifetimeProper
 }
 
 AFortAthenaMutator_Disco::AFortAthenaMutator_Disco() {
-    this->LastRespawnableSafeZoneIndex = 0;
-    this->bRespawnWarningGiven = false;
-    this->LastSafeZoneIndex = 0;
-    this->TimeUntilPointAccrual = 1;
-    this->SentDiscoOpenedMessagesIndex = 0;
+    LastRespawnableSafeZoneIndex = 0;
+    bRespawnWarningGiven = false;
+    LastSafeZoneIndex = 0;
+    TimeUntilPointAccrual = 1;
+    SentDiscoOpenedMessagesIndex = 0;
 }
 

@@ -1,12 +1,12 @@
 #include "FortMissionPlacementActorItem.h"
 
 FFortMissionPlacementActorItem::FFortMissionPlacementActorItem() {
-    this->PlacementQuery = NULL;
-    this->NumLocationsToFind = 0;
-    this->bSpawnActorAutomatically = false;
-    this->bShouldReserveLocations = false;
-    this->bSnapToGrid = false;
-    this->bAdjustPlacementForFloors = false;
-    this->bDontCreateSpawnRiftsNearby = false;
+    PlacementQuery = NULL;
+    NumLocationsToFind = 0;
+    bSpawnActorAutomatically = false;
+    bShouldReserveLocations = false;
+    bSnapToGrid = false;
+    bAdjustPlacementForFloors = false;
+    bDontCreateSpawnRiftsNearby = false;
 }
 

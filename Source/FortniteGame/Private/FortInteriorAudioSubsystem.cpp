@@ -4,8 +4,8 @@ void UFortInteriorAudioSubsystem::SetEnabled(bool bNewEnabled) {
 }
 
 UFortInteriorAudioSubsystem::UFortInteriorAudioSubsystem() {
-    this->Settings = NULL;
-    this->FPC = NULL;
-    this->BuildingGrid = NULL;
+    Settings = NULL;
+    FPC = NULL;
+    BuildingGrid = NULL;
 }
 

@@ -1,8 +1,8 @@
 #include "SpecialActorSingleStatData.h"
 
 FSpecialActorSingleStatData::FSpecialActorSingleStatData() {
-    this->StatType = ESpecialActorStatType::NumEliminationsNearby;
-    this->Value = 1;
-    this->StatLogicValue = 1;
+    StatType = ESpecialActorStatType::NumEliminationsNearby;
+    Value = 1;
+    StatLogicValue = 1;
 }
 

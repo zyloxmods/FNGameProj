@@ -1,15 +1,15 @@
 #include "FortAthenaMutator_InventoryOverride.h"
 
 AFortAthenaMutator_InventoryOverride::AFortAthenaMutator_InventoryOverride() {
-    this->bWantsAutoTDMActivation = true;
-    this->DropAllItemsOverride = EAthenaLootDropOverride::NoOverride;
-    this->TrapDropOverride = EAthenaLootDropOverride::NoOverride;
-    this->WeaponDropOverride = EAthenaLootDropOverride::NoOverride;
-    this->MaterialDropOverride = EAthenaLootDropOverride::NoOverride;
-    this->GadgetDropOverride = EAthenaLootDropOverride::NoOverride;
-    this->ConsumableDropOverride = EAthenaLootDropOverride::NoOverride;
-    this->AmmoDropOverride = EAthenaLootDropOverride::NoOverride;
-    this->InventoryUpdateOverride = EAthenaInventorySpawnOverride::NoOverride;
-    this->InventoryLoadoutIndex = 0;
+    bWantsAutoTDMActivation = true;
+    DropAllItemsOverride = EAthenaLootDropOverride::NoOverride;
+    TrapDropOverride = EAthenaLootDropOverride::NoOverride;
+    WeaponDropOverride = EAthenaLootDropOverride::NoOverride;
+    MaterialDropOverride = EAthenaLootDropOverride::NoOverride;
+    GadgetDropOverride = EAthenaLootDropOverride::NoOverride;
+    ConsumableDropOverride = EAthenaLootDropOverride::NoOverride;
+    AmmoDropOverride = EAthenaLootDropOverride::NoOverride;
+    InventoryUpdateOverride = EAthenaInventorySpawnOverride::NoOverride;
+    InventoryLoadoutIndex = 0;
 }
 

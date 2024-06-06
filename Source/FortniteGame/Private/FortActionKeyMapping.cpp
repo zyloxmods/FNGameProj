@@ -1,9 +1,9 @@
 #include "FortActionKeyMapping.h"
 
 FFortActionKeyMapping::FFortActionKeyMapping() {
-    this->ActionGroup = EFortInputActionGroup::AllModes;
-    this->SubGameUsedIn = ESubGame::Campaign;
-    this->InputScale = 1;
-    this->bIsAxisMapping = false;
+    ActionGroup = EFortInputActionGroup::AllModes;
+    SubGameUsedIn = ESubGame::Campaign;
+    InputScale = 1;
+    bIsAxisMapping = false;
 }
 

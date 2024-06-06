@@ -47,11 +47,12 @@ int32 UFortChallengeBundleItemDefinition::GetBundleLevelForQuest(const UFortQues
     return 0;
 }
 
-UFortChallengeBundleItemDefinition::UFortChallengeBundleItemDefinition() {
-    this->CharacterOverrideForRewardPreviews = NULL;
-    this->MaxChainDepth = 0;
-    this->bHideFromMapChallenges = false;
-    this->bHideRewardFromMapChallenges = false;
-    this->ItemType = EFortItemType::ChallengeBundle;
+UFortChallengeBundleItemDefinition::UFortChallengeBundleItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    CharacterOverrideForRewardPreviews = NULL;
+    MaxChainDepth = 0;
+    bHideFromMapChallenges = false;
+    bHideRewardFromMapChallenges = false;
+    ItemType = EFortItemType::ChallengeBundle;
 }
 

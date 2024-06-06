@@ -16,10 +16,10 @@ bool AFortSaveFileBuildingInstructionsHandler::AreBuildingsLoaded() {
 }
 
 AFortSaveFileBuildingInstructionsHandler::AFortSaveFileBuildingInstructionsHandler() {
-    this->bUseAbsoluteCoordinates = true;
-    this->bTrackDestroyedBuildings = false;
-    this->bLoadInvisible = false;
-    this->bDespawnOnBuildingsSpawned = false;
-    this->bSpawnBuildingsAutomaticallyAfterLoad = true;
+    bUseAbsoluteCoordinates = true;
+    bTrackDestroyedBuildings = false;
+    bLoadInvisible = false;
+    bDespawnOnBuildingsSpawned = false;
+    bSpawnBuildingsAutomaticallyAfterLoad = true;
 }
 

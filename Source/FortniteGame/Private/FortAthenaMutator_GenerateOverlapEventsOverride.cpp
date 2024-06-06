@@ -7,7 +7,7 @@ void AFortAthenaMutator_GenerateOverlapEventsOverride::SetCenterLocation(FVector
 }
 
 AFortAthenaMutator_GenerateOverlapEventsOverride::AFortAthenaMutator_GenerateOverlapEventsOverride() {
-    this->bGenerateOverlapEventsOverrideValue = true;
-    this->Radius = 1;
+    bGenerateOverlapEventsOverrideValue = true;
+    Radius = 1;
 }
 

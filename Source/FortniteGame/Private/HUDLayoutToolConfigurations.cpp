@@ -1,8 +1,8 @@
 #include "HUDLayoutToolConfigurations.h"
 
 UHUDLayoutToolConfigurations::UHUDLayoutToolConfigurations() {
-    this->MaximumCustomLayoutSaveSlots = 0;
-    this->HUDPresetContainerClasses.AddDefaulted(2);
-    this->DefaultButtonVisualSize = 1;
+    MaximumCustomLayoutSaveSlots = 0;
+    HUDPresetContainerClasses.AddDefaulted(2);
+    DefaultButtonVisualSize = 1;
 }
 

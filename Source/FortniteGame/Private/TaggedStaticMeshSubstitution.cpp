@@ -1,6 +1,6 @@
 #include "TaggedStaticMeshSubstitution.h"
 
 FTaggedStaticMeshSubstitution::FTaggedStaticMeshSubstitution() {
-    this->Substitute = NULL;
+    Substitute = NULL;
 }
 

@@ -1,11 +1,11 @@
 #include "FortCreativeBudget.h"
 
 FFortCreativeBudget::FFortCreativeBudget() {
-    this->TotalBudget = 0;
-    this->UsedBudget = 0;
-    this->Category = EFortBudgetCategory::Memory;
-    this->bCritical = false;
-    this->BudgetLowend = 0;
-    this->FixedInstanceCost = 0;
+    TotalBudget = 0;
+    UsedBudget = 0;
+    Category = EFortBudgetCategory::Memory;
+    bCritical = false;
+    BudgetLowend = 0;
+    FixedInstanceCost = 0;
 }
 

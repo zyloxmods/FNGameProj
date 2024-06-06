@@ -24,10 +24,10 @@ void AFortHookGunRope::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 }
 
 AFortHookGunRope::AFortHookGunRope() {
-    this->RopeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RopeMesh"));
-    this->RopeProjectileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RopeProjectileMesh"));
-    this->WeaponMesh = NULL;
-    this->OwningProjectileMesh = NULL;
-    this->bProjectileGone = false;
+    RopeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RopeMesh"));
+    RopeProjectileMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("RopeProjectileMesh"));
+    WeaponMesh = NULL;
+    OwningProjectileMesh = NULL;
+    bProjectileGone = false;
 }
 

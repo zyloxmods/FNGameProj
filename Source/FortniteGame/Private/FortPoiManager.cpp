@@ -23,12 +23,12 @@ void AFortPoiManager::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutL
 }
 
 AFortPoiManager::AFortPoiManager() {
-    this->TestPlayerIndex = 0;
-    this->POIsExcludedFromBeginGolden.AddDefaulted(1);
-    this->MaxNumTestsPerFrame = 0;
-    this->PoiTagContainerTableSize = 0;
-    this->bIsReinitializingGrid = false;
-    this->bHasInitalized = false;
-    this->PoiGridPrevSizeForDebugDisplay = 0;
+    TestPlayerIndex = 0;
+    POIsExcludedFromBeginGolden.AddDefaulted(1);
+    MaxNumTestsPerFrame = 0;
+    PoiTagContainerTableSize = 0;
+    bIsReinitializingGrid = false;
+    bHasInitalized = false;
+    PoiGridPrevSizeForDebugDisplay = 0;
 }
 

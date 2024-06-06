@@ -1,7 +1,7 @@
 #include "PurchasedItemInfo.h"
 
 FPurchasedItemInfo::FPurchasedItemInfo() {
-    this->Item = NULL;
-    this->Quantity = 0;
+    Item = NULL;
+    Quantity = 0;
 }
 

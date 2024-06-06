@@ -1,6 +1,6 @@
 #include "CreativeLoadedLinkData.h"
 
 FCreativeLoadedLinkData::FCreativeLoadedLinkData() {
-    this->Version = 0;
+    Version = 0;
 }
 

@@ -1,7 +1,7 @@
 #include "TeamMapExplorationEvent.h"
 
 FTeamMapExplorationEvent::FTeamMapExplorationEvent() {
-    this->TeamId = 0;
-    this->ExplorationThreshold = 0;
+    TeamId = 0;
+    ExplorationThreshold = 0;
 }
 

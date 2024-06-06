@@ -1,9 +1,9 @@
 #include "FortLevelRecord.h"
 
 FFortLevelRecord::FFortLevelRecord() {
-    this->ParentLevelIndex = 0;
-    this->X_Loc = 0;
-    this->Y_Loc = 0;
-    this->Rotation = 0;
+    ParentLevelIndex = 0;
+    X_Loc = 0;
+    Y_Loc = 0;
+    Rotation = 0;
 }
 

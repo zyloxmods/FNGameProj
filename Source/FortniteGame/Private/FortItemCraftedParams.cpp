@@ -7,9 +7,9 @@ void UFortItemCraftedParams::BreakParams(UFortSchematicItemDefinition*& _Schemat
 }
 
 UFortItemCraftedParams::UFortItemCraftedParams() {
-    this->SchematicDefinition = NULL;
-    this->CraftedBy = NULL;
-    this->AmountCrafted = 0;
-    this->bItemWasQuickCrafted = false;
+    SchematicDefinition = NULL;
+    CraftedBy = NULL;
+    AmountCrafted = 0;
+    bItemWasQuickCrafted = false;
 }
 

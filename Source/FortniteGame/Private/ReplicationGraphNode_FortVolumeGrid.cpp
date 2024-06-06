@@ -13,8 +13,8 @@ void UReplicationGraphNode_FortVolumeGrid::HandleStreamedLevelHidden() {
 }
 
 UReplicationGraphNode_FortVolumeGrid::UReplicationGraphNode_FortVolumeGrid() {
-    this->FortVolume = NULL;
-    this->FortVolumeGrid2D = NULL;
-    this->FortVolumeGlobalRelevancyNode = NULL;
+    FortVolume = NULL;
+    FortVolumeGrid2D = NULL;
+    FortVolumeGlobalRelevancyNode = NULL;
 }
 

@@ -1,8 +1,8 @@
 #include "FortMutatorAudioStinger.h"
 
 FFortMutatorAudioStinger::FFortMutatorAudioStinger() {
-    this->SoundCue = NULL;
-    this->LoopTimeBeforeFade = 1;
-    this->FadeTime = 1;
+    SoundCue = NULL;
+    LoopTimeBeforeFade = 1;
+    FadeTime = 1;
 }
 

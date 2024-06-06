@@ -9,7 +9,7 @@ class UFortCosmeticCharacterPartVariant : public UFortCosmeticVariantBackedByArr
     GENERATED_BODY()
 public:
 protected:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, TitleProperty="VariantName"))
     TArray<FPartVariantDef> PartOptions;
     
 public:

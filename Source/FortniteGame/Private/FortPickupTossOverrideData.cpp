@@ -1,9 +1,9 @@
 #include "FortPickupTossOverrideData.h"
 
 FFortPickupTossOverrideData::FFortPickupTossOverrideData() {
-    this->bIsValid = false;
-    this->MinTossDist = 1;
-    this->MaxTossDist = 1;
-    this->SpawnDirectionConeHalfAngle = 1;
+    bIsValid = false;
+    MinTossDist = 1;
+    MaxTossDist = 1;
+    SpawnDirectionConeHalfAngle = 1;
 }
 

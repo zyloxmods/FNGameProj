@@ -1,8 +1,8 @@
 #include "AmmoItemState.h"
 
 FAmmoItemState::FAmmoItemState() {
-    this->AmmoItemDefintion = NULL;
-    this->AmmoLoadedCount = 0;
-    this->AmmoMaxCount = 0;
+    AmmoItemDefintion = NULL;
+    AmmoLoadedCount = 0;
+    AmmoMaxCount = 0;
 }
 

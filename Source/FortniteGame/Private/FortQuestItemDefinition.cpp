@@ -148,37 +148,38 @@ bool UFortQuestItemDefinition::AllowsPlayNowNavigation() const {
     return false;
 }
 
-UFortQuestItemDefinition::UFortQuestItemDefinition() {
-    this->QuestType = EFortQuestType::Task;
-    this->QuestSubtype = EFortQuestSubtype::None;
-    this->bShouldDisplayOverallQuestInformation = false;
-    this->bAthenaUpdateObjectiveOncePerMatch = false;
-    this->bAthenaMustCompleteInSingleMatch = false;
-    this->bUpdateObjectiveOncePerMatch = false;
-    this->IsStreamingRequired = true;
-    this->bExpandsStormShield = false;
-    this->bHidden = false;
-    this->bSuppressQuestGrantedEvent = false;
-    this->bInitiallySuppressedReplacementQuest = false;
-    this->bIncludedInCategories = true;
-    this->bAutoLaunch = false;
-    this->bDeprecated = false;
-    this->bDisableBackendConditionEvaluation = false;
-    this->bAllowTileMatching = true;
-    this->bAllowPlayNowNavigation = true;
-    this->bAllowMissionAlertMatchesBypassingTileRequirements = false;
-    this->bTutorialQuest = false;
-    this->bHideStageDescription = false;
-    this->bHideIncompleteObjectiveLocations = false;
-    this->ExpirationDuration = 0;
-    this->ObjectiveCompletionCount = 0;
-    this->RewardsTable = NULL;
-    this->Objectives.AddDefaulted(1);
-    this->Weight = 1;
-    this->GranterWindowPeriodMinutes = 0;
-    this->GranterCooldownPeriodSeconds = 0;
-    this->ClaimPriority = 0;
-    this->SortPriority = 0;
-    this->ItemType = EFortItemType::Quest;
+UFortQuestItemDefinition::UFortQuestItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    QuestType = EFortQuestType::Task;
+    QuestSubtype = EFortQuestSubtype::None;
+    bShouldDisplayOverallQuestInformation = false;
+    bAthenaUpdateObjectiveOncePerMatch = false;
+    bAthenaMustCompleteInSingleMatch = false;
+    bUpdateObjectiveOncePerMatch = false;
+    IsStreamingRequired = true;
+    bExpandsStormShield = false;
+    bHidden = false;
+    bSuppressQuestGrantedEvent = false;
+    bInitiallySuppressedReplacementQuest = false;
+    bIncludedInCategories = true;
+    bAutoLaunch = false;
+    bDeprecated = false;
+    bDisableBackendConditionEvaluation = false;
+    bAllowTileMatching = true;
+    bAllowPlayNowNavigation = true;
+    bAllowMissionAlertMatchesBypassingTileRequirements = false;
+    bTutorialQuest = false;
+    bHideStageDescription = false;
+    bHideIncompleteObjectiveLocations = false;
+    ExpirationDuration = 0;
+    ObjectiveCompletionCount = 0;
+    RewardsTable = NULL;
+    Objectives.AddDefaulted(1);
+    Weight = 1;
+    GranterWindowPeriodMinutes = 0;
+    GranterCooldownPeriodSeconds = 0;
+    ClaimPriority = 0;
+    SortPriority = 0;
+    ItemType = EFortItemType::Quest;
 }
 

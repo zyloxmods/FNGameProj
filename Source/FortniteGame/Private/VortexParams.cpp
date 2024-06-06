@@ -1,9 +1,9 @@
 #include "VortexParams.h"
 
 FVortexParams::FVortexParams() {
-    this->GravityFloorAltitude = 1;
-    this->GravityFloorWidth = 1;
-    this->GravityFloorGravityScalar = 1;
-    this->GravityFloorTerminalVelocity = 1;
+    GravityFloorAltitude = 1;
+    GravityFloorWidth = 1;
+    GravityFloorGravityScalar = 1;
+    GravityFloorTerminalVelocity = 1;
 }
 

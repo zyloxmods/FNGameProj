@@ -1,15 +1,15 @@
 #include "FortPlayerAttributeSets.h"
 
 FFortPlayerAttributeSets::FFortPlayerAttributeSets() {
-    this->HealthSet = NULL;
-    this->ControlResistanceSet = NULL;
-    this->DamageSet = NULL;
-    this->MovementSet = NULL;
-    this->AdvancedMovementSet = NULL;
-    this->ConstructionSet = NULL;
-    this->PlayerAttrSet = NULL;
-    this->CharacterAttrSet = NULL;
-    this->WeaponAttrSet = NULL;
-    this->HomebaseSet = NULL;
+    HealthSet = NULL;
+    ControlResistanceSet = NULL;
+    DamageSet = NULL;
+    MovementSet = NULL;
+    AdvancedMovementSet = NULL;
+    ConstructionSet = NULL;
+    PlayerAttrSet = NULL;
+    CharacterAttrSet = NULL;
+    WeaponAttrSet = NULL;
+    HomebaseSet = NULL;
 }
 

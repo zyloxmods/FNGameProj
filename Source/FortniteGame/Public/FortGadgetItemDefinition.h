@@ -107,7 +107,7 @@ protected:
     FString NodeId;
     
 public:
-    UFortGadgetItemDefinition();
+    UFortGadgetItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool HasTrackedAttributes() const;
     

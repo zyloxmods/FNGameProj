@@ -14,20 +14,20 @@ void AFortWeap_BuildingTool::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortWeap_BuildingTool::AFortWeap_BuildingTool() {
-    this->BlueprintPaperMaterial = NULL;
-    this->BlueprintDiffuseTextures[0] = NULL;
-    this->BlueprintDiffuseTextures[1] = NULL;
-    this->BlueprintDiffuseTextures[2] = NULL;
-    this->BlueprintDiffuseTextures[3] = NULL;
-    this->BlueprintDiffuseTextures[4] = NULL;
-    this->BlueprintEmissiveMaskTextures[0] = NULL;
-    this->BlueprintEmissiveMaskTextures[1] = NULL;
-    this->BlueprintEmissiveMaskTextures[2] = NULL;
-    this->BlueprintEmissiveMaskTextures[3] = NULL;
-    this->BlueprintEmissiveMaskTextures[4] = NULL;
-    this->BlueprintPaperPulseCurve = NULL;
-    this->DefaultMetadata = NULL;
-    this->BlueprintPaperMID = NULL;
-    this->LastResourceType = EFortResourceType::None;
+    BlueprintPaperMaterial = NULL;
+    BlueprintDiffuseTextures[0] = NULL;
+    BlueprintDiffuseTextures[1] = NULL;
+    BlueprintDiffuseTextures[2] = NULL;
+    BlueprintDiffuseTextures[3] = NULL;
+    BlueprintDiffuseTextures[4] = NULL;
+    BlueprintEmissiveMaskTextures[0] = NULL;
+    BlueprintEmissiveMaskTextures[1] = NULL;
+    BlueprintEmissiveMaskTextures[2] = NULL;
+    BlueprintEmissiveMaskTextures[3] = NULL;
+    BlueprintEmissiveMaskTextures[4] = NULL;
+    BlueprintPaperPulseCurve = NULL;
+    DefaultMetadata = NULL;
+    BlueprintPaperMID = NULL;
+    LastResourceType = EFortResourceType::None;
 }
 

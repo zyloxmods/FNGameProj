@@ -1,14 +1,14 @@
 #include "AccountIdAndMatchEndData.h"
 
 FAccountIdAndMatchEndData::FAccountIdAndMatchEndData() {
-    this->TotalScore = 0;
-    this->bCriticalMatchBonus = false;
-    this->bDidLeech = false;
-    this->NumMissionPoints = 0;
-    this->ShuffledLockerUsedIndex = 0;
-    this->TheaterNum = 0;
-    this->OutpostNum = 0;
-    this->bAbandoning = false;
-    this->MissionLeechScaling = 1;
+    TotalScore = 0;
+    bCriticalMatchBonus = false;
+    bDidLeech = false;
+    NumMissionPoints = 0;
+    ShuffledLockerUsedIndex = 0;
+    TheaterNum = 0;
+    OutpostNum = 0;
+    bAbandoning = false;
+    MissionLeechScaling = 1;
 }
 

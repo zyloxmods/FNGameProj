@@ -94,23 +94,23 @@ bool AFortTheaterMapTile::DoesTileAllowQuickplay() const {
 }
 
 AFortTheaterMapTile::AFortTheaterMapTile() {
-    this->bFocused = false;
-    this->bHostSelected = false;
-    this->bGoToPromptEnabled = false;
-    this->bHasFinishedLoading = false;
-    this->TileType = EFortTheaterMapTileType::Normal;
-    this->ZoneThemeClass = NULL;
-    this->TileIndex = 0;
-    this->RegionIndex = 0;
-    this->SelectionInterpSpeed = 1;
-    this->NormalBrightness = 1;
-    this->LockedBrightness = 1;
-    this->FocusedBrightness = 1;
-    this->SelectedBrightnessRange = 1;
-    this->SelectedPulseSpeed = 1;
-    this->bEnableBrightnessCode = true;
-    this->bDisallowQuickplay = false;
-    this->StaticMeshMaterialID = 1;
-    this->StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent0"));
+    bFocused = false;
+    bHostSelected = false;
+    bGoToPromptEnabled = false;
+    bHasFinishedLoading = false;
+    TileType = EFortTheaterMapTileType::Normal;
+    ZoneThemeClass = NULL;
+    TileIndex = 0;
+    RegionIndex = 0;
+    SelectionInterpSpeed = 1;
+    NormalBrightness = 1;
+    LockedBrightness = 1;
+    FocusedBrightness = 1;
+    SelectedBrightnessRange = 1;
+    SelectedPulseSpeed = 1;
+    bEnableBrightnessCode = true;
+    bDisallowQuickplay = false;
+    StaticMeshMaterialID = 1;
+    StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComponent0"));
 }
 

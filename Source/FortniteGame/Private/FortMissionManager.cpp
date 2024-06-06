@@ -41,9 +41,9 @@ void AFortMissionManager::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 AFortMissionManager::AFortMissionManager() {
-    this->BluGloManager = NULL;
-    this->CurrentUIFocusedMission = NULL;
-    this->MissionClosestToPar = NULL;
-    this->bDisplaySecondaryMissionHeaders = true;
+    BluGloManager = NULL;
+    CurrentUIFocusedMission = NULL;
+    MissionClosestToPar = NULL;
+    bDisplaySecondaryMissionHeaders = true;
 }
 

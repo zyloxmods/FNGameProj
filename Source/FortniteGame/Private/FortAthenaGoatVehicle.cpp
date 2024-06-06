@@ -65,25 +65,25 @@ void AFortAthenaGoatVehicle::CacheParticleComponentPointers(UParticleSystemCompo
 
 
 AFortAthenaGoatVehicle::AFortAthenaGoatVehicle() {
-    this->LeanImpulseScaleFR = 1;
-    this->LeanImpulseScaleBR = 1;
-    this->LeanImpulseScaleBL = 1;
-    this->BounceCurve = NULL;
-    this->HandBrakeSkidParam = 1;
-    this->BoostParam = 1;
-    this->MovementParam = 1;
-    this->BatteryParam = 1;
-    this->RumbleIntensity = 1;
-    this->bBoostCameraActive = false;
-    this->bLocalPlayerADS = false;
-    this->DriverCameraShake = NULL;
-    this->PassengerCameraShake = NULL;
-    this->LocalPlayerPawn = NULL;
-    this->PSC_WheelDust = NULL;
-    this->PSC_WheelSlide = NULL;
-    this->PSC_TrailLeft = NULL;
-    this->PSC_TrailRight = NULL;
-    this->FortGoatVehicleConfigsClass = NULL;
-    this->FortGoatVehicleConfigs = NULL;
+    LeanImpulseScaleFR = 1;
+    LeanImpulseScaleBR = 1;
+    LeanImpulseScaleBL = 1;
+    BounceCurve = NULL;
+    HandBrakeSkidParam = 1;
+    BoostParam = 1;
+    MovementParam = 1;
+    BatteryParam = 1;
+    RumbleIntensity = 1;
+    bBoostCameraActive = false;
+    bLocalPlayerADS = false;
+    DriverCameraShake = NULL;
+    PassengerCameraShake = NULL;
+    LocalPlayerPawn = NULL;
+    PSC_WheelDust = NULL;
+    PSC_WheelSlide = NULL;
+    PSC_TrailLeft = NULL;
+    PSC_TrailRight = NULL;
+    FortGoatVehicleConfigsClass = NULL;
+    FortGoatVehicleConfigs = NULL;
 }
 

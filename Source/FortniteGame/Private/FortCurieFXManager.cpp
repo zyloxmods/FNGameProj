@@ -7,33 +7,33 @@ void UFortCurieFXManager::OnElectricityImpactFXComplete(UNiagaraComponent* InCom
 }
 
 UFortCurieFXManager::UFortCurieFXManager() {
-    this->FXSettings = NULL;
-    this->ElectricityArcImpactSystem = NULL;
-    this->ElectricityArcSound = NULL;
-    this->ElectricityAmbientSound = NULL;
-    this->FireSystem = NULL;
-    this->PlayerWorldFireSystem = NULL;
-    this->FireAmbientSound = NULL;
-    this->LandscapeCharRenderTarget = NULL;
-    this->LandscapeCharInterpSpeed = 1;
-    this->NumActiveNativeFireStates = 0;
-    this->ElectricityArcFXSignificanceRequirement = 1;
-    this->ElectricityImpactFXSignificanceRequirement = 1;
-    this->ElectricityArcSoundSignificanceRequirement = 1;
-    this->AmbientAudioSignificanceRequirement = 1;
-    this->AmbientAudioSurroundSignificanceRequirement = 1;
-    this->GlowInterpolationSignificanceRequirement = 1;
-    this->WorldSystemFireParticleSignificanceRequirement = 1;
-    this->WorldSystemIgnitionParticleSignificanceRequirement = 1;
-    this->CharredEffectInterpolationSignificanceRequirement = 1;
-    this->MinLandscapeFireSphericalBounds = 1;
-    this->MaxLandscapeFireSphericalBounds = 1;
-    this->LandscapeFireRandomLocationRadius = 1;
-    this->TimeSinceAudioUpdate = 1;
-    this->bNiagaraImpactFXActive = false;
-    this->bNiagaraPlayerWorldFireFXActive = false;
-    this->bFireElementEnabled = false;
-    this->bElectricityElementEnabled = false;
-    this->bShutdown = false;
+    FXSettings = NULL;
+    ElectricityArcImpactSystem = NULL;
+    ElectricityArcSound = NULL;
+    ElectricityAmbientSound = NULL;
+    FireSystem = NULL;
+    PlayerWorldFireSystem = NULL;
+    FireAmbientSound = NULL;
+    LandscapeCharRenderTarget = NULL;
+    LandscapeCharInterpSpeed = 1;
+    NumActiveNativeFireStates = 0;
+    ElectricityArcFXSignificanceRequirement = 1;
+    ElectricityImpactFXSignificanceRequirement = 1;
+    ElectricityArcSoundSignificanceRequirement = 1;
+    AmbientAudioSignificanceRequirement = 1;
+    AmbientAudioSurroundSignificanceRequirement = 1;
+    GlowInterpolationSignificanceRequirement = 1;
+    WorldSystemFireParticleSignificanceRequirement = 1;
+    WorldSystemIgnitionParticleSignificanceRequirement = 1;
+    CharredEffectInterpolationSignificanceRequirement = 1;
+    MinLandscapeFireSphericalBounds = 1;
+    MaxLandscapeFireSphericalBounds = 1;
+    LandscapeFireRandomLocationRadius = 1;
+    TimeSinceAudioUpdate = 1;
+    bNiagaraImpactFXActive = false;
+    bNiagaraPlayerWorldFireFXActive = false;
+    bFireElementEnabled = false;
+    bElectricityElementEnabled = false;
+    bShutdown = false;
 }
 

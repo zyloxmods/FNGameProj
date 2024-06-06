@@ -18,20 +18,20 @@ AFortWaterBodyActor* UFortWaterInteractionComponent::GetCurrentWaterBody() const
 }
 
 UFortWaterInteractionComponent::UFortWaterInteractionComponent() {
-    this->bIsEnabled = true;
-    this->bTickComponentForces = true;
-    this->bIncludeWaves = true;
-    this->bAllowCachedDataInLargeBodies = true;
-    this->WaterVelocityForceMultiplier = 1;
-    this->WaterVelocityShallowDepth = 1;
-    this->WaterVelocityShallowMultiplier = 1;
-    this->WaterVelocityShoreBias = 1;
-    this->BuoyancyFactor = 1;
-    this->UpBuoyancyDrag = 1;
-    this->UpBuoyancyDrag2 = 1;
-    this->DownBuoyancyDrag = 1;
-    this->DownBuoyancyDrag2 = 1;
-    this->HorizontalDrag = 1;
-    this->HorizontalDrag2 = 1;
+    bIsEnabled = true;
+    bTickComponentForces = true;
+    bIncludeWaves = true;
+    bAllowCachedDataInLargeBodies = true;
+    WaterVelocityForceMultiplier = 1;
+    WaterVelocityShallowDepth = 1;
+    WaterVelocityShallowMultiplier = 1;
+    WaterVelocityShoreBias = 1;
+    BuoyancyFactor = 1;
+    UpBuoyancyDrag = 1;
+    UpBuoyancyDrag2 = 1;
+    DownBuoyancyDrag = 1;
+    DownBuoyancyDrag2 = 1;
+    HorizontalDrag = 1;
+    HorizontalDrag2 = 1;
 }
 

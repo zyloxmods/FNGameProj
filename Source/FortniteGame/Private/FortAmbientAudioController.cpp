@@ -14,8 +14,8 @@ void UFortAmbientAudioController::ClearAudioBankOverride() {
 }
 
 UFortAmbientAudioController::UFortAmbientAudioController() {
-    this->DefaultAudioBank = NULL;
-    this->PlayerController = NULL;
-    this->PauseFadeTime = 1;
+    DefaultAudioBank = NULL;
+    PlayerController = NULL;
+    PauseFadeTime = 1;
 }
 

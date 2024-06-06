@@ -1,6 +1,6 @@
 #include "FortOutpostCoreInfo.h"
 
 FFortOutpostCoreInfo::FFortOutpostCoreInfo() {
-    this->HighestEnduranceWaveReached = 0;
+    HighestEnduranceWaveReached = 0;
 }
 

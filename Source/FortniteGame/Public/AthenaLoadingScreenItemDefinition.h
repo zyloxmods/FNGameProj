@@ -28,6 +28,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FLinearColor BackgroundColor;
     
-    UAthenaLoadingScreenItemDefinition();
+    UAthenaLoadingScreenItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

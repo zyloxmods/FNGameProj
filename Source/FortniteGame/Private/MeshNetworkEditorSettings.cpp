@@ -1,10 +1,10 @@
 #include "MeshNetworkEditorSettings.h"
 
 FMeshNetworkEditorSettings::FMeshNetworkEditorSettings() {
-    this->bEnableMeshNetwork = false;
-    this->BaseMeshPort = 0;
-    this->BaseMeshGamePort = 0;
-    this->NumRootClients = 0;
-    this->RootLoginStartIndex = 0;
+    bEnableMeshNetwork = false;
+    BaseMeshPort = 0;
+    BaseMeshGamePort = 0;
+    NumRootClients = 0;
+    RootLoginStartIndex = 0;
 }
 

@@ -28,7 +28,7 @@ public:
     {
         return FPrimaryAssetId("ConversionControl", GetFName());
     }
-    UFortConversionControlItemDefinition();
+    UFortConversionControlItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool GetTierFromSacrificePoints(int32 SacrificePoints, EFortRarity& CalculatedTier) const;
     

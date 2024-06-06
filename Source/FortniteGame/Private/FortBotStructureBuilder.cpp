@@ -10,7 +10,7 @@ void AFortBotStructureBuilder::BuildAll() {
 }
 
 AFortBotStructureBuilder::AFortBotStructureBuilder() {
-    this->BuildingInstructions = NULL;
-    this->CachedGoal = NULL;
+    BuildingInstructions = NULL;
+    CachedGoal = NULL;
 }
 

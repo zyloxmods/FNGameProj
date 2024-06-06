@@ -52,9 +52,9 @@ void APartyDisplayManager::BeginLoadingAssetsForItem(UFortItem* ItemToView, cons
 }
 
 APartyDisplayManager::APartyDisplayManager() {
-    this->VaultPlacementActor = NULL;
-    this->VaultWeaponPlacementActor = NULL;
-    this->PlayerInMatchHoloMaterial = NULL;
-    this->IsPlayingCelebrateFX = false;
+    VaultPlacementActor = NULL;
+    VaultWeaponPlacementActor = NULL;
+    PlayerInMatchHoloMaterial = NULL;
+    IsPlayingCelebrateFX = false;
 }
 

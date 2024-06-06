@@ -27,6 +27,6 @@ void AFortPhysicsPawn::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 }
 
 AFortPhysicsPawn::AFortPhysicsPawn() {
-    this->GravityMultiplier = 1;
+    GravityMultiplier = 1;
 }
 

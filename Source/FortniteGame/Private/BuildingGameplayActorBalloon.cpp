@@ -8,7 +8,7 @@ void ABuildingGameplayActorBalloon::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 ABuildingGameplayActorBalloon::ABuildingGameplayActorBalloon() {
-    this->BalloonLocationSelection = 0;
-    this->BalloonNoAim = 1;
+    BalloonLocationSelection = 0;
+    BalloonNoAim = 1;
 }
 

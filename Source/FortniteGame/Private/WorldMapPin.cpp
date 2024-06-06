@@ -6,6 +6,6 @@ void AWorldMapPin::SetTheaterId(const FString& NewID) {
 
 
 AWorldMapPin::AWorldMapPin() {
-    this->SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));
+    SceneComponent = CreateDefaultSubobject<USceneComponent>(TEXT("SceneComponent"));
 }
 

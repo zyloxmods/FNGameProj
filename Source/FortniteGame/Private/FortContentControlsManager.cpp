@@ -106,6 +106,6 @@ bool UFortContentControlsManager::GetAllowedToAcquire() const {
 }
 
 UFortContentControlsManager::UFortContentControlsManager() {
-    this->OwningPlayer = NULL;
+    OwningPlayer = NULL;
 }
 

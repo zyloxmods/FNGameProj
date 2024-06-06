@@ -7,6 +7,6 @@ void UFortEventLevelNavigationWidget::HandleInputMethodChanged(ECommonInputType 
 }
 
 UFortEventLevelNavigationWidget::UFortEventLevelNavigationWidget() {
-    this->Button_Navigation = NULL;
+    Button_Navigation = NULL;
 }
 

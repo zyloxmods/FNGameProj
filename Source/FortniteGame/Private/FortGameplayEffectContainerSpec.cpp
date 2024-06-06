@@ -1,9 +1,9 @@
 #include "FortGameplayEffectContainerSpec.h"
 
 FFortGameplayEffectContainerSpec::FFortGameplayEffectContainerSpec() {
-    this->ImpactNoiseRange = 1;
-    this->FlyByNoiseRange = 1;
-    this->bOverrideChargeMagnitude = false;
-    this->ChargeMagnitudeOverrideValue = 1;
+    ImpactNoiseRange = 1;
+    FlyByNoiseRange = 1;
+    bOverrideChargeMagnitude = false;
+    ChargeMagnitudeOverrideValue = 1;
 }
 

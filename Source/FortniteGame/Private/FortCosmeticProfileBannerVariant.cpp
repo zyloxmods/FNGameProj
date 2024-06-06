@@ -1,9 +1,9 @@
 #include "FortCosmeticProfileBannerVariant.h"
 
 UFortCosmeticProfileBannerVariant::UFortCosmeticProfileBannerVariant() {
-    this->BannerIconParamName = TEXT("Banner_Texture");
-    this->BannerPrimaryColorParamName = TEXT("Banner_PrimaryColor");
-    this->BannerSecondaryColorParamName = TEXT("Banner_SecondaryColor");
-    this->CC_PrimaryColorParamName = TEXT("CC_PrimaryColor");
+    BannerIconParamName = TEXT("Banner_Texture");
+    BannerPrimaryColorParamName = TEXT("Banner_PrimaryColor");
+    BannerSecondaryColorParamName = TEXT("Banner_SecondaryColor");
+    CC_PrimaryColorParamName = TEXT("CC_PrimaryColor");
 }
 

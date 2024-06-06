@@ -1,6 +1,6 @@
 #include "DirectiveInput.h"
 
 FDirectiveInput::FDirectiveInput() {
-    this->Input = ECommonInputType::MouseAndKeyboard;
+    Input = ECommonInputType::MouseAndKeyboard;
 }
 

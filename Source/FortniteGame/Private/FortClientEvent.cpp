@@ -1,7 +1,7 @@
 #include "FortClientEvent.h"
 
 FFortClientEvent::FFortClientEvent() {
-    this->EventSource = NULL;
-    this->EventFocus = NULL;
+    EventSource = NULL;
+    EventFocus = NULL;
 }
 

@@ -1,19 +1,19 @@
 #include "MatchmakingParams.h"
 
 FMatchmakingParams::FMatchmakingParams() {
-    this->ControllerId = 0;
-    this->PartySize = 0;
-    this->PlaylistId = 0;
-    this->MatchmakingLevel = 0;
-    this->MissionDifficultyMin = 0;
-    this->MissionDifficultyMax = 0;
-    this->StormShieldDefenseType = EStormShieldDefense::NotSSD;
-    this->StartWith = EMatchmakingStartLocation::Lobby;
-    this->Flags = EMatchmakingFlags::None;
-    this->ChanceToHostOverride = 1;
-    this->ChanceToHostIncrease = 1;
-    this->NumAttempts = 0;
-    this->MaxSearchResultsOverride = 0;
-    this->MaxProcessedSearchResults = 0;
+    ControllerId = 0;
+    PartySize = 0;
+    PlaylistId = 0;
+    MatchmakingLevel = 0;
+    MissionDifficultyMin = 0;
+    MissionDifficultyMax = 0;
+    StormShieldDefenseType = EStormShieldDefense::NotSSD;
+    StartWith = EMatchmakingStartLocation::Lobby;
+    Flags = EMatchmakingFlags::None;
+    ChanceToHostOverride = 1;
+    ChanceToHostIncrease = 1;
+    NumAttempts = 0;
+    MaxSearchResultsOverride = 0;
+    MaxProcessedSearchResults = 0;
 }
 

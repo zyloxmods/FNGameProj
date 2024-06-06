@@ -1,8 +1,9 @@
 #include "FortTokenType.h"
 
-UFortTokenType::UFortTokenType() {
-    this->bPercentageRepresentation = false;
-    this->ProfileType = EItemProfileType::Common;
-    this->ItemType = EFortItemType::Token;
+UFortTokenType::UFortTokenType(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bPercentageRepresentation = false;
+    ProfileType = EItemProfileType::Common;
+    ItemType = EFortItemType::Token;
 }
 

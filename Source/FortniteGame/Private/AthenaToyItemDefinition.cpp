@@ -7,6 +7,7 @@ TSoftClassPtr<AActor> UAthenaToyItemDefinition::GetToyActorClass() const {
 void UAthenaToyItemDefinition::BakeLaunchPositions() {
 }
 
-UAthenaToyItemDefinition::UAthenaToyItemDefinition() {
+UAthenaToyItemDefinition::UAthenaToyItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

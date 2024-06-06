@@ -1,9 +1,9 @@
 #include "CustomCharacterPartAnimInstance_PunkDevilBack.h"
 
 UCustomCharacterPartAnimInstance_PunkDevilBack::UCustomCharacterPartAnimInstance_PunkDevilBack() {
-    this->SprintAlpha = 1;
-    this->RunAlpha = 1;
-    this->WingsBlendspaceFwdBwd = 1;
-    this->WingsBlendspaceLeftRight = 1;
+    SprintAlpha = 1;
+    RunAlpha = 1;
+    WingsBlendspaceFwdBwd = 1;
+    WingsBlendspaceLeftRight = 1;
 }
 

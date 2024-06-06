@@ -26,7 +26,7 @@ void AFortBroadcastSpectatorInfo::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 AFortBroadcastSpectatorInfo::AFortBroadcastSpectatorInfo() {
-    this->TotalNumPlayers = 0;
-    this->TotalNumTeams = 0;
+    TotalNumPlayers = 0;
+    TotalNumTeams = 0;
 }
 

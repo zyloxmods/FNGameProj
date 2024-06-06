@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortEventPurchaseTrackerItemDefinition : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UFortEventPurchaseTrackerItemDefinition();
+    UFortEventPurchaseTrackerItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -33,18 +33,18 @@ void UFortVolumeTimeOfDayComponent::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 UFortVolumeTimeOfDayComponent::UFortVolumeTimeOfDayComponent() {
-    this->bUseEditorOverrideData = false;
-    this->TimeOverride = 1;
-    this->SpeedOverride = 1;
-    this->bOverrideLightIntensity = false;
-    this->LightIntensityOverride = 1;
-    this->bOverrideLightColor = false;
-    this->bOverrideFogDensity = false;
-    this->FogDensityOverride = 1;
-    this->bOverrideFogColor = false;
-    this->bOverridePostProcess = false;
-    this->PostProcessOverride = NULL;
-    this->TimeOfDayManager = NULL;
-    this->bIsOverridingTimeOfDay = false;
+    bUseEditorOverrideData = false;
+    TimeOverride = 1;
+    SpeedOverride = 1;
+    bOverrideLightIntensity = false;
+    LightIntensityOverride = 1;
+    bOverrideLightColor = false;
+    bOverrideFogDensity = false;
+    FogDensityOverride = 1;
+    bOverrideFogColor = false;
+    bOverridePostProcess = false;
+    PostProcessOverride = NULL;
+    TimeOfDayManager = NULL;
+    bIsOverridingTimeOfDay = false;
 }
 

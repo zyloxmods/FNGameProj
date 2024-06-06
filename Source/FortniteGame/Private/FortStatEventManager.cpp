@@ -1,6 +1,6 @@
 #include "FortStatEventManager.h"
 
 UFortStatEventManager::UFortStatEventManager() {
-    this->FPC = NULL;
+    FPC = NULL;
 }
 

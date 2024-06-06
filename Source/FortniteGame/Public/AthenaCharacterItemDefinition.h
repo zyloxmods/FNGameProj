@@ -5,6 +5,7 @@
 #include "AthenaCosmeticItemDefinition.h"
 #include "EFortCustomGender.h"
 #include "EFortCustomPartType.h"
+#include "Animation/PreviewCollectionInterface.h"
 #include "AthenaCharacterItemDefinition.generated.h"
 
 class UAthenaBackpackItemDefinition;
@@ -13,7 +14,7 @@ class UFortHeroType;
 class UMarshalledVFX_AuthoredDataConfig;
 
 UCLASS(Blueprintable, MinimalAPI)
-class UAthenaCharacterItemDefinition : public UAthenaCosmeticItemDefinition {
+class UAthenaCharacterItemDefinition : public UAthenaCosmeticItemDefinition, public IPreviewCollectionInterface {
     GENERATED_BODY()
 public:
     /** 
@@ -52,7 +53,9 @@ private:
     TMap<FGameplayTag, FAthenaCharacterTaggedPartsList> TaggedPartsOverride;
     
 public:
-    UAthenaCharacterItemDefinition();
+    UAthenaCharacterItemDefinition(const FObjectInitializer& ObjectInitializer);
+    virtual USkeletalMesh* GetPreviewBaseMesh() const override;
+    virtual void GetPreviewSkeletalMeshes(TArray<USkeletalMesh*>& OutMeshes, TArray<TSubclassOf<UAnimInstance>>& OutAnimClasses) const override;
     virtual FPrimaryAssetId GetPrimaryAssetId() const override
     {
         return FPrimaryAssetId("AthenaCharacter", GetFName());

@@ -24,12 +24,12 @@ TArray<FFortItemQuantityPair> UFortAccountItem::GetRecyclingRefunds() const {
 }
 
 UFortAccountItem::UFortAccountItem() {
-    this->Level = 0;
-    this->XP = 0;
-    this->item_seen = 0;
-    this->favorite = 0;
-    this->max_level_bonus = 0;
-    this->bIsPendingBeingMarkedAsSeen = false;
-    this->bNeedsResolveMarkedAsSeen = false;
+    Level = 0;
+    XP = 0;
+    item_seen = 0;
+    favorite = 0;
+    max_level_bonus = 0;
+    bIsPendingBeingMarkedAsSeen = false;
+    bNeedsResolveMarkedAsSeen = false;
 }
 

@@ -12,7 +12,8 @@ FFortCrewSlotInformation UFortCampaignHeroLoadoutItemDefinition::GetCommanderSlo
     return FFortCrewSlotInformation{};
 }
 
-UFortCampaignHeroLoadoutItemDefinition::UFortCampaignHeroLoadoutItemDefinition() {
-    this->GadgetSlotsAllowed = 0;
+UFortCampaignHeroLoadoutItemDefinition::UFortCampaignHeroLoadoutItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    GadgetSlotsAllowed = 0;
 }
 

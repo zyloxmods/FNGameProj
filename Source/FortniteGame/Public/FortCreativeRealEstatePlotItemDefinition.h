@@ -67,6 +67,6 @@ protected:
     TArray<FFortCreativeBudget> SpatialBudgetOverrides;
     
 public:
-    UFortCreativeRealEstatePlotItemDefinition();
+    UFortCreativeRealEstatePlotItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

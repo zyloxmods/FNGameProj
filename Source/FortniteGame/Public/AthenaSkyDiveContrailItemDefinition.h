@@ -38,7 +38,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FFloatParticleParameter> FloatParameters;
     
-    UAthenaSkyDiveContrailItemDefinition();
+    UAthenaSkyDiveContrailItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftObjectPtr<UFXSystemAsset> GetContrailSoftPath() const;
     

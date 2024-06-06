@@ -16,8 +16,8 @@ void UFortCurieToggleComponent::OnActive_Implementation() {
 }
 
 UFortCurieToggleComponent::UFortCurieToggleComponent() {
-    this->ActivationBehavior = EFortCurieToggleComponentActivationBehavior::OnValidAttachment;
-    this->DeactivationBehavior = EFortCurieToggleComponentDeactivationBehavior::NeverDeactivate;
-    this->DeactivationTime = 1;
+    ActivationBehavior = EFortCurieToggleComponentActivationBehavior::OnValidAttachment;
+    DeactivationBehavior = EFortCurieToggleComponentDeactivationBehavior::NeverDeactivate;
+    DeactivationTime = 1;
 }
 

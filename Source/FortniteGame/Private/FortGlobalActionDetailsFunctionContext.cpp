@@ -1,6 +1,6 @@
 #include "FortGlobalActionDetailsFunctionContext.h"
 
 FFortGlobalActionDetailsFunctionContext::FFortGlobalActionDetailsFunctionContext() {
-    this->OverrideInputType = ECommonInputType::MouseAndKeyboard;
+    OverrideInputType = ECommonInputType::MouseAndKeyboard;
 }
 

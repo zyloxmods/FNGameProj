@@ -1,6 +1,6 @@
 #include "FortMissionUIActorHandle.h"
 
 FFortMissionUIActorHandle::FFortMissionUIActorHandle() {
-    this->MaxVisibleDistance = 1;
+    MaxVisibleDistance = 1;
 }
 

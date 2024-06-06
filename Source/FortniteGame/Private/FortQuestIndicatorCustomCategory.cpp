@@ -1,6 +1,6 @@
 #include "FortQuestIndicatorCustomCategory.h"
 
 FFortQuestIndicatorCustomCategory::FFortQuestIndicatorCustomCategory() {
-    this->Priority = 0;
+    Priority = 0;
 }
 

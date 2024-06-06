@@ -1,9 +1,9 @@
 #include "CameraAltitudeAdjustments.h"
 
 FCameraAltitudeAdjustments::FCameraAltitudeAdjustments() {
-    this->Altitude = 1;
-    this->FogHeightFalloff = 1;
-    this->HeightFogZOffset = 1;
-    this->FogDensity = 1;
+    Altitude = 1;
+    FogHeightFalloff = 1;
+    HeightFogZOffset = 1;
+    FogDensity = 1;
 }
 

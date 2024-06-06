@@ -36,6 +36,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FRepeatableDailiesCardDateOverride> DateOverrides;
     
-    UFortRepeatableDailiesCardItemDefinition();
+    UFortRepeatableDailiesCardItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -1,14 +1,14 @@
 #include "FortAthenaPastSeasonStats.h"
 
 FFortAthenaPastSeasonStats::FFortAthenaPastSeasonStats() {
-    this->BookLevel = 0;
-    this->BookXp = 0;
-    this->NumHighBracket = 0;
-    this->NumLowBracket = 0;
-    this->NumWins = 0;
-    this->PurchasesVIP = 0;
-    this->SeasonLevel = 0;
-    this->SeasonNumber = 0;
-    this->SeasonXp = 0;
+    BookLevel = 0;
+    BookXp = 0;
+    NumHighBracket = 0;
+    NumLowBracket = 0;
+    NumWins = 0;
+    PurchasesVIP = 0;
+    SeasonLevel = 0;
+    SeasonNumber = 0;
+    SeasonXp = 0;
 }
 

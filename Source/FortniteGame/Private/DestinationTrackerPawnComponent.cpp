@@ -27,6 +27,6 @@ void UDestinationTrackerPawnComponent::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 UDestinationTrackerPawnComponent::UDestinationTrackerPawnComponent() {
-    this->DistanceSquared = 1;
+    DistanceSquared = 1;
 }
 

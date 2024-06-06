@@ -4,7 +4,7 @@ void UFortGameplayMessageDispatcherComponent::OnVolumeStateChanged(EVolumeState 
 }
 
 UFortGameplayMessageDispatcherComponent::UFortGameplayMessageDispatcherComponent() {
-    this->NumBoundReceivers = 0;
-    this->NumBoundTriggers = 0;
+    NumBoundReceivers = 0;
+    NumBoundTriggers = 0;
 }
 

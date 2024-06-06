@@ -3,7 +3,7 @@
 #include "Components/StaticMeshComponent.h"
 
 AFortAthenaExitCraftBalloon::AFortAthenaExitCraftBalloon() {
-    this->RootMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComp0"));
-    this->PhysicsComp = CreateDefaultSubobject<UPhysicsConstraintComponent>(TEXT("PhysicsComp0"));
+    RootMeshComp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComp0"));
+    PhysicsComp = CreateDefaultSubobject<UPhysicsConstraintComponent>(TEXT("PhysicsComp0"));
 }
 

@@ -2,6 +2,6 @@
 #include "FortAbilitySystemComponent.h"
 
 AFortPlayerAttributesProxyActor::AFortPlayerAttributesProxyActor() {
-    this->AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+    AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
 }
 

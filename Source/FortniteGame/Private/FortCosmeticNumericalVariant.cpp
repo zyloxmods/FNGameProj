@@ -1,10 +1,10 @@
 #include "FortCosmeticNumericalVariant.h"
 
 UFortCosmeticNumericalVariant::UFortCosmeticNumericalVariant() {
-    this->DefaultStartingNumeric = 0;
-    this->MinNumericalValue = 0;
-    this->MaxNumbericalValue = 0;
-    this->ZerosDigitParamName = TEXT("Zero_Digit");
-    this->TensDigitParamName = TEXT("Ten_Digit");
+    DefaultStartingNumeric = 0;
+    MinNumericalValue = 0;
+    MaxNumbericalValue = 0;
+    ZerosDigitParamName = TEXT("Zero_Digit");
+    TensDigitParamName = TEXT("Ten_Digit");
 }
 

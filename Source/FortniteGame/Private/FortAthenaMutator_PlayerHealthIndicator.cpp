@@ -11,6 +11,6 @@ void AFortAthenaMutator_PlayerHealthIndicator::GetLifetimeReplicatedProps(TArray
 }
 
 AFortAthenaMutator_PlayerHealthIndicator::AFortAthenaMutator_PlayerHealthIndicator() {
-    this->DisplayMode = EPlayerIndicatorDisplayMode::DontOverride;
+    DisplayMode = EPlayerIndicatorDisplayMode::DontOverride;
 }
 

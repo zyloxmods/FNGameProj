@@ -1,6 +1,6 @@
 #include "FortMissionAlertAvailableData.h"
 
 FFortMissionAlertAvailableData::FFortMissionAlertAvailableData() {
-    this->NumMissionAlertsAvailable = 0;
+    NumMissionAlertsAvailable = 0;
 }
 

@@ -1,9 +1,9 @@
 #include "KairosSubmitLogOptions.h"
 
 FKairosSubmitLogOptions::FKairosSubmitLogOptions() {
-    this->bSubmitLogs = false;
-    this->bSubmitSecondaryLogs = false;
-    this->LogTailKb = 0;
-    this->LogSubmitChance = 1;
+    bSubmitLogs = false;
+    bSubmitSecondaryLogs = false;
+    LogTailKb = 0;
+    LogSubmitChance = 1;
 }
 

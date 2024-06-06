@@ -8,7 +8,7 @@ bool UFortGliderAudioComponent::IsParachuteFullyDeployed() const {
 }
 
 UFortGliderAudioComponent::UFortGliderAudioComponent() {
-    this->bDebugIgnoreFullyDeployed = false;
-    this->PlayerParachute = NULL;
+    bDebugIgnoreFullyDeployed = false;
+    PlayerParachute = NULL;
 }
 

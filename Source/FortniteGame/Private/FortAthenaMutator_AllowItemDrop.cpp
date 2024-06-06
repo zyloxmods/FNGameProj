@@ -8,6 +8,6 @@ void AFortAthenaMutator_AllowItemDrop::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 AFortAthenaMutator_AllowItemDrop::AFortAthenaMutator_AllowItemDrop() {
-    this->bAllowItemDrop = false;
+    bAllowItemDrop = false;
 }
 

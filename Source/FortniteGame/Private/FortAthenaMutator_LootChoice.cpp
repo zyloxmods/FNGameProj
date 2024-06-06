@@ -9,7 +9,7 @@ void AFortAthenaMutator_LootChoice::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 AFortAthenaMutator_LootChoice::AFortAthenaMutator_LootChoice() {
-    this->LootSelection = ECustomLootSelection::Default;
-    this->bUsingExperimentalTables = true;
+    LootSelection = ECustomLootSelection::Default;
+    bUsingExperimentalTables = true;
 }
 

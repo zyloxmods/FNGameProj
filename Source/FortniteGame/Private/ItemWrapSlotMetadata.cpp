@@ -1,7 +1,7 @@
 #include "ItemWrapSlotMetadata.h"
 
 FItemWrapSlotMetadata::FItemWrapSlotMetadata() {
-    this->PreviewListItemDefinitionType = EFortItemType::WorldItem;
-    this->PreviewListSortOrder = 0;
+    PreviewListItemDefinitionType = EFortItemType::WorldItem;
+    PreviewListSortOrder = 0;
 }
 

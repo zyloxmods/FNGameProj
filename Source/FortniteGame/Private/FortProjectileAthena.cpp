@@ -33,12 +33,12 @@ void AFortProjectileAthena::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortProjectileAthena::AFortProjectileAthena() {
-    this->bExplodeOnPawnHit = false;
-    this->bNoCollisionForNonOwningClients = false;
-    this->bIgnoreActorsAttachedToFiringPawn = true;
-    this->bProcessLocalHits = false;
-    this->TimeToWaitForPawnHitBeforeKillOnServer = 1;
-    this->PredictedHitActor = NULL;
-    this->PredictedHitComp = NULL;
+    bExplodeOnPawnHit = false;
+    bNoCollisionForNonOwningClients = false;
+    bIgnoreActorsAttachedToFiringPawn = true;
+    bProcessLocalHits = false;
+    TimeToWaitForPawnHitBeforeKillOnServer = 1;
+    PredictedHitActor = NULL;
+    PredictedHitComp = NULL;
 }
 

@@ -7,8 +7,8 @@ void UFortBuildingDestroyedParams::BreakParams(ABuildingActor*& _Building, TEnum
 }
 
 UFortBuildingDestroyedParams::UFortBuildingDestroyedParams() {
-    this->Building = NULL;
-    this->BuildingType = EFortBuildingType::Wall;
-    this->Destroyer = NULL;
+    Building = NULL;
+    BuildingType = EFortBuildingType::Wall;
+    Destroyer = NULL;
 }
 

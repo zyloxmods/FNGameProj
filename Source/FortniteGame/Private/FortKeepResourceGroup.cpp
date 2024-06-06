@@ -1,6 +1,6 @@
 #include "FortKeepResourceGroup.h"
 
 FFortKeepResourceGroup::FFortKeepResourceGroup() {
-    this->ItemCount = 0;
+    ItemCount = 0;
 }
 

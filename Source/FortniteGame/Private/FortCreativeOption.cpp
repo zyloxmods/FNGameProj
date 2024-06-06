@@ -34,7 +34,7 @@ void UFortCreativeOption::DecrementIndexWithWrap() {
 }
 
 UFortCreativeOption::UFortCreativeOption() {
-    this->MenuListType = UFortMatchmakingKnobsDataSource::CreativeGlobalOption;
-    this->CurrentIndex = 0;
+    MenuListType = UFortMatchmakingKnobsDataSource::CreativeGlobalOption;
+    CurrentIndex = 0;
 }
 

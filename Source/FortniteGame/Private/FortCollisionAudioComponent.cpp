@@ -7,6 +7,6 @@ void UFortCollisionAudioComponent::OnCollision(const FVector& HitLocation, const
 }
 
 UFortCollisionAudioComponent::UFortCollisionAudioComponent() {
-    this->CheckCollisionLeashInterval = 1;
+    CheckCollisionLeashInterval = 1;
 }
 

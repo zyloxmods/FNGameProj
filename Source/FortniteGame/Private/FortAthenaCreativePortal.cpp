@@ -182,21 +182,21 @@ void AFortAthenaCreativePortal::GetLifetimeReplicatedProps(TArray<FLifetimePrope
 }
 
 AFortAthenaCreativePortal::AFortAthenaCreativePortal() {
-    this->PortalIndex = 0;
-    this->DestinationActor = NULL;
-    this->MaxInstantTeleportDistance = 1;
-    this->LinkedVolume = NULL;
-    this->bReturnToCreativeHub = false;
-    this->bInErrorState = false;
-    this->bUserInitiatedLoad = false;
-    this->InteractComponent = NULL;
-    this->CurrentPopulation = 0;
-    this->bIsPublishedPortal = false;
-    this->bTeleportLocationIsIslandStart = false;
-    this->bDisallowPortalInteract = false;
-    this->bPortalOpen = false;
-    this->CachedOwningPlayerState = NULL;
-    this->ThumbnailTexture = NULL;
-    this->bForceUpdateInteraction = false;
+    PortalIndex = 0;
+    DestinationActor = NULL;
+    MaxInstantTeleportDistance = 1;
+    LinkedVolume = NULL;
+    bReturnToCreativeHub = false;
+    bInErrorState = false;
+    bUserInitiatedLoad = false;
+    InteractComponent = NULL;
+    CurrentPopulation = 0;
+    bIsPublishedPortal = false;
+    bTeleportLocationIsIslandStart = false;
+    bDisallowPortalInteract = false;
+    bPortalOpen = false;
+    CachedOwningPlayerState = NULL;
+    ThumbnailTexture = NULL;
+    bForceUpdateInteraction = false;
 }
 

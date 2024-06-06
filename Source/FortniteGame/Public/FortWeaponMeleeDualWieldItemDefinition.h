@@ -75,7 +75,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FName SwingFXOffhandSocketName;
     
-    UFortWeaponMeleeDualWieldItemDefinition();
+    UFortWeaponMeleeDualWieldItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     USkeletalMesh* GetWeaponMeshOffhandOverride() const;
     

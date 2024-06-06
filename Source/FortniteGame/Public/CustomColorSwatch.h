@@ -9,14 +9,12 @@ UCLASS(Abstract, Blueprintable)
 class FORTNITEGAME_API UCustomColorSwatch : public UPrimaryDataAsset {
     GENERATED_BODY()
 public:
-    UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EFortCustomGender GenderPermitted;
-    
-protected:
-    UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    EColorSwatchType ColorSwatchType;
-    
-public:
     UCustomColorSwatch();
+    //For which gender(s) is this color swatch intended?
+    UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Color Swatch")
+    EFortCustomGender GenderPermitted;
+protected:
+    UPROPERTY(AssetRegistrySearchable, BlueprintReadWrite, meta=(AllowPrivateAccess=true), Category = "Color Swatch")
+    EColorSwatchType ColorSwatchType;
 };
 

@@ -1,10 +1,10 @@
 #include "AthenaTravelLogEntry.h"
 
 FAthenaTravelLogEntry::FAthenaTravelLogEntry() {
-    this->Time = 1;
-    this->Type = EAthenaTravelEventType::GroundMove;
-    this->InstigatorPlayerType = EAthenaTravelLogPlayerType::Self;
-    this->ReceiverPlayerType = EAthenaTravelLogPlayerType::Self;
-    this->Value = 1;
+    Time = 1;
+    Type = EAthenaTravelEventType::GroundMove;
+    InstigatorPlayerType = EAthenaTravelLogPlayerType::Self;
+    ReceiverPlayerType = EAthenaTravelLogPlayerType::Self;
+    Value = 1;
 }
 

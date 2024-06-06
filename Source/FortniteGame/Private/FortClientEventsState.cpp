@@ -1,7 +1,7 @@
 #include "FortClientEventsState.h"
 
 FFortClientEventsState::FFortClientEventsState() {
-    this->SeasonNumber = 0;
-    this->MatchXpBonusPoints = 1;
+    SeasonNumber = 0;
+    MatchXpBonusPoints = 1;
 }
 

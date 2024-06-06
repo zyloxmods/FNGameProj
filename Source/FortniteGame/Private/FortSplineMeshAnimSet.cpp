@@ -1,6 +1,6 @@
 #include "FortSplineMeshAnimSet.h"
 
 FFortSplineMeshAnimSet::FFortSplineMeshAnimSet() {
-    this->SplineMesh = NULL;
+    SplineMesh = NULL;
 }
 

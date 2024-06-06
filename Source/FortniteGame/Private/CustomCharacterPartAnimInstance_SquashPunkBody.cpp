@@ -1,10 +1,10 @@
 #include "CustomCharacterPartAnimInstance_SquashPunkBody.h"
 
 UCustomCharacterPartAnimInstance_SquashPunkBody::UCustomCharacterPartAnimInstance_SquashPunkBody() {
-    this->ThighRotationRight = 1;
-    this->ThighRotationLeft = 1;
-    this->HeadRotation = 1;
-    this->ElbowRotationLeft = 1;
-    this->ElbowRotationRight = 1;
+    ThighRotationRight = 1;
+    ThighRotationLeft = 1;
+    HeadRotation = 1;
+    ElbowRotationLeft = 1;
+    ElbowRotationRight = 1;
 }
 

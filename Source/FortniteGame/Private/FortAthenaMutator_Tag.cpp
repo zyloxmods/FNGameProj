@@ -12,9 +12,9 @@ void AFortAthenaMutator_Tag::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortAthenaMutator_Tag::AFortAthenaMutator_Tag() {
-    this->ServerEndTime = 1;
-    this->RedTeam = 3;
-    this->BlueTeam = 4;
-    this->RedTeamSquad = 0;
+    ServerEndTime = 1;
+    RedTeam = 3;
+    BlueTeam = 4;
+    RedTeamSquad = 0;
 }
 

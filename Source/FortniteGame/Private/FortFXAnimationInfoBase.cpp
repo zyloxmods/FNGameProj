@@ -1,6 +1,6 @@
 #include "FortFXAnimationInfoBase.h"
 
 FFortFXAnimationInfoBase::FFortFXAnimationInfoBase() {
-    this->LerpCurve = NULL;
+    LerpCurve = NULL;
 }
 

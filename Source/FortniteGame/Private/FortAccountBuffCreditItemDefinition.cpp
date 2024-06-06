@@ -1,6 +1,7 @@
 #include "FortAccountBuffCreditItemDefinition.h"
 
-UFortAccountBuffCreditItemDefinition::UFortAccountBuffCreditItemDefinition() {
-    this->MinutesOfBuffTimeToGrant = 0;
+UFortAccountBuffCreditItemDefinition::UFortAccountBuffCreditItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    MinutesOfBuffTimeToGrant = 0;
 }
 

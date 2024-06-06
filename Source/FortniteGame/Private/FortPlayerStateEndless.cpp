@@ -4,6 +4,6 @@ void AFortPlayerStateEndless::AddBluGloActivityScoreForPlayer(const FVector& Bur
 }
 
 AFortPlayerStateEndless::AFortPlayerStateEndless() {
-    this->BluGloActivityScore = 0;
+    BluGloActivityScore = 0;
 }
 

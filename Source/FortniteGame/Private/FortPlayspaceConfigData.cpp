@@ -1,6 +1,6 @@
 #include "FortPlayspaceConfigData.h"
 
 FFortPlayspaceConfigData::FFortPlayspaceConfigData() {
-    this->CreationType = EPlayspaceCreationType::ChildOfRoot;
+    CreationType = EPlayspaceCreationType::ChildOfRoot;
 }
 

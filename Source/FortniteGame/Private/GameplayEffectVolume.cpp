@@ -7,7 +7,7 @@ void AGameplayEffectVolume::ApplyGameplayEffect(AActor* Actor) {
 }
 
 AGameplayEffectVolume::AGameplayEffectVolume() {
-    this->GameplayEffect = NULL;
-    this->GameplayEffectLevel = 0;
+    GameplayEffect = NULL;
+    GameplayEffectLevel = 0;
 }
 

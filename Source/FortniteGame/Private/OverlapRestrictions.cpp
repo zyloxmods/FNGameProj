@@ -1,6 +1,6 @@
 #include "OverlapRestrictions.h"
 
 FOverlapRestrictions::FOverlapRestrictions() {
-    this->OverlapsPerActor = 0;
+    OverlapsPerActor = 0;
 }
 

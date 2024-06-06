@@ -19,7 +19,7 @@ protected:
     TSoftObjectPtr<UFortAbilitySet> AbilitySet;
     
 public:
-    UFortWeaponModItemDefinition();
+    UFortWeaponModItemDefinition(const FObjectInitializer& ObjectInitializer);
     
     // Fix for true pure virtual functions not being implemented
 };

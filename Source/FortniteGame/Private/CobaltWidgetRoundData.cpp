@@ -1,7 +1,7 @@
 #include "CobaltWidgetRoundData.h"
 
 FCobaltWidgetRoundData::FCobaltWidgetRoundData() {
-    this->RoundNumber = 0;
-    this->FirstRound = 0;
+    RoundNumber = 0;
+    FirstRound = 0;
 }
 

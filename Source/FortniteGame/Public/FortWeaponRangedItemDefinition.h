@@ -52,7 +52,7 @@ private:
     uint8 bSecondaryFireRequiresAmmo: 1;
     
 public:
-    UFortWeaponRangedItemDefinition();
+    UFortWeaponRangedItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool UseOnTouch() const;
     

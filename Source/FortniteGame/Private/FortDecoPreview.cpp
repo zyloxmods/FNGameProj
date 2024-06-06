@@ -27,18 +27,18 @@ UMaterialInstanceDynamic* AFortDecoPreview::CreatePreviewMID(UMaterialInterface*
 }
 
 AFortDecoPreview::AFortDecoPreview() {
-    this->FallbackAttachmentType = EBuildingAttachmentType::ATTACH_None;
-    this->FallbackPlacementType = EPlacementType::Free;
-    this->CanBePlacedMaterialScalarParam = TEXT("CanBePlaced");
-    this->ValidPlacementScalarParam = 1;
-    this->InvalidPlacementScalarParam = 1;
-    this->InverseMovementVectorMaterialParam = TEXT("InverseMovementVector");
-    this->MovementEffectScale = 1;
-    this->InverseOuterScaleVectorParam = TEXT("InverseInnerScale");
-    this->InverseInnerScaleVectorParam = TEXT("InverseOuterScale");
-    this->WorldSpacePivotVectorParam = TEXT("WorldSpacePivotLocation");
-    this->DiffuseTextureParam = TEXT("Diffuse");
-    this->FreePlacementOffset = 1;
-    this->ParentDecoHelper = NULL;
+    FallbackAttachmentType = EBuildingAttachmentType::ATTACH_None;
+    FallbackPlacementType = EPlacementType::Free;
+    CanBePlacedMaterialScalarParam = TEXT("CanBePlaced");
+    ValidPlacementScalarParam = 1;
+    InvalidPlacementScalarParam = 1;
+    InverseMovementVectorMaterialParam = TEXT("InverseMovementVector");
+    MovementEffectScale = 1;
+    InverseOuterScaleVectorParam = TEXT("InverseInnerScale");
+    InverseInnerScaleVectorParam = TEXT("InverseOuterScale");
+    WorldSpacePivotVectorParam = TEXT("WorldSpacePivotLocation");
+    DiffuseTextureParam = TEXT("Diffuse");
+    FreePlacementOffset = 1;
+    ParentDecoHelper = NULL;
 }
 

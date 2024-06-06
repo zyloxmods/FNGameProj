@@ -13,8 +13,8 @@ void AFortTeamHealthInfo::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& 
 }
 
 AFortTeamHealthInfo::AFortTeamHealthInfo() {
-    this->OwnerHealthComponent = NULL;
-    this->FortTeamInfo = NULL;
-    this->TeamNum = 0;
+    OwnerHealthComponent = NULL;
+    FortTeamInfo = NULL;
+    TeamNum = 0;
 }
 

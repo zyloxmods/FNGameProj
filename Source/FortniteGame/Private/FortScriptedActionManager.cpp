@@ -4,6 +4,6 @@ void AFortScriptedActionManager::HandleClientEvent_Undefined(UObject* EventSourc
 }
 
 AFortScriptedActionManager::AFortScriptedActionManager() {
-    this->bIsProcessingClientEvent = false;
+    bIsProcessingClientEvent = false;
 }
 

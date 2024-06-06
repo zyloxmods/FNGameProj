@@ -1,6 +1,6 @@
 #include "HomebaseBannerCategoryData.h"
 
 FHomebaseBannerCategoryData::FHomebaseBannerCategoryData() {
-    this->SortPriority = 0;
+    SortPriority = 0;
 }
 

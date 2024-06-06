@@ -2,7 +2,7 @@
 #include "Components/SphereComponent.h"
 
 AFortBallSpawner::AFortBallSpawner() {
-    this->BallToSpawn = NULL;
-    this->SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("Scene"));
+    BallToSpawn = NULL;
+    SphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("Scene"));
 }
 

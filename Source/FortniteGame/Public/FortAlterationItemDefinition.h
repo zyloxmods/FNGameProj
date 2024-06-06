@@ -39,11 +39,8 @@ private:
     TArray<FFortItemQuantityPair> AdditionalRespecCosts;
     
 public:
-    UFortAlterationItemDefinition();
+    UFortAlterationItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TEnumAsByte<EFortAlteration::Type> GetAlterationType() const;
-    
-    
-    // Fix for true pure virtual functions not being implemented
 };
 

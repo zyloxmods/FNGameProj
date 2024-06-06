@@ -288,7 +288,7 @@ bool UFortItem::AllowedToBeLockedInInventory() const {
 }
 
 UFortItem::UFortItem() {
-    this->bLoadedFromSave = false;
-    this->bTemporaryItemOwningController = false;
+    bLoadedFromSave = false;
+    bTemporaryItemOwningController = false;
 }
 

@@ -1,12 +1,12 @@
 #include "FortLayeredAudioFloatParam.h"
 
 FFortLayeredAudioFloatParam::FFortLayeredAudioFloatParam() {
-    this->bEnabled = false;
-    this->Value = 1;
-    this->InterpType = ELayeredAudioInterpolationType::None;
-    this->Curve = NULL;
-    this->AttackSpeed = 1;
-    this->ReleaseSpeed = 1;
-    this->Owner = NULL;
+    bEnabled = false;
+    Value = 1;
+    InterpType = ELayeredAudioInterpolationType::None;
+    Curve = NULL;
+    AttackSpeed = 1;
+    ReleaseSpeed = 1;
+    Owner = NULL;
 }
 

@@ -1,12 +1,12 @@
 #include "FortAnimInput_SpringGlider.h"
 
 FFortAnimInput_SpringGlider::FFortAnimInput_SpringGlider() {
-    this->GliderYOffsetRotationRightLeg = 1;
-    this->GliderYOffsetRotationLeftLeg = 1;
-    this->GliderXOffsetRotationRightLeg = 1;
-    this->GliderXOffsetRotationLeftLeg = 1;
-    this->GliderZOffset = 1;
-    this->GliderXOffset = 1;
-    this->GliderYOffset = 1;
+    GliderYOffsetRotationRightLeg = 1;
+    GliderYOffsetRotationLeftLeg = 1;
+    GliderXOffsetRotationRightLeg = 1;
+    GliderXOffsetRotationLeftLeg = 1;
+    GliderZOffset = 1;
+    GliderXOffset = 1;
+    GliderYOffset = 1;
 }
 

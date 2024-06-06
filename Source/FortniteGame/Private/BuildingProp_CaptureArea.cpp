@@ -45,6 +45,6 @@ void ABuildingProp_CaptureArea::BindOrUnbindOnPlayerTeamReplicated(AFortPlayerSt
 }
 
 ABuildingProp_CaptureArea::ABuildingProp_CaptureArea() {
-    this->CaptureComponent = CreateDefaultSubobject<UCaptureComponent>(TEXT("CaptureComponent"));
+    CaptureComponent = CreateDefaultSubobject<UCaptureComponent>(TEXT("CaptureComponent"));
 }
 

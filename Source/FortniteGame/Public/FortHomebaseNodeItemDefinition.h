@@ -17,6 +17,6 @@ protected:
     EHomebaseNodeType DisplayType;
     
 public:
-    UFortHomebaseNodeItemDefinition();
+    UFortHomebaseNodeItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -27,7 +27,7 @@ void UFortBuildingEnergyComponent::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 UFortBuildingEnergyComponent::UFortBuildingEnergyComponent() {
-    this->EnergyComponentAttrSet = NULL;
-    this->EnergyComponentRechargeAbility = NULL;
+    EnergyComponentAttrSet = NULL;
+    EnergyComponentRechargeAbility = NULL;
 }
 

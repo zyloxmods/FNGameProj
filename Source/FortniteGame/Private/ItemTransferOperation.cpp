@@ -1,7 +1,7 @@
 #include "ItemTransferOperation.h"
 
 FItemTransferOperation::FItemTransferOperation() {
-    this->Quantity = 0;
-    this->ToStorage = false;
+    Quantity = 0;
+    ToStorage = false;
 }
 

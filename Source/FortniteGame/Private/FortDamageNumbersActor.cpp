@@ -5,30 +5,30 @@ void AFortDamageNumbersActor::SetMaterialParameters(FFortDamageNumberInfo& NewDa
 
 
 AFortDamageNumbersActor::AFortDamageNumbersActor() {
-    this->ComponentLifespan = 1;
-    this->MeshesByElement[0] = NULL;
-    this->MeshesByElement[1] = NULL;
-    this->MeshesByElement[2] = NULL;
-    this->MeshesByElement[3] = NULL;
-    this->MeshesByElement[4] = NULL;
-    this->CritBuildingImpactMesh = NULL;
-    this->MeshesByScoreCategory[0] = NULL;
-    this->MeshesByScoreCategory[1] = NULL;
-    this->MeshesByScoreCategory[2] = NULL;
-    this->PlayerMaterialParameterName = TEXT("+Or-");
-    this->PlayerMaterialParameterValue = 1;
-    this->ColorParameterName = TEXT("Color");
-    this->AnimationLifespanParameterName = TEXT("Animation Lifespan");
-    this->IsCriticalHitParameterName = TEXT("isCriticalHit?");
-    this->SpacingPercentageForOnes = 1;
-    this->PositionParameterNames.AddDefaulted(9);
-    this->DistanceFromCameraBeforeDoublingSize = 1;
-    this->CriticalHitSizeMultiplier = 1;
-    this->FontXSize = 1;
-    this->FontYSize = 1;
-    this->NumberOfNumberRotations = 1;
-    this->ScaleRotationAngleParameterNames.AddDefaulted(9);
-    this->DurationParameterNames.AddDefaulted(9);
-    this->MaxScoreNumberDistance = 1;
+    ComponentLifespan = 1;
+    MeshesByElement[0] = NULL;
+    MeshesByElement[1] = NULL;
+    MeshesByElement[2] = NULL;
+    MeshesByElement[3] = NULL;
+    MeshesByElement[4] = NULL;
+    CritBuildingImpactMesh = NULL;
+    MeshesByScoreCategory[0] = NULL;
+    MeshesByScoreCategory[1] = NULL;
+    MeshesByScoreCategory[2] = NULL;
+    PlayerMaterialParameterName = TEXT("+Or-");
+    PlayerMaterialParameterValue = 1;
+    ColorParameterName = TEXT("Color");
+    AnimationLifespanParameterName = TEXT("Animation Lifespan");
+    IsCriticalHitParameterName = TEXT("isCriticalHit?");
+    SpacingPercentageForOnes = 1;
+    PositionParameterNames.AddDefaulted(9);
+    DistanceFromCameraBeforeDoublingSize = 1;
+    CriticalHitSizeMultiplier = 1;
+    FontXSize = 1;
+    FontYSize = 1;
+    NumberOfNumberRotations = 1;
+    ScaleRotationAngleParameterNames.AddDefaulted(9);
+    DurationParameterNames.AddDefaulted(9);
+    MaxScoreNumberDistance = 1;
 }
 

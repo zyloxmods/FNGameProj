@@ -1,9 +1,9 @@
 #include "ReflectedEngineVersion.h"
 
 FReflectedEngineVersion::FReflectedEngineVersion() {
-    this->Major = 0;
-    this->Minor = 0;
-    this->Patch = 0;
-    this->Changelist = 0;
+    Major = 0;
+    Minor = 0;
+    Patch = 0;
+    Changelist = 0;
 }
 

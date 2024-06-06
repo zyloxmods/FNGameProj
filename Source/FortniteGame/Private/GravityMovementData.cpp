@@ -1,10 +1,10 @@
 #include "GravityMovementData.h"
 
 FGravityMovementData::FGravityMovementData() {
-    this->GravityZScale = 1;
-    this->VehicleGravityZScale = 1;
-    this->JumpZVelocityOverride = 1;
-    this->JumpHorizontalAccelerationOverride = 1;
-    this->JumpHorizontalVelocityOverride = 1;
+    GravityZScale = 1;
+    VehicleGravityZScale = 1;
+    JumpZVelocityOverride = 1;
+    JumpHorizontalAccelerationOverride = 1;
+    JumpHorizontalVelocityOverride = 1;
 }
 

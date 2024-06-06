@@ -1,11 +1,11 @@
 #include "CreativeSelectedActorInfo.h"
 
 FCreativeSelectedActorInfo::FCreativeSelectedActorInfo() {
-    this->Actor = NULL;
-    this->OriginalRelevancyDistance = 1;
-    this->bWasCollisionEnabled = false;
-    this->bWasDormant = false;
-    this->bSpawnedFromSaveRecord = false;
-    this->LogicalConnectionChainIndex = 0;
+    Actor = NULL;
+    OriginalRelevancyDistance = 1;
+    bWasCollisionEnabled = false;
+    bWasDormant = false;
+    bSpawnedFromSaveRecord = false;
+    LogicalConnectionChainIndex = 0;
 }
 

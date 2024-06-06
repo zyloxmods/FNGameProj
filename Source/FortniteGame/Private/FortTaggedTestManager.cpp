@@ -2,12 +2,12 @@
 #include "FortTaggedAssetTest_Base.h"
 
 UFortTaggedTestManager::UFortTaggedTestManager() {
-    this->bIsFinished = false;
-    this->bInitialized = false;
-    this->bTerminateEarly = false;
-    this->bPendingReset = false;
-    this->TestIterator = 0;
-    this->AssetTypesToTest.AddDefaulted(3);
-    this->TargetTestBaseClass = UFortTaggedAssetTest_Base::StaticClass();
+    bIsFinished = false;
+    bInitialized = false;
+    bTerminateEarly = false;
+    bPendingReset = false;
+    TestIterator = 0;
+    AssetTypesToTest.AddDefaulted(3);
+    TargetTestBaseClass = UFortTaggedAssetTest_Base::StaticClass();
 }
 

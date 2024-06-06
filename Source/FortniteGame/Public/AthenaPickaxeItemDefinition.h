@@ -50,9 +50,12 @@ public:
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FVector CameraFramingBoundsCenterOffset;
-    
-    UAthenaPickaxeItemDefinition();
-    
-    // Fix for true pure virtual functions not being implemented
+    UAthenaPickaxeItemDefinition(const FObjectInitializer& ObjectInitializer);
+    UFUNCTION(BlueprintCallable, BlueprintPure)
+    virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaPickaxe", GetFName());
+    }
 };
+
 

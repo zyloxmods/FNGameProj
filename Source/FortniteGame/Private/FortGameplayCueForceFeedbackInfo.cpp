@@ -1,10 +1,10 @@
 #include "FortGameplayCueForceFeedbackInfo.h"
 
 FFortGameplayCueForceFeedbackInfo::FFortGameplayCueForceFeedbackInfo() {
-    this->ForceFeedbackEffect = NULL;
-    this->EffectRadius = 1;
-    this->FarForceFeedbackEffect = NULL;
-    this->FarEffectRadius = 1;
-    this->bAlwaysPlayOnTarget = false;
+    ForceFeedbackEffect = NULL;
+    EffectRadius = 1;
+    FarForceFeedbackEffect = NULL;
+    FarEffectRadius = 1;
+    bAlwaysPlayOnTarget = false;
 }
 

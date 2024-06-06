@@ -10,8 +10,8 @@ void UFortWorldMarker::ActorDestroyed(AActor* DestroyedActor) {
 }
 
 UFortWorldMarker::UFortWorldMarker() {
-    this->MarkerComponent = NULL;
-    this->MarkerActor = NULL;
-    this->MarkerWidget = NULL;
+    MarkerComponent = NULL;
+    MarkerActor = NULL;
+    MarkerWidget = NULL;
 }
 

@@ -50,18 +50,18 @@ void AFortMinigameSettingsBuilding::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 AFortMinigameSettingsBuilding::AFortMinigameSettingsBuilding() {
-    this->CreativeLinkComponent = CreateDefaultSubobject<UFortCreativeVolumeLinkComponent>(TEXT("CreativeLinkComponent"));
-    this->bShowPublishWatermark = true;
-    this->bAllowOutOfBounds = true;
-    this->bDeferDeletePlayerBuiltBuildingActorsForRollback = false;
-    this->MinimumNumberOfPlayersUserSetting = 0;
-    this->MaximumNumberOfPlayersUserSetting = 0;
-    this->MmsType = EMMSRulePreset::RespectParties;
-    this->bPrefersRespectingPartiesFromMMS = false;
-    this->MmsPlayerCount = 0;
-    this->MmsPlayersPerTeam = (EMMSPlayersPerTeamPreset)0;
-    this->JoinInProgress = 0;
-    this->ShowResourceFeedOnElimination = 0;
-    this->SettingsVolume = NULL;
+    CreativeLinkComponent = CreateDefaultSubobject<UFortCreativeVolumeLinkComponent>(TEXT("CreativeLinkComponent"));
+    bShowPublishWatermark = true;
+    bAllowOutOfBounds = true;
+    bDeferDeletePlayerBuiltBuildingActorsForRollback = false;
+    MinimumNumberOfPlayersUserSetting = 0;
+    MaximumNumberOfPlayersUserSetting = 0;
+    MmsType = EMMSRulePreset::RespectParties;
+    bPrefersRespectingPartiesFromMMS = false;
+    MmsPlayerCount = 0;
+    MmsPlayersPerTeam = (EMMSPlayersPerTeamPreset)0;
+    JoinInProgress = 0;
+    ShowResourceFeedOnElimination = 0;
+    SettingsVolume = NULL;
 }
 

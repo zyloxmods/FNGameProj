@@ -15,9 +15,9 @@ void AFortWeaponCharmPreviewActor::ApplyCharmToSkelMesh(USkeletalMeshComponent* 
 }
 
 AFortWeaponCharmPreviewActor::AFortWeaponCharmPreviewActor() {
-    this->MyCharm = NULL;
-    this->MyCharmActor = NULL;
-    this->WeaponAttachMeshComp = NULL;
-    this->CharmSlot = EFortCustomCharmType::Weapon;
+    MyCharm = NULL;
+    MyCharmActor = NULL;
+    WeaponAttachMeshComp = NULL;
+    CharmSlot = EFortCustomCharmType::Weapon;
 }
 

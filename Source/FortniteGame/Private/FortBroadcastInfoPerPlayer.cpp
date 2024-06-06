@@ -1,8 +1,8 @@
 #include "FortBroadcastInfoPerPlayer.h"
 
 FFortBroadcastInfoPerPlayer::FFortBroadcastInfoPerPlayer() {
-    this->PlayerState = NULL;
-    this->PlayerInventory = NULL;
-    this->PlayerClientInfo = NULL;
+    PlayerState = NULL;
+    PlayerInventory = NULL;
+    PlayerClientInfo = NULL;
 }
 

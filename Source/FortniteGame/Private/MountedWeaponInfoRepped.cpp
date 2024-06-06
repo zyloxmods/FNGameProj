@@ -1,7 +1,7 @@
 #include "MountedWeaponInfoRepped.h"
 
 FMountedWeaponInfoRepped::FMountedWeaponInfoRepped() {
-    this->HostVehicleCachedActor = NULL;
-    this->HostVehicleSeatIndexCached = 0;
+    HostVehicleCachedActor = NULL;
+    HostVehicleSeatIndexCached = 0;
 }
 

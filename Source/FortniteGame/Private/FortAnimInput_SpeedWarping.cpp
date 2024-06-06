@@ -1,8 +1,8 @@
 #include "FortAnimInput_SpeedWarping.h"
 
 FFortAnimInput_SpeedWarping::FFortAnimInput_SpeedWarping() {
-    this->PlayRateAdjustmentCurve = NULL;
-    this->SpeedWarpingAmount = 1;
-    this->PlayRate = 1;
+    PlayRateAdjustmentCurve = NULL;
+    SpeedWarpingAmount = 1;
+    PlayRate = 1;
 }
 

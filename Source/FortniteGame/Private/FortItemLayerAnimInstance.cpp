@@ -1,26 +1,26 @@
 #include "FortItemLayerAnimInstance.h"
 
 UFortItemLayerAnimInstance::UFortItemLayerAnimInstance() {
-    this->Speed2D = 1;
-    this->FallPlayRate = 1;
-    this->DBNOTurnPlayRate = 1;
-    this->ADSToNonADSBlendTime = 1;
-    this->NonADSToADSBlendTime = 1;
-    this->SlopeSlidingPitch = 1;
-    this->SlopeSlidingRoll = 1;
-    this->Gender = EFortCustomGender::Invalid;
-    this->bIsMoving2D = false;
-    this->bIsAboveMinimumLocomotionSpeed = false;
-    this->bIsTargeting = false;
-    this->bIsRelaxedLevel1 = false;
-    this->bIsRelaxedLevel2 = false;
-    this->bIsCrouching = false;
-    this->bIsJumpBoosting = false;
-    this->bSwimmingJumpInitiatedFromWater = false;
-    this->bIsRelaxedLevel1AndNotJumpBoosting = false;
-    this->bIsRelaxedLevel1AndNotJumpingFromWater = false;
-    this->bIsInVehicle = false;
-    this->bIsDBNO = false;
-    this->bIsPlayingMeleeAnim = false;
+    Speed2D = 1;
+    FallPlayRate = 1;
+    DBNOTurnPlayRate = 1;
+    ADSToNonADSBlendTime = 1;
+    NonADSToADSBlendTime = 1;
+    SlopeSlidingPitch = 1;
+    SlopeSlidingRoll = 1;
+    Gender = EFortCustomGender::Invalid;
+    bIsMoving2D = false;
+    bIsAboveMinimumLocomotionSpeed = false;
+    bIsTargeting = false;
+    bIsRelaxedLevel1 = false;
+    bIsRelaxedLevel2 = false;
+    bIsCrouching = false;
+    bIsJumpBoosting = false;
+    bSwimmingJumpInitiatedFromWater = false;
+    bIsRelaxedLevel1AndNotJumpBoosting = false;
+    bIsRelaxedLevel1AndNotJumpingFromWater = false;
+    bIsInVehicle = false;
+    bIsDBNO = false;
+    bIsPlayingMeleeAnim = false;
 }
 

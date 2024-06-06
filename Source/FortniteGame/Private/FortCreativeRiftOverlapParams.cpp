@@ -1,7 +1,7 @@
 #include "FortCreativeRiftOverlapParams.h"
 
 UFortCreativeRiftOverlapParams::UFortCreativeRiftOverlapParams() {
-    this->RiftSpawn = NULL;
-    this->Player = NULL;
+    RiftSpawn = NULL;
+    Player = NULL;
 }
 

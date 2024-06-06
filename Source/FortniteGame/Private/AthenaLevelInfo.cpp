@@ -1,14 +1,14 @@
 #include "AthenaLevelInfo.h"
 
 FAthenaLevelInfo::FAthenaLevelInfo() {
-    this->AccountLevel = 0;
-    this->Level = 0;
-    this->MaxLevel = 0;
-    this->LevelXp = 0;
-    this->LevelXpForLevel = 0;
-    this->BookLevel = 0;
-    this->BookMaxLevel = 0;
-    this->BookLevelXp = 0;
-    this->BookLevelXpForLevel = 0;
+    AccountLevel = 0;
+    Level = 0;
+    MaxLevel = 0;
+    LevelXp = 0;
+    LevelXpForLevel = 0;
+    BookLevel = 0;
+    BookMaxLevel = 0;
+    BookLevelXp = 0;
+    BookLevelXpForLevel = 0;
 }
 

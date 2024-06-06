@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortMissionItemDefinition : public UFortWorldItemDefinition {
     GENERATED_BODY()
 public:
-    UFortMissionItemDefinition();
+    UFortMissionItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

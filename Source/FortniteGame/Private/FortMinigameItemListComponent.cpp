@@ -58,7 +58,7 @@ void UFortMinigameItemListComponent::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortMinigameItemListComponent::UFortMinigameItemListComponent() {
-    this->bAllowItemTracking = false;
-    this->bAllowItemCustomization = false;
+    bAllowItemTracking = false;
+    bAllowItemCustomization = false;
 }
 

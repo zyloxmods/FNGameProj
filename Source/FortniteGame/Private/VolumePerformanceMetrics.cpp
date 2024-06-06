@@ -1,10 +1,10 @@
 #include "VolumePerformanceMetrics.h"
 
 FVolumePerformanceMetrics::FVolumePerformanceMetrics() {
-    this->PerformanceValue = 0;
-    this->PerformanceMaxValue = 0;
-    this->PerformanceLowendThreshold = 0;
-    this->PreviewDeltaValue = 0;
-    this->Category = EFortBudgetCategory::Memory;
+    PerformanceValue = 0;
+    PerformanceMaxValue = 0;
+    PerformanceLowendThreshold = 0;
+    PreviewDeltaValue = 0;
+    Category = EFortBudgetCategory::Memory;
 }
 

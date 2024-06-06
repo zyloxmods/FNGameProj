@@ -38,12 +38,12 @@ UFortAthenaAISpawnerDataComponentList* UFortAthenaAISpawnerData::CreateComponent
 }
 
 UFortAthenaAISpawnerData::UFortAthenaAISpawnerData() {
-    this->SpawnParamsComponent = NULL;
-    this->BehaviorComponent = NULL;
-    this->AffiliationComponent = NULL;
-    this->LODComponent = NULL;
-    this->DebugComponent = NULL;
-    this->AnalyticComponent = NULL;
-    this->GameplayComponent = NULL;
+    SpawnParamsComponent = NULL;
+    BehaviorComponent = NULL;
+    AffiliationComponent = NULL;
+    LODComponent = NULL;
+    DebugComponent = NULL;
+    AnalyticComponent = NULL;
+    GameplayComponent = NULL;
 }
 

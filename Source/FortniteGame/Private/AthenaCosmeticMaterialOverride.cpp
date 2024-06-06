@@ -1,6 +1,6 @@
 #include "AthenaCosmeticMaterialOverride.h"
 
 FAthenaCosmeticMaterialOverride::FAthenaCosmeticMaterialOverride() {
-    this->MaterialOverrideIndex = 0;
+    MaterialOverrideIndex = 0;
 }
 

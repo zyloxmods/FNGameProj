@@ -1,8 +1,8 @@
 #include "FortSpawnActorData.h"
 
 FFortSpawnActorData::FFortSpawnActorData() {
-    this->SpawnActorInfo = NULL;
-    this->NumSpawnsRemaining = 0;
-    this->TimeUntilNextSpawn = 1;
+    SpawnActorInfo = NULL;
+    NumSpawnsRemaining = 0;
+    TimeUntilNextSpawn = 1;
 }
 

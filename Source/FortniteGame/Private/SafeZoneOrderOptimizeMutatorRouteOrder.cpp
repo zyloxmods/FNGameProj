@@ -1,6 +1,6 @@
 #include "SafeZoneOrderOptimizeMutatorRouteOrder.h"
 
 FSafeZoneOrderOptimizeMutatorRouteOrder::FSafeZoneOrderOptimizeMutatorRouteOrder() {
-    this->TotalDistance = 1;
+    TotalDistance = 1;
 }
 

@@ -1,6 +1,7 @@
 #include "FortCreativeGadgetItemDefinition.h"
 
-UFortCreativeGadgetItemDefinition::UFortCreativeGadgetItemDefinition() {
-    this->ItemOptions = NULL;
+UFortCreativeGadgetItemDefinition::UFortCreativeGadgetItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ItemOptions = NULL;
 }
 

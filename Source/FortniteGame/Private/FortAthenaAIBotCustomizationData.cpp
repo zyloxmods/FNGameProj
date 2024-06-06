@@ -4,31 +4,31 @@ void UFortAthenaAIBotCustomizationData::SetCharacterCustomizationFromPlayerPawn(
 }
 
 UFortAthenaAIBotCustomizationData::UFortAthenaAIBotCustomizationData() {
-    this->PawnClass = NULL;
-    this->bRequiresUniqueNetId = false;
-    this->bHasCustomSquadId = false;
-    this->CustomSquadId = 0;
-    this->bOverrideCanRespawnOnDeath = false;
-    this->bCanRespawnOnDeath = false;
-    this->bOverrideBehaviorTree = false;
-    this->bOverrideCharacterCustomization = false;
-    this->bOverrideDBNOPlayStyle = false;
-    this->bOverrideSkillLevel = false;
-    this->bUseMatchMMRToOverrideSkillLevel = false;
-    this->bOverrideSkillSets = false;
-    this->bOverrideStartupInventory = false;
-    this->bOverrideBotNameSettings = false;
-    this->bOverrideBotIDAnalyticsSuffix = false;
-    this->bOverrideConstructionBuildingInfo = false;
-    this->BehaviorTree = NULL;
-    this->OverrideCosmeticMode = BotDataOverrideCosmeticMode::SpecificLoadout;
-    this->CharacterCustomization = NULL;
-    this->DBNOPlayStyle = EDBNOPlayStyle::Thirsty;
-    this->SkillLevel = 1;
-    this->StartupInventory = NULL;
-    this->BotNameSettings = NULL;
-    this->SpawnTracePadding = 1;
-    this->AILODSettingsContainer = NULL;
-    this->AILODSettingsContainerLoaded = NULL;
+    PawnClass = NULL;
+    bRequiresUniqueNetId = false;
+    bHasCustomSquadId = false;
+    CustomSquadId = 0;
+    bOverrideCanRespawnOnDeath = false;
+    bCanRespawnOnDeath = false;
+    bOverrideBehaviorTree = false;
+    bOverrideCharacterCustomization = false;
+    bOverrideDBNOPlayStyle = false;
+    bOverrideSkillLevel = false;
+    bUseMatchMMRToOverrideSkillLevel = false;
+    bOverrideSkillSets = false;
+    bOverrideStartupInventory = false;
+    bOverrideBotNameSettings = false;
+    bOverrideBotIDAnalyticsSuffix = false;
+    bOverrideConstructionBuildingInfo = false;
+    BehaviorTree = NULL;
+    OverrideCosmeticMode = BotDataOverrideCosmeticMode::SpecificLoadout;
+    CharacterCustomization = NULL;
+    DBNOPlayStyle = EDBNOPlayStyle::Thirsty;
+    SkillLevel = 1;
+    StartupInventory = NULL;
+    BotNameSettings = NULL;
+    SpawnTracePadding = 1;
+    AILODSettingsContainer = NULL;
+    AILODSettingsContainerLoaded = NULL;
 }
 

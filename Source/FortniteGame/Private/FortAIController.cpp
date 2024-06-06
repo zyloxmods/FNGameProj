@@ -71,15 +71,15 @@ void AFortAIController::ClearAllFocalPoints() {
 }
 
 AFortAIController::AFortAIController() {
-    this->bUsingNavMesh = false;
-    this->bAlwaysNotifyBumpWall = false;
-    this->bInstantRotation = false;
-    this->bTurnTransitionsEnabled = true;
-    this->bAllowHotspotAbilityLooping = true;
-    this->GoalInfoUpdateRate = 1;
-    this->GoalActor = NULL;
-    this->GoalVisibilityPersistanceTime = 1;
-    this->MyFortPawn = NULL;
-    this->AIGoalComponent = NULL;
+    bUsingNavMesh = false;
+    bAlwaysNotifyBumpWall = false;
+    bInstantRotation = false;
+    bTurnTransitionsEnabled = true;
+    bAllowHotspotAbilityLooping = true;
+    GoalInfoUpdateRate = 1;
+    GoalActor = NULL;
+    GoalVisibilityPersistanceTime = 1;
+    MyFortPawn = NULL;
+    AIGoalComponent = NULL;
 }
 

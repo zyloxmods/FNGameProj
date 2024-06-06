@@ -1,6 +1,6 @@
 #include "FortCuriePackedGrassData.h"
 
 FFortCuriePackedGrassData::FFortCuriePackedGrassData() {
-    this->Data = 0;
+    Data = 0;
 }
 

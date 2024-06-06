@@ -18,6 +18,6 @@ protected:
     UFortAccountItemDefinition* TargetReplacementItem;
     
 public:
-    UFortEventDependentItemDefinition();
+    UFortEventDependentItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

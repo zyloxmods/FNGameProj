@@ -1,29 +1,29 @@
 #include "FortDifficultyOptionSetEncounter.h"
 
 UFortDifficultyOptionSetEncounter::UFortDifficultyOptionSetEncounter() {
-    this->PacingMode = EFortEncounterPacingMode::SpawnPointsPercentageCurve;
-    this->IntensityCurveSequenceCategory = NULL;
-    this->SpawnPointsPercentageCurveSequenceCategory = NULL;
-    this->SpawnPointsBurstCategory = NULL;
-    this->BreathersCategory = NULL;
-    this->SpawnPointsMultiplierCategory = NULL;
-    this->PawnNumberCapCategory = NULL;
-    this->OptionalSpawnTimingCategory = NULL;
-    this->SpawnLimitMode = EFortEncounterSpawnLimitType::NoLimit;
-    this->SpawnPointsLimitCategory = NULL;
-    this->PawnLimitCategory = NULL;
-    this->UtilitiesMode = EFortEncounterUtilitiesMode::LockedOnly;
-    this->LockedUtilitiesCategory = NULL;
-    this->FreeUtilitiesCategory = NULL;
-    this->UtilitiesAdjustmentCategory = NULL;
-    this->SpawnLocationManagementMode = EFortEncounterSpawnLocationManagementMode::Spawn;
-    this->SpawnLocationPlacementMode = EFortEncounterSpawnLocationPlacementMode::Directional;
-    this->DirectionNumberCategory = NULL;
-    this->DirectionChangeCategory = NULL;
-    this->DistanceCategory = NULL;
-    this->SpawnGroupProgressionCategory = NULL;
-    this->TimeCategory = NULL;
-    this->OptionalModifierTagsCategory = NULL;
-    this->OptionalMiniBossStartTimedTagsCategory = NULL;
+    PacingMode = EFortEncounterPacingMode::SpawnPointsPercentageCurve;
+    IntensityCurveSequenceCategory = NULL;
+    SpawnPointsPercentageCurveSequenceCategory = NULL;
+    SpawnPointsBurstCategory = NULL;
+    BreathersCategory = NULL;
+    SpawnPointsMultiplierCategory = NULL;
+    PawnNumberCapCategory = NULL;
+    OptionalSpawnTimingCategory = NULL;
+    SpawnLimitMode = EFortEncounterSpawnLimitType::NoLimit;
+    SpawnPointsLimitCategory = NULL;
+    PawnLimitCategory = NULL;
+    UtilitiesMode = EFortEncounterUtilitiesMode::LockedOnly;
+    LockedUtilitiesCategory = NULL;
+    FreeUtilitiesCategory = NULL;
+    UtilitiesAdjustmentCategory = NULL;
+    SpawnLocationManagementMode = EFortEncounterSpawnLocationManagementMode::Spawn;
+    SpawnLocationPlacementMode = EFortEncounterSpawnLocationPlacementMode::Directional;
+    DirectionNumberCategory = NULL;
+    DirectionChangeCategory = NULL;
+    DistanceCategory = NULL;
+    SpawnGroupProgressionCategory = NULL;
+    TimeCategory = NULL;
+    OptionalModifierTagsCategory = NULL;
+    OptionalMiniBossStartTimedTagsCategory = NULL;
 }
 

@@ -90,7 +90,7 @@ private:
     FName PlaysetName;
     
 public:
-    UFortPlaysetItemDefinition();
+    UFortPlaysetItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, meta=(WorldContext="WorldContextObject"))
     static ULevelStreamingDynamic* SpawnPlaysetFromStruct(AActor* WorldContextObject, const FFortPlaysetStreamingData& LevelData);
     

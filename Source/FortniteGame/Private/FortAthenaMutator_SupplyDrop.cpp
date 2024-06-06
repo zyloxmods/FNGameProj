@@ -4,8 +4,8 @@ void AFortAthenaMutator_SupplyDrop::RemoveOutOfStormSupplyDrop() {
 }
 
 AFortAthenaMutator_SupplyDrop::AFortAthenaMutator_SupplyDrop() {
-    this->BasePlacementQuery = NULL;
-    this->BaseQueryingAttemptIntervalTimeSeconds = 1;
-    this->SupplyDropRemovalQueryInterval = 1;
+    BasePlacementQuery = NULL;
+    BaseQueryingAttemptIntervalTimeSeconds = 1;
+    SupplyDropRemovalQueryInterval = 1;
 }
 

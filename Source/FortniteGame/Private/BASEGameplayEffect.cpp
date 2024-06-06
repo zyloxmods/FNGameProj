@@ -1,7 +1,7 @@
 #include "BASEGameplayEffect.h"
 
 FBASEGameplayEffect::FBASEGameplayEffect() {
-    this->Effect = NULL;
-    this->LevelOverride = 0;
+    Effect = NULL;
+    LevelOverride = 0;
 }
 

@@ -34,7 +34,7 @@ private:
     TArray<FCharmSoundAssetEntry> CharmSounds;
     
 public:
-    UAthenaCharmItemDefinition();
+    UAthenaCharmItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     TSoftClassPtr<UAnimInstance> GetOverrideWeaponAnimSetPtr() const;
     

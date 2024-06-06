@@ -1,6 +1,7 @@
 #include "FortStatItemDefinition.h"
 
-UFortStatItemDefinition::UFortStatItemDefinition() {
-    this->Stat = EFortStatType::Fortitude;
+UFortStatItemDefinition::UFortStatItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    Stat = EFortStatType::Fortitude;
 }
 

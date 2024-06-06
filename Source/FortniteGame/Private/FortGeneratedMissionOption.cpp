@@ -1,8 +1,8 @@
 #include "FortGeneratedMissionOption.h"
 
 FFortGeneratedMissionOption::FFortGeneratedMissionOption() {
-    this->MissionOptionCategory = NULL;
-    this->MissionOption = NULL;
-    this->RangeLerpValue = 1;
+    MissionOptionCategory = NULL;
+    MissionOption = NULL;
+    RangeLerpValue = 1;
 }
 

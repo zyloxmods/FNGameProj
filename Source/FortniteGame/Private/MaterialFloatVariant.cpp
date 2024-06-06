@@ -1,6 +1,6 @@
 #include "MaterialFloatVariant.h"
 
 FMaterialFloatVariant::FMaterialFloatVariant() {
-    this->Value = 1;
+    Value = 1;
 }
 

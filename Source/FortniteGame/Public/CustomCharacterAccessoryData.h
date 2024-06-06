@@ -38,5 +38,7 @@ protected:
     
 public:
     UCustomCharacterAccessoryData();
+    friend class UAthenaCharacterItemDefinition;
+    friend class UFortHeroType;
 };
 

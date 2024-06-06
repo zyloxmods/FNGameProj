@@ -7,6 +7,6 @@ void UFortPossessedPropInputComponent::PopPossessedPropInputMode(APlayerControll
 }
 
 UFortPossessedPropInputComponent::UFortPossessedPropInputComponent() {
-    this->FortPossessedPropInputComponent = NULL;
+    FortPossessedPropInputComponent = NULL;
 }
 

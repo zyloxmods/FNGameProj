@@ -5,6 +5,6 @@ FGameplayTagContainer AFortAthenaMutator_BlockBuilding::GetHUDVisibilityTags_Imp
 }
 
 AFortAthenaMutator_BlockBuilding::AFortAthenaMutator_BlockBuilding() {
-    this->AllowBuilding = EBuildingMode::None;
+    AllowBuilding = EBuildingMode::None;
 }
 

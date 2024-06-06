@@ -1,6 +1,6 @@
 #include "MMRPhaseSpawningDataTableInfo.h"
 
 FMMRPhaseSpawningDataTableInfo::FMMRPhaseSpawningDataTableInfo() {
-    this->GamePhaseIndexToSpawn = 0;
+    GamePhaseIndexToSpawn = 0;
 }
 

@@ -17,8 +17,8 @@ int32 UFortMinigameStatFilter::Accumulate_Implementation(int32 A, int32 B) const
 }
 
 UFortMinigameStatFilter::UFortMinigameStatFilter() {
-    this->StatEvent = EFortQuestObjectiveStatEvent::Kill;
-    this->ItemEvent = EFortQuestObjectiveItemEvent::Craft;
-    this->bAccumulates = true;
+    StatEvent = EFortQuestObjectiveStatEvent::Kill;
+    ItemEvent = EFortQuestObjectiveItemEvent::Craft;
+    bAccumulates = true;
 }
 

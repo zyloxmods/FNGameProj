@@ -7,7 +7,7 @@ void ULevelRecordSpawner::FailsafeTimerExpired() {
 }
 
 ULevelRecordSpawner::ULevelRecordSpawner() {
-    this->VolumeCurrentlySpawningWithin = NULL;
-    this->TaskQueue = NULL;
+    VolumeCurrentlySpawningWithin = NULL;
+    TaskQueue = NULL;
 }
 

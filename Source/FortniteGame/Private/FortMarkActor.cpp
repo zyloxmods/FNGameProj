@@ -16,8 +16,8 @@ void AFortMarkActor::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLi
 }
 
 AFortMarkActor::AFortMarkActor() {
-    this->MarkString = TEXT("Type Here, Esc Cancels");
-    this->bFinishedEditing = false;
-    this->AttachedToActor = NULL;
+    MarkString = TEXT("Type Here, Esc Cancels");
+    bFinishedEditing = false;
+    AttachedToActor = NULL;
 }
 

@@ -1,6 +1,7 @@
 #include "FortDeployableBaseCloudSaveItemDefinition.h"
 
-UFortDeployableBaseCloudSaveItemDefinition::UFortDeployableBaseCloudSaveItemDefinition() {
-	this->ItemType = EFortItemType::DeployableBaseCloudSave;
+UFortDeployableBaseCloudSaveItemDefinition::UFortDeployableBaseCloudSaveItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+	ItemType = EFortItemType::DeployableBaseCloudSave;
 }
 

@@ -1,10 +1,10 @@
 #include "FortAthenaMutator_SiphonValues.h"
 
 AFortAthenaMutator_SiphonValues::AFortAthenaMutator_SiphonValues() {
-    this->HealthSiphonValue = 1;
-    this->WoodSiphonValue = 1;
-    this->StoneSiphonValue = 1;
-    this->MetalSiphonValue = 1;
-    this->GoldSiphonValue = 1;
+    HealthSiphonValue = 1;
+    WoodSiphonValue = 1;
+    StoneSiphonValue = 1;
+    MetalSiphonValue = 1;
+    GoldSiphonValue = 1;
 }
 

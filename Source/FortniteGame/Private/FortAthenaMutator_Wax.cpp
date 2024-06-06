@@ -73,12 +73,12 @@ void AFortAthenaMutator_Wax::GetLifetimeReplicatedProps(TArray<FLifetimeProperty
 }
 
 AFortAthenaMutator_Wax::AFortAthenaMutator_Wax() {
-    this->TokenClass = AFortAthena_WaxToken::StaticClass();
-    this->TokenPickupClass = AFortGameModePickup_Wax::StaticClass();
-    this->PickupItemDef = NULL;
-    this->LastEligibleLeader = NULL;
-    this->FirstPlaceIfAboveThreshold = NULL;
-    this->SecondPlaceIfAboveThreshold = NULL;
-    this->ThirdPlaceIfAboveThreshold = NULL;
+    TokenClass = AFortAthena_WaxToken::StaticClass();
+    TokenPickupClass = AFortGameModePickup_Wax::StaticClass();
+    PickupItemDef = NULL;
+    LastEligibleLeader = NULL;
+    FirstPlaceIfAboveThreshold = NULL;
+    SecondPlaceIfAboveThreshold = NULL;
+    ThirdPlaceIfAboveThreshold = NULL;
 }
 

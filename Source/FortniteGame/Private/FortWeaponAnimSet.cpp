@@ -1,6 +1,6 @@
 #include "FortWeaponAnimSet.h"
 
 UFortWeaponAnimSet::UFortWeaponAnimSet() {
-    this->DelayBetweenFireAndFullBodySprint = 1;
+    DelayBetweenFireAndFullBodySprint = 1;
 }
 

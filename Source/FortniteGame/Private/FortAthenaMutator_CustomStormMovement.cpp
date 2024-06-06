@@ -16,7 +16,7 @@ void AFortAthenaMutator_CustomStormMovement::GetLifetimeReplicatedProps(TArray<F
 }
 
 AFortAthenaMutator_CustomStormMovement::AFortAthenaMutator_CustomStormMovement() {
-    this->PhaseProgressCurve = NULL;
-    this->SafeZoneRouteIndex = 0;
+    PhaseProgressCurve = NULL;
+    SafeZoneRouteIndex = 0;
 }
 

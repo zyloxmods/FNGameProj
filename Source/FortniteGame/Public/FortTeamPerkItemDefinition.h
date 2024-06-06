@@ -29,7 +29,7 @@ protected:
     TArray<FFortTeamPerkLoadoutCondition> TeamPerkLoadoutConditions;
     
 public:
-    UFortTeamPerkItemDefinition();
+    UFortTeamPerkItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool HasProgressiveBonus() const;
     

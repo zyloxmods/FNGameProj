@@ -1,10 +1,10 @@
 #include "FortAIEncounterRiftManagerInitializationData.h"
 
 FFortAIEncounterRiftManagerInitializationData::FFortAIEncounterRiftManagerInitializationData() {
-    this->EncounterInfo = NULL;
-    this->RiftClassTemplate = NULL;
-    this->NumRiftsToUse = 0;
-    this->MinRiftsToUse = 0;
-    this->UpdateIntervalTimeSeconds = 1;
+    EncounterInfo = NULL;
+    RiftClassTemplate = NULL;
+    NumRiftsToUse = 0;
+    MinRiftsToUse = 0;
+    UpdateIntervalTimeSeconds = 1;
 }
 

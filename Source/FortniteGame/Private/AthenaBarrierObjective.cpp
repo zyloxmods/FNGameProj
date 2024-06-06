@@ -40,9 +40,9 @@ void AAthenaBarrierObjective::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AAthenaBarrierObjective::AAthenaBarrierObjective() {
-    this->FoodTeam = EBarrierFoodTeam::Burger;
-    this->ObjectiveDamageState = EBarrierObjectiveDamageState::Health_75;
-    this->HeadRotationYaw = 1;
-    this->bAllowDamage = false;
+    FoodTeam = EBarrierFoodTeam::Burger;
+    ObjectiveDamageState = EBarrierObjectiveDamageState::Health_75;
+    HeadRotationYaw = 1;
+    bAllowDamage = false;
 }
 

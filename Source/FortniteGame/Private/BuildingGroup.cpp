@@ -4,7 +4,7 @@ void UBuildingGroup::GetAllMapNames(TArray<FString>& AllMaps) const {
 }
 
 UBuildingGroup::UBuildingGroup() {
-    this->FallbackGroup = NULL;
-    this->FoundationType = BFT_None;
+    FallbackGroup = NULL;
+    FoundationType = BFT_None;
 }
 

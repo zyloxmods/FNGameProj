@@ -1,8 +1,8 @@
 #include "PoiDiscoverabilityDataEntry.h"
 
 FPoiDiscoverabilityDataEntry::FPoiDiscoverabilityDataEntry() {
-    this->bDiscovered = false;
-    this->bWasInitiallyDiscovered = false;
-    this->VisitCounter = 0;
+    bDiscovered = false;
+    bWasInitiallyDiscovered = false;
+    VisitCounter = 0;
 }
 

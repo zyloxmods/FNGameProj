@@ -1,10 +1,10 @@
 #include "SeatTransitionMontage.h"
 
 FSeatTransitionMontage::FSeatTransitionMontage() {
-    this->Montage = NULL;
-    this->FromSeatIndex = 0;
-    this->ToSeatIndex = 0;
-    this->bUseFromSeatIndex = false;
-    this->bUseToSeatIndex = false;
+    Montage = NULL;
+    FromSeatIndex = 0;
+    ToSeatIndex = 0;
+    bUseFromSeatIndex = false;
+    bUseToSeatIndex = false;
 }
 

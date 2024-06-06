@@ -1,7 +1,7 @@
 #include "FortTaggedActorOctreeFilter.h"
 
 FFortTaggedActorOctreeFilter::FFortTaggedActorOctreeFilter() {
-    this->MinDistanceFromBoundsCenter = 1;
-    this->bHasAllTags = false;
+    MinDistanceFromBoundsCenter = 1;
+    bHasAllTags = false;
 }
 

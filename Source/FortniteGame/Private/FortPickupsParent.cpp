@@ -4,23 +4,23 @@ void AFortPickupsParent::SetupStretchMIDsInternal() {
 }
 
 AFortPickupsParent::AFortPickupsParent() {
-    this->DefaultBaseMaterial = NULL;
-    this->LootGiftMaterialSkelMesh = NULL;
-    this->LootGiftMaterialStaticMesh = NULL;
-    this->bIsBluGloPickup = false;
-    this->bIsSkeletalMeshComponent = false;
-    this->bHasUniqueMaterialIds = false;
-    this->bActivateRarityParticleSystems = true;
-    this->bIsLootGiftForOthers = false;
-    this->CurrentViewDistance = 1;
-    this->PickupRarityLevel = 0;
-    this->CullDistanceStW = 1;
-    this->CullDistanceAthena = 1;
-    this->CullDistanceBacchus = 1;
-    this->BackgroundParticleSystemComponentCullDistance = 1;
-    this->SkelMeshComponent = NULL;
-    this->StaticMeshComponent = NULL;
-    this->MeshPrimitiveComponent = NULL;
-    this->BackgroundParticleSystemComponent = NULL;
+    DefaultBaseMaterial = NULL;
+    LootGiftMaterialSkelMesh = NULL;
+    LootGiftMaterialStaticMesh = NULL;
+    bIsBluGloPickup = false;
+    bIsSkeletalMeshComponent = false;
+    bHasUniqueMaterialIds = false;
+    bActivateRarityParticleSystems = true;
+    bIsLootGiftForOthers = false;
+    CurrentViewDistance = 1;
+    PickupRarityLevel = 0;
+    CullDistanceStW = 1;
+    CullDistanceAthena = 1;
+    CullDistanceBacchus = 1;
+    BackgroundParticleSystemComponentCullDistance = 1;
+    SkelMeshComponent = NULL;
+    StaticMeshComponent = NULL;
+    MeshPrimitiveComponent = NULL;
+    BackgroundParticleSystemComponent = NULL;
 }
 

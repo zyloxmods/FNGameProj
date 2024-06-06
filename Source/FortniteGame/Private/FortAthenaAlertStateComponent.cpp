@@ -26,7 +26,7 @@ void UFortAthenaAlertStateComponent::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortAthenaAlertStateComponent::UFortAthenaAlertStateComponent() {
-    this->StealthMeterTarget = 1;
-    this->StealthMeterTargetTime = 1;
+    StealthMeterTarget = 1;
+    StealthMeterTargetTime = 1;
 }
 

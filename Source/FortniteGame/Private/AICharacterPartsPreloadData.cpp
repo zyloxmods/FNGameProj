@@ -1,7 +1,7 @@
 #include "AICharacterPartsPreloadData.h"
 
 FAICharacterPartsPreloadData::FAICharacterPartsPreloadData() {
-    this->Priority = 1;
-    this->CharacterPart = NULL;
+    Priority = 1;
+    CharacterPart = NULL;
 }
 

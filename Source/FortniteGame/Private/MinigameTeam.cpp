@@ -1,12 +1,12 @@
 #include "MinigameTeam.h"
 
 FMinigameTeam::FMinigameTeam() {
-    this->TeamIndex = 0;
-    this->TeamColorIndex = 0;
-    this->MaxInitTeamSize = 0;
-    this->InitTeamSizeWeight = 0;
-    this->bHasBucketAvailable = false;
-    this->EliminatedCount = 0;
-    this->TeamSize = 0;
+    TeamIndex = 0;
+    TeamColorIndex = 0;
+    MaxInitTeamSize = 0;
+    InitTeamSizeWeight = 0;
+    bHasBucketAvailable = false;
+    EliminatedCount = 0;
+    TeamSize = 0;
 }
 

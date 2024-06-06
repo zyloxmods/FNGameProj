@@ -11,6 +11,6 @@ void ABattleLabDeviceGameplayActor::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 ABattleLabDeviceGameplayActor::ABattleLabDeviceGameplayActor() {
-    this->BattleLabDeviceItemData = NULL;
+    BattleLabDeviceItemData = NULL;
 }
 

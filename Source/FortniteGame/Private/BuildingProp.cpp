@@ -12,8 +12,8 @@ float ABuildingProp::BlueprintModifyIncomingDamage_Implementation(float Damage, 
 }
 
 ABuildingProp::ABuildingProp() {
-    this->bDoNotBlockMarkerTraceWhenOverlappingPlayer = false;
-    this->bSuppressSimpleInteractionWidgetForTouch = true;
-    this->bKeepWhenUnderwater = false;
+    bDoNotBlockMarkerTraceWhenOverlappingPlayer = false;
+    bSuppressSimpleInteractionWidgetForTouch = true;
+    bKeepWhenUnderwater = false;
 }
 

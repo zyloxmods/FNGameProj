@@ -19,8 +19,8 @@ bool UFortChallengeBundleItem::CanLevelUpBundle() const {
 }
 
 UFortChallengeBundleItem::UFortChallengeBundleItem() {
-    this->num_quests_completed = 0;
-    this->num_progress_quests_completed = 0;
-    this->max_allowed_bundle_level = 0;
+    num_quests_completed = 0;
+    num_progress_quests_completed = 0;
+    max_allowed_bundle_level = 0;
 }
 

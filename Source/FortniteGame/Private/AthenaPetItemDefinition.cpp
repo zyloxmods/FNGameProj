@@ -5,7 +5,8 @@ TSubclassOf<AFortPlayerPet> UAthenaPetItemDefinition::GetPetPrefabClass() const 
     return NULL;
 }
 
-UAthenaPetItemDefinition::UAthenaPetItemDefinition() {
-    this->PetAttachRule = EAthenaPetAttachRule::AttachToBackpack;
+UAthenaPetItemDefinition::UAthenaPetItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    PetAttachRule = EAthenaPetAttachRule::AttachToBackpack;
 }
 

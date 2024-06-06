@@ -7,6 +7,6 @@ void UFortObjectiveNeutralCompleteParams::BreakParams(AFortObjectiveBase*& _Neut
 }
 
 UFortObjectiveNeutralCompleteParams::UFortObjectiveNeutralCompleteParams() {
-    this->NeutrallyCompletedObjective = NULL;
+    NeutrallyCompletedObjective = NULL;
 }
 

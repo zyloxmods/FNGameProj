@@ -15,8 +15,8 @@ void AFortOctopusTowhookAttachableProjectile::GetLifetimeReplicatedProps(TArray<
 }
 
 AFortOctopusTowhookAttachableProjectile::AFortOctopusTowhookAttachableProjectile() {
-    this->RopeAttachSocketName = TEXT("RopeAttach");
-    this->CollisionProfileNameOverride = TEXT("FortProjectileHitAllPawns");
-    this->OwningVehicle = NULL;
+    RopeAttachSocketName = TEXT("RopeAttach");
+    CollisionProfileNameOverride = TEXT("FortProjectileHitAllPawns");
+    OwningVehicle = NULL;
 }
 

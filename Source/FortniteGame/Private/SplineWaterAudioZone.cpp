@@ -1,6 +1,6 @@
 #include "SplineWaterAudioZone.h"
 
 FSplineWaterAudioZone::FSplineWaterAudioZone() {
-    this->Radius = 1;
+    Radius = 1;
 }
 

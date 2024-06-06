@@ -1,5 +1,6 @@
 #include "AthenaLoadingScreenItemDefinition.h"
 
-UAthenaLoadingScreenItemDefinition::UAthenaLoadingScreenItemDefinition() {
+UAthenaLoadingScreenItemDefinition::UAthenaLoadingScreenItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

@@ -1,9 +1,9 @@
 #include "CustomCharacterPartAnimInstance_BalloonHead.h"
 
 UCustomCharacterPartAnimInstance_BalloonHead::UCustomCharacterPartAnimInstance_BalloonHead() {
-    this->PawnSpeedAlpha = 1;
-    this->CrouchAlpha = 1;
-    this->InvCrouchAlpha = 1;
-    this->HandOffGunAlpha = 1;
+    PawnSpeedAlpha = 1;
+    CrouchAlpha = 1;
+    InvCrouchAlpha = 1;
+    HandOffGunAlpha = 1;
 }
 

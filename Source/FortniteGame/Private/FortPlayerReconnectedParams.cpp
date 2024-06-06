@@ -7,6 +7,6 @@ void UFortPlayerReconnectedParams::BreakParams(AFortPlayerController*& _Reconnec
 }
 
 UFortPlayerReconnectedParams::UFortPlayerReconnectedParams() {
-    this->ReconnectedPlayerPC = NULL;
+    ReconnectedPlayerPC = NULL;
 }
 

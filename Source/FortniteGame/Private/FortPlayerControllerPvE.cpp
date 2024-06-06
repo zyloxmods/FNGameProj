@@ -34,9 +34,9 @@ void AFortPlayerControllerPvE::ClientHideIdleWarning_Implementation() {
 }
 
 AFortPlayerControllerPvE::AFortPlayerControllerPvE() {
-    this->bForceAutoSlotWeaponsAtStart = false;
-    this->bRecycleBrokenWeapons = false;
-    this->IdleWarningAnnouncement = NULL;
-    this->IdleKickEstimatedTime = 1;
+    bForceAutoSlotWeaponsAtStart = false;
+    bRecycleBrokenWeapons = false;
+    IdleWarningAnnouncement = NULL;
+    IdleKickEstimatedTime = 1;
 }
 

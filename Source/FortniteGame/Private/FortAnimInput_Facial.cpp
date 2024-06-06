@@ -1,7 +1,7 @@
 #include "FortAnimInput_Facial.h"
 
 FFortAnimInput_Facial::FFortAnimInput_Facial() {
-    this->CurrentAnimType = EFortFacialAnimTypes::Default;
-    this->bCurvesOnly = false;
+    CurrentAnimType = EFortFacialAnimTypes::Default;
+    bCurvesOnly = false;
 }
 

@@ -8,7 +8,7 @@ bool UFortTooltipLoadingWrapper::AreAssetsLoaded() const {
 }
 
 UFortTooltipLoadingWrapper::UFortTooltipLoadingWrapper() {
-    this->SourceObject = NULL;
-    this->TooltipInstance = NULL;
+    SourceObject = NULL;
+    TooltipInstance = NULL;
 }
 

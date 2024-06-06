@@ -1,12 +1,12 @@
 #include "XPEventInfo.h"
 
 FXPEventInfo::FXPEventInfo() {
-    this->QuestDef = NULL;
-    this->Priority = EXPEventPriorityType::NearReticle;
-    this->EventXpValue = 0;
-    this->TotalXpEarnedInMatch = 0;
-    this->RestedValuePortion = 0;
-    this->SeasonBoostValuePortion = 0;
-    this->RestedXPRemaining = 0;
+    QuestDef = NULL;
+    Priority = EXPEventPriorityType::NearReticle;
+    EventXpValue = 0;
+    TotalXpEarnedInMatch = 0;
+    RestedValuePortion = 0;
+    SeasonBoostValuePortion = 0;
+    RestedXPRemaining = 0;
 }
 

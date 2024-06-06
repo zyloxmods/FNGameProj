@@ -50,17 +50,17 @@ void AFortAthenaExitCraft::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 AFortAthenaExitCraft::AFortAthenaExitCraft() {
-    this->MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComp0"));
-    this->OverlapMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("OverlapMesh_0"));
-    this->ExitCraftInfo = NULL;
-    this->CurrentState = EExitCraftState::None;
-    this->BalloonClass = NULL;
-    this->BalloonActor = NULL;
-    this->FortVehicleConfigClass = NULL;
-    this->GettingIntoPostionCurve_Location = NULL;
-    this->GettingIntoPostionCurve_Rotation = NULL;
-    this->BuildingZOffset = 1;
-    this->SafetyTimerTime = 1;
-    this->VehicleSkinIndex = 0;
+    MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMeshComp0"));
+    OverlapMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("OverlapMesh_0"));
+    ExitCraftInfo = NULL;
+    CurrentState = EExitCraftState::None;
+    BalloonClass = NULL;
+    BalloonActor = NULL;
+    FortVehicleConfigClass = NULL;
+    GettingIntoPostionCurve_Location = NULL;
+    GettingIntoPostionCurve_Rotation = NULL;
+    BuildingZOffset = 1;
+    SafetyTimerTime = 1;
+    VehicleSkinIndex = 0;
 }
 

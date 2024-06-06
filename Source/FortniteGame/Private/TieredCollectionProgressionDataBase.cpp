@@ -1,6 +1,6 @@
 #include "TieredCollectionProgressionDataBase.h"
 
 FTieredCollectionProgressionDataBase::FTieredCollectionProgressionDataBase() {
-    this->SelectionMethod = ECollectionSelectionMethod::TierAsIndex;
+    SelectionMethod = ECollectionSelectionMethod::TierAsIndex;
 }
 

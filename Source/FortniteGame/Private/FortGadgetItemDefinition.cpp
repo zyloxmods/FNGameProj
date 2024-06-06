@@ -9,7 +9,7 @@ bool UFortGadgetItemDefinition::HasChargeUp() const {
     return false;
 }
 
-UFortWeaponItemDefinition* UFortGadgetItemDefinition::GetWeaponItemDefinition() const {
+UFortWeaponItemDefinition* UFortGadgetItemDefinition::GetWeaponItemDefinition()const{
     return NULL;
 }
 
@@ -21,13 +21,13 @@ TSubclassOf<UFortGameplayAbility> UFortGadgetItemDefinition::GetGameplayAbility(
     return NULL;
 }
 
-UFortGadgetItemDefinition::UFortGadgetItemDefinition() {
-    this->GadgetPriority = 0;
-    this->bDestroyGadgetWhenTrackedAttributesIsZero = true;
-    this->bHasChargeUp = false;
-    this->bDropAllOnEquip = false;
-    this->bCanChangePreviewImageDuringGame = false;
-    this->bValidForLastEquipped = false;
-    this->ItemType = EFortItemType::Gadget;
+UFortGadgetItemDefinition::UFortGadgetItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    GadgetPriority = 0;
+    bDestroyGadgetWhenTrackedAttributesIsZero = true;
+    bHasChargeUp = false;
+    bDropAllOnEquip = false;
+    bCanChangePreviewImageDuringGame = false;
+    bValidForLastEquipped = false;
+    ItemType = EFortItemType::Gadget;
 }
-

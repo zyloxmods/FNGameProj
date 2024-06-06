@@ -1,7 +1,7 @@
 #include "MarkerID.h"
 
 FMarkerID::FMarkerID() {
-    this->PlayerId = 0;
-    this->InstanceID = 0;
+    PlayerId = 0;
+    InstanceID = 0;
 }
 

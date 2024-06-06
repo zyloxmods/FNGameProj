@@ -41,7 +41,7 @@ protected:
     FString CustomGiftbox;
     
 public:
-    UFortVariantTokenType();
+    UFortVariantTokenType(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     FGameplayTag GetVariantNameTag() const;
     

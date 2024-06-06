@@ -7,6 +7,6 @@ UCLASS(Abstract, Blueprintable)
 class UFortPersistableItemDefinition : public UFortItemDefinition {
     GENERATED_BODY()
 public:
-    UFortPersistableItemDefinition();
+    UFortPersistableItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

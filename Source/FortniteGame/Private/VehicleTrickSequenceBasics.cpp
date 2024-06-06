@@ -1,11 +1,11 @@
 #include "VehicleTrickSequenceBasics.h"
 
 FVehicleTrickSequenceBasics::FVehicleTrickSequenceBasics() {
-    this->TrickStartTime = 1;
-    this->TrickStartDistance = 1;
-    this->TrickStartHeight = 1;
-    this->TrickPointsPerAirSecond = 1;
-    this->TrickPointsPerAirDistance = 1;
-    this->TrickPointsPerAirHeight = 1;
+    TrickStartTime = 1;
+    TrickStartDistance = 1;
+    TrickStartHeight = 1;
+    TrickPointsPerAirSecond = 1;
+    TrickPointsPerAirDistance = 1;
+    TrickPointsPerAirHeight = 1;
 }
 

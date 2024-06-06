@@ -19,8 +19,8 @@ void AFortSprayDecalInstance::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortSprayDecalInstance::AFortSprayDecalInstance() {
-    this->bDestroyOnNearbyDestruction = false;
-    this->bDestroyOnNearbyDamageTaken = false;
-    this->bDestroyOnNearbyBounce = false;
+    bDestroyOnNearbyDestruction = false;
+    bDestroyOnNearbyDamageTaken = false;
+    bDestroyOnNearbyBounce = false;
 }
 

@@ -1,7 +1,7 @@
 #include "BCActionInfo.h"
 
 FBCActionInfo::FBCActionInfo() {
-    this->Type = 0;
-    this->Action = 0;
+    Type = 0;
+    Action = 0;
 }
 

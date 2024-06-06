@@ -1,5 +1,6 @@
 #include "FortPersistableItemDefinition.h"
 
-UFortPersistableItemDefinition::UFortPersistableItemDefinition() {
+UFortPersistableItemDefinition::UFortPersistableItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

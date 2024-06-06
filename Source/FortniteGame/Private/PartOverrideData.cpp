@@ -1,6 +1,6 @@
 #include "PartOverrideData.h"
 
 FPartOverrideData::FPartOverrideData() {
-    this->Gender = EFortCustomGender::Invalid;
+    Gender = EFortCustomGender::Invalid;
 }
 

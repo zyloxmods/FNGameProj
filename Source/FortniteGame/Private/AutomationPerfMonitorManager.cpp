@@ -19,8 +19,8 @@ UAutomationPerfMonitorManager* UAutomationPerfMonitorManager::GetPerfMonitorInst
 }
 
 UAutomationPerfMonitorManager::UAutomationPerfMonitorManager() {
-    this->bRecording = false;
-    this->TimeSinceLastRecord = 1;
-    this->LastGoodFrame = 0;
+    bRecording = false;
+    TimeSinceLastRecord = 1;
+    LastGoodFrame = 0;
 }
 

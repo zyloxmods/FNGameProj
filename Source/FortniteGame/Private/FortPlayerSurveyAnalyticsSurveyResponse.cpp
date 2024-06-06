@@ -1,6 +1,6 @@
 #include "FortPlayerSurveyAnalyticsSurveyResponse.h"
 
 FFortPlayerSurveyAnalyticsSurveyResponse::FFortPlayerSurveyAnalyticsSurveyResponse() {
-    this->FinishReason = EFortPlayerSurveyAnalyticsFinishReason::Submitted;
+    FinishReason = EFortPlayerSurveyAnalyticsFinishReason::Submitted;
 }
 

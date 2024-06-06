@@ -1,28 +1,28 @@
 #include "FortDoghouseVehicleConfigs.h"
 
 UFortDoghouseVehicleConfigs::UFortDoghouseVehicleConfigs() {
-    this->WheelRotationRange = 1;
-    this->VehicleFrontLowLateralFrictionMultiplier = 1;
-    this->VehicleRearLowLateralFrictionMultiplier = 1;
-    this->VehicleFrontHighLateralFrictionMultiplier = 1;
-    this->VehicleRearHighLateralFrictionMultiplier = 1;
-    this->LowToHighFrictionDuration = 1;
-    this->UphillIncline = 1;
-    this->ReverseToForwardFrontFriction = 1;
-    this->ReverseToForwardRearFriction = 1;
-    this->ReverseToForwardMaxSpeed = 1;
-    this->PropSpeedPerLinearSpeed = 1;
-    this->PropSpeedPerLinearSpeedPassive = 1;
-    this->PropSpeedAccelLerpPerSecond = 1;
-    this->PropSpeedDecelLerpPerSecond = 1;
-    this->TaxiPitchProjTarget = 1;
-    this->MaxAltitudeZ = 1;
-    this->StallAltitudeZ = 1;
-    this->StallTime = 1;
-    this->StuckTimeBeforeStall = 1;
-    this->MinSkipShocksAltitudeZ = 1;
-    this->AltitudeUpdateFrequency = 1;
-    this->ControlStateNetUpdateFrequency = 1;
-    this->ForceHeadingUpdateFrequency = 1;
+    WheelRotationRange = 1;
+    VehicleFrontLowLateralFrictionMultiplier = 1;
+    VehicleRearLowLateralFrictionMultiplier = 1;
+    VehicleFrontHighLateralFrictionMultiplier = 1;
+    VehicleRearHighLateralFrictionMultiplier = 1;
+    LowToHighFrictionDuration = 1;
+    UphillIncline = 1;
+    ReverseToForwardFrontFriction = 1;
+    ReverseToForwardRearFriction = 1;
+    ReverseToForwardMaxSpeed = 1;
+    PropSpeedPerLinearSpeed = 1;
+    PropSpeedPerLinearSpeedPassive = 1;
+    PropSpeedAccelLerpPerSecond = 1;
+    PropSpeedDecelLerpPerSecond = 1;
+    TaxiPitchProjTarget = 1;
+    MaxAltitudeZ = 1;
+    StallAltitudeZ = 1;
+    StallTime = 1;
+    StuckTimeBeforeStall = 1;
+    MinSkipShocksAltitudeZ = 1;
+    AltitudeUpdateFrequency = 1;
+    ControlStateNetUpdateFrequency = 1;
+    ForceHeadingUpdateFrequency = 1;
 }
 

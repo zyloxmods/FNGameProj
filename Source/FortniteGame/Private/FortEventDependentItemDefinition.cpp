@@ -1,6 +1,7 @@
 #include "FortEventDependentItemDefinition.h"
 
-UFortEventDependentItemDefinition::UFortEventDependentItemDefinition() {
-    this->TargetReplacementItem = NULL;
+UFortEventDependentItemDefinition::UFortEventDependentItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    TargetReplacementItem = NULL;
 }
 

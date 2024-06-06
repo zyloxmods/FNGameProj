@@ -30,7 +30,7 @@ private:
     TSoftClassPtr<ABattleBusCosmeticInstanceBase> BusPrefabClass;
     
 public:
-    UAthenaBattleBusItemDefinition();
+    UAthenaBattleBusItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     USoundBase* GetLobbyLoopingSound() const;
     

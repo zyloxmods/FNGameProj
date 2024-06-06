@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class FORTNITEGAME_API UFortDailyRewardScheduleTokenDefinition : public UFortTokenType {
     GENERATED_BODY()
 public:
-    UFortDailyRewardScheduleTokenDefinition();
+    UFortDailyRewardScheduleTokenDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

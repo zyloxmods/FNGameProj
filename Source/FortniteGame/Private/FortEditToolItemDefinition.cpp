@@ -1,5 +1,6 @@
 #include "FortEditToolItemDefinition.h"
 
-UFortEditToolItemDefinition::UFortEditToolItemDefinition() {
+UFortEditToolItemDefinition::UFortEditToolItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

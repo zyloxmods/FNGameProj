@@ -1,7 +1,7 @@
 #include "CalendarRequirement.h"
 
 FCalendarRequirement::FCalendarRequirement() {
-    this->bActive = false;
-    this->DaysFromEeventStart = 0;
+    bActive = false;
+    DaysFromEeventStart = 0;
 }
 

@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortPlayerSurveyTokenItemDefinition : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UFortPlayerSurveyTokenItemDefinition();
+    UFortPlayerSurveyTokenItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

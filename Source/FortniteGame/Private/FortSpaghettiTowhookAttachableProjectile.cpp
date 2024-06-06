@@ -15,8 +15,8 @@ void AFortSpaghettiTowhookAttachableProjectile::GetLifetimeReplicatedProps(TArra
 }
 
 AFortSpaghettiTowhookAttachableProjectile::AFortSpaghettiTowhookAttachableProjectile() {
-    this->RopeAttachSocketName = TEXT("RopeAttach");
-    this->CollisionProfileNameOverride = TEXT("FortProjectileHitAllPawns");
-    this->OwningVehicle = NULL;
+    RopeAttachSocketName = TEXT("RopeAttach");
+    CollisionProfileNameOverride = TEXT("FortProjectileHitAllPawns");
+    OwningVehicle = NULL;
 }
 

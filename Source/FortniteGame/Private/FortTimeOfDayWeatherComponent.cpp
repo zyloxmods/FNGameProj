@@ -42,18 +42,18 @@ void UFortTimeOfDayWeatherComponent::GetLifetimeReplicatedProps(TArray<FLifetime
 }
 
 UFortTimeOfDayWeatherComponent::UFortTimeOfDayWeatherComponent() {
-    this->bWeatherDisabled = false;
-    this->GamePhaseToStart = EAthenaGamePhase::None;
-    this->bWeatherStarted = false;
-    this->WeatherState = EGlobalWeatherState::Inactive;
-    this->WeatherEventEndTime = 1;
-    this->WeatherEventAttemptStart = 1;
-    this->WeatherEventIndex = 0;
-    this->LocalWeatherEventIndex = 0;
-    this->CurrentWeatherEventIntensity = 1;
-    this->CurrentBlendTime = 1;
-    this->TargetBlendTime = 1;
-    this->BlendTimeLength = 1;
-    this->PostProcessComponent = NULL;
+    bWeatherDisabled = false;
+    GamePhaseToStart = EAthenaGamePhase::None;
+    bWeatherStarted = false;
+    WeatherState = EGlobalWeatherState::Inactive;
+    WeatherEventEndTime = 1;
+    WeatherEventAttemptStart = 1;
+    WeatherEventIndex = 0;
+    LocalWeatherEventIndex = 0;
+    CurrentWeatherEventIntensity = 1;
+    CurrentBlendTime = 1;
+    TargetBlendTime = 1;
+    BlendTimeLength = 1;
+    PostProcessComponent = NULL;
 }
 

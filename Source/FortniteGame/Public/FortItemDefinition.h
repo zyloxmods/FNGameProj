@@ -181,7 +181,7 @@ private:
     TSoftObjectPtr<USkeletalMesh> FrontendPreviewSkeletalMeshOverride;
     
 public:
-    UFortItemDefinition();
+    UFortItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool ShouldShowPreviewOnCurrentHero(const int32 InSubSlot) const;
     

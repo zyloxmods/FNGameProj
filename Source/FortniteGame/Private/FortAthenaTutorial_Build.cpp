@@ -10,18 +10,18 @@ void AFortAthenaTutorial_Build::HandleOnItemCountChanged(UFortItemDefinition* De
 }
 
 AFortAthenaTutorial_Build::AFortAthenaTutorial_Build() {
-    this->Chest = NULL;
-    this->ChestObjectiveMarker = NULL;
-    this->ChestLookMarker = NULL;
-    this->BuildMarker = NULL;
-    this->BuildMarker2 = NULL;
-    this->ChestTriggerBox = NULL;
-    this->ChestDirectionArrows = NULL;
-    this->SecurityTape_Build = NULL;
-    this->Building_BlockingVolume = NULL;
-    this->StairsBuildingItemDef = NULL;
-    this->WoodItemDef = NULL;
-    this->SecondStairsNoBuildZone = NULL;
-    this->TriggerBox = NULL;
+    Chest = NULL;
+    ChestObjectiveMarker = NULL;
+    ChestLookMarker = NULL;
+    BuildMarker = NULL;
+    BuildMarker2 = NULL;
+    ChestTriggerBox = NULL;
+    ChestDirectionArrows = NULL;
+    SecurityTape_Build = NULL;
+    Building_BlockingVolume = NULL;
+    StairsBuildingItemDef = NULL;
+    WoodItemDef = NULL;
+    SecondStairsNoBuildZone = NULL;
+    TriggerBox = NULL;
 }
 

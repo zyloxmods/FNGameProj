@@ -1,8 +1,8 @@
 #include "CosmeticLoadoutPartyReplState.h"
 
 FCosmeticLoadoutPartyReplState::FCosmeticLoadoutPartyReplState() {
-    this->BattlePassLevel = 0;
-    this->BattlePassSelfBoostXp = 0;
-    this->BattlePassFriendBoostXp = 0;
+    BattlePassLevel = 0;
+    BattlePassSelfBoostXp = 0;
+    BattlePassFriendBoostXp = 0;
 }
 

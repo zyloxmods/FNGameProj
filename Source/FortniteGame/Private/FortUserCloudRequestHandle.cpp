@@ -1,6 +1,6 @@
 #include "FortUserCloudRequestHandle.h"
 
 FFortUserCloudRequestHandle::FFortUserCloudRequestHandle() {
-    this->Handle = 0;
+    Handle = 0;
 }
 

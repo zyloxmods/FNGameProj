@@ -2,6 +2,6 @@
 #include "Components/StaticMeshComponent.h"
 
 AFortDecoPreview_StaticMesh::AFortDecoPreview_StaticMesh() {
-    this->PrimaryMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PrimaryMeshComp0"));
+    PrimaryMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PrimaryMeshComp0"));
 }
 

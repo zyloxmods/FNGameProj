@@ -1,9 +1,9 @@
 #include "MMAttemptState.h"
 
 FMMAttemptState::FMMAttemptState() {
-    this->BestSessionIdx = 0;
-    this->NumSearchResults = 0;
-    this->State = EMatchmakingState::NotMatchmaking;
-  //  this->LastBeaconResponse = EPartyReservationResult::NoResult;
+    BestSessionIdx = 0;
+    NumSearchResults = 0;
+    State = EMatchmakingState::NotMatchmaking;
+  //  LastBeaconResponse = EPartyReservationResult::NoResult;
 }
 

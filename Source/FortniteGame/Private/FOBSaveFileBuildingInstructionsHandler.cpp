@@ -1,6 +1,6 @@
 #include "FOBSaveFileBuildingInstructionsHandler.h"
 
 AFOBSaveFileBuildingInstructionsHandler::AFOBSaveFileBuildingInstructionsHandler() {
-    this->BuildingPieceConstructionTime = 1;
+    BuildingPieceConstructionTime = 1;
 }
 

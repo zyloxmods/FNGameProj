@@ -4,10 +4,11 @@ USkeletalMesh* UFortWeaponMeleeDualWieldItemDefinition::GetWeaponMeshOffhandOver
     return NULL;
 }
 
-UFortWeaponMeleeDualWieldItemDefinition::UFortWeaponMeleeDualWieldItemDefinition() {
-    this->ManagedVFX_OffhandDefaults = NULL;
-    this->AnimTrailsOffhandWidth = 1;
-    this->bUseAnimTrailsOffhand = true;
-    this->bAttachAnimTrailsOffhandToWeapon = false;
+UFortWeaponMeleeDualWieldItemDefinition::UFortWeaponMeleeDualWieldItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ManagedVFX_OffhandDefaults = NULL;
+    AnimTrailsOffhandWidth = 1;
+    bUseAnimTrailsOffhand = true;
+    bAttachAnimTrailsOffhandToWeapon = false;
 }
 

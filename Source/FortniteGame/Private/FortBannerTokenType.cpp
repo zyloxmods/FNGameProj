@@ -1,6 +1,7 @@
 #include "FortBannerTokenType.h"
 
-UFortBannerTokenType::UFortBannerTokenType() {
-    this->ProfileType = EItemProfileType::Common;
+UFortBannerTokenType::UFortBannerTokenType(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ProfileType = EItemProfileType::Common;
 }
 

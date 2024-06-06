@@ -1,8 +1,8 @@
 #include "MinigamePlayerBucket.h"
 
 FMinigamePlayerBucket::FMinigamePlayerBucket() {
-    this->TeamIdAtGameStart = 0;
-    this->TeamIdAtRoundStart = 0;
-    this->DesiredTeamSizePercent = 1;
+    TeamIdAtGameStart = 0;
+    TeamIdAtRoundStart = 0;
+    DesiredTeamSizePercent = 1;
 }
 

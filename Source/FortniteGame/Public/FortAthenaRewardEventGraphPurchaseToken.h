@@ -22,6 +22,6 @@ protected:
     TSoftObjectPtr<UFortRepeatableDailiesCardItemDefinition> RepeatableDailiesCardItemDefinition;
     
 public:
-    UFortAthenaRewardEventGraphPurchaseToken();
+    UFortAthenaRewardEventGraphPurchaseToken(const FObjectInitializer& ObjectInitializer);
 };
 

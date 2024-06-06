@@ -4,11 +4,11 @@ void AGameplayCueNotify_Jetpack_FuelRegen::ResetBlink_Implementation(AFortPlayer
 }
 
 AGameplayCueNotify_Jetpack_FuelRegen::AGameplayCueNotify_Jetpack_FuelRegen() {
-    this->bAudioEnabled = false;
-    this->OnFuelRegenRampComponent = NULL;
-    this->FuelRegenRampVolumeMultiplier = 1;
-    this->SoundOnFuelChangeRamp = NULL;
-    this->SoundOnFuelRecharged = NULL;
-    this->FuelRegenRampVolumeCurve = NULL;
+    bAudioEnabled = false;
+    OnFuelRegenRampComponent = NULL;
+    FuelRegenRampVolumeMultiplier = 1;
+    SoundOnFuelChangeRamp = NULL;
+    SoundOnFuelRecharged = NULL;
+    FuelRegenRampVolumeCurve = NULL;
 }
 

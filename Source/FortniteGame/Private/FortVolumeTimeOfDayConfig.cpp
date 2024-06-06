@@ -1,7 +1,7 @@
 #include "FortVolumeTimeOfDayConfig.h"
 
 FFortVolumeTimeOfDayConfig::FFortVolumeTimeOfDayConfig() {
-    this->bShouldOverrideTimeOfDay = false;
-    this->bUseRandomTimeOfDay = false;
+    bShouldOverrideTimeOfDay = false;
+    bUseRandomTimeOfDay = false;
 }
 

@@ -1,6 +1,6 @@
 #include "FortAthenaMutator_PlayerZoneSettings.h"
 
 AFortAthenaMutator_PlayerZoneSettings::AFortAthenaMutator_PlayerZoneSettings() {
-    this->ZoneSettingsClass = NULL;
+    ZoneSettingsClass = NULL;
 }
 

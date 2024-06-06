@@ -1,5 +1,6 @@
 #include "FortBattleLabDeviceItemDefinition.h"
 
-UFortBattleLabDeviceItemDefinition::UFortBattleLabDeviceItemDefinition() {
+UFortBattleLabDeviceItemDefinition::UFortBattleLabDeviceItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

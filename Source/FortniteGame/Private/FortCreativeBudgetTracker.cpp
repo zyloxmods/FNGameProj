@@ -1,6 +1,6 @@
 #include "FortCreativeBudgetTracker.h"
 
 FFortCreativeBudgetTracker::FFortCreativeBudgetTracker() {
-    this->bUseUniformGridTest = false;
+    bUseUniformGridTest = false;
 }
 

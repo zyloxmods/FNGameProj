@@ -1,16 +1,16 @@
 #include "FortPlayerDeathReport.h"
 
 FFortPlayerDeathReport::FFortPlayerDeathReport() {
-    this->ServerTimeForRespawn = 1;
-    this->ServerTimeForResurrect = 1;
-    this->LethalDamage = 1;
-    this->KillerPlayerState = NULL;
-    this->KillerPawn = NULL;
-    this->KillerHealthPercent = 1;
-    this->KillerShieldPercent = 1;
-    this->KillerWeapon = NULL;
-    this->DamageCauser = NULL;
-    this->bDroppedBackpack = false;
-    this->bNotifyUI = false;
+    ServerTimeForRespawn = 1;
+    ServerTimeForResurrect = 1;
+    LethalDamage = 1;
+    KillerPlayerState = NULL;
+    KillerPawn = NULL;
+    KillerHealthPercent = 1;
+    KillerShieldPercent = 1;
+    KillerWeapon = NULL;
+    DamageCauser = NULL;
+    bDroppedBackpack = false;
+    bNotifyUI = false;
 }
 

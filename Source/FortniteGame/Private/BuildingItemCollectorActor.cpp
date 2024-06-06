@@ -78,32 +78,32 @@ void ABuildingItemCollectorActor::GetLifetimeReplicatedProps(TArray<FLifetimePro
 }
 
 ABuildingItemCollectorActor::ABuildingItemCollectorActor() {
-    this->ItemCollectorBehavior = EFortItemCollectorBehavior::FirstToGoal;
-    this->bRequireAllForInteraction = false;
-    this->bRequireAllForTurnIn = false;
-    this->bHasToHaveSomething = true;
-    this->bIncrementCaptureCountWhenGoalIsReached = true;
-    this->bCurrentInteractionSuccess = false;
-    this->ItemCollectorState = EFortItemCollectorState::CanInteract;
-    this->TrackingType = EFortItemCollectorTrackingType::Player;
-    this->ControllingPlayer = NULL;
-    this->bCallOnLocalInteract = false;
-    this->bUseInstanceLootValueOverrides = false;
-    this->OverrideGoal = 0;
-    this->NumInteractionsAllowed = 0;
-    this->NumInteractions = 0;
-    this->ActiveInputItem = NULL;
-    this->ClientPausedActiveInputItem = NULL;
-    this->ItemRotationTime = 1;
-    this->ItemRotationTimeVariation = 1;
-    this->DespensingDelayTime = 1;
-    this->LootTossConeHalfAngle = 1;
-    this->LootTossSpeed = 1;
-    this->bTossOnGround = false;
-    this->bSpawnAmmoOnlyWhenCarryingWeapon = false;
-    this->StartingGoalLevel = 0;
-    this->StartingGoalLevelOverride = 0;
-    this->InactiveItemTexture = NULL;
-    this->bPickupOwnedByLooter = false;
+    ItemCollectorBehavior = EFortItemCollectorBehavior::FirstToGoal;
+    bRequireAllForInteraction = false;
+    bRequireAllForTurnIn = false;
+    bHasToHaveSomething = true;
+    bIncrementCaptureCountWhenGoalIsReached = true;
+    bCurrentInteractionSuccess = false;
+    ItemCollectorState = EFortItemCollectorState::CanInteract;
+    TrackingType = EFortItemCollectorTrackingType::Player;
+    ControllingPlayer = NULL;
+    bCallOnLocalInteract = false;
+    bUseInstanceLootValueOverrides = false;
+    OverrideGoal = 0;
+    NumInteractionsAllowed = 0;
+    NumInteractions = 0;
+    ActiveInputItem = NULL;
+    ClientPausedActiveInputItem = NULL;
+    ItemRotationTime = 1;
+    ItemRotationTimeVariation = 1;
+    DespensingDelayTime = 1;
+    LootTossConeHalfAngle = 1;
+    LootTossSpeed = 1;
+    bTossOnGround = false;
+    bSpawnAmmoOnlyWhenCarryingWeapon = false;
+    StartingGoalLevel = 0;
+    StartingGoalLevelOverride = 0;
+    InactiveItemTexture = NULL;
+    bPickupOwnedByLooter = false;
 }
 

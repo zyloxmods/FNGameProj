@@ -4,10 +4,10 @@ void UFortUnderwaterDamageComponent::SetUnderWater(bool bNewUnderWater) {
 }
 
 UFortUnderwaterDamageComponent::UFortUnderwaterDamageComponent() {
-    this->GE_UnderwaterDamage = NULL;
-    this->bIsUnderWater = false;
-    this->UnderWaterStartTime = 1;
-    this->CurrentLevel = 0;
-    this->bResetFromDBNO = false;
+    GE_UnderwaterDamage = NULL;
+    bIsUnderWater = false;
+    UnderWaterStartTime = 1;
+    CurrentLevel = 0;
+    bResetFromDBNO = false;
 }
 

@@ -1,6 +1,6 @@
 #include "FortEnemySpawn.h"
 
 AFortEnemySpawn::AFortEnemySpawn() {
-    this->ClusterRadius = 1;
+    ClusterRadius = 1;
 }
 

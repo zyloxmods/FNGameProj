@@ -53,31 +53,31 @@ void AFortAthenaSKPushVehicle::CacheAudioPointers(UFortVehicleAudioVoice* InAudi
 }
 
 AFortAthenaSKPushVehicle::AFortAthenaSKPushVehicle() {
-    this->AntiGravityScalerWhenEmpty = 1;
-    this->AntiGravityScalerWhenCoasting = 1;
-    this->SpringCompressionRefireTime = 1;
-    this->MovementAmountParam = 1;
-    this->CurrentMaxSpringCompression = 1;
-    this->SparksLeftParam = 1;
-    this->SparksRightParam = 1;
-    this->LeftSlowDustParam = 1;
-    this->RightSlowDustParam = 1;
-    this->LeftFastDustParam = 1;
-    this->RightFastDustParam = 1;
-    this->FastDustParam = 1;
-    this->CoastingMovementParam = 1;
-    this->SkiddingAmountParam = 1;
-    this->InAirParam = 1;
-    this->ScrapingAmountParam = 1;
-    this->AudioWindParam = 1;
-    this->SKPushVehicleConfigsClass = NULL;
-    this->SKPushVehicleConfigs = NULL;
-    this->CacheAudioMovement = NULL;
-    this->CacheAudioCoast = NULL;
-    this->CacheAudioSkid = NULL;
-    this->CacheAudioInAir = NULL;
-    this->CacheAudioScrape = NULL;
-    this->CacheAudioWind = NULL;
-    this->CacheWheelDustFX = NULL;
+    AntiGravityScalerWhenEmpty = 1;
+    AntiGravityScalerWhenCoasting = 1;
+    SpringCompressionRefireTime = 1;
+    MovementAmountParam = 1;
+    CurrentMaxSpringCompression = 1;
+    SparksLeftParam = 1;
+    SparksRightParam = 1;
+    LeftSlowDustParam = 1;
+    RightSlowDustParam = 1;
+    LeftFastDustParam = 1;
+    RightFastDustParam = 1;
+    FastDustParam = 1;
+    CoastingMovementParam = 1;
+    SkiddingAmountParam = 1;
+    InAirParam = 1;
+    ScrapingAmountParam = 1;
+    AudioWindParam = 1;
+    SKPushVehicleConfigsClass = NULL;
+    SKPushVehicleConfigs = NULL;
+    CacheAudioMovement = NULL;
+    CacheAudioCoast = NULL;
+    CacheAudioSkid = NULL;
+    CacheAudioInAir = NULL;
+    CacheAudioScrape = NULL;
+    CacheAudioWind = NULL;
+    CacheWheelDustFX = NULL;
 }
 

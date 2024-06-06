@@ -1,8 +1,8 @@
 #include "FortAthenaAIBotPlayStyleDigestedSkillSet.h"
 
 UFortAthenaAIBotPlayStyleDigestedSkillSet::UFortAthenaAIBotPlayStyleDigestedSkillSet() {
-    this->TrollingDetectDistanceSq = 1;
-    this->TrollingDetectTime = 1;
-    this->DBNOPlayStyle = EDBNOPlayStyle::Thirsty;
+    TrollingDetectDistanceSq = 1;
+    TrollingDetectTime = 1;
+    DBNOPlayStyle = EDBNOPlayStyle::Thirsty;
 }
 

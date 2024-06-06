@@ -44,12 +44,12 @@ void AFortPlayerStartupController::GetLifetimeReplicatedProps(TArray<FLifetimePr
 }
 
 AFortPlayerStartupController::AFortPlayerStartupController() {
-    this->UseIndividualHoldingAreas = false;
-    this->DelayAfterFirstInTime = 1;
-    this->ContainmentTimer = 1;
-    this->AllInCountdownTime = 1;
-    this->ErodeShieldTime = 1;
-    this->StopJoinabilityTime = 1;
-    this->DestroyImmediately = false;
+    UseIndividualHoldingAreas = false;
+    DelayAfterFirstInTime = 1;
+    ContainmentTimer = 1;
+    AllInCountdownTime = 1;
+    ErodeShieldTime = 1;
+    StopJoinabilityTime = 1;
+    DestroyImmediately = false;
 }
 

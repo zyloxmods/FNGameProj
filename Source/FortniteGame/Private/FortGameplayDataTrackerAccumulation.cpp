@@ -1,6 +1,6 @@
 #include "FortGameplayDataTrackerAccumulation.h"
 
 FFortGameplayDataTrackerAccumulation::FFortGameplayDataTrackerAccumulation() {
-    this->CurrentValue = 1;
+    CurrentValue = 1;
 }
 

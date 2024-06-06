@@ -1,6 +1,6 @@
 #include "MashLootTierOverrideAssetData.h"
 
 FMashLootTierOverrideAssetData::FMashLootTierOverrideAssetData() {
-    this->SafeZoneIndex = 0;
+    SafeZoneIndex = 0;
 }
 

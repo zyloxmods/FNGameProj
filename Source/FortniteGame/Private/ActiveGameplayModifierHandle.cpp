@@ -1,6 +1,6 @@
 #include "ActiveGameplayModifierHandle.h"
 
 FActiveGameplayModifierHandle::FActiveGameplayModifierHandle() {
-    this->Handle = 0;
+    Handle = 0;
 }
 

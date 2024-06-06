@@ -1,6 +1,7 @@
 #include "FortEventCurrencyItemDefinitionRedir.h"
 
-UFortEventCurrencyItemDefinitionRedir::UFortEventCurrencyItemDefinitionRedir() {
-    this->CurrentCurrencyItem = NULL;
+UFortEventCurrencyItemDefinitionRedir::UFortEventCurrencyItemDefinitionRedir(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer){
+    CurrentCurrencyItem = NULL;
 }
 

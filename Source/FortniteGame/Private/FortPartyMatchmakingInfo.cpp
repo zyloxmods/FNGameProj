@@ -1,7 +1,7 @@
 #include "FortPartyMatchmakingInfo.h"
 
 FFortPartyMatchmakingInfo::FFortPartyMatchmakingInfo() {
-    this->BuildId = 0;
-    this->HotfixVersion = 0;
+    BuildId = 0;
+    HotfixVersion = 0;
 }
 

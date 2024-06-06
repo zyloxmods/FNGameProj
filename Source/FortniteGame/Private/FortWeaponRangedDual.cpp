@@ -14,13 +14,13 @@ EDualWeaponHand AFortWeaponRangedDual::GetLastFireHand() const {
 }
 
 AFortWeaponRangedDual::AFortWeaponRangedDual() {
-    this->LeftHandWeaponMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("Left Hand Weapon Mesh"));
-    this->LeftHandFireAnimation = NULL;
-    this->LeftCockingAnimation = NULL;
-    this->LeftHandFireDownsightsAnimation = NULL;
-    this->LeftWeaponFireMontage = NULL;
-    this->LeftWeaponFireDownsightsMontage = NULL;
-    this->LeftWeaponCockingMontage = NULL;
-    this->LeftWeaponReloadMontage = NULL;
+    LeftHandWeaponMesh = CreateDefaultSubobject<USkeletalMeshComponentBudgeted>(TEXT("Left Hand Weapon Mesh"));
+    LeftHandFireAnimation = NULL;
+    LeftCockingAnimation = NULL;
+    LeftHandFireDownsightsAnimation = NULL;
+    LeftWeaponFireMontage = NULL;
+    LeftWeaponFireDownsightsMontage = NULL;
+    LeftWeaponCockingMontage = NULL;
+    LeftWeaponReloadMontage = NULL;
 }
 

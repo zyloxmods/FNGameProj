@@ -39,11 +39,11 @@ void ABuildingFillFloor::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 ABuildingFillFloor::ABuildingFillFloor() {
-    this->StepIndex = 0;
-    this->FloorZ = 1;
-    this->InitialDelay = 1;
-    this->NumStepsToUse = 0;
-    this->FloorMovementSpeed = 1;
-    this->bIsMoving = false;
+    StepIndex = 0;
+    FloorZ = 1;
+    InitialDelay = 1;
+    NumStepsToUse = 0;
+    FloorMovementSpeed = 1;
+    bIsMoving = false;
 }
 

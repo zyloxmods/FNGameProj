@@ -7,6 +7,6 @@ void UFortNewPlayerParams::BreakParams(AFortPlayerController*& _NewPlayerControl
 }
 
 UFortNewPlayerParams::UFortNewPlayerParams() {
-    this->NewPlayerController = NULL;
+    NewPlayerController = NULL;
 }
 

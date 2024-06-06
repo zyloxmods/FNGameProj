@@ -1,11 +1,11 @@
 #include "FortTheaterRuntimeData.h"
 
 FFortTheaterRuntimeData::FFortTheaterRuntimeData() {
-    this->TheaterType = EFortTheaterType::Standard;
-    this->RequiredSubGameForVisibility = ESubGame::Campaign;
-    this->bOnlyMatchLinkedQuestsToTiles = false;
-    this->WorldMapPinClass = NULL;
-    this->TheaterImage = NULL;
-    this->HighestDifficulty = 1;
+    TheaterType = EFortTheaterType::Standard;
+    RequiredSubGameForVisibility = ESubGame::Campaign;
+    bOnlyMatchLinkedQuestsToTiles = false;
+    WorldMapPinClass = NULL;
+    TheaterImage = NULL;
+    HighestDifficulty = 1;
 }
 

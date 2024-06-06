@@ -1,7 +1,7 @@
 #include "AthenaLoadoutEntry.h"
 
 FAthenaLoadoutEntry::FAthenaLoadoutEntry() {
-    this->ItemToGrant = NULL;
-    this->DesiredSlot = 0;
+    ItemToGrant = NULL;
+    DesiredSlot = 0;
 }
 

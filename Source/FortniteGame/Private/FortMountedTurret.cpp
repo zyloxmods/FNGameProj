@@ -16,16 +16,16 @@ void AFortMountedTurret::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AFortMountedTurret::AFortMountedTurret() {
-    this->TeamIndex = 0;
-    this->bConstrainVerticalRotationOnly = true;
-    this->PedalScaler = 1;
-    this->MovementParam = 1;
-    this->BatteryParam = 1;
-    this->RumbleIntensity = 1;
-    this->DriverCameraShake = NULL;
-    this->PassengerCameraShake = NULL;
-    this->LocalPlayerPawn = NULL;
-    this->FortMountedTurretConfigsClass = NULL;
-    this->FortMountedTurretConfigs = NULL;
+    TeamIndex = 0;
+    bConstrainVerticalRotationOnly = true;
+    PedalScaler = 1;
+    MovementParam = 1;
+    BatteryParam = 1;
+    RumbleIntensity = 1;
+    DriverCameraShake = NULL;
+    PassengerCameraShake = NULL;
+    LocalPlayerPawn = NULL;
+    FortMountedTurretConfigsClass = NULL;
+    FortMountedTurretConfigs = NULL;
 }
 

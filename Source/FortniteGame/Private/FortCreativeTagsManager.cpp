@@ -5,7 +5,7 @@ TArray<FText> UFortCreativeTagsManager::GetCreativeTagsForItem(UFortItemDefiniti
 }
 
 UFortCreativeTagsManager::UFortCreativeTagsManager() {
-    this->CreativeTagsTable = NULL;
-    this->CreativeTagCategoriesTable = NULL;
+    CreativeTagsTable = NULL;
+    CreativeTagCategoriesTable = NULL;
 }
 

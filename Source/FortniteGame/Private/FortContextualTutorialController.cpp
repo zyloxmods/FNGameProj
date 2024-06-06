@@ -13,6 +13,6 @@ void UFortContextualTutorialController::HandleDamageReceived() {
 }
 
 UFortContextualTutorialController::UFortContextualTutorialController() {
-    this->OwnerController = NULL;
+    OwnerController = NULL;
 }
 

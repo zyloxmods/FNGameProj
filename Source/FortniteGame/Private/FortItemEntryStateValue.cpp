@@ -1,7 +1,7 @@
 #include "FortItemEntryStateValue.h"
 
 FFortItemEntryStateValue::FFortItemEntryStateValue() {
-    this->IntValue = 0;
-    this->StateType = EFortItemEntryState::NoneState;
+    IntValue = 0;
+    StateType = EFortItemEntryState::NoneState;
 }
 

@@ -1,10 +1,10 @@
 #include "FortAbilityTargetSelectionList.h"
 
 FFortAbilityTargetSelectionList::FFortAbilityTargetSelectionList() {
-    this->bStopAtFirstSuccess = false;
-    this->bKeepCheckingListOnIndestructibleHit = false;
-    this->bUseWeaponRanges = false;
-    this->bUseMaxYawAngleToTarget = false;
-    this->MaxYawAngleToTarget = 1;
+    bStopAtFirstSuccess = false;
+    bKeepCheckingListOnIndestructibleHit = false;
+    bUseWeaponRanges = false;
+    bUseMaxYawAngleToTarget = false;
+    MaxYawAngleToTarget = 1;
 }
 

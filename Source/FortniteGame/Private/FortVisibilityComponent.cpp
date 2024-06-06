@@ -1,13 +1,13 @@
 #include "FortVisibilityComponent.h"
 
 UFortVisibilityComponent::UFortVisibilityComponent() {
-    this->bRegisterWithVisibilityManager = true;
-    this->bObserver = false;
-    this->bDistanceCheck2D = true;
-    this->bCheckFacing = false;
-    this->bCheckLOS = false;
-    this->bRevealWithMap = true;
-    this->VisibilityBehavior = EFortVisibilityBehavior::Proximity;
-    this->Radius = 1;
+    bRegisterWithVisibilityManager = true;
+    bObserver = false;
+    bDistanceCheck2D = true;
+    bCheckFacing = false;
+    bCheckLOS = false;
+    bRevealWithMap = true;
+    VisibilityBehavior = EFortVisibilityBehavior::Proximity;
+    Radius = 1;
 }
 

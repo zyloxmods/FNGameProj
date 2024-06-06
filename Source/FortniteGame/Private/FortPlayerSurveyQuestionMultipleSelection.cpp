@@ -5,7 +5,7 @@ bool UFortPlayerSurveyQuestionMultipleSelection::TryGetMaxNumAnswers(int32& OutM
 }
 
 UFortPlayerSurveyQuestionMultipleSelection::UFortPlayerSurveyQuestionMultipleSelection() {
-    this->MinNumAnswers = 0;
-    this->MaxNumAnswers = 0;
+    MinNumAnswers = 0;
+    MaxNumAnswers = 0;
 }
 

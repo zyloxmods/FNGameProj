@@ -68,23 +68,23 @@ void AFortGameplayEffectDeliveryActor::GetLifetimeReplicatedProps(TArray<FLifeti
 }
 
 AFortGameplayEffectDeliveryActor::AFortGameplayEffectDeliveryActor() {
-    this->bKillOnExplode = true;
-    this->bSetHiddenOnKill = true;
-    this->bKillOnMaxTargetsTouched = false;
-    this->LifespanAfterKill = 1;
-    this->TouchingActorsEffectApplicationUpdateTime = 1;
-    this->bIsBeingKilled = false;
-    this->bHasExploded = false;
-    this->bIgnoreInstigatorCollision = true;
-    this->bIgnoreVehicleAndAttachedActors = false;
-    this->bDisableClientOverlapEvents = false;
-    this->bAddHitResultToTouchApplication = false;
-    this->bExplosionTransformIgnoresRotation = false;
-    this->bCanExplodeMultipleTimes = false;
-    this->bRegisterForEndOverlaps = false;
-    this->bSpawnNavAreaModifierOverTargetSelectionShape = false;
-    this->NavAreaClass = NULL;
-    this->CollisionComponent = NULL;
-    this->bDoExplosionReentrancyGuard = false;
+    bKillOnExplode = true;
+    bSetHiddenOnKill = true;
+    bKillOnMaxTargetsTouched = false;
+    LifespanAfterKill = 1;
+    TouchingActorsEffectApplicationUpdateTime = 1;
+    bIsBeingKilled = false;
+    bHasExploded = false;
+    bIgnoreInstigatorCollision = true;
+    bIgnoreVehicleAndAttachedActors = false;
+    bDisableClientOverlapEvents = false;
+    bAddHitResultToTouchApplication = false;
+    bExplosionTransformIgnoresRotation = false;
+    bCanExplodeMultipleTimes = false;
+    bRegisterForEndOverlaps = false;
+    bSpawnNavAreaModifierOverTargetSelectionShape = false;
+    NavAreaClass = NULL;
+    CollisionComponent = NULL;
+    bDoExplosionReentrancyGuard = false;
 }
 

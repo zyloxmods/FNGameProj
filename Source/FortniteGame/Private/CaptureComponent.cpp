@@ -58,24 +58,24 @@ void UCaptureComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 }
 
 UCaptureComponent::UCaptureComponent() {
-    this->OldSmoothedProgress = 1;
-    this->SmoothedProgress = 1;
-    this->SmoothProgressTimer = 1;
-    this->ProgressDecaySpeed = 1;
-    this->ProgressReverseSpeed = 1;
-    this->CurrentCaptureSpeed = 0;
-    this->CaptureSpeedBoost = 1;
-    this->CaptureSpeedBoostEmoting = 1;
-    this->NeutralizingTime = 0;
-    this->DeneutralizingSpeed = 0;
-    this->CaptureTime = 1;
-    this->CaptureTimeCurrent = 1;
-    this->PreviousCaptureState = ECaptureState::Neutral;
-    this->CapturingStateOwner = 0;
-    this->NeutralizingStateOwner = 0;
-    this->StateOwner = 0;
-    this->CaptureState = ECaptureState::Neutral;
-    this->CaptureProgress = 1;
-    this->SmoothProgressState = ESmoothProgressState::Enabled;
+    OldSmoothedProgress = 1;
+    SmoothedProgress = 1;
+    SmoothProgressTimer = 1;
+    ProgressDecaySpeed = 1;
+    ProgressReverseSpeed = 1;
+    CurrentCaptureSpeed = 0;
+    CaptureSpeedBoost = 1;
+    CaptureSpeedBoostEmoting = 1;
+    NeutralizingTime = 0;
+    DeneutralizingSpeed = 0;
+    CaptureTime = 1;
+    CaptureTimeCurrent = 1;
+    PreviousCaptureState = ECaptureState::Neutral;
+    CapturingStateOwner = 0;
+    NeutralizingStateOwner = 0;
+    StateOwner = 0;
+    CaptureState = ECaptureState::Neutral;
+    CaptureProgress = 1;
+    SmoothProgressState = ESmoothProgressState::Enabled;
 }
 

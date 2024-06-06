@@ -1,10 +1,10 @@
 #include "IntensityContribution.h"
 
 FIntensityContribution::FIntensityContribution() {
-    this->CombatFactor = EFortCombatFactors::PlayerDamageThreat;
-    this->ContributingAIDirectorFactor = EFortAIDirectorFactor::PlayerDamageThreat;
-    this->MaxContribution = 1;
-    this->bModifyContributionByCompletionPercentage = false;
-    this->bModifyByNumberOfCriticalEncounterGoals = false;
+    CombatFactor = EFortCombatFactors::PlayerDamageThreat;
+    ContributingAIDirectorFactor = EFortAIDirectorFactor::PlayerDamageThreat;
+    MaxContribution = 1;
+    bModifyContributionByCompletionPercentage = false;
+    bModifyByNumberOfCriticalEncounterGoals = false;
 }
 

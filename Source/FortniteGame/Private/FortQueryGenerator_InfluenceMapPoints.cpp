@@ -2,7 +2,7 @@
 #include "EnvironmentQuery/Contexts/EnvQueryContext_Querier.h"
 
 UFortQueryGenerator_InfluenceMapPoints::UFortQueryGenerator_InfluenceMapPoints() {
-    this->bOnlyFlatSurface = true;
-    this->GenerateAround = UEnvQueryContext_Querier::StaticClass();
+    bOnlyFlatSurface = true;
+    GenerateAround = UEnvQueryContext_Querier::StaticClass();
 }
 

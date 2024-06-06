@@ -1,10 +1,10 @@
 #include "FortGamepadBasicOptions.h"
 
 FFortGamepadBasicOptions::FFortGamepadBasicOptions() {
-    this->LookSensitivityPreset = EFortGamepadSensitivity::Invalid;
-    this->LookSensitivityPresetAds = EFortGamepadSensitivity::Invalid;
-    this->LookBuildModeMultiplier = 1;
-    this->LookEditModeMultiplier = 1;
-    this->bUseAdvancedOptions = false;
+    LookSensitivityPreset = EFortGamepadSensitivity::Invalid;
+    LookSensitivityPresetAds = EFortGamepadSensitivity::Invalid;
+    LookBuildModeMultiplier = 1;
+    LookEditModeMultiplier = 1;
+    bUseAdvancedOptions = false;
 }
 

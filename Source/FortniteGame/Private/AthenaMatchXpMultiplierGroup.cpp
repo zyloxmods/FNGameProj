@@ -1,7 +1,7 @@
 #include "AthenaMatchXpMultiplierGroup.h"
 
 FAthenaMatchXpMultiplierGroup::FAthenaMatchXpMultiplierGroup() {
-    this->Source = EAthenaMatchXpMultiplierSource::Invalid;
-    this->Amount = 0;
+    Source = EAthenaMatchXpMultiplierSource::Invalid;
+    Amount = 0;
 }
 

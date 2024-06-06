@@ -45,34 +45,34 @@ void ABuildingRift::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLif
 }
 
 ABuildingRift::ABuildingRift() {
-    this->DamageSet = NULL;
-    this->DistToTarget = 1;
-    this->bSendMissionEvents = false;
-    this->bDelayDeath = false;
-    this->SlotSelectionMode = EFortRiftSpawnSlotSelectionMode::Random;
-    this->MinSpawnDelay = 1;
-    this->MaxSpawnDelay = 1;
-    this->CosmeticStateIdleDelay = 1;
-    this->IntroToBeginSpawningDelay = 1;
-    this->EnvironmentQuery = NULL;
-    this->QueryRadius = 1;
-    this->QueryMinDistance = 1;
-    this->bOverrideQueryMinDistance = false;
-    this->bRegisterAsASpecialActor = false;
-    this->bShouldDrawCompassIcon = false;
-    this->bSpawnUsingRiftRotation = false;
-    this->bRiftIsVisible = false;
-    this->bRiftIsActive = false;
-    this->bIsReadyToSpawnAI = false;
-    this->bHasBeenInitialized = false;
-    this->bHasBadRiftSlots = false;
-    this->bRecalculateSpawnPointsPeriodically = false;
-    this->SpawnPointEvaluationInterval = 1;
-    this->bCreateOverlapSphere = false;
-    this->OverlapSphereComponent = NULL;
-    this->LootDropConeHalfAngle = 1;
-    this->LootDropSpeed = 1;
-    this->CosmeticState = ERiftCosmeticState::None;
-    this->SpectatorMapIcon = CreateDefaultSubobject<UFortSpectateClickableMapIcon>(TEXT("FortSpectateClickableMapIcon"));
+    DamageSet = NULL;
+    DistToTarget = 1;
+    bSendMissionEvents = false;
+    bDelayDeath = false;
+    SlotSelectionMode = EFortRiftSpawnSlotSelectionMode::Random;
+    MinSpawnDelay = 1;
+    MaxSpawnDelay = 1;
+    CosmeticStateIdleDelay = 1;
+    IntroToBeginSpawningDelay = 1;
+    EnvironmentQuery = NULL;
+    QueryRadius = 1;
+    QueryMinDistance = 1;
+    bOverrideQueryMinDistance = false;
+    bRegisterAsASpecialActor = false;
+    bShouldDrawCompassIcon = false;
+    bSpawnUsingRiftRotation = false;
+    bRiftIsVisible = false;
+    bRiftIsActive = false;
+    bIsReadyToSpawnAI = false;
+    bHasBeenInitialized = false;
+    bHasBadRiftSlots = false;
+    bRecalculateSpawnPointsPeriodically = false;
+    SpawnPointEvaluationInterval = 1;
+    bCreateOverlapSphere = false;
+    OverlapSphereComponent = NULL;
+    LootDropConeHalfAngle = 1;
+    LootDropSpeed = 1;
+    CosmeticState = ERiftCosmeticState::None;
+    SpectatorMapIcon = CreateDefaultSubobject<UFortSpectateClickableMapIcon>(TEXT("FortSpectateClickableMapIcon"));
 }
 

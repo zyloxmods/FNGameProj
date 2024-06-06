@@ -1,6 +1,6 @@
 #include "FortItemQuantityPair.h"
 
 FFortItemQuantityPair::FFortItemQuantityPair() {
-    this->Quantity = 0;
+    Quantity = 0;
 }
 

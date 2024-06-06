@@ -23,7 +23,7 @@ void AFortGameStateBase::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& O
 }
 
 AFortGameStateBase::AFortGameStateBase() {
-    this->FortTimeOfDayManager = NULL;
-    this->StormShield = NULL;
+    FortTimeOfDayManager = NULL;
+    StormShield = NULL;
 }
 

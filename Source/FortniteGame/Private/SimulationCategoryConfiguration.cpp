@@ -1,6 +1,6 @@
 #include "SimulationCategoryConfiguration.h"
 
 USimulationCategoryConfiguration::USimulationCategoryConfiguration() {
-    this->SavedClassLimits.AddDefaulted(20);
+    SavedClassLimits.AddDefaulted(20);
 }
 

@@ -11,7 +11,7 @@ void AFortWeap_EditingTool::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 AFortWeap_EditingTool::AFortWeap_EditingTool() {
-    this->EditActor = NULL;
-    this->bEditConfirmed = false;
+    EditActor = NULL;
+    bEditConfirmed = false;
 }
 

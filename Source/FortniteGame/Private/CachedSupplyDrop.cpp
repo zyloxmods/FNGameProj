@@ -1,7 +1,7 @@
 #include "CachedSupplyDrop.h"
 
 FCachedSupplyDrop::FCachedSupplyDrop() {
-    this->SupplyDrop = NULL;
-    this->bInOctree = false;
+    SupplyDrop = NULL;
+    bInOctree = false;
 }
 

@@ -1,9 +1,9 @@
 #include "FortQueryTest_OnFlatSurface.h"
 
 UFortQueryTest_OnFlatSurface::UFortQueryTest_OnFlatSurface() {
-    this->Radius = 1;
-    this->ToleranceZ = 1;
-    this->TraceOffsetUp = 1;
-    this->TraceOffsetDown = 1;
+    Radius = 1;
+    ToleranceZ = 1;
+    TraceOffsetUp = 1;
+    TraceOffsetDown = 1;
 }
 

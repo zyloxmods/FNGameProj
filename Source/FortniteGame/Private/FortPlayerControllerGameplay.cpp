@@ -295,32 +295,32 @@ void AFortPlayerControllerGameplay::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 AFortPlayerControllerGameplay::AFortPlayerControllerGameplay() {
-    this->FortAmbientAudioController = NULL;
-    this->PoiTagContainerTableID = 0;
-    this->CreativeCameraPreviewScreenshotClass = NULL;
-    this->CreativeQuickbarComponent = NULL;
-    this->ServerNumNPCs = 0;
-    this->ServerMaxNumNPCs = 0;
-    this->bDisplayNPCNumbers = false;
-    this->bHasSetInitialPoiTags = false;
-    this->CreativeModeFlyingInputComponent = NULL;
-    this->CreativeModeInputComponent = NULL;
-    this->CreativeGlobalOptionsInputComponent = NULL;
-    this->CreativeModePreviewScreenshotInputComponent = NULL;
-    this->CreativeModeInGameReadyCheckInputComponent = NULL;
-    this->FlyingModifiers.AddDefaulted(5);
-    this->FlyingModifierIndex = 0;
-    this->UIMetricsDisplayIndex = 0;
-    this->FlightSpeedWhenEnteredSprint = 0;
-    this->bIsFlightSprinting = false;
-    this->bIsCreativeModeEnabled = false;
-    this->bIsCreativeQuickbarEnabled = true;
-    this->bIsCreativeQuickmenuEnabled = true;
-    this->bCreativeMCPProfileIsMatchamkingEnabled = false;
-    this->bIsCreativeThermometer2Enabled = false;
-    this->bIsCreativeThermometerNewUIEnabled = false;
-    this->bIsCreativeIslandExporterEnabled = false;
-    this->DefaultCameraModifierClasses.AddDefaulted(1);
-    this->CreativeOptionsInternal = NULL;
+    FortAmbientAudioController = NULL;
+    PoiTagContainerTableID = 0;
+    CreativeCameraPreviewScreenshotClass = NULL;
+    CreativeQuickbarComponent = NULL;
+    ServerNumNPCs = 0;
+    ServerMaxNumNPCs = 0;
+    bDisplayNPCNumbers = false;
+    bHasSetInitialPoiTags = false;
+    CreativeModeFlyingInputComponent = NULL;
+    CreativeModeInputComponent = NULL;
+    CreativeGlobalOptionsInputComponent = NULL;
+    CreativeModePreviewScreenshotInputComponent = NULL;
+    CreativeModeInGameReadyCheckInputComponent = NULL;
+    FlyingModifiers.AddDefaulted(5);
+    FlyingModifierIndex = 0;
+    UIMetricsDisplayIndex = 0;
+    FlightSpeedWhenEnteredSprint = 0;
+    bIsFlightSprinting = false;
+    bIsCreativeModeEnabled = false;
+    bIsCreativeQuickbarEnabled = true;
+    bIsCreativeQuickmenuEnabled = true;
+    bCreativeMCPProfileIsMatchamkingEnabled = false;
+    bIsCreativeThermometer2Enabled = false;
+    bIsCreativeThermometerNewUIEnabled = false;
+    bIsCreativeIslandExporterEnabled = false;
+    DefaultCameraModifierClasses.AddDefaulted(1);
+    CreativeOptionsInternal = NULL;
 }
 

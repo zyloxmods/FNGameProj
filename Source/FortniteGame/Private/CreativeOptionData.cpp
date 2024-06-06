@@ -1,6 +1,6 @@
 #include "CreativeOptionData.h"
 
 FCreativeOptionData::FCreativeOptionData() {
-    this->Value = 0;
+    Value = 0;
 }
 

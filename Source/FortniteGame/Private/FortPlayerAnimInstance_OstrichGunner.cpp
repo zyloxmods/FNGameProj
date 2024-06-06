@@ -1,11 +1,11 @@
 #include "FortPlayerAnimInstance_OstrichGunner.h"
 
 UFortPlayerAnimInstance_OstrichGunner::UFortPlayerAnimInstance_OstrichGunner() {
-    this->BodyRecoilAlphaValue = 1;
-    this->BodyRecoilAlphaWhenShotgunIsFired = 1;
-    this->BodyRecoilAlphaNoShotgunFired = 1;
-    this->bIsMechShotgunFired = false;
-    this->bIsMechBeginFired = false;
-    this->bIsRocketFiring = false;
+    BodyRecoilAlphaValue = 1;
+    BodyRecoilAlphaWhenShotgunIsFired = 1;
+    BodyRecoilAlphaNoShotgunFired = 1;
+    bIsMechShotgunFired = false;
+    bIsMechBeginFired = false;
+    bIsRocketFiring = false;
 }
 

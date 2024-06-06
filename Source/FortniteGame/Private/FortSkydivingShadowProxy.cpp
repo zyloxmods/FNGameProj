@@ -6,9 +6,9 @@ void AFortSkydivingShadowProxy::CheckHeight() {
 }
 
 AFortSkydivingShadowProxy::AFortSkydivingShadowProxy() {
-    this->SkydivingHeightThreshold = 1;
-    this->SkydivingHeightCheckInterval = 1;
-    this->bDestroyOnHide = true;
-    this->ViewingPlayerController = NULL;
+    SkydivingHeightThreshold = 1;
+    SkydivingHeightCheckInterval = 1;
+    bDestroyOnHide = true;
+    ViewingPlayerController = NULL;
 }
 

@@ -1,9 +1,9 @@
 #include "FortQuestMapPage.h"
 
 FFortQuestMapPage::FFortQuestMapPage() {
-    this->PageIndex = 0;
-    this->ChapterPageCount = 0;
-    this->CameraMode = EFrontEndCamera::Invalid;
-    this->QuestNodeLayout = NULL;
+    PageIndex = 0;
+    ChapterPageCount = 0;
+    CameraMode = EFrontEndCamera::Invalid;
+    QuestNodeLayout = NULL;
 }
 

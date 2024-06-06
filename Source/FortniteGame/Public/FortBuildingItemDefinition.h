@@ -18,6 +18,6 @@ private:
     TSoftObjectPtr<UTexture2D> InactivePreviewImage;
     
 public:
-    UFortBuildingItemDefinition();
+    UFortBuildingItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

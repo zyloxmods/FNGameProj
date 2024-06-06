@@ -30,12 +30,12 @@ void UFortAbilityTask_DirectedMovement::GetLifetimeReplicatedProps(TArray<FLifet
 }
 
 UFortAbilityTask_DirectedMovement::UFortAbilityTask_DirectedMovement() {
-    this->TargetComponent = NULL;
-    this->MovementDistance = 1;
-    this->IdealArrivalDistance = 1;
-    this->DurationOfMovement = 1;
-    this->bModifyZ = false;
-    this->bCancelOnFalling = false;
-    this->MovementComponent = NULL;
+    TargetComponent = NULL;
+    MovementDistance = 1;
+    IdealArrivalDistance = 1;
+    DurationOfMovement = 1;
+    bModifyZ = false;
+    bCancelOnFalling = false;
+    MovementComponent = NULL;
 }
 

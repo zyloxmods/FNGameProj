@@ -7,7 +7,7 @@ void UFortMinigameManager::GetSourceAndContextTags(FGameplayTagContainer& OutSou
 }
 
 UFortMinigameManager::UFortMinigameManager() {
-    this->PlayerController = NULL;
-    this->CurrentMinigame = NULL;
+    PlayerController = NULL;
+    CurrentMinigame = NULL;
 }
 

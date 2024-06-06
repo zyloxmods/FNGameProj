@@ -1,16 +1,16 @@
 #include "MinigamePlayer.h"
 
 FMinigamePlayer::FMinigamePlayer() {
-    this->bHasValidResetData = false;
-    this->ClassSlotIndex = 0;
-    this->LastClassSwitchTime = 1;
-    this->TeamBeforeMinigameStarted = 0;
-    this->bIsLocationBeforeGameStartedBlocked = false;
-    this->bWasSkydivingBeforeMinigameStarted = false;
-    this->bWasFlyingBeforeMinigameStarted = false;
-    this->bIsTeleportingOrRespawningForGameplay = false;
-    this->bIsLocalPlayer = false;
-    this->bPreparingForRespawn = false;
-    this->ClaimedPlayerStart = NULL;
+    bHasValidResetData = false;
+    ClassSlotIndex = 0;
+    LastClassSwitchTime = 1;
+    TeamBeforeMinigameStarted = 0;
+    bIsLocationBeforeGameStartedBlocked = false;
+    bWasSkydivingBeforeMinigameStarted = false;
+    bWasFlyingBeforeMinigameStarted = false;
+    bIsTeleportingOrRespawningForGameplay = false;
+    bIsLocalPlayer = false;
+    bPreparingForRespawn = false;
+    ClaimedPlayerStart = NULL;
 }
 

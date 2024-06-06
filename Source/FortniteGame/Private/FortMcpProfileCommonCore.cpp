@@ -34,7 +34,7 @@ void UFortMcpProfileCommonCore::ClaimImportFriendsReward_Implementation(ESocialI
 }
 */
 UFortMcpProfileCommonCore::UFortMcpProfileCommonCore() {
-    this->ListCatalogEntriesUrl = TEXT("/api/storefront/v2/catalog");
-    this->AffiliateExpirationSeconds = 0;
+    ListCatalogEntriesUrl = TEXT("/api/storefront/v2/catalog");
+    AffiliateExpirationSeconds = 0;
 }
 

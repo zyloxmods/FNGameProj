@@ -2,6 +2,6 @@
 #include "Components/SplineComponent.h"
 
 AFortTrack_CustomSpline::AFortTrack_CustomSpline() {
-    this->CustomSplineComp = CreateDefaultSubobject<USplineComponent>(TEXT("CustomSplineComp"));
+    CustomSplineComp = CreateDefaultSubobject<USplineComponent>(TEXT("CustomSplineComp"));
 }
 

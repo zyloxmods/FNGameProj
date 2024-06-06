@@ -11,6 +11,6 @@ void AFortHotfixBehaviorVolume::CopyToClipboard() {
 }
 
 AFortHotfixBehaviorVolume::AFortHotfixBehaviorVolume() {
-    this->TriggerBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("TriggerBox0"));
+    TriggerBoxComponent = CreateDefaultSubobject<UBoxComponent>(TEXT("TriggerBox0"));
 }
 

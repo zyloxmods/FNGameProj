@@ -24,7 +24,8 @@ TSoftClassPtr<ABattleBusCosmeticInstanceBase> UAthenaBattleBusItemDefinition::Ge
     return NULL;
 }
 
-UAthenaBattleBusItemDefinition::UAthenaBattleBusItemDefinition() {
-    this->ItemType = EFortItemType::AthenaBattleBus;
+UAthenaBattleBusItemDefinition::UAthenaBattleBusItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    ItemType = EFortItemType::AthenaBattleBus;
 }
 

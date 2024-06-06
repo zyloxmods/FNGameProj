@@ -1,7 +1,7 @@
 #include "AIDiscouragedGoalTimer.h"
 
 FAIDiscouragedGoalTimer::FAIDiscouragedGoalTimer() {
-    this->ExpirationTime = 4294967295;
-    this->NumberOfTimesMarkedForDiscouragement = 0;
+    ExpirationTime = 4294967295;
+    NumberOfTimesMarkedForDiscouragement = 0;
 }
 

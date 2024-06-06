@@ -1,22 +1,22 @@
 #include "BuildingSMActorClassData.h"
 
 FBuildingSMActorClassData::FBuildingSMActorClassData() {
-    this->ShieldBuffMaterialParamValue1 = 1;
-    this->ShieldBuffMaterialParamValue2 = 1;
-    this->AnimatingDistanceFieldSelfShadowBias = 1;
-    this->AnimatingSubObjects = 1;
-    this->PlayerGridSnapSize = 1;
-    this->NumFrameSubObjects = 0;
-    this->bForceReplicateSubObjects = false;
-    this->bNoPhysicsCollision = false;
-    this->bNoCameraCollision = false;
-    this->bNoPawnCollision = false;
-    this->bNoAIPawnCollision = false;
-    this->bBlocksCeilingPlacement = false;
-    this->bBlocksAttachmentPlacement = false;
-    this->bUsePhysicalSurfaceForFootstep = false;
-    this->bRandomYawOnPlacement = false;
-    this->bRandomScaleOnPlacement = false;
-    this->bClearMIDWhenReturningToUndamagedState = false;
+    ShieldBuffMaterialParamValue1 = 1;
+    ShieldBuffMaterialParamValue2 = 1;
+    AnimatingDistanceFieldSelfShadowBias = 1;
+    AnimatingSubObjects = 1;
+    PlayerGridSnapSize = 1;
+    NumFrameSubObjects = 0;
+    bForceReplicateSubObjects = false;
+    bNoPhysicsCollision = false;
+    bNoCameraCollision = false;
+    bNoPawnCollision = false;
+    bNoAIPawnCollision = false;
+    bBlocksCeilingPlacement = false;
+    bBlocksAttachmentPlacement = false;
+    bUsePhysicalSurfaceForFootstep = false;
+    bRandomYawOnPlacement = false;
+    bRandomScaleOnPlacement = false;
+    bClearMIDWhenReturningToUndamagedState = false;
 }
 

@@ -1,8 +1,8 @@
 #include "FortStormShieldCameraActor.h"
 
 AFortStormShieldCameraActor::AFortStormShieldCameraActor() {
-    this->CameraTurnSpeed = 1;
-    this->CameraOffsetForward = 1;
-    this->CameraOffsetZ = 1;
+    CameraTurnSpeed = 1;
+    CameraOffsetForward = 1;
+    CameraOffsetZ = 1;
 }
 

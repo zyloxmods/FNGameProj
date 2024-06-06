@@ -1,8 +1,8 @@
 #include "OriginalAndSpawnedPair.h"
 
 FOriginalAndSpawnedPair::FOriginalAndSpawnedPair() {
-    this->OriginalActor = NULL;
-    this->SpawnedActor = NULL;
-    this->bSpawnedActorIsForPreview = false;
+    OriginalActor = NULL;
+    SpawnedActor = NULL;
+    bSpawnedActorIsForPreview = false;
 }
 

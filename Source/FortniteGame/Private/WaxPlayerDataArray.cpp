@@ -1,6 +1,6 @@
 #include "WaxPlayerDataArray.h"
 
 FWaxPlayerDataArray::FWaxPlayerDataArray() {
-    this->OwningMutator = NULL;
+    OwningMutator = NULL;
 }
 

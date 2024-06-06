@@ -4,6 +4,6 @@ void AFortAthenaMutator_AthenaLoadouts::OnGamePhaseChanged(EAthenaGamePhase NewP
 }
 
 AFortAthenaMutator_AthenaLoadouts::AFortAthenaMutator_AthenaLoadouts() {
-    this->LoadoutUserWidget = NULL;
+    LoadoutUserWidget = NULL;
 }
 

@@ -11,13 +11,15 @@ UCLASS(Abstract, Blueprintable, MinimalAPI)
 class UCustomDynamicColorSwatch : public UCustomColorSwatch {
     GENERATED_BODY()
 public:
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    //Name-color pairs of what named variables to set in the materials.
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Color Swatch")
     TArray<FColorSwatchPair> ColorPairs;
-    
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+
+    //Texture material parameters of what named variables to set in what materials for the character.
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Color Swatch")
     TArray<FCustomPartTextureParameter> TextureParameters;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true), Category = "Color Swatch")
     TMap<FName, TSoftObjectPtr<UTexture2D>> SpecificIconography;
     
     UCustomDynamicColorSwatch();

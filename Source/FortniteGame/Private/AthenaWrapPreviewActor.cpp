@@ -14,13 +14,13 @@ EWrapPreviewCamera AAthenaWrapPreviewActor::GetActiveCamera() const {
 }
 
 AAthenaWrapPreviewActor::AAthenaWrapPreviewActor() {
-    this->ZoomedInWeaponCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInWeaponCameraComponent"));
-    this->ZoomedOutVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutVehicleCameraComponent"));
-    this->ZoomedInVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInVehicleCameraComponent"));
-    this->ZoomedOutCampaignVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutCampaignVehicleCameraComponent"));
-    this->ZoomedInCampaignVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInCampaignVehicleCameraComponent"));
-    this->ZoomedOutLargeWeaponCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutLargeWeaponCameraComponent"));
-    this->ZoomedInLargeWeaponCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInLargeWeaponCameraComponent"));
-    this->PreviewSpawnPointComponent = CreateDefaultSubobject<USceneComponent>(TEXT("PreviewSpawnPointComponent"));
+    ZoomedInWeaponCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInWeaponCameraComponent"));
+    ZoomedOutVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutVehicleCameraComponent"));
+    ZoomedInVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInVehicleCameraComponent"));
+    ZoomedOutCampaignVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutCampaignVehicleCameraComponent"));
+    ZoomedInCampaignVehicleCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInCampaignVehicleCameraComponent"));
+    ZoomedOutLargeWeaponCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedOutLargeWeaponCameraComponent"));
+    ZoomedInLargeWeaponCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("ZoomedInLargeWeaponCameraComponent"));
+    PreviewSpawnPointComponent = CreateDefaultSubobject<USceneComponent>(TEXT("PreviewSpawnPointComponent"));
 }
 

@@ -3,17 +3,30 @@
 #include "Kismet/GameplayStatics.h"
 
 UFortAnimNotifyState_EmoteSound::UFortAnimNotifyState_EmoteSound() {
-    this->EmoteSound1P = NULL;
-    this->EmoteSound3P = NULL;
-    this->bPrimarySound = true;
-    this->FadeOutTime = 1;
-    this->CopyrightedAudio = false;
+    EmoteSound1P = NULL;
+    EmoteSound3P = NULL;
+    bPrimarySound = true;
+    FadeOutTime = 1;
+    CopyrightedAudio = false;
 }
 
 void UFortAnimNotifyState_EmoteSound::NotifyBegin(USkeletalMeshComponent* MeshComp, UAnimSequenceBase* Animation, float TotalDuration)
 {
-    if (EmoteSound3P != nullptr)
+    Super::NotifyBegin(MeshComp, Animation, TotalDuration);
+    
+      APlayerController* PlayerController = Cast<APlayerController>(MeshComp->GetOwner()->GetInstigatorController());
+    if (PlayerController && PlayerController->IsLocalPlayerController())
     {
-        UGameplayStatics::PlaySoundAtLocation(MeshComp->GetWorld(), EmoteSound3P, MeshComp->GetComponentLocation(), 0.4f);
+        if (EmoteSound1P)
+        {
+            UGameplayStatics::SpawnSoundAttached(EmoteSound1P, MeshComp, "pelvis", FVector::ZeroVector, EAttachLocation::SnapToTarget, false, FadeOutTime);
+        }
+    }
+    else
+    {
+        if (EmoteSound3P)
+        {
+            UGameplayStatics::SpawnSoundAttached(EmoteSound3P, MeshComp, "pelvis", FVector::ZeroVector, EAttachLocation::SnapToTarget, false, FadeOutTime);
+        }
     }
 }

@@ -65,6 +65,6 @@ bool UFortHeroGameplayDefinition::DoesHeroPerkApplyToCommander(UFortHero* FortHe
 }
 
 UFortHeroGameplayDefinition::UFortHeroGameplayDefinition() {
-    this->HeroClassGameplayDefinition = NULL;
+    HeroClassGameplayDefinition = NULL;
 }
 

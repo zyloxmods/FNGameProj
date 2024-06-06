@@ -1,7 +1,7 @@
 #include "FortCollectionBookCategory.h"
 
 UFortCollectionBookCategory::UFortCollectionBookCategory() {
-    this->bIsCategoryUIExpanded = false;
-    this->SortPriority = 0;
+    bIsCategoryUIExpanded = false;
+    SortPriority = 0;
 }
 

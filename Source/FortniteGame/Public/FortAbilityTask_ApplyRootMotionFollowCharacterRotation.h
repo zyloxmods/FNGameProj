@@ -4,6 +4,7 @@
 #include "GameFramework/RootMotionSource.h"
 #include "ApplyRootMotionFallingBoostForceDelegateDelegate.h"
 #include "ApplyRootMotionFollowCharacterRotationDelegateDelegate.h"
+#include "Abilities/Tasks/AbilityTask_ApplyRootMotion_Base.h"
 #include "FortAbilityTask_ApplyRootMotionFollowCharacterRotation.generated.h"
 
 class UCurveFloat;

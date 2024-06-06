@@ -1,7 +1,7 @@
 #include "InitialGameplayEffectInfo.h"
 
 FInitialGameplayEffectInfo::FInitialGameplayEffectInfo() {
-    this->GameplayEffect = NULL;
-    this->Level = 1;
+    GameplayEffect = NULL;
+    Level = 1;
 }
 

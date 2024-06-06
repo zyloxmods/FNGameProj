@@ -2,9 +2,9 @@
 
 
 ABuildingProp_QuestGlyph::ABuildingProp_QuestGlyph() {
-    this->QuestDef = NULL;
-    this->bShowContextInfo = true;
-    this->bContextInfoUnlocked = false;
-    this->ActivationRange = 1;
+    QuestDef = NULL;
+    bShowContextInfo = true;
+    bContextInfoUnlocked = false;
+    ActivationRange = 1;
 }
 

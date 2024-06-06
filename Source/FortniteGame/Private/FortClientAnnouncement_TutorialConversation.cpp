@@ -11,6 +11,6 @@ void AFortClientAnnouncement_TutorialConversation::GetLifetimeReplicatedProps(TA
 }
 
 AFortClientAnnouncement_TutorialConversation::AFortClientAnnouncement_TutorialConversation() {
-    this->AutoContinueDelay = 1;
+    AutoContinueDelay = 1;
 }
 

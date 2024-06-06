@@ -13,11 +13,11 @@ void AFortPoiVolume::CalendarEventsShouldBeReady(const TArray<FString>& NewEvent
 }
 
 AFortPoiVolume::AFortPoiVolume() {
-    this->bIsLargeGameVolume = false;
-    this->CurrentFortPoiVolumeSize = 1;
-    this->VolumeThresholdForLargeGameVolume = 1;
-    this->LargeGameVolume = 1;
-    this->AudioBank = NULL;
-    this->PoiCollisionComp = CreateDefaultSubobject<UFortPoiCollisionComponent>(TEXT("TestPrimComp0"));
+    bIsLargeGameVolume = false;
+    CurrentFortPoiVolumeSize = 1;
+    VolumeThresholdForLargeGameVolume = 1;
+    LargeGameVolume = 1;
+    AudioBank = NULL;
+    PoiCollisionComp = CreateDefaultSubobject<UFortPoiCollisionComponent>(TEXT("TestPrimComp0"));
 }
 

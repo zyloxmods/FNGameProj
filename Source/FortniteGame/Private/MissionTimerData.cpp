@@ -1,11 +1,11 @@
 #include "MissionTimerData.h"
 
 FMissionTimerData::FMissionTimerData() {
-    this->bTimerIsPaused = false;
-    this->OriginalTimePeriod = 1;
-    this->ReplicatedRemainingTime = 1;
-    this->TimeAddedOrRemoved = 1;
-    this->LastTimeAddedOrRemoved = 1;
-    this->ClientRemainingTime = 1;
+    bTimerIsPaused = false;
+    OriginalTimePeriod = 1;
+    ReplicatedRemainingTime = 1;
+    TimeAddedOrRemoved = 1;
+    LastTimeAddedOrRemoved = 1;
+    ClientRemainingTime = 1;
 }
 

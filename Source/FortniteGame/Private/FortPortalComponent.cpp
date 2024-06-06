@@ -53,11 +53,11 @@ void UFortPortalComponent::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>&
 }
 
 UFortPortalComponent::UFortPortalComponent() {
-    this->ThumbnailTexture = NULL;
-    this->ThumbnailTextureWidth = 0;
-    this->ThumbnailTextureHeight = 0;
-    this->LinkCodeLockMode = EPortalLinkCodeLockMode::NeverLocked;
-    this->LinkCodeLockStatus = EPortalLinkCodeLockStatus::Unlocked_NotSet;
-    this->bHasValidLinkData = false;
+    ThumbnailTexture = NULL;
+    ThumbnailTextureWidth = 0;
+    ThumbnailTextureHeight = 0;
+    LinkCodeLockMode = EPortalLinkCodeLockMode::NeverLocked;
+    LinkCodeLockStatus = EPortalLinkCodeLockStatus::Unlocked_NotSet;
+    bHasValidLinkData = false;
 }
 

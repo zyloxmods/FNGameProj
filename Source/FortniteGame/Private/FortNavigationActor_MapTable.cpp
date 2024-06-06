@@ -6,7 +6,7 @@ void AFortNavigationActor_MapTable::HandleActiveEventsChanged(const TArray<FStri
 }
 
 AFortNavigationActor_MapTable::AFortNavigationActor_MapTable() {
-    this->ApolloMap = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ApolloMap"));
-    this->ReferencePlane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ReferencePlane"));
+    ApolloMap = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ApolloMap"));
+    ReferencePlane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ReferencePlane"));
 }
 

@@ -174,7 +174,7 @@ protected:
     TSoftObjectPtr<UFortAbilitySet> QuestAbilitySet;
     
 public:
-    UFortQuestItemDefinition();
+    UFortQuestItemDefinition(const FObjectInitializer& ObjectInitializer);
     UFUNCTION(BlueprintCallable, BlueprintPure)
     bool ShouldDisplayOverallQuestInformation() const;
     

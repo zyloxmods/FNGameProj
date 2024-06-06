@@ -23,6 +23,6 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAthenaBattleBusItemDefinition* BattleBusOverride;
     
-    UAthenaSeasonalDecorEvent();
+    UAthenaSeasonalDecorEvent(const FObjectInitializer& ObjectInitializer);
 };
 

@@ -4,11 +4,11 @@ void UFortGliderAnimInstance::SetGliderFullyDeployed(bool bIsFullyDeployed) {
 }
 
 UFortGliderAnimInstance::UFortGliderAnimInstance() {
-    this->DeltaTime = 1;
-    this->OwnerGlider = NULL;
-    this->OwnerFortPawn = NULL;
-    this->bIsAccelerating2D = false;
-    this->bForceOpen = false;
-    this->bForceOpen_SkipInto = false;
+    DeltaTime = 1;
+    OwnerGlider = NULL;
+    OwnerFortPawn = NULL;
+    bIsAccelerating2D = false;
+    bForceOpen = false;
+    bForceOpen_SkipInto = false;
 }
 

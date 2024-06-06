@@ -1,6 +1,6 @@
 #include "RepTrackMovement.h"
 
 FRepTrackMovement::FRepTrackMovement() {
-    this->Timestamp = 1;
+    Timestamp = 1;
 }
 

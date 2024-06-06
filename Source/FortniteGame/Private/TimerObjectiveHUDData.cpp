@@ -1,7 +1,7 @@
 #include "TimerObjectiveHUDData.h"
 
 FTimerObjectiveHUDData::FTimerObjectiveHUDData() {
-    this->TimeLeft = 1;
-    this->bIsPaused = false;
+    TimeLeft = 1;
+    bIsPaused = false;
 }
 

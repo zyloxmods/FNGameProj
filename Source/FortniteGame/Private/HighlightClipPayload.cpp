@@ -1,10 +1,10 @@
 #include "HighlightClipPayload.h"
 
 FHighlightClipPayload::FHighlightClipPayload() {
-    this->UCRN_HighlightId = 0;
-    this->UCRN_StartTimestamp = 1;
-    this->UCRN_Duration = 1;
-    this->UCRN_GameplayScore = 1;
-    this->UCRN_NetworkingFidelityAverage = 1;
+    UCRN_HighlightId = 0;
+    UCRN_StartTimestamp = 1;
+    UCRN_Duration = 1;
+    UCRN_GameplayScore = 1;
+    UCRN_NetworkingFidelityAverage = 1;
 }
 

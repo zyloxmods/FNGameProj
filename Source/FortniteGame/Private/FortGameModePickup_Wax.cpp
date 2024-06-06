@@ -10,7 +10,7 @@ void AFortGameModePickup_Wax::GetLifetimeReplicatedProps(TArray<FLifetimePropert
 }
 
 AFortGameModePickup_Wax::AFortGameModePickup_Wax() {
-    this->bIsFirstGeneration = false;
-    this->AmountOfTokens = 0;
+    bIsFirstGeneration = false;
+    AmountOfTokens = 0;
 }
 

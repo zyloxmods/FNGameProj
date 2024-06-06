@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortPlaysetWorldItemDefinition : public UFortWorldItemDefinition {
     GENERATED_BODY()
 public:
-    UFortPlaysetWorldItemDefinition();
+    UFortPlaysetWorldItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

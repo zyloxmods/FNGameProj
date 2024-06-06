@@ -1,5 +1,6 @@
 #include "FortMissionItemDefinition.h"
 
-UFortMissionItemDefinition::UFortMissionItemDefinition() {
+UFortMissionItemDefinition::UFortMissionItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
 }
 

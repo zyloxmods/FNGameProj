@@ -1,7 +1,7 @@
 #include "FortConversionTierData.h"
 
 FFortConversionTierData::FFortConversionTierData() {
-    this->TierCost = 0;
-    this->RequiredItemQuantity = 0;
+    TierCost = 0;
+    RequiredItemQuantity = 0;
 }
 

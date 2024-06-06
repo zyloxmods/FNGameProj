@@ -22,26 +22,26 @@ TSubclassOf<UFortAIPawnVariant> UFortAISpawnGroup::GetEnemy(int32 EnemyIndex) co
 }
 
 UFortAISpawnGroup::UFortAISpawnGroup() {
-    this->EnemyUtilities[0] = 1;
-    this->EnemyUtilities[1] = 1;
-    this->EnemyUtilities[2] = 1;
-    this->EnemyUtilities[3] = 1;
-    this->EnemyUtilities[4] = 1;
-    this->EnemyUtilities[5] = 1;
-    this->EnemyUtilities[6] = 1;
-    this->EnemyUtilities[7] = 1;
-    this->EnemyUtilities[8] = 1;
-    this->EnemyUtilities[9] = 1;
-    this->EnemyUtilities[10] = 1;
-    this->EnemyUtilities[11] = 1;
-    this->EnemyUtilities[12] = 1;
-    this->EnemyUtilities[13] = 1;
-    this->EnemyUtilities[14] = 1;
-    this->EnemyUtilities[15] = 1;
-    this->bIsPrototype = false;
-    this->bIsValidForEnemySpawners = false;
-    this->bIsLargeSpawnGroup = false;
-    this->MaxDiscountRatio = 1;
-    this->bUseWeightSystem = false;
+    EnemyUtilities[0] = 1;
+    EnemyUtilities[1] = 1;
+    EnemyUtilities[2] = 1;
+    EnemyUtilities[3] = 1;
+    EnemyUtilities[4] = 1;
+    EnemyUtilities[5] = 1;
+    EnemyUtilities[6] = 1;
+    EnemyUtilities[7] = 1;
+    EnemyUtilities[8] = 1;
+    EnemyUtilities[9] = 1;
+    EnemyUtilities[10] = 1;
+    EnemyUtilities[11] = 1;
+    EnemyUtilities[12] = 1;
+    EnemyUtilities[13] = 1;
+    EnemyUtilities[14] = 1;
+    EnemyUtilities[15] = 1;
+    bIsPrototype = false;
+    bIsValidForEnemySpawners = false;
+    bIsLargeSpawnGroup = false;
+    MaxDiscountRatio = 1;
+    bUseWeightSystem = false;
 }
 

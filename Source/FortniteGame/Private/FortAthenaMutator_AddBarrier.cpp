@@ -15,9 +15,9 @@ void AFortAthenaMutator_AddBarrier::GetLifetimeReplicatedProps(TArray<FLifetimeP
 }
 
 AFortAthenaMutator_AddBarrier::AFortAthenaMutator_AddBarrier() {
-    this->BigBaseWallClass = NULL;
-    this->bStartTimerAtSafeZone = false;
-    this->bSpawnAtMidFlightPathDuringBusLockedPhase = true;
-    this->BigBaseWall = NULL;
+    BigBaseWallClass = NULL;
+    bStartTimerAtSafeZone = false;
+    bSpawnAtMidFlightPathDuringBusLockedPhase = true;
+    BigBaseWall = NULL;
 }
 

@@ -18,7 +18,7 @@ private:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     TArray<FFortSpecializationSlot> SpecializationSlots;
     
-    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true, AssetBundles="Server"))
     TArray<TSoftObjectPtr<UCustomCharacterPart>> CharacterParts;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
@@ -41,5 +41,7 @@ private:
     
 public:
     UFortHeroSpecialization();
+    friend class UAthenaCharacterItemDefinition;
+    friend class UFortHeroType;
 };
 

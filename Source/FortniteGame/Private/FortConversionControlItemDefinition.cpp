@@ -32,8 +32,9 @@ EFortRarity UFortConversionControlItemDefinition::GetFirstConversionTier() const
     return EFortRarity::Common;
 }
 
-UFortConversionControlItemDefinition::UFortConversionControlItemDefinition() {
-    this->bConsumedOnConversion = false;
-    this->ItemType = EFortItemType::ConversionControl;
+UFortConversionControlItemDefinition::UFortConversionControlItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    bConsumedOnConversion = false;
+    ItemType = EFortItemType::ConversionControl;
 }
 

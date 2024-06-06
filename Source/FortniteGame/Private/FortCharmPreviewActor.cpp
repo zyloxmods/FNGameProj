@@ -8,7 +8,7 @@ void AFortCharmPreviewActor::ApplyMyCosmeticItemToHero(AFortPlayerPawn* PawnToMo
 }
 
 AFortCharmPreviewActor::AFortCharmPreviewActor() {
-    this->MyCosmeticItem = NULL;
-    this->CharmSlot = EFortCustomCharmType::Lapel;
+    MyCosmeticItem = NULL;
+    CharmSlot = EFortCustomCharmType::Lapel;
 }
 

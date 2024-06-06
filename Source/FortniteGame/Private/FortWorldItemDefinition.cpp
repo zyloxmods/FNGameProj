@@ -20,42 +20,43 @@ bool UFortWorldItemDefinition::CanBeDisassembled() const {
     return false;
 }
 
-UFortWorldItemDefinition::UFortWorldItemDefinition() {
-    this->DropBehavior = EWorldItemDropBehavior::DropAsPickup;
-    this->ItemType = EFortItemType::WorldItem;
-    this->bIgnoreRespawningForDroppingAsPickup = false;
-    this->bCanAutoEquipByClass = true;
-    this->bPersistInInventoryWhenFinalStackEmpty = false;
-    this->bSupportsQuickbarFocus = true;
-    this->bSupportsQuickbarFocusForGamepadOnly = false;
-    this->bShouldActivateWhenFocused = true;
-    this->bForceFocusWhenAdded = false;
-    this->bForceIntoOverflow = false;
-    this->bForceStayInOverflow = false;
-    this->bDropCurrentItemOnOverflow = true;
-    this->bShouldShowItemToast = true;
-    this->bShowDirectionalArrowWhenFarOff = true;
-    this->bCanBeDropped = true;
-    this->bCanBeReplacedByPickup = true;
-    this->bItemCanBeStolen = false;
-    this->bCanBeDepositedInStorageVault = true;
-    this->bItemHasDurability = false;
-    this->bAllowedToBeLockedInInventory = false;
-    this->bOverridePickupMeshTransform = false;
-    this->bAlwaysCountForCollectionQuest = false;
-    this->bDropOnDeath = false;
-    this->bDropOnLogout = false;
-    this->bDropOnDBNO = false;
-    this->bDoesNotNeedSourceSchematic = false;
-    this->bUsesGoverningTags = false;
-    this->DropCount = 0;
-    this->MiniMapViewableDistance = 1;
-    this->bIsPickupASpecialActor = false;
-    this->DisassembleDurabilityDegradeMinLootPercent = 1;
-    this->DisassembleDurabilityDegradeMaxLootPercent = 1;
-    this->PreferredQuickbarSlot = 0;
-    this->MinLevel = 0;
-    this->MaxLevel = 0;
-    this->NumberOfSlotsToTake = 1;
+UFortWorldItemDefinition::UFortWorldItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    DropBehavior = EWorldItemDropBehavior::DropAsPickup;
+    ItemType = EFortItemType::WorldItem;
+    bIgnoreRespawningForDroppingAsPickup = false;
+    bCanAutoEquipByClass = true;
+    bPersistInInventoryWhenFinalStackEmpty = false;
+    bSupportsQuickbarFocus = true;
+    bSupportsQuickbarFocusForGamepadOnly = false;
+    bShouldActivateWhenFocused = true;
+    bForceFocusWhenAdded = false;
+    bForceIntoOverflow = false;
+    bForceStayInOverflow = false;
+    bDropCurrentItemOnOverflow = true;
+    bShouldShowItemToast = true;
+    bShowDirectionalArrowWhenFarOff = true;
+    bCanBeDropped = true;
+    bCanBeReplacedByPickup = true;
+    bItemCanBeStolen = false;
+    bCanBeDepositedInStorageVault = true;
+    bItemHasDurability = false;
+    bAllowedToBeLockedInInventory = false;
+    bOverridePickupMeshTransform = false;
+    bAlwaysCountForCollectionQuest = false;
+    bDropOnDeath = false;
+    bDropOnLogout = false;
+    bDropOnDBNO = false;
+    bDoesNotNeedSourceSchematic = false;
+    bUsesGoverningTags = false;
+    DropCount = 0;
+    MiniMapViewableDistance = 1;
+    bIsPickupASpecialActor = false;
+    DisassembleDurabilityDegradeMinLootPercent = 1;
+    DisassembleDurabilityDegradeMaxLootPercent = 1;
+    PreferredQuickbarSlot = 0;
+    MinLevel = 0;
+    MaxLevel = 0;
+    NumberOfSlotsToTake = 1;
 }
 

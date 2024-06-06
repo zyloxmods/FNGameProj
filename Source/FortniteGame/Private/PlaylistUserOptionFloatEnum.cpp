@@ -1,6 +1,6 @@
 #include "PlaylistUserOptionFloatEnum.h"
 
 UPlaylistUserOptionFloatEnum::UPlaylistUserOptionFloatEnum() {
-    this->DefaultValueIndex = 0;
+    DefaultValueIndex = 0;
 }
 

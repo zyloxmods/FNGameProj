@@ -1,9 +1,9 @@
 #include "FortAnimInput_AdjustedAimOffset.h"
 
 FFortAnimInput_AdjustedAimOffset::FFortAnimInput_AdjustedAimOffset() {
-    this->YawOffset = 1;
-    this->PitchOffset = 1;
-    this->TargetingYawOffset = 1;
-    this->TargetingPitchOffset = 1;
+    YawOffset = 1;
+    PitchOffset = 1;
+    TargetingYawOffset = 1;
+    TargetingPitchOffset = 1;
 }
 

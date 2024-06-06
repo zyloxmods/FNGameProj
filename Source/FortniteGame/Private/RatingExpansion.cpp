@@ -1,7 +1,7 @@
 #include "RatingExpansion.h"
 
 FRatingExpansion::FRatingExpansion() {
-    this->Priority = 0;
-    this->RatingDelta = 0;
+    Priority = 0;
+    RatingDelta = 0;
 }
 

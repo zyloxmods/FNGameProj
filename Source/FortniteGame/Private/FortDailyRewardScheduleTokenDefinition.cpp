@@ -1,5 +1,6 @@
 #include "FortDailyRewardScheduleTokenDefinition.h"
 
-UFortDailyRewardScheduleTokenDefinition::UFortDailyRewardScheduleTokenDefinition() {
+UFortDailyRewardScheduleTokenDefinition::UFortDailyRewardScheduleTokenDefinition(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer) {
 }
 

@@ -15,6 +15,6 @@ protected:
     float StreakbreakerAccumulationMultiplier;
     
 public:
-    UFortPrerollDataItemDefinition();
+    UFortPrerollDataItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

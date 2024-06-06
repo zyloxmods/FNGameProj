@@ -5,8 +5,8 @@ FFortMusicSection UFortMusicAsset::GetMusicSection(TEnumAsByte<EFortMusicSection
 }
 
 UFortMusicAsset::UFortMusicAsset() {
-    this->Priority = 1;
-    this->StopBehavior = EFortMusicSectionStopBehavior::Crossfade;
-    this->bIsStinger = false;
+    Priority = 1;
+    StopBehavior = EFortMusicSectionStopBehavior::Crossfade;
+    bIsStinger = false;
 }
 

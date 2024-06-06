@@ -20,16 +20,16 @@ USkeletalMeshComponent* ABuildingProp_CreaturePlacer::GetCreatureSkeletalMeshCom
 }
 
 ABuildingProp_CreaturePlacer::ABuildingProp_CreaturePlacer() {
-    this->CurrentMinigameState = EFortMinigameState::PreGame;
-    this->bHideVFX = false;
-    this->bEnabledOnGameState = false;
-    this->bDestroyPreviousOnSpawn = false;
-    this->GameStateEnable = EFortMinigameState::PreGame;
-    this->bCreatureVisualsDoneLoading = true;
-    this->TurnOnReceiverComponent = CreateDefaultSubobject<UFortGameplayReceiverMessageComponent>(TEXT("TurnOnReceiver"));
-    this->TurnOffReceiverComponent = CreateDefaultSubobject<UFortGameplayReceiverMessageComponent>(TEXT("TurnOffReceiver"));
-    this->CreatureKilledTransmitComponent = CreateDefaultSubobject<UFortGameplayTriggerMessageComponent>(TEXT("CreatureKilledTransmitter"));
-    this->bEnableCreativeCreatureSpawners = false;
-    this->CreatureSkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CreatureSkeletalMeshComponent"));
+    CurrentMinigameState = EFortMinigameState::PreGame;
+    bHideVFX = false;
+    bEnabledOnGameState = false;
+    bDestroyPreviousOnSpawn = false;
+    GameStateEnable = EFortMinigameState::PreGame;
+    bCreatureVisualsDoneLoading = true;
+    TurnOnReceiverComponent = CreateDefaultSubobject<UFortGameplayReceiverMessageComponent>(TEXT("TurnOnReceiver"));
+    TurnOffReceiverComponent = CreateDefaultSubobject<UFortGameplayReceiverMessageComponent>(TEXT("TurnOffReceiver"));
+    CreatureKilledTransmitComponent = CreateDefaultSubobject<UFortGameplayTriggerMessageComponent>(TEXT("CreatureKilledTransmitter"));
+    bEnableCreativeCreatureSpawners = false;
+    CreatureSkeletalMeshComponent = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("CreatureSkeletalMeshComponent"));
 }
 

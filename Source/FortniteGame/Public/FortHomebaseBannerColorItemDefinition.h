@@ -7,6 +7,6 @@ UCLASS(Blueprintable)
 class UFortHomebaseBannerColorItemDefinition : public UFortAccountItemDefinition {
     GENERATED_BODY()
 public:
-    UFortHomebaseBannerColorItemDefinition();
+    UFortHomebaseBannerColorItemDefinition(const FObjectInitializer& ObjectInitializer);
 };
 

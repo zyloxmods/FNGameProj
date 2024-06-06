@@ -22,6 +22,6 @@ void UFortCurieInteractionComponent::HandleBeginOverlap(UPrimitiveComponent* Ove
 }
 
 UFortCurieInteractionComponent::UFortCurieInteractionComponent() {
-    this->CollisionComponent = NULL;
+    CollisionComponent = NULL;
 }
 

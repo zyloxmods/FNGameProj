@@ -9,7 +9,7 @@ TSubclassOf<ABuildingActor> UFortGameplayAbility_PossessProp::GetAllowedPropClas
 }
 
 UFortGameplayAbility_PossessProp::UFortGameplayAbility_PossessProp() {
-    this->DefaultAllowedPropTable = NULL;
-    this->AllowedPropTable = NULL;
+    DefaultAllowedPropTable = NULL;
+    AllowedPropTable = NULL;
 }
 

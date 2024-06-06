@@ -31,8 +31,8 @@ EFrontEndCamera UFortUICameraManagerComponent::GetCamera() const {
 }
 
 UFortUICameraManagerComponent::UFortUICameraManagerComponent() {
-    this->ViewTarget = NULL;
-    this->bUpdatingViewTarget = false;
-    this->CurrentCamera = EFrontEndCamera::Invalid;
+    ViewTarget = NULL;
+    bUpdatingViewTarget = false;
+    CurrentCamera = EFrontEndCamera::Invalid;
 }
 

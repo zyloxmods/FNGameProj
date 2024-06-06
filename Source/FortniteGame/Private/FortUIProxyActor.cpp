@@ -2,7 +2,7 @@
 #include "FortAbilitySystemComponent.h"
 
 AFortUIProxyActor::AFortUIProxyActor() {
-    this->AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
-    this->ItemDef = NULL;
+    AbilitySystemComponent = CreateDefaultSubobject<UFortAbilitySystemComponent>(TEXT("AbilitySystemComponent"));
+    ItemDef = NULL;
 }
 

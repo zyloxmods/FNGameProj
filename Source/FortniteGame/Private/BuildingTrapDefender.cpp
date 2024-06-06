@@ -31,9 +31,9 @@ void ABuildingTrapDefender::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>
 }
 
 ABuildingTrapDefender::ABuildingTrapDefender() {
-    this->LastInteractError = EFortDefenderInteractionError::None;
-    this->DefenderPawn = NULL;
-    this->DefenderItemDefinition = NULL;
-    this->DefenderItemLevel = 0;
+    LastInteractError = EFortDefenderInteractionError::None;
+    DefenderPawn = NULL;
+    DefenderItemDefinition = NULL;
+    DefenderItemLevel = 0;
 }
 

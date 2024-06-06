@@ -118,25 +118,25 @@ void AFortVolume::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifet
 }
 
 AFortVolume::AFortVolume() {
-    this->BlockingCubeFaceOne = NULL;
-    this->BlockingCubeFaceTwo = NULL;
-    this->BlockingCubeFaceThree = NULL;
-    this->BlockingCubeFaceFour = NULL;
-    this->ObjectTrackingComponent = NULL;
-    this->OverridePlayset = NULL;
-    this->bNeverAllowSaving = false;
-    this->bShowPublishWatermark = false;
-    this->bDestroyingActors = false;
-    this->bForceBoundsToBlock = false;
-    this->CurrentPlayset = NULL;
-    this->VolumeState = EVolumeState::Uninitialized;
-    this->TaskQueue = NULL;
-    this->AIGroupEncounterID = 0;
-    this->MaxActiveAI = 0;
-    this->NavInvokerClass = NULL;
-    this->NavigationInvokerBox = NULL;
-    this->BoundsShape = EVolumeShape::Sphere;
-    this->BoundsCollisionSetting = ECollisionEnabled::NoCollision;
-    this->bUserGeneratedContentRestricted = false;
+    BlockingCubeFaceOne = NULL;
+    BlockingCubeFaceTwo = NULL;
+    BlockingCubeFaceThree = NULL;
+    BlockingCubeFaceFour = NULL;
+    ObjectTrackingComponent = NULL;
+    OverridePlayset = NULL;
+    bNeverAllowSaving = false;
+    bShowPublishWatermark = false;
+    bDestroyingActors = false;
+    bForceBoundsToBlock = false;
+    CurrentPlayset = NULL;
+    VolumeState = EVolumeState::Uninitialized;
+    TaskQueue = NULL;
+    AIGroupEncounterID = 0;
+    MaxActiveAI = 0;
+    NavInvokerClass = NULL;
+    NavigationInvokerBox = NULL;
+    BoundsShape = EVolumeShape::Sphere;
+    BoundsCollisionSetting = ECollisionEnabled::NoCollision;
+    bUserGeneratedContentRestricted = false;
 }
 

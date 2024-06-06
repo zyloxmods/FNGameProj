@@ -1,18 +1,18 @@
 #include "FortMcpQuestObjectiveInfo.h"
 
 FFortMcpQuestObjectiveInfo::FFortMcpQuestObjectiveInfo() {
-    this->ItemEvent = EFortQuestObjectiveItemEvent::Craft;
-    this->bHidden = false;
-    this->bRequirePrimaryMissionCompletion = false;
-    this->bCanProgressInZone = false;
-    this->bDisplayDynamicAnnouncementUpdate = false;
-    this->DynamicStatusUpdateType = EObjectiveStatusUpdateType::Always;
-    this->LinkVaultTab = EFortInventoryFilter::WeaponMelee;
-    this->LinkToItemManagement = EFortFrontendInventoryFilter::Schematics;
-    this->LinkSquadIndex = 0;
-    this->Count = 0;
-    this->Stage = 0;
-    this->DynamicStatusUpdatePercentInterval = 0;
-    this->DynamicUpdateCompletionDelay = 1;
+    ItemEvent = EFortQuestObjectiveItemEvent::Craft;
+    bHidden = false;
+    bRequirePrimaryMissionCompletion = false;
+    bCanProgressInZone = false;
+    bDisplayDynamicAnnouncementUpdate = false;
+    DynamicStatusUpdateType = EObjectiveStatusUpdateType::Always;
+    LinkVaultTab = EFortInventoryFilter::WeaponMelee;
+    LinkToItemManagement = EFortFrontendInventoryFilter::Schematics;
+    LinkSquadIndex = 0;
+    Count = 0;
+    Stage = 0;
+    DynamicStatusUpdatePercentInterval = 0;
+    DynamicUpdateCompletionDelay = 1;
 }
 

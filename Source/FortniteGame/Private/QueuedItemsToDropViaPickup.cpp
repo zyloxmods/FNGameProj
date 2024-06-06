@@ -1,7 +1,7 @@
 #include "QueuedItemsToDropViaPickup.h"
 
 FQueuedItemsToDropViaPickup::FQueuedItemsToDropViaPickup() {
-    this->DestructionPawn = NULL;
-    this->TotalNumItemsToDrop = 0;
+    DestructionPawn = NULL;
+    TotalNumItemsToDrop = 0;
 }
 

@@ -6,8 +6,8 @@ UStaticMeshComponent* AFortWeap_BuildingToolBase::GetPencilMeshComponent() const
 }
 
 AFortWeap_BuildingToolBase::AFortWeap_BuildingToolBase() {
-    this->PencilMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PencilMeshComponent0"));
-    this->InstigatorController = NULL;
-    this->InstigatorBotController = NULL;
+    PencilMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("PencilMeshComponent0"));
+    InstigatorController = NULL;
+    InstigatorBotController = NULL;
 }
 

@@ -1,6 +1,7 @@
 #include "FortConditionalResourceItemDefinition.h"
 
-UFortConditionalResourceItemDefinition::UFortConditionalResourceItemDefinition() {
-    this->Condition = EFortConditionalResourceItemTest::CanEarnMtx;
+UFortConditionalResourceItemDefinition::UFortConditionalResourceItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    Condition = EFortConditionalResourceItemTest::CanEarnMtx;
 }
 

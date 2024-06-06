@@ -1,7 +1,7 @@
 #include "InteriorAudioDirectionScanInfo.h"
 
 FInteriorAudioDirectionScanInfo::FInteriorAudioDirectionScanInfo() {
-    this->SourceBusComponent = NULL;
-    this->SourceBusActor = NULL;
+    SourceBusComponent = NULL;
+    SourceBusActor = NULL;
 }
 

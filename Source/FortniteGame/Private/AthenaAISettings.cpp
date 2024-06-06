@@ -1,19 +1,19 @@
 #include "AthenaAISettings.h"
 
 UAthenaAISettings::UAthenaAISettings() {
-    this->bAllowAIDirector = true;
-    this->bAllowAIGoalManager = false;
-    this->bForceRVOUse = true;
-    this->MaxPlayerSpeedScaleFootstepSounds = 1;
-    this->MinFootstepHearingRange = 1;
-    this->MaxFootstepHearingRange = 1;
-    this->DamagedHearingRange = 1;
-    this->CrouchHearingModifier = 1;
-    this->MaxNPCHearingRange = 1;
-    this->MaxPerceptualStimuliAge = 1;
-    this->DeAggroRange = 1;
-    this->ReducedDeAggroRange = 1;
-    this->DurationReduceAggroLimits = 1;
-    this->NavigationSystemConfig = NULL;
+    bAllowAIDirector = true;
+    bAllowAIGoalManager = false;
+    bForceRVOUse = true;
+    MaxPlayerSpeedScaleFootstepSounds = 1;
+    MinFootstepHearingRange = 1;
+    MaxFootstepHearingRange = 1;
+    DamagedHearingRange = 1;
+    CrouchHearingModifier = 1;
+    MaxNPCHearingRange = 1;
+    MaxPerceptualStimuliAge = 1;
+    DeAggroRange = 1;
+    ReducedDeAggroRange = 1;
+    DurationReduceAggroLimits = 1;
+    NavigationSystemConfig = NULL;
 }
 

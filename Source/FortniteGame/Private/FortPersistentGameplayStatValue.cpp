@@ -1,6 +1,6 @@
 #include "FortPersistentGameplayStatValue.h"
 
 FFortPersistentGameplayStatValue::FFortPersistentGameplayStatValue() {
-    this->StatValue = 0;
+    StatValue = 0;
 }
 

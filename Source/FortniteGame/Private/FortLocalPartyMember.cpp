@@ -10,7 +10,7 @@ void UFortLocalPartyMember::HandleMcpProfilesInitialized() {
 }
 
 UFortLocalPartyMember::UFortLocalPartyMember() {
-    this->NumAthenaPlayersLeftDeltaThreshold = 5;
-    this->AthenaPlayersLeftUpdateDelay = 1;
+    NumAthenaPlayersLeftDeltaThreshold = 5;
+    AthenaPlayersLeftUpdateDelay = 1;
 }
 

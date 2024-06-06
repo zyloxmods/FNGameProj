@@ -1,12 +1,12 @@
 #include "SafeZoneStateBasedActorSpawnerData.h"
 
 FSafeZoneStateBasedActorSpawnerData::FSafeZoneStateBasedActorSpawnerData() {
-    this->SafeZoneStateToStartSpawning = EFortSafeZoneState::None;
-    this->ActorClassToSpawn = NULL;
-    this->BasePlacementQuery = NULL;
-    this->SpawnActorPlacementQuery = NULL;
-    this->SpawnedActorRemovalQuery = NULL;
-    this->BaseQueryingAttemptIntervalTimeSeconds = 1;
-    this->SpawnedActorRemovalQueryInterval = 1;
+    SafeZoneStateToStartSpawning = EFortSafeZoneState::None;
+    ActorClassToSpawn = NULL;
+    BasePlacementQuery = NULL;
+    SpawnActorPlacementQuery = NULL;
+    SpawnedActorRemovalQuery = NULL;
+    BaseQueryingAttemptIntervalTimeSeconds = 1;
+    SpawnedActorRemovalQueryInterval = 1;
 }
 

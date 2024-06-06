@@ -1,6 +1,6 @@
 #include "XpDisplayConversion.h"
 
 FXpDisplayConversion::FXpDisplayConversion() {
-    this->ValueToReplaceAt = 0;
+    ValueToReplaceAt = 0;
 }
 

@@ -7,8 +7,8 @@ void AFortEmitterCameraLensEffectDirectional::SetStrength(float InStrength) {
 }
 
 AFortEmitterCameraLensEffectDirectional::AFortEmitterCameraLensEffectDirectional() {
-    this->DamageDealer = NULL;
-    this->bRotateActor = true;
-    this->Strength = 1;
+    DamageDealer = NULL;
+    bRotateActor = true;
+    Strength = 1;
 }
 

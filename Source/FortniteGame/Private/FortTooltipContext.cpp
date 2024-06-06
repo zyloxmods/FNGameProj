@@ -26,10 +26,10 @@ UFortTooltipContext* UFortTooltipContext::SpawnTooltipContext() {
 }
 
 UFortTooltipContext::UFortTooltipContext() {
-    this->SourceAbilitySystem = NULL;
-    this->DestAbilitySystem = NULL;
-    this->TreatAsLevel = 0;
-    this->ComparisonObject = NULL;
-    this->PlayerInfo = NULL;
+    SourceAbilitySystem = NULL;
+    DestAbilitySystem = NULL;
+    TreatAsLevel = 0;
+    ComparisonObject = NULL;
+    PlayerInfo = NULL;
 }
 

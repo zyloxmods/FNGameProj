@@ -8,6 +8,6 @@ void AFortAthenaMutator_MaxWorldResource::GetLifetimeReplicatedProps(TArray<FLif
 }
 
 AFortAthenaMutator_MaxWorldResource::AFortAthenaMutator_MaxWorldResource() {
-    this->MaxWorldResources = 0;
+    MaxWorldResources = 0;
 }
 

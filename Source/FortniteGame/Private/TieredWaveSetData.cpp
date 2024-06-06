@@ -1,13 +1,13 @@
 #include "TieredWaveSetData.h"
 
 FTieredWaveSetData::FTieredWaveSetData() {
-    this->EDOIdx = 0;
-    this->BreatherBetweenWaves = 1;
-    this->WaveRules = EWaveRules::KillAllEnemies;
-    this->WaveLengthMod = 1;
-    this->NumKillsMod = 1;
-    this->KillPointsMod = 1;
-    this->DifficultyAddMod = 1;
-    this->bDeferTemporaryModifiers = false;
+    EDOIdx = 0;
+    BreatherBetweenWaves = 1;
+    WaveRules = EWaveRules::KillAllEnemies;
+    WaveLengthMod = 1;
+    NumKillsMod = 1;
+    KillPointsMod = 1;
+    DifficultyAddMod = 1;
+    bDeferTemporaryModifiers = false;
 }
 

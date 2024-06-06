@@ -7,6 +7,6 @@ void UAthenaAIPopulationTracker::OnAgentGameOver(AFortAthenaAIBotController* AIB
 }
 
 UAthenaAIPopulationTracker::UAthenaAIPopulationTracker() {
-    this->CachedGameMode = NULL;
+    CachedGameMode = NULL;
 }
 

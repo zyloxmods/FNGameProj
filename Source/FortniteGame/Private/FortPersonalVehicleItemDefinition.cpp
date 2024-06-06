@@ -1,7 +1,8 @@
 #include "FortPersonalVehicleItemDefinition.h"
 
-UFortPersonalVehicleItemDefinition::UFortPersonalVehicleItemDefinition() {
-    this->MountTime = 1;
-    this->AnimClass = NULL;
+UFortPersonalVehicleItemDefinition::UFortPersonalVehicleItemDefinition(const FObjectInitializer& ObjectInitializer) 
+    : Super(ObjectInitializer) {
+    MountTime = 1;
+    AnimClass = NULL;
 }
 

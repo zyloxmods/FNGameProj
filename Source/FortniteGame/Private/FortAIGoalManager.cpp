@@ -48,8 +48,8 @@ void AFortAIGoalManager::AddGoal(AActor* GoalActor, UFortAIAssignmentSettings* G
 }
 
 AFortAIGoalManager::AFortAIGoalManager() {
-    this->DefaultAttackPlayersAssignment = NULL;
-    this->DefaultEncounterAssignmentSettings = NULL;
-    this->DefaultEnemyAssignmentSettings = NULL;
+    DefaultAttackPlayersAssignment = NULL;
+    DefaultEncounterAssignmentSettings = NULL;
+    DefaultEnemyAssignmentSettings = NULL;
 }
 

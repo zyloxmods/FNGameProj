@@ -1,8 +1,8 @@
 #include "MMRSpawningDataTableInfo.h"
 
 FMMRSpawningDataTableInfo::FMMRSpawningDataTableInfo() {
-    this->Skill = 1;
-    this->Weight = 1;
-    this->SpawingItemIndex = 0;
+    Skill = 1;
+    Weight = 1;
+    SpawingItemIndex = 0;
 }
 

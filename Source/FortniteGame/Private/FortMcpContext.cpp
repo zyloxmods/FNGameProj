@@ -368,6 +368,6 @@ void UFortMcpContext::AbandonExpedition(const UFortExpeditionItem* Expedition) {
 }
 
 UFortMcpContext::UFortMcpContext() {
-    this->MinTimeBetweenFriendCodeRequestsSeconds = 4294967295;
+    MinTimeBetweenFriendCodeRequestsSeconds = 4294967295;
 }
 

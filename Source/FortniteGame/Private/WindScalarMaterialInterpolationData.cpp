@@ -1,8 +1,8 @@
 #include "WindScalarMaterialInterpolationData.h"
 
 FWindScalarMaterialInterpolationData::FWindScalarMaterialInterpolationData() {
-    this->MaterialParameterIndex = 0;
-    this->LerpFromValue = 1;
-    this->LerpToValue = 1;
+    MaterialParameterIndex = 0;
+    LerpFromValue = 1;
+    LerpToValue = 1;
 }
 

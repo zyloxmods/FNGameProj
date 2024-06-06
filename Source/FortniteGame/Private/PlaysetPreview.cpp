@@ -14,8 +14,8 @@ void UPlaysetPreview::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutL
 }
 
 UPlaysetPreview::UPlaysetPreview() {
-    this->PreviewPlaysetStaticMeshActor = NULL;
-    this->PlaysetMesh = NULL;
-    this->PlaysetMaterial = NULL;
+    PreviewPlaysetStaticMeshActor = NULL;
+    PlaysetMesh = NULL;
+    PlaysetMaterial = NULL;
 }
 

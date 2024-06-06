@@ -1,11 +1,11 @@
 #include "CustomCharacterPartAnimInstance_DieselPunk.h"
 
 UCustomCharacterPartAnimInstance_DieselPunk::UCustomCharacterPartAnimInstance_DieselPunk() {
-    this->ArmPistolPadAlpha = 1;
-    this->ArmPistolChestAlpha = 1;
-    this->ArmPistolAlpha = 1;
-    this->CrouchAlpha = 1;
-    this->SpeedMaskAlpha = 1;
-    this->SpeedMaskSpring = 1;
+    ArmPistolPadAlpha = 1;
+    ArmPistolChestAlpha = 1;
+    ArmPistolAlpha = 1;
+    CrouchAlpha = 1;
+    SpeedMaskAlpha = 1;
+    SpeedMaskSpring = 1;
 }
 

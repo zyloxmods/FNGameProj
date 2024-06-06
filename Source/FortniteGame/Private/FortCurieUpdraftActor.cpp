@@ -8,13 +8,13 @@ void AFortCurieUpdraftActor::OnUpdraftBeginOverlap(UPrimitiveComponent* Overlapp
 }
 
 AFortCurieUpdraftActor::AFortCurieUpdraftActor() {
-    this->CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComponent"));
-    this->PlayerPawnVortexLaunchMagnitude = 1;
-    this->PlayerPawnVortexGravityFloorScalar = 1;
-    this->VehicleGravityMultiplier = 1;
-    this->ProjectileGravityMultiplier = 1;
-    this->ProjectileZLaunchMagnitude = 1;
-    this->bGlanceProjectiles = false;
-    this->ProjectileGlanceCurve = NULL;
+    CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComponent"));
+    PlayerPawnVortexLaunchMagnitude = 1;
+    PlayerPawnVortexGravityFloorScalar = 1;
+    VehicleGravityMultiplier = 1;
+    ProjectileGravityMultiplier = 1;
+    ProjectileZLaunchMagnitude = 1;
+    bGlanceProjectiles = false;
+    ProjectileGlanceCurve = NULL;
 }
 

@@ -6,6 +6,6 @@ ABuildingTrapFloor_Waypoint* ABuildingTrap_WaypointDispenser::BP_SpawnWaypointAc
 }
 
 ABuildingTrap_WaypointDispenser::ABuildingTrap_WaypointDispenser() {
-    this->WaypointTypeIndex = 0;
+    WaypointTypeIndex = 0;
 }
 
