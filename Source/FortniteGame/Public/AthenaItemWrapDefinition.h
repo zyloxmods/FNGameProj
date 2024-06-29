@@ -20,5 +20,9 @@ private:
     
 public:
     UAthenaItemWrapDefinition(const FObjectInitializer& ObjectInitializer);
+   virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaItemWrap", GetFName());
+    }
 };
 
