@@ -22,6 +22,10 @@ UCLASS(Blueprintable, MinimalAPI)
 class UAthenaGliderItemDefinition : public UAthenaCosmeticItemDefinition {
     GENERATED_BODY()
 public:
+   virtual FPrimaryAssetId GetPrimaryAssetId() const override
+    {
+        return FPrimaryAssetId("AthenaGlider", GetFName());
+    }
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     EFortGliderType GliderType;
     
